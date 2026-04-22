@@ -1,0 +1,433 @@
+{
+  "label": "Origini",
+  "mapping": {
+    "description": "system.description",
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "actions": {
+      "path": "system.actions",
+      "converter": "actions"
+    }
+  },
+  "folders": {
+    "Ancestry Features": "Capacità dell'Origine"
+  },
+  "entries": {
+    "Clank": {
+      "name": "Clank",
+      "description": "<p>I clank sono esseri meccanici senzienti costruiti con diversi materiali, tra cui metallo, legno e pietra.</p><p>Possono assomigliare a umanoidi, animali o persino a oggetti inanimati. Come gli esseri organici, i loro corpi sono disponibili in un'ampia gamma di fattezze e dimensioni. A causa della loro costruzione su misura, molti clank hanno configurazioni fisiche altamente specializzate, come mani artigliate per afferrare, ruote per muoversi o armi incorporate.</p><p>È pratica diffusa per un clank adottare modifiche al proprio corpo sia per senso estetico che per uno scopo funzionale, e i membri di altre origini spesso si rivolgono agli artigiani clank per costruire ausili alla mobilità e ornamenti fisici personalizzati. Altre origini possono creare clank, anche utilizzando i propri tratti peculiari come ispirazione, ma è altrettanto comune che i clank si costruiscano a vicenda. La durata della vita di un clank si estende fino a quando è in grado di acquisire o creare nuove parti, rendendo la sua forma fisica potenzialmente immortale. Tuttavia, le loro menti sono soggette agli effetti del tempo e si deteriorano quando la magia che le alimenta perde potenza.</p>"
+    },
+    "Drakona": {
+      "name": "Drakona",
+      "description": "<p>I drakona somigliano a draghi senza ali in forma umanoide e possiedono un potente soffio elementale.</p><p>Tutti i drakona hanno scaglie spesse che forniscono un'eccellente armatura naturale contro gli attacchi e le forze della natura. Sono esseri di grandi dimensioni, in media tra il metro e mezzo e oltre i due metri, e hanno denti lunghi e affilati. Nuovi denti crescono continuamente durante i circa 350 anni di vita di un drakona, quindi non rischiano mai di perdere un incisivo in modo definitivo. A differenza dei loro antenati draghi, i drakona non hanno ali e non possono volare senza ausilio magico. I membri di questa origine tramandano ai discendenti l'elemento del loro soffio attraverso le generazioni, anche se in rari casi il potere elementale di un drakona differisce da quello del resto della sua famiglia.</p>"
+    },
+    "Dwarf": {
+      "name": "Nano",
+      "description": "<p>I nani sono facilmente riconoscibili come umanoidi di bassa statura con ossatura quadrata, muscolatura densa e capelli folti.</p><p>La loro altezza media varia tra il metro e venti e il metro e mezzo; nonostante ciò, hanno spesso spalle larghe per la loro statura. La pelle e le unghie contengono un'elevata quantità di cheratina, che le rende naturalmente resistenti. Questo permette ai nani di incastonare pietre preziose nel corpo e di decorarsi con tatuaggi o piercing. Hanno folto pelo corporeo, di solito sul capo e sul viso. Ai nani di tutti i sessi possono crescere peli sul volto, che spesso acconciano in modo elaborato. In genere, i nani vivono fino a 250 anni, mantenendo la loro massa muscolare anche in età avanzata.</p>"
+    },
+    "Elf": {
+      "name": "Elfo",
+      "description": "<p>Gli elfi sono in genere umanoidi alti, con orecchie a punta e sensi molto acuti.</p><p>Le loro orecchie variano per dimensione e forma appuntita e, con l'avanzare dell'età, le punte iniziano ad abbassarsi. Sebbene gli elfi presentino un'ampia gamma di tipologie corporee, sono tutti piuttosto alti, con una statura che supera facilmente il metro e ottanta. Tutti gli elfi hanno l'abilità di cadere in una trance trasognante invece di dormire, e questo permette loro di riposare efficacemente in un breve lasso di tempo.</p><p>Alcuni elfi possiedono la cosiddetta \"forma mistica\", che si verifica quando un elfo si è dedicato allo studio o alla protezione del mondo naturale così profondamente da alterare il suo sembiante. Queste caratteristiche possono includere lentiggini luminose, la presenza di foglie, liane o fiori nei capelli, occhi che tremolano come piccole fiammelle e altro ancora. A volte questi tratti sono ereditati dai genitori, ma se un elfo cambia ambiente o è soggetto a una fonte di magia, il suo aspetto muta con lo scorrere del tempo. Poiché gli elfi vivono circa 350 anni, questi tratti possono cambiare più di una volta nel corso della loro vita.</p>"
+    },
+    "Faerie": {
+      "name": "Fatato",
+      "description": "<p>I fatati sono creature umanoidi alate con tratti da insetto.</p><p>Queste caratteristiche coprono un ampio spettro che va dall'umanoide all'insettoide: alcuni possiedono braccia aggiuntive, occhi composti, organi fotofori (che emettono luce), esoscheletri chitinosi o pungiglioni. A causa del loro stretto legame con il mondo naturale, spesso possiedono anche caratteristiche che permettono loro di confondersi con la vegetazione. L'altezza media di un fatato varia da poco oltre il mezzo metro al metro e mezzo, ma alcuni di essi possono superare i due metri. Tutti i fatati possiedono ali membranose e attraversano un processo di metamorfosi. Il processo e i cambiamenti così indotti variano da fatato a fatato, ma durante questa trasformazione ogni individuo manifesta l'aspetto unico che porterà con sé per il resto della sua vita di circa 50 anni.</p>"
+    },
+    "Faun": {
+      "name": "Fauno",
+      "description": "<p>I fauni assomigliano a capre, pecore, stambecchi o camosci umanoidi con corna ricurve, pupille quadrate e zoccoli fessi.</p><p>Anche se il loro aspetto può variare, la maggior parte dei fauni ha un busto umanoide e una parte inferiore del corpo simile a quella di una capra, ricoperta da una folta pelliccia. I volti dei fauni possono essere più caprini o più umani e hanno un'ampia varietà di forme di orecchie e corna. Queste ultime possono variare da corte, con una curvatura minima, a molto più grandi e a spirale come quelle di un ariete. L'altezza media di un Fauno varia tra il metro e trenta e il metro e sessanta, ma la sua statura può cambiare drasticamente da un momento all'altro in base alla postura assunta. La maggior parte dei fauni ha arti proporzionalmente lunghi, indipendentemente dalla loro dimensione o forma, e sono noti per la loro abilità nello sferrare colpi potenti con i loro zoccoli. I fauni vivono circa 225 anni e, con l'età, il loro aspetto può diventare sempre più simile a quello di una capra.</p>"
+    },
+    "Firbolg": {
+      "name": "Firbolg",
+      "description": "<p>I firbolg sono umanoidi dai tratti bovini tipicamente riconoscibili per il naso largo e le orecchie lunghe e cadenti.</p><p>Alcuni hanno un volto che è un misto tra umanoide e bisonte, bue, mucca o altre creature bovine. Altri, anche conosciuti come minotauri, hanno teste che ricordano completamente i bovini. Sono creature alte e muscolose, con un'altezza che varia da circa un metro e mezzo a oltre i due metri, e possiedono una forza notevole indipendentemente dalla loro età. Alcuni firbolg sono famigerati per usare questa forza per caricare gli avversari, un'azione particolarmente efficace per coloro che sfoggiano una delle molte varietà di corna comunemente presenti in questa origine. Sebbene le loro caratteristiche uniche possano variare, tutti i firbolg sono ricoperti di pelliccia, che può essere di colore tenue e terroso o di una varietà di colori pastello, come il rosa tenue e il blu. In media, i firbolg vivono circa 150 anni.</p>"
+    },
+    "Fungril": {
+      "name": "Fungril",
+      "description": "<p>I fungril assomigliano a funghi umanoidi.</p><p>Possono avere un aspetto più umanoide o più fungino e si presentano in una moltitudine di colori, dalle tonalità della terra ai rossi, gialli, viola e blu brillanti. I fungril presentano un'incredibile varietà di corpi, volti e arti, poiché non esiste un'unica forma comune. Anche le loro altezze variano da poco più di mezzo metro fino a due metri e più. Sebbene la durata di vita media dei fungril sia stimata in circa 300 anni, vi sono testimonianze di individui che hanno vissuto molto più a lungo. I fungril sono in grado di comunicare in modo non verbale e molti membri di questa origine utilizzano una combinazione di strutture micellari e spore per scambiare chimicamente informazioni con altri fungril su lunghe distanze.</p>"
+    },
+    "Galapa": {
+      "name": "Galapa",
+      "description": "<p>I galapa assomigliano a tartarughe antropomorfe con grandi gusci a cupola in cui possono rinchiudersi.</p><p>In media, la loro altezza è compresa tra poco più di un metro fino al metro e ottanta, e la forma della testa e del corpo può richiamare qualsiasi specie di tartaruga. I galapa fanno mostra di diverse tonalità della terra - più spesso sfumature di verde e marrone- e possiedono disegni unici sui loro gusci. I membri di questa origine sono in grado di ritrarre testa, braccia e gambe all'interno del guscio per proteggersi e usarlo come scudo naturale quando sono costretti a difendersi. Alcuni completano la tenuta o l'aspetto del loro guscio applicandovi una corazzatura aggiuntiva o intagliandovi disegni unici, ma il processo è estremamente doloroso. La maggior parte dei galapa si muove lentamente, indipendentemente dall'età, e può vivere fino a 150 anni.</p>"
+    },
+    "Giant": {
+      "name": "Gigante",
+      "description": "<p>I giganti sono umanoidi imponenti con spalle larghe, braccia lunghe e da uno a tre occhi.</p><p>I giganti adulti hanno un'altezza compresa tra i due e i tre metri e sono naturalmente muscolosi, indipendentemente dalla corporatura. Sono facilmente riconoscibili per la loro ampia ossatura e per le braccia e il collo allungati. Sebbene possano avere fino a tre occhi, tutti i giganti nascono senza occhi e rimangono privi di vista per il primo anno di vita. Finché un gigante non raggiunge l'età di 10 anni e i suoi tratti fisici non si sviluppano completamente, le tempistiche di sviluppo degli occhi possono variare radicalmente. Gli individui con un solo occhio sono comunemente conosciuti come ciclopi. L'aspettativa di vita media per un gigante è di circa 75 anni.</p>"
+    },
+    "Goblin": {
+      "name": "Goblin",
+      "description": "<p>I goblin sono piccoli umanoidi facilmente riconoscibili per i loro grandi occhi e le ampie orecchie membranose.</p><p>Grazie all'udito fino e alla vista acuta, percepiscono i dettagli sia a grandi distanze che nell'oscurità, consentendo loro di muoversi con facilità negli ambienti meno illuminati. I colori della loro pelle e dei loro occhi sono incredibilmente vari, e non c'è una tonalità, vivace o tenue, che sia più diffusa di un'altra. Un goblin tipico è alto tra il metro e il metro e mezzo e ciascuna delle sue orecchie è grande quanto la sua testa. È risaputo che i goblin usino la posizione delle orecchie per comunicare in modo molto specifico e non verbale. La durata media della vita di un goblin è di circa 100 anni, e molti mantengono il loro udito e la loro vista acuta anche in età avanzata.</p>"
+    },
+    "Halfling": {
+      "name": "Halfling",
+      "description": "<p>Gli halfling sono umanoidi di piccole dimensioni, con grandi piedi pelosi e orecchie prominenti e arrotondate.</p><p>In media, gli halfling sono alti tra il metro e il metro e trenta e le loro orecchie, il naso e i piedi sono più grandi in proporzione al resto del corpo. I membri di questa stirpe raggiungono i 150 anni e l'aspetto di un halfling è destinato a rimanere giovanile anche una volta raggiunta la vecchiaia. Gli halfling sono naturalmente sintonizzati con i campi magnetici del Regno dei Mortali, il che garantisce loro un'innata bussola interna. Possiedono anche un udito e un olfatto acuti e spesso riescono a riconoscere le persone che gli sono familiari dal suono dei loro movimenti.</p>"
+    },
+    "Human": {
+      "name": "Umano",
+      "description": "<p>Gli umani sono facilmente riconoscibili per le loro mani abili, le orecchie arrotondate e una struttura corporea naturalmente adatta a essere resistente.</p><p>La loro altezza media varia da poco meno di un metro e mezzo a circa un metro e ottanta. Hanno un'ampia varietà di corporature: alcuni sono piuttosto larghi, altri snelli e molti incarnano tutta la gamma di fisionomie intermedie. Gli umani sono fisicamente versatili e si adattano ai climi rigidi con relativa facilità. In generale, gli umani raggiungono il secolo di vita, con il corpo che cambia drasticamente tra gli anni della giovinezza e quelli della senilità.</p>"
+    },
+    "Infernis": {
+      "name": "Infernis",
+      "description": "<p>Gli infernis sono umanoidi che possiedono canini affilati, orecchie a punta e corna. Sono i discendenti dei demoni delle Cerchie Infere.</p><p>In media, gli infernis hanno un'altezza che va dal metro e mezzo a oltre due metri e sono noti per avere dita lunghe e unghie appuntite. Alcuni hanno code lunghe, sottili e lisce che terminano con una punta, una freccia o si biforcano. È comune che gli infernis abbiano due o quattro corna, anche se alcuni hanno una corona di molte corna o una sola. Queste corna possono anche crescere in modo asimmetrico, formando forme uniche, spesso curve, che gli infernis valorizzano con intagli e ornamenti. La loro pelle, i capelli e le corna fanno sfoggio di un variegato assortimento di colori e sfumature che può includere tenui pastelli, toni spuri o tonalità più vibranti, come lo scarlatto rosato, il viola profondo e il nero pece.</p><p>Gli infernis possiedono un \"volto spaventoso\" che si manifesta sia involontariamente, come quando provano paura o altre forti emozioni, sia intenzionalmente, come quando vogliono intimidire un avversario. Questo aspetto può modificare brevemente alcune caratteristiche fisiche in vari modi, tra cui l'allungamento dei denti e delle unghie, il cambiamento del colore degli occhi, la torsione delle corna o l'aumento della statura. In media, gli Infernis vivono fino a 350 anni e alcuni attribuiscono questa durata di vita alla loro ascendenza demoniaca.</p>"
+    },
+    "Katari": {
+      "name": "Katàri",
+      "description": "<p>I katàri sono umanoidi felini con artigli retrattili, pupille a fessura verticale e orecchie alte e triangolari.</p><p>Possono anche avere piccoli canini appuntiti, pelliccia morbida e lunghi baffi che incrementano le loro percezioni e il senso dell'orientamento. Le loro orecchie sono in grado di ruotare di quasi 180 gradi per seguire i suoni, il che accresce ulteriormente i loro sensi acuti. I katàri possono avere un aspetto più o meno felino o umanoide, con attributi felini sotto forma di peli, baffi e muso. Circa la metà dei katàri ha la coda. La loro pelle e la loro pelliccia possiedono un ampio repertorio di tonalità e modelli, tra cui colori a tinta unita, tonalità calico, strisce da soriano e una serie di macchie, chiazze, marmorizzazioni o bande. La loro altezza varia tra il metro e il metro e ottanta e vivono incirca fino a 150 anni.</p>"
+    },
+    "Orc": {
+      "name": "Orco",
+      "description": "<p>Gli orchi sono umanoidi facilmente riconoscibili per i loro tratti spigolosi e per le zanne simili a quelle di un cinghiale che sporgono dalla mascella inferiore.</p><p>Le zanne sono di varie dimensioni e, sebbene si estendano dalla bocca, non vengono utilizzate per consumare il cibo. Molti orchi scelgono invece di decorare le loro Zanne con vistosi ornamenti. Gli orchi vivono in genere 125 anni e, a meno che non subiscano traumi o fratture, le loro zanne continuano a crescere per tutto il corso della loro vita. Le orecchie sono appuntite; capelli e pelle hanno tipicamente toni verdi, blu, rosa o grigi. Gli orchi tendono ad avere una corporatura muscolosa e la loro altezza media varia da un metro e mezzo a un metro e ottanta.</p>"
+    },
+    "Ribbet": {
+      "name": "Ribbet",
+      "description": "<p>I ribbet somigliano a rane antropomorfe con occhi sporgenti e mani e piedi palmati.</p><p>Hanno una pelle umida e liscia (anche se a volte verrucosa) e occhi posizionati su entrambi i lati della testa. Alcuni ribbet hanno zampe posteriori lunghe più del doppio del busto, mentre altri hanno arti corti. Indipendentemente dalle loro dimensioni (che variano da circa un metro a un metro e mezzo), i ribbet si muovono principalmente saltellando. Tutti i ribbet hanno appendici palmate che permettono loro di nuotare con facilità. Alcuni ribbet possiedono una mimetizzazione naturale verde e marrone, mentre altri sono di colori vibranti con motivi vivaci. Indipendentemente dal loro aspetto, tutti i ribbet nascono da uova deposte in acqua, si schiudono in girini e, dopo circa 6-7 anni, diventano anfibi in grado di muoversi sulla terraferma. I ribbet possono raggiungere il secolo di vita.</p>"
+    },
+    "Simiah": {
+      "name": "Simiah",
+      "description": "<p>I simiah assomigliano a scimmie e scimmie antropomorfe con arti lunghi e piedi prensili. Sebbene il loro aspetto rifletta tutte le creature scimmiesche, dal più grande gorilla alla più piccola marmosetta, le loro dimensioni non sono in linea con le loro controparti animali e possono essere alte da mezzo metro fino a sfiorare i due metri. Tutti i simiah possono usare i loro piedi prensili per la comunicazione non verbale, il lavoro e il combattimento. Inoltre, alcuni hanno anche code che possono afferrare oggetti o aiutare a mantenere l'equilibrio durante i movimenti più complessi. Queste caratteristiche conferiscono ai membri di questa origine un'agilità unica che li aiuta in un'ampia varietà di compiti. In particolare, i simiah sono abili arrampicatori e possono passare facilmente dal movimento bipede alla camminata sulle nocche, all'arrampicata e viceversa. In media, i simiah vivono circa un secolo.</p>"
+    },
+    "Adaptability": {
+      "name": "Versatilità",
+      "description": "<p>Quando fallite un tiro che utilizza una delle vostre Esperienze, potete <strong>marcare uno Stress</strong> per ripetere il tiro.</p>",
+      "actions": {
+        "D7EE2L2Y96nfrfTW": {
+          "name": "Marcare 1 Stress",
+          "description": ""
+        }
+      }
+    },
+    "Amphibious": {
+      "name": "Anfibio",
+      "description": "<p>Potete respirare e muovervi naturalmente sott'acqua.</p>"
+    },
+    "Caprine Leap": {
+      "name": "Balzo Caprino",
+      "description": "<p>Potete saltare entro qualsiasi punto a distanza Ravvicinata come se usaste un normale movimento, il che vi consente di superare ostacoli, saltare attraverso spazi vuoti o scalare barriere con facilità.</p>"
+    },
+    "Celestial Trance": {
+      "name": "Dormiveglia",
+      "description": "<p>Durante un riposo, potete cadere in trance per scegliere una mossa di interludio aggiuntiva.</p>",
+      "effects": {
+        "LqQvZJJLNMnFkt1D": {
+          "name": "Dormiveglia",
+          "description": ""
+        }
+      }
+    },
+    "Charge": {
+      "name": "Carica",
+      "description": "<p>Quando riuscite in un tiro di Agilità per spostarvi da distanza Lontana o Remota a distanza di Mischia con uno o più bersagli, potete <strong>marcare uno Stress</strong> per infliggere <strong>1d12</strong> danni fisici a tutti i bersagli entro distanza di Mischia.</p>",
+      "actions": {
+        "KLg0T6I1w24sfIbH": {
+          "name": "Danni",
+          "description": ""
+        }
+      }
+    },
+    "Danger Sense": {
+      "name": "Senso del Pericolo",
+      "description": "<p>Una volta per riposo, <strong>marcate uno Stress</strong> per costringere un avversario a ripetere un attacco contro di voi o contro un alleato entro una distanza Prossima.</p>",
+      "actions": {
+        "V2K3pMWOCVwBUnjq": {
+          "name": "Marcare 1 Stress",
+          "description": ""
+        }
+      }
+    },
+    "Death Connection": {
+      "name": "Connessione con i Morti",
+      "description": "<p>Toccando un cadavere morto di recente, potete <strong>marcare uno Stress</strong> per estrarre dal cadavere un ricordo legato a un'emozione o sensazione specifica a vostra scelta.</p>",
+      "actions": {
+        "0RdKeWfbPRTHcAMf": {
+          "name": "Estrarre",
+          "description": ""
+        }
+      }
+    },
+    "Dread Visage": {
+      "name": "Volto Spaventoso",
+      "description": "<p>Avete vantaggio ai tiri per intimidire le creature ostili.</p>",
+      "effects": {
+        "2Gd6iHQX521aAZqC": {
+          "name": "Volto Spaventoso",
+          "description": "<p>Avete vantaggio ai tiri per intimidire le creature ostili.</p>"
+        }
+      }
+    },
+    "Efficient": {
+      "name": "Efficiente",
+      "description": "<p>Quando effettuate un riposo breve, potete scegliere una mossa di riposo lungo invece di una mossa di riposo breve.</p>",
+      "effects": {
+        "EEryWN2nE33ppGHi": {
+          "name": "Efficiente",
+          "description": "<p>Quando effettuate un riposo breve, potete scegliere una mossa di riposo lungo invece di una mossa di riposo breve.</p>"
+        }
+      }
+    },
+    "Elemental Breath": {
+      "name": "Soffio Elementale",
+      "description": "<p>Scegliete un elemento per il vostro Soffio Elementale (come elettricità, fuoco o ghiaccio). Potete rivolgere il vostro soffio contro un bersaglio o un gruppo di bersagli entro distanza Prossima, trattandolo come un'arma basata sull'Istinto che infligge <strong>d8</strong> danni magici applicando la vostra Competenza.</p>",
+      "actions": {
+        "a6WROv0OKx0lbYVa": {
+          "name": "Attacco",
+          "description": "<p>Scegliete un elemento per il vostro Soffio Elementale (come elettricità, fuoco o ghiaccio). Potete rivolgere il vostro soffio contro un bersaglio o un gruppo di bersagli entro distanza Prossima, trattandolo come un'arma basata sull'Istinto che infligge <strong>d8</strong> danni magici applicando la vostra Competenza.</p>"
+        }
+      }
+    },
+    "Endurance": {
+      "name": "Resistenza",
+      "description": "<p>Guadagnate una casella aggiuntiva nei Punti Ferita alla creazione del personaggio.</p>",
+      "effects": {
+        "db8W2Q0Qty84XV0x": {
+          "name": "Di base",
+          "description": "<p>Guadagnate una casella aggiuntiva nei Punti Ferita alla creazione del personaggio.</p>"
+        }
+      }
+    },
+    "Fearless": {
+      "name": "Senzapaura",
+      "description": "<p>Quando tirate con Paura, potete <strong>marcare 2 Stress</strong> per trasformarlo in un tiro con Speranza.</p>",
+      "actions": {
+        "G1H7k5RdvS1EJgFu": {
+          "name": "Marcare 2 Stress",
+          "description": ""
+        }
+      }
+    },
+    "Feline Instincts": {
+      "name": "Istinti Felini",
+      "description": "<p>Quando effettuate un Tiro Agilità, potete <strong>spendere 2 Speranze</strong> per rilanciare il Dado Speranza.</p>",
+      "actions": {
+        "ALsGHOy0q5THGxz5": {
+          "name": "Spendere 2 Speranze",
+          "description": ""
+        }
+      }
+    },
+    "Fungril Network": {
+      "name": "Cerchio dei Fungril",
+      "description": "<p>Effettuate un <strong>Tiro Istinto (12)</strong> per utilizzare la vostra struttura micellare per comunicare con altri fungril. In caso di successo, potete comunicare a qualsiasi distanza.</p>",
+      "actions": {
+        "ZYfigAyUdDUteczO": {
+          "name": "Comunicare",
+          "description": ""
+        }
+      }
+    },
+    "High Stamina": {
+      "name": "Vigore",
+      "description": "<p>Guadagnate una casella Stress aggiuntiva alla creazione del personaggio.</p>",
+      "effects": {
+        "Xl3TsKUJcl6vi1ly": {
+          "name": "Vigore",
+          "description": "<p>Guadagnate una casella Stress aggiuntiva alla creazione del personaggio.</p>"
+        }
+      }
+    },
+    "Increased Fortitude": {
+      "name": "Resistenza Aumentata",
+      "description": "<p><strong>Spendere 3 Speranze</strong> dimezza i danni fisici in arrivo.</p>",
+      "actions": {
+        "pFPbjyexOPx5gog6": {
+          "name": "Spendere 3 Speranze",
+          "description": ""
+        }
+      }
+    },
+    "Internal Compass": {
+      "name": "Bussola Interna",
+      "description": "<p>Quando ottenete un 1 sul Dado Speranza, potete rilanciarlo.</p>"
+    },
+    "Kick": {
+      "name": "Calcio",
+      "description": "<p>Quando riuscite a sferrare un attacco contro un bersaglio in Mischia, potete <strong>marcare uno Stress</strong> per scalciare via il bersaglio o voi stessi, infliggendo 2d6 danni aggiuntivi e spostando voi o il bersaglio in qualsiasi punto entro una distanza Prossima.</p>",
+      "actions": {
+        "bXbQ57CB1Hfj5XrS": {
+          "name": "Danni",
+          "description": ""
+        }
+      }
+    },
+    "Long Tongue": {
+      "name": "Lingualunga",
+      "description": "<p>Potete usare la vostra lunga lingua per afferrare oggetti entro una distanza Ravvicinata. <strong>Marcate uno Stress</strong> per usare la lingua come un'arma Ravvicinata basata su Astuzia che infligge <strong>d12</strong> danni fisici applicando la vostra Competenza.</p>",
+      "actions": {
+        "MhAWv7tuvkfOf7wQ": {
+          "name": "Attacco",
+          "description": ""
+        }
+      }
+    },
+    "Luckbender": {
+      "name": "Portafortuna",
+      "description": "<p>Una volta per sessione, dopo che voi o un alleato consenziente entro distanza Ravvicinata effettuate un tiro azione, potete <strong>spendere 3 Speranze</strong> per rilanciare i Dadi Dualità.</p>",
+      "actions": {
+        "l1wUmqMzG8YF9sqb": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      }
+    },
+    "Luckbringer": {
+      "name": "Quadrifoglio",
+      "description": "<p>All'inizio di ogni sessione, tutti i membri del gruppo di cui fate parte (voi compresi) ottengono una Speranza.</p>",
+      "actions": {
+        "8sK3t73bFkpb999C": {
+          "name": "Guadagnare 1 Speranza",
+          "description": ""
+        }
+      }
+    },
+    "Natural Climber": {
+      "name": "Scalatore Naturale",
+      "description": "<p>Avete vantaggio sui Tiri Agilità che riguardano l'equilibrio e l'arrampicata.</p>",
+      "effects": {
+        "HQeQH9gUfrjlWWcg": {
+          "name": "Scalatore Naturale",
+          "description": "<p>Avete vantaggio sui Tiri Agilità che riguardano l'equilibrio e l'arrampicata.</p>"
+        }
+      }
+    },
+    "Nimble": {
+      "name": "Scioltezza",
+      "description": "<p>Guadagnate bonus +1 permanente all'Evasione alla creazione del personaggio.</p>",
+      "effects": {
+        "zaxVYqKzUYDJ3SDq": {
+          "name": "Scioltezza",
+          "description": "<p>Guadagnate bonus +1 permanente all'Evasione alla creazione del personaggio.</p>"
+        }
+      }
+    },
+    "Purposeful Design": {
+      "name": "Scopo Preciso",
+      "description": "<p>Decidete chi vi ha creato e per quale scopo. Alla creazione del personaggio, scegliete una delle vostre Esperienze che meglio si allinea con tale finalità e guadagnate bonus +1 permanente a essa.</p>"
+    },
+    "Quick Reactions": {
+      "name": "Reazione Istintiva",
+      "description": "<p><strong>Marcate uno Stress</strong> per ottenere vantaggio in un tiro reazione.</p>",
+      "actions": {
+        "6Av1Y8JXWDkteLhc": {
+          "name": "Marcare 1 Stress",
+          "description": ""
+        }
+      }
+    },
+    "Reach": {
+      "name": "Raggiungere",
+      "description": "<p>Potete considerare qualsiasi arma, abilità, incantesimo o altra caratteristica che abbia una portata in Mischia come se avesse invece una portata Prossima.</p>"
+    },
+    "Retract": {
+      "name": "Rinchiudersi",
+      "description": "<p><strong>Marcate uno Stress</strong> per ritrarvi nel vostro guscio. Quando siete nel guscio, guadagnate resistenza ai danni fisici, ma avete svantaggio ai tiri azione e non potete muovervi.</p>",
+      "effects": {
+        "3V4FPoyjJUnFP9WS": {
+          "name": "Rinchiudersi",
+          "description": "<p>Quando siete nel guscio, guadagnate resistenza ai danni fisici, ma avete svantaggio ai tiri azione e non potete muovervi.</p>"
+        }
+      },
+      "actions": {
+        "HfiAg14hrYt7Yvnj": {
+          "name": "Marcare 1 Stress",
+          "description": ""
+        }
+      }
+    },
+    "Retracting Claws": {
+      "name": "Artigli Retrattili",
+      "description": "<p>Effettuate un <strong>Tiro Agilità</strong> per graffiare un bersaglio in Mischia. In caso di successo, il bersaglio diventa temporaneamente Vulnerabile.</p>",
+      "effects": {
+        "pO76svFkmWmZ6LjC": {
+          "name": "Artigli Retrattili",
+          "description": ""
+        }
+      },
+      "actions": {
+        "LcFhDb3sJk8sraAc": {
+          "name": "Graffiare",
+          "description": ""
+        }
+      }
+    },
+    "Scales": {
+      "name": "Scaglie",
+      "description": "<p>Le scaglie fungono da protezione naturale. Quando subite danni Gravi, potete <strong>marcare uno Stress</strong> per subire 1 Punto Ferita in meno.</p>",
+      "effects": {
+        "b6Pkwwk7pgBeeUTe": {
+          "name": "Di base",
+          "description": "<p>Quando subite danni Gravi, potete <strong>marcare uno Stress</strong> per subire 1 Punto Ferita in meno.</p>"
+        }
+      }
+    },
+    "Shell": {
+      "name": "Guscio",
+      "description": "<p>Guadagnate un bonus alle soglie di danno pari alla vostra Competenza.</p>",
+      "effects": {
+        "41uiZKXzSSomf9YD": {
+          "name": "Guscio",
+          "description": "<p>Guadagnate un bonus alle soglie di danno pari alla vostra Competenza.</p>"
+        }
+      }
+    },
+    "Sturdy": {
+      "name": "Robusto",
+      "description": "<p>Quando vi resta 1 Punto Ferita, gli attacchi nei vostri confronti hanno svantaggio.</p>"
+    },
+    "Surefooted": {
+      "name": "Piè Fermo",
+      "description": "<p>Ignorate qualsiasi svantaggio sui Tiri Agilità.</p>"
+    },
+    "Thick Skin": {
+      "name": "Pelle Dura",
+      "description": "<p>Quando subite un danno Minore, potete <strong>marcare 2 Stress</strong> invece di subire un Punto Ferita.</p>",
+      "effects": {
+        "4Lc40mNnRInTKMC5": {
+          "name": "Pelle Dura",
+          "description": "<p>Quando subite un danno Minore, potete <strong>marcare 2 Stress</strong> invece di subire un Punto Ferita.</p>"
+        }
+      }
+    },
+    "Tusks": {
+      "name": "Zanne",
+      "description": "<p>Quando riuscite in un attacco contro un bersaglio in Mischia, potete <strong>spendere una Speranza</strong> per sventrare il bersaglio con le zanne, infliggendo <strong>1d6</strong> danni extra.</p>",
+      "effects": {
+        "klEyAxQa5YHXVnrl": {
+          "name": "Zanne",
+          "description": "<p>Sventrate il bersaglio con le zanne, infliggendo <strong>1d6</strong> danni extra.</p>"
+        }
+      },
+      "actions": {
+        "ytSFDCONRi5L4THz": {
+          "name": "Spendere 1 Speranza",
+          "description": "<p>Quando riuscite in un attacco contro un bersaglio in Mischia, potete <strong>spendere una Speranza</strong> per sventrare il bersaglio con le zanne, infliggendo <strong>1d6</strong> danni extra.</p>"
+        }
+      }
+    },
+    "Unshakeable": {
+      "name": "Irremovibile",
+      "description": "<p>Quando dovreste marcare uno Stress, tirate un <strong>d6</strong>. Con un risultato di 6, non dovete marcarlo.</p>",
+      "actions": {
+        "x8xbjyCrJ0okOpIU": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      }
+    },
+    "Wings": {
+      "name": "Ali",
+      "description": "<p>Potete volare. Mentre siete in volo, potete <strong>marcare uno Stress</strong> dopo che un avversario ha effettuato un attacco nei vostri confronti per ottenere bonus +2 alla vostra Evasione contro quell'attacco.</p>",
+      "effects": {
+        "zD3xVdwkEQi2ivOn": {
+          "name": "Ali",
+          "description": "<p>Ottenete bonus +2 alla vostra Evasione contro l'attacco dell'avversario.</p>"
+        }
+      },
+      "actions": {
+        "dpKxkDSjXsP8kHMI": {
+          "name": "Marcare 1 Stress",
+          "description": ""
+        }
+      }
+    }
+  }
+}

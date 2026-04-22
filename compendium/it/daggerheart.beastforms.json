@@ -1,0 +1,848 @@
+{
+  "label": "Forme Bestiali",
+  "mapping": {
+    "description": "system.description",
+    "examples": "system.examples",
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "actions": {
+      "path": "system.actions",
+      "converter": "actions"
+    },
+    "advantageOn": {
+      "path": "system.advantageOn",
+      "converter": "advantageOn"
+    }
+  },
+  "folders": {
+    "Beastform Features": "Capacità della Forma Bestiale",
+    "Tier 1": "Rango 1",
+    "Tier 2": "Rango 2",
+    "Tier 3": "Rango 3",
+    "Tier 4": "Rango 4"
+  },
+  "entries": {
+    "Agile Scout": {
+      "name": "Esploratore Scattante",
+      "examples": "Volpe, topo, donnola, ecc.",
+      "effects": {
+        "ehfx2SUKMiM6f5Pd": {
+          "name": "Trasformazione in Forma Bestiale",
+          "description": ""
+        }
+      },
+      "advantageOn": {
+        "mtep5GS5Ruj6ZXk1": {
+          "value": "Inganno"
+        },
+        "HtQHzK88eiFGP1sW": {
+          "value": "Cercare"
+        },
+        "pq2OXeTmvgRVWTnM": {
+          "value": "Furtività"
+        }
+      }
+    },
+    "Aquatic Predator": {
+      "name": "Predatore Acquatico",
+      "examples": "Delfino, orca, squalo, ecc.",
+      "effects": {
+        "7OTbmhQNtKhRAl59": {
+          "name": "Trasformazione in Forma Bestiale",
+          "description": ""
+        }
+      },
+      "advantageOn": {
+        "1AcQrnvX9BKAWb0Y": {
+          "value": "Attaccare"
+        },
+        "BY5ht3SqyKw0dBr1": {
+          "value": "Nuotare"
+        },
+        "4OW2JewIhcKpwzVE": {
+          "value": "Rintracciare"
+        }
+      }
+    },
+    "Aquatic Scout": {
+      "name": "Esploratore Acquatico",
+      "examples": "Anguilla, pesce, polpo, ecc.",
+      "effects": {
+        "TsXyfEOCk0ma5tp9": {
+          "name": "Trasformazione in Forma Bestiale",
+          "description": ""
+        }
+      },
+      "advantageOn": {
+        "OG0TnlIP9lKye1e9": {
+          "value": "Orientarsi"
+        },
+        "q3yvEjEGqK6o4AYw": {
+          "value": "Furtività"
+        },
+        "RWK8rni8s7nYVP7I": {
+          "value": "Nuotare"
+        }
+      }
+    },
+    "Armored Sentry": {
+      "name": "Sentinella Corazzata",
+      "examples": "Armadillo, pangolino, tartaruga, ecc.",
+      "effects": {
+        "hd0uVl6ZZeyPJn9O": {
+          "name": "Trasformazione in Forma Bestiale",
+          "description": ""
+        }
+      },
+      "advantageOn": {
+        "4AbCgOZvyUFH9Pug": {
+          "value": "Scavare"
+        },
+        "8GsRyXaQnfsGNGW6": {
+          "value": "Cercare"
+        },
+        "0ut15QizNIG254Vw": {
+          "value": "Proteggere"
+        }
+      }
+    },
+    "Epic Aquatic Beast": {
+      "name": "Bestia Acquatica Epica",
+      "examples": "Calamaro gigante, balena, ecc.",
+      "effects": {
+        "zYUexUr2e3k4kzhw": {
+          "name": "Trasformazione in Forma Bestiale",
+          "description": ""
+        }
+      },
+      "advantageOn": {
+        "DzjyAaegBTZSxhT4": {
+          "value": "Cercare"
+        },
+        "rRDzTGkLNCbStmih": {
+          "value": "Proteggere"
+        },
+        "0k26pAQLTjfEfviV": {
+          "value": "Intimidire"
+        },
+        "zkEFnEqpAf4lqy5W": {
+          "value": "Rintracciare"
+        }
+      }
+    },
+    "Great Predator": {
+      "name": "Grande Predatore",
+      "examples": "Lupo terribile, velociraptor, tigre dai denti a sciabola, ecc.",
+      "effects": {
+        "TFzvHClwIAQUFxyP": {
+          "name": "Trasformazione in Forma Bestiale",
+          "description": ""
+        }
+      },
+      "advantageOn": {
+        "WvQYbcASMk0IwESy": {
+          "value": "Attaccare"
+        },
+        "Hzr7zL547nyrZyZK": {
+          "value": "Furtività"
+        },
+        "3wDuhdlzs3gOJ9l9": {
+          "value": "Correre"
+        }
+      }
+    },
+    "Great Winged Beast": {
+      "name": "Grande Bestia Alata",
+      "examples": "Aquila gigante, falco, ecc.",
+      "effects": {
+        "qGSm1QpICpxRZxLn": {
+          "name": "Trasformazione in Forma Bestiale",
+          "description": ""
+        }
+      },
+      "advantageOn": {
+        "9J8GmsoqjBiXJLKE": {
+          "value": "Inganno"
+        },
+        "MkD8mmiirYPqs0oA": {
+          "value": "Distrarre"
+        },
+        "qzud50ZkqNJgYhRH": {
+          "value": "Cercare"
+        }
+      }
+    },
+    "Household Friend": {
+      "name": "Animale Domestico",
+      "examples": "Gatto, cane, coniglio, ecc.",
+      "effects": {
+        "CzMAMg2q5gL15JrZ": {
+          "name": "Trasformazione in Forma Bestiale",
+          "description": ""
+        }
+      },
+      "advantageOn": {
+        "CXfEZDZ96ajdn5aU": {
+          "value": "Arrampicarsi"
+        },
+        "IojJaTrMIkT4xFSN": {
+          "value": "Cercare"
+        },
+        "IwwGzrAig49bAy8y": {
+          "value": "Proteggere"
+        }
+      }
+    },
+    "Legendary Beast": {
+      "name": "Bestia Leggendaria",
+      "examples": "Evoluzione di Rango 1",
+      "effects": {
+        "cL4kH57pf2nGIxaK": {
+          "name": "Trasformazione in Forma Bestiale",
+          "description": "<p>Scegliete un'opzione di Forma Bestiale di Rango 1 e diventate una versione più grande e più potente di quella creatura. Finché mantenete questa forma, conservate tutti i tratti e le caratteristiche della forma originale e ottenete i seguenti bonus:</p><ul><li>Bonus +6 ai vostri tiri di danno</li><li>Bonus +1 al tratto utilizzato da questa forma</li><li>Bonus +2 all'Evasione</li></ul>"
+        }
+      }
+    },
+    "Legendary Hybrid": {
+      "name": "Ibrido Leggendario",
+      "examples": "Grifone, sfinge, ecc.",
+      "effects": {
+        "RbZKFWATkfLZm67j": {
+          "name": "Trasformazione in Forma Bestiale",
+          "description": "<p>Per assumere questa forma, <strong>marcate 1 Stress aggiuntivo</strong>. Scegliete due opzioni di Forme Bestiali tra i Ranghi 1 e 2. Scegliete un totale di quattro vantaggi e due capacità da queste opzioni combinate.</p>"
+        }
+      }
+    },
+    "Massive Behemoth": {
+      "name": "Mastodonte Colossale",
+      "examples": "Elefante, mammut, rinoceronte, ecc.",
+      "effects": {
+        "RR6ySJU5zaC7ws6A": {
+          "name": "Trasformazione in Forma Bestiale",
+          "description": ""
+        }
+      },
+      "advantageOn": {
+        "4dxvlv6F3kjurgJg": {
+          "value": "Cercare"
+        },
+        "WiskYFviMDpdKcR6": {
+          "value": "Proteggere"
+        },
+        "AoFiYKVbPxGalK8Y": {
+          "value": "Intimidire"
+        },
+        "TMzWo667tWr355c9": {
+          "value": "Correre"
+        }
+      }
+    },
+    "Mighty Lizard": {
+      "name": "Lucertola Possente",
+      "examples": "Alligatore, coccodrillo, mostro di Gila, ecc.",
+      "effects": {
+        "d13EzuP8Co04Jk8K": {
+          "name": "Trasformazione in Forma Bestiale",
+          "description": ""
+        }
+      },
+      "advantageOn": {
+        "f5tUBKOfwDQKPrYP": {
+          "value": "Attaccare"
+        },
+        "XS1zEu9IJ6ec0mZ0": {
+          "value": "Furtività"
+        },
+        "K0hUzxErOc7t0myx": {
+          "value": "Rintracciare"
+        }
+      }
+    },
+    "Mighty Strider": {
+      "name": "Corridore Potente",
+      "examples": "Cammello, cavallo, zebra, ecc.",
+      "effects": {
+        "IWg2cWUdvucUOLAL": {
+          "name": "Trasformazione in Forma Bestiale",
+          "description": ""
+        }
+      },
+      "advantageOn": {
+        "Az0LCAgV6NQMddlz": {
+          "value": "Saltare"
+        },
+        "6Povd6wfN4USSgbL": {
+          "value": "Orientarsi"
+        },
+        "wnHlu70U2vvDKNIo": {
+          "value": "Correre"
+        }
+      }
+    },
+    "Mythic Aerial Hunter": {
+      "name": "Signore dei Cieli",
+      "examples": "Drago, pteranodonte, roc, viverna, ecc.",
+      "effects": {
+        "hnKnaOaswWJdaYmf": {
+          "name": "Trasformazione in Forma Bestiale",
+          "description": ""
+        }
+      },
+      "advantageOn": {
+        "wqIBmWSIbwwJdB07": {
+          "value": "Attaccare"
+        },
+        "wUjIM4ohI1309Qmy": {
+          "value": "Inganno"
+        },
+        "7YTz0VSytRCmpn3Y": {
+          "value": "Cercare"
+        },
+        "YyyzVE5FOevDKvAP": {
+          "value": "Orientarsi"
+        }
+      }
+    },
+    "Mythic Beast": {
+      "name": "Bestia Mitica",
+      "examples": "Evoluzione di Rango 1 o 2",
+      "effects": {
+        "vhwbPQ2YT64qD1t1": {
+          "name": "Trasformazione in Forma Bestiale",
+          "description": "<p>Scegliete un'opzione di Forma Bestiale di Rango 1 o 2 e diventate una versione più grande e più potente di quella creatura. Finché mantenete questa forma, conservate tutti i tratti e le caratteristiche della forma originale e ottenete i seguenti bonus:</p><ul><li>Bonus +9 ai vostri tiri di danno</li><li>Bonus +2 al tratto utilizzato da questa forma</li><li>Bonus +3 all'Evasione</li><li>Il vostro dado di danno aumenta di un grado (d6 diventa d8, d8 diventa d10, ecc.)</li></ul>"
+        }
+      }
+    },
+    "Mythic Hybrid": {
+      "name": "Ibrido Mitico",
+      "examples": "Chimera, coccatrice, manticora, ecc.",
+      "effects": {
+        "HutJQ9HGtr1Eoibp": {
+          "name": "Trasformazione in Forma Bestiale",
+          "description": "<p>Per assumere questa forma, <strong>marcate 2 Stress aggiuntivi</strong>. Scegliete tre opzioni di Forme Bestiali tra i Ranghi 1 e 3. Scegliete un totale di cinque vantaggi e tre capacità da queste opzioni combinate.</p>"
+        }
+      }
+    },
+    "Nimble Grazer": {
+      "name": "Erbivoro Rapido",
+      "examples": "Cervo, gazzella, capra, ecc.",
+      "effects": {
+        "lIbJFb5XQ98Eaauu": {
+          "name": "Trasformazione in Forma Bestiale",
+          "description": ""
+        }
+      },
+      "advantageOn": {
+        "pZh7UYwWgdddKX77": {
+          "value": "Saltare"
+        },
+        "MVO36LtrjuSU4cAv": {
+          "value": "Furtività"
+        },
+        "P9W2JIx0FJgQf6b6": {
+          "value": "Correre"
+        }
+      }
+    },
+    "Pack Predator": {
+      "name": "Cacciatore in Branco",
+      "examples": "Coyote, iena, lupo, ecc.",
+      "effects": {
+        "amuFS9LlEnzZnaIN": {
+          "name": "Trasformazione in Forma Bestiale",
+          "description": ""
+        }
+      },
+      "advantageOn": {
+        "WwCjWpa7n6KcP3kY": {
+          "value": "Attaccare"
+        },
+        "oNzBOc2bkcb7CrQk": {
+          "value": "Correre"
+        },
+        "wtz5CPetdNzXTyBA": {
+          "value": "Rintracciare"
+        }
+      }
+    },
+    "Pouncing Predator": {
+      "name": "Predatore Felino",
+      "examples": "Ghepardo, leone, pantera, ecc.",
+      "effects": {
+        "GSmW6nJ3kyIoEK2H": {
+          "name": "Trasformazione in Forma Bestiale",
+          "description": ""
+        }
+      },
+      "advantageOn": {
+        "q5bjThxdJ1JAuX2r": {
+          "value": "Attaccare"
+        },
+        "paOxE0DUkqKYVbss": {
+          "value": "Arrampicarsi"
+        },
+        "nDnJf1tiImA6ryyy": {
+          "value": "Furtività"
+        }
+      }
+    },
+    "Powerful Beast": {
+      "name": "Bestia Possente",
+      "examples": "Orso, toro, alce, ecc.",
+      "effects": {
+        "AZGTvqzFVHa4wS1a": {
+          "name": "Trasformazione in Forma Bestiale",
+          "description": ""
+        }
+      },
+      "advantageOn": {
+        "LhmE20iV5HBExx0A": {
+          "value": "Orientarsi"
+        },
+        "EP4KQJfmXWGomsVC": {
+          "value": "Proteggere"
+        },
+        "lMMv1eTry3N6rZCx": {
+          "value": "Intimidire"
+        }
+      }
+    },
+    "Stalking Arachnid": {
+      "name": "Aracnide in Agguato",
+      "examples": "Tarantola, ragno lupo, ecc.",
+      "effects": {
+        "YkZX2yc2X0QDFPBG": {
+          "name": "Trasformazione in Forma Bestiale",
+          "description": ""
+        }
+      },
+      "advantageOn": {
+        "udIR54Etg9sx2XbM": {
+          "value": "Attaccare"
+        },
+        "6On5GDzLxq6bao36": {
+          "value": "Arrampicarsi"
+        },
+        "IZjCaeEmcRBzGeDn": {
+          "value": "Furtività"
+        }
+      }
+    },
+    "Striking Serpent": {
+      "name": "Serpe Scattante",
+      "examples": "Cobra, serpente a sonagli, vipera, ecc.",
+      "effects": {
+        "qGhLojWa5430zRd1": {
+          "name": "Trasformazione in Forma Bestiale",
+          "description": ""
+        }
+      },
+      "advantageOn": {
+        "5bQks8eptInw0g9i": {
+          "value": "Arrampicarsi"
+        },
+        "j0mztP3MfVkA8KVL": {
+          "value": "Inganno"
+        },
+        "yuIbmhAqfJmtzE6x": {
+          "value": "Correre"
+        }
+      }
+    },
+    "Terrible Lizard": {
+      "name": "Lucertola Terribile",
+      "examples": "Brachiosauro, tirannosauro, ecc.",
+      "effects": {
+        "qPtjZIkRVm68TGHN": {
+          "name": "Trasformazione in Forma Bestiale",
+          "description": ""
+        }
+      },
+      "advantageOn": {
+        "onvcDZ0vtg88AjUn": {
+          "value": "Attaccare"
+        },
+        "poo5ToKvpeI1Kvr3": {
+          "value": "Inganno"
+        },
+        "oPA8ogGHNDvxrJps": {
+          "value": "Intimidire"
+        },
+        "BIdGziN8wJX0iaHQ": {
+          "value": "Rintracciare"
+        }
+      }
+    },
+    "Winged Beast": {
+      "name": "Bestia Alata",
+      "examples": "Falco, gufo, corvo, ecc.",
+      "effects": {
+        "Ln3atrxiqtPA0Wi6": {
+          "name": "Trasformazione in Forma Bestiale",
+          "description": ""
+        }
+      },
+      "advantageOn": {
+        "DgZ77yPVJqNq7rxY": {
+          "value": "Inganno"
+        },
+        "HCH9ogsxcP0r3fU2": {
+          "value": "Cercare"
+        },
+        "WST3bOmxoIeSHYqX": {
+          "value": "Intimidire"
+        }
+      }
+    },
+    "Agile": {
+      "name": "Agilità",
+      "description": "<p>Il vostro movimento è silenzioso e potete <strong>spendere una Speranza</strong> per muovervi fino a distanza Lontana senza tirare.</p>",
+      "actions": {
+        "4yQ56hSL5LBkzrV6": {
+          "name": "Spendere una Speranza",
+          "description": ""
+        }
+      }
+    },
+    "Aquatic": {
+      "name": "Acquatico",
+      "description": "<p>Potete respirare e muovervi naturalmente sott'acqua.</p>"
+    },
+    "Armored Shell": {
+      "name": "Guscio Corazzato",
+      "description": "<p>La corazza indurita vi conferisce resistenza ai danni fisici. Inoltre, <strong>marcate una Casella Armatura</strong> per ritrarvi nel guscio. Quando siete nel guscio, i danni fisici sono ridotti di un numero pari al vostro Punteggio di Armatura (dopo aver applicato la resistenza), ma non potete compiere altre azioni senza abbandonare questa forma.</p>",
+      "effects": {
+        "XFmEC0kDQJNrGbtr": {
+          "name": "Guscio Corazzato",
+          "description": "<p>La corazza indurita vi conferisce resistenza ai danni fisici.</p>"
+        },
+        "OY3lEB3vuDKNLzxv": {
+          "name": "Retrattile",
+          "description": "<p>Quando siete nel guscio, i danni fisici sono ridotti di un numero pari al vostro Punteggio di Armatura (dopo aver applicato la resistenza), ma non potete compiere altre azioni senza abbandonare questa forma.</p>"
+        }
+      },
+      "actions": {
+        "15XSCpCAZ2JLspmN": {
+          "name": "Ritirarsi nel Guscio",
+          "description": "<p><strong>Marcate una Casella Armatura</strong> per ritrarvi nel guscio. Quando siete nel guscio, i danni fisici sono ridotti di un numero pari al vostro Punteggio di Armatura (dopo aver applicato la resistenza), ma non potete compiere altre azioni senza abbandonare questa forma.</p>"
+        }
+      }
+    },
+    "Bird's-Eye View": {
+      "name": "Vista a Volo d'Uccello",
+      "description": "<p>Potete volare a volontà. Una volta per riposo, mentre siete in volo, ponete al GM una domanda sul paesaggio sottostante senza dover tirare. La prima volta che un personaggio effettua qualsiasi tiro per sfruttare queste informazioni, ottiene vantaggio su quel tiro.</p>",
+      "actions": {
+        "JRCE5826Yhh09aaI": {
+          "name": "Poni una Domanda",
+          "description": "<p>Una volta per riposo, mentre siete in volo, ponete al GM una domanda sul paesaggio sottostante senza dover tirare. La prima volta che un personaggio effettua qualsiasi tiro per sfruttare queste informazioni, ottiene vantaggio su quel tiro.</p>"
+        }
+      }
+    },
+    "Cannonball": {
+      "name": "Palla di Cannone",
+      "description": "<p><strong>Marcate uno Stress</strong> per consentire a un alleato di scagliarvi contro un avversario. L'alleato effettua un tiro attacco con Agilità o Forza (a sua scelta) contro un bersaglio a distanza Ravvicinata. In caso di successo, l'avversario subisce <strong>d12+2</strong> danni fisici in base alla Competenza del lanciatore. Potete <strong>spendere una Speranza</strong> per colpire un altro avversario a distanza Ravvicinata dal primo. Il secondo bersaglio subisce la metà dei danni inflitti al primo.</p>",
+      "actions": {
+        "5Vxm8LyBHE1GYbsv": {
+          "name": "Palla di Cannone",
+          "description": "<p><strong>Marcate uno Stress</strong> per consentire a un alleato di scagliarvi contro un avversario. L'alleato effettua un tiro attacco con Agilità o Forza (a sua scelta) contro un bersaglio a distanza Ravvicinata. In caso di successo, l'avversario subisce <strong>d12+2</strong> danni fisici in base alla Competenza del lanciatore.</p>"
+        },
+        "QCQzArBrajYi2D2I": {
+          "name": "Spendere una Speranza",
+          "description": "<p>Potete <strong>spendere una Speranza</strong> per colpire un altro avversario a distanza Ravvicinata dal primo. Il secondo bersaglio subisce la metà dei danni inflitti al primo.</p>"
+        }
+      }
+    },
+    "Carrier": {
+      "name": "Animale da Sella",
+      "description": "<p>Potete trasportare fino a due alleati consenzienti quando vi muovete.</p>"
+    },
+    "Companion": {
+      "name": "Compagno",
+      "description": "<p>Quando aiutate un alleato, potete lanciare un <strong>d8</strong> come dado vantaggio.</p>"
+    },
+    "Deadly Raptor": {
+      "name": "Rapace Letale",
+      "description": "<p>Potete volare a piacimento e muovervi fino a distanza Lontana come parte della vostra azione. Quando vi muovete in linea retta fino alla distanza di Mischia da un bersaglio (partendo almeno da distanza Ravvicinata) ed effettuate un attacco contro quel bersaglio nella medesima azione, potete ripetere tutti i tiri di danno con un risultato inferiore alla vostra Competenza.</p>"
+    },
+    "Demolish": {
+      "name": "Demolire",
+      "description": "<p><strong>Spendete una Speranza</strong> per muovervi in linea retta fino a distanza Lontana ed effettuare un attacco contro tutti i bersagli entro distanza di Mischia da tale linea. I bersagli colpiti subiscono <strong>d8+10</strong> danni fisici applicando la vostra Competenza e sono temporaneamente <em>Vulnerabili</em>.</p><p>@Template[type:ray|range:f]</p>",
+      "effects": {
+        "FXdFgEgqVl5gIWJS": {
+          "name": "Demolire",
+          "description": ""
+        }
+      },
+      "actions": {
+        "5SXMT39vrZoK7GBM": {
+          "name": "Attacco",
+          "description": "<p><strong>Spendete una Speranza</strong> per muovervi in linea retta fino a distanza Lontana ed effettuare un attacco contro tutti i bersagli entro distanza di Mischia da tale linea. I bersagli colpiti subiscono <strong>d8+10</strong> danni fisici applicando la vostra Competenza e sono temporaneamente <em>Vulnerabili</em>.</p>"
+        }
+      }
+    },
+    "Devastating Strikes": {
+      "name": "Colpi Devastanti",
+      "description": "<p>Quando infliggete un danno Grave a un bersaglio in Mischia, potete <strong>marcare uno Stress</strong> per infliggergli un Punto Ferita aggiuntivo.</p>",
+      "actions": {
+        "Il2C9zALU6a1gGrg": {
+          "name": "Marcare uno Stress",
+          "description": "<p>Quando infliggete un danno Grave a un bersaglio in Mischia, potete <strong>marcare uno Stress</strong> per infliggergli un Punto Ferita aggiuntivo.</p>"
+        }
+      }
+    },
+    "Elusive Prey": {
+      "name": "Preda Sfuggente",
+      "description": "<p>Quando un tiro di attacco contro di voi avrebbe successo, potete <strong>marcare uno Stress</strong> e tirare un <strong>d4</strong>. Aggiunte il risultato alla vostra Evasione contro questo attacco.</p>",
+      "actions": {
+        "9lvrqQKTEB3NRwvM": {
+          "name": "Marcare uno Stress",
+          "description": ""
+        }
+      }
+    },
+    "Fleet": {
+      "name": "Fuga",
+      "description": "<p><strong>Spendete una Speranza</strong> per spostarvi fino a una distanza Lontana senza tirare.</p>",
+      "actions": {
+        "pn5p2ocVvVPzDyAX": {
+          "name": "Muoversi",
+          "description": "<p><strong>Spendete una Speranza</strong> per spostarvi fino a una distanza Lontana senza tirare.</p>"
+        }
+      }
+    },
+    "Fragile": {
+      "name": "Fragile",
+      "description": "<p>Quando subite un danno Maggiore o Grave, abbandonate la Forma Bestiale.</p>"
+    },
+    "Hobbling Strike": {
+      "name": "Colpo Azzoppante",
+      "description": "<p>Quando colpite un bersaglio in Mischia, potete <strong>marcare uno Stress</strong> per rendere il bersaglio temporaneamente <em>Vulnerabile</em>.</p>",
+      "effects": {
+        "2kKkV9zhfvqA2vlt": {
+          "name": "Colpo Azzoppante",
+          "description": ""
+        }
+      },
+      "actions": {
+        "p8DESOMGA6dLwEMz": {
+          "name": "Marcare uno Stress",
+          "description": ""
+        }
+      }
+    },
+    "Hollow Bones": {
+      "name": "Ossa Cave",
+      "description": "<p>Subite una penalità di −2 alle soglie di danno.</p>",
+      "effects": {
+        "RM8wHu5GIF6zfF7V": {
+          "name": "Ossa Cave",
+          "description": "<p>Subite una penalità di −2 alle soglie di danno.</p>"
+        }
+      }
+    },
+    "Massive Stride": {
+      "name": "Passo Massiccio",
+      "description": "<p>Potete muovervi fino a distanza Lontana senza tirare. Ignorate il terreno accidentato (a discrezione del GM) grazie alla vostra taglia.</p>"
+    },
+    "Ocean Master": {
+      "name": "Signore dell'Oceano",
+      "description": "<p>Potete respirare e muovervi naturalmente sott'acqua. Quando avete successo in un attacco contro un bersaglio in Mischia, lo potete temporaneamente <em>Trattenere</em>.</p>",
+      "effects": {
+        "6GBczj8REkDmgX2Q": {
+          "name": "Signore dell'Oceano",
+          "description": ""
+        }
+      },
+      "actions": {
+        "ge2koBRj4snhIzDA": {
+          "name": "Trattenere",
+          "description": "<p>Quando avete successo in un attacco contro un bersaglio in Mischia, lo potete temporaneamente <em>Trattenere</em>.</p>"
+        }
+      }
+    },
+    "Pack Hunting": {
+      "name": "Caccia del Branco",
+      "description": "<p>Quando colpite lo stesso bersaglio di un alleato che agisce immediatamente prima di voi, aggiungete un <strong>d8</strong> al tiro per i danni.</p>"
+    },
+    "Physical Defense": {
+      "name": "Difesa Fisica",
+      "description": "<p>Guadagnate bonus +3 alle soglie di danno.</p>",
+      "effects": {
+        "hs9vWE92QQQx15ET": {
+          "name": "Difesa Fisica",
+          "description": "<p>Guadagnate bonus +3 alle soglie di danno.</p>"
+        }
+      }
+    },
+    "Rampage": {
+      "name": "Furia Belluina",
+      "description": "<p>Quando tirate 1 su un dado di danno, potete tirare un d10 e aggiungere il risultato al tiro di danno. Inoltre, prima di effettuare un tiro attacco, potete <strong>marcare uno Stress</strong> per ottenere bonus +1 alla Competenza per quell'attacco.</p>",
+      "effects": {
+        "A7l4JEBC1FFQajsN": {
+          "name": "Furia Belluina",
+          "description": "<p>Prima di effettuare un tiro attacco, potete marcare uno Stress per ottenere bonus +1 alla Competenza per quell'attacco.</p>"
+        }
+      },
+      "actions": {
+        "N7IoOHpqcvcJNsJQ": {
+          "name": "Aumento Competenza",
+          "description": "<p>Prima di effettuare un tiro attacco, potete marcare uno Stress per ottenere bonus +1 alla Competenza per quell'attacco.</p>"
+        }
+      }
+    },
+    "Snapping Strike": {
+      "name": "Azzannare",
+      "description": "<p>Quando avete successo in un attacco contro un bersaglio in Mischia, potete <strong>spendere una Speranza</strong> per serrare l'avversario nelle vostre fauci, rendendolo temporaneamente <em>Trattenuto</em> e <em>Vulnerabile</em>.</p>",
+      "effects": {
+        "y3EsJuInxE7juNXT": {
+          "name": "Azzannare",
+          "description": ""
+        }
+      },
+      "actions": {
+        "ib94yYJ1HA0dm0VC": {
+          "name": "Spendere una Speranza",
+          "description": "<p>Quando avete successo in un attacco contro un bersaglio in Mischia, potete <strong>spendere una Speranza</strong> per serrare l'avversario nelle vostre fauci, rendendolo temporaneamente <em>Trattenuto</em> e <em>Vulnerabile</em>.</p>"
+        }
+      }
+    },
+    "Takedown": {
+      "name": "Bloccare la Fuga",
+      "description": "<p><strong>Marcate uno Stress</strong> per entrare in Mischia con un bersaglio ed effettuare un tiro attacco contro di esso. In caso di successo, ottenete bonus +2 alla Competenza per questo attacco e il bersaglio deve marcare uno Stress.</p>",
+      "effects": {
+        "hE6ciIusvKEtUQ8U": {
+          "name": "Bloccare la Fuga",
+          "description": ""
+        }
+      },
+      "actions": {
+        "DKorr1QzvtBz7d9y": {
+          "name": "Attacco",
+          "description": "<p><strong>Marcate uno Stress</strong> per entrare in Mischia con un bersaglio ed effettuare un tiro attacco contro di esso. In caso di successo, ottenete bonus +2 alla Competenza per questo attacco e il bersaglio deve marcare uno Stress.</p>"
+        }
+      }
+    },
+    "Thick Hide": {
+      "name": "Pelle Coriacea",
+      "description": "<p>Guadagnate bonus +2 alle soglie di danno.</p>",
+      "effects": {
+        "ZoUJy8EOm9mVXuAw": {
+          "name": "Pelle Coriacea",
+          "description": "<p>Guadagnate bonus +2 alle soglie di danno.</p>"
+        }
+      }
+    },
+    "Trample": {
+      "name": "Travolgere",
+      "description": "<p><strong>Marcate uno Stress</strong> per muovervi in linea retta fino a distanza Prossima ed effettuate un attacco contro tutti i bersagli entro distanza di Mischia dalla linea che state percorrendo. I bersagli colpiti subiscono <strong>d8+1</strong> danni fisici applicando la vostra Competenza e sono temporaneamente <em>Vulnerabili</em>.</p><p>@Template[type:ray|range:close]</p>",
+      "effects": {
+        "LkekG4IngVW9rFjI": {
+          "name": "Travolgere",
+          "description": ""
+        }
+      },
+      "actions": {
+        "YCOTIv9IVEKpumbJ": {
+          "name": "Attacco",
+          "description": "<p><strong>Marcate uno Stress</strong> per muovervi in linea retta fino a distanza Prossima ed effettuate un attacco contro tutti i bersagli entro distanza di Mischia dalla linea che state percorrendo. I bersagli colpiti subiscono <strong>d8+1</strong> danni fisici applicando la vostra Competenza e sono temporaneamente <em>Vulnerabili</em>.</p>"
+        }
+      }
+    },
+    "Undaunted": {
+      "name": "Imperturbabile",
+      "description": "<p>Ottenete bonus +2 a tutte le soglie di danno.</p>",
+      "effects": {
+        "wVoUVQJ2Ik7CiUuV": {
+          "name": "Imperturbabile",
+          "description": "<p>Ottenete bonus +2 a tutte le soglie di danno.</p>"
+        }
+      }
+    },
+    "Unyielding": {
+      "name": "Inflessibile",
+      "description": "<p>Quando usate una Casella Armatura, tirate un <strong>d6</strong>. Con un risultato pari o superiore a 5, riducete la gravità di una soglia senza usare la Casella Armatura.</p>",
+      "actions": {
+        "hiGZCQpdTVqE5W4B": {
+          "name": "Lanciare 1d6",
+          "description": "<p>Quando usate una Casella Armatura, tirate un <strong>d6</strong>. Con un risultato pari o superiore a 5, riducete la gravità di una soglia senza usare la Casella Armatura.</p>"
+        }
+      }
+    },
+    "Venomous Bite": {
+      "name": "Morso Velenoso",
+      "description": "<p>Quando colpite un bersaglio in Mischia, questo viene temporaneamente <em>Avvelenato</em>. Una creatura <em>Avvelenata</em> subisce <strong>1d10</strong> danni fisici diretti ogni volta che agisce.</p>",
+      "effects": {
+        "TTyAKKoUCoYXSMs4": {
+          "name": "Avvelenato",
+          "description": "<p>Una creatura <em>Avvelenata</em> subisce <strong>1d10</strong> danni fisici diretti ogni volta che agisce.</p>"
+        }
+      },
+      "actions": {
+        "eow90DYK6cUWOk7g": {
+          "name": "Avvelenare",
+          "description": ""
+        }
+      }
+    },
+    "Venomous Strike": {
+      "name": "Colpo Velenoso",
+      "description": "<p>Effettuate un attacco contro un numero qualsiasi di bersagli a distanza Ravvicinata. In caso di successo, ogni bersaglio colpito viene temporaneamente <em>Avvelenato</em>. Una creatura <em>Avvelenata</em> subisce <strong>1d10</strong> danni fisici diretti ogni volta che agisce.</p>",
+      "effects": {
+        "1iQPj96LqUNkRaxE": {
+          "name": "Avvelenato",
+          "description": "<p>Una creatura <em>Avvelenata</em> subisce <strong>1d10</strong> danni fisici diretti ogni volta che agisce.</p>"
+        }
+      },
+      "actions": {
+        "igRoXxgaTT9tBQS7": {
+          "name": "Attacco",
+          "description": "<p>Effettuate un attacco contro un numero qualsiasi di bersagli a distanza Ravvicinata. In caso di successo, ogni bersaglio colpito viene temporaneamente <em>Avvelenato</em>. Una creatura <em>Avvelenata</em> subisce <strong>1d10</strong> danni fisici diretti ogni volta che agisce.</p>"
+        }
+      }
+    },
+    "Vicious Maul": {
+      "name": "Mazzata Feroce",
+      "description": "<p>Quando avete successo in un attacco contro un bersaglio, potete <strong>spendere una Speranza</strong> per renderlo temporaneamente <em>Vulnerabile</em> e guadagnare bonus +1 alla Competenza per questo attacco.</p>",
+      "effects": {
+        "MIAh9XNwDXGDktCm": {
+          "name": "Lacerato",
+          "description": ""
+        }
+      },
+      "actions": {
+        "Cc53vyYz5ggKdIbx": {
+          "name": "Spendere una Speranza",
+          "description": "<p>Quando avete successo in un attacco contro un bersaglio, potete <strong>spendere una Speranza</strong> per renderlo temporaneamente <em>Vulnerabile</em> e guadagnare bonus +1 alla Competenza per questo attacco.</p>"
+        }
+      }
+    },
+    "Warning Hiss": {
+      "name": "Sibilo Minaccioso",
+      "description": "<p><strong>Marcate uno Stress</strong> per costringere un numero qualsiasi di bersagli in Mischia ad arretrare a distanza Ravvicinata.</p>",
+      "actions": {
+        "D9YmUP1aeiCzNxcC": {
+          "name": "Marcare uno Stress",
+          "description": "<p><strong>Marcate uno Stress</strong> per costringere un numero qualsiasi di bersagli in Mischia ad arretrare a distanza Ravvicinata.</p>"
+        }
+      }
+    },
+    "Webslinger": {
+      "name": "Lanciatore di Ragnatele",
+      "description": "<p>Potete creare una robusta ragnatela utile sia per l'avventura che per la battaglia. La ragnatela è abbastanza resistente da sostenere una creatura. Potete <em>Trattenere</em> temporaneamente un bersaglio a distanza Prossima superando un Tiro Astuzia contro di lui.</p>",
+      "effects": {
+        "cBJueH89gNvvDKfQ": {
+          "name": "Lanciatore di Ragnatele",
+          "description": ""
+        }
+      },
+      "actions": {
+        "vRU6xutkp3VYxZ0i": {
+          "name": "Trattenere",
+          "description": ""
+        }
+      }
+    }
+  }
+}

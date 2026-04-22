@@ -1,0 +1,1752 @@
+{
+    "label": "Domini",
+    "mapping": {
+        "description": "system.description",
+        "examples": "system.examples",
+        "effects": {
+            "path": "effects",
+            "converter": "effects"
+        },
+        "actions": {
+            "path": "system.actions",
+            "converter": "actions"
+        }
+    },
+    "folders": {
+        "Arcana": "Arcano",
+        "Blade": "Lama",
+        "Bone": "Ossa",
+        "Codex": "Codice",
+        "Grace": "Grazia",
+        "Level 10": "Livello 10",
+        "Level 1": "Livello 1",
+        "Level 2": "Livello 2",
+        "Level 3": "Livello 3",
+        "Level 4": "Livello 4",
+        "Level 5": "Livello 5",
+        "Level 6": "Livello 6",
+        "Level 7": "Livello 7",
+        "Level 8": "Livello 8",
+        "Level 9": "Livello 9",
+        "Midnight": "Mezzanotte",
+        "Sage": "Saggezza",
+        "Splendor": "Splendore",
+        "Valor": "Valore"
+    },
+    "entries": {
+        "A Soldier’s Bond": {
+            "name": "Cameratismo",
+            "description": "<p>Una volta per ogni riposo lungo, quando vi complimentate con qualcuno o discutete di ciò in cui eccelle, entrambi potete ottenere 3 Speranze.</p>",
+            "actions": {
+                "7Tcn3wYxEIGEfbJ5": {
+                    "name": "Ottieni 3 Speranze",
+                    "description": "<p>Una volta per ogni riposo lungo, quando vi complimentate con qualcuno o discutete di ciò in cui eccelle, entrambi potete ottenere 3 Speranze.</p>"
+                }
+            }
+        },
+        "Adjust Reality": {
+            "name": "Piegare la Realtà",
+            "description": "<p>Dopo che voi o un alleato consenziente avete effettuato un tiro, potete <strong>spendere 5 Speranze</strong> per cambiare il risultato numerico di quel tiro con un risultato a scelta. Il risultato deve essere compreso tra quelli ottenibili in base al tipo di dado lanciato.</p>",
+            "actions": {
+                "3Aiqds9jVXdlWmfm": {
+                    "name": "Spendere 5 Speranze",
+                    "description": "<p>Dopo che voi o un alleato consenziente avete effettuato un tiro, potete <strong>spendere 5 Speranze</strong> per cambiare il risultato numerico di quel tiro con un risultato a scelta. Il risultato deve essere compreso tra quelli ottenibili in base al tipo di dado lanciato.</p>"
+                }
+            }
+        },
+        "Arcana-Touched": {
+            "name": "Padronanza dell’Arcano",
+            "description": "<p>Quando 4 o più carte dominio nella vostra dotazione appartengono al dominio Arcano, ottenete i seguenti benefici:</p><ul><li><p>Bonus +1 ai Tiri Incantesimo</p></li><li><p>Una volta per riposo, potete scambiare i risultati dei vostri Dadi Speranza e Paura.</p></li></ul>",
+            "effects": {
+                "vTW98Xha0HP8ITrs": {
+                    "name": "Padronanza dell’Arcano",
+                    "description": "<p>Quando 4 o più carte dominio nella vostra dotazione appartengono al dominio Arcano, ottenete i seguenti benefici:</p><ul><li><p>Bonus +1 ai Tiri Incantesimo</p></li><li><p>Una volta per riposo, potete scambiare i risultati dei vostri Dadi Speranza e Paura.</p></li></ul>"
+                }
+            },
+            "actions": {
+                "hBh4Lt0Bdd9CtJY7": {
+                    "name": "Scambiare i Dadi della Dualità",
+                    "description": "<p>Una volta per riposo, potete scambiare i risultati dei vostri Dadi Speranza e Paura.</p>"
+                }
+            }
+        },
+        "Arcane Reflection": {
+            "name": "Riflesso Arcano",
+            "description": "<p>Quando subite danni magici, potete <strong>spendere un numero qualsiasi di Speranze</strong> per tirare altrettanti <strong>d6</strong>. Se uno qualsiasi ottiene un 6, l’attacco viene riflesso contro il lanciatore, infliggendo invece i danni a lui.</p>",
+            "actions": {
+                "45ywf6Juwz4mmn9j": {
+                    "name": "Riflettere l'attacco",
+                    "description": "<p>Quando subite danni magici, potete <strong>spendere un numero qualsiasi di Speranze</strong> per tirare altrettanti <strong>d6</strong>. Se uno qualsiasi ottiene un 6, l’attacco viene riflesso contro il lanciatore, infliggendo invece i danni a lui.</p>"
+                }
+            }
+        },
+        "Armorer": {
+            "name": "Armaiolo",
+            "description": "<p>Mentre indossate un’armatura, ottenete bonus +1 al Punteggio di Armatura.</p><p>Durante un riposo, quando scegliete di riparare la vostra armatura con una mossa di interludio, anche i vostri alleati riparano una Casella Armatura.</p>",
+            "effects": {
+                "cED730OjuMW5haJR": {
+                    "name": "Armaiolo",
+                    "description": "<p>Mentre indossate un’armatura, ottenete bonus +1 al Punteggio di Armatura.</p>"
+                }
+            },
+            "actions": {
+                "Z864RtY6fR5Cnrx9": {
+                    "name": "Riparare l'armatura",
+                    "description": "<p>Durante un riposo, quando scegliete di riparare la vostra armatura con una mossa di interludio, anche i vostri alleati riparano una Casella Armatura.</p>"
+                }
+            }
+        },
+        "Astral Projection": {
+            "name": "Proiezione Astrale",
+            "description": "<p>Una volta per ogni riposo lungo, <strong>marcate uno Stress</strong> per creare una copia proiettata di voi stessi che può apparire in qualsiasi luogo voi siate stati in precedenza.</p><p>Potete vedere e sentire attraverso la copia come se foste al suo posto e influenzare il mondo come se vi trovaste in quel luogo. Una creatura che esamina la copia può capire che si tratta di un fenomeno magico. Questo effetto dura fino al vostro prossimo riposo o fino a quando la copia subisce danni.</p>",
+            "actions": {
+                "jhEOXtmSiwm4AX1R": {
+                    "name": "Proiettare",
+                    "description": "<p>Una volta per ogni riposo lungo, <strong>marcate uno Stress</strong> per creare una copia proiettata di voi stessi che può apparire in qualsiasi luogo voi siate stati in precedenza.</p><p>Potete vedere e sentire attraverso la copia come se foste al suo posto e influenzare il mondo come se vi trovaste in quel luogo. Una creatura che esamina la copia può capire che si tratta di un fenomeno magico. Questo effetto dura fino al vostro prossimo riposo o fino a quando la copia subisce danni.</p>"
+                }
+            }
+        },
+        "Banish": {
+            "name": "Esilio",
+            "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio entro distanza Ravvicinata. In caso di successo, tirate un numero di <strong>d20</strong> pari al vostro tratto da Incantatore. Il bersaglio deve effettuare un Tiro Reazione contro una Difficoltà pari al vostro risultato più alto. In caso di successo, il bersaglio marca uno Stress ma non viene esiliato. In caso di fallimento, una volta per riposo, viene invece esiliato da questo regno.</p><p>Quando i PG tirano con Paura, la Difficoltà ottiene penalità −1 e il bersaglio effettua un secondo Tiro Reazione. In caso di successo, riesce a tornare dall’esilio.</p>",
+            "actions": {
+                "pgBalKb5NeRFQ9rt": {
+                    "name": "Tiro Incantesimo",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio entro distanza Ravvicinata. In caso di successo, tirate un numero di <strong>d20</strong> pari al vostro tratto da Incantatore. Il bersaglio deve effettuare un Tiro Reazione contro una Difficoltà pari al vostro risultato più alto. In caso di successo, il bersaglio marca uno Stress ma non viene esiliato. In caso di fallimento, una volta per riposo, viene invece esiliato da questo regno.</p><p>Quando i PG tirano con Paura, la Difficoltà ottiene penalità −1 e il bersaglio effettua un secondo Tiro Reazione. In caso di successo, riesce a tornare dall’esilio.</p>"
+                }
+            }
+        },
+        "Bare Bones": {
+            "name": "A Petto Nudo",
+            "description": "<p>Quando scegliete di non indossare un’armatura, avete un Punteggio di Armatura base pari a 3 + la vostra Forza e utilizzate i seguenti valori come soglie di danno base:</p><ul><li><em><strong>Rango 1:</strong></em> 9/19</li><li><em><strong>Rango 2:</strong></em> 11/24</li><li><em><strong>Rango 3:</strong></em> 13/31</li><li><em><strong>Rango 4:</strong></em> 15/38</li></ul><p>Equipaggiate l'armatura sottostante per usare A Petto Nudo.</p><p>@UUID[Compendium.daggerheart.armors.Item.ITAjcigTcUw5pMCN]</p>"
+        },
+        "Battle Cry": {
+            "name": "Grido di Battaglia",
+            "description": "<p>Una volta per ogni riposo lungo, mentre caricate verso il pericolo, potete lanciare un grido che ispira gli alleati. Tutti gli alleati che possono sentirlo rimuovono uno Stress e ottengono una Speranza. Inoltre, gli alleati ottengono vantaggio sui tiri attacco finché voi o un alleato non fallite un tiro con Paura.</p>",
+            "effects": {
+                "s7ma4TNgAvt0ZgEW": {
+                    "name": "Grido di Battaglia",
+                    "description": ""
+                }
+            },
+            "actions": {
+                "jakoB9n8KSgvYVZv": {
+                    "name": "Recuperare 1 Stress e 1 Speranza",
+                    "description": "<p>Una volta per ogni riposo lungo, mentre caricate verso il pericolo, potete lanciare un grido che ispira gli alleati. Tutti gli alleati che possono sentirlo rimuovono uno Stress e ottengono una Speranza. Inoltre, gli alleati ottengono vantaggio sui tiri attacco finché voi o un alleato non fallite un tiro con Paura.</p>"
+                }
+            }
+        },
+        "Battle-Hardened": {
+            "name": "Temprato dalla Battaglia",
+            "description": "<p>Una volta per riposo lungo, quando dovreste effettuare una Mossa Finale, potete <strong>spendere una Speranza</strong> per recuperare un Punto Ferita al suo posto.</p>",
+            "actions": {
+                "iucXKML1P8Q7nmcp": {
+                    "name": "Spendere 1 Speranza",
+                    "description": "<p>Una volta per riposo lungo, quando dovreste effettuare una Mossa Finale, potete <strong>spendere una Speranza</strong> per recuperare un Punto Ferita al suo posto.</p>"
+                }
+            }
+        },
+        "Battle Monster": {
+            "name": "Mastino della Guerra",
+            "description": "<p>Quando effettuate un attacco con successo contro un avversario, potete <strong>marcare 4 Stress</strong> per costringere il bersaglio a subire un numero di Punti Ferita pari al numero di Punti Ferita che avete attualmente subito invece di tirare per i danni.</p>",
+            "actions": {
+                "lekCIrTCQ2FhwGd1": {
+                    "name": "Marcare 4 Stress",
+                    "description": "<p>Quando effettuate un attacco con successo contro un avversario, potete <strong>marcare 4 Stress</strong> per costringere il bersaglio a subire un numero di Punti Ferita pari al numero di Punti Ferita che avete attualmente subito invece di tirare per i danni.</p>"
+                }
+            }
+        },
+        "Blade-Touched": {
+            "name": "Padronanza della Lama",
+            "description": "<p>Quando 4 o più carte dominio nella vostra dotazione appartengono al dominio delle Lame, ottenete i seguenti benefici:</p><ul><li><p>Bonus +2 ai tiri attacco</p></li><li><p>Bonus +4 alla soglia di danno Grave</p></li></ul>",
+            "effects": {
+                "fBpLkCWGsB8MbymR": {
+                    "name": "Padronanza della Lama",
+                    "description": ""
+                }
+            }
+        },
+        "Blink Out": {
+            "name": "Intermittenza",
+            "description": "<p>Effettuate un <strong>Tiro Incantesimo (12)</strong>. In caso di successo, <strong>spendete una Speranza</strong> per teletrasportarvi in un altro punto visibile entro distanza Lontana. Se altri vogliono seguirvi e si trovano entro distanza Ravvicinata, <strong>spendete una Speranza aggiuntiva</strong> per ciascuna creatura per portarla con voi.</p>",
+            "actions": {
+                "LsAdmSinOiNr9jH8": {
+                    "name": "Teletrasporto",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo (12)</strong>. In caso di successo, <strong>spendete una Speranza</strong> per teletrasportarvi in un altro punto visibile entro distanza Lontana. Se altri vogliono seguirvi e si trovano entro distanza Ravvicinata, <strong>spendete una Speranza aggiuntiva</strong> per ciascuna creatura per portarla con voi.</p>"
+                }
+            }
+        },
+        "Body Basher": {
+            "name": "A Peso Morto",
+            "description": "<p>Usate tutta la forza del vostro corpo in combattimento. In un attacco riuscito con un’arma a portata di Mischia, ottenete un bonus al tiro di danno pari alla vostra Forza.</p>",
+            "effects": {
+                "8uOMyEczlY2OrKau": {
+                    "name": "A Peso Morto",
+                    "description": "<p>In un attacco riuscito con un’arma a portata di Mischia, ottenete un bonus al tiro di danno pari alla vostra Forza.</p>"
+                }
+            }
+        },
+        "Bold Presence": {
+            "name": "Audacia",
+            "description": "<p>Quando effettuate un Tiro Presenza, potete <strong>spendere una Speranza</strong> per aggiungere la vostra Forza al tiro.</p><p>Inoltre, una volta per riposo, quando otterreste una condizione, potete descrivere come la vostra audacia vi aiuta e non subire tale condizione.</p>",
+            "effects": {
+                "2XEYhuAcRGTtqvED": {
+                    "name": "Audacia",
+                    "description": "<p>Aggiungete la vostra Forza al Tiro Presenza.</p>"
+                }
+            },
+            "actions": {
+                "GYXo5c2OYS3v1UBA": {
+                    "name": "Spendere 1 Speranza",
+                    "description": "<p>Quando effettuate un Tiro Presenza, potete <strong>spendere una Speranza</strong> per aggiungere la vostra Forza al tiro.</p>"
+                },
+                "OdRTXMOXhZFiZHES": {
+                    "name": "Evitare una condizione",
+                    "description": "<p>Inoltre, una volta per riposo, quando otterreste una condizione, potete descrivere come la vostra audacia vi aiuta e non subire tale condizione.</p>"
+                }
+            }
+        },
+        "Bolt Beacon": {
+            "name": "Dardo Tracciante",
+            "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio entro distanza Lontana. In caso di successo, <strong>spendete una Speranza</strong> per lanciare un raggio di luce scintillante verso il bersaglio, infliggendo <strong>d8+2</strong> danni magici applicando la vostra Competenza. Il bersaglio diventa temporaneamente <em>Vulnerabile</em> e brilla intensamente fino a quando questa condizione non viene rimossa.</p>",
+            "effects": {
+                "veZpnhnF8NRRhKG4": {
+                    "name": "Vulnerabile",
+                    "description": "<p>Il bersaglio diventa temporaneamente <em>Vulnerabile</em> e brilla intensamente fino a quando questa condizione non viene rimossa.</p>"
+                }
+            },
+            "actions": {
+                "zrGLlwmpuUIBrSXy": {
+                    "name": "Lanciare",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio entro distanza Lontana. In caso di successo, <strong>spendete una Speranza</strong> per lanciare un raggio di luce scintillante verso il bersaglio, infliggendo <strong>d8+2</strong> danni magici applicando la vostra Competenza. Il bersaglio diventa temporaneamente <em>Vulnerabile</em> e brilla intensamente fino a quando questa condizione non viene rimossa.</p>"
+                }
+            }
+        },
+        "Bone-Touched": {
+            "name": "Padronanza delle Ossa",
+            "description": "<p>Quando 4 o più carte dominio nella vostra dotazione appartengono al dominio delle Ossa, ottenete i seguenti benefici:</p><ul><li><p>Bonus +1 all’Agilità</p></li><li><p>Una volta per riposo, potete <strong>spendere 3 Speranze</strong> per far fallire un attacco che vi avrebbe colpito.</p></li></ul>",
+            "effects": {
+                "P6hYkkI64FqIcMoP": {
+                    "name": "Padronanza delle Ossa",
+                    "description": "<p>Bonus +1 all’Agilità</p>"
+                }
+            },
+            "actions": {
+                "pRSiIoh4Bzk5I9ej": {
+                    "name": "Spendere 3 Speranze",
+                    "description": "<p>Una volta per riposo, potete <strong>spendere 3 Speranze</strong> per far fallire un attacco che vi avrebbe colpito.</p>"
+                }
+            }
+        },
+        "Book of Ava": {
+            "name": "Tomo di Ava",
+            "description": "<p><em><strong>Spinta Magica:</strong></em> Effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio entro distanza di Mischia. In caso di successo, il bersaglio viene respinto fino a distanza Lontana e subisce <strong>d10+2</strong> danni magici pari alla vostra Competenza.</p><p><em><strong>Armatura di Tava:</strong></em> <strong>Spendete una Speranza</strong> per conferire a un bersaglio che potete toccare bonus +1 al suo Punteggio di Armatura fino al suo prossimo riposo o fino a quando non lanciate nuovamente Armatura di Tava.</p><p><em><strong>Spunzone di Ghiaccio:</strong></em> Effettuate un <strong>Tiro Incantesimo (12)</strong> per evocare una grande punta di ghiaccio entro distanza Lontana. Se la usate come arma, effettuate invece il Tiro Incantesimo contro la Difficoltà del bersaglio. In caso di successo, infliggete <strong>d6</strong> danni fisici applicando la vostra Competenza.</p>",
+            "effects": {
+                "LdcT1nrkd5ORCU4n": {
+                    "name": "Armatura di Tava",
+                    "description": "<p>Bonus +1 al Punteggio di Armatura fino al prossimo riposo o fino a quando il lanciatore non lancia nuovamente Armatura di Tava.</p>"
+                }
+            },
+            "actions": {
+                "jX4wg2HR2xkdtbIU": {
+                    "name": "Spinta Magica",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio entro distanza di Mischia. In caso di successo, il bersaglio viene respinto fino a distanza Lontana e subisce <strong>d10+2</strong> danni magici pari alla vostra Competenza.</p>"
+                },
+                "4N7ViDYt9Na3zwzi": {
+                    "name": "Armatura di Tava",
+                    "description": "<p><strong>Spendete una Speranza</strong> per conferire a un bersaglio che potete toccare bonus +1 al suo Punteggio di Armatura fino al suo prossimo riposo o fino a quando non lanciate nuovamente Armatura di Tava.</p>"
+                },
+                "XU1joyIDFZrQiToF": {
+                    "name": "Spunzone di Ghiaccio",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo (12)</strong> per evocare una grande punta di ghiaccio entro distanza Lontana. Se la usate come arma, effettuate invece il Tiro Incantesimo contro la Difficoltà del bersaglio. In caso di successo, infliggete <strong>d6</strong> danni fisici applicando la vostra Competenza.</p>"
+                },
+                "enit3ZkPp0nY5lN1": {
+                    "name": "Spunzone di Ghiaccio (Attacco)",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo (12)</strong> per evocare una grande punta di ghiaccio entro distanza Lontana. Se la usate come arma, effettuate invece il Tiro Incantesimo contro la Difficoltà del bersaglio. In caso di successo, infliggete <strong>d6</strong> danni fisici applicando la vostra Competenza.</p>"
+                }
+            }
+        },
+        "Book of Exota": {
+            "name": "Tomo di Exota",
+            "description": "<p><em><strong>Ripudiare:</strong></em> Potete interrompere un effetto magico in atto. Effettuate un <strong>Tiro Reazione</strong> usando il vostro tratto da Incantatore. Una volta per riposo, in caso di successo, l’effetto si interrompe e tutte le conseguenze vengono evitate.</p><p><em><strong>Creare Costrutto:</strong></em> <strong>Spendete una Speranza</strong> per scegliere un gruppo di oggetti intorno a voi e creare un costrutto animato che obbedisce a comandi di base. Effettuate un <strong>Tiro Incantesimo</strong> per dargli ordini. Se necessario, condivide la vostra Evasione e i vostri tratti e i suoi attacchi infliggono <strong>2d10+3</strong> danni fisici. Potete mantenere solo un costrutto alla volta e questo si disintegra quando subisce danni.</p>",
+            "actions": {
+                "6eioK8CoAPfObBP2": {
+                    "name": "Ripudiare",
+                    "description": "<p>Potete interrompere un effetto magico in atto. Effettuate un <strong>Tiro Reazione</strong> usando il vostro tratto da Incantatore. Una volta per riposo, in caso di successo, l’effetto si interrompe e tutte le conseguenze vengono evitate.</p>"
+                },
+                "6JWhxevxbL0sOcbv": {
+                    "name": "Creare Costrutto",
+                    "description": "<p><strong>Spendete una Speranza</strong> per scegliere un gruppo di oggetti intorno a voi e creare un costrutto animato che obbedisce a comandi di base.</p>"
+                },
+                "MGVKJ8wVac1v8eJv": {
+                    "name": "Costrutto (Azione)",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> per dare ordini al costrutto. Se necessario, condivide la vostra Evasione e i vostri tratti e i suoi attacchi infliggono <strong>2d10+3</strong> danni fisici. Potete mantenere solo un costrutto alla volta e questo si disintegra quando subisce danni.</p>"
+                }
+            }
+        },
+        "Book of Grynn": {
+            "name": "Tomo di Grynn",
+            "description": "<p><em><strong>Deflessione Arcana:</strong></em> Una volta per ogni riposo lungo, <strong>spendete una Speranza</strong> per annullare i danni di un attacco che vi ha come bersaglio o un alleato a distanza Ravvicinata.</p><p><em><strong>Cronolucchetto:</strong></em> Scegliete un oggetto a distanza Lontana. Questo oggetto è congelato nel tempo e nello spazio fino al vostro prossimo riposo. Se una creatura cerca di spostarlo, effettuate un <strong>Tiro Incantesimo</strong> contro di essa per mantenere l'incantesimo.</p><p><em><strong>Muro di Fiamme:</strong></em> Effettuate un <strong>Tiro Incantesimo (15)</strong>. In caso di successo, create un muro di fiamme magiche tra due punti a distanza Lontana. Tutte le creature sul suo passaggio devono scegliere da che lato stare. Qualsiasi creatura che attraversi il muro in seguito subisce <strong>4d10+3</strong> danni magici.</p>",
+            "actions": {
+                "2pyqgdVZDCUQPYaj": {
+                    "name": "Deflessione Arcana",
+                    "description": "<p>Una volta per ogni riposo lungo, <strong>spendete una Speranza</strong> per annullare i danni di un attacco che vi ha come bersaglio o un alleato a distanza Ravvicinata.</p>"
+                },
+                "0vUkyQiGHTFS3Api": {
+                    "name": "Cronolucchetto",
+                    "description": "<p>Scegliete un oggetto a distanza Lontana. Questo oggetto è congelato nel tempo e nello spazio fino al vostro prossimo riposo. Se una creatura cerca di spostarlo, effettuate un <strong>Tiro Incantesimo</strong> contro di essa per mantenere l'incantesimo.</p>"
+                },
+                "K26kfjmTEH9zPMMO": {
+                    "name": "Muro di Fiamme",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo (15)</strong>. In caso di successo, create un muro di fiamme magiche tra due punti a distanza Lontana. Tutte le creature sul suo passaggio devono scegliere da che lato stare. Qualsiasi creatura che attraversi il muro in seguito subisce <strong>4d10+3</strong> danni magici.</p><p>@Template[type:ray|range:f]</p>"
+                }
+            }
+        },
+        "Book of Homet": {
+            "name": "Tomo di Homet",
+            "description": "<p><em><strong>Oltrepassare:</strong></em> Effettuate un <strong>Tiro Incantesimo (13)</strong>. Una volta per riposo, in caso di successo, voi e tutte le creature che vi toccano potete attraversare un muro o una porta a distanza Prossima. L'effetto termina quando tutti si trovano dall'altra parte.</p><p><em><strong>Portale Dimensionale:</strong></em> Effettuate un <strong>Tiro Incantesimo (14)</strong>. Una volta per riposo lungo, in caso di successo, aprite un portale verso un luogo in un altro piano o dimensione che avete già visitato. Il portale rimane aperto fino al vostro prossimo riposo.</p>",
+            "actions": {
+                "4cKqwH2jWsYylzI7": {
+                    "name": "Oltrepassare",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo (13)</strong>. Una volta per riposo, in caso di successo, voi e tutte le creature che vi toccano potete attraversare un muro o una porta a distanza Prossima. L'effetto termina quando tutti si trovano dall'altra parte.</p>"
+                },
+                "RTUxVXUyRM6mNwUX": {
+                    "name": "Portale Dimensionale",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo (14)</strong>. Una volta per riposo lungo, in caso di successo, aprite un portale verso un luogo in un altro piano o dimensione che avete già visitato. Il portale rimane aperto fino al vostro prossimo riposo.</p>"
+                }
+            }
+        },
+        "Book of Illiat": {
+            "name": "Tomo di Illiat",
+            "description": "<p><em><strong>Sonno:</strong></em> Effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio a distanza Ravvicinata. In caso di successo, si addormenta finché non subisce danni o il GM spende una <strong>Paura</strong> durante il suo turno per rimuovere questa condizione.</p><p><em><strong>Raffica Arcana:</strong></em> Una volta per riposo, <strong>spendete un numero qualsiasi di Speranze</strong> e lanciate dardi magici su un bersaglio a vostra scelta a distanza Prossima. Tirate un numero di <strong>d6</strong> pari alle Speranze spese e infliggete il totale come danni magici al bersaglio.</p><p><em><strong>Telepatia:</strong></em> <strong>Spendete una Speranza</strong> per stabilire una comunicazione mentale con un bersaglio che potete vedere. Questa connessione dura fino al vostro prossimo riposo o finché non lanciate di nuovo Telepatia.</p>",
+            "effects": {
+                "zAEaETYSOE2fmcyB": {
+                    "name": "Telepatia",
+                    "description": "<p>Dura fino al vostro prossimo riposo o finché non lanciate di nuovo Telepatia.</p>"
+                },
+                "gfZTHSgwYSDKsePW": {
+                    "name": "Addormentato",
+                    "description": "<p>Il bersaglio è addormentato finché non subisce danni o il GM spende una <strong>Paura</strong> durante il suo turno per rimuovere questa condizione.</p>"
+                }
+            },
+            "actions": {
+                "gd4zjBV1UvXhgAid": {
+                    "name": "Sonno",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio a distanza Ravvicinata. In caso di successo, si addormenta finché non subisce danni o il GM spende una <strong>Paura</strong> durante il suo turno per rimuovere questa condizione.</p>"
+                },
+                "tOHoeUFjdPw2TGrw": {
+                    "name": "Raffica Arcana",
+                    "description": "<p>Una volta per riposo, <strong>spendete un numero qualsiasi di Speranze</strong> e lanciate dardi magici su un bersaglio a vostra scelta a distanza Prossima. Tirate un numero di <strong>d6</strong> pari alle Speranze spese e infliggete il totale come danni magici al bersaglio.</p>"
+                },
+                "Ya1vttriJRLbuyhk": {
+                    "name": "Telepatia",
+                    "description": "<p><strong>Spendete una Speranza</strong> per stabilire una comunicazione mentale con un bersaglio che potete vedere. Questa connessione dura fino al vostro prossimo riposo o finché non lanciate di nuovo Telepatia.</p>"
+                }
+            }
+        },
+        "Book of Korvax": {
+            "name": "Tomo di Korvax",
+            "description": "<p><em><strong>Lievitazione:</strong></em> Effettuate un <strong>Tiro Incantesimo</strong> per sollevare temporaneamente in aria un bersaglio che vedete e spostarlo a distanza Prossima dalla sua posizione originaria.</p><p><em><strong>Oblio:</strong></em> <strong>Spendete una Speranza</strong> per costringere un bersaglio a distanza di Mischia a effettuare un <strong>Tiro Reazione (15)</strong>. In caso di fallimento, dimentica l'ultimo minuto della vostra conversazione.</p><p><em><strong>Cerchio Runico:</strong></em> <strong>Marcate uno Stress</strong> per creare un cerchio magico temporaneo sul terreno dove vi trovate. Tutti gli avversari a distanza di Mischia, o che vi entrano, subiscono <strong>2d12+4</strong> danni magici e vengono respinti a distanza Ravvicinata.</p>",
+            "actions": {
+                "fgBLkAtuv9okxUd4": {
+                    "name": "Lievitazione",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> per sollevare temporaneamente in aria un bersaglio che vedete e spostarlo a distanza Prossima dalla sua posizione originaria.</p>"
+                },
+                "m4y7KXhjVNT30wUT": {
+                    "name": "Oblio",
+                    "description": "<p><strong>Spendete una Speranza</strong> per costringere un bersaglio a distanza di Mischia a effettuare un <strong>Tiro Reazione (15)</strong>. In caso di fallimento, dimentica l'ultimo minuto della vostra conversazione.</p>"
+                },
+                "fb2HYD9J759nHKhV": {
+                    "name": "Cerchio Runico",
+                    "description": "<p><strong>Marcate uno Stress</strong> per creare un cerchio magico temporaneo sul terreno dove vi trovate. Tutti gli avversari a distanza di Mischia, o che vi entrano, subiscono <strong>2d12+4</strong> danni magici e vengono respinti a distanza Ravvicinata.</p><p>@Template[type:emanation|range:m]</p>"
+                }
+            }
+        },
+        "Book of Norai": {
+            "name": "Tomo di Norai",
+            "description": "<p><em><strong>Legame Mistico:</strong></em> Effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio a distanza Lontana. In caso di successo, viene temporaneamente <em>Trattenuto</em> e deve marcare uno Stress. Se bersagliate una creatura volante, questo incantesimo la fa precipitare e la Trattiene temporaneamente.</p><p><em><strong>Palla di Fuoco:</strong></em> Effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio a distanza Remota. In caso di successo, lanciate una sfera di fuoco che esplode all'impatto. Il bersaglio e tutte le creature a distanza Ravvicinata da esso devono superare un <strong>Tiro Reazione (13)</strong>. Chi fallisce subisce <strong>d20+5</strong> danni magici applicando la vostra Competenza. Chi ha successo subisce metà dei danni.</p>",
+            "effects": {
+                "iPnT02apql16Zhjf": {
+                    "name": "Legame Mistico (Trattenuto)",
+                    "description": "<p>Il bersaglio è temporaneamente Trattenuto.</p>"
+                }
+            },
+            "actions": {
+                "ywBVT5mbDKr485Jg": {
+                    "name": "Legame Mistico",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio a distanza Lontana. In caso di successo, viene temporaneamente <em>Trattenuto</em> e deve marcare uno Stress. Se bersagliate una creatura volante, questo incantesimo la fa precipitare e la Trattiene temporaneamente.</p>"
+                },
+                "GI2VkIcGDOjFRxpT": {
+                    "name": "Palla di Fuoco",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio a distanza Remota. In caso di successo, lanciate una sfera di fuoco che esplode all'impatto. Il bersaglio e tutte le creature a distanza Ravvicinata da esso devono superare un <strong>Tiro Reazione (13)</strong>. Chi fallisce subisce <strong>d20+5</strong> danni magici applicando la vostra Competenza. Chi ha successo subisce metà dei danni.</p><p>@Template[type:emanation|range:vc]</p>"
+                }
+            }
+        },
+        "Book of Ronin": {
+            "name": "Tomo di Ronin",
+            "description": "<p><em><strong>Trasformazione:</strong></em> Effettuate un <strong>Tiro Incantesimo (15)</strong>. In caso di successo, vi trasformate in un oggetto inanimato grande al massimo il doppio di voi. Potete mantenere questa forma finché non subite danni.</p><p><em><strong>Snervamento Eterno:</strong></em> Una volta per riposo lungo, effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio a distanza Prossima. In caso di successo, diventa permanentemente <em>Vulnerabile</em>. Questa condizione non può essere rimossa in alcun modo.</p>",
+            "effects": {
+                "ntQfpTcXyEL76vCK": {
+                    "name": "Trasformazione",
+                    "description": "<p>Siete trasformati in un oggetto inanimato grande al massimo il doppio di voi. Potete mantenere questa forma finché non subite danni.</p>"
+                },
+                "y44r3c91m06WKSiq": {
+                    "name": "Snervamento Eterno (Vulnerabile)",
+                    "description": "<p>Il bersaglio è permanentemente <em>Vulnerabile</em>. Questa condizione non può essere rimossa in alcun modo.</p>"
+                }
+            },
+            "actions": {
+                "etnR1OKzpLWrx2os": {
+                    "name": "Trasformazione",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo (15)</strong>. In caso di successo, vi trasformate in un oggetto inanimato grande al massimo il doppio di voi. Potete mantenere questa forma finché non subite danni.</p>"
+                },
+                "h7i4ZuDYuYLnjze6": {
+                    "name": "Snervamento Eterno",
+                    "description": "<p>Una volta per riposo lungo, effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio a distanza Prossima. In caso di successo, diventa permanentemente <em>Vulnerabile</em>. Questa condizione non può essere rimossa in alcun modo.</p>"
+                }
+            }
+        },
+        "Book of Sitil": {
+            "name": "Tomo di Sitil",
+            "description": "<p><em><strong>Alterare l'Aspetto:</strong></em> Modificate magicamente il vostro aspetto e i vostri vestiti per evitare di essere riconosciuti.</p><p><em><strong>Parallelo:</strong></em> <strong>Spendete 2 Speranze</strong> per lanciare questo incantesimo su voi stessi o su un alleato a distanza Prossima. La prossima volta che il bersaglio attacca, può colpire un bersaglio aggiuntivo a portata se il suo tiro per colpire ha successo anche contro di esso. Potete mantenere questo incantesimo solo su una creatura alla volta.</p><p><em><strong>Illusione:</strong></em> Effettuate un <strong>Tiro Incantesimo (14)</strong>. In caso di successo, create un'illusione visiva temporanea, non più grande di voi, a distanza Prossima, che dura finché la guardate. Resiste a qualsiasi esame finché un osservatore non si avvicina a distanza di Mischia.</p>",
+            "effects": {
+                "klUaU5KeQCu7KCBI": {
+                    "name": "Parallelo",
+                    "description": "<p>La prossima volta che attaccate, potete colpire un bersaglio aggiuntivo a portata se il vostro tiro per colpire ha successo anche contro di esso.</p>"
+                },
+                "wnrHSvvB6pydTVcC": {
+                    "name": "Alterare l'Aspetto",
+                    "description": "<p>Modificate magicamente il vostro aspetto e i vostri vestiti per evitare di essere riconosciuti.</p>"
+                }
+            },
+            "actions": {
+                "cc1ahwawL16OEu2r": {
+                    "name": "Alterare l'Aspetto",
+                    "description": "<p>Modificate magicamente il vostro aspetto e i vostri vestiti per evitare di essere riconosciuti.</p>"
+                },
+                "wBQkw3P4Esj6kOx2": {
+                    "name": "Parallelo",
+                    "description": "<p><strong>Spendete 2 Speranze</strong> per lanciare questo incantesimo su voi stessi o su un alleato a distanza Prossima. La prossima volta che il bersaglio attacca, può colpire un bersaglio aggiuntivo a portata se il suo tiro per colpire ha successo anche contro di esso. Potete mantenere questo incantesimo solo su una creatura alla volta.</p>"
+                },
+                "rsyxORrTH5oU2DkV": {
+                    "name": "Illusione",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo (14)</strong>. In caso di successo, create un'illusione visiva temporanea, non più grande di voi, a distanza Prossima, che dura finché la guardate. Resiste a qualsiasi esame finché un osservatore non si avvicina a distanza di Mischia.</p>"
+                }
+            }
+        },
+        "Book of Tyfar": {
+            "name": "Tomo di Tyfar",
+            "description": "<p><em><strong>Fiamma Selvaggia:</strong></em> Effettuate un <strong>Tiro Incantesimo</strong> contro un massimo di tre avversari a distanza di Mischia. I bersagli colpiti subiscono <strong>2d6</strong> danni magici e devono marcare uno Stress quando le fiamme scaturiscono dalla vostra mano.</p><p><em><strong>Mano Magica:</strong></em> Evocate una mano magica della vostra stessa taglia e forza a distanza Lontana.</p><p><em><strong>Nebbia Misteriosa:</strong></em> Effettuate un <strong>Tiro Incantesimo (13)</strong> per creare una fitta nebbia temporanea in un'area fissa a distanza Ravvicinata. La nebbia oscura pesantemente la zona e tutto ciò che vi si trova.</p>",
+            "actions": {
+                "E3AnyfI7LDL0z9tT": {
+                    "name": "Fiamma Selvaggia",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> contro un massimo di tre avversari a distanza di Mischia. I bersagli colpiti subiscono <strong>2d6</strong> danni magici e devono marcare uno Stress quando le fiamme scaturiscono dalla vostra mano.</p>"
+                },
+                "MYZWoU0clYEcsYDb": {
+                    "name": "Mano Magica",
+                    "description": "<p>Evocate una mano magica della vostra stessa taglia e forza a distanza Lontana.</p>"
+                },
+                "WQ9XzpbtXl4SmVet": {
+                    "name": "Nebbia Misteriosa",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo (13)</strong> per creare una fitta nebbia temporanea in un'area fissa a distanza Ravvicinata. La nebbia oscura pesantemente la zona e tutto ciò che vi si trova.</p><p>@Template[type:emanation|range:vc]</p>"
+                }
+            }
+        },
+        "Book of Vagras": {
+            "name": "Tomo di Vagras",
+            "description": "<p><em><strong>Sigillo Runico:</strong></em> Effettuate un <strong>Tiro Incantesimo (15)</strong> su un oggetto che toccate e che può essere chiuso (una serratura, un forziere, una scatola). Una volta per riposo, in caso di successo, potete bloccare l'oggetto in modo che possa essere aperto solo dalle creature da voi scelte. Un personaggio in grado di usare la magia, studiando l'incantesimo per un'ora, può infrangerlo.</p><p><em><strong>Porta Arcana:</strong></em> Se non ci sono avversari a distanza di Mischia, effettuate un <strong>Tiro Incantesimo (13)</strong>. In caso di successo, <strong>spendete una Speranza</strong> per creare un portale dalla vostra posizione fino a un punto a distanza Lontana che potete vedere. Si chiude non appena una creatura lo ha attraversato.</p><p><em><strong>Rivelazione:</strong></em> Effettuate un <strong>Tiro Incantesimo</strong>. Se c'è qualcosa di nascosto magicamente a distanza Prossima e il tiro ha successo, viene rivelato.</p>",
+            "actions": {
+                "kfJZdT3F4SH1h1dc": {
+                    "name": "Sigillo Runico",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo (15)</strong> su un oggetto che toccate e che può essere chiuso (una serratura, un forziere, una scatola). Una volta per riposo, in caso di successo, potete bloccare l'oggetto in modo che possa essere aperto solo dalle creature da voi scelte. Un personaggio in grado di usare la magia, studiando l'incantesimo per un'ora, può infrangerlo.</p>"
+                },
+                "Da3zkKkOljZfu5Xb": {
+                    "name": "Porta Arcana",
+                    "description": "<p>Se non ci sono avversari a distanza di Mischia, effettuate un <strong>Tiro Incantesimo (13)</strong>. In caso di successo, <strong>spendete una Speranza</strong> per creare un portale dalla vostra posizione fino a un punto a distanza Lontana che potete vedere. Si chiude non appena una creatura lo ha attraversato.</p>"
+                },
+                "VOOND5icbz1WxUUD": {
+                    "name": "Rivelazione",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong>. Se c'è qualcosa di nascosto magicamente a distanza Prossima e il tiro ha successo, viene rivelato.</p><p>@Template[type:emanation|range:c]</p>"
+                }
+            }
+        },
+        "Book of Vyola": {
+            "name": "Tomo di Vyola",
+            "description": "<p><em><strong>Immersione nella Memoria:</strong></em> Effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio a distanza Lontana. In caso di successo, entrate nella mente del bersaglio e fate una domanda al GM. Il GM descrive i ricordi del bersaglio legati alla risposta.</p><p><em><strong>Chiarezza Condivisa:</strong></em> Una volta per riposo lungo, <strong>spendete una Speranza</strong> per scegliere due creature consenzienti. Quando una di esse dovrebbe marcare uno Stress, le due creature possono decidere chi di loro lo marca. Questo incantesimo dura fino al loro prossimo riposo.</p>",
+            "effects": {
+                "6PPapwuwgKy23oHg": {
+                    "name": "Chiarezza Condivisa",
+                    "description": "<p>Quando dovreste marcare uno Stress, voi e l'altra creatura legata potete decidere chi di voi lo marca. Questo incantesimo dura fino al prossimo riposo.</p>"
+                }
+            },
+            "actions": {
+                "gV6i6Nn6Qolc6PuF": {
+                    "name": "Immersione nella Memoria",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio a distanza Lontana. In caso di successo, entrate nella mente del bersaglio e fate una domanda al GM. Il GM descrive i ricordi del bersaglio legati alla risposta.</p>"
+                },
+                "djZ0hQamdwzvYeKc": {
+                    "name": "Chiarezza Condivisa",
+                    "description": "<p>Una volta per riposo lungo, <strong>spendete una Speranza</strong> per scegliere due creature consenzienti. Quando una di esse dovrebbe marcare uno Stress, le due creature possono decidere chi di loro lo marca. Questo incantesimo dura fino al loro prossimo riposo.</p>"
+                }
+            }
+        },
+        "Book of Yarrow": {
+            "name": "Tomo di Yarrow",
+            "description": "<p><em><strong>Distorsione Temporale:</strong></em> Effettuate un <strong>Tiro Incantesimo (18)</strong>. In caso di successo, il tempo si ferma temporaneamente per tutte le creature a distanza Lontana, tranne voi. Riprende non appena effettuate un <strong>Tiro Azione</strong> contro un'altra creatura.</p><p><em><strong>Immunità Magica:</strong></em> <strong>Spendete 5 Speranze</strong> per diventare immuni ai danni magici fino al vostro prossimo riposo.</p>",
+            "effects": {
+                "HWJYhSegVLeAa3dE": {
+                    "name": "Immunità Magica",
+                    "description": "<p>Siete immuni ai danni magici fino al vostro prossimo riposo.</p>"
+                }
+            },
+            "actions": {
+                "IxoglRervMx9YdVn": {
+                    "name": "Distorsione Temporale",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo (18)</strong>. In caso di successo, il tempo si ferma temporaneamente per tutte le creature a distanza Lontana, tranne voi. Riprende non appena effettuate un <strong>Tiro Azione</strong> contro un'altra creatura.</p><p>@Template[type:emanation|range:f]</p>"
+                },
+                "ZcQfbtGet0KQWjWS": {
+                    "name": "Immunità Magica",
+                    "description": "<p><strong>Spendete 5 Speranze</strong> per diventare immuni ai danni magici fino al vostro prossimo riposo.</p>"
+                }
+            }
+        },
+        "Boost": {
+            "name": "Propulsione",
+            "description": "<p><strong>Marcate uno Stress</strong> per usare un alleato consenziente a distanza Ravvicinata come propulsore. Vi lanciate in aria ed effettuate un attacco aereo contro un bersaglio a distanza Lontana. Avete vantaggio su questo attacco, aggiungete <strong>1d10</strong> al tiro per i danni e terminate il vostro movimento a distanza di Mischia dal bersaglio.</p>",
+            "actions": {
+                "EA3lGjFhJAX1xoT4": {
+                    "name": "Propulsione (Marcate 1 Stress)",
+                    "description": "<p><strong>Marcate uno Stress</strong> per usare un alleato consenziente a distanza Ravvicinata come propulsore. Vi lanciate in aria ed effettuate un attacco aereo contro un bersaglio a distanza Lontana. Avete vantaggio su questo attacco, aggiungete <strong>1d10</strong> al tiro per i danni e terminate il vostro movimento a distanza di Mischia dal bersaglio.</p>"
+                }
+            }
+        },
+        "Brace": {
+            "name": "Prepararsi all'Urto",
+            "description": "<p>Quando usate una Casella Armatura per ridurre i danni in arrivo, potete <strong>marcare uno Stress</strong> per usare una Casella Armatura aggiuntiva.</p>",
+            "effects": {
+                "xSjqLOHfi5lImDHS": {
+                    "name": "Prepararsi all'Urto",
+                    "description": "<p>Quando usate una Casella Armatura per ridurre i danni in arrivo, potete <strong>marcare uno Stress</strong> per usare una Casella Armatura aggiuntiva.</p>"
+                }
+            }
+        },
+        "Breaking Blow": {
+            "name": "Colpo Dirompente",
+            "description": "<p>Quando mettete a segno un attacco, potete <strong>marcare uno Stress</strong> per far sì che il prossimo attacco riuscito contro lo stesso bersaglio infligga <strong>2d12</strong> danni aggiuntivi.</p>",
+            "effects": {
+                "ETIeXRAib3DFBHpX": {
+                    "name": "Colpo Dirompente",
+                    "description": "<p>Il prossimo attacco riuscito contro questo bersaglio infligge <strong>2d12</strong> danni aggiuntivi.</p>"
+                }
+            },
+            "actions": {
+                "aL83OMkU7hSQRlOA": {
+                    "name": "Colpo Dirompente (Marcate 1 Stress)",
+                    "description": "<p>Quando mettete a segno un attacco, potete <strong>marcare uno Stress</strong> per far sì che il prossimo attacco riuscito contro lo stesso bersaglio infligga <strong>2d12</strong> danni aggiuntivi.</p>"
+                }
+            }
+        },
+        "Chain Lightning": {
+            "name": "Catena di Fulmini",
+            "description": "<p><strong>Marcate 2 Stress</strong> per effettuare un <strong>Tiro Incantesimo</strong>, scatenando un fulmine contro tutti i bersagli a distanza Prossima. I bersagli colpiti devono effettuare un <strong>Tiro Reazione</strong> con una Difficoltà pari al risultato del vostro Tiro Incantesimo. Chi fallisce subisce <strong>2d8+4</strong> danni magici. Altri avversari non ancora colpiti da Catena di Fulmini che si trovano a distanza Prossima dai bersagli danneggiati in precedenza devono a loro volta effettuare il Tiro Reazione. Chi fallisce subisce <strong>2d8+4</strong> danni magici. La catena continua finché non ci sono più avversari a portata.</p>",
+            "actions": {
+                "2jjOspoj5HGgUBmE": {
+                    "name": "Lanciare Catena di Fulmini",
+                    "description": "<p><strong>Marcate 2 Stress</strong> per effettuare un <strong>Tiro Incantesimo</strong> contro tutti i bersagli a distanza Prossima. I bersagli colpiti devono effettuare un <strong>Tiro Reazione</strong> con una Difficoltà pari al risultato del vostro Tiro Incantesimo. Chi fallisce subisce <strong>2d8+4</strong> danni magici.</p>"
+                },
+                "tRJNO3DVvVYwW3tt": {
+                    "name": "Danni a Catena",
+                    "description": "<p>Altri avversari non ancora colpiti da Catena di Fulmini che si trovano a distanza Prossima dai bersagli danneggiati in precedenza devono a loro volta effettuare il <strong>Tiro Reazione</strong>. Chi fallisce subisce <strong>2d8+4</strong> danni magici. La catena continua finché non ci sono più avversari a portata.</p>"
+                }
+            }
+        },
+        "Champion’s Edge": {
+            "name": "Vantaggio del Campione",
+            "description": "<p>Quando ottenete un successo critico con un attacco, potete <strong>spendere fino a 3 Speranze</strong> e scegliere una delle seguenti opzioni per ogni Speranza spesa:</p><ul><li><p>Recuperate 1 Punto Ferita.</p></li><li><p>Recuperate 1 Casella Armatura.</p></li><li>La creatura bersaglio deve marcare 1 Punto Ferita aggiuntivo.</li></ul><p>Non potete scegliere la stessa opzione più di una volta.</p>",
+            "actions": {
+                "CbKKgf1TboGPZitf": {
+                    "name": "Recuperare 1 PF",
+                    "description": "<p>Quando ottenete un successo critico con un attacco, potete <strong>spendere fino a 3 Speranze</strong> e scegliere una delle seguenti opzioni per ogni Speranza spesa:</p><ul><li><p>Recuperate 1 Punto Ferita.</p></li><li><p>Recuperate 1 Casella Armatura.</p></li><li>La creatura bersaglio deve marcare 1 Punto Ferita aggiuntivo.</li></ul><p>Non potete scegliere la stessa opzione più di una volta.</p>"
+                },
+                "hsI4QDa6Br52P2mc": {
+                    "name": "Recuperare 1 Casella Armatura",
+                    "description": "<p>Potete scegliere questa opzione se avete speso una Speranza per il Vantaggio del Campione.</p>"
+                },
+                "IqLoK4KHMpoTGQIM": {
+                    "name": "Infliggere 1 PF aggiuntivo",
+                    "description": "<p>Potete scegliere questa opzione se avete speso una Speranza per il Vantaggio del Campione.</p>"
+                }
+            }
+        },
+        "Chokehold": {
+            "name": "Presa Soffocante",
+            "description": "<p>Quando vi posizionate dietro a una creatura della vostra taglia o simile, potete <strong>marcare uno Stress</strong> per stringerla in una presa soffocante, rendendola temporaneamente <em>Vulnerabile</em>.</p><p>Quando una creatura attacca un bersaglio <em>Vulnerabile</em> in questo modo, infligge <strong>2d6</strong> danni aggiuntivi.</p>",
+            "effects": {
+                "yzGem7IfViJdAv1H": {
+                    "name": "Presa Soffocante",
+                    "description": "<p>Il bersaglio è temporaneamente <em>Vulnerabile</em>. Quando una creatura lo attacca, infligge <strong>2d6</strong> danni aggiuntivi.</p>"
+                }
+            },
+            "actions": {
+                "QCMkze8rU0VB1VYL": {
+                    "name": "Stringere in una presa soffocante",
+                    "description": "<p>Quando vi posizionate dietro a una creatura della vostra taglia o simile, potete <strong>marcare uno Stress</strong> per stringerla in una presa soffocante, rendendola temporaneamente <em>Vulnerabile</em>.</p>"
+                },
+                "IwiUBldoDTUgT6mh": {
+                    "name": "Danni aggiuntivi",
+                    "description": "<p>Quando una creatura attacca un bersaglio <em>Vulnerabile</em> a causa di questa presa, infligge <strong>2d6</strong> danni aggiuntivi.</p>"
+                }
+            }
+        },
+        "Cinder Grasp": {
+            "name": "Stretta Cinerea",
+            "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio a distanza di Mischia. In caso di successo, il bersaglio prende fuoco all'istante, subisce <strong>1d20+3</strong> danni magici ed è temporaneamente <em>In Fiamme</em>.</p><p>Quando una creatura agisce mentre è <em>In Fiamme</em>, subisce <strong>2d6</strong> danni magici aggiuntivi se sta ancora bruciando alla fine della sua azione.</p>",
+            "effects": {
+                "HNKkaWi507whJuYN": {
+                    "name": "In Fiamme",
+                    "description": "<p>Quando una creatura agisce mentre è <em>In Fiamme</em>, subisce <strong>2d6</strong> danni magici aggiuntivi se sta ancora bruciando alla fine della sua azione.</p>"
+                }
+            },
+            "actions": {
+                "9qebkHgxdWVFhIqd": {
+                    "name": "Lanciare",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio a distanza di Mischia. In caso di successo, il bersaglio prende fuoco all'istante, subisce <strong>1d20+3</strong> danni magici ed è temporaneamente <em>In Fiamme</em>.</p>"
+                },
+                "z9vUmnLXfskowwsc": {
+                    "name": "In Fiamme: Danni",
+                    "description": "<p>Quando una creatura agisce mentre è <em>In Fiamme</em>, subisce <strong>2d6</strong> danni magici aggiuntivi se sta ancora bruciando alla fine della sua azione.</p>"
+                }
+            }
+        },
+        "Cloaking Blast": {
+            "name": "Esplosione Occultante",
+            "description": "<p>Quando ottenete un successo in un <strong>Tiro Incantesimo</strong> per lanciare un altro incantesimo, potete <strong>spendere una Speranza</strong> per diventare <em>Ammantati</em>. Finché siete <em>Ammantati</em>, rimanete invisibili se restate immobili quando un avversario entra in un punto da cui normalmente vi vedrebbe. Non appena vi muovete nella linea di vista di un avversario, o effettuate un attacco, non siete più <em>Ammantati</em>.</p>",
+            "effects": {
+                "twCBqXytmRkMz0kV": {
+                    "name": "Ammantato",
+                    "description": "<p>Finché siete <em>Ammantati</em>, rimanete invisibili se restate immobili quando un avversario entra in un punto da cui normalmente vi vedrebbe. Non appena vi muovete nella linea di vista di un avversario, o effettuate un attacco, non siete più <em>Ammantati</em>.</p>"
+                }
+            },
+            "actions": {
+                "A12J0jyQrOaQoLf7": {
+                    "name": "Ammantarsi",
+                    "description": "<p>Quando ottenete un successo in un <strong>Tiro Incantesimo</strong> per lanciare un altro incantesimo, potete <strong>spendere una Speranza</strong> per diventare <em>Ammantati</em>.</p>"
+                }
+            }
+        },
+        "Codex-Touched": {
+            "name": "Padronanza del Codice",
+            "description": "<p>Quando 4 o più carte dominio nella vostra dotazione appartengono al dominio del Codice, ottenete i seguenti benefici:</p><ul><li>Potete <strong>marcare uno Stress</strong> per aggiungere la vostra Competenza a un <strong>Tiro Incantesimo</strong>.</li><li>Una volta per riposo, potete sostituire questa carta con qualsiasi carta nella vostra Riserva senza pagarne il Costo di Richiamo.</li></ul>",
+            "effects": {
+                "oWs00mBY3onxGjF9": {
+                    "name": "Padronanza del Codice",
+                    "description": "<p>Aggiungete la vostra Competenza a un Tiro Incantesimo.</p>"
+                }
+            },
+            "actions": {
+                "OV23p0uWuzmrQsZi": {
+                    "name": "Marcare 1 Stress",
+                    "description": "<p>Potete <strong>marcare uno Stress</strong> per aggiungere la vostra Competenza a un <strong>Tiro Incantesimo</strong>.</p>"
+                },
+                "TGOGkEzH3HluH6YK": {
+                    "name": "Sostituire la carta",
+                    "description": "<p>Una volta per riposo, potete sostituire questa carta con qualsiasi carta nella vostra Riserva senza pagarne il Costo di Richiamo.</p>"
+                }
+            }
+        },
+        "Confusing Aura": {
+            "name": "Aura Disorientante",
+            "description": "<p>Effettuate un <strong>Tiro Incantesimo (14)</strong>. Una volta per riposo lungo, in caso di successo, create uno strato di illusione attorno al vostro corpo che rende difficile determinare la vostra esatta posizione. <strong>Marcate un qualsiasi numero di Stress</strong> per creare altrettanti strati aggiuntivi. Quando un avversario vi attacca, tirate un numero di <strong>d6</strong> pari al numero di strati attivi. Se almeno un dado ottiene 5 o più, uno strato dell'aura viene distrutto e l'attacco fallisce. Se tutti i dadi ottengono 4 o meno, subite i danni e l'incantesimo termina.</p>",
+            "actions": {
+                "L2hCs7xXO6sD4tUa": {
+                    "name": "Creare il primo strato",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo (14)</strong>. Una volta per riposo lungo, in caso di successo, create uno strato di illusione attorno al vostro corpo che rende difficile determinare la vostra esatta posizione.</p>"
+                },
+                "oB5tyd2a7bmcJJmm": {
+                    "name": "Creare strati aggiuntivi",
+                    "description": "<p><strong>Marcate un qualsiasi numero di Stress</strong> per creare altrettanti strati aggiuntivi di Aura Disorientante.</p>"
+                }
+            }
+        },
+        "Conjure Swarm": {
+            "name": "Evocare Sciame",
+            "description": "<p><em><strong>Coleotteri Corazzati di Tekaira:</strong></em> <strong>Marcate uno Stress</strong> per evocare dei coleotteri corazzati che vi circondano. Quando subite danni, riducetene la gravità di una soglia. Potete <strong>spendere una Speranza</strong> per mantenere i coleotteri attivi dopo aver subito i danni.</p><p><em><strong>Lucciole:</strong></em> Effettuate un <strong>Tiro Incantesimo</strong> contro tutti gli avversari a distanza Ravvicinata. <strong>Spendete una Speranza</strong> per infliggere <strong>2d8+3</strong> danni magici ai bersagli contro cui avete avuto successo.</p>",
+            "effects": {
+                "dImnF8ZT2rVybiIP": {
+                    "name": "Riduzione dei Danni",
+                    "description": "<p>Quando subite danni, riducetene la gravità di una soglia.</p>"
+                }
+            },
+            "actions": {
+                "qygTUSNldYNbP7vN": {
+                    "name": "1 Stress: Coleotteri Corazzati di Tekaira",
+                    "description": "<p><em><strong>Coleotteri Corazzati di Tekaira:</strong></em> <strong>Marcate uno Stress</strong> per evocare dei coleotteri corazzati che vi circondano. Quando subite danni, riducetene la gravità di una soglia.</p>"
+                },
+                "533qzPIjcccpiMey": {
+                    "name": "Mantenere i coleotteri",
+                    "description": "<p>Potete <strong>spendere una Speranza</strong> per mantenere i coleotteri attivi dopo aver subito i danni.</p>"
+                },
+                "nugW0yPOG08pqBAT": {
+                    "name": "Incantesimo: Lucciole",
+                    "description": "<p><em><strong>Lucciole:</strong></em> Effettuate un <strong>Tiro Incantesimo</strong> contro tutti gli avversari a distanza Ravvicinata. <strong>Spendete una Speranza</strong> per infliggere <strong>2d8+3</strong> danni magici ai bersagli contro cui avete avuto successo.</p>"
+                }
+            }
+        },
+        "Conjured Steeds": {
+            "name": "Destrieri Evocati",
+            "description": "<p><strong>Spendete un qualsiasi numero di Speranze</strong> per evocare un pari numero di cavalcature magiche (cavalli, cammelli, elefanti, ecc.) che voi e i vostri alleati potrete cavalcare fino al vostro prossimo riposo lungo o finché non subiscono danni. Queste cavalcature raddoppiano la vostra velocità di movimento via terra e, in situazioni di pericolo, vi permettono di muovervi fino a distanza Lontana senza dover effettuare alcun tiro. Le creature in sella subiscono una penalità di -2 ai tiri attacco, ma ottengono un bonus di +2 ai tiri di danno.</p>",
+            "effects": {
+                "cNSlGBGPKKBNnlH8": {
+                    "name": "In Sella",
+                    "description": "<p>Le creature in sella subiscono una penalità di -2 ai tiri attacco, ma ottengono un bonus di +2 ai tiri di danno.</p>"
+                }
+            },
+            "actions": {
+                "xMIMyRto9jgYLN3S": {
+                    "name": "Evocare destrieri",
+                    "description": "<p><strong>Spendete un qualsiasi numero di Speranze</strong> per evocare un pari numero di cavalcature magiche. Queste cavalcature raddoppiano la vostra velocità di movimento via terra e vi permettono di muovervi fino a distanza Lontana senza tirare. Le creature in sella subiscono una penalità di -2 ai tiri attacco, ma ottengono un bonus di +2 ai tiri di danno.</p>"
+                }
+            }
+        },
+        "Copycat": {
+            "name": "Imitatore",
+            "description": "<p>Una volta per riposo lungo, questa carta può imitare le caratteristiche di un'altra carta dominio di livello 8 o inferiore presente nella dotazione di un altro giocatore. <strong>Spendete un numero di Speranze pari alla metà del livello della carta</strong> (arrotondato per eccesso) per accedere a quelle caratteristiche. L'effetto dura fino al vostro prossimo riposo o finché l'altro giocatore non ripone la carta nella sua Riserva.</p>",
+            "actions": {
+                "RKEceNKiQirYwN45": {
+                    "name": "Imitare",
+                    "description": "<p>Una volta per riposo lungo, questa carta può imitare le caratteristiche di un'altra carta dominio di livello 8 o inferiore presente nella dotazione di un altro giocatore. <strong>Spendete un numero di Speranze pari alla metà del livello della carta</strong> per accedere a quelle caratteristiche. L'effetto dura fino al vostro prossimo riposo o finché l'altro giocatore non ripone la carta nella sua Riserva.</p>"
+                }
+            }
+        },
+        "Corrosive Projectile": {
+            "name": "Proiettile Corrosivo",
+            "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio a distanza Lontana. In caso di successo, infliggete <strong>1d6+4</strong> danni magici applicando la vostra Competenza. Inoltre, potete <strong>marcare 2 o più Stress</strong> per rendere il bersaglio permanentemente <em>Corroso</em>. Finché un bersaglio è <em>Corroso</em>, subisce una penalità di -1 alla sua Difficoltà per ogni 2 Stress che avete speso. Questa condizione è cumulabile.</p>",
+            "effects": {
+                "zB95bjSSdVlApQnR": {
+                    "name": "Corroso (1 strato)",
+                    "description": "<p>Finché un bersaglio è <em>Corroso</em>, subisce una penalità di -1 alla sua Difficoltà per ogni 2 Stress che avete speso. Questa condizione è cumulabile.</p>"
+                }
+            },
+            "actions": {
+                "WqHLiHxP2enmJaHx": {
+                    "name": "Lanciare",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio a distanza Lontana. In caso di successo, infliggete <strong>1d6+4</strong> danni magici applicando la vostra Competenza.</p>"
+                },
+                "maf0whws7wgRnFsH": {
+                    "name": "Corrodere",
+                    "description": "<p>Inoltre, potete <strong>marcare 2 o più Stress</strong> per rendere il bersaglio permanentemente <em>Corroso</em>. Finché un bersaglio è <em>Corroso</em>, subisce una penalità di -1 alla sua Difficoltà per ogni 2 Stress che avete speso.</p>"
+                }
+            }
+        },
+        "Counterspell": {
+            "name": "Controincantesimo",
+            "description": "<p>Potete interrompere un effetto magico in corso effettuando un <strong>Tiro Reazione</strong> utilizzando il vostro tratto da Incantatore. In caso di successo, l'effetto si interrompe ed evitate ogni conseguenza, dopodiché questa carta viene spostata nella vostra Riserva.</p>",
+            "actions": {
+                "SeOcGdKAc7egwg9H": {
+                    "name": "Interrompere",
+                    "description": "<p>Potete interrompere un effetto magico in corso effettuando un <strong>Tiro Reazione</strong> utilizzando il vostro tratto da Incantatore. In caso di successo, l'effetto si interrompe ed evitate ogni conseguenza, dopodiché questa carta viene spostata nella vostra Riserva.</p>"
+                }
+            }
+        },
+        "Critical Inspiration": {
+            "name": "Ispirazione Critica",
+            "description": "<p>Una volta per riposo, quando ottenete un successo critico con un attacco, tutti gli alleati a distanza Ravvicinata possono rimuovere uno Stress o guadagnare una Speranza.</p>",
+            "actions": {
+                "kyPCNwzwrbb3LhWm": {
+                    "name": "Successo Critico",
+                    "description": "<p>Una volta per riposo, quando ottenete un successo critico con un attacco, tutti gli alleati a distanza Ravvicinata possono rimuovere uno Stress o guadagnare una Speranza.</p>"
+                }
+            }
+        },
+        "Cruel Precision": {
+            "name": "Precisione Crudele",
+            "description": "<p>Quando mettete a segno un attacco con un'arma, aggiungete al vostro tiro di danno un bonus pari alla vostra Astuzia o Agilità.</p>",
+            "effects": {
+                "t5D10AL2W9LMGsX4": {
+                    "name": "Precisione Crudele (Agilità)",
+                    "description": "<p>Quando mettete a segno un attacco con un'arma, aggiungete al vostro tiro di danno un bonus pari alla vostra Agilità.</p>"
+                },
+                "Ha7c4XgmN5zGMSHG": {
+                    "name": "Precisione Crudele (Astuzia)",
+                    "description": "<p>Quando mettete a segno un attacco con un'arma, aggiungete al vostro tiro di danno un bonus pari alla vostra Astuzia.</p>"
+                }
+            }
+        },
+        "Dark Whispers": {
+            "name": "Sussurri Oscuri",
+            "description": "<p>Potete parlare nella mente di chiunque con cui abbiate avuto un contatto fisico. Una volta stabilito il legame, la persona può rispondervi mentalmente. Inoltre, potete <strong>marcare uno Stress</strong> per effettuare un <strong>Tiro Incantesimo</strong> contro di essa. In caso di successo, potete porre al GM una delle seguenti domande e ricevere una risposta esatta:</p><ul><li>Dove si trova?</li><li>Cosa sta facendo?</li><li>Di cosa ha paura?</li><li>Qual è la cosa a cui tiene di più?</li></ul>",
+            "actions": {
+                "3F2zSCsdMMeztQye": {
+                    "name": "Porre una domanda",
+                    "description": "<p><strong>Marcate uno Stress</strong> per effettuare un <strong>Tiro Incantesimo</strong> contro il bersaglio con cui siete in contatto telepatico. In caso di successo, ponete al GM una domanda dall'elenco per ricevere una risposta esatta.</p>"
+                }
+            }
+        },
+        "Darkbolt": {
+            "name": "Dardo d'Ombra",
+            "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio a distanza Lontana. In caso di successo, infliggete <strong>1d10+4</strong> danni magici. Potete <strong>marcare uno Stress</strong> per scagliare un dardo aggiuntivo contro lo stesso bersaglio o un altro bersaglio entro distanza Ravvicinata dal primo.</p>",
+            "actions": {
+                "jN9pL4KHMpoTGQIM": {
+                    "name": "Lanciare Dardo",
+                    "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio a distanza Lontana. In caso di successo, infliggete <strong>1d10+4</strong> danni magici.</p>"
+                },
+                "mIwiUBldoDTUgT6m": {
+                    "name": "Dardo Aggiuntivo",
+                    "description": "<p><strong>Marcate uno Stress</strong> per scagliare un dardo aggiuntivo contro lo stesso bersaglio o un altro bersaglio entro distanza Ravvicinata dal primo.</p>"
+                }
+            }
+        },
+        "Deadly Dualist": {
+            "name": "Duellante Letale",
+            "description": "<p>Mentre impugnate un'arma in ogni mano, ottenete un bonus di <strong>+1 all'Evasione</strong>. Inoltre, quando effettuate un attacco con la vostra arma primaria e ottenete un successo con Speranza, potete effettuare immediatamente un attacco gratuito con la vostra arma secondaria contro lo stesso bersaglio.</p>",
+            "effects": {
+                "vG9pL4KHMpoTGQIM": {
+                    "name": "Duellante Letale",
+                    "description": "<p>Bonus di <strong>+1 all'Evasione</strong> mentre impugnate due armi.</p>"
+                }
+            },
+            "actions": {
+                "z9vUmnLXfskowwsc": {
+                    "name": "Attacco Arma Secondaria",
+                    "description": "<p>Quando ottenete un successo con Speranza con l'arma primaria, effettuate un attacco gratuito con l'arma secondaria.</p>"
+                }
+            }
+        },
+        "Death's Door": {
+            "name": "Sulla Soglia della Morte",
+            "description": "<p>Quando siete a 0 Punti Ferita e dovete effettuare un Tiro Morte, potete <strong>spendere 3 Speranze</strong> per ignorare il tiro e stabilizzarvi immediatamente con 1 Punto Ferita. Se lo fate, questa carta viene spostata nella vostra Riserva.</p>",
+            "actions": {
+                "hR4pX5dF0VmJ2bN9": {
+                    "name": "Stabilizzarsi",
+                    "description": "<p><strong>Spendete 3 Speranze</strong> per ignorare il Tiro Morte e stabilizzarvi immediatamente con 1 Punto Ferita. Sposta questa carta nella Riserva.</p>"
+                }
+            }
+        },
+        "Deep Focus": {
+            "name": "Concentrazione Profonda",
+            "description": "<p>Una volta per riposo lungo, quando effettuate un tiro azione che utilizza il vostro tratto principale, potete <strong>marcare 2 Stress</strong> per trasformare il risultato del Dado Speranza in un 10 automatico.</p>",
+            "actions": {
+                "kIwiUBldoDTUgT6m": {
+                    "name": "Massimizzare Speranza",
+                    "description": "<p><strong>Marcate 2 Stress</strong> per trasformare il risultato del Dado Speranza in un 10.</p>"
+                }
+            }
+        },
+        "Defensive Strike": {
+            "name": "Colpo Difensivo",
+            "description": "<p>Quando una creatura a distanza di Mischia effettua un attacco contro di voi, potete <strong>spendere una Speranza</strong> per effettuare un attacco immediato con la vostra arma primaria contro di essa prima che il suo attacco venga risolto. Se il vostro attacco ha successo, il bersaglio subisce una penalità di -2 al suo tiro di attacco.</p>",
+            "actions": {
+                "pW5pX5dF0VmJ2bN9": {
+                    "name": "Reazione: Colpo Difensivo",
+                    "description": "<p><strong>Spendi 1 Speranza</strong> per attaccare chi ti colpisce in mischia. Se colpisci, l'avversario ha -2 al suo tiro di attacco.</p>"
+                }
+            }
+        },
+        "Devastating Impact": {
+            "name": "Impatto Devastante",
+            "description": "<p>Quando effettuate un attacco in mischia dopo esservi mossi di almeno una distanza Ravvicinata verso il bersaglio, infliggete <strong>1d10 danni fisici aggiuntivi</strong>. Se l'attacco è un successo critico, il bersaglio è anche temporaneamente <em>Vulnerabile</em>.</p>",
+            "actions": {
+                "qW5pX5dF0VmJ2bN9": {
+                    "name": "Danni da Carica",
+                    "description": "<p>Aggiungi <strong>1d10</strong> danni se ti sei mosso prima dell'attacco.</p>"
+                }
+            }
+        },
+        "Divine Guidance": {
+            "name": "Guida Divina",
+            "description": "<p>Quando un alleato entro distanza Lontana effettua un tiro azione, potete <strong>spendere una Speranza</strong> per permettergli di aggiungere il vostro modificatore di Istinto o Presenza al suo risultato.</p>",
+            "actions": {
+                "rL4pX5dF0VmJ2bN9": {
+                    "name": "Concedere Guida",
+                    "description": "<p><strong>Spendi 1 Speranza</strong> per aggiungere il tuo Istinto o Presenza al tiro di un alleato.</p>"
+                }
+            }
+        },
+        "Dreadful Presence": {
+            "name": "Presenza Terrificante",
+            "description": "<p>Potete <strong>marcare uno Stress</strong> per emanare un'aura di terrore. Tutte le creature entro distanza Ravvicinata devono effettuare un Tiro Reazione (14) o diventare temporaneamente <em>Terrorizzate</em>. Una creatura <em>Terrorizzata</em> non può avvicinarsi volontariamente a voi.</p>",
+            "effects": {
+                "sW5pX5dF0VmJ2bN9": {
+                    "name": "Terrorizzato",
+                    "description": "<p>La creatura non può avvicinarsi volontariamente alla fonte del terrore.</p>"
+                }
+            },
+            "actions": {
+                "tL4pX5dF0VmJ2bN9": {
+                    "name": "Emanare Aura",
+                    "description": "<p><strong>Marca 1 Stress</strong>. Nemici vicini: Tiro Reazione (14) o <em>Terrorizzati</em>.</p>"
+                }
+            }
+        },
+        "Echoes of the Past": {
+            "name": "Echi del Passato",
+            "description": "<p>Toccando un oggetto o un luogo, potete <strong>spendere 2 Speranze</strong> per percepire una visione di un evento significativo accaduto lì in passato. Più Speranze spendete, più indietro nel tempo potete guardare o più dettagli potete ottenere.</p>",
+            "actions": {
+                "uW5pX5dF0VmJ2bN9": {
+                    "name": "Percepire Visione",
+                    "description": "<p><strong>Spendi 2+ Speranze</strong> per vedere il passato di un oggetto o luogo.</p>"
+                }
+            }
+        },
+        "Elemental Weapon": {
+            "name": "Arma Elementale",
+            "description": "<p>Scegliete un tipo di danno: <em>Fuoco, Gelo o Fulmine</em>. I vostri attacchi con l'arma primaria infliggono quel tipo di danno magico invece di quello fisico. Inoltre, una volta per riposo breve, potete <strong>marcare uno Stress</strong> per infondere l'arma di potere, infliggendo <strong>+1d8</strong> danni extra per il resto del combattimento.</p>",
+            "actions": {
+                "vL4pX5dF0VmJ2bN9": {
+                    "name": "Infondere Arma",
+                    "description": "<p><strong>Marca 1 Stress</strong> per aggiungere <strong>+1d8</strong> danni elementali per tutto il combattimento.</p>"
+                }
+            }
+        },
+        "Empowered Healing": {
+            "name": "Guarigione Potenziata",
+            "description": "<p>Ogni volta che lanciate un incantesimo o usate una capacità che cura Punti Ferita, il bersaglio recupera <strong>2 PF aggiuntivi</strong>. Se spendete una Speranza durante il lancio, potete anche rimuovere una condizione (come <em>Avvelenato</em> o <em>In Fiamme</em>) dal bersaglio.</p>",
+            "actions": {
+                "wW5pX5dF0VmJ2bN9": {
+                    "name": "Rimuovere Condizione",
+                    "description": "<p><strong>Spendi 1 Speranza</strong> mentre curi per rimuovere una condizione negativa dal bersaglio.</p>"
+                }
+            }
+        },
+        "Enduring Resolve": {
+            "name": "Risoluzione Tenace",
+            "description": "<p>Quando marcate il vostro ultimo Punto Stress, non diventate <em>Sconvolti</em>. Invece, recuperate immediatamente <strong>3 Stress</strong>. Questa capacità può essere usata solo una volta per riposo lungo.</p>",
+            "actions": {
+                "xL4pX5dF0VmJ2bN9": {
+                    "name": "Recupero d'Emergenza",
+                    "description": "<p>Una volta per riposo lungo, quando finisci lo Stress, ne recuperi 3 invece di subire penalità.</p>"
+                }
+            }
+        },
+        "Ethereal Step": {
+            "name": "Passo Etereo",
+            "description": "<p>Potete <strong>marcare uno Stress</strong> per diventare parzialmente immateriali fino alla fine del vostro turno. In questo stato, potete passare attraverso oggetti solidi e creature, ma non potete terminare il movimento all'interno di essi. Ottenete anche <strong>Resistenza</strong> ai danni fisici finché siete eterei.</p>",
+            "effects": {
+                "yW5pX5dF0VmJ2bN9": {
+                    "name": "Etereo",
+                    "description": "<p>Puoi passare attraverso i solidi. Hai <strong>Resistenza</strong> ai danni fisici.</p>"
+                }
+            },
+            "actions": {
+                "zL4pX5dF0VmJ2bN9": {
+                    "name": "Attivare Passo Etereo",
+                    "description": "<p><strong>Marca 1 Stress</strong> per diventare immateriale fino a fine turno.</p>"
+                }
+            }
+        },
+        "Experience in Battle": {
+            "name": "Esperienza di Combattimento",
+            "description": "<p>Quando effettuate un tiro azione durante un combattimento e ottenete un successo con Paura, potete <strong>spendere una Speranza</strong> per ignorare la Paura e trasformarla in un successo normale (il GM non guadagna Paura).</p>",
+            "actions": {
+                "aW5pX5dF0VmJ2bN9": {
+                    "name": "Ignorare Paura",
+                    "description": "<p><strong>Spendi 1 Speranza</strong> per evitare che il GM ottenga Paura su un tuo successo con Paura.</p>"
+                }
+            }
+        },
+        "Eye of the Hunter": {
+            "name": "Occhio del Cacciatore",
+            "description": "<p>Potete <strong>marcare uno Stress</strong> per designare una creatura che potete vedere come vostra preda. Ottenete un bonus di <strong>+2 ai tiri di danno</strong> contro quella creatura e sapete sempre dove si trova, anche se è <em>Nascosta</em> o invisibile, finché non ne designate una nuova o finché non effettuate un riposo breve.</p>",
+            "effects": {
+                "bL4pX5dF0VmJ2bN9": {
+                    "name": "Preda Designata",
+                    "description": "<p>Bonus di <strong>+2 ai tiri di danno</strong> contro questo bersaglio. Ne conosci la posizione anche se invisibile.</p>"
+                }
+            },
+            "actions": {
+                "cW5pX5dF0VmJ2bN9": {
+                    "name": "Designare Preda",
+                    "description": "<p><strong>Marca 1 Stress</strong> per designare una preda. Dura fino al prossimo riposo breve.</p>"
+                }
+            }
+        },
+        "Familiar": {
+            "name": "Famiglio",
+            "description": "<p>Evocate un piccolo animale magico che vi serve. Potete vedere e sentire attraverso i suoi sensi finché si trova entro distanza Lontana. Inoltre, una volta per riposo breve, potete <strong>spendere una Speranza</strong> per permettere al vostro famiglio di compiere un'azione d'aiuto, fornendo <strong>Vantaggio</strong> al prossimo tiro azione di un alleato.</p>",
+            "actions": {
+                "dL4pX5dF0VmJ2bN9": {
+                    "name": "Azione d'Aiuto",
+                    "description": "<p><strong>Spendi 1 Speranza</strong> per dare <strong>Vantaggio</strong> al prossimo tiro di un alleato tramite il famiglio.</p>"
+                }
+            }
+        },
+        "Fearless Defense": {
+            "name": "Difesa Intrepida",
+            "description": "<p>Mentre non indossate alcuna armatura, potete aggiungere la vostra <strong>Costituzione</strong> alla vostra Evasione invece della vostra Agilità. Inoltre, quando subite danni, potete <strong>spendere una Speranza</strong> per ridurre il danno ricevuto di un ammontare pari al vostro modificatore di Costituzione (minimo 1).</p>",
+            "actions": {
+                "eW5pX5dF0VmJ2bN9": {
+                    "name": "Ridurre Danno",
+                    "description": "<p><strong>Spendi 1 Speranza</strong> per ridurre il danno subito del tuo modificatore di Costituzione.</p>"
+                }
+            }
+        },
+        "Featherweight Step": {
+            "name": "Passo Leggero",
+            "description": "<p>Ottenete <strong>Vantaggio</strong> in tutti i tiri di Agilità o Astuzia effettuati per muovervi silenziosamente o per non attivare trappole a pressione. Potete anche <strong>marcare uno Stress</strong> per camminare su superfici liquide o estremamente fragili (come l'acqua o la neve sottile) per un numero di minuti pari alla vostra Agilità.</p>",
+            "actions": {
+                "fL4pX5dF0VmJ2bN9": {
+                    "name": "Camminare sull'Acqua",
+                    "description": "<p><strong>Marca 1 Stress</strong> per camminare su liquidi o neve per un tempo pari alla tua Agilità.</p>"
+                }
+            }
+        },
+        "Feral Senses": {
+            "name": "Sensi Ferini",
+            "description": "<p>Ottenete <strong>Vantaggio</strong> nei tiri di Istinto basati sull'olfatto o sull'udito. Inoltre, potete vedere perfettamente in condizioni di luce scarsa o oscurità naturale come se fosse pieno giorno.</p>",
+            "effects": {
+                "gW5pX5dF0VmJ2bN9": {
+                    "name": "Sensi Ferini",
+                    "description": "<p>Vantaggio su Istinto (olfatto/udito). Visione notturna perfetta.</p>"
+                }
+            }
+        },
+        "Field Medic": {
+            "name": "Medico da Campo",
+            "description": "<p>Quando usate un'azione per curare un alleato a distanza di Mischia, potete <strong>spendere una Speranza</strong> per permettergli di recuperare immediatamente 1d6 Punti Ferita senza consumare alcuna scorta medica.</p>",
+            "actions": {
+                "hL4pX5dF0VmJ2bN9": {
+                    "name": "Cura Rapida",
+                    "description": "<p><strong>Spendi 1 Speranza</strong> per curare un alleato vicino di <strong>1d6 PF</strong>.</p>"
+                }
+            }
+        },
+        "Fiery Rebuke": {
+            "name": "Riprova Fiammeggiante",
+            "description": "<p>Quando venite colpiti da un attacco in mischia, potete <strong>marcare uno Stress</strong> per infliggere immediatamente <strong>1d8 danni magici</strong> di fuoco all'attaccante.</p>",
+            "actions": {
+                "iW5pX5dF0VmJ2bN9": {
+                    "name": "Reazione: Contraccolpo di Fuoco",
+                    "description": "<p><strong>Marca 1 Stress</strong> quando vieni colpito per infliggere 1d8 danni da fuoco al nemico.</p>"
+                }
+            }
+        },
+        "Fireball": {
+            "name": "Palla di Fuoco",
+            "description": "<p>Effettuate un <strong>Tiro Incantesimo (15)</strong> contro un punto entro distanza Lontana. Tutte le creature entro distanza Ravvicinata da quel punto subiscono <strong>4d8 danni magici</strong> di fuoco. In caso di successo con Speranza, le fiamme persistono e il bersaglio principale è temporaneamente <em>In Fiamme</em>.</p>",
+            "actions": {
+                "jL4pX5dF0VmJ2bN9": {
+                    "name": "Lanciare Palla di Fuoco",
+                    "description": "<p><strong>Tiro Incantesimo (15)</strong>. Danni: 4d8 fuoco in area. Se successo con Speranza, bersaglio <em>In Fiamme</em>.</p>"
+                }
+            }
+        },
+        "Fleet of Foot": {
+            "name": "Piè Veloce",
+            "description": "<p>Potete muovervi di una distanza Ravvicinata come azione gratuita durante il vostro turno. Inoltre, potete <strong>marcare uno Stress</strong> per muovervi fino a distanza Lontana come parte di questa azione gratuita.</p>",
+            "actions": {
+                "kW5pX5dF0VmJ2bN9": {
+                    "name": "Movimento Rapido",
+                    "description": "<p><strong>Azione Gratuita</strong>: Muoviti di una distanza Ravvicinata. <strong>Marca 1 Stress</strong> per aumentare a distanza Lontana.</p>"
+                }
+            }
+        },
+        "Flowing Water": {
+            "name": "Acqua Corrente",
+            "description": "<p>Quando un avversario effettua un attacco in mischia contro di voi e fallisce, potete <strong>spendere una Speranza</strong> per farlo cadere a terra (diventa temporaneamente <em>Incapaciato</em>) o per scambiare la vostra posizione con la sua.</p>",
+            "actions": {
+                "lL4pX5dF0VmJ2bN9": {
+                    "name": "Reazione: Sbilanciare",
+                    "description": "<p><strong>Spendi 1 Speranza</strong> se il nemico fallisce l'attacco. Cade a terra o scambiate i posti.</p>"
+                }
+            }
+        },
+        "Gale Force": {
+            "name": "Forza di Burrasca",
+            "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> contro tutti i bersagli in un cono a distanza Ravvicinata. In caso di successo, i bersagli vengono spinti indietro fino a distanza Lontana e subiscono <strong>1d10 danni fisici</strong>. Le creature volanti colpite cadono a terra.</p>",
+            "actions": {
+                "mW5pX5dF0VmJ2bN9": {
+                    "name": "Soffio di Vento",
+                    "description": "<p>Spingi indietro i nemici e infliggi 1d10 danni. Fa cadere chi vola.</p>"
+                }
+            }
+        },
+        "Ghost Step": {
+            "name": "Passo Spettrale",
+            "description": "<p>Mentre siete <em>Nascosti</em>, potete muovervi attraverso le creature come se fossero terreno difficile. Inoltre, se effettuate un attacco mentre siete <em>Nascosti</em>, infliggete <strong>1d12 danni aggiuntivi</strong> del tipo dell'arma.</p>",
+            "actions": {
+                "nL4pX5dF0VmJ2bN9": {
+                    "name": "Attacco a Sorpresa",
+                    "description": "<p>Aggiungi <strong>1d12 danni</strong> se attacchi mentre sei <em>Nascosto</em>.</p>"
+                }
+            }
+        },
+        "Guard Dog": {
+            "name": "Cane da Guardia",
+            "description": "<p>Finché un alleato è entro distanza di Mischia da voi, gli avversari hanno <strong>Svantaggio</strong> nei tiri di attacco contro di lui. Se un attacco contro quell'alleato fallisce, potete effettuare immediatamente un attacco gratuito contro l'attaccante.</p>",
+            "actions": {
+                "oW5pX5dF0VmJ2bN9": {
+                    "name": "Contrattacco Difensivo",
+                    "description": "<p>Effettua un attacco gratuito se un nemico fallisce il colpo contro l'alleato che proteggi.</p>"
+                }
+            }
+        },
+        "Healing Hands": {
+            "name": "Mani Curatrici",
+            "description": "<p>Toccate una creatura e <strong>spendete fino a 3 Speranze</strong>. Per ogni Speranza spesa, il bersaglio recupera <strong>1 Punto Ferita</strong>. Se spendete 3 Speranze in un colpo solo, potete anche rimuovere una condizione di vostra scelta dal bersaglio.</p>",
+            "actions": {
+                "pL4pX5dF0VmJ2bN9": {
+                    "name": "Curare",
+                    "description": "<p><strong>Spendi fino a 3 Speranze</strong>. Ogni Speranza = 1 PF curato. Con 3 Speranze rimuovi anche una condizione.</p>"
+                }
+            }
+        },
+        "Help from Beyond": {
+            "name": "Aiuto dall'Oltre",
+            "description": "<p>Potete <strong>marcare uno Stress</strong> per evocare uno spirito benevolo che aiuti voi o un alleato entro distanza Lontana. Il bersaglio ottiene <strong>Vantaggio</strong> al suo prossimo tiro azione. Se il tiro è un successo, lo spirito svanisce; se è un fallimento, lo spirito rimane per un altro tentativo.</p>",
+            "actions": {
+                "qW5pX5dF0VmJ2bN9": {
+                    "name": "Evocare Spirito",
+                    "description": "<p><strong>Marca 1 Stress</strong> per dare <strong>Vantaggio</strong> a te o a un alleato lontano.</p>"
+                }
+            }
+        },
+        "Heroic Leap": {
+            "name": "Balzo Eroico",
+            "description": "<p>Potete saltare fino a distanza Lontana come parte del vostro movimento. Se atterrate entro distanza di Mischia da un nemico, potete <strong>spendere una Speranza</strong> per effettuare un attacco immediato che infligge <strong>1d10 danni fisici aggiuntivi</strong> e lo rende temporaneamente <em>Vulnerabile</em>.</p>",
+            "actions": {
+                "rL4pX5dF0VmJ2bN9": {
+                    "name": "Attacco in Salto",
+                    "description": "<p><strong>Spendi 1 Speranza</strong> dopo il balzo: <strong>+1d10 danni</strong> e bersaglio <em>Vulnerabile</em>.</p>"
+                }
+            }
+        },
+        "Hold Person": {
+            "name": "Blocca Persone",
+            "description": "<p>Effettuate un <strong>Tiro Incantesimo (15)</strong> contro un bersaglio umanoide entro distanza Lontana. In caso di successo, il bersaglio è temporaneamente <em>Immobilizzato</em>. Finché è <em>Immobilizzato</em>, non può muoversi o compiere azioni fisiche. Il bersaglio può tentare di liberarsi effettuando un Tiro Reazione alla fine di ogni suo turno.</p>",
+            "effects": {
+                "sW5pX5dF0VmJ2bN9": {
+                    "name": "Immobilizzato",
+                    "description": "<p>La creatura non può muoversi o compiere azioni fisiche.</p>"
+                }
+            },
+            "actions": {
+                "tL4pX5dF0VmJ2bN9": {
+                    "name": "Lanciare",
+                    "description": "<p><strong>Tiro Incantesimo (15)</strong> per immobilizzare un umanoide lontano.</p>"
+                }
+            }
+        },
+        "Holy Aura": {
+            "name": "Aura Sacra",
+            "description": "<p><strong>Spendete 2 Speranze</strong> per emanare una luce divina entro distanza Ravvicinata. Voi e i vostri alleati nell'aura ottenete un bonus di <strong>+2 all'Evasione</strong> e <strong>Resistenza</strong> ai danni magici. L'aura dura fino alla fine del combattimento o finché non diventate <em>Sconvolti</em>.</p>",
+            "effects": {
+                "uW5pX5dF0VmJ2bN9": {
+                    "name": "Aura Sacra",
+                    "description": "<p><strong>+2 Evasione</strong> e <strong>Resistenza</strong> ai danni magici.</p>"
+                }
+            },
+            "actions": {
+                "vL4pX5dF0VmJ2bN9": {
+                    "name": "Attivare Aura",
+                    "description": "<p><strong>Spendi 2 Speranze</strong> per proteggere te e i tuoi alleati vicini.</p>"
+                }
+            }
+        },
+        "Hunter's Mark": {
+            "name": "Marchio del Cacciatore",
+            "description": "<p>Quando colpite una creatura con un attacco a distanza, potete <strong>marcare uno Stress</strong> per marchiarla. I vostri attacchi successivi contro quel bersaglio infliggono <strong>1d6 danni aggiuntivi</strong>. Inoltre, se il bersaglio tenta di nascondersi o fuggire, avete <strong>Vantaggio</strong> in tutti i tiri per inseguirlo o individuarlo.</p>",
+            "effects": {
+                "wW5pX5dF0VmJ2bN9": {
+                    "name": "Marchiato",
+                    "description": "<p>L'attaccante infligge <strong>+1d6 danni</strong> contro di te e ha Vantaggio a seguirti.</p>"
+                }
+            },
+            "actions": {
+                "xL4pX5dF0VmJ2bN9": {
+                    "name": "Marchiare Bersaglio",
+                    "description": "<p><strong>Marca 1 Stress</strong> dopo un colpo a distanza per aumentare i danni futuri.</p>"
+                }
+            }
+        },
+        "Ice Shield": {
+            "name": "Scudo di Ghiaccio",
+            "description": "<p>Quando subite danni, potete <strong>spendere una Speranza</strong> per evocare istantaneamente uno scudo di ghiaccio che assorbe <strong>1d12 danni</strong>. Se lo scudo viene distrutto da un attacco in mischia, l'attaccante diventa temporaneamente <em>Rallentato</em>.</p>",
+            "actions": {
+                "yW5pX5dF0VmJ2bN9": {
+                    "name": "Reazione: Evocare Scudo",
+                    "description": "<p><strong>Spendi 1 Speranza</strong> per assorbire 1d12 danni. Può rallentare i nemici in mischia.</p>"
+                }
+            }
+        },
+        "Illumination": {
+            "name": "Illuminazione",
+            "description": "<p>Potete creare una fonte di luce magica che vi segue. Inoltre, quando effettuate un tiro azione per indagare o cercare qualcosa, potete <strong>spendere una Speranza</strong> per rivelare un segreto o un dettaglio nascosto che altrimenti sarebbe impossibile notare.</p>",
+            "actions": {
+                "zL4pX5dF0VmJ2bN9": {
+                    "name": "Rivelare Segreto",
+                    "description": "<p><strong>Spendi 1 Speranza</strong> durante una ricerca per trovare dettagli nascosti.</p>"
+                }
+            }
+        },
+        "Invisibility": {
+            "name": "Invisibilità",
+            "description": "<p>Effettuate un <strong>Tiro Incantesimo (14)</strong>. In caso di successo, diventate <em>Invisibili</em> fino al vostro prossimo riposo breve o finché non effettuate un attacco o lanciate un incantesimo offensivo. Finché siete invisibili, gli avversari non possono vedervi e avete <strong>Vantaggio</strong> in tutti i tiri di Discrezione.</p>",
+            "effects": {
+                "aW5pX5dF0VmJ2bN9": {
+                    "name": "Invisibile",
+                    "description": "<p>Non puoi essere visto. Vantaggio su Discrezione. Termina se attacchi.</p>"
+                }
+            },
+            "actions": {
+                "bL4pX5dF0VmJ2bN9": {
+                    "name": "Lanciare",
+                    "description": "<p><strong>Tiro Incantesimo (14)</strong> per diventare invisibile.</p>"
+                }
+            }
+        },
+        "Iron Will": {
+            "name": "Volontà di Ferro",
+            "description": "<p>Ottenete <strong>Resistenza</strong> ai danni mentali. Inoltre, quando dovreste marcare Stress a causa di un effetto di paura o manipolazione mentale, potete <strong>spendere una Speranza</strong> per ignorare completamente l'effetto.</p>",
+            "actions": {
+                "cW5pX5dF0VmJ2bN9": {
+                    "name": "Ignorare Effetto Mentale",
+                    "description": "<p><strong>Spendi 1 Speranza</strong> per annullare un effetto di paura o stress mentale.</p>"
+                }
+            }
+        },
+        "Judgment": {
+            "name": "Giudizio",
+            "description": "<p>Quando un nemico entro distanza Lontana infligge danni a un vostro alleato, potete <strong>marcare uno Stress</strong> per emettere un verdetto divino. Il nemico subisce immediatamente <strong>1d10 danni magici</strong> e il vostro prossimo attacco contro di esso avrà <strong>Vantaggio</strong>.</p>",
+            "actions": {
+                "dL4pX5dF0VmJ2bN9": {
+                    "name": "Reazione: Giudizio",
+                    "description": "<p><strong>Marca 1 Stress</strong> quando un alleato viene colpito. Infliggi 1d10 danni e ottieni Vantaggio contro il nemico.</p>"
+                }
+            }
+        },
+        "Knowledge of the Ages": {
+            "name": "Conoscenza dei Secoli",
+            "description": "<p>Potete <strong>spendere 2 Speranze</strong> per attingere a una memoria ancestrale o a una biblioteca magica. Potete porre al GM una domanda su un argomento storico, arcano o leggendario e ottenere una risposta dettagliata. Avete anche <strong>Vantaggio</strong> in tutti i tiri di Conoscenza per il resto della scena.</p>",
+            "actions": {
+                "eW5pX5dF0VmJ2bN9": {
+                    "name": "Consultare Memoria",
+                    "description": "<p><strong>Spendi 2 Speranze</strong> per risposte dal GM e Vantaggio sui tiri di Conoscenza.</p>"
+                }
+            }
+        },
+        "Lethal Shadows": {
+            "name": "Ombre Letali",
+            "description": "<p>Mentre vi trovate in un'area di oscurità o luce scarsa, infliggete <strong>+1d8 danni fisici</strong> aggiuntivi con i vostri attacchi. Potete anche <strong>marcare uno Stress</strong> per teletrasportarvi da un'ombra a un'altra entro distanza Lontana come parte del vostro movimento.</p>",
+            "actions": {
+                "fL4pX5dF0VmJ2bN9": {
+                    "name": "Passo d'Ombra",
+                    "description": "<p><strong>Marca 1 Stress</strong> per teletrasportarti tra le ombre (distanza Lontana).</p>"
+                }
+            }
+        },
+        "Life Link": {
+            "name": "Legame Vitale",
+            "description": "<p>Potete <strong>spendere una Speranza</strong> per legare la vostra forza vitale a quella di un alleato entro distanza Ravvicinata. Per il resto della scena, ogni volta che uno dei due subisce danni, può decidere di dividere il danno equamente tra entrambi (arrotondando per eccesso).</p>",
+            "effects": {
+                "gW5pX5dF0VmJ2bN9": {
+                    "name": "Legame Vitale",
+                    "description": "<p>Il danno subito può essere diviso tra i due soggetti legati.</p>"
+                }
+            },
+            "actions": {
+                "hL4pX5dF0VmJ2bN9": {
+                    "name": "Stabilire Legame",
+                    "description": "<p><strong>Spendi 1 Speranza</strong> per dividere i danni con un alleato vicino.</p>"
+                }
+            }
+        },
+        "Lightning Bolt": {
+            "name": "Dardo Fulminante",
+            "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> contro tutti i bersagli in una linea retta lunga fino a distanza Lontana. In caso di successo, i bersagli subiscono <strong>3d10 danni magici</strong> di fulmine. Se ottenete un successo con Speranza, un bersaglio a vostra scelta è anche temporaneamente <em>Stordito</em>.</p>",
+            "actions": {
+                "iW5pX5dF0VmJ2bN9": {
+                    "name": "Lanciare Fulmine",
+                    "description": "<p><strong>3d10 danni</strong> a tutti in linea retta. Successo con Speranza: un bersaglio <em>Stordito</em>.</p>"
+                }
+            }
+        },
+        "Light of Hope": {
+            "name": "Luce di Speranza",
+            "description": "<p>Una volta per riposo lungo, potete <strong>spendere fino a 5 Speranze</strong> per creare un'esplosione di luce divina. Ogni alleato entro distanza Ravvicinata recupera 1 Punto Ferita per ogni Speranza spesa. Ogni nemico entro la stessa distanza deve effettuare un Tiro Reazione o diventare temporaneamente <em>Vulnerabile</em>.</p>",
+            "actions": {
+                "jL4pX5dF0VmJ2bN9": {
+                    "name": "Emanare Luce",
+                    "description": "<p><strong>Spendi fino a 5 Speranze</strong> per curare gli alleati vicini (1 PF per Speranza) e rendere i nemici <em>Vulnerabili</em>.</p>"
+                }
+            }
+        },
+        "Live on the Edge": {
+            "name": "Vivere al Limite",
+            "description": "<p>Quando vi rimangono solo 1 o 2 Punti Ferita, ottenete <strong>Vantaggio</strong> in tutti i tiri azione e la vostra Evasione aumenta di <strong>+2</strong>. Tuttavia, in questo stato, non potete spendere Speranza per aggiungere bonus ai vostri tiri.</p>",
+            "effects": {
+                "kW5pX5dF0VmJ2bN9": {
+                    "name": "Vivere al Limite",
+                    "description": "<p>Vantaggio sui tiri azione e <strong>+2 Evasione</strong>. Non puoi spendere Speranza per i bonus.</p>"
+                }
+            }
+        },
+        "Lucky Streak": {
+            "name": "Striscia Fortunata",
+            "description": "<p>Ogni volta che ottenete un successo con Speranza, potete <strong>rimuovere uno Stress</strong>. Se ottenete un successo critico, potete invece scegliere di recuperare <strong>1 Punto Ferita</strong> o una <strong>Casella Armatura</strong>.</p>",
+            "actions": {
+                "lL4pX5dF0VmJ2bN9": {
+                    "name": "Recupero Critico",
+                    "description": "<p>In caso di Critico, scegli se recuperare 1 PF o 1 Casella Armatura.</p>"
+                }
+            }
+        },
+        "Mage Armor": {
+            "name": "Armatura Magica",
+            "description": "<p>Potete <strong>marcare uno Stress</strong> per circondarvi di un campo di forza invisibile. La vostra Evasione diventa pari a <strong>10 + il vostro tratto da Incantatore</strong> (se superiore alla vostra Evasione attuale) fino al vostro prossimo riposo breve o finché non subite danni.</p>",
+            "effects": {
+                "mW5pX5dF0VmJ2bN9": {
+                    "name": "Armatura Magica",
+                    "description": "<p>Evasione calcolata come 10 + tratto Incantatore.</p>"
+                }
+            },
+            "actions": {
+                "nL4pX5dF0VmJ2bN9": {
+                    "name": "Attivare Armatura",
+                    "description": "<p><strong>Marca 1 Stress</strong> per aumentare l'Evasione fino al prossimo riposo o danno subito.</p>"
+                }
+            }
+        },
+        "Mage Hand": {
+            "name": "Mano Magica",
+            "description": "<p>Potete evocare una mano spettrale fluttuante entro distanza Lontana che può manipolare oggetti, aprire porte non bloccate o trasportare piccoli pesi. Potete <strong>spendere una Speranza</strong> per usare la mano per distrarre un nemico, fornendo <strong>Vantaggio</strong> al prossimo attacco di un alleato contro di esso.</p>",
+            "actions": {
+                "oW5pX5dF0VmJ2bN9": {
+                    "name": "Distrarre Nemico",
+                    "description": "<p><strong>Spendi 1 Speranza</strong> per dare Vantaggio a un alleato contro un nemico specifico.</p>"
+                }
+            }
+        },
+        "Magic Missile": {
+            "name": "Dardo Incantato",
+            "description": "<p>Scagliate tre dardi di energia pura contro uno o più bersagli entro distanza Lontana. Questi dardi colpiscono automaticamente infliggendo <strong>1 danno diretto</strong> ciascuno. Potete <strong>marcare uno Stress</strong> per scagliare due dardi aggiuntivi.</p>",
+            "actions": {
+                "pL4pX5dF0VmJ2bN9": {
+                    "name": "Lanciare Dardi",
+                    "description": "<p>3 dardi a segno automatico (1 danno ciascuno). <strong>Marca 1 Stress</strong> per 2 dardi extra.</p>"
+                }
+            }
+        },
+        "Martyr's Sacrifice": {
+            "name": "Sacrificio del Martire",
+            "description": "<p>Quando un alleato entro distanza Ravvicinata sta per subire danni, potete <strong>marcare uno Stress</strong> per subire quei danni al suo posto. Se lo fate, riducete il danno ricevuto di un ammontare pari alla vostra <strong>Costituzione</strong>.</p>",
+            "actions": {
+                "qW5pX5dF0VmJ2bN9": {
+                    "name": "Interporsi",
+                    "description": "<p><strong>Marca 1 Stress</strong> per subire i danni di un alleato. Riduci il danno del tuo valore di Costituzione.</p>"
+                }
+            }
+        },
+        "Master of Disguise": {
+            "name": "Maestro del Travestimento",
+            "description": "<p>Potete alterare magicamente il vostro aspetto, inclusi vestiti ed equipaggiamento, per apparire come un'altra persona di taglia simile. Avete <strong>Vantaggio</strong> in tutti i tiri di Astuzia per ingannare gli altri sulla vostra identità. L'effetto dura fino al vostro prossimo riposo lungo o finché non lo interrompete.</p>",
+            "effects": {
+                "rL4pX5dF0VmJ2bN9": {
+                    "name": "Travestito",
+                    "description": "<p>Vantaggio sui tiri di Astuzia per mantenere il travestimento.</p>"
+                }
+            }
+        },
+        "Meditation": {
+            "name": "Meditazione",
+            "description": "<p>Durante un riposo breve, se scegliete di meditare invece di svolgere altre attività, potete <strong>rimuovere tutti i vostri Stress</strong> oppure recuperare <strong>2 Speranze</strong> aggiuntive oltre a quelle normali.</p>",
+            "actions": {
+                "sW5pX5dF0VmJ2bN9": {
+                    "name": "Meditare",
+                    "description": "<p>Durante il riposo breve: azzera lo Stress o ottieni +2 Speranze.</p>"
+                }
+            }
+        },
+        "Mending Touch": {
+            "name": "Tocco Riparatore",
+            "description": "<p>Potete riparare un oggetto rotto o danneggiato toccandolo e <strong>spendendo una Speranza</strong>. Se usato su un'armatura durante un combattimento, il bersaglio recupera immediatamente <strong>2 Caselle Armatura</strong>.</p>",
+            "actions": {
+                "tL4pX5dF0VmJ2bN9": {
+                    "name": "Riparare Armatura",
+                    "description": "<p><strong>Spendi 1 Speranza</strong> per far recuperare 2 Caselle Armatura a te o a un alleato.</p>"
+                }
+            }
+        },
+        "Mental Fortress": {
+            "name": "Fortezza Mentale",
+            "description": "<p>La vostra mente è protetta contro le intrusioni. Qualsiasi tentativo di leggere i vostri pensieri o influenzare la vostra volontà fallisce automaticamente a meno che non decidiate di permetterlo. Inoltre, ottenete un bonus di <strong>+2</strong> ai Tiri Reazione contro effetti di Charme o Paura.</p>",
+            "effects": {
+                "uW5pX5dF0VmJ2bN9": {
+                    "name": "Fortezza Mentale",
+                    "description": "<p>Immunità alla lettura del pensiero non consensuale. <strong>+2</strong> ai tiri contro Charme/Paura.</p>"
+                }
+            }
+        },
+        "Meteor Strike": {
+            "name": "Colpo della Meteora",
+            "description": "<p>Effettuate un attacco in mischia con <strong>Svantaggio</strong>. In caso di successo, infliggete <strong>3d12 danni fisici aggiuntivi</strong> e il bersaglio viene scaraventato a distanza Lontana, diventando <em>Incapaciato</em> fino alla fine del suo prossimo turno.</p>",
+            "actions": {
+                "vL4pX5dF0VmJ2bN9": {
+                    "name": "Eseguire Colpo",
+                    "description": "<p>Attacco con Svantaggio: <strong>+3d12 danni</strong>, respinta Lontana e bersaglio <em>Incapaciato</em>.</p>"
+                }
+            }
+        },
+        "Mimicry": {
+            "name": "Mimetismo",
+            "description": "<p>Potete imitare perfettamente qualsiasi suono o voce abbiate sentito per almeno un minuto. Chi ascolta deve effettuare un tiro di Istinto (Difficoltà pari alla vostra Astuzia) per accorgersi dell'inganno.</p>",
+            "actions": {
+                "wW5pX5dF0VmJ2bN9": {
+                    "name": "Imitare Suono",
+                    "description": "<p>Imita voci o rumori. Difficoltà per scoprirti = tua Astuzia.</p>"
+                }
+            }
+        },
+        "Mind Over Matter": {
+            "name": "Mente Sopra la Materia",
+            "description": "<p>Quando dovreste marcare uno o più Punti Ferita, potete invece scegliere di <strong>marcare un numero equivalente di Stress</strong>. Se lo fate, ignorate i danni ai PF. Questa capacità non può essere usata se siete <em>Sconvolti</em>.</p>",
+            "actions": {
+                "xL4pX5dF0VmJ2bN9": {
+                    "name": "Convertire Danno",
+                    "description": "<p>Sostituisci la perdita di PF con la perdita di Stress (1 a 1).</p>"
+                }
+            }
+        },
+        "Mirrored Strike": {
+            "name": "Colpo Riflesso",
+            "description": "<p>Quando effettuate un attacco con la vostra arma primaria, potete <strong>spendere una Speranza</strong> per creare un duplicato illusorio di voi stessi che attacca simultaneamente. Aggiungete <strong>1d10 danni magici</strong> al totale del danno. Dopo l'attacco, il duplicato rimane vicino a voi fino all'inizio del vostro prossimo turno, aumentando la vostra Evasione di <strong>+1</strong>.</p>",
+            "effects": {
+                "yL4pX5dF0VmJ2bN9": {
+                    "name": "Immagine Riflessa",
+                    "description": "<p>Bonus di <strong>+1 all'Evasione</strong> fino all'inizio del tuo prossimo turno.</p>"
+                }
+            },
+            "actions": {
+                "zW5pX5dF0VmJ2bN9": {
+                    "name": "Attacco Duplicato",
+                    "description": "<p><strong>Spendi 1 Speranza</strong> per aggiungere <strong>1d10</strong> danni magici e ottenere il bonus all'Evasione.</p>"
+                }
+            }
+        },
+        "Mist Form": {
+            "name": "Forma di Nebbia",
+            "description": "<p><strong>Marcate uno Stress</strong> per trasformare voi stessi e il vostro equipaggiamento in una nebbia semitrasparente. In questa forma, non potete attaccare o lanciare incantesimi, ma potete passare attraverso piccole fessure e siete <em>Vulnerabili</em> solo ai danni magici. La forma dura per un numero di minuti pari al vostro <strong>Istinto</strong>.</p>",
+            "effects": {
+                "aL4pX5dF0VmJ2bN9": {
+                    "name": "Forma di Nebbia",
+                    "description": "<p>Puoi passare attraverso le fessure. Sei <em>Vulnerabile</em> solo ai danni magici e non puoi attaccare.</p>"
+                }
+            },
+            "actions": {
+                "bW5pX5dF0VmJ2bN9": {
+                    "name": "Trasformarsi",
+                    "description": "<p><strong>Marca 1 Stress</strong> per diventare nebbia per alcuni minuti.</p>"
+                }
+            }
+        },
+        "Moonlight Beam": {
+            "name": "Raggio di Luna",
+            "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio entro distanza Lontana. In caso di successo, infliggete <strong>2d10 danni magici</strong>. Se il bersaglio è una creatura dell'oscurità o un non-morto, infliggete <strong>1d10 danni aggiuntivi</strong> e il bersaglio è temporaneamente <em>Vulnerabile</em>.</p>",
+            "actions": {
+                "cL4pX5dF0VmJ2bN9": {
+                    "name": "Lanciare Raggio",
+                    "description": "<p><strong>2d10 danni</strong> (3d10 contro non-morti/oscurità + <em>Vulnerabile</em>).</p>"
+                }
+            }
+        },
+        "Mystic Shield": {
+            "name": "Scudo Mistico",
+            "description": "<p>Quando un alleato entro distanza Ravvicinata sta per subire danni, potete <strong>spendere una Speranza</strong> per creare uno scudo di energia attorno a lui. L'alleato ottiene <strong>2 Caselle Armatura temporanee</strong> che durano fino alla fine della scena o finché non vengono consumate.</p>",
+            "actions": {
+                "dW5pX5dF0VmJ2bN9": {
+                    "name": "Proteggere Alleato",
+                    "description": "<p><strong>Spendi 1 Speranza</strong> per dare 2 Caselle Armatura extra a un compagno vicino.</p>"
+                }
+            }
+        },
+        "Natural Remedy": {
+            "name": "Rimedio Naturale",
+            "description": "<p>Durante un riposo breve, potete usare erbe e unguenti per curare i vostri compagni. Voi e fino a tre alleati potete recuperare <strong>1 Punto Ferita aggiuntivo</strong> senza consumare scorte. Inoltre, potete <strong>marcare uno Stress</strong> per rimuovere la condizione <em>Avvelenato</em> da un bersaglio.</p>",
+            "actions": {
+                "eL4pX5dF0VmJ2bN9": {
+                    "name": "Trattamento Erboristico",
+                    "description": "<p>Durante il riposo breve: +1 PF a 4 persone. <strong>Marca 1 Stress</strong> per curare il veleno.</p>"
+                }
+            }
+        },
+        "Nature's Aegis": {
+            "name": "Egida della Natura",
+            "description": "<p><strong>Spendete 2 Speranze</strong> per invocare gli spiriti della terra. Per il resto della scena, il terreno entro distanza Ravvicinata da voi diventa terreno difficile per i nemici, mentre voi e i vostri alleati ottenete un bonus di <strong>+1 all'Evasione</strong> finché restate nell'area.</p>",
+            "effects": {
+                "fW5pX5dF0VmJ2bN9": {
+                    "name": "Egida della Natura",
+                    "description": "<p>Bonus di <strong>+1 all'Evasione</strong>. I nemici nell'area si muovono a velocità dimezzata.</p>"
+                }
+            },
+            "actions": {
+                "gL4pX5dF0VmJ2bN9": {
+                    "name": "Invocare Egida",
+                    "description": "<p><strong>Spendi 2 Speranze</strong> per controllare il terreno e proteggere gli alleati.</p>"
+                }
+            }
+        },
+        "Mist Cloud": {
+            "name": "Nube di Nebbia",
+            "description": "<p>Effettuate un <strong>Tiro Incantesimo (14)</strong> per evocare una fitta nebbia in un'area entro distanza Lontana. L'area diventa pesantemente oscurata. Tutte le creature all'interno dell'area hanno <strong>Svantaggio</strong> ai tiri di attacco a distanza e ai tiri di Istinto basati sulla vista.</p>",
+            "actions": {
+                "hW5pX5dF0VmJ2bN9": {
+                    "name": "Evocare Nebbia",
+                    "description": "<p><strong>Tiro Incantesimo (14)</strong>. Crea oscurità: Svantaggio ad attacchi a distanza e tiri basati sulla vista.</p>"
+                }
+            }
+        },
+        "Nullify": {
+            "name": "Annullare",
+            "description": "<p>Quando una creatura entro distanza Ravvicinata lancia un incantesimo, potete <strong>marcare due Stress</strong> per tentare di annullarlo. Effettuate un <strong>Tiro Reazione</strong> contro la sua Difficoltà. In caso di successo, l'incantesimo fallisce e non produce alcun effetto.</p>",
+            "actions": {
+                "iL4pX5dF0VmJ2bN9": {
+                    "name": "Reazione: Annullare",
+                    "description": "<p><strong>Marca 2 Stress</strong> per bloccare un incantesimo nemico nelle vicinanze.</p>"
+                }
+            }
+        },
+        "Omen of Doom": {
+            "name": "Presagio di Sventura",
+            "description": "<p>Potete <strong>marcare uno Stress</strong> per sussurrare una maledizione a un nemico che potete vedere. Il prossimo tiro azione di quel nemico avrà <strong>Svantaggio</strong>. Se il tiro fallisce, il nemico subisce anche <strong>1d8 danni mentali</strong> a causa del terrore.</p>",
+            "actions": {
+                "jW5pX5dF0VmJ2bN9": {
+                    "name": "Maledire",
+                    "description": "<p><strong>Marca 1 Stress</strong> per dare Svantaggio al prossimo tiro del nemico (+1d8 danni mentali se fallisce).</p>"
+                }
+            }
+        },
+        "Overpower": {
+            "name": "Sopraffare",
+            "description": "<p>Quando effettuate un attacco in mischia contro una creatura della vostra taglia o inferiore, potete <strong>spendere una Speranza</strong> per tentare di sopraffarla. Se l'attacco ha successo, il bersaglio subisce i danni e viene <em>Atterrato</em> (temporaneamente <em>Incapaciato</em>).</p>",
+            "actions": {
+                "kL4pX5dF0VmJ2bN9": {
+                    "name": "Sopraffare",
+                    "description": "<p><strong>Spendi 1 Speranza</strong> per atterrare il bersaglio dopo un colpo a segno.</p>"
+                }
+            }
+        },
+        "Paralysing Poison": {
+            "name": "Veleno Paralizzante",
+            "description": "<p>Potete applicare un veleno speciale alla vostra arma. Il prossimo attacco che mette a segno danni fisici costringe il bersaglio a effettuare un Tiro Reazione (15). In caso di fallimento, il bersaglio è <em>Rallentato</em> e non può compiere azioni bonus per il resto della scena.</p>",
+            "effects": {
+                "lW5pX5dF0VmJ2bN9": {
+                    "name": "Effetto Veleno",
+                    "description": "<p>Creatura <em>Rallentata</em> e senza azioni bonus.</p>"
+                }
+            },
+            "actions": {
+                "mL4pX5dF0VmJ2bN9": {
+                    "name": "Applicare Veleno",
+                    "description": "<p>Applica il veleno all'arma. Il prossimo colpo può paralizzare il nemico.</p>"
+                }
+            }
+        },
+        "Piercing Shot": {
+            "name": "Tiro Perforante",
+            "description": "<p>Quando effettuate un attacco con un'arma a distanza, potete <strong>marcare uno Stress</strong> per mirare ai punti deboli dell'armatura. L'attacco ignora le Caselle Armatura del bersaglio e infligge <strong>1d6 danni aggiuntivi</strong>.</p>",
+            "actions": {
+                "nW5pX5dF0VmJ2bN9": {
+                    "name": "Tiro Perforante",
+                    "description": "<p><strong>Marca 1 Stress</strong> per ignorare l'armatura nemica e infliggere <strong>+1d6 danni</strong>.</p>"
+                }
+            }
+        },
+        "Primal Roar": {
+            "name": "Ruggito Primordiale",
+            "description": "<p>Emettete un rugito terrificante. Tutti i nemici entro distanza Ravvicinata devono effettuare un Tiro Reazione (14) o subire <strong>1d8 danni mentali</strong> ed essere spinti indietro a distanza Ravvicinata. Potete <strong>spendere una Speranza</strong> per rendere tutti i nemici colpiti <em>Terrorizzati</em>.</p>",
+            "actions": {
+                "oL4pX5dF0VmJ2bN9": {
+                    "name": "Ruggire",
+                    "description": "<p>Danni mentali (1d8) e respinta. <strong>Spendi 1 Speranza</strong> per terrorizzare i nemici.</p>"
+                }
+            }
+        },
+        "Protective Dome": {
+            "name": "Cupola Protettiva",
+            "description": "<p><strong>Spendete 3 Speranze</strong> per creare una cupola di energia scintillante con un raggio di distanza Ravvicinata centrata su di voi. Nessun attacco a distanza o incantesimo può attraversare la cupola dall'esterno. La cupola dura finché mantenete la concentrazione o finché non subite danni.</p>",
+            "effects": {
+                "pW5pX5dF0VmJ2bN9": {
+                    "name": "Cupola Protettiva",
+                    "description": "<p>Immunità agli attacchi a distanza e incantesimi provenienti dall'esterno.</p>"
+                }
+            },
+            "actions": {
+                "qL4pX5dF0VmJ2bN9": {
+                    "name": "Creare Cupola",
+                    "description": "<p><strong>Spendi 3 Speranze</strong> per proteggere l'area dagli attacchi esterni.</p>"
+                }
+            }
+        },
+        "Quick Reflexes": {
+            "name": "Riflessi Rapidi",
+            "description": "<p>Ottenete un bonus di <strong>+2 all'Evasione</strong> contro gli attacchi a distanza. Inoltre, una volta per riposo breve, quando subite danni da un'arma a distanza, potete <strong>marcare uno Stress</strong> per dimezzare il danno ricevuto.</p>",
+            "actions": {
+                "rW5pX5dF0VmJ2bN9": {
+                    "name": "Dimezzare Danno",
+                    "description": "<p><strong>Marca 1 Stress</strong> per dimezzare i danni di un attacco a distanza appena subito.</p>"
+                }
+            }
+        },
+        "Radiant Blast": {
+            "name": "Esplosione Radiosa",
+            "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio entro distanza Lontana. In caso di successo, infliggete <strong>3d6 danni magici</strong>. Se ottenete un successo con Speranza, il bersaglio è <em>Abbagliato</em> (Svantaggio al prossimo tiro attacco) e voi recuperate <strong>1 Speranza</strong>.</p>",
+            "actions": {
+                "sL4pX5dF0VmJ2bN9": {
+                    "name": "Lanciare",
+                    "description": "<p><strong>3d6 danni</strong>. Successo con Speranza: recuperi 1 Speranza e il nemico ha Svantaggio.</p>"
+                }
+            }
+        },
+        "Recall Knowledge": {
+            "name": "Richiamare Conoscenze",
+            "description": "<p>Quando incontrate una nuova creatura o un fenomeno magico, potete effettuare un tiro di <strong>Conoscenza</strong>. In caso di successo, il GM vi rivelerà una delle sue resistenze, immunità o una debolezza specifica.</p>",
+            "actions": {
+                "tW5pX5dF0VmJ2bN9": {
+                    "name": "Analizzare",
+                    "description": "<p>Tiro Conoscenza per scoprire debolezze o resistenze di un nemico.</p>"
+                }
+            }
+        },
+        "Rejuvenation": {
+            "name": "Rinvigorimento",
+            "description": "<p><strong>Spendete 2 Speranze</strong> per infondere energia vitale in un alleato toccato. Il bersaglio può immediatamente rimuovere una condizione negativa e recuperare <strong>1d4+2 Punti Ferita</strong>.</p>",
+            "actions": {
+                "uL4pX5dF0VmJ2bN9": {
+                    "name": "Rinvigorire",
+                    "description": "<p><strong>Spendi 2 Speranze</strong> per curare 1d4+2 PF e rimuovere una condizione.</p>"
+                }
+            }
+        },
+        "Shadow Meld": {
+            "name": "Fondersi nelle Ombre",
+            "description": "<p>Finché vi trovate in un'area di luce scarsa o oscurità, potete <strong>marcare uno Stress</strong> per diventare automaticamente <em>Nascosti</em>, anche se siete osservati. Ottenete anche <strong>Vantaggio</strong> nel vostro prossimo tiro di attacco effettuato da questa posizione.</p>",
+            "effects": {
+                "vW5pX5dF0VmJ2bN9": {
+                    "name": "Nascosto nell'Ombra",
+                    "description": "<p>Sei <em>Nascosto</em> e il tuo prossimo attacco avrà Vantaggio.</p>"
+                }
+            },
+            "actions": {
+                "wL4pX5dF0VmJ2bN9": {
+                    "name": "Nascondersi",
+                    "description": "<p><strong>Marca 1 Stress</strong> per sparire nelle ombre.</p>"
+                }
+            }
+        },
+        "Shield of Flames": {
+            "name": "Scudo di Fiamme",
+            "description": "<p>Vi circondate di fiamme protettive. Ottenete <strong>Resistenza</strong> ai danni da gelo. Inoltre, chiunque vi colpisca con un attacco in mischia subisce <strong>1d6 danni magici</strong> di fuoco.</p>",
+            "effects": {
+                "xW5pX5dF0VmJ2bN9": {
+                    "name": "Scudo di Fiamme",
+                    "description": "<p><strong>Resistenza</strong> al Gelo. Gli attaccanti in mischia subiscono 1d6 danni da fuoco.</p>"
+                }
+            }
+        },
+        "Shadow Strike": {
+            "name": "Colpo d'Ombra",
+            "description": "<p>Effettuate un attacco in mischia. In caso di successo, infliggete <strong>1d10 danni magici</strong> aggiuntivi e potete teletrasportarvi immediatamente in uno spazio libero entro distanza Ravvicinata. Se siete <em>Nascosti</em> quando effettuate questo attacco, il danno aggiuntivo aumenta a <strong>2d10</strong>.</p>",
+            "actions": {
+                "yL4pX5dF0VmJ2bN9": {
+                    "name": "Eseguire Colpo",
+                    "description": "<p>Attacco con teletrasporto. <strong>+1d10 danni</strong> (o <strong>+2d10</strong> se sei <em>Nascosto</em>).</p>"
+                }
+            }
+        },
+        "Sonic Boom": {
+            "name": "Boom Sonico",
+            "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> contro tutti i bersagli entro distanza Ravvicinata. In caso di successo, i bersagli subiscono <strong>2d8 danni magici</strong> e sono temporaneamente <em>Storditi</em>. Questa capacità crea un rumore assordante udibile fino a distanza Molto Lontana.</p>",
+            "actions": {
+                "zW5pX5dF0VmJ2bN9": {
+                    "name": "Emettere Boom",
+                    "description": "<p><strong>2d8 danni</strong> ad area e nemici <em>Storditi</em>.</p>"
+                }
+            }
+        },
+        "Soul Drain": {
+            "name": "Drenaggio d'Anima",
+            "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio entro distanza Ravvicinata. In caso di successo, infliggete <strong>1d12 danni magici</strong> e recuperate <strong>1 Punto Ferita</strong>. Se il bersaglio muore a causa di questo attacco, recuperate invece <strong>3 Punti Ferita</strong>.</p>",
+            "actions": {
+                "aL4pX5dF0VmJ2bN9": {
+                    "name": "Drenare Anima",
+                    "description": "<p>Infliggi 1d12 danni e curati di 1 PF (o 3 PF se il nemico muore).</p>"
+                }
+            }
+        },
+        "Stealthy Takedown": {
+            "name": "Abbattimento Silenzioso",
+            "description": "<p>Quando effettuate un attacco contro una creatura che non è consapevole della vostra presenza, potete <strong>marcare uno Stress</strong> per raddoppiare il numero di dadi di danno dell'arma. Se l'attacco uccide il bersaglio, rimanete automaticamente <em>Nascosti</em>.</p>",
+            "actions": {
+                "bW5pX5dF0VmJ2bN9": {
+                    "name": "Eseguire Abbattimento",
+                    "description": "<p><strong>Marca 1 Stress</strong> per raddoppiare i dadi danno contro un nemico ignaro.</p>"
+                }
+            }
+        },
+        "Stone Skin": {
+            "name": "Pelle di Pietra",
+            "description": "<p><strong>Spendete 2 Speranze</strong> per indurire la vostra pelle. Ottenete <strong>Resistenza</strong> ai danni fisici non magici per il resto della scena. Inoltre, la vostra Evasione diminuisce di <strong>-1</strong> a causa della rigidità, ma ottenete <strong>2 Caselle Armatura temporanee</strong>.</p>",
+            "effects": {
+                "cL4pX5dF0VmJ2bN9": {
+                    "name": "Pelle di Pietra",
+                    "description": "<p><strong>Resistenza</strong> danni fisici. <strong>-1 Evasione</strong>. +2 Caselle Armatura.</p>"
+                }
+            },
+            "actions": {
+                "dW5pX5dF0VmJ2bN9": {
+                    "name": "Attivare",
+                    "description": "<p><strong>Spendi 2 Speranze</strong> per diventare resistente ai colpi fisici.</p>"
+                }
+            }
+        },
+        "Telekinetic Shove": {
+            "name": "Spinta Telecinetica",
+            "description": "<p>Come azione gratuita, potete tentare di spingere una creatura o un oggetto entro distanza Lontana. Effettuate un tiro di <strong>Astuzia</strong> o <strong>Istinto</strong> contro la sua Difficoltà. In caso di successo, il bersaglio viene spostato di una distanza Ravvicinata in una direzione a vostra scelta.</p>",
+            "actions": {
+                "eL4pX5dF0VmJ2bN9": {
+                    "name": "Spinta Gratuita",
+                    "description": "<p>Sposta un oggetto o nemico lontano con la mente.</p>"
+                }
+            }
+        },
+        "Thunderous Strike": {
+            "name": "Colpo Tuonante",
+            "description": "<p>Quando colpite con un attacco in mischia, potete <strong>spendere una Speranza</strong> per aggiungere <strong>1d12 danni magici</strong> di fulmine. Il bersaglio e tutte le creature entro distanza di Mischia da esso devono effettuare un Tiro Reazione o cadere a terra (diventando temporaneamente <em>Incapaciati</em>).</p>",
+            "actions": {
+                "fW5pX5dF0VmJ2bN9": {
+                    "name": "Colpo Tuonante",
+                    "description": "<p><strong>Spendi 1 Speranza</strong>: <strong>+1d12 danni</strong> e possibilità di atterrare i nemici vicini.</p>"
+                }
+            }
+        },
+        "Vampiric Touch": {
+            "name": "Tocco Vampirico",
+            "description": "<p>Effettuate un <strong>Tiro Incantesimo</strong> contro un bersaglio a distanza di Mischia. In caso di successo, infliggete <strong>2d8 danni magici</strong> e il bersaglio diventa <em>Vulnerabile</em>. Potete <strong>marcare uno Stress</strong> per recuperare un numero di Punti Ferita pari alla metà del danno inflitto (arrotondato per difetto).</p>",
+            "actions": {
+                "gL4pX5dF0VmJ2bN9": {
+                    "name": "Tocco Vampirico",
+                    "description": "<p>2d8 danni e <em>Vulnerabile</em>. <strong>Marca 1 Stress</strong> per curarti della metà del danno.</p>"
+                }
+            }
+        },
+        "Venomous Breath": {
+            "name": "Soffio Velenoso",
+            "description": "<p>Espirate una nube di tossine in un cono a distanza Ravvicinata. Tutte le creature nell'area devono effettuare un Tiro Reazione o subire <strong>2d6 danni magici</strong> e diventare <em>Avvelenate</em>. Le creature <em>Avvelenate</em> subiscono 1 danno diretto all'inizio di ogni loro turno.</p>",
+            "actions": {
+                "hW5pX5dF0VmJ2bN9": {
+                    "name": "Soffiare Veleno",
+                    "description": "<p>2d6 danni in area e condizione <em>Avvelenato</em>.</p>"
+                }
+            }
+        },
+        "Weapon Toss": {
+            "name": "Lancio dell'Arma",
+            "description": "<p>Potete lanciare un'arma da mischia che impugnate contro un bersaglio entro distanza Lontana. Effettuate un normale tiro di attacco. In caso di successo, l'arma infligge i suoi danni normali più <strong>1d8 danni aggiuntivi</strong>. L'arma torna magicamente nella vostra mano subito dopo l'attacco.</p>",
+            "actions": {
+                "iL4pX5dF0VmJ2bN9": {
+                    "name": "Lanciare Arma",
+                    "description": "<p>Attacco a distanza con arma da mischia: <strong>+1d8 danni</strong>. L'arma torna indietro.</p>"
+                }
+            }
+        }
+    }
+}

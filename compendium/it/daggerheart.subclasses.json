@@ -1,0 +1,909 @@
+{
+  "label": "Sottoclassi",
+  "mapping": {
+    "description": "system.description",
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "actions": {
+      "path": "system.actions",
+      "converter": "actions"
+    }
+  },
+  "folders": {
+    "Bard": "Bardo",
+    "Druid": "Druido",
+    "Guardian": "Guardiano",
+    "Ranger": "Ranger",
+    "Rogue": "Fuorilegge",
+    "Warrior": "Guerriero",
+    "Wizard": "Mago",
+    "Sorcerer": "Stregone",
+    "Seraph": "Consacrato",
+    "Foundation Features": "Privilegi Base",
+    "Specialization Features": "Specializzazione",
+    "Mastery Features": "Maestria",
+    "Subclass Features": "Privilegi di Sottoclasse"
+  },
+  "entries": {
+    "Accomplished": {
+      "name": "Esperto",
+      "description": "<p>Prendete una carta dominio aggiuntiva del vostro livello o di livello inferiore da un dominio a cui avete accesso.</p>"
+    },
+    "Act of Reprisal": {
+      "name": "Rappresaglia",
+      "description": "<p>Quando un avversario danneggia un alleato entro distanza di Mischia, ottenete bonus <strong>+1 alla Competenza</strong> per il successivo attacco riuscito contro quell’avversario.</p>",
+      "effects": {
+        "9Uo0yOYGn3vandPp": {
+          "name": "Rappresaglia",
+          "description": "<p>Bonus +1 alla Competenza per il successivo attacco contro questo avversario.</p>"
+        }
+      },
+      "actions": {
+        "yalzg4VRmZvakshJ": {
+          "name": "Marcare l'Avversario",
+          "description": "<p>Ottieni +1 alla Competenza contro l'avversario che ha appena danneggiato un tuo alleato in Mischia.</p>"
+        }
+      }
+    },
+    "Adept": {
+      "name": "Iniziato",
+      "description": "<p>Quando utilizzate un’Esperienza, potete <strong>marcare uno Stress</strong> invece di spendere Speranza. Se lo fate, raddoppiate il modificatore dell’Esperienza per quel tiro.</p>",
+      "actions": {
+        "FOl7kaOG6DFWIpMm": {
+          "name": "Marcare 1 Stress",
+          "description": "<p><strong>Marca uno Stress</strong> invece di spendere Speranza per raddoppiare l'Esperienza usata nel tiro.</p>"
+        }
+      }
+    },
+    "Adrenaline": {
+      "name": "Adrenalina",
+      "description": "<p>Quando siete <em>Vulnerabili</em>, aggiungete il vostro livello ai tiri per i danni.</p>",
+      "effects": {
+        "HMx9uZ54mvMiH95x": {
+          "name": "Adrenalina",
+          "description": "<p>Aggiungi il tuo livello ai tiri per i danni (attivo solo se <em>Vulnerabile</em>).</p>"
+        }
+      }
+    },
+    "Advanced Training": {
+      "name": "Addestramento Avanzato",
+      "description": "<p>Scegliete due opzioni di aumento di livello aggiuntive per il compagno.</p>",
+      "effects": {
+        "bKOuMxhB2Jth3j2T": {
+          "name": "Addestramento Avanzato",
+          "description": "<p>Due opzioni di aumento di livello extra per il compagno.</p>"
+        }
+      }
+    },
+    "Apex Predator": {
+      "name": "Predatore Dominante",
+      "description": "<p>Prima di effettuare un tiro attacco contro il vostro Focus, potete <strong>spendere una Speranza</strong>. Se l’attacco ha successo, rimuovete una Paura dalla riserva di Paura del GM.</p>",
+      "actions": {
+        "LHDsuveQznbcFUhV": {
+          "name": "Spendere 1 Speranza",
+          "description": "<p><strong>Spendi una Speranza</strong> prima di attaccare il tuo Focus. Se ha successo, rimuovi una Paura.</p>"
+        }
+      }
+    },
+    "Arcane Charge": {
+      "name": "Infusione Arcana",
+      "description": "<p>Potete raccogliere energia magica per potenziare le vostre capacità. Quando subite un danno magico, divenite <strong>Infusi</strong>. In alternativa, potete <strong>spendere 2 Speranze</strong> per diventare Infusi. Quando effettuate con successo un attacco che infligge danni magici mentre siete Infusi, potete rilasciare tale condizione per ottenere bonus <strong>+10 al tiro di danno</strong> o bonus <strong>+3 alla Difficoltà</strong> del tiro reazione che il bersaglio deve superare per contrastare l’incantesimo. La condizione di Infusione si interrompe al prossimo riposo lungo.</p>",
+      "effects": {
+        "z49V45ir45HGHOBB": {
+          "name": "Infuso",
+          "description": "<p>Consuma questo stato su un attacco magico riuscito per ottenere +10 ai danni o +3 alla Difficoltà del tiro reazione.</p>"
+        }
+      }
+    },
+    "Ascendant": {
+      "name": "Ascendente",
+      "description": "<p>Guadagnate bonus <strong>+4 permanente</strong> alla soglia dei danni gravi.</p>",
+      "effects": {
+        "7M8UsvVweRtT3E85": {
+          "name": "Ascendente",
+          "description": "<p>Bonus +4 alla soglia dei danni gravi.</p>"
+        }
+      }
+    },
+    "At Ease": {
+      "name": "A Suo Agio",
+      "description": "<p>Guadagnate uno Stress aggiuntivo.</p>",
+      "effects": {
+        "xbS4Lr3dWpXUCHEi": {
+          "name": "A Suo Agio",
+          "description": "<p>+1 slot Stress massimo.</p>"
+        }
+      }
+    },
+    "Battle-Bonded": {
+      "name": "Uniti nella Battaglia",
+      "description": "<p>Quando un avversario vi attacca mentre si trova in Mischia con il vostro compagno, guadagnate bonus <strong>+2 alla vostra Evasione</strong> contro l’attacco.</p>",
+      "effects": {
+        "IZhakv6EuG8DO4a3": {
+          "name": "Uniti nella Battaglia",
+          "description": "<p>Bonus +2 all'Evasione contro gli attacchi di avversari in Mischia con il tuo compagno.</p>"
+        }
+      }
+    },
+    "Battle Ritual": {
+      "name": "Riti di Battaglia",
+      "description": "<p>Una volta per riposo lungo, prima di tentare qualcosa di incredibilmente pericoloso o di affrontare un nemico che vi supera chiaramente, descrivete il rituale che eseguite o i preparativi che fate. Quando lo fate, <strong>rimuovete 2 Stress</strong> e <strong>guadagnate 2 Speranze</strong>.</p>",
+      "actions": {
+        "UdZx74Vcz6ip4Plh": {
+          "name": "Prepararsi",
+          "description": "<p>Rimuovi 2 Stress e guadagna 2 Speranze prima di una prova estrema (1/riposo lungo).</p>"
+        }
+      }
+    },
+    "Battlemage": {
+      "name": "Magia da Battaglia",
+      "description": "<p>Avete concentrato i vostri sforzi per diventare una forza incontrastabile sul campo di battaglia. Guadagnate una casella aggiuntiva di Punti Ferita.</p>",
+      "effects": {
+        "6jjKzvBxAJTHHGoX": {
+          "name": "Magia da Battaglia",
+          "description": "<p>+1 Punto Ferita massimo.</p>"
+        }
+      }
+    },
+    "Brilliant": {
+      "name": "Brillante",
+      "description": "<p>Prendete una carta dominio aggiuntiva del vostro livello o di livello inferiore da un dominio a cui avete accesso.</p>"
+    },
+    "Clarity of Nature": {
+      "name": "Illuminazione della Natura",
+      "description": "<p>Una volta per riposo lungo, potete creare uno spazio di serenità naturale entro distanza Ravvicinata. Quando trascorrete alcuni minuti di riposo all’interno dello spazio, <strong>rimuovete un valore totale di Stress pari al vostro Istinto</strong>, a scelta tra voi e i vostri alleati.</p>",
+      "actions": {
+        "az7YUpxy1ysn12tO": {
+          "name": "Spazio di Serenità",
+          "description": "<p>Crea un'area di serenità a distanza Ravvicinata. Rimuovi Stress totale pari all'Istinto, distribuito tra te e gli alleati.</p>"
+        }
+      }
+    },
+    "Comaraderie": {
+      "name": "Commilitoni",
+      "description": "<p>Il vostro saldo coraggio è un punto fermo nel caos della battaglia per i vostri alleati. Potete effettuare un <strong>Tiro Combinato una volta in più per sessione</strong>. Inoltre, quando un alleato inizia un Tiro Combinato con voi, deve spendere solo 2 Speranze per farlo.</p>",
+      "actions": {
+        "eBSXC0l2IrRb1F8f": {
+          "name": "Commilitoni",
+          "description": "<p>Tiro Combinato extra (1/sessione). Gli alleati pagano solo 2 Speranze per iniziare un Tiro Combinato con te.</p>"
+        }
+      }
+    },
+    "Companion": {
+      "name": "Compagno",
+      "description": "<p>Avete un compagno animale a vostra scelta (a discrezione del GM). Rimane al vostro fianco a meno che non gli ordiniate di fare altrimenti. Prendete la scheda del Compagno del Ranger. Quando fate salire di livello il vostro personaggio, scegliete anche un’opzione di aumento di livello per il vostro compagno da questa scheda.</p>"
+    },
+    "Conjure Shield": {
+      "name": "Evoca Scudo",
+      "description": "<p>Potete evocare una barriera protettiva di magia. Finché avete almeno 2 Speranze, aggiungete la vostra Competenza alla vostra Evasione.</p>",
+      "effects": {
+        "0i7GVOvjH6bK5AUM": {
+          "name": "Evoca Scudo",
+          "description": "<p>Aggiungi la tua Competenza all'Evasione (se hai almeno 2 Speranze).</p>"
+        }
+      }
+    },
+    "Contacts Everywhere": {
+      "name": "Amici Ovunque",
+      "description": "<p>Una volta per sessione, è possibile chiamare brevemente in aiuto un contatto dalla dubbia fama. Scegliete uno dei seguenti benefici e descrivete cosa lo spinga ad aiutarvi in questo momento:</p><ul><li>Vi fornisce 1 manciata d'oro, uno strumento unico o un oggetto normale che la situazione richiede.</li><li>Al prossimo tiro azione, il suo aiuto concede bonus +3 al risultato del Dado Speranza o Paura.</li><li>La prossima volta che infliggete un danno, attaccherà a distanza lo stesso bersaglio da una posizione nascosta, aggiungendo 2d8 al vostro tiro per i danni.</li></ul>",
+      "actions": {
+        "GZDYjtPh0lCJ5VNq": {
+          "name": "Chiamare Contatto",
+          "description": "<p>Ottieni oro/strumenti, o +3 al prossimo Dado Speranza/Paura, o 2d8 danni extra al prossimo attacco (1/sessione).</p>"
+        }
+      }
+    },
+    "Courage": {
+      "name": "Coraggio",
+      "description": "<p>Quando fallite un tiro con Paura, guadagnate una Speranza.</p>"
+    },
+    "Dark Cloud": {
+      "name": "Nube di Tenebra",
+      "description": "<p>Effettuate un <strong>Tiro Incantesimo (15)</strong>. Se riuscite, create una nube oscura temporanea che copre ogni cosa fino a distanza Ravvicinata. Chiunque si trovi all’interno di questa nube non può vedere al di fuori di essa, e chiunque si trovi al di fuori di essa non può vedere al suo interno. Siete considerati <em>Ammantati</em> da qualsiasi avversario per il quale la nube blocca la linea di vista.</p>",
+      "actions": {
+        "nIgBwYfAVAJ98lzb": {
+          "name": "Tiro Incantesimo: Nube di Tenebra",
+          "description": "<p>Tiro Incantesimo (15). Crea un'area Ravvicinata di oscurità che blocca la vista e vi rende <em>Ammantati</em>.</p>"
+        }
+      }
+    },
+    "Defender": {
+      "name": "Difensore",
+      "description": "<p>La vostra trasformazione animale incarna uno spirito protettore della guarigione e del rinnovamento. Quando siete in Forma Bestiale e un alleato entro distanza Ravvicinata subisce 2 o più Punti Ferita, potete <strong>marcare uno Stress</strong> per ridurre di 1 il numero di Punti Ferita subiti.</p>",
+      "actions": {
+        "9WxcZ3BuXUKfqUMz": {
+          "name": "Difendere Alleato",
+          "description": "<p>In Forma Bestiale: <strong>Marca uno Stress</strong> per ridurre di 1 i PF subiti da un alleato vicino (solo se ne sta perdendo 2 o più).</p>"
+        }
+      }
+    },
+    "Devout": {
+      "name": "Devoto",
+      "description": "<p>Quando tirate i Dadi Preghiera, potete tirare un dado aggiuntivo e scartare il risultato più basso. Inoltre, potete usare il privilegio \"Tocco Ristoratore\" due volte invece di una per riposo lungo.</p>"
+    },
+    "Elemental Aura": {
+      "name": "Aura Elementale",
+      "description": "<p>Una volta per riposo, mentre Incanalate, potete ammantarvi di un'aura corrispondente al vostro elemento. L'aura colpisce i bersagli entro distanza Ravvicinata finché non smettete di Incanalare.</p><ul><li><p><strong>Fuoco</strong>: Quando un avversario subisce 1 o più Punti Ferita, deve marcare anche uno Stress.</p></li><li><p><strong>Terra</strong>: Gli alleati ottengono bonus +1 alla Forza.</p></li><li><p><strong>Acqua</strong>: Quando un avversario vi infligge un danno, potete marcare uno Stress per spostarlo ovunque entro una distanza Prossima da dove si trova.</p></li><li><p><strong>Aria</strong>: Quando voi o un alleato subite danni da un attacco non in Mischia, riducete i danni di 1d8.</p></li></ul>",
+      "effects": {
+        "WRuijfHxmUscAa69": {
+          "name": "Aura Elementale (Terra)",
+          "description": "<p>Gli alleati ottengono bonus +1 alla Forza.</p>"
+        },
+        "H7W52ps5d3UGmaFr": {
+          "name": "Aura Elementale (Acqua)",
+          "description": ""
+        },
+        "WX5AMEpmUAutB9Hm": {
+          "name": "Aura Elementale (Fuoco)",
+          "description": ""
+        },
+        "mJBA2QTyM9SM5NVS": {
+          "name": "Aura Elementale (Aria)",
+          "description": ""
+        }
+      },
+      "actions": {
+        "AdOnKhi7g6zQu2iv": {
+          "name": "Fuoco",
+          "description": "<p>Quando un avversario subisce 1 o più Punti Ferita, deve marcare anche uno Stress.</p>"
+        },
+        "xDBLH5TWidvrYF7z": {
+          "name": "Terra",
+          "description": "<p>Gli alleati ottengono bonus +1 alla Forza.</p>"
+        },
+        "S4t5HlgxWlHwaBDw": {
+          "name": "Acqua",
+          "description": "<p>Quando un avversario vi infligge un danno, potete marcare uno Stress per spostarlo ovunque entro una distanza Prossima da dove si trova.</p>"
+        },
+        "hAsKFFewtTqd1gg9": {
+          "name": "Aria",
+          "description": "<p>Quando voi o un alleato subite danni da un attacco non in Mischia, riducete i danni di 1d8.</p>"
+        }
+      }
+    },
+    "Elemental Dominion": {
+      "name": "Dominio Elementale",
+      "description": "<p>Incarnate ulteriormente il vostro elemento. Mentre Incanalate, ottenete il beneficio corrispondente:</p><ul><li><p><strong>Fuoco</strong>: Bonus +1 alla Competenza per gli attacchi e gli incantesimi che infliggono danni.</p></li><li><p><strong>Terra</strong>: Quando subite Punti Ferita, tirate un d6 per ogni Punto Ferita subito. Per ogni risultato di 6, riducete di 1 il numero di Punti Ferita subiti.</p></li><li><p><strong>Acqua</strong>: Quando un attacco contro di voi ha successo, potete marcare uno Stress per rendere l'attaccante temporaneamente Vulnerabile.</p></li><li><p><strong>Aria</strong>: Guadagnate bonus +1 all'Evasione e potete volare.</p></li></ul>",
+      "effects": {
+        "FoBFRSXRfGa1zkiX": {
+          "name": "Dominio Elementale (Fuoco)",
+          "description": "<p>Bonus +1 alla Competenza per gli attacchi e gli incantesimi che infliggono danni.</p>"
+        },
+        "bGwFZZT4juuaIRmZ": {
+          "name": "Dominio Elementale (Acqua)",
+          "description": "<p>Quando un attacco contro di voi ha successo, potete marcare uno Stress per rendere l'attaccante temporaneamente Vulnerabile.</p>"
+        },
+        "edF2zvvlcGf54r2n": {
+          "name": "Dominio Elementale (Aria)",
+          "description": "<p>Guadagnate bonus +1 all'Evasione e potete volare.</p>"
+        },
+        "p5FoUb4JKQFP405d": {
+          "name": "Dominio Elementale (Terra)",
+          "description": "<p>Quando subite Punti Ferita, tirate un d6 per ogni Punto Ferita subito. Per ogni risultato di 6, riducete di 1 il numero di Punti Ferita subiti.</p>"
+        }
+      },
+      "actions": {
+        "ofdSzqY7IfAy5ayv": {
+          "name": "Fuoco",
+          "description": "<p>Bonus +1 alla Competenza per gli attacchi e gli incantesimi che infliggono danni.</p>"
+        },
+        "knGm3snaplWYDaue": {
+          "name": "Terra",
+          "description": "<p>Quando subite Punti Ferita, tirate un d6 per ogni Punto Ferita subito. Per ogni risultato di 6, riducete di 1 il numero di Punti Ferita subiti.</p>"
+        },
+        "MocaqHUdyVwH0ZFu": {
+          "name": "Acqua",
+          "description": "<p>Quando un attacco contro di voi ha successo, potete marcare uno Stress per rendere l'attaccante temporaneamente Vulnerabile.</p>"
+        },
+        "AQMNJRmVyhJTSCfR": {
+          "name": "Aria",
+          "description": "<p>Guadagnate bonus +1 all'Evasione e potete volare.</p>"
+        }
+      }
+    },
+    "Elemental Incarnation": {
+      "name": "Incarnazione Elementale",
+      "description": "<p>Marcate uno Stress per Incanalare uno dei seguenti elementi finché non subite un danno Grave o fino al vostro prossimo riposo:</p><ul><li><p><strong>Fuoco</strong>: Quando un avversario in Mischia vi infligge danno, subisce 1d10 danni magici.</p></li><li><p><strong>Terra</strong>: Guadagnate un bonus alle soglie di danno pari alla vostra Competenza.</p></li><li><p><strong>Acqua</strong>: Quando infliggete danno a un avversario in Mischia, tutti gli altri avversari entro distanza Prossima devono marcare uno Stress.</p></li><li><p><strong>Aria</strong>: Potete librarvi in aria, ottenendo vantaggio nei Tiri Agilità.</p></li></ul>",
+      "effects": {
+        "7xyUtUbBk5jbNnqY": {
+          "name": "Incarnazione Elementale (Terra)",
+          "description": ""
+        },
+        "3ck6CeapLxQVjE2W": {
+          "name": "Incarnazione Elementale (Aria)",
+          "description": "<p>Potete librarvi in aria, ottenendo vantaggio nei Tiri Agilità.</p>"
+        },
+        "Jy6dpEbzkZ2eRDf5": {
+          "name": "Incarnazione Elementale (Acqua)",
+          "description": ""
+        },
+        "ANle8tuOEZIevTWv": {
+          "name": "Incarnazione Elementale (Fuoco)",
+          "description": ""
+        }
+      },
+      "actions": {
+        "wVGSzAnJGs5eXKqI": {
+          "name": "Fuoco",
+          "description": "<p>Quando un avversario in Mischia vi infligge danno, subisce 1d10 danni magici.</p>"
+        },
+        "6QXTThhnJpGDIvhJ": {
+          "name": "Terra",
+          "description": "<p>Guadagnate un bonus alle soglie di danno pari alla vostra Competenza.</p>"
+        },
+        "pY2EdEMoyLGYWjK5": {
+          "name": "Acqua",
+          "description": "<p>Quando infliggete danno a un avversario in Mischia, tutti gli altri avversari entro distanza Prossima devono marcare uno Stress.</p>"
+        },
+        "uk8EgHMxCgoWENzt": {
+          "name": "Aria",
+          "description": "<p>Potete librarvi in aria, ottenendo vantaggio nei Tiri Agilità.</p>"
+        }
+      }
+    },
+    "Elementalist": {
+      "name": "Elementalista",
+      "description": "<p>Scegliete uno dei seguenti elementi alla creazione del personaggio: aria, terra, fuoco, fulmine, acqua. Potete plasmare questo elemento generando effetti innocui. Inoltre, spendendo una Speranza e descrivendo in che modo il controllo su questo elemento favorisce un tiro azione che state per effettuare, ottenete bonus +2 al tiro azione o bonus +3 al tiro per i danni.</p>",
+      "effects": {
+        "EY87mY6ULfIt3XC8": {
+          "name": "Bonus a un tiro",
+          "description": "<p>Bonus +2 a un tiro azione</p>"
+        }
+      },
+      "actions": {
+        "rxuFLfHP1FILDpds": {
+          "name": "Bonus a un tiro",
+          "description": "<p>Spendete una Speranza e descrivete in che modo il controllo su questo elemento favorisce un tiro azione che state per effettuare. Ottenete bonus +2 al tiro azione.</p>"
+        },
+        "S7HvFD3qIR3ifJRL": {
+          "name": "Bonus ai danni",
+          "description": "<p>Spendete una Speranza e descrivete in che modo il controllo su questo elemento favorisce un tiro azione che state per effettuare. Ottenete bonus +3 ai danni per quel tiro.</p>"
+        }
+      }
+    },
+    "Eloquent": {
+      "name": "Eloquente",
+      "description": "<p>Le vostre parole toccanti aumentano il morale. Una volta per sessione, quando incoraggiate un alleato, potete scegliere una delle seguenti opzioni:</p><ul><li><p>Permettere di trovare un oggetto o uno strumento comune di cui ha bisogno.</p></li><li><p>Aiutare un Alleato senza spendere Speranza.</p></li><li><p>Assegnare una mossa aggiuntiva in un interludio durante il prossimo riposo.</p></li></ul>",
+      "actions": {
+        "o1MWnafbLsXnvSUl": {
+          "name": "Usare il privilegio",
+          "description": ""
+        }
+      }
+    },
+    "Elusive Predator": {
+      "name": "Predatore Furtivo",
+      "description": "<p>Quando il vostro Focus compie un attacco contro di voi, ottenete bonus +2 alla vostra Evasione contro tale attacco.</p>",
+      "effects": {
+        "X4llFOcAcdJLbear": {
+          "name": "Predatore Furtivo",
+          "description": "<p>Quando il vostro Focus compie un attacco contro di voi, ottenete bonus +2 alla vostra Evasione contro tale attacco.</p>"
+        }
+      }
+    },
+    "Enchanted Aid": {
+      "name": "Aiuto Incantato",
+      "description": "<p>Potete potenziare la magia altrui grazie alla vostra essenza. Quando Aiutate un Alleato con un Tiro Incantesimo, potete tirare un d8 come dado vantaggio. Una volta per riposo lungo, dopo che un alleato ha effettuato un Tiro Incantesimo con il vostro aiuto, potete scambiare i risultati dei suoi Dadi Dualità.</p>",
+      "actions": {
+        "n8wSqR967o0pZDLR": {
+          "name": "Scambiare i risultati dei dadi",
+          "description": "<p>Una volta per riposo lungo, dopo che un alleato ha effettuato un Tiro Incantesimo con il vostro aiuto, potete scambiare i risultati dei suoi Dadi Dualità.</p>"
+        }
+      }
+    },
+    "Epic Poetry": {
+      "name": "Poesia Epica",
+      "description": "<p>Il Dado A Raccolta aumenta a d10. Inoltre, quando Aiutate un Alleato, potete narrare il momento come se steste scrivendo la storia del suo eroismo in un libro di memorie. Quando lo fate, tirate un d10 come dado vantaggio.</p>",
+      "effects": {
+        "RSmscgGyuHJucF6C": {
+          "name": "Raggruppamento: d10",
+          "description": "<p>Il Dado A Raccolta aumenta a d10.</p>"
+        }
+      }
+    },
+    "Ethereal Visage": {
+      "name": "Volto Celeste",
+      "description": "<p>Il vostro volto soprannaturale incute timore e paura. Quando siete in volo, avete vantaggio sui Tiri Presenza. Quando avete successo con Speranza in un Tiro Presenza, potete rimuovere una Paura dalla riserva di Paura del GM invece di guadagnare Speranza.</p>",
+      "effects": {
+        "Ns1DcQ8wo47LhlL3": {
+          "name": "Volto Celeste",
+          "description": "<p>Quando siete in volo, avete vantaggio sui Tiri Presenza.</p>"
+        }
+      }
+    },
+    "Expert Training": {
+      "name": "Addestramento Intensivo",
+      "description": "<p>Scegliete un'ulteriore opzione di aumento di livello per il vostro compagno.</p>",
+      "effects": {
+        "rknTONvaUDZ2Yz1W": {
+          "name": "Addestramento Intensivo",
+          "description": "<p>Scegliete un'ulteriore opzione di aumento di livello per il vostro compagno.</p>"
+        }
+      }
+    },
+    "Face Your Fear": {
+      "name": "Affronta la Tua Paura",
+      "description": "<p>Quando avete successo con Paura in un tiro di attacco, infliggete 1d10 danni magici addizionali.</p>"
+    },
+    "Fleeting Shadow": {
+      "name": "Ombra Sfuggente",
+      "description": "<p>Guadagnate bonus +1 permanente all'Evasione. Potete usare il vostro privilegio \"Passo d'Ombra\" per muovervi fino a distanza Remota.</p>",
+      "effects": {
+        "hsEwoHkNr2qVwm2H": {
+          "name": "Ombra Sfuggente",
+          "description": "<p>Guadagnate bonus +1 permanente all'Evasione. Potete usare il vostro privilegio \"Passo d'Ombra\" per muovervi fino a distanza Remota.</p>"
+        }
+      }
+    },
+    "Fueled by Fear": {
+      "name": "Alimentato dalla Paura",
+      "description": "<p>Il danno magico addizionale della caratteristica \"Affronta la Tua Paura\" aumenta a 2d10.</p>"
+    },
+    "Gifted Performer": {
+      "name": "Musico Eccezionale",
+      "description": "<p>Descrivete il modo in cui vi esibite per gli altri. È possibile eseguire ogni canzone una sola volta per riposo lungo:</p><ul><li><p><strong>Canzone Popolare:</strong> Voi e tutti gli alleati a distanza Ravvicinata recuperate un Punto Ferita.</p></li><li><p><strong>Canto Epico:</strong> Rendete temporaneamente Vulnerabile un bersaglio a distanza Ravvicinata.</p></li><li><p><strong>Ballata:</strong> Voi e tutti gli alleati a distanza Ravvicinata guadagnate una Speranza.</p></li></ul>",
+      "effects": {
+        "FK4IdbxluRErfYor": {
+          "name": "Canto Epico",
+          "description": "<p>Rendete temporaneamente Vulnerabile un bersaglio a distanza Ravvicinata.</p>"
+        }
+      },
+      "actions": {
+        "xvs7ZKm93AlnZD3F": {
+          "name": "Canzone Popolare",
+          "description": "<p>Voi e tutti gli alleati a distanza Ravvicinata recuperate un Punto Ferita.</p>"
+        },
+        "nvfJ8rOx8baI6POZ": {
+          "name": "Canto Epico",
+          "description": "<p>Rendete temporaneamente Vulnerabile un bersaglio a distanza Ravvicinata.</p>"
+        },
+        "QTTgKnhpNE2XHz4u": {
+          "name": "Ballata",
+          "description": "<p>Voi e tutti gli alleati a distanza Ravvicinata guadagnate una Speranza.</p>"
+        }
+      }
+    },
+    "Have No Fear": {
+      "name": "Non Conoscerai la Paura",
+      "description": "<p>Il danno magico addizionale della caratteristica \"Affronta la Tua Paura\" aumenta a 3d10.</p>"
+    },
+    "Heart of a Poet": {
+      "name": "Cuore di Poeta",
+      "description": "<p>Dopo aver effettuato un tiro azione per impressionare, persuadere o offendere qualcuno, potete spendere una Speranza per aggiungere un d4 al tiro.</p>",
+      "actions": {
+        "pHSfMDmfVQSgqk39": {
+          "name": "Spendere una Speranza",
+          "description": "<p>Dopo aver effettuato un tiro azione per impressionare, persuadere o offendere qualcuno, potete spendere una Speranza per aggiungere un d4 al tiro.</p>"
+        }
+      }
+    },
+    "Honed Expertise": {
+      "name": "Padronanza Affinata",
+      "description": "<p>Quando utilizzate un'Esperienza, tirate un d6. Con un risultato di 5 o superiore, potete utilizzarla senza spendere Speranza.</p>",
+      "actions": {
+        "zCTrqPtGARSZ06CU": {
+          "name": "Tirare un d6",
+          "description": "<p>Quando utilizzate un'Esperienza, tirate un d6. Con un risultato di 5 o superiore, potete utilizzarla senza spendere Speranza.</p>"
+        }
+      }
+    },
+    "Iron Will": {
+      "name": "Volontà di Ferro",
+      "description": "<p>Quando subite danni fisici, potete marcare un'ulteriore Casella Armatura per ridurne la gravità.</p>",
+      "effects": {
+        "htEDIjCEWYtznpRV": {
+          "name": "Volontà di Ferro",
+          "description": "<p>Quando subite danni fisici, potete marcare un'ulteriore Casella Armatura per ridurne la gravità.</p>"
+        }
+      }
+    },
+    "Loyal Friend": {
+      "name": "Amico Fedele",
+      "description": "<p>Una volta per riposo lungo, quando il danno di un attacco marcherebbe l'ultimo Stress del vostro compagno oppure subireste il vostro ultimo Punto Ferita, ed entrambi siete entro distanza Prossima, voi o il vostro compagno potete accorrere al fianco dell'altro e marcare quello Stress o subire quel danno.</p>",
+      "actions": {
+        "Z82YQzYWo4eektMa": {
+          "name": "Accorrere",
+          "description": "<p>Una volta per riposo lungo, quando il danno di un attacco marcherebbe l'ultimo Stress del vostro compagno oppure subireste il vostro ultimo Punto Ferita, ed entrambi siete entro distanza Prossima, voi o il vostro compagno potete accorrere al fianco dell'altro e marcare quello Stress o subire quel danno.</p>"
+        }
+      }
+    },
+    "Loyal Protector": {
+      "name": "Protettore Fedele",
+      "description": "<p>Quando un alleato entro distanza Ravvicinata ha 2 o meno Punti Ferita sta per subire un danno, potete marcare uno Stress per correre al suo fianco e subire il danno al suo posto.</p>",
+      "actions": {
+        "Dxnu3gPSTSysJnb8": {
+          "name": "Marcare uno Stress",
+          "description": "<p>Quando un alleato entro distanza Ravvicinata ha 2 o meno Punti Ferita sta per subire un danno, potete marcare uno Stress per correre al suo fianco e subire il danno al suo posto.</p>"
+        }
+      }
+    },
+    "Maestro": {
+      "name": "Maestro",
+      "description": "<p>Le vostre canzoni accendono il coraggio di chi le ascolta. Quando assegnate un Dado A Raccolta a un alleato, questi può guadagnare una Speranza o rimuovere uno Stress.</p>"
+    },
+    "Manipulate Magic": {
+      "name": "Manipolare la Magia",
+      "description": "<p>Il vostro Potere Primordiale vi permette di modificare l'essenza stessa della magia. Dopo aver lanciato un incantesimo o aver effettuato un attacco con un'arma che infligge danni magici, potete marcare uno Stress per attivare un effetto a scelta tra i seguenti:</p><ul><li><p>Estendere la portata dell'incantesimo o dell'attacco di una categoria</p></li><li><p>Ottenere bonus +2 al risultato del tiro azione</p></li><li><p>Raddoppiare un dado di danno a scelta</p></li><li><p>Colpire un altro bersaglio entro portata</p></li></ul>",
+      "actions": {
+        "KL5l4QJjPtDiDBSv": {
+          "name": "Manipolare",
+          "description": "<p>Dopo aver lanciato un incantesimo o aver effettuato un attacco con un'arma che infligge danni magici, potete marcare uno Stress per attivare un effetto a scelta.</p>"
+        }
+      }
+    },
+    "Martial Preparation": {
+      "name": "Addestramento Marziale",
+      "description": "<p>Siete un guerriero che ispira tutti coloro che viaggiano con voi. Il vostro gruppo ha accesso alla mossa Addestramento Marziale durante il riposo. Per usare questa mossa durante un riposo, descrivete come istruite e vi allenate con il gruppo. Voi e ogni alleato che sceglie questa mossa di interludio guadagnate un d6 di Dado dello Sterminatore. Un PG con un Dado dello Sterminatore può spenderlo per tirare il dado e aggiungere il risultato a un tiro attacco o di danno a sua scelta.</p>"
+    },
+    "Natural Evasion": {
+      "name": "Scudo della Natura",
+      "description": "<p>Potete invocare il vostro elemento per proteggervi dai danni. Quando un tiro attacco contro di voi ha successo, potete marcare uno Stress e descrivere come usate il vostro elemento per difendervi. Quando lo fate, tirate un d6 e aggiungete il risultato alla vostra Evasione contro l'attacco.</p>",
+      "actions": {
+        "amJMKDdSgJHsOsOB": {
+          "name": "Evadere",
+          "description": "<p>Quando un tiro attacco contro di voi ha successo, potete marcare uno Stress e descrivere come usate il vostro elemento per difendervi, aggiungendo 1d6 all'Evasione.</p>"
+        }
+      }
+    },
+    "Nemesis": {
+      "name": "Nemesi",
+      "description": "<p>Spendete 2 Speranze per Dare Priorità a un avversario fino al vostro prossimo riposo. Quando effettuate un attacco contro l'avversario a cui avete Dato Priorità, potete scambiare i risultati dei Dadi Speranza e Paura. Potete Dare Priorità a un solo avversario alla volta.</p>",
+      "effects": {
+        "JoBFHkhLbm4JyuZm": {
+          "name": "Nemesi",
+          "description": "<p>Quando effettuate un attacco contro l'avversario a cui avete Dato Priorità, potete scambiare i risultati dei Dadi Speranza e Paura. Potete Dare Priorità a un solo avversario alla volta.</p>"
+        }
+      },
+      "actions": {
+        "Rgc7kBmU3kjHKvfx": {
+          "name": "Spendere 2 Speranze",
+          "description": "<p>Spendete 2 Speranze per Dare Priorità a un avversario fino al vostro prossimo riposo.</p>"
+        }
+      }
+    },
+    "Partner-in-Arms": {
+      "name": "Compagni d'Arme",
+      "description": "<p>Quando un alleato entro distanza Ravvicinata subisce danni, potete marcare una Casella Armatura per ridurne la gravità di una soglia.</p>",
+      "actions": {
+        "D6ClOGDgu6cLanjE": {
+          "name": "Marcare una Casella Armatura",
+          "description": "<p>Quando un alleato entro distanza Ravvicinata subisce danni, potete marcare una Casella Armatura per ridurne la gravità di una soglia.</p>"
+        }
+      }
+    },
+    "Path Forward": {
+      "name": "La Via Prosegue",
+      "description": "<p>Quando viaggiate verso un luogo già visitato o portate con voi un oggetto che è già stato in quel luogo, potete individuare il percorso più breve e diretto verso tale destinazione.</p>"
+    },
+    "Perfect Recall": {
+      "name": "Memoria Perfetta",
+      "description": "<p>Una volta per riposo, quando richiamate una carta dominio nella vostra riserva, potete ridurre di 1 il suo Costo di Richiamo.</p>",
+      "actions": {
+        "rFZj0ZsnJCc0PS3h": {
+          "name": "Richiamare",
+          "description": "<p>Una volta per riposo, quando richiamate una carta dominio nella vostra riserva, potete ridurre di 1 il suo Costo di Richiamo.</p>"
+        }
+      }
+    },
+    "Power of the Gods": {
+      "name": "Potere degli Dèi",
+      "description": "<p>Quando siete in volo grazie al privilegio \"Ali di Luce\", infliggete 1d12 danni extra invece di 1d8.</p>"
+    },
+    "Prepared": {
+      "name": "Preparato",
+      "description": "<p>Prendete una carta dominio aggiuntiva del vostro livello o di livello inferiore da un dominio a cui avete accesso.</p>"
+    },
+    "Regeneration": {
+      "name": "Rigenerazione",
+      "description": "<p>Toccate una creatura e spendete 3 Speranze. La creatura recupera 1d4 Punti Ferita.</p>",
+      "actions": {
+        "kD2kWWj0oR7ZxyVs": {
+          "name": "Curare una creatura",
+          "description": "<p>Toccate una creatura e spendete 3 Speranze. La creatura recupera 1d4 Punti Ferita.</p>"
+        }
+      }
+    },
+    "Regenerative Reach": {
+      "name": "Onda Rigenerante",
+      "description": "<p>Potete bersagliare con il privilegio \"Rigenerazione\" creature entro distanza Prossima.</p>"
+    },
+    "Reliable Backup": {
+      "name": "Supporto Fidato",
+      "description": "<p>Potete utilizzare il privilegio \"Amici Ovunque\" tre volte per sessione. Le seguenti opzioni si aggiungono all'elenco dei benefici che potete scegliere quando utilizzate questo privilegio:</p><ul><li>Quando subite 1 o più Punti Ferita, può accorrere per proteggervi, riducendo di 1 i Punti Ferita subiti.</li><li>Quando effettuate un Tiro Presenza in una conversazione, vi sostiene. Potete tirare un d20 come Dado Speranza.</li></ul>"
+    },
+    "Revenge": {
+      "name": "Vendetta",
+      "description": "<p>Quando un avversario in Mischia riesce a sferrare un attacco contro di voi, potete marcare 2 Stress per costringere l'attaccante a subire un Punto Ferita.</p>",
+      "actions": {
+        "e00FXbyXZ8bHRY2t": {
+          "name": "Marcare 2 Stress",
+          "description": "<p>Quando un avversario in Mischia riesce a sferrare un attacco contro di voi, potete marcare 2 Stress per costringere l'attaccante a subire un Punto Ferita.</p>"
+        }
+      }
+    },
+    "Rise to the Challenge": {
+      "name": "Raccogliere la Sfida",
+      "description": "<p>Siete vigili di fronte al pericolo crescente. Quando avete 2 o meno Punti Ferita, potete tirare un d20 come Dado Speranza.</p>"
+    },
+    "Rousing Speech": {
+      "name": "Discorso Ispiratore",
+      "description": "<p>Una volta per riposo lungo, potete pronunciare un discorso accorato e ispiratore. Tutti gli alleati entro distanza Lontana rimuovono 2 Stress.</p>",
+      "actions": {
+        "WNtHiko4DRGbxKnm": {
+          "name": "Pronunciare discorso",
+          "description": "<p>Una volta per riposo lungo, potete pronunciare un discorso accorato e ispiratore. Tutti gli alleati entro distanza Lontana rimuovono 2 Stress.</p>"
+        }
+      }
+    },
+    "Ruthless Predator": {
+      "name": "Predatore Spietato",
+      "description": "<p>Quando effettuate un tiro per i danni, potete marcare uno Stress per ottenere bonus +1 alla Competenza. Inoltre, quando infliggete un danno Grave a un avversario, quest'ultimo deve marcare uno Stress.</p>",
+      "effects": {
+        "8BNwCS7ueIQuvn2M": {
+          "name": "Predatore Spietato",
+          "description": "<p>Quando effettuate un tiro per i danni, potete marcare uno Stress per ottenere bonus +1 alla Competenza. Inoltre, quando infliggete un danno Grave a un avversario, quest'ultimo deve marcare uno Stress.</p>"
+        }
+      },
+      "actions": {
+        "0YRLL1HC4XS3tX00": {
+          "name": "Marcare uno Stress",
+          "description": "<p>Quando effettuate un tiro per i danni, potete marcare uno Stress per ottenere bonus +1 alla Competenza. Inoltre, quando infliggete un danno Grave a un avversario, quest'ultimo deve marcare uno Stress.</p>"
+        }
+      }
+    },
+    "Sacred Resonance": {
+      "name": "Risonanza Celestiale",
+      "description": "<p>Quando tirate i danni per la vostra \"Arma Animata\", se i risultati dei dadi coincidono, raddoppiate il valore di ogni dado corrispondente. Ad esempio, se ottenete due 5, questi contano come due 10.</p>"
+    },
+    "Shadow Stepper": {
+      "name": "Passo d'Ombra",
+      "description": "<p>Potete spostarvi da un'ombra a un'altra. Quando vi spostate in un'area di oscurità o nell'ombra proiettata da un'altra creatura o da un oggetto, potete marcare uno Stress per scomparire dal luogo in cui vi trovate e riapparire all'interno di un'altra ombra entro distanza Lontana. Quando riapparite, siete Ammantati.</p>",
+      "effects": {
+        "RYri0b9z5kq74U5n": {
+          "name": "Ammantato",
+          "description": "<p>Quando vi spostate in un'area di oscurità o nell'ombra proiettata da un'altra creatura o da un oggetto, potete marcare uno Stress per scomparire dal luogo in cui vi trovate e riapparire all'interno di un'altra ombra entro distanza Lontana. Quando riapparite, siete Ammantati.</p>"
+        }
+      },
+      "actions": {
+        "g1VIG6VjYKkm11qJ": {
+          "name": "Marcare uno Stress",
+          "description": "<p>Quando vi spostate in un'area di oscurità o nell'ombra proiettata da un'altra creatura o da un oggetto, potete marcare uno Stress per scomparire dal luogo in cui vi trovate e riapparire all'interno di un'altra ombra entro distanza Lontana. Quando riapparite, siete Ammantati.</p>"
+        }
+      }
+    },
+    "Slayer": {
+      "name": "Sterminatore",
+      "description": "<p>Ottenete una riserva di dadi chiamata Dadi dello Sterminatore. Quando effettuate un tiro con Speranza, potete mettere un d6 su questa carta invece di guadagnare una Speranza, aggiungendo il dado alla riserva. Potete conservare un numero massimo di Dadi dello Sterminatore pari alla vostra Competenza. Quando effettuate un tiro attacco o di danno, potete spendere un numero qualsiasi di Dadi dello Sterminatore, tirandoli e aggiungendo il loro risultato al tiro. Alla fine di ogni sessione, rimuovete i Dadi dello Sterminatore non spesi da questa carta e guadagnate una Speranza per ogni dado cancellato.</p>"
+    },
+    "Sparing Touch": {
+      "name": "Tocco Ristoratore",
+      "description": "<p>Una volta per riposo lungo, toccando una creatura potete curare 2 Punti Ferita o rimuovere 2 Stress.</p>",
+      "actions": {
+        "aanLNQkeO2ZTIqBl": {
+          "name": "Curare 2 Punti Ferita",
+          "description": "<p>Una volta per riposo lungo, toccando una creatura potete curare 2 Punti Ferita.</p>"
+        },
+        "cWdzCQJv8RFfi2NR": {
+          "name": "Rimuovere 2 Stress",
+          "description": "<p>Una volta per riposo lungo, toccando una creatura potete rimuovere 2 Stress.</p>"
+        }
+      }
+    },
+    "Spirit Weapon": {
+      "name": "Arma Animata",
+      "description": "<p>Quando impugnate un'arma con portata Mischia o Prossima, questa può volare dalla vostra mano per attaccare un avversario entro distanza Ravvicinata e poi tornare nelle vostre mani. Potete marcare uno Stress per colpire un altro avversario entro portata con lo stesso tiro attacco.</p>",
+      "actions": {
+        "TDvWFqAxu7V33UIC": {
+          "name": "Colpire bersaglio aggiuntivo",
+          "description": "<p>Potete marcare uno Stress per colpire un altro avversario entro portata con lo stesso tiro attacco.</p>"
+        }
+      }
+    },
+    "Thrive in Chaos": {
+      "name": "Prosperare nel Caos",
+      "description": "<p>Quando un attacco va a segno, potete marcare uno Stress dopo aver tirato i danni per costringere il bersaglio a subire un Punto Ferita aggiuntivo.</p>",
+      "actions": {
+        "7Z9v7GWswIQFD5YH": {
+          "name": "Marcare uno Stress",
+          "description": "<p>Quando un attacco va a segno, potete marcare uno Stress dopo aver tirato i danni per costringere il bersaglio a subire un Punto Ferita aggiuntivo.</p>"
+        }
+      }
+    },
+    "Transcendence": {
+      "name": "Trascendenza",
+      "description": "<p>Una volta per riposo lungo, potete trasformarvi in una manifestazione fisica del vostro elemento. Quando lo fate, descrivete la vostra trasformazione e ottenete a vostra scelta due dei seguenti benefici, fino al riposo successivo:</p><ul><li>Bonus +4 alla soglia di danno Grave</li><li>Bonus +1 a un tratto del personaggio a scelta</li><li>Bonus +1 alla Competenza</li><li>Bonus +2 all'Evasione</li></ul>",
+      "effects": {
+        "zFOpzO3tBJPcZcRc": {
+          "name": "Bonus al limite",
+          "description": "<p>Bonus +4 alla soglia di danno Grave</p>"
+        },
+        "cTgSmxkTi89y6sbc": {
+          "name": "Bonus al tratto",
+          "description": "<p>Bonus +1 a un tratto del personaggio a scelta</p>"
+        },
+        "oWf3iXf4dawdbmzd": {
+          "name": "Bonus in Competenza",
+          "description": "<p>Bonus +1 alla Competenza</p>"
+        },
+        "2LCF6lSnWFqNiPs5": {
+          "name": "Bonus in Evasione",
+          "description": "<p>Bonus +2 all'Evasione</p>"
+        }
+      },
+      "actions": {
+        "RIbyJjEkCgqoDmyn": {
+          "name": "Trasformarsi",
+          "description": "<p>Una volta per riposo lungo, potete trasformarvi in una manifestazione fisica del vostro elemento e scegliere due benefici.</p>"
+        }
+      }
+    },
+    "Undaunted": {
+      "name": "Imperturbabile",
+      "description": "<p>Guadagnate bonus +3 permanente alle soglie di danno.</p>",
+      "effects": {
+        "zggFRaerHCj1e5F5": {
+          "name": "Imperturbabile",
+          "description": "<p>Guadagnate bonus +3 permanente alle soglie di danno.</p>"
+        }
+      }
+    },
+    "Unrelenting": {
+      "name": "Implacabile",
+      "description": "<p>Guadagnate bonus +2 permanente alle soglie di danno.</p>",
+      "effects": {
+        "IKb6yutns8EJZ49M": {
+          "name": "Implacabile",
+          "description": "<p>Guadagnate bonus +2 permanente alle soglie di danno.</p>"
+        }
+      }
+    },
+    "Unwavering": {
+      "name": "Saldo",
+      "description": "<p>Guadagnate bonus permanente +1 alle soglie di danno.</p>",
+      "effects": {
+        "3wexvo6La4V46aiX": {
+          "name": "Saldo",
+          "description": "<p>Guadagnate bonus permanente +1 alle soglie di danno.</p>"
+        }
+      }
+    },
+    "Vanishing Act": {
+      "name": "Svanire",
+      "description": "<p>Marcate uno Stress per diventare Ammantati in qualsiasi momento. Quando vi Ammantate con questo privilegio, eliminate automaticamente la condizione di Trattenuto, se presente. Rimanete Ammantati in questo modo finché non tirate con Paura o fino al prossimo riposo.</p>",
+      "effects": {
+        "czrwqq44sEr0uJ8O": {
+          "name": "Svanire : Ammantato",
+          "description": "<p>Rimanete Ammantati finché non tirate con Paura o fino al prossimo riposo.</p>"
+        }
+      },
+      "actions": {
+        "BjAECQULugmbVqXU": {
+          "name": "Marcare uno Stress",
+          "description": "<p>Marcate uno Stress per diventare Ammantati in qualsiasi momento ed eliminare la condizione Trattenuto.</p>"
+        }
+      }
+    },
+    "Virtuoso": {
+      "name": "Virtuoso",
+      "description": "<p>Siete tra i più grandi musicisti mai vissuti e la vostra abilità è illimitata. Potete eseguire ogni canzone del privilegio «Musico Eccezionale» due volte invece di una sola per riposo lungo.</p>"
+    },
+    "Warden’s Protection": {
+      "name": "Protezione del Guardiano",
+      "description": "<p>Una volta per riposo lungo, spendete 2 Speranze per curare 2 Punti Ferita a 1d4 alleati a distanza Ravvicinata.</p>",
+      "actions": {
+        "ozYzhQfRt5sp19di": {
+          "name": "Curare",
+          "description": "<p>Una volta per riposo lungo, spendete 2 Speranze per curare 2 Punti Ferita a [[/r 1d4]] alleati a distanza Ravvicinata.</p>"
+        }
+      }
+    },
+    "Weapon Specialist": {
+      "name": "Specialista delle Armi",
+      "description": "<p>Potete maneggiare più armi con letale maestria. Quando avete successo in un attacco, potete spendere una Speranza per aggiungere uno dei dadi di danno della vostra arma secondaria al tiro di dado. Inoltre, una volta per riposo lungo, quando tirate i Dadi dello Sterminatore, potete ripetere l'esito di qualsiasi 1.</p>",
+      "actions": {
+        "vay9rVXJS3iksaVR": {
+          "name": "Spendere una Speranza",
+          "description": "<p>Quando avete successo in un attacco, potete spendere una Speranza per aggiungere uno dei dadi di danno della vostra arma secondaria al tiro di dado.</p>"
+        },
+        "1bBFfxmywJpx5tfk": {
+          "name": "Ritirare 1",
+          "description": "<p>Una volta per riposo lungo, quando tirate i Dadi dello Sterminatore, potete ripetere l'esito di qualsiasi 1.</p>"
+        }
+      }
+    },
+    "Well-Connected": {
+      "name": "Legami",
+      "description": "<p>Quando arrivate in una città o in un altro luogo importante, descrivete una persona che avete già conosciuto e che vive qui. Datele un nome, annotate in che modo pensate che possa esservi utile e scegliete un fatto dalla seguente lista :</p><ul><li>Mi deve un favore, ma sarà difficile trovarla.</li><li>Chiederà qualcosa in cambio.</li><li>È sempre in gran difficoltà.</li><li>Una volta stavamo insieme. È una lunga storia.</li><li>Non ci siamo lasciati in buoni rapporti.</li></ul>"
+    },
+    "Wings of Light": {
+      "name": "Ali di Luce",
+      "description": "<p>Potete volare. Quando siete in volo, potete :</p><ul><li>Marcare uno Stress per afferrare e trasportare un'altra creatura consenziente della vostra taglia o più piccola.</li><li>Spendere una Speranza per infliggere 1d8 danni extra in un attacco riuscito.</li></ul>",
+      "effects": {
+        "PfCwuVbKLxhnrm9X": {
+          "name": "Ali di Luce",
+          "description": "<p>Infliggete 1d8 danni extra in un attacco riuscito.</p>"
+        }
+      },
+      "actions": {
+        "rg2sLCTqY2rTo861": {
+          "name": "Marcare uno Stress",
+          "description": "<p>Marcate uno Stress per afferrare e trasportare un'altra creatura consenziente della vostra taglia o più piccola.</p>"
+        }
+      }
+    },
+    "Beastbound": {
+      "name": "Ferale",
+      "description": "<p>Scegliete il Ferale se volete creare un legame profondo con un alleato animale.</p>"
+    },
+    "Call Of The Brave": {
+      "name": "Chiamata del Coraggio",
+      "description": "<p>Rispondete alla Chiamata del Coraggio se volete usare la forza dei vostri nemici per alimentare il vostro potere.</p>"
+    },
+    "Call Of The Slayer": {
+      "name": "Chiamata dello Sterminatore",
+      "description": "<p>Rispondete alla Chiamata dello Sterminatore se volete abbattere gli avversari con una forza immensa.</p>"
+    },
+    "Divine Wielder": {
+      "name": "Emissario Divino",
+      "description": "<p>Scegliete l'Emissario Divino se volete dominare il campo di battaglia con un'arma benedetta.</p>"
+    },
+    "Elemental Origin": {
+      "name": "Potere Elementale",
+      "description": "<p>Scegliete il Potere Elementale se volete incanalare la potenza grezza di un particolare elemento.</p>"
+    },
+    "Nightwalker": {
+      "name": "Ombra Notturna",
+      "description": "<p>Scegliete l'Ombra Notturna se volete manipolare le ombre per muovervi con il favore delle tenebre.</p>"
+    },
+    "Primal Origin": {
+      "name": "Potere Primordiale",
+      "description": "<p>Scegliete il Potere Primordiale se volete estendere la versatilità dei vostri incantesimi in modo dirompente.</p>"
+    },
+    "School Of Knowledge": {
+      "name": "Scuola della Conoscenza",
+      "description": "<p>Scegliete la Scuola della Conoscenza se volete comprendere a fondo il mondo che vi circonda.</p>"
+    },
+    "School Of War": {
+      "name": "Scuola della Guerra",
+      "description": "<p>Scegliete la Scuola della Guerra se volete ricorrere ai sortilegi più devastanti.</p>"
+    },
+    "Stalwart": {
+      "name": "Valoroso",
+      "description": "<p>Scegliete il Valoroso se volete incassare i colpi più pesanti e continuare a combattere.</p>"
+    },
+    "Syndicate": {
+      "name": "Ladro",
+      "description": "<p>Scegliete con il Ladro se volete avere una rete di contatti ovunque l'avventura vi conduca.</p>"
+    },
+    "Troubadour": {
+      "name": "Trovatore",
+      "description": "<p>Scegliete il Trovatore se volete evocare la forza della musica per sostenere i vostri alleati.</p>"
+    },
+    "Vengeance": {
+      "name": "Vendicatore",
+      "description": "<p>Scegliete il Vendicatore se volete punire i nemici che feriscono voi o i vostri alleati.</p>"
+    },
+    "Warden of Renewal": {
+      "name": "Custode del Rinnovamento",
+      "description": "<p>Scegliete il Custode del Rinnovamento se volete evocare potenti magie per curare i vostri compagni.</p>"
+    },
+    "Warden of the Elements": {
+      "name": "Custode degli Elementi",
+      "description": "<p>Scegliete il Custode degli Elementi se volete incarnare gli elementi primigeni della natura.</p>"
+    },
+    "Wayfinder": {
+      "name": "Apripista",
+      "description": "<p>Scegliete l'Apripista se volete cacciare le vostre prede e colpirle con forza letale.</p>"
+    },
+    "Winged Sentinel": {
+      "name": "Sentinella Alata",
+      "description": "<p>Scegliete la Sentinella Alata se volete spiccare il volo e sferrare colpi devastanti dal cielo.</p>"
+    },
+    "Wordsmith": {
+      "name": "Oratore",
+      "description": "<p>Scegliete l'Oratore se volete servirvi del potere delle parole e affascinare le folle.</p>"
+    }
+  }
+}

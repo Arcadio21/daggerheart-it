@@ -1,0 +1,60 @@
+{
+  "id": "daggerheart-it",
+  "title": "Daggerheart - Italiano - non ufficiale",
+  "description": "<p>Questo modulo fornisce una traduzione (non ufficiale) del sistema e dei compendi di Daggerheart Foundryborne.<br>È realizzata dai fan e utilizza il modulo Babele.<br><strong>- Unisciti alla comunità Discord IT :</strong><a href=\"https://discord.gg/pPSDNJk\"> https://discord.gg/pPSDNJk</a></p>",
+  "version": "1.0",
+  "url": "https://github.com/Arcadio21/daggerheart-it",
+  "manifest": "https://raw.githubusercontent.com/Arcadio21/daggerheart-it/main/module.json",
+  "download": "https://codeload.github.com/Arcadio21/daggerheart-it/zip/main",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Arcadio21",
+      "discord": "Arcadio21",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "daggerheart",
+        "type": "system",
+        "compatibility": {
+          "minimum": "1.8.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "daggerheart-it.mjs"
+  ],
+  "languages": [
+    {
+      "lang": "it",
+      "name": "Italian",
+      "path": "lang/it-IT.json",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "hotReload": {
+      "extensions": [
+        "css",
+        "json"
+      ],
+      "paths": [
+        "lang/"
+      ]
+    }
+  }
+}

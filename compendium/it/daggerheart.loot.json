@@ -1,0 +1,480 @@
+{
+  "label": "Bottino",
+  "mapping": {
+    "description": "system.description",
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "actions": {
+      "path": "system.actions",
+      "converter": "actions"
+    }
+  },
+  "entries": {
+    "Airblade Charm": {
+      "name": "Ninnolo della Lama di Vento",
+      "description": "<p>Potete legare questo ninnolo a un’arma con portata di Mischia. Tre volte per riposo, potete attivare il ninnolo per attaccare un bersaglio entro distanza Ravvicinata.</p>",
+      "actions": {
+        "nlAfmdgfHTmsOdPb": {
+          "name": "Attivare",
+          "description": ""
+        }
+      }
+    },
+    "Alistair’s Torch": {
+      "name": "Torcia di Alistair",
+      "description": "<p>Potete accendere questa torcia magica a piacimento. La luce della fiamma illumina uno spazio molto più ampio del normale, tanto da rischiarare una caverna come se fosse giorno.</p>"
+    },
+    "Arcane Cloak": {
+      "name": "Mantello Arcano",
+      "description": "<p>Una creatura con tratto da Incantatore che indossa questo mantello può modificarne il colore, la consistenza e le dimensioni a piacimento.</p>"
+    },
+    "Arcane Prism": {
+      "name": "Prisma Arcano",
+      "description": "<p>Posizionate questo prisma in un luogo a scelta e attivatelo. Tutti gli alleati entro distanza Ravvicinata ottengono bonus +1 ai Tiri Incantesimo. Mentre è attivo, il prisma non può essere mosso. Una volta disattivato, il prisma non può essere riattivato fino al vostro prossimo riposo lungo.</p>",
+      "effects": {
+        "Ee3Z0PnyERiNFgjU": {
+          "name": "Prisma Arcano",
+          "description": ""
+        }
+      },
+      "actions": {
+        "QgBDJh0laEvOB94w": {
+          "name": "Attivare",
+          "description": ""
+        }
+      }
+    },
+    "Attune Relic": {
+      "name": "Reliquia dell’Armonia",
+      "description": "<p>Ottenete bonus +1 all’Istinto. Potete indossare una sola reliquia.</p>",
+      "effects": {
+        "KmoJVnCQJUGyrZIk": {
+          "name": "Reliquia dell’Armonia",
+          "description": "<p>Ottenete bonus +1 all’Istinto. Potete indossare una sola reliquia.</p>"
+        }
+      }
+    },
+    "Bag of Ficklesand": {
+      "name": "Borsa della Sabbia Volubile",
+      "description": "<p>Potete rendere questo piccolo sacchetto di sabbia molto più pesante o più leggero con un Tiro Presenza (10). Inoltre, con un Tiro Astuzia (10) riuscito, potete soffiare un po’ di sabbia in faccia a un bersaglio per renderlo temporaneamente Vulnerabile.</p>",
+      "effects": {
+        "Ouq3xWzj5rf6olVs": {
+          "name": "Borsa della Sabbia Volubile",
+          "description": ""
+        }
+      },
+      "actions": {
+        "vPXp3uifPTpZxcvt": {
+          "name": "Soffiare la Sabbia",
+          "description": ""
+        }
+      }
+    },
+    "Belt of Unity": {
+      "name": "Cintura dell’Unità",
+      "description": "<p>Una volta per sessione, potete spendere 5 Speranze per effettuare un Tiro Combinato con tre PG invece che due.</p>",
+      "actions": {
+        "SuaYNEUO9U9TIZWb": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      }
+    },
+    "Bloodstone": {
+      "name": "Pietra del Sangue",
+      "description": "<p>Potete incastonare questa pietra in un’arma priva di caratteristiche. L’arma ottiene la caratteristica seguente. <strong>Brutale:</strong> Quando ottenete il valore massimo su un dado di danno, tirate un dado di danno aggiuntivo.</p>"
+    },
+    "Bolster Relic": {
+      "name": "Reliquia di Possanza",
+      "description": "<p>Ottenete bonus +1 alla Forza. Potete indossare una sola reliquia.</p>",
+      "effects": {
+        "ByYXvJNr5YbXqn8I": {
+          "name": "Reliquia di Possanza",
+          "description": "<p>Ottenete bonus +1 alla Forza. Potete indossare una sola reliquia.</p>"
+        }
+      }
+    },
+    "Box of Many Goods": {
+      "name": "Scatola delle Tante Cose",
+      "description": "<p>Una volta per ogni riposo lungo, potete aprire questa piccola scatola e tirare un d12. Con risultato 1–6, è vuota. Con risultato 7-10, contiene un oggetto consumabile comune casuale. Con un risultato di 11–12, contiene due oggetti consumabili comuni casuali.</p>",
+      "actions": {
+        "lt1iEma1OVUNZ77o": {
+          "name": "Aprire",
+          "description": ""
+        }
+      }
+    },
+    "Calming Pendant": {
+      "name": "Monile della Tranquillità",
+      "description": "<p>Quando dovreste marcare l’ultimo Stress, tirate un d6. Se ottenete un risultato pari o superiore a 5, non marcatelo.</p>",
+      "actions": {
+        "wIlkGuUddWSUp4nN": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      }
+    },
+    "Charging Quiver": {
+      "name": "Faretra Incantata",
+      "description": "<p>Quando riuscite in un attacco con una freccia conservata in questa faretra, ottenete un bonus al tiro di danno pari al vostro livello.</p>",
+      "effects": {
+        "0zebbOsyjkm9IqE6": {
+          "name": "Faretra Incantata",
+          "description": ""
+        }
+      }
+    },
+    "Charm Relic": {
+      "name": "Reliquia del Fascino",
+      "description": "<p>Ottenete bonus +1 alla Presenza. Potete indossare una sola reliquia.</p>",
+      "effects": {
+        "2yr8Ps6wvaG3b1qy": {
+          "name": "Reliquia del Fascino",
+          "description": "<p>Ottenete bonus +1 alla Presenza. Potete indossare una sola reliquia.</p>"
+        }
+      }
+    },
+    "Clay Companion": {
+      "name": "Compagno d’Argilla",
+      "description": "<p>Quando scolpite questa argilla a foggia di un animale da compagnia, esso prende vita e si comporta come quell’animale. Ad esempio, un ragno d’argilla può tessere ragnatele d’argilla, mentre un uccello d’argilla può volare. Il Compagno d’Argilla conserva la memoria e l’identità anche se assume forme diverse, e può adottare nuovi comportamenti a seconda della forma.</p>"
+    },
+    "Companion Case": {
+      "name": "Trasportino del Famiglio",
+      "description": "<p>Questa custodia può contenere un piccolo animale domestico. Quando l’animale è all’interno, sia lui che la custodia sono al riparo da tutti i danni ed effetti nocivi.</p>"
+    },
+    "Control Relic": {
+      "name": "Reliquia del Sangue Freddo",
+      "description": "<p>Ottenete bonus +1 all’Astuzia. Potete indossare una sola reliquia.</p>",
+      "effects": {
+        "OwjK2TqOizTiRGxD": {
+          "name": "Reliquia del Sangue Freddo",
+          "description": "<p>Ottenete bonus +1 all’Astuzia.</p>"
+        }
+      }
+    },
+    "Corrector Sprite": {
+      "name": "Spiritello Suggeritore",
+      "description": "<p>Questo minuscolo spiritello si posiziona nella curva del condotto uditivo e sussurra consigli utili durante il combattimento. Una volta per riposo breve, potete ottenere vantaggio su un tiro attacco.</p>",
+      "actions": {
+        "saCkJzt1fb9GnEre": {
+          "name": "Ascoltare",
+          "description": ""
+        }
+      }
+    },
+    "Dual Flask": {
+      "name": "Fiasca Doppia",
+      "description": "<p>Questa fiasca può contenere due liquidi diversi. Potete scambiarli azionando una piccola leva sul lato della fiaschetta.</p>"
+    },
+    "Elusive Amulet": {
+      "name": "Amuleto dell’Elusione",
+      "description": "<p>Una volta per riposo lungo, potete attivare questo amuleto per diventare Nascosti fino al vostro prossimo movimento. Mentre siete Nascosti in questo modo, rimanete invisibile anche se un avversario si muove dove normalmente vi vedrebbe.</p>",
+      "effects": {
+        "YBkYjxU0Vn5JEsMK": {
+          "name": "Amuleto dell’Elusione",
+          "description": "<p>Siete Nascosti fino al vostro prossimo movimento. Rimanete invisibile anche se un avversario si muove dove normalmente vi vedrebbe.</p>"
+        }
+      },
+      "actions": {
+        "vitnEzfU3gCzsRem": {
+          "name": "Attivare",
+          "description": ""
+        }
+      }
+    },
+    "Empty Chest": {
+      "name": "Scrigno Vuoto",
+      "description": "<p>Questo scrigno magico sembra vuoto. Quando pronunciate una parola o compite un’azione specifica e aprite lo scrigno, potete vedere e prendere gli oggetti in esso contenuti.</p>"
+    },
+    "Enlighten Relic": {
+      "name": "Reliquia dell’Illuminazione",
+      "description": "<p>Ottenete bonus +1 alla Conoscenza. Potete indossare una sola reliquia.</p>",
+      "effects": {
+        "aWOGlmqC9l86GlFV": {
+          "name": "Reliquia dell’Illuminazione",
+          "description": "<p>Ottenete bonus +1 alla Conoscenza.</p>"
+        }
+      }
+    },
+    "Fire Jar": {
+      "name": "Otre di Fuoco",
+      "description": "<p>Potete versare lo strano liquido contenuto in questo vaso per produrre istantaneamente del fuoco. L’otre è di nuovo colmo quando effettuate un riposo lungo.</p>",
+      "actions": {
+        "nzXMuxD8DpT1dMXF": {
+          "name": "Versare",
+          "description": ""
+        }
+      }
+    },
+    "Flickerfly Pendant": {
+      "name": "Pendente di Scintillante",
+      "description": "<p>Indossando questo ciondolo, le vostre armi con portata Mischia che infliggono danni fisici hanno una lucentezza vaporosa e possono attaccare bersagli fino a distanza Prossima.</p>"
+    },
+    "Gecko Gloves": {
+      "name": "Guanti del Geco",
+      "description": "<p>Permettono di arrampicarsi su superfici verticali e di camminare sui soffitti.</p>"
+    },
+    "Gem of Alacrity": {
+      "name": "Gemma dell’Alacrità",
+      "description": "<p>Potete incastonare questa gemma in un’arma, permettendovi di usare la vostra Agilità quando effettuate attacchi con essa.</p>"
+    },
+    "Gem of Audacity": {
+      "name": "Gemma dell’Audacia",
+      "description": "<p>Potete incastonare questa gemma in un’arma, permettendovi di usare la vostra Presenza quando effettuate attacchi con essa.</p>"
+    },
+    "Gem of Insight": {
+      "name": "Gemma dell’Intuizione",
+      "description": "<p>Potete incastonare questa gemma in un’arma, permettendovi di usare il vostro Istinto quando effettuate attacchi con essa.</p>"
+    },
+    "Gem of Might": {
+      "name": "Gemma della Potenza",
+      "description": "<p>Potete incastonare questa gemma in un’arma, permettendovi di usare la vostra Forza quando effettuate attacchi con essa.</p>"
+    },
+    "Gem of Precision": {
+      "name": "Gemma della Precisione",
+      "description": "<p>Potete incastonare questa gemma in un’arma, permettendovi di usare la vostra Astuzia quando effettuate attacchi con essa.</p>"
+    },
+    "Gem of Sagacity": {
+      "name": "Gemma della Sagacia",
+      "description": "<p>Potete incastonare questa gemma in un’arma, permettendovi di usare la vostra Conoscenza quando effettuate attacchi con essa.</p>"
+    },
+    "Glamour Stone": {
+      "name": "Gemma delle Apparenze",
+      "description": "<p>Attivate questa pietra delle dimensioni di un sassolino per memorizzare l’aspetto di qualcuno che potete vedere. Spendete una Speranza per ricreare magicamente questo aspetto su di voi come un’illusione.</p>",
+      "effects": {
+        "K5SB6tfuDkdVaQYe": {
+          "name": "Gemma delle Apparenze",
+          "description": "<p>Ricreare magicamente un aspetto su di voi come un’illusione.</p>"
+        }
+      },
+      "actions": {
+        "ATQgH12mufTOQLKs": {
+          "name": "Creare un'illusione",
+          "description": ""
+        }
+      }
+    },
+    "Glider": {
+      "name": "Aliante",
+      "description": "<p>Se state cadendo, potete marcare uno Stress per aprire questo piccolo paracadute e planare in sicurezza fino a terra.</p>",
+      "actions": {
+        "Adz50oihGEMJxbyA": {
+          "name": "Marcare uno Stress",
+          "description": ""
+        }
+      }
+    },
+    "Greatstone": {
+      "name": "Gemma della Grandezza",
+      "description": "<p>Potete incastonare questa pietra in un’arma priva di caratteristiche. L’arma ottiene la caratteristica seguente.</p><p><strong>Potente:</strong> In caso di attacco riuscito, tirate un dado di danno aggiuntivo e scartate il risultato più basso.</p>"
+    },
+    "Homing Compasses": {
+      "name": "Bussola del Ritorno",
+      "description": "<p>Queste due bussole puntano l’una verso l’altra indipendentemente dalla distanza che le separa.</p>"
+    },
+    "Honing Relic": {
+      "name": "Reliquia dell’Introspezione",
+      "description": "<p>Ottenete bonus +1 a un’Esperienza a vostra scelta. Potete indossare una sola reliquia.</p>"
+    },
+    "Hopekeeper Locket": {
+      "name": "Medaglione della Speranza",
+      "description": "<p>Durante un riposo lungo, se avete 6 Speranze, potete spendere una Speranza per infondere questo medaglione con la tua vigorosa determinazione.</p><p>Quando avete 0 Speranze, potete usare il medaglione per ottenere immediatamente una Speranza. Il medaglione deve essere infuso nuovamente di Speranza prima di poter essere riutilizzato in questo modo.</p>",
+      "actions": {
+        "iwDm6P1ABr7vojGr": {
+          "name": "Infondere",
+          "description": ""
+        },
+        "xof31iSNIfxhbZH9": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      }
+    },
+    "Infinite Bag": {
+      "name": "Sacca Infinita",
+      "description": "<p>Quando riponete oggetti in questa sacca, essi vengono conservati in una dimensione tascabile che non esaurisce mai lo spazio. Potete recuperare un oggetto da essa in qualsiasi momento.</p>"
+    },
+    "Lakestrider Boots": {
+      "name": "Stivali della Traversata",
+      "description": "<p>Potete camminare sulla superficie dell’acqua come se fosse terreno morbido.</p>"
+    },
+    "Lorekeeper": {
+      "name": "Diario dei Segreti",
+      "description": "<p>Potete memorizzare il nome e i dettagli di un massimo di tre creature ostili all’interno di questo libro. Ottenete bonus +1 ai tiri azione contro quelle creature.</p>"
+    },
+    "Manacles": {
+      "name": "Manette",
+      "description": "<p>Questo paio di manette con lucchetto è dotato di una chiave.</p>"
+    },
+    "Minor Health Potion Recipe": {
+      "name": "Ricetta della Pozione di Guarigione Minore",
+      "description": "<p>Come mossa durante l’interludio, potete usare una fiala di sangue per creare una Pozione di Guarigione Minore.</p>"
+    },
+    "Minor Stamina Potion Recipe": {
+      "name": "Ricetta della Pozione di Recupero Minore",
+      "description": "<p>Come mossa durante l’interludio, potete usare l’osso di una creatura per creare una Pozione di Recupero Minore.</p>"
+    },
+    "Mythic Dust Recipe": {
+      "name": "Formula della Polvere Mistica",
+      "description": "<p>Come mossa durante l’interludio, potete usare una manciata di polvere d’oro fine per creare Polvere Mistica.</p>"
+    },
+    "Paragon’s Chain": {
+      "name": "Catenina della Meditazione",
+      "description": "<p>Come mossa durante un interludio, potete meditare su un ideale o un principio a cui tenete particolarmente e concentrare la vostra volontà in questa catenina.</p><p>Una volta per riposo lungo, potete spendere una Speranza per tirare un d20 come Dado Speranza per i tiri che si ricollegano direttamente a tale principio.</p>",
+      "actions": {
+        "esnUuqMcvyOvI6PV": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      }
+    },
+    "Phoenix Feather": {
+      "name": "Piuma di Fenice",
+      "description": "<p>Se possedete una Piuma di Fenice quando perdete conoscenza, ottenete bonus +1 al tiro per determinare se ottenete una cicatrice.</p>"
+    },
+    "Piercing Arrows": {
+      "name": "Frecce Trapassanti",
+      "description": "<p>Tre volte per riposo, quando riuscite in un attacco con una di queste frecce, potete aggiungere la vostra Competenza al tiro di danno.</p>",
+      "effects": {
+        "lRfqfbwlfxzPbE6U": {
+          "name": "Frecce Trapassanti",
+          "description": "<p>Aggiungete la vostra Competenza al tiro di danno.</p>"
+        }
+      },
+      "actions": {
+        "DW5AqEM0F8XaUqpn": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      }
+    },
+    "Piper Whistle": {
+      "name": "Fischietto del Musico",
+      "description": "<p>Questo fischietto artigianale ha un suono caratteristico. Quando lo suonate, il suo tono penetrante può essere udito in un raggio di 1,5 chilometri.</p>"
+    },
+    "Portal Seed": {
+      "name": "Seme del Portale",
+      "description": "<p>Potete piantare questo seme nel terreno per far crescere un portale in quel punto. Il portale sarà pronto per l’uso in 24 ore. Potete usare questo portale per viaggiare in qualsiasi altro luogo in cui avete piantato un altro Seme del Portale. Il portale può essere distrutto infliggendogli una qualsiasi quantità di danni magici.</p>"
+    },
+    "Premium Bedroll": {
+      "name": "Sacco a pelo di qualità",
+      "description": "<p>Durante gli interludi, rimuovete automaticamente uno Stress.</p>",
+      "actions": {
+        "Xe0zhVbSzZLgX1nC": {
+          "name": "Riposare",
+          "description": ""
+        }
+      }
+    },
+    "Ring of Resistance": {
+      "name": "Anello della Resistenza",
+      "description": "<p>Una volta per ogni riposo lungo, potete attivare questo anello dopo un attacco riuscito nei vostri confronti per dimezzare il danno.</p>",
+      "effects": {
+        "Sj7uGf560T7u4rlX": {
+          "name": "Anello della Resistenza",
+          "description": "<p>Una volta per ogni riposo lungo, potete attivare questo anello dopo un attacco riuscito nei vostri confronti per dimezzare il danno.</p>"
+        }
+      },
+      "actions": {
+        "4swwe8SZeh2KyPtl": {
+          "name": "Attivare",
+          "description": ""
+        }
+      }
+    },
+    "Ring of Silence": {
+      "name": "Anello del Silenzio",
+      "description": "<p>Spendete una Speranza per attivare questo anello. I vostri passi saranno silenziosi fino al vostro prossimo riposo.</p>",
+      "effects": {
+        "9JSLRu7amQ4iuIO7": {
+          "name": "Anello del Silenzio",
+          "description": "<p>I vostri passi sono silenziosi fino al vostro prossimo riposo.</p>"
+        }
+      },
+      "actions": {
+        "Y4mvuJ4tncrKhyjY": {
+          "name": "Attivare",
+          "description": ""
+        }
+      }
+    },
+    "Ring of Unbreakable Resolve": {
+      "name": "Anello della Risolutezza Inflessibile",
+      "description": "<p>Una volta per sessione, quando il GM spende una Paura, potete spendere 4 Speranze per annullare gli effetti della Paura spesa.</p>",
+      "actions": {
+        "R92d0DSVEwmqNJhM": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      }
+    },
+    "Shard of Memory": {
+      "name": "Frammento di Memoria",
+      "description": "<p>Una volta per riposo lungo, potete spendere 2 Speranze per richiamare una carta dominio dalla riserva invece di pagare il suo Costo di Richiamo.</p>",
+      "actions": {
+        "YNRybKQC51muVHYH": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      }
+    },
+    "Skeleton Key": {
+      "name": "Passepartout",
+      "description": "<p>Quando usate questa chiave per aprire una porta chiusa, ottenete vantaggio sul Tiro Astuzia.</p>",
+      "actions": {
+        "lV6W9M1CX6N8jSpt": {
+          "name": "Aprire una serratura",
+          "description": ""
+        }
+      }
+    },
+    "Speaking Orbs": {
+      "name": "Globi Parlanti",
+      "description": "<p>Questo paio di globi permette a qualsiasi creatura che ne impugni uno di comunicare con l’altro possessore a qualsiasi distanza.</p>"
+    },
+    "Stride Relic": {
+      "name": "Reliquia del Viaggiatore",
+      "description": "<p>Ottenete bonus +1 all’Agilità. Potete indossare una sola reliquia.</p>",
+      "effects": {
+        "7lHIbMyCDonSxSZf": {
+          "name": "Reliquia del Viaggiatore",
+          "description": "<p>Ottenete bonus +1 all’Agilità.</p>"
+        }
+      }
+    },
+    "Suspended Rod": {
+      "name": "Verga Levitante",
+      "description": "<p>Questa verga piatta è incisa con delle rune. Quando la attivate, si sospende immediatamente in aria. Finché non viene disattivata, non può essere spostata, non obbedisce alle regole della gravità e rimane al suo posto.</p>"
+    },
+    "Valorstone": {
+      "name": "Pietra del Valore",
+      "description": "<p>Potete incastonare questa pietra a un’armatura che non abbia già una caratteristica. L’armatura ottiene la seguente caratteristica. <strong>Resiliente:</strong> prima di marcare l’ultima Casella Armatura, tirate un d6. Se ottenete un 6, riducete la gravità di una Soglia senza marcare la Casella Armatura.</p>"
+    },
+    "Vial of Darksmoke Recipe": {
+      "name": "Ricetta di Nerofumo",
+      "description": "<p>Come mossa durante un interludio, potete marcare uno Stress per creare una Fiala di Nerofumo.</p>"
+    },
+    "Woven Net": {
+      "name": "Rete Intrecciata",
+      "description": "<p>Potete effettuare un Tiro Astuzia usando questa rete per intrappolare una piccola creatura. Un bersaglio intrappolato può liberarsi con un tiro attacco riuscito (16).</p>",
+      "effects": {
+        "KjAianGutrQuJNs3": {
+          "name": "Rete Intrecciata",
+          "description": ""
+        },
+        "nY2UFMPZdoSUr6Ps": {
+          "name": "Rete Intrecciata",
+          "description": ""
+        }
+      },
+      "actions": {
+        "yv0l43uUDB2gWFd1": {
+          "name": "Lanciare la Rete",
+          "description": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,416 @@
+{
+  "label": "Classi",
+  "mapping": {
+    "description": "system.description",
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "actions": {
+      "path": "system.actions",
+      "converter": "actions"
+    }
+  },
+  "folders": {
+    "Bard": "Bardo",
+    "Class Features": "Capacità di Classe",
+    "Class Items": "Oggetti di Classe",
+    "Druid": "Druido",
+    "Guardian": "Guardiano",
+    "Ranger": "Ranger",
+    "Rogue": "Fuorilegge",
+    "Seraph": "Consacrato",
+    "Sorcerer": "Stregone",
+    "Standard Take": "Oggetti Iniziali",
+    "Warrior": "Guerriero",
+    "Wizard": "Mago"
+  },
+  "entries": {
+    "Bard": {
+      "name": "Bardo",
+      "description": "<p>I bardi sono le figure più carismatiche di tutti i reami. I membri di questa classe sono maestri nell’attirare l’attenzione e si specializzano in diversi tipi di esibizione, tra cui cantare, suonare strumenti musicali, tessere storie o raccontare barzellette. Sia che si esibiscano per un pubblico o che si rivolgano a un singolo interlocutore, i bardi danno il meglio nelle situazioni sociali. I membri di questa professione si legano e si addestrano in scuole o gilde, ma possono anche essere soggetti all’egocentrismo. Sebbene siano la classe più adatta a riunire le persone, un bardo di cattivo umore può altrettanto facilmente distruggere una festa.</p>"
+    },
+    "Druid": {
+      "name": "Druido",
+      "description": "<p>Diventare un druido è più di un’occupazione: è una chiamata per coloro che desiderano imparare e proteggere la magia della natura incontaminata. Mentre si potrebbe sottovalutare un druido gentile che in silenzio si prende cura della vegetazione, i druidi che incanalano le forze indomite della natura sono terrificanti a vedersi. I druidi coltivano le loro abilità in piccoli gruppi, spesso legati da un’etica o da un luogo specifico, ma alcuni scelgono di lavorare da soli. Attraverso anni di studio e dedizione, i druidi possono imparare a trasformarsi in bestie e a plasmare la natura stessa.</p>"
+    },
+    "Guardian": {
+      "name": "Guardiano",
+      "description": "<p>Il titolo di guardiano comprende una serie di professioni marziali che si riferiscono più alla loro bussola morale e all’incrollabile forza d’animo che ai mezzi con cui combattono. Sebbene molti guardiani si uniscano a gruppi militanti per un paese o una causa, è più probabile che seguano quei pochi a cui tengono veramente, senza curarsi degli altri. I guardiani sono famosi per ingaggiare battaglia senza quartiere anche quando le probabilità sono sfavorevoli, difendendo i loro protetti sopra ogni altra cosa. Guai a chi fa del male all’alleato di un guardiano, perché quest’ultimo risponderà con altrettanta forza.</p>"
+    },
+    "Ranger": {
+      "name": "Ranger",
+      "description": "<p>I ranger sono cacciatori altamente qualificati che, nonostante le loro abilità marziali, raramente prestano le loro capacità a un esercito. Grazie alla padronanza del corpo e alla profonda conoscenza della natura selvaggia, i ranger diventano astuti tattici, che inseguono le loro prede con intuito e pazienza. Molti ranger conducono battute di caccia e combattono al fianco di un compagno animale con il quale hanno stretto un potente legame spirituale. Affinando le loro abilità nelle terre selvagge, i ranger diventano esperti inseguitori, tanto propensi a intrappolare i loro nemici quanto ad assalirli frontalmente.</p>"
+    },
+    "Rogue": {
+      "name": "Fuorilegge",
+      "description": "<p>I fuorilegge sono furfanti, spesso sia nell’atteggiamento che nello stile di vita. Conosciuti in generale come bugiardi e criminali, i migliori di questa classe si muovono nel mondo in modo anonimo, senza lasciare tracce. Utilizzando il loro ingegno e le loro lame affilate, i fuorilegge ingannano i loro nemici attraverso la manipolazione sociale con la stessa facilità con cui scassinano serrature, si arrampicano attraverso le finestre o infliggono colpi subdoli. Questi maestri della magia manipolano l’ombra e il movimento, aggiungendo al loro repertorio una serie di strumenti utili e letali. I fuorilegge fondano spesso delle gilde per incontrare futuri complici, trovare incarichi e affinare abilità segrete, dimostrando che c’è onore tra i ladri per coloro che sanno dove cercare.</p>"
+    },
+    "Seraph": {
+      "name": "Consacrato",
+      "description": "<p>I consacrati sono combattenti e guaritori divini, dotati di uno scopo sacro. Nei regni esistono molte divinità, che fungono da patrono per diversi ordini di consacrati. La loro etica si allinea tradizionalmente con il dominio o gli obiettivi di tale dio, come la difesa dei deboli, la vendetta, la protezione di una terra o di un artefatto o la difesa di una particolare fede. Alcuni consacrati si alleano con un esercito o un regno, con grande soddisfazione dei loro governanti, ma altri crociati combattono in opposizione alle follie di dominio del Regno Mortale. È meglio essere alleati di un consacrato che suoi avversari, poiché sono nemici terrificanti per coloro che si oppongono al loro credo.</p>"
+    },
+    "Sorcerer": {
+      "name": "Stregone",
+      "description": "<p>Non tutti gli utilizzatori di magia innata scelgono di affinare il loro dono, ma quelli che lo fanno possono diventare potenti stregoni. I doni di questi stregoni vengono tramandati attraverso le generazioni, anche se la famiglia non ne è consapevole o è riluttante a metterli in pratica. Le abilità di uno stregone possono spaziare dal dominio sugli elementi alla creazione di realistiche illusioni e altro ancora, e molti praticanti si riuniscono in confraternite basate sui loro talenti. Il percorso che porta a diventare un formidabile stregone non consiste nell’acquisire altro potere, ma nell’imparare a coltivare e controllare il potere che già si possiede. La magia di uno stregone mal consigliato o indisciplinato è una forza davvero pericolosa.</p>"
+    },
+    "Warrior": {
+      "name": "Guerriero",
+      "description": "<p>Diventare un guerriero richiede anni, spesso una vita intera, di allenamento e dedizione all’esercizio delle armi e della violenza. Mentre molti di coloro che combattono pensano solo alla forza bruta, i guerrieri comprendono l’importanza di un corpo e di una mente agili, il che li rende alcuni dei combattenti più ricercati in tutti i regni. Spesso i guerrieri trovano impiego in un esercito, in una banda di mercenari o persino nella guardia reale, ma il loro potenziale è sprecato in qualsiasi posizione in cui non possano continuare a migliorare ed espandere le proprie capacità. Si sa che i guerrieri hanno un’arma preferita; mettersi tra loro e la loro lama è sempre un grave errore.</p>"
+    },
+    "Wizard": {
+      "name": "Mago",
+      "description": "<p>Attraverso un’istituzione o uno studio individuale, i maghi acquisiscono e affinano un immenso potere magico nel corso di anni di apprendimento utilizzando una varietà di strumenti, tra cui libri, pietre, pozioni ed erbe. Alcuni maghi dedicano la loro vita a padroneggiare una particolare scuola di magia, mentre altri imparano da un’ampia varietà di discipline. Molti maghi diventano figure sagge e potenti nelle loro comunità, consigliando i governanti, fornendo rimedi e guarigioni e persino guidando i consigli di guerra. Sebbene questi maghi lavorino tutti per l’obiettivo comune di raccogliere conoscenze magiche, essi sono spesso i più conflittuali al loro interno, poiché l’acquisizione, la conservazione e la condivisione di potenti segreti è un argomento di intenso dibattito che ha causato innumerevoli morti.</p>"
+    },
+    "Arcane Sense": {
+      "name": "Percezione Arcana",
+      "description": "<p>Potete percepire la presenza di persone che possiedono il dono della magia e di oggetti incantati a distanza Ravvicinata.</p>"
+    },
+    "Attack Of Opportunity": {
+      "name": "Attacco di Opportunità",
+      "description": "<p>Se un avversario entro distanza di Mischia tenta di uscirne, effettuate un tiro di reazione usando un tratto a vostra scelta contro la sua Difficoltà. Scegliete un effetto in caso di successo, o due in caso di successo critico:</p><ul><li><p>Non può spostarsi da dove si trova.</p></li><li><p>Subisce un danno pari al danno della vostra arma primaria.</p></li><li><p>Vi muovete con loro.</p></li></ul>"
+    },
+    "Beastform": {
+      "name": "Forma Bestiale",
+      "description": "<p><strong>Marcate uno Stress</strong> per trasformarvi magicamente in una creatura del vostro rango o inferiore dall’elenco delle Forme Bestiali. Potete abbandonare questa forma in qualsiasi momento. Durante la trasformazione, non potete usare armi o lanciare incantesimi dalle carte dominio, ma potete servirvi di altri privilegi o abilità a cui abbiate accesso. Gli incantesimi lanciati prima della trasformazione rimangono attivi e durano normalmente, e potete continuare a parlare e a comunicare senza difficoltà. Inoltre, ottenete i privilegi della Forma Bestiale, aggiungete il suo bonus di Evasione alla vostra Evasione e utilizzate il tratto specificato nelle sue statistiche per gli attacchi. Mentre siete in Forma Bestiale, l’armatura diventa parte del vostro corpo e utilizzate le Caselle Armatura come di consueto; quando abbandonate la Forma Bestiale, le Caselle Armatura segnate rimangono tali. Se subite l’ultimo Punto Ferita, la Forma Bestiale termina immediatamente.</p>",
+      "actions": {
+        "MN2U7f7ypnQeg1PY": {
+          "name": "Forma Bestiale",
+          "description": "<p><strong>Marcate uno Stress</strong> per trasformarvi magicamente in una creatura del vostro rango o inferiore dall’elenco delle Forme Bestiali.</p>"
+        }
+      }
+    },
+    "Channel Raw Power": {
+      "name": "Incanalare il Potere Grezzo",
+      "description": "<p>Una volta per riposo lungo, potete spostare una carta dominio dalla propria Dotazione alla riserva e scegliere di:</p><ul><li><p>Guadagnare Speranza pari al livello della carta.</p></li><li><p>Potenziare un incantesimo che infligge danni, ottenendo un bonus al tiro di danno pari al doppio del livello della carta.</p></li></ul>",
+      "actions": {
+        "YFmqnbMx540su2Ni": {
+          "name": "Incanalare",
+          "description": "<p>Una volta per riposo lungo, potete spostare una carta dominio dalla propria Dotazione alla riserva e scegliere di guadagnare Speranza pari al livello della carta o ottenere un bonus al tiro di danno pari al doppio del livello della carta.</p>"
+        }
+      }
+    },
+    "Cloaked": {
+      "name": "Ammantato",
+      "description": "<p>Ogni volta che sareste Nascosti, siete invece Ammantati. Oltre ai benefici della condizione di Nascosto, quando siete Ammantati rimanete invisibili se siete fermi quando un avversario si sposta dove normalmente vi vedrebbe. Quando vi spostate entro la linea di vista di un avversario o effettuate un attacco, non siete più Ammantati.</p>"
+    },
+    "Combat Training": {
+      "name": "Addestrato al Combattimento",
+      "description": "<p>Ignorate l’impugnatura quando equipaggiate le vostre armi. Quando infliggete danno fisico, ottenete un bonus al tiro per i danni pari al vostro livello.</p>",
+      "effects": {
+        "Y7sTM0tw0VpgU6pC": {
+          "name": "Addestrato al Combattimento",
+          "description": "<p>Ignorate l’impugnatura quando equipaggiate le vostre armi. Quando infliggete danno fisico, ottenete un bonus al tiro per i danni pari al vostro livello.</p>"
+        }
+      }
+    },
+    "Evolution": {
+      "name": "Evoluzione",
+      "description": "<p><strong>Spendete 3 Speranze</strong> per trasformarvi in Forma Bestiale senza marcare uno Stress. Quando lo fate, aumentate un tratto di +1 finché non annullate la Forma Bestiale.<br /><br /><strong>Nota: aumentate manualmente il vostro tratto sulla scheda del personaggio se questa opzione è attiva.</strong></p>",
+      "effects": {
+        "vQOqLZAxOltAzsVv": {
+          "name": "Evoluzione: Agilità",
+          "description": "<p>Attivate questo effetto per ottenere +1 in Agilità quando usate Evoluzione. Disattivatelo quando uscite dalla Forma Bestiale.</p>"
+        },
+        "cwEsO1NZpkQHuoTT": {
+          "name": "Evoluzione: Forza",
+          "description": "<p>Attivate questo effetto per ottenere +1 in Forza quando usate Evoluzione. Disattivatelo quando uscite dalla Forma Bestiale.</p>"
+        },
+        "8P0nwRHNsVnHVPjq": {
+          "name": "Evoluzione: Astuzia",
+          "description": "<p>Attivate questo effetto per ottenere +1 in Astuzia quando usate Evoluzione. Disattivatelo quando uscite dalla Forma Bestiale.</p>"
+        },
+        "i2GhNGo5TnGtLuA0": {
+          "name": "Evoluzione: Istinto",
+          "description": "<p>Attivate questo effetto per ottenere +1 in Istinto quando usate Evoluzione. Disattivatelo quando uscite dalla Forma Bestiale.</p>"
+        },
+        "APQF1in1LXjBZh9n": {
+          "name": "Evoluzione: Presenza",
+          "description": "<p>Attivate questo effetto per ottenere +1 in Presenza quando usate Evoluzione. Disattivatelo quando uscite dalla Forma Bestiale.</p>"
+        },
+        "WwOvGJYJb4d37cOy": {
+          "name": "Evoluzione: Conoscenza",
+          "description": "<p>Attivate questo effetto per ottenere +1 in Conoscenza quando usate Evoluzione. Disattivatelo quando uscite dalla Forma Bestiale.</p>"
+        }
+      },
+      "actions": {
+        "bj4m9E8ObFT0xDQ4": {
+          "name": "Forma Bestiale",
+          "description": "<p><strong>Spendete 3 Speranze</strong> per trasformarvi in Forma Bestiale senza marcare uno Stress. Quando lo fate, aumentate un tratto di +1 finché non annullate la Forma Bestiale.</p>"
+        }
+      }
+    },
+    "Frontline Tank": {
+      "name": "Baluardo in Prima Linea",
+      "description": "<p><strong>Spendete 3 Speranze</strong> per cancellare 2 Caselle Armatura.</p>",
+      "actions": {
+        "pRMSzC9XDSKmmLqT": {
+          "name": "Spendete 3 Speranze",
+          "description": "<p><strong>Spendete 3 Speranze</strong> per cancellare 2 Caselle Armatura.</p>"
+        }
+      }
+    },
+    "Hold Them Off": {
+      "name": "Tienili a Bada",
+      "description": "<p>Quando riuscite a portare a segno un attacco con un’arma, <strong>spendete 3 Speranze</strong> per usare lo stesso tiro contro altri due avversari alla stessa distanza dell’attacco riuscito.</p>",
+      "actions": {
+        "yhVUna5biFAN0o2Y": {
+          "name": "Spendete 3 Speranze",
+          "description": "<p>Quando riuscite a portare a segno un attacco con un’arma, <strong>spendete 3 Speranze</strong> per usare lo stesso tiro contro altri due avversari alla stessa distanza dell’attacco riuscito.</p>"
+        }
+      }
+    },
+    "Life Support": {
+      "name": "Proteggere la Vita",
+      "description": "<p><strong>Spendete 3 Speranze</strong> per annullare la perdita di un Punto Ferita di un alleato entro distanza Ravvicinata.</p>",
+      "actions": {
+        "7xzDLC2PrlK1E2XO": {
+          "name": "Proteggere",
+          "description": "<p><strong>Spendete 3 Speranze</strong> per annullare la perdita di un Punto Ferita di un alleato entro distanza Ravvicinata.</p>"
+        }
+      }
+    },
+    "Make a Scene": {
+      "name": "Sceneggiata",
+      "description": "<p><strong>Spendete 3 Speranze</strong> per Distrarre temporaneamente un bersaglio a distanza Ravvicinata, infliggendogli penalità −2 alla Difficoltà.</p>",
+      "effects": {
+        "8G9zDv1gac6dEHmS": {
+          "name": "Sceneggiata",
+          "description": "<p>Bersaglio distratto, penalità -2 alla Difficoltà.</p>"
+        }
+      },
+      "actions": {
+        "T6sfMJ9DRvF0IQZ4": {
+          "name": "Spendete 3 Speranze",
+          "description": "<p><strong>Spendete 3 Speranze</strong> per Distrarre temporaneamente un bersaglio a distanza Ravvicinata, infliggendogli penalità −2 alla Difficoltà.</p>"
+        }
+      }
+    },
+    "Minor Illusion": {
+      "name": "Illusione minore",
+      "description": "<p>Effettuate un <strong>Tiro Incantesimo (10)</strong>. Se l’esito è positivo, create un’illusione visiva minore, non più grande della vostra taglia, entro una distanza Ravvicinata. Questa illusione è convincente per chiunque si trovi a distanza Ravvicinata o maggiore.</p>",
+      "actions": {
+        "gLjqQ6KgxVeJljRt": {
+          "name": "Lanciare l'Incantesimo",
+          "description": "<p>Effettuate un <strong>Tiro Incantesimo (10)</strong>. Se l’esito è positivo, create un’illusione visiva minore, non più grande della vostra taglia, entro una distanza Ravvicinata. Questa illusione è convincente per chiunque si trovi a distanza Ravvicinata o maggiore.</p>"
+        }
+      }
+    },
+    "No Mercy": {
+      "name": "Nessuna Tregua",
+      "description": "<p><strong>Spendi 3 Speranze</strong> per ottenere bonus +1 ai tiri attacco fino al prossimo riposo.</p>",
+      "effects": {
+        "XK4cCcz9sRGDJr0q": {
+          "name": "Nessuna Tregua",
+          "description": "<p>Ottenete un bonus di +1 ai tiri attacco fino al prossimo riposo.</p>"
+        }
+      },
+      "actions": {
+        "Kwav1cV1xvVO13sR": {
+          "name": "Spendete 3 Speranze",
+          "description": "<p><strong>Spendi 3 Speranze</strong> per ottenere bonus +1 ai tiri attacco fino al prossimo riposo.</p>"
+        }
+      }
+    },
+    "Not This Time": {
+      "name": "Non Questa Volta",
+      "description": "<p><strong>Spendete 3 Speranze</strong> per costringere un avversario fino a distanza Lontana a ripetere un tiro attacco o di danno.</p>",
+      "actions": {
+        "lX5FtnuXaKOdRlLF": {
+          "name": "Spendete 3 Speranze",
+          "description": "<p><strong>Spendete 3 Speranze</strong> per costringere un avversario fino a distanza Lontana a ripetere un tiro attacco o di danno.</p>"
+        }
+      }
+    },
+    "Prayer Dice": {
+      "name": "Dado Preghiera",
+      "description": "<p>All’inizio di ogni sessione, tirate un numero di <strong>d4</strong> pari al tratto da Incantatore della vostra sottoclasse e metteteli sulla scheda del personaggio nell’apposito spazio. Questi sono i vostri Dadi Preghiera. Potete spendere un numero qualsiasi di Dadi Preghiera per aiutare voi stessi o un alleato entro distanza Lontana. Il valore di un dado speso può essere utilizzato per ridurre i danni in arrivo, per aggiungere il risultato a un tiro dopo che è stato effettuato o per guadagnare Speranza pari al risultato. Alla fine di ogni sessione, rimuovete tutti i Dadi Preghiera non spesi.</p>"
+    },
+    "Prestidigitation": {
+      "name": "Prestidigitazione",
+      "description": "<p>Potete eseguire effetti magici innocui e di piccola entità a volontà. Ad esempio, potete cambiare il colore di un abito, creare un odore, accendere una candela, far galleggiare un ninnolo, illuminare una stanza o riparare un piccolo oggetto.</p>"
+    },
+    "Rally": {
+      "name": "Chiamata A Raccolta",
+      "description": "<p>Una volta per sessione, descrivete come radunate il gruppo; poi, date a voi stessi e a ciascuno dei vostri alleati un Dado A Raccolta. Al livello 1, il Dado A Raccolta è un d6. Un PG può spendere il suo Dado A Raccolta per tirarlo, aggiungendo il risultato al suo tiro azione, al tiro reazione, al tiro di danno oppure cancellando un numero di Stress pari al risultato. Alla fine di ogni sessione, cancellate tutti i Dadi A Raccolta non spesi. Al 5° livello, il Dado A Raccolta aumenta a un d8.</p>",
+      "effects": {
+        "FrSJH9vzDHkFGYQL": {
+          "name": "Chiamata A Raccolta",
+          "description": "<p>Puoi spendere il tuo Dado A Raccolta per tirarlo, aggiungendo il risultato al tuo tiro azione, al tiro reazione, al tiro di danno oppure cancellando un numero di Stress pari al risultato.</p>"
+        }
+      },
+      "actions": {
+        "vI4Fph3y9ygsya9e": {
+          "name": "Chiamate a Raccolta i vostri alleati!",
+          "description": "<p>Una volta per sessione, descrivete come radunate il gruppo; poi, date a voi stessi e a ciascuno dei vostri alleati un Dado A Raccolta.</p>"
+        }
+      }
+    },
+    "Ranger's Focus": {
+      "name": "Focus del Ranger",
+      "description": "<p><strong>Spendete una Speranza</strong> ed effettuate un attacco contro un bersaglio. Se l’attacco ha successo, infliggete i normali danni dell’attacco e rendete temporaneamente il bersaglio dell’attacco il vostro Focus. Finché questo privilegio non termina o non scegliete un’altra creatura, ottenete i seguenti benefici contro il Focus: </p><ul><li><p>Sapete esattamente in che direzione si trova.</p></li><li><p>Quando le infliggete danno, deve marcare uno Stress.</p></li><li><p>Quando fallite un attacco contro di essa, potete terminare l’effetto di questo privilegio per rilanciare i Dadi Dualità.</p></li></ul>",
+      "effects": {
+        "SXi2dQWqpwY9fap4": {
+          "name": "Focus del Ranger",
+          "description": "<p>Finché questo privilegio non termina o non scegliete un’altra creatura, ottenete i seguenti benefici contro il Focus: </p><ul><li><p>Sapete esattamente in che direzione si trova.</p></li><li><p>Quando le infliggete danno, deve marcare uno Stress.</p></li><li><p>Quando fallite un attacco contro di essa, potete terminare l’effetto di questo privilegio per rilanciare i Dadi Dualità.</p></li></ul>"
+        }
+      },
+      "actions": {
+        "dTkLqUxZpW4xOEKW": {
+          "name": "Spendete 1 Speranza",
+          "description": "<p><strong>Spendete una Speranza</strong> ed effettuate un attacco contro un bersaglio. Se l’attacco ha successo, infliggete i normali danni dell’attacco e rendete temporaneamente il bersaglio dell’attacco il vostro Focus.</p>"
+        }
+      }
+    },
+    "Rogue's Dodge": {
+      "name": "Schivata del Fuorilegge",
+      "description": "<p><strong>Spendete 3 Speranze</strong> per ottenere bonus +2 all’Evasione fino al successivo attacco riuscito contro di voi. Diversamente, questo bonus dura fino al riposo successivo.</p>",
+      "effects": {
+        "hhVjBro2osGDTT5g": {
+          "name": "Schivata del Fuorilegge",
+          "description": "<p>Bonus +2 all’Evasione fino al successivo attacco riuscito contro di voi. Diversamente, questo bonus dura fino al riposo successivo.</p>"
+        }
+      },
+      "actions": {
+        "GbQca7YphTh7skHG": {
+          "name": "Spendete 3 Speranze",
+          "description": "<p><strong>Spendete 3 Speranze</strong> per ottenere bonus +2 all’Evasione fino al successivo attacco riuscito contro di voi. Diversamente, questo bonus dura fino al riposo successivo.</p>"
+        }
+      }
+    },
+    "Sneak Attack": {
+      "name": "Attacco Furtivo",
+      "description": "<p>Quando colpite mentre siete Ammantati o mentre un alleato si trova a distanza di Mischia dal bersaglio, aggiungete al tiro per i danni un numero di d6 pari al vostro rango. </p><ul><li><p>Livello 1 -&gt; Rango 1</p></li><li><p>Livelli 2–4 -&gt; Rango 2 </p></li><li><p>Livelli 5–7 -&gt; Rango 3 </p></li><li><p>Livelli 8–10 -&gt; Rango 4</p></li></ul>",
+      "effects": {
+        "380jFzw756qSy5ae": {
+          "name": "Attacco Furtivo",
+          "description": "<p>Quando colpite mentre siete Ammantati o mentre un alleato si trova a distanza di Mischia dal bersaglio, aggiungete al tiro per i danni un numero di d6 pari al vostro rango. </p><ul><li><p>Livello 1 -&gt; Rango 1</p></li><li><p>Livelli 2–4 -&gt; Rango 2 </p></li><li><p>Livelli 5–7 -&gt; Rango 3 </p></li><li><p>Livelli 8–10 -&gt; Rango 4</p></li></ul>"
+        }
+      }
+    },
+    "Strange Patterns": {
+      "name": "Segni Misteriosi",
+      "description": "<p>Scegliete un numero compreso tra 1 e 12. Quando tirate quel numero su un Dado Dualità, guadagnate una Speranza o rimuovete uno Stress. Potete cambiare il numero scelto quando fate un riposo lungo.</p>",
+      "actions": {
+        "RkqPzF1bdWzPPMml": {
+          "name": "Recuperare 1 Speranza/Stress",
+          "description": "<p>Scegliete un numero compreso tra 1 e 12. Quando tirate quel numero su un Dado Dualità, guadagnate una Speranza o rimuovete uno Stress.</p>"
+        }
+      }
+    },
+    "Unstoppable": {
+      "name": "Inarrestabile",
+      "description": "<p>Una volta per riposo lungo, potete diventare Inarrestabili. Guadagnate un <strong>Dado Inarrestabile</strong>: al 1° livello, il Dado Inarrestabile è il d4. Posizionatelo sulla scheda del personaggio nell’apposito spazio, iniziando con il valore 1 rivolto verso l’alto. Dopo aver effettuato un tiro per i danni che infligge 1 o più Punti Ferita a un bersaglio, aumentate di uno il valore del Dado Inarrestabile.</p><p>Quando il valore del dado supera il suo valore massimo o quando la scena finisce, rimuovete il dado e non siete più Inarrestabili. Al 5° livello, il Dado Inarrestabile aumenta a d6.</p><p>Quando siete Inarrestabili, ottenete i seguenti benefici:</p><ul><li><p>Riducete la gravità dei danni fisici di una soglia (da Grave a Maggiore, da Maggiore a Minore, da Minore a Nessuno).</p></li><li><p>Aggiungete il valore attuale del Dado Inarrestabile al tiro per i danni.</p></li><li><p>Non potete essere Trattenuti o Vulnerabili.</p></li></ul><blockquote><p>Suggerimento: Se il vostro Dado Inarrestabile è un d4 e il 4 è attualmente rivolto verso l’alto, rimuoverete il dado la prossima volta che lo aumenterete. Tuttavia, se il vostro Dado Inarrestabile è aumentato a d6 e il 4 è attualmente rivolto verso l’alto, lo trasformerete in 5 la prossima volta che lo aumenterete. In questo caso, rimuoverete il dado dopo che lo avrete aumentato oltre il 6.</p></blockquote>",
+      "effects": {
+        "xzQtFSuDS48kUdAZ": {
+          "name": "Inarrestabile",
+          "description": ""
+        }
+      },
+      "actions": {
+        "KZiZ8m8uqH5iG96d": {
+          "name": "Diventare Inarrestabile",
+          "description": "<p>Una volta per riposo lungo, potete diventare Inarrestabili. Guadagnate un Dado Inarrestabile (d4 al livello 1, d6 al livello 5). Dopo aver effettuato un tiro per i danni che infligge 1 o più Punti Ferita a un bersaglio, aumentate di uno il valore del Dado Inarrestabile. Quando il valore del dado supera il suo valore massimo o quando la scena finisce, rimuovete il dado e non siete più Inarrestabili.</p>"
+        }
+      }
+    },
+    "Volatile Magic": {
+      "name": "Magia Volatile",
+      "description": "<p><strong>Spendete 3 Speranze</strong> per rilanciare un numero qualsiasi di dadi di danno in un attacco che infligge danni magici.</p>",
+      "actions": {
+        "JQPMlMLYMs84rWIy": {
+          "name": "Spendete 3 Speranze",
+          "description": "<p><strong>Spendete 3 Speranze</strong> per rilanciare un numero qualsiasi di dadi di danno in un attacco che infligge danni magici.</p>"
+        }
+      }
+    },
+    "Wildtouch": {
+      "name": "Tocco della Natura",
+      "description": "<p>Potete eseguire a volontà effetti innocui e minori che coinvolgono la natura, come far crescere rapidamente un fiore, evocare una leggera folata di vento o accendere della legna per il fuoco.</p>"
+    },
+    "50ft of Rope": {
+      "name": "Corda (15 m)",
+      "description": ""
+    },
+    "A Romance Novel": {
+      "name": "Un Romanzo d'Amore",
+      "description": ""
+    },
+    "A Sharpening Stone": {
+      "name": "Una Pietra per Affilare",
+      "description": ""
+    },
+    "Basic Supplies": {
+      "name": "Scorte di Base",
+      "description": ""
+    },
+    "Broken Compass": {
+      "name": "Bussola Rotta",
+      "description": ""
+    },
+    "Bundle of Offerings": {
+      "name": "Fascio di Offerte",
+      "description": ""
+    },
+    "Drawing Of A Lover": {
+      "name": "Ritratto di un Amante",
+      "description": ""
+    },
+    "Family Heirloom": {
+      "name": "Cimelio di Famiglia",
+      "description": ""
+    },
+    "Grappling Hook": {
+      "name": "Rampino",
+      "description": ""
+    },
+    "Letter(Never Opened)": {
+      "name": "Lettera (Mai Aperta)",
+      "description": ""
+    },
+    "Secret Key": {
+      "name": "Chiave Segreta",
+      "description": ""
+    },
+    "Set of Forgery Tools": {
+      "name": "Kit di Attrezzi per Falsari",
+      "description": ""
+    },
+    "Sigil of Your God": {
+      "name": "Sigillo della Tua Divinità",
+      "description": ""
+    },
+    "Small Bag (Rocks & Bones)": {
+      "name": "Piccola Sacca (Rocce & Ossa)",
+      "description": ""
+    },
+    "Strange Dirty Pendant": {
+      "name": "Strano Pendente Sporco",
+      "description": ""
+    },
+    "Tiny Elemental Pet": {
+      "name": "Piccolo Cucciolo Elementale",
+      "description": "<p>Un piccolo cucciolo elementale.</p>"
+    },
+    "Torch": {
+      "name": "Torcia",
+      "description": ""
+    },
+    "Totem from Mentor": {
+      "name": "Totem di un Mentore",
+      "description": ""
+    },
+    "Trophy from your First Kill": {
+      "name": "Trofeo della Prima Uccisione",
+      "description": ""
+    },
+    "Untranslated Book": {
+      "name": "Libro Non Tradotto",
+      "description": "<p>Un libro che state cercando di tradurre.</p>"
+    },
+    "Whispering Orb": {
+      "name": "Sfera Sussurrante",
+      "description": ""
+    }
+  }
+}

@@ -1,0 +1,788 @@
+{
+  "label": "Scorte",
+  "mapping": {
+    "description": "system.description",
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "actions": {
+      "path": "system.actions",
+      "converter": "actions"
+    }
+  },
+  "entries": {
+    "Acidpaste": {
+      "name": "Pasta Acida",
+      "description": "<p>Questa sorta di mastice corrode le pareti e altre superfici emettendo lampi luminosi.</p>",
+      "actions": {
+        "FQ2Ty0pP3z6JrBr6": {
+          "name": "Utilizzare",
+          "description": "<p>Questa sorta di mastice corrode le pareti e altre superfici emettendo lampi luminosi.</p>"
+        }
+      }
+    },
+    "Armor Stitcher": {
+      "name": "Ricambi per Armature",
+      "description": "<p>Potete usare questi ricambi per spendere un qualsiasi numero di Speranze e riparare altrettante Caselle Armatura.</p>",
+      "actions": {
+        "htoGx8qrv8trds81": {
+          "name": "Riparare",
+          "description": "<p>Potete usare questi ricambi per spendere un qualsiasi numero di Speranze e riparare altrettante Caselle Armatura.</p>"
+        }
+      }
+    },
+    "Attune Potion": {
+      "name": "Pozione di Armonia",
+      "description": "<p>Ottenete bonus +1 al prossimo Tiro Istinto.</p>",
+      "effects": {
+        "I5vgALTNDVApxy9d": {
+          "name": "Pozione di Armonia",
+          "description": "<p>Ottenete bonus +1 al prossimo Tiro Istinto.</p>"
+        }
+      },
+      "actions": {
+        "aiyNOQZbVpTDagXy": {
+          "name": "Bere",
+          "description": "<p>Ottenete bonus +1 al prossimo Tiro Istinto.</p>"
+        }
+      }
+    },
+    "Blinding Orb": {
+      "name": "Sfera Accecante",
+      "description": "<p>Potete attivare questa sfera per creare un lampo di luce intensa. Tutti i bersagli entro distanza Ravvicinata diventano Vulnerabili finché non subiscono PF.</p><p>@Template[type:emanation|range:c]</p>",
+      "effects": {
+        "nryJhrF26hyFQUxH": {
+          "name": "Sfera Accecante",
+          "description": "<p>Siete Vulnerabili finché non subite un PF.</p>"
+        }
+      },
+      "actions": {
+        "vk4dE0C8bjNdTwAF": {
+          "name": "Attivare",
+          "description": "<p>Potete attivare questa sfera per creare un lampo di luce intensa. Tutti i bersagli entro distanza Ravvicinata diventano Vulnerabili finché non subiscono PF.</p><p>@Template[type:emanation|range:c]</p>"
+        }
+      }
+    },
+    "Blood of the Yorgi": {
+      "name": "Sangue di Yorgi",
+      "description": "<p>Potete bere questo sangue per scomparire dal luogo in cui vi trovate e riapparire immediatamente in un punto visibile entro distanza Remota.</p>",
+      "actions": {
+        "6QGfkGkFqqzuVOOY": {
+          "name": "Bere",
+          "description": "<p>Potete bere questo sangue per scomparire dal luogo in cui vi trovate e riapparire immediatamente in un punto visibile entro distanza Remota.</p>"
+        }
+      }
+    },
+    "Bolster Potion": {
+      "name": "Pozione della Possanza",
+      "description": "<p>Ottenete bonus +1 al prossimo Tiro Forza.</p>",
+      "effects": {
+        "HVCJp9Tkhr1i4Oc1": {
+          "name": "Pozione della Possanza",
+          "description": "<p>Ottenete bonus +1 al prossimo Tiro Forza.</p>"
+        }
+      },
+      "actions": {
+        "YqbQKTgblItoZOm8": {
+          "name": "Bere",
+          "description": "<p>Ottenete bonus +1 al prossimo Tiro Forza.</p>"
+        }
+      }
+    },
+    "Bonding Honey": {
+      "name": "Miele Incollante",
+      "description": "<p>Questo miele può essere utilizzato per incollare due oggetti in modo permanente.</p>",
+      "actions": {
+        "SWrgUGHIWCXpED1b": {
+          "name": "Utilizzare",
+          "description": "<p>Questo miele può essere utilizzato per incollare due oggetti in modo permanente.</p>"
+        }
+      }
+    },
+    "Bridge Seed": {
+      "name": "Noce di Pontile",
+      "description": "<p>Da questa ghianda crescono fitti rampicanti che si estendono fino a un punto a vostra scelta entro distanza Lontana, permettendovi di arrampicarvi o percorrerli. I rampicanti si dissolvono al vostro prossimo riposo Breve.</p>",
+      "actions": {
+        "dk7fhkfA4m5lqNWB": {
+          "name": "Piantare",
+          "description": "<p>Da questa ghianda crescono fitti rampicanti che si estendono fino a un punto a vostra scelta entro distanza Lontana, permettendovi di arrampicarvi o percorrerli. I rampicanti si dissolvono al vostro prossimo riposo Breve.</p>"
+        }
+      }
+    },
+    "Channelstone": {
+      "name": "Pietra Incanalatrice",
+      "description": "<p>Potete usare questa pietra per prendere una carta incantesimo o grimorio dalla riserva, usarla una volta e rimetterla nella riserva.</p>",
+      "actions": {
+        "X4KtBG5Uve09hRoj": {
+          "name": "Utilizzare",
+          "description": "<p>Potete usare questa pietra per prendere una carta incantesimo o grimorio dalla riserva, usarla una volta e rimetterla nella riserva.</p>"
+        }
+      }
+    },
+    "Charm Potion": {
+      "name": "Pozione di Fascino",
+      "description": "<p>Ottenete bonus +1 al prossimo Tiro Presenza.</p>",
+      "effects": {
+        "COrKb7gBin4Ro6r6": {
+          "name": "Pozione di Fascino",
+          "description": "<p>Ottenete bonus +1 al prossimo Tiro Presenza.</p>"
+        }
+      },
+      "actions": {
+        "2trd3JYIb527LIrn": {
+          "name": "Bere",
+          "description": "<p>Ottenete bonus +1 al prossimo Tiro Presenza.</p>"
+        }
+      }
+    },
+    "Circle of the Void": {
+      "name": "Cerchio del Vuoto",
+      "description": "<p>Marcate uno Stress per creare uno spazio impervio alla magia che si estende fino a distanza Lontana. Non si può lanciare alcuna magia all’interno di tale spazio e le creature che vi si trovano sono immuni a danni ed effetti magici.</p>",
+      "actions": {
+        "ovR11FWCpXaFMPVx": {
+          "name": "Utilizzare",
+          "description": "<p>Marcate uno Stress per creare uno spazio impervio alla magia che si estende fino a distanza Lontana. Non si può lanciare alcuna magia all’interno di tale spazio e le creature che vi si trovano sono immuni a danni ed effetti magici.</p>"
+        }
+      }
+    },
+    "Control Potion": {
+      "name": "Pozione del Sangue Freddo",
+      "description": "<p>Ottenete bonus +1 al prossimo Tiro Astuzia.</p>",
+      "effects": {
+        "1VAQYZ1YYc9ew9UR": {
+          "name": "Pozione del Sangue Freddo",
+          "description": "<p>Ottenete bonus +1 al prossimo Tiro Astuzia.</p>"
+        }
+      },
+      "actions": {
+        "l5dx5uYsH0btLDJq": {
+          "name": "Bere",
+          "description": "<p>Ottenete bonus +1 al prossimo Tiro Astuzia.</p>"
+        }
+      }
+    },
+    "Death Tea": {
+      "name": "Infuso Mortale",
+      "description": "<p>Dopo aver bevuto questo tè, uccidete istantaneamente il vostro bersaglio quando ottenete un successo critico con un attacco. Se non ottenete un successo critico in un attacco entro il vostro prossimo riposo lungo, perdete la vita.</p>",
+      "effects": {
+        "IqlpqsgurXsUEQhs": {
+          "name": "Infuso Mortale",
+          "description": "<p>Dopo aver bevuto questo tè, uccidete istantaneamente il vostro bersaglio quando ottenete un successo critico con un attacco. Se non ottenete un successo critico in un attacco entro il vostro prossimo riposo lungo, perdete la vita.</p>"
+        }
+      },
+      "actions": {
+        "U7da5R4pgVkEQJVj": {
+          "name": "Bere",
+          "description": "<p>Dopo aver bevuto questo tè, uccidete istantaneamente il vostro bersaglio quando ottenete un successo critico con un attacco. Se non ottenete un successo critico in un attacco entro il vostro prossimo riposo lungo, perdete la vita.</p>"
+        }
+      }
+    },
+    "Dragonbloom Tea": {
+      "name": "Infusione di Fior di Drago",
+      "description": "<p>Potete bere questo tè per scatenare un respiro infuocato. Effettuate un Tiro Istinto contro tutti gli avversari davanti a voi entro distanza Ravvicinata. I bersagli colpiti subiscono un d20 danni fisici applicando la vostra Competenza.</p>",
+      "actions": {
+        "rcHEz3ImUDwo6lPC": {
+          "name": "Bere",
+          "description": "<p>Potete bere questo tè per scatenare un respiro infuocato. Effettuate un Tiro Istinto contro tutti gli avversari davanti a voi entro distanza Ravvicinata. I bersagli colpiti subiscono un d20 danni fisici applicando la vostra Competenza.</p>"
+        }
+      }
+    },
+    "Dripfang Poison": {
+      "name": "Veleno di Zanna Sgocciolante",
+      "description": "<p>Una creatura che ingerisce questo veleno subisce 8d10 danni magici diretti.</p>",
+      "actions": {
+        "F8CUhhCuZMnXVCrw": {
+          "name": "Consumare",
+          "description": "<p>Una creatura che ingerisce questo veleno subisce <strong>8d10</strong> danni magici diretti.</p>"
+        }
+      }
+    },
+    "Enlighten Potion": {
+      "name": "Pozione dell’Illuminazione",
+      "description": "<p>Ottenete bonus +1 al prossimo Tiro Conoscenza.</p>",
+      "effects": {
+        "QNzVrDW73jF1d5wE": {
+          "name": "Pozione dell’Illuminazione",
+          "description": ""
+        }
+      },
+      "actions": {
+        "F3K719gxEwQH697e": {
+          "name": "Bere",
+          "description": "<p>Ottenete bonus +1 al prossimo Tiro Conoscenza.</p>"
+        }
+      }
+    },
+    "Feast of Xuria": {
+      "name": "Banchetto di Xuria",
+      "description": "<p>Potete consumare questo pasto per recuperare tutti i PF, rimuovere tutto lo stress e ottenere <strong>1d4</strong> Speranze.</p>",
+      "actions": {
+        "TL1fJitAJmDzrnHT": {
+          "name": "Consumare",
+          "description": "<p>Potete consumare questo pasto per recuperare tutti i PF, rimuovere tutto lo stress e ottenere <strong>1d4</strong> Speranze.</p>"
+        }
+      }
+    },
+    "Featherbone": {
+      "name": "Ossocavo",
+      "description": "<p>È possibile utilizzare questo osso per controllare la velocità di caduta per un numero di minuti pari al vostro livello.</p>",
+      "effects": {
+        "VfJIJBW96e45xQHY": {
+          "name": "Ossocavo",
+          "description": "<p>È possibile utilizzare questo osso per controllare la velocità di caduta per un numero di minuti pari al vostro livello.</p>"
+        }
+      },
+      "actions": {
+        "MC0EA6TDZpEHMz11": {
+          "name": "Utilizzare",
+          "description": "<p>È possibile utilizzare questo osso per controllare la velocità di caduta per un numero di minuti pari al vostro livello.</p>"
+        }
+      }
+    },
+    "Gill Salve": {
+      "name": "Balsamo delle Branchie",
+      "description": "<p>Potete applicare questo unguento sul collo per respirare sott’acqua per un numero di minuti pari al vostro livello.</p>",
+      "effects": {
+        "5rL9CY5GO9SJcEZq": {
+          "name": "Balsamo delle Branchie",
+          "description": "<p>Potete applicare questo unguento sul collo per respirare sott’acqua per un numero di minuti pari al vostro livello.</p>"
+        }
+      },
+      "actions": {
+        "57IIcyhEs2ByoENx": {
+          "name": "Applicare",
+          "description": "<p>Potete applicare questo unguento sul collo per respirare sott’acqua per un numero di minuti pari al vostro livello.</p>"
+        }
+      }
+    },
+    "Grindletooth Venom": {
+      "name": "Veleno di Macinadenti",
+      "description": "<p>Potete applicare questo veleno a un’arma che infligge danni fisici per aggiungere un <strong>d6</strong> al prossimo tiro di danno con essa.</p>",
+      "effects": {
+        "yx4ZkXeuXgw2KvV4": {
+          "name": "Veleno di Macinadenti",
+          "description": "<p>Aggiungete <strong>1d6</strong> al prossimo tiro di danno con quest'arma.</p>"
+        }
+      },
+      "actions": {
+        "BuzdaD4vLsbBS2gy": {
+          "name": "Applicare",
+          "description": "<p>Potete applicare questo veleno a un’arma che infligge danni fisici per aggiungere un <strong>d6</strong> al prossimo tiro di danno con essa.</p>"
+        }
+      }
+    },
+    "Growing Potion": {
+      "name": "Pozione della Crescita",
+      "description": "<p>Potete bere questa pozione per raddoppiare le vostre dimensioni fino a quando non decidete di abbandonare questa forma o al prossimo riposo. Mentre siete in questa forma, ottenete bonus +2 alla Forza e bonus +1 alla Competenza.</p>",
+      "effects": {
+        "YEGd74Lssj7rCmpF": {
+          "name": "Pozione della Crescita",
+          "description": "<p>Ottenete bonus +2 alla Forza e bonus +1 alla Competenza.</p>"
+        }
+      },
+      "actions": {
+        "A8wHvMnKnewQ2J3m": {
+          "name": "Bere",
+          "description": "<p>Potete bere questa pozione per raddoppiare le vostre dimensioni fino a quando non decidete di abbandonare questa forma o al prossimo riposo. Mentre siete in questa forma, ottenete bonus +2 alla Forza e bonus +1 alla Competenza.</p>"
+        }
+      }
+    },
+    "Health Potion": {
+      "name": "Pozione di Guarigione",
+      "description": "<p>Recuperate 1d4+1 PF.</p>",
+      "actions": {
+        "O5MYyHpkiEz9uf6A": {
+          "name": "Bere",
+          "description": "<p>Recuperate 1d4+1 PF.</p>"
+        }
+      }
+    },
+    "Homet’s Secret Potion": {
+      "name": "Filtro Segreto di Homet",
+      "description": "<p>Dopo aver bevuto questa pozione, il prossimo attacco che effettuerete con successo avrà invece successo critico.</p>",
+      "effects": {
+        "QyzXAnvho7lVQQtP": {
+          "name": "Filtro Segreto di Homet",
+          "description": "<p>Il prossimo attacco che effettuerete con successo avrà invece successo critico.</p>"
+        }
+      },
+      "actions": {
+        "NCcqIcPhEsUnFh7S": {
+          "name": "Bere",
+          "description": "<p>Dopo aver bevuto questa pozione, il prossimo attacco che effettuerete con successo avrà invece successo critico.</p>"
+        }
+      }
+    },
+    "Hopehold Flare": {
+      "name": "Fiaccola di Speranza",
+      "description": "<p>Quando accendete questa fiaccola, gli alleati entro distanza Ravvicinata tirano un d6 quando spendono una Speranza. Con un risultato di 6, ottengono l’effetto di quella Speranza senza spenderla. La Fiaccola brucia fino alla fine della scena.</p><p>@Template[type:emanation|range:c]</p>",
+      "actions": {
+        "hTF2K4uWcrUypLbs": {
+          "name": "Accendere",
+          "description": "<p>Quando accendete questa fiaccola, gli alleati entro distanza Ravvicinata tirano un d6 quando spendono una Speranza. Con un risultato di 6, ottengono l’effetto di quella Speranza senza spenderla. La Fiaccola brucia fino alla fine della scena.</p><p>@Template[type:emanation|range:c]</p>"
+        }
+      }
+    },
+    "Improved Arcane Shard": {
+      "name": "Frammento Arcano Migliorato",
+      "description": "<p>Potete effettuare un Tiro Astuzia per lanciare questo frammento contro un gruppo di avversari entro distanza Lontana. I bersagli colpiti subiscono <strong>2d20</strong> danni magici.</p>",
+      "actions": {
+        "g3sQoxS6sL3mut3u": {
+          "name": "Lanciare",
+          "description": "<p>Potete effettuare un Tiro Astuzia per lanciare questo frammento contro un gruppo di avversari entro distanza Lontana. I bersagli colpiti subiscono <strong>2d20</strong> danni magici.</p>"
+        }
+      }
+    },
+    "Improved Grindletooth Venom": {
+      "name": "Veleno di Macinadenti Potenziato",
+      "description": "<p>Potete applicare questo veleno a un’arma che infligge danni fisici per aggiungere un <strong>d8</strong> al prossimo tiro di danno con essa.</p>",
+      "effects": {
+        "P7tbNjq58bQ9R1Cc": {
+          "name": "Veleno di Macinadenti Potenziato",
+          "description": "<p>Aggiungete <strong>1d8</strong> al prossimo tiro di danno con quest'arma.</p>"
+        }
+      },
+      "actions": {
+        "KhZ4WVT9cLA1a1y8": {
+          "name": "Applicare",
+          "description": "<p>Potete applicare questo veleno a un’arma che infligge danni fisici per aggiungere un <strong>d8</strong> al prossimo tiro di danno con essa.</p>"
+        }
+      }
+    },
+    "Jar of Lost Voices": {
+      "name": "Giara delle Voci Perdute",
+      "description": "<p>Potete aprire questo vaso per liberare un’eco assordante di voci per un numero di minuti pari al vostro Istinto. Le creature entro distanza Lontana colte di sorpresa dal suono subiscono <strong>6d8</strong> danni magici.</p><p>@Template[type:emanation|range:f]</p>",
+      "actions": {
+        "QEk4TaJeN9FX8cZN": {
+          "name": "Aprire",
+          "description": "<p>Potete aprire questo vaso per liberare un’eco assordante di voci per un numero di minuti pari al vostro Istinto. Le creature entro distanza Lontana colte di sorpresa dal suono subiscono <strong>6d8</strong> danni magici.</p><p>@Template[type:emanation|range:f]</p>"
+        }
+      }
+    },
+    "Jumping Root": {
+      "name": "Radice Balzante",
+      "description": "<p>Mangiate questa radice per saltare entro distanza Lontana una volta senza tirare.</p>",
+      "actions": {
+        "TT4jzve7o2ykPcQO": {
+          "name": "Mangiare",
+          "description": "<p>Mangiate questa radice per saltare entro distanza Lontana una volta senza tirare.</p>"
+        }
+      }
+    },
+    "Knowledge Stone": {
+      "name": "Pietra della Conoscenza",
+      "description": "<p>Se morite stringendo tra le mani questa pietra, un alleato può prendere una carta dalla vostra dotazione per metterla nella sua dotazione o nella sua riserva. Dopo aver appreso questa conoscenza, la pietra si sbriciola.</p>",
+      "actions": {
+        "We38aIuxBrv8zhfr": {
+          "name": "Utilizzare",
+          "description": "<p>Se morite stringendo tra le mani questa pietra, un alleato può prendere una carta dalla vostra dotazione per metterla nella sua dotazione o nella sua riserva. Dopo aver appreso questa conoscenza, la pietra si sbriciola.</p>"
+        }
+      }
+    },
+    "Major Arcane Shard": {
+      "name": "Frammento Arcano Maggiore",
+      "description": "<p>Potete effettuare un Tiro Astuzia per lanciare questo frammento contro un gruppo di avversari entro distanza Lontana. I bersagli colpiti subiscono <strong>4d20</strong> danni magici.</p>",
+      "actions": {
+        "8JHqtEYD0uOGwHdd": {
+          "name": "Lanciare",
+          "description": "<p>Potete effettuare un Tiro Astuzia per lanciare questo frammento contro un gruppo di avversari entro distanza Lontana. I bersagli colpiti subiscono <strong>4d20</strong> danni magici.</p>"
+        }
+      }
+    },
+    "Major Attune Potion": {
+      "name": "Pozione di Armonia Maggiore",
+      "description": "<p>Ottenete bonus +1 all’Istinto fino al prossimo riposo.</p>",
+      "effects": {
+        "v2EXGXbJaewaMxFC": {
+          "name": "Pozione di Armonia Maggiore",
+          "description": ""
+        }
+      },
+      "actions": {
+        "zerWKpcBvtiaUfaw": {
+          "name": "Bere",
+          "description": "<p>Ottenete bonus +1 all’Istinto fino al prossimo riposo.</p>"
+        }
+      }
+    },
+    "Major Bolster Potion": {
+      "name": "Pozione della Possanza Maggiore",
+      "description": "<p>Ottenete bonus +1 alla Forza fino al prossimo riposo.</p>",
+      "effects": {
+        "3PfXBJy0ZjLBDAIn": {
+          "name": "Pozione della Possanza Maggiore",
+          "description": ""
+        }
+      },
+      "actions": {
+        "Z7ehTbRegQvq74tl": {
+          "name": "Bere",
+          "description": "<p>Ottenete bonus +1 alla Forza fino al prossimo riposo.</p>"
+        }
+      }
+    },
+    "Major Charm Potion": {
+      "name": "Pozione di Fascino Maggiore",
+      "description": "<p>Ottenete bonus +1 alla Presenza fino al prossimo riposo.</p>",
+      "effects": {
+        "3iXv9QiuLGOfDCi2": {
+          "name": "Pozione di Fascino Maggiore",
+          "description": ""
+        }
+      },
+      "actions": {
+        "Bz6oZUN317mLvQSk": {
+          "name": "Bere",
+          "description": "<p>Ottenete bonus +1 alla Presenza fino al prossimo riposo.</p>"
+        }
+      }
+    },
+    "Major Control Potion": {
+      "name": "Pozione del Sangue Freddo Maggiore",
+      "description": "<p>Ottenete bonus +1 all’Astuzia fino al prossimo riposo.</p>",
+      "effects": {
+        "YOgojNdjARXUUrky": {
+          "name": "Pozione del Sangue Freddo Maggiore",
+          "description": ""
+        }
+      },
+      "actions": {
+        "fk272mE2zHIHq8qR": {
+          "name": "Bere",
+          "description": "<p>Ottenete bonus +1 all’Astuzia fino al prossimo riposo.</p>"
+        }
+      }
+    },
+    "Major Enlighten Potion": {
+      "name": "Pozione dell’Illuminazione Maggiore",
+      "description": "<p>Ottenete bonus +1 alla Conoscenza fino al prossimo riposo.</p>",
+      "effects": {
+        "Ul5brgnx88npVGNj": {
+          "name": "Pozione dell’Illuminazione Maggiore",
+          "description": ""
+        }
+      },
+      "actions": {
+        "cZL1A3hNXHbjfwi3": {
+          "name": "Bere",
+          "description": "<p>Ottenete bonus +1 alla Conoscenza fino al prossimo riposo.</p>"
+        }
+      }
+    },
+    "Major Health Potion": {
+      "name": "Pozione di Guarigione Maggiore",
+      "description": "<p>Recuperate 1d4+2 PF.</p>",
+      "actions": {
+        "Xm2ldAlmUQY4jlLb": {
+          "name": "Bere",
+          "description": "<p>Recuperate 1d4+2 PF.</p>"
+        }
+      }
+    },
+    "Major Stamina Potion": {
+      "name": "Pozione di Recupero Maggiore",
+      "description": "<p>Rimuovete 1d4+2 Stress.</p>",
+      "actions": {
+        "3duuNVqCeQaUUKTo": {
+          "name": "Bere",
+          "description": "<p>Rimuovete 1d4+2 Stress.</p>"
+        }
+      }
+    },
+    "Major Stride Potion": {
+      "name": "Pozione del Viaggiatore Maggiore",
+      "description": "<p>Ottenete bonus +1 all’Agilità fino al prossimo riposo.</p>",
+      "effects": {
+        "L9dAw8pws1o02XkE": {
+          "name": "Pozione del Viaggiatore Maggiore",
+          "description": ""
+        }
+      },
+      "actions": {
+        "UIVnvI726LJnlK86": {
+          "name": "Bere",
+          "description": "<p>Ottenete bonus +1 all’Agilità fino al prossimo riposo.</p>"
+        }
+      }
+    },
+    "Minor Health Potion": {
+      "name": "Pozione di Guarigione Minore",
+      "description": "<p>Recuperate 1d4 PF.</p>",
+      "actions": {
+        "9HVL2MPFX9VGiSsV": {
+          "name": "Bere",
+          "description": "<p>Recuperate 1d4 PF.</p>"
+        }
+      }
+    },
+    "Minor Stamina Potion": {
+      "name": "Pozione di Recupero Minore",
+      "description": "<p>Rimuovete 1d4 Stress.</p>",
+      "actions": {
+        "fdjpkjhzHQOrZPm0": {
+          "name": "Bere",
+          "description": "<p>Rimuovete 1d4 Stress.</p>"
+        }
+      }
+    },
+    "Mirror of Marigold": {
+      "name": "Specchio di Calendula",
+      "description": "<p>Quando subite danni, potete spendere una Speranza per annullare il danno, dopodiché lo specchio si frantuma.</p>",
+      "actions": {
+        "EPN43cQmNC97cCw9": {
+          "name": "Utilizzare",
+          "description": "<p>Quando subite danni, potete spendere una Speranza per annullare il danno, dopodiché lo specchio si frantuma.</p>"
+        }
+      }
+    },
+    "Morphing Clay": {
+      "name": "Maschera d’Argilla",
+      "description": "<p>Potete spendere una Speranza per usare l’argilla, alterando il vostro volto per rendervi irriconoscibili fino al prossimo riposo.</p>",
+      "effects": {
+        "rMno0zO5Cbwlu4zn": {
+          "name": "Maschera d’Argilla",
+          "description": "<p>Il vostro volto è reso irriconoscibile fino al prossimo riposo.</p>"
+        }
+      },
+      "actions": {
+        "S4wEG1RzfLNtvcg7": {
+          "name": "Utilizzare",
+          "description": "<p>Potete spendere una Speranza per usare l’argilla, alterando il vostro volto per rendervi irriconoscibili fino al prossimo riposo.</p>"
+        }
+      }
+    },
+    "Mythic Dust": {
+      "name": "Polvere Mistica",
+      "description": "<p>Potete applicare questa polvere a un’arma che infligge danni magici per aggiungere un <strong>d12</strong> al prossimo tiro di danno con quell’arma.</p>",
+      "effects": {
+        "L68lFhuWdS3ppDxR": {
+          "name": "Polvere Mistica",
+          "description": "<p>Aggiungete <strong>1d12</strong> al prossimo tiro di danno con quest'arma.</p>"
+        }
+      },
+      "actions": {
+        "oHph7e6VrOwPetbE": {
+          "name": "Utilizzare",
+          "description": "<p>Potete applicare questa polvere a un’arma che infligge danni magici per aggiungere un <strong>d12</strong> al prossimo tiro di danno con quell’arma.</p>"
+        }
+      }
+    },
+    "Ogre Musk": {
+      "name": "Fragranza d’Ogre",
+      "description": "<p>Potete usare questo profumo muschiato per impedire a chiunque di rintracciarvi con mezzi normali o magici fino al vostro prossimo riposo.</p>",
+      "effects": {
+        "n73d0J4oMCBIPWHN": {
+          "name": "Fragranza d’Ogre",
+          "description": "<p>Non potete essere rintracciati con mezzi normali o magici fino al vostro prossimo riposo.</p>"
+        }
+      },
+      "actions": {
+        "t0vgSnAuIcj7IevQ": {
+          "name": "Utilizzare",
+          "description": "<p>Potete usare questo profumo muschiato per impedire a chiunque di rintracciarvi con mezzi normali o magici fino al vostro prossimo riposo.</p>"
+        }
+      }
+    },
+    "Potion of Stability": {
+      "name": "Pozione di Costanza",
+      "description": "<p>Potete bere questa pozione per scegliere una mossa di interludio aggiuntiva.</p>",
+      "effects": {
+        "PjjGC4TpzjSz9z8s": {
+          "name": "Pozione di Costanza",
+          "description": ""
+        }
+      },
+      "actions": {
+        "ifj42z5FhfMVyyd1": {
+          "name": "Bere",
+          "description": "<p>Potete bere questa pozione per scegliere una mossa di interludio aggiuntiva.</p>"
+        }
+      }
+    },
+    "Redthorn Saliva": {
+      "name": "Saliva di Spinarossa",
+      "description": "<p>Potete applicare questa saliva su un’arma che infligge danni fisici per aggiungere un <strong>d12</strong> al prossimo tiro di danno con quell’arma.</p>",
+      "effects": {
+        "tWf00ezdpxQQLuZ1": {
+          "name": "Saliva di Spinarossa",
+          "description": "<p>Aggiungete <strong>1d12</strong> al prossimo tiro di danno con quest'arma.</p>"
+        }
+      },
+      "actions": {
+        "kOU2DpAIHvQsFY5A": {
+          "name": "Applicare",
+          "description": "<p>Potete applicare questa saliva su un’arma che infligge danni fisici per aggiungere un <strong>d12</strong> al prossimo tiro di danno con quell’arma.</p>"
+        }
+      }
+    },
+    "Replication Parchment": {
+      "name": "Pergamena di Copiatura",
+      "description": "<p>Facendo aderire questo pezzo di pergamena a un testo scritto, è possibile copiare perfettamente il contenuto del secondo. Una volta utilizzata, la pergamena perde questa proprietà.</p>",
+      "actions": {
+        "j5gIVHXvcGu7PEZZ": {
+          "name": "Utilizzare",
+          "description": "<p>Facendo aderire questo pezzo di pergamena a un testo scritto, è possibile copiare perfettamente il contenuto del secondo. Una volta utilizzata, la pergamena perde questa proprietà.</p>"
+        }
+      }
+    },
+    "Shrinking Potion": {
+      "name": "Pozione di Rimpicciolimento",
+      "description": "<p>Potete bere questa pozione per dimezzare le vostre dimensioni fino a quando non decidete di abbandonare questa forma o al vostro prossimo riposo. Mentre siete in questa forma avete bonus +2 all’Agilità e penalità −1 alla Competenza.</p>",
+      "effects": {
+        "yaRLd7eHWYm2MHRM": {
+          "name": "Pozione di Rimpicciolimento",
+          "description": "<p>Avete bonus +2 all’Agilità e penalità −1 alla Competenza.</p>"
+        }
+      },
+      "actions": {
+        "F9vKFVwtJfR4Q8Kh": {
+          "name": "Bere",
+          "description": "<p>Potete bere questa pozione per dimezzare le vostre dimensioni fino a quando non decidete di abbandonare questa forma o al vostro prossimo riposo. Mentre siete in questa forma avete bonus +2 all’Agilità e penalità −1 alla Competenza.</p>"
+        }
+      }
+    },
+    "Sleeping Sap": {
+      "name": "Linfa del Sonno",
+      "description": "<p>Potete bere questa pozione per addormentarvi per un’intera notte di riposo. Al risveglio, rimuovete tutto lo Stress.</p>",
+      "actions": {
+        "0cqzI66ChzO6x8WF": {
+          "name": "Svegliarsi",
+          "description": "<p>Potete bere questa pozione per addormentarvi per un’intera notte di riposo. Al risveglio, rimuovete tutto lo Stress.</p>"
+        }
+      }
+    },
+    "Snap Powder": {
+      "name": "Polvere Cauterizzante",
+      "description": "<p>Marcate uno Stress e recuperate un PF.</p>",
+      "actions": {
+        "FVn1NAbzHHyX2lsM": {
+          "name": "Consumare",
+          "description": "<p>Marcate uno Stress e recuperate un PF.</p>"
+        }
+      }
+    },
+    "Stamina Potion": {
+      "name": "Pozione di Recupero",
+      "description": "<p>Rimuovete 1d4+1 Stress.</p>",
+      "actions": {
+        "BnYXCo5zr50Sw8gj": {
+          "name": "Bere",
+          "description": "<p>Rimuovete 1d4+1 Stress.</p>"
+        }
+      }
+    },
+    "Stardrop": {
+      "name": "Lacrima di Stelle",
+      "description": "<p>Potete consumare questa Lacrima di Stelle per evocare una grandinata di comete che infligge <strong>8d20</strong> danni fisici a tutti i bersagli entro distanza Remota.</p><p>@Template[type:emanation|range:vf]</p>",
+      "actions": {
+        "pt5U6hlyx4T7MUOa": {
+          "name": "Utilizzare",
+          "description": "<p>Potete consumare questa Lacrima di Stelle per evocare una grandinata di comete che infligge <strong>8d20</strong> danni fisici a tutti i bersagli entro distanza Remota.</p><p>@Template[type:emanation|range:vf]</p>"
+        }
+      }
+    },
+    "Stride Potion": {
+      "name": "Pozione del Viaggiatore",
+      "description": "<p>Ottenete bonus +1 al prossimo Tiro Agilità.</p>",
+      "effects": {
+        "xQ0xPDxskzZH4jeK": {
+          "name": "Pozione del Viaggiatore",
+          "description": "<p>Ottenete bonus +1 al prossimo Tiro Agilità.</p>"
+        }
+      },
+      "actions": {
+        "GwQgdB3E1HogFKvD": {
+          "name": "Bere",
+          "description": "<p>Ottenete bonus +1 al prossimo Tiro Agilità.</p>"
+        }
+      }
+    },
+    "Sun Tree Sap": {
+      "name": "Linfa dell’Albero del Sole",
+      "description": "<p>Consumate questa linfa e tirate un d6. Con un risultato di 5-6, recuperate 2 PF. Con 2-4, rimuovete 3 Stress. Con 1, vedete attraverso il velo tra i mondi e ne venite cambiati, ottenendo una cicatrice.</p>",
+      "actions": {
+        "Fh7OR8ZmiLNvRPHa": {
+          "name": "Consumare",
+          "description": "<p>Consumate questa linfa e tirate un d6. Con un risultato di 5-6, recuperate 2 PF. Con 2-4, rimuovete 3 Stress. Con 1, vedete attraverso il velo tra i mondi e ne venite cambiati, ottenendo una cicatrice.</p>"
+        }
+      }
+    },
+    "Sweet Moss": {
+      "name": "Muschio Dolce",
+      "description": "<p>Potete consumare questo muschio durante un riposo per recuperare 1d4 PF o rimuovere 1d4 Stress.</p>",
+      "actions": {
+        "Sft4HkhlqsYH5qKI": {
+          "name": "Recuperare Punti Ferita",
+          "description": "<p>Potete consumare questo muschio durante un riposo per recuperare 1d4 PF.</p>"
+        },
+        "IolxVguij8PjHSVt": {
+          "name": "Recuperare Stress",
+          "description": "<p>Potete consumare questo muschio durante un riposo per rimuovere 1d4 Stress.</p>"
+        }
+      }
+    },
+    "Unstable Arcane Shard": {
+      "name": "Frammento Arcano Instabile",
+      "description": "<p>Potete effettuare un Tiro Astuzia per lanciare questo frammento contro un gruppo di avversari entro distanza Lontana. I bersagli colpiti subiscono <strong>1d20</strong> danni magici.</p>",
+      "actions": {
+        "D7BTCUV5DOXmqC0l": {
+          "name": "Lanciare",
+          "description": "<p>Potete effettuare un Tiro Astuzia per lanciare questo frammento contro un gruppo di avversari entro distanza Lontana. I bersagli colpiti subiscono <strong>1d20</strong> danni magici.</p>"
+        }
+      }
+    },
+    "Varik Leaves": {
+      "name": "Foglie di Varik",
+      "description": "<p>Potete mangiare queste foglie per ottenere immediatamente 2 Speranze.</p>",
+      "actions": {
+        "9e4l2Yiy8uV26SQF": {
+          "name": "Mangiare",
+          "description": "<p>Potete mangiare queste foglie per ottenere immediatamente 2 Speranze.</p>"
+        }
+      }
+    },
+    "Vial of Darksmoke": {
+      "name": "Fiala di Nerofumo",
+      "description": "<p>Quando un avversario vi attacca, usate questa fiala e tirate un numero di d6 pari al valore di Agilità. Aggiungete il risultato più alto alla vostra Evasione contro l’attacco.</p>",
+      "actions": {
+        "4nFnAoyH5dENizsx": {
+          "name": "Utilizzare",
+          "description": "<p>Quando un avversario vi attacca, usate questa fiala e tirate un numero di d6 pari al valore di Agilità. Aggiungete il risultato più alto alla vostra Evasione contro l’attacco.</p>"
+        }
+      }
+    },
+    "Vial of Moondrip": {
+      "name": "Fiala di Goccia Lunare",
+      "description": "<p>Quando bevete il contenuto di questa fiala, potete vedere nell’oscurità totale fino al prossimo riposo.</p>",
+      "effects": {
+        "548KAUPcSbQLsivh": {
+          "name": "Fiala di Goccia Lunare",
+          "description": "<p>Potete vedere nell’oscurità totale fino al prossimo riposo.</p>"
+        }
+      },
+      "actions": {
+        "6Ny75zR1b8I8Ycsb": {
+          "name": "Bere",
+          "description": "<p>Quando bevete il contenuto di questa fiala, potete vedere nell’oscurità totale fino al prossimo riposo.</p>"
+        }
+      }
+    },
+    "Wingsprout": {
+      "name": "Germoglio d’Ali",
+      "description": "<p>Ottenete una coppia di ali magiche che vi consentono di volare per un numero di minuti pari al vostro livello.</p>",
+      "effects": {
+        "80F8gAn7ejhhNL7R": {
+          "name": "Germoglio d’Ali",
+          "description": "<p>Ottenete una coppia di ali magiche che vi consentono di volare per un numero di minuti pari al vostro livello.</p>"
+        }
+      },
+      "actions": {
+        "HopgGHn12CHiDNuk": {
+          "name": "Utilizzare",
+          "description": "<p>Ottenete una coppia di ali magiche che vi consentono di volare per un numero di minuti pari al vostro livello.</p>"
+        }
+      }
+    }
+  }
+}

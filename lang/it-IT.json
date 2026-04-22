@@ -1,0 +1,3390 @@
+{
+    "TYPES": {
+        "Item": {
+            "ancestry": "Origine",
+            "community": "Comunità",
+            "class": "Classe",
+            "subclass": "Sottoclasse",
+            "feature": "Privilegio",
+            "domainCard": "Carta Dominio",
+            "consumable": "Consumabile",
+            "loot": "Bottino",
+            "weapon": "Arma",
+            "armor": "Armatura",
+            "beastform": "Forma Bestiale"
+        },
+        "ActiveEffect": {
+            "base": "Standard",
+            "beastform": "Forma Bestiale",
+            "horde": "Orda"
+        },
+        "Actor": {
+            "character": "Personaggio",
+            "companion": "Compagno",
+            "adversary": "Avversario",
+            "environment": "Ambiente",
+            "party": "Gruppo"
+        }
+    },
+    "CONTROLS": {
+        "inFront": "Di Fronte"
+    },
+    "SCENE": {
+        "TABS": {
+            "SHEET": {
+                "dh": "Daggerheart"
+            }
+        }
+    },
+    "DAGGERHEART": {
+        "CharacterSheet": "Scheda del Personaggio",
+        "ACTIONS": {
+            "TYPES": {
+                "attack": {
+                    "name": "Attacco",
+                    "tooltip": "Azione offensiva come un attacco con l'arma, lancio di un incantesimo, ecc."
+                },
+                "beastform": {
+                    "name": "Forma Bestiale",
+                    "tooltip": "Trasforma l'utilizzatore in un'altra forma."
+                },
+                "countdown": {
+                    "name": "Conto alla Rovescia",
+                    "tooltip": "Avvia un conto alla rovescia."
+                },
+                "damage": {
+                    "name": "Danno",
+                    "tooltip": "Danno diretto senza un tiro."
+                },
+                "effect": {
+                    "name": "Generico",
+                    "tooltip": "Azione generica che mostra solo un messaggio in chat se non è configurato nulla."
+                },
+                "healing": {
+                    "name": "Cura",
+                    "tooltip": "Ripristina le risorse del bersaglio. Può avere un tiro configurato."
+                },
+                "macro": {
+                    "name": "Macro",
+                    "tooltip": "Esegue una macro tramite UUID."
+                },
+                "summon": {
+                    "name": "Evocazione",
+                    "tooltip": "Crea segnalini nella scena.",
+                    "error": "Non hai i permessi per evocare segnalini o non c'è nessuna scena attiva.",
+                    "invalidDrop": "Puoi trascinare solo entità di tipo Attore per evocarle.",
+                    "chatMessageTitle": "Test2",
+                    "chatMessageHeaderTitle": "Evocazione in corso"
+                },
+                "transform": {
+                    "name": "Trasformazione",
+                    "tooltip": "Trasforma un personaggio in un altro",
+                    "noTransformActor": "Non c'è nessun personaggio assegnato in cui trasformarsi",
+                    "transformActorMissing": "Il personaggio assegnato in cui trasformarsi non esiste. Probabilmente è stato eliminato o spostato in/da un compendio",
+                    "canvasError": "Non c'è nessuna scena attiva.",
+                    "prototypeError": "Puoi usare un'azione di trasformazione solo da un Segnalino",
+                    "actorLinkError": "Non puoi trasformare un segnalino con Collega Personaggio impostato su vero"
+                }
+            },
+            "Config": {
+                "beastform": {
+                    "exact": {
+                        "label": "Rango Massimo della Forma Bestiale",
+                        "hint": "Il Rango del Personaggio viene utilizzato se vuoto"
+                    },
+                    "modifications": {
+                        "traitBonuses": {
+                            "label": {
+                                "single": "Bonus al Tratto",
+                                "plural": "Bonus ai Tratti"
+                            },
+                            "hint": "Scegli i bonus da applicare ai tratti scelti liberamente al momento della trasformazione",
+                            "bonus": "Ammontare del Bonus"
+                        }
+                    }
+                },
+                "countdown": {
+                    "defaultOwnership": "Proprietà Predefinita",
+                    "startCountdown": "Avvia Conto alla Rovescia"
+                },
+                "damage": {
+                    "multiplier": "Moltiplicatore",
+                    "flatMultiplier": "Moltiplicatore Fisso"
+                },
+                "general": {
+                    "customFormula": "Formula Personalizzata",
+                    "formula": "Formula"
+                },
+                "displayInChat": "Mostra in chat",
+                "deleteTriggerTitle": "Elimina Innesco",
+                "deleteTriggerContent": "Sei sicuro di voler eliminare l'innesco {trigger}?",
+                "advantageState": "Stato di Vantaggio",
+                "damageOnSave": "Danno su Salvezza"
+            },
+            "RollField": {
+                "diceRolling": {
+                    "compare": "Deve essere",
+                    "dice": "Tipo di Dado",
+                    "flatMultiplier": "Moltiplicatore Fisso",
+                    "multiplier": "Numero di Dadi",
+                    "threshold": "Soglia"
+                }
+            },
+            "Settings": {
+                "attackBonus": "Bonus di Attacco",
+                "attackName": "Nome dell'Attacco",
+                "criticalThreshold": "Soglia Critico",
+                "includeBase": {
+                    "label": "Includi Danno dell'Oggetto"
+                },
+                "multiplier": "Moltiplicatore",
+                "saveHint": "Imposta un Tratto predefinito per abilitare il Tiro Reazione. Può essere modificato in seguito nella finestra di dialogo del Tiro Reazione.",
+                "resultBased": {
+                    "label": "Formula basata sul risultato di Speranza/Paura."
+                },
+                "applyTo": {
+                    "label": "Risorsa Bersaglio"
+                },
+                "consumeOnSuccess": {
+                    "label": "Consuma solo in caso di Successo",
+                    "short": "(solo con Successo)"
+                },
+                "cost": {
+                    "stepTooltip": "+{step} per grado"
+                },
+                "summon": {
+                    "dropSummonsHere": "Trascina l'Evocazione qui"
+                },
+                "transform": {
+                    "dropTransformHere": "Trascina la Trasformazione Qui",
+                    "actorIsMissing": "Il personaggio collegato è mancante. Dovresti eliminare questo collegamento.",
+                    "clearHitPoints": "Azzera Punti Ferita",
+                    "clearStress": "Azzera Stress"
+                }
+            }
+        },
+        "ACTIVEEFFECT": {
+            "Config": {
+                "rangeDependence": {
+                    "title": "Dipendenza dalla Distanza"
+                },
+                "stacking": {
+                    "title": "Accumulo"
+                }
+            },
+            "RangeDependance": {
+                "hint": "Impostazioni per una distanza opzionale alla quale questo effetto deve attivarsi",
+                "title": "Dipendente dalla Distanza"
+            },
+            "immuneStatusText": "Imunità: {status}"
+        },
+        "ACTORS": {
+            "Adversary": {
+                "FIELDS": {
+                    "attack": {
+                        "name": {
+                            "label": "Nome"
+                        },
+                        "modifier": {
+                            "label": "Modificatore"
+                        },
+                        "range": {
+                            "label": "Portata"
+                        },
+                        "damage": {
+                            "value": {
+                                "label": "Danno"
+                            },
+                            "type": {
+                                "label": "Tipo di Danno"
+                            }
+                        }
+                    },
+                    "damageThresholds": {
+                        "major": {
+                            "label": "Maggiore"
+                        },
+                        "severe": {
+                            "label": "Grave"
+                        }
+                    },
+                    "description": {
+                        "label": "Descrizione"
+                    },
+                    "difficulty": {
+                        "label": "Difficoltà"
+                    },
+                    "experiences": {
+                        "element": {
+                            "name": {
+                                "label": "Nome"
+                            },
+                            "value": {
+                                "label": "Modificatore"
+                            }
+                        }
+                    },
+                    "motivesAndTactics": {
+                        "label": "Motivazioni & Tattiche"
+                    },
+                    "resources": {
+                        "hitPoints": {
+                            "value": {
+                                "label": "Attuali"
+                            },
+                            "max": {
+                                "label": "Max"
+                            }
+                        },
+                        "stress": {
+                            "value": {
+                                "label": "Attuale"
+                            },
+                            "max": {
+                                "label": "Max"
+                            }
+                        }
+                    },
+                    "tier": {
+                        "label": "Rango"
+                    },
+                    "type": {
+                        "label": "Tipo"
+                    }
+                },
+                "hordeDamage": "Danno dell'Orda",
+                "horderHp": "Orda/PF"
+            },
+            "Character": {
+                "advantageSources": {
+                    "label": "Fonti di Vantaggio",
+                    "hint": "Aggiungi parole uniche o testi brevi come promemoria e suggerimenti su ciò per cui un personaggio ha vantaggio."
+                },
+                "age": "Età",
+                "backgroundQuestions": "Background",
+                "burden": {
+                    "ignore": {
+                        "label": "Ingombro: Ignora",
+                        "hint": "Ignora le regole sull'Ingombro"
+                    }
+                },
+                "companionFeatures": "Caratteristiche del Compagno",
+                "connections": "Legami",
+                "contextMenu": {
+                    "consume": "Consuma Oggetto",
+                    "equip": "Equipaggia",
+                    "sendToChat": "Invia in Chat",
+                    "toLoadout": "Sposta nella Dotazione",
+                    "toVault": "Sposta nella Riserva",
+                    "unequip": "Rimuovi",
+                    "useItem": "Usa Oggetto"
+                },
+                "defaultHopeDice": "Dado Speranza Predefinito",
+                "defaultFearDice": "Dado Paura Predefinito",
+                "disadvantageSources": {
+                    "label": "Fonti di Svantaggio",
+                    "hint": "Aggiungi parole uniche o testi brevi come promemoria e suggerimenti su ciò per cui un personaggio ha svantaggio."
+                },
+                "faith": "Fede",
+                "levelUp": "Puoi salire di livello",
+                "maxEvasionBonus": "Aumento Max. Evasione",
+                "maxHPBonus": "Aumento Max. PF",
+                "pronouns": "Pronomi",
+                "roll": {
+                    "guaranteedCritical": {
+                        "label": "Critico Garantito",
+                        "hint": "Imposta su 1 per ottenere sempre un Critico."
+                    }
+                },
+                "story": {
+                    "backgroundTitle": "Origini",
+                    "characteristics": "Caratteristiche",
+                    "connectionsTitle": "Legami"
+                },
+                "experienceDataRemoveConfirmation": {
+                    "title": "Rimuovi Dati Esperienza",
+                    "text": "L'esperienza che stai per rimuovere ha dei dati di avanzamento di livello ad essa collegati (presumibilmente perché sei salito di livello con l'impostazione di automazione 'levelupAuto' attivata). Rimuoverla cancellerà anche questi dati di automazione. Vuoi procedere?"
+                },
+                "manualMulticlass": {
+                    "title": "Multiclasse",
+                    "text": "Vuoi aggiungere questa classe come tua multiclasse?"
+                },
+                "manualMulticlassSubclass": {
+                    "title": "Sottoclasse della Multiclasse",
+                    "text": "Vuoi aggiungere questa sottoclasse come tua sottoclasse della multiclasse?"
+                },
+                "cannotRemoveCoreExperience": "Stai utilizzando l'Avanzamento di Livello Automatico. Non puoi rimuovere un'esperienza concessa dalla progressione delle regole.",
+                "companionLevelup": {
+                    "confirmTitle": "Avanzamento di Livello del Compagno",
+                    "confirmText": "Vuoi aumentare il livello del tuo compagno {name} di {levelChange} livelli ora? (Puoi farlo manualmente in seguito)"
+                },
+                "viewLevelups": "Vedi Avanzamenti di Livello",
+                "resetCharacter": "Resetta Personaggio",
+                "viewParty": "Vedi Gruppo",
+                "InvalidOldCharacterImportTitle": "Importazione Vecchio Personaggio",
+                "InvalidOldCharacterImportText": "I dati del personaggio esportati prima della versione 1.1 del sistema non genereranno un personaggio completo. Vuoi continuare?",
+                "cancelBeastform": "Annulla Forma Bestiale",
+                "resetCharacterConfirmationTitle": "Resetta Personaggio",
+                "resetCharacterConfirmationContent": "Ripristinerai tutti i dati del personaggio, tranne il nome e il ritratto. Sei sicuro?"
+            },
+            "Companion": {
+                "FIELDS": {
+                    "attack": {
+                        "name": {
+                            "label": "Nome dell'Attacco"
+                        }
+                    },
+                    "evasion": {
+                        "value": {
+                            "label": "Evasione"
+                        }
+                    },
+                    "partner": {
+                        "label": "Partner"
+                    },
+                    "resources": {
+                        "stress": {
+                            "value": {
+                                "label": "Stress"
+                            },
+                            "currentStress": {
+                                "label": "Stress Attuale"
+                            },
+                            "maxStress": {
+                                "label": "Stress Max."
+                            }
+                        }
+                    }
+                },
+                "noPartner": "Nessun Partner selezionato"
+            },
+            "Environment": {
+                "FIELDS": {
+                    "description": {
+                        "label": "Descrizione"
+                    },
+                    "difficulty": {
+                        "label": "Difficoltà"
+                    },
+                    "impulses": {
+                        "label": "Impeti"
+                    },
+                    "tier": {
+                        "label": "Rango"
+                    },
+                    "type": {
+                        "label": "Tipo"
+                    }
+                },
+                "newAdversary": "Nuovo Avversario"
+            }
+        },
+        "APPLICATIONS": {
+            "Attribution": {
+                "title": "Attribuzione"
+            },
+            "CharacterCreation": {
+                "tabs": {
+                    "ancestry": "Origine",
+                    "community": "Comunità",
+                    "class": "Classe",
+                    "experience": "Esperienza",
+                    "traits": "Tratti",
+                    "domainCards": "Carte Dominio",
+                    "equipment": "Equipaggiamento",
+                    "story": "Origini"
+                },
+                "ancestryNamePlaceholder": "Dai un nome alla tua origine",
+                "buttonTitle": "Creazione del Personaggio",
+                "choice": "Scelta",
+                "finishCreation": "Termina Creazione Personaggio",
+                "heritage": "Retaggio",
+                "initialExperiences": "Esperienze Iniziali",
+                "mixedAncestry": "Origine Mista",
+                "newExperience": "Nuova Esperienza...",
+                "selectAncestry": "Seleziona Origine",
+                "selectPrimaryAncestry": "Seleziona Origine Primaria",
+                "selectSecondaryAncestry": "Seleziona Origine Secondaria",
+                "selectArmor": "Seleziona Armatura",
+                "selectClass": "Seleziona Classe",
+                "selectCommunity": "Seleziona Comunità",
+                "selectPrimaryWeapon": "Seleziona Arma Primaria",
+                "selectSecondaryWeapon": "Seleziona Arma Secondaria",
+                "selectSubclass": "Seleziona Sottoclasse",
+                "setupSkipTitle": "Salta la Creazione del Personaggio",
+                "setupSkipContent": "Aggiungendo questo manualmente, stai saltando la Creazione del Personaggio. La Creazione del Personaggio è indicata dalle frecce lampeggianti in alto a destra. Sei sicuro di voler continuare?",
+                "startingItems": "Oggetti Iniziali",
+                "story": "Origini",
+                "storyExplanation": "Seleziona quali spunti di background e legame vuoi copiare nel background del tuo personaggio.",
+                "suggestedArmor": "Armatura Suggerita",
+                "suggestedPrimaryWeapon": "Arma Primaria Suggerita",
+                "suggestedSecondaryWeapon": "Arma Secondaria Suggerita",
+                "suggestedTraits": "Tratti Suggeriti",
+                "suggestedWeapons": "Arma Suggerita",
+                "title": "{actor} - Creazione del Personaggio",
+                "traitIncreases": "Aumenti dei Tratti"
+            },
+            "CharacterReset": {
+                "title": "Resetta Personaggio",
+                "alwaysDeleteSection": "Dati Eliminati",
+                "optionalDeleteSection": "Dati Opzionali",
+                "headerTitle": "Seleziona quali dati desideri conservare."
+            },
+            "CombatTracker": {
+                "combatStarted": "Attivo",
+                "giveSpotlight": "Cedi i Riflettori",
+                "requestingSpotlight": "Richiedendo i Riflettori",
+                "requestSpotlight": "Richiedi i Riflettori",
+                "openCountdowns": "Conti alla Rovescia"
+            },
+            "CompendiumBrowserSettings": {
+                "title": "Attiva Compendi",
+                "enableSource": "Abilita Fonte",
+                "disableSource": "Disabilita Fonte",
+                "worldCompendiums": "Compendi del Mondo"
+            },
+            "ContextMenu": {
+                "disableEffect": "Disabilita Effetto",
+                "enableEffect": "Abilita Effetto",
+                "equip": "Equipaggia",
+                "sendToChat": "Invia in Chat",
+                "toLoadout": "Sposta nella Dotazione",
+                "toVault": "Sposta nella Riserva",
+                "recall": "Richiama",
+                "unequip": "Rimuovi",
+                "useItem": "Usa Oggetto"
+            },
+            "Countdown": {
+                "addCountdown": "Aggiungi Conto alla Rovescia",
+                "loopingTypes": {
+                    "noLooping": "Nessuna Ripetizione",
+                    "looping": "Ripetizione",
+                    "increasing": "Crescente",
+                    "decreasing": "Decrescente"
+                },
+                "FIELDS": {
+                    "countdowns": {
+                        "element": {
+                            "name": {
+                                "label": "Nome"
+                            },
+                            "progress": {
+                                "current": {
+                                    "label": "Attuale"
+                                },
+                                "looping": {
+                                    "label": "Ripetizione"
+                                },
+                                "start": {
+                                    "label": "Inizia a"
+                                },
+                                "startFormula": {
+                                    "label": "Formula di Inizio"
+                                },
+                                "type": {
+                                    "label": {
+                                        "label": "Etichetta",
+                                        "hint": "Usata per personalizzare"
+                                    },
+                                    "value": {
+                                        "label": "Valore"
+                                    }
+                                }
+                            },
+                            "type": {
+                                "label": "Tipo di Progressione"
+                            }
+                        }
+                    }
+                },
+                "newCountdown": "Nuovo Conto alla Rovescia",
+                "openOwnership": "Modifica Proprietà del Giocatore",
+                "removeCountdownText": "Sei sicuro di voler rimuovere il conto alla rovescia: {name}?",
+                "removeCountdownTitle": "Rimuovi Conto alla Rovescia",
+                "title": "Conti alla Rovescia di {type}",
+                "toggleSimple": "Attiva/Disattiva Visualizzazione Semplice",
+                "types": {
+                    "narrative": "Narrativo",
+                    "encounter": "Incontro"
+                }
+            },
+            "CountdownEdit": {
+                "title": "Modifica Conto alla Rovescia",
+                "viewTitle": "Conti alla Rovescia",
+                "editTitle": "Modifica Conti alla Rovescia",
+                "newCountdown": "Nuovo Conto alla Rovescia",
+                "removeCountdownTitle": "Rimuovi Conto alla Rovescia",
+                "removeCountdownText": "Sei sicuro di voler rimuovere il conto alla rovescia: {name}?",
+                "current": "Valore Attuale",
+                "start": "Valore Iniziale",
+                "startFormula": "Formula per Valore Iniziale Casuale",
+                "currentCountdownCurrent": "Attuale: {value}",
+                "currentCountdownStart": "Inizio: {value}",
+                "category": "Categoria",
+                "progressionType": "Progressione",
+                "decreasing": "Decrescente",
+                "looping": "Ripetizione",
+                "defaultOwnershipTooltip": "La proprietà predefinita del giocatore per i conti alla rovescia",
+                "hideNewCountdowns": "Nascondi Nuovi Conti alla Rovescia"
+            },
+            "DaggerheartMenu": {
+                "title": "Strumenti del GM",
+                "refreshFeatures": "Ripristina Privilegi",
+                "fallingAndCollision": "Danni da Caduta e Collisione"
+            },
+            "DeleteConfirmation": {
+                "title": "Elimina {type} - {name}",
+                "text": "Sei sicuro di voler eliminare {name}?"
+            },
+            "DamageReduction": {
+                "armorMarks": "Armatura",
+                "armorWithStress": "Marca uno Stress per usare un punto extra",
+                "thresholdImmunities": "Immunità alle Soglie",
+                "stress": "Stress",
+                "stressReduction": "Riduci con lo Stress",
+                "title": "Riduzione del Danno",
+                "unncessaryStress": "Non hai bisogno di marcare Stress",
+                "usedMarks": "Punti Usati",
+                "reduceSeverity": "Gravità Ridotta di {nr}"
+            },
+            "DeathMove": {
+                "selectMove": "Seleziona Mossa",
+                "takeMove": "Esegui Mossa Finale",
+                "title": "{actor} - Mossa Finale"
+            },
+            "Downtime": {
+                "longRest": {
+                    "title": "Riposo Lungo",
+                    "moves": "Mosse Interludio ({current}/{max})",
+                    "clearStress": {
+                        "description": "Rimuovete tutto il vostro stress.",
+                        "name": "Rimuovere Tutto lo Stress"
+                    },
+                    "prepare": {
+                        "description": "Preparatevi per il viaggio imminente e ottenete 1 Speranza.",
+                        "name": "Prepararsi"
+                    },
+                    "prepareWithFriends": {
+                        "description": "Preparatevi con uno o più compagni e ottenete 2 Speranze ciascuno.",
+                        "name": "Prepararsi Assieme"
+                    },
+                    "repairArmor": {
+                        "description": "Riparate tutta la vostra Armatura o quella di un alleato.",
+                        "name": "Riparare Tutte le Armature"
+                    },
+                    "tendToWounds": {
+                        "description": "Curate tutti i vostri PF o quelli di un alleato.",
+                        "name": "Curare Tutte le Ferite"
+                    },
+                    "workOnAProject": {
+                        "description": "Avviate un nuovo progetto o continuatene uno già in corso.",
+                        "name": "Lavorare a un Progetto"
+                    }
+                },
+                "shortRest": {
+                    "title": "Riposo Breve",
+                    "moves": "Mosse Interludio ({current}/{max})",
+                    "tendToWounds": {
+                        "name": "Curare Ferite",
+                        "description": "Curate i vostri PF, o quelli di un alleato, per una quantità pari a un d4+il vostro Rango."
+                    },
+                    "clearStress": {
+                        "name": "Rimuovere Stress",
+                        "description": "Rimuovete il vostro stress di una quantità pari a un d4+il vostro Rango."
+                    },
+                    "repairArmor": {
+                        "name": "Riparare Armature",
+                        "description": "Riparate la vostra armatura, o quella di un alleato, di un numero di caselle pari a un d4+il vostro Rango."
+                    },
+                    "prepare": {
+                        "name": "Prepararsi",
+                        "description": "Preparatevi per il viaggio imminente e ottenete 1 Speranza."
+                    },
+                    "prepareWithFriends": {
+                        "name": "Prepararsi Assieme",
+                        "description": "Preparatevi con uno o più compagni e ottenete 2 Speranze ciascuno."
+                    }
+                },
+                "refreshable": {
+                    "title": "Recupero Risorse"
+                },
+                "takeDowntime": "Riposare"
+            },
+            "HUD": {
+                "tokenHUD": {
+                    "genericEffects": "Effetti di Foundry",
+                    "depositPartyTokens": "Deposita Segnalini del Gruppo",
+                    "retrievePartyTokens": "Recupera Segnalini del Gruppo",
+                    "depositCompanionTokens": "Deposita Segnalini del Compagno",
+                    "retrieveCompanionTokens": "Recupera Segnalini del Compagno"
+                }
+            },
+            "ImageSelect": {
+                "title": "Seleziona Immagine",
+                "selectImage": "Seleziona Immagine"
+            },
+            "ItemTransfer": {
+                "transfer": "Trasferisci"
+            },
+            "Levelup": {
+                "actions": {
+                    "creatureComfort": {
+                        "name": "Amore per le Creature",
+                        "description": "Una volta per riposo, potete trascorrere alcuni istanti accarezzando o curando il vostro compagno per ottenere una Speranza oppure rimuovere uno Stress da voi o dal vostro compagno."
+                    },
+                    "armored": {
+                        "name": "Corazzato",
+                        "description": "Quando il vostro compagno dovrebbe subire danni, potete marcare una Casella Armatura per annullare tali danni invece di fargli marcare uno Stress."
+                    },
+                    "bonded": {
+                        "name": "Legato",
+                        "description": "Quando dovreste perdere il vostro ultimo Punto Ferita, il vostro compagno vi protegge e subisce il colpo al posto vostro. Tirate un numero di d6 pari allo Stress non speso che ha attualmente e marcatelo tutto. Se almeno un dado ottiene un 6 o più, il vostro compagno vi salva; recuperate il vostro ultimo Punto Ferita e continuate la scena."
+                    }
+                },
+                "choiceDescriptions": {
+                    "attributes": "Aumentate di +1 due tratti non ancora incrementati, quindi contrassegnateli come già migliorati.",
+                    "hitPointSlots": "Aumentate i vostri Punti Ferita massimi di uno.",
+                    "stressSlots": "Aumentate il vostro Stress massimo di uno.",
+                    "experiences": "Ottenete in modo permanente bonus +1 a due delle vostre Esperienze.",
+                    "domainCard": "Scegliete una carta dominio aggiuntiva del vostro livello o inferiore da uno dei vostri domini (fino al livello {maxLevel})",
+                    "evasion": "Ottenete in modo permanente bonus +1 all'Evasione.",
+                    "proficiency": "Aumentate in modo permanente di +1 la vostra Competenza.",
+                    "subclass": "Scegliete la carta capacità della sottoclasse relativa a questo rango. (Cancellate l’opzione multiclasse per questo Rango.)",
+                    "multiclass": "Scegliete il nome di una seconda classe da aggiungere ai vostri domini. Da questo momento, quando salite di livello o modificate la vostra dotazione durante un riposo lungo, potete scegliere e usare carte dominio provenienti dalla vostra classe principale o dalla vostra multiclasse. Questo non vi garantisce l’accesso ad altri privilegi di classe, come gli oggetti della classe o i domini e i privilegi delle sottoclassi. Se usate quest’opzione, cancellate il privilegio di sottoclasse per questo rango."
+                },
+                "delevel": {
+                    "content": "Tornare alla selezione del livello precedente rimuoverà tutte le selezioni effettuate per questo livello. Vuoi procedere?",
+                    "title": "Torna al livello precedente"
+                },
+                "navigateLevel": "Al Livello {level}",
+                "navigateToLevelup": "Torna ad Avanzamento di Livello",
+                "finishLevelup": "Finalizza l'Avanzamento di Livello",
+                "navigateToSummary": "Al Riepilogo",
+                "options": {
+                    "trait": "Aumentate di +1 due tratti non ancora incrementati, quindi contrassegnateli come già migliorati.",
+                    "hitPoint": "Aumentate i vostri Punti Ferita massimi di uno.",
+                    "stress": "Aumentate il vostro Stress massimo di uno.",
+                    "experience": "Ottenete in modo permanente bonus +1 a due delle vostre Esperienze.",
+                    "domainCard": "Scegliete una carta dominio aggiuntiva del vostro livello o inferiore da uno dei vostri domini (fino al livello {maxLevel})",
+                    "evasion": "Ottenete in modo permanente bonus +1 all'Evasione.",
+                    "subclass": "Scegliete la carta capacità della sottoclasse relativa a questo rango. (Cancellate l’opzione multiclasse per questo Rango.)",
+                    "proficiency": "Aumentate in modo permanente di +1 la vostra Competenza.",
+                    "multiclass": "Scegliete il nome di una seconda classe da aggiungere ai vostri domini. Da questo momento, quando salite di livello o modificate la vostra dotazione durante un riposo lungo, potete scegliere e usare carte dominio provenienti dalla vostra classe principale o dalla vostra multiclasse. Questo non vi garantisce l’accesso ad altri privilegi di classe, come gli oggetti della classe o i domini e i privilegi delle sottoclassi. Se usate quest’opzione, cancellate il privilegio di sottoclasse per questo rango.",
+                    "intelligent": "Aumentate in modo permanente di +1 un’Esperienza del vostro compagno.",
+                    "lightInTheDark": "Aumentate la vostra Speranza massima di uno.",
+                    "creatureComfort": "Una volta per riposo, potete trascorrere alcuni istanti accarezzando o curando il vostro compagno per ottenere una Speranza oppure rimuovere uno Stress da voi o dal vostro compagno.",
+                    "armored": "Quando il vostro compagno dovrebbe subire danni, potete marcare una Casella Armatura per annullare tali danni invece di fargli marcare uno Stress.",
+                    "vicious": "Aumentate il dado di danno del vostro compagno di un grado di Dado o la sua portata (es. d6 a d8, da Mischia a Ravvicinata, ecc.).",
+                    "resilient": "Aumentate lo Stress massimo del vostro compagno di uno.",
+                    "bonded": "Quando dovreste perdere il vostro ultimo Punto Ferita, il vostro compagno vi protegge e subisce il colpo al posto vostro. Tirate un numero di d6 pari allo Stress non speso che ha attualmente e marcatelo tutto. Se almeno un dado ottiene un 6 o più, il vostro compagno vi salva; recuperate il vostro ultimo Punto Ferita e continuate la scena.",
+                    "aware": "Ottenete in modo permanente un bonus di +2 all'Evasione del vostro compagno."
+                },
+                "selections": {
+                    "emptyDomainCardHint": "{domain} livello {level} o inferiore",
+                    "viciousDamage": "Danno",
+                    "viciousRange": "Portata"
+                },
+                "summary": {
+                    "levelAchievements": "Traguardi di Livello",
+                    "levelAdvancements": "Avanzamenti di Livello",
+                    "proficiencyIncrease": "Competenza Aumentata: {proficiency}",
+                    "hpIncrease": "Punti Ferita Aumentati: {hitPoints}",
+                    "stressIncrease": "Stress Aumentato: {stress}",
+                    "evasionIncrease": "Evasione Aumentata: {evasion}",
+                    "damageThresholdMajorIncrease": "Maggiore: {threshold}",
+                    "damageThresholdSevereIncrease": "Grave: {threshold}",
+                    "newExperiences": "Nuove Esperienze",
+                    "experiencePlaceholder": "Una nuova esperienza...",
+                    "domainCards": "Carte Dominio",
+                    "subclass": "Sottoclasse",
+                    "multiclass": "Multiclasse",
+                    "traits": "Tratti Aumentati",
+                    "experienceIncreases": "Esperienze Aumentate",
+                    "damageThresholds": "Soglie di Danno",
+                    "vicious": "Ferocia",
+                    "damageIncreased": "Danno Aumentato: {damage}",
+                    "rangeIncreased": "Portata Aumentata: {range}",
+                    "simpleFeature": "Privilegio: {feature}"
+                },
+                "takeLevelUp": "Termina Avanzamento di Livello",
+                "tier2": {
+                    "name": "Rango 2",
+                    "label": "Livelli 2-4",
+                    "infoLabel": "Al Livello 2, scrivete una nuova Esperienza a +2 e aumentate permanentemente la vostra Competenza di uno.",
+                    "pretext": "Scegli due opzioni dall'elenco sottostante",
+                    "posttext": "Scegli una carta di dominio aggiuntiva di livello pari o inferiore al tuo da un dominio a cui hai accesso."
+                },
+                "tier3": {
+                    "name": "Rango 3",
+                    "label": "Livelli 5-7",
+                    "infoLabel": "Al Livello 5, scrivete una nuova Esperienza a +2 e rimuovete tutti i contrassegni dai vostri tratti.",
+                    "pretext": "Avanzando di livello, registra sulla scheda del personaggio, poi scegli due opzioni dall'elenco sottostante o un'opzione non contrassegnata del rango precedente.",
+                    "posttext": "Scegli una carta di dominio aggiuntiva di livello pari o inferiore al tuo da un dominio a cui hai accesso."
+                },
+                "tier4": {
+                    "name": "Rango 4",
+                    "label": "Livelli 8-10",
+                    "infoLabel": "Al Livello 8, scrivete una nuova Esperienza a +2 e rimuovete tutti i contrassegni dai vostri tratti.",
+                    "pretext": "Avanzando di livello, registra sulla scheda del personaggio, poi scegli due opzioni dall'elenco sottostante o un'opzione non contrassegnata del rango precedente.",
+                    "posttext": "Scegli una carta di dominio aggiuntiva di livello pari o inferiore al tuo da un dominio a cui hai accesso."
+                },
+                "title": "{actor} - Avanzamento di Livello",
+                "viewModeTitle": "{actor} Avanzamento di Livello (Modalità Visualizzazione)"
+            },
+            "MulticlassChoice": {
+                "title": "Multiclasse - {actor}",
+                "explanation": "Stai aggiungendo {class} come tua multiclasse",
+                "selectDomainPrompt": "Seleziona il tuo nuovo dominio"
+            },
+            "OwnershipSelection": {
+                "title": "Selezione Proprietà - {name}",
+                "noPlayers": "Nessun giocatore a cui assegnare la proprietà",
+                "default": "Proprietà Predefinita"
+            },
+            "ReactionRoll": {
+                "title": "Tiro Reazione: {trait}"
+            },
+            "RerollDialog": {
+                "title": "Tira di Nuovo",
+                "damageTitle": "Tira di Nuovo il Danno",
+                "deselectDiceNotification": "Deseleziona prima uno dei dadi selezionati",
+                "acceptCurrentRolls": "Accetta i Tiri Attuali"
+            },
+            "ResourceDice": {
+                "title": "Risorsa di {name}",
+                "rerollDice": "Tira i Dadi di Nuovo"
+            },
+            "RiskItAllDialog": {
+                "title": "{name} - Rischia Tutto",
+                "subtitle": "Ripristina Stress e Punti Ferita",
+                "remainingTitle": "Punti Rimanenti",
+                "clearResource": "Ripristina {resource}",
+                "finalTitle": "Risorse Finali del Personaggio"
+            },
+            "TagTeamSelect": {
+                "title": "Tiro Combinato",
+                "FIELDS": {
+                    "initiator": {
+                        "memberId": {
+                            "label": "Personaggio Iniziatore"
+                        },
+                        "cost": {
+                            "label": "Costo di Avvio"
+                        }
+                    }
+                },
+                "leaderTitle": "Personaggio Iniziatore",
+                "membersTitle": "Partecipanti",
+                "partyTeam": "Squadra del Gruppo",
+                "hopeCost": "Costo in Speranza",
+                "initiatingCharacter": "Personaggio Iniziatore",
+                "selectParticipants": "Seleziona i due partecipanti",
+                "startTagTeamRoll": "Avvia Tiro Combinato",
+                "openDialogForAll": "Apri Finestra per Tutti",
+                "rollType": "Tipo di Tiro",
+                "makeYourRoll": "Effettua il tuo tiro",
+                "cancelTagTeamRoll": "Annulla Tiro Combinato",
+                "finishTagTeamRoll": "Termina Tiro Combinato",
+                "linkMessageHint": "Effettua un tiro dalla scheda del tuo personaggio per collegarlo al Tiro Combinato",
+                "damageNotRolled": "Danno non ancora tirato nel messaggio in chat",
+                "insufficientHope": "Il personaggio iniziatore non ha abbastanza Speranza",
+                "createTagTeam": "Crea Tiro Combinato",
+                "chatMessageRollTitle": "Tiro",
+                "cancelConfirmTitle": "Annulla Tiro Combinato",
+                "cancelConfirmText": "Sei sicuro di voler annullare il Tiro Combinato? Verrà chiuso anche per gli altri giocatori.",
+                "hints": {
+                    "completeRolls": "Imposta e completa i tiri per i personaggi",
+                    "selectRoll": "Seleziona quale valore del tiro usare per il Tiro Combinato"
+                }
+            },
+            "TokenConfig": {
+                "actorSizeUsed": "La dimensione dell'Attore è impostata, determinando le dimensioni."
+            }
+        },
+        "CLASS": {
+            "Feature": {
+                "rallyDice": "Dado Ispirazione del Bardo",
+                "short": "Ispirazione"
+            }
+        },
+        "CONFIG": {
+            "ActiveEffectDuration": {
+                "temporary": "Temporaneo",
+                "act": "Prossimi Riflettori",
+                "scene": "Prossima Scena",
+                "shortRest": "Prossimo Riposo",
+                "longRest": "Prossimo Riposo Lungo",
+                "session": "Prossima Sessione",
+                "custom": "Personalizzato"
+            },
+            "ArmorInteraction": {
+                "none": {
+                    "label": "Ignora Armatura"
+                },
+                "active": {
+                    "label": "Attivo con Armatura"
+                },
+                "inactive": {
+                    "label": "Inattivo con Armatura"
+                }
+            },
+            "fallAndCollision": {
+                "veryClose": {
+                    "label": "Distanza Prossima",
+                    "chatTitle": "Danno da Caduta: Prossima"
+                },
+                "close": {
+                    "label": "Distanza Ravvicinata",
+                    "chatTitle": "Danno da Caduta: Ravvicinata"
+                },
+                "far": {
+                    "label": "Distanza Lontana",
+                    "chatTitle": "Danno da Caduta: Lontana"
+                },
+                "collision": {
+                    "label": "Collisione",
+                    "chatTitle": "Collisione Pericolosa"
+                }
+            },
+            "TagTeamRollTypes": {
+                "trait": "Tratto",
+                "ability": "Abilità",
+                "damageAbility": "Abilità di Danno"
+            },
+            "ActionType": {
+                "passive": "Passiva",
+                "action": "Azione",
+                "reaction": "Reazione"
+            },
+            "AdversaryTrait": {
+                "relentless": {
+                    "name": "Inesorabile",
+                    "description": "Questo avversario non deve aspettare che il GM accumuli 2 Segnalini Paura per essere Attivato in modo Inesorabile e agire una seconda volta; tuttavia, attivare questo avversario per una seconda volta costa comunque un Segnalino Paura come di consueto. Inoltre, quando compie un’Azione Inesorabile, non lo fa con svantaggio.",
+                    "tip": "La mossa Inesorabile è utile se vuoi un avversario che possa essere attivato più di una volta durante una singola mossa del GM. Di solito è la scelta migliore per nemici eccessivamente veloci o pericolosi, o per avversari che probabilmente combatteranno contro il gruppo da soli."
+                },
+                "slow": {
+                    "name": "Lento",
+                    "description": "Per attivare questo avversario sono necessari X Segnalini Azione anziché 1. Quando il GM utilizza i Segnalini Paura al posto dei Segnalini Azione, il costo aumenta in base allo stesso ammontare.",
+                    "tip": "La mossa Lentezza è utile se vuoi un avversario che, narrativamente, impiega più tempo ad agire rispetto agli altri, come una creatura lumaca o un enorme orco. Questo di solito è più efficace quando questa creatura è molto potente quando agisce, ma consuma molta Paura per farlo."
+                },
+                "minion": {
+                    "name": "Seguace",
+                    "description": "Per ogni X danni che un PG infligge a questo avversario, infligge anche 1 PF a un Seguace aggiuntivo entro la portata del suo attacco.",
+                    "tip": "La mossa Seguace è utile quando vuoi inserire molti piccoli nemici sul campo di battaglia, sapendo che il gruppo può eliminarli molto facilmente. Questa mossa significa che se un PG colpisce un seguace e infligge danni sufficienti, colpisce anche molti altri a portata. Per questo motivo, è spesso meglio che i seguaci circondino un PG — sembrerà soverchiante e pericoloso finché non riusciranno a sferrare un attacco contro di loro. Se vuoi quell'atmosfera cinematografica in cui i PG eliminano ondate di nemici con un singolo tiro per colpire, i seguaci sono un ottimo strumento per farlo."
+                }
+            },
+            "AdversaryType": {
+                "bruiser": {
+                    "label": "Bruto",
+                    "description": "Avversari potenti, i cui attacchi sferrano colpi durissimi."
+                },
+                "horde": {
+                    "label": "Orda",
+                    "description": "Un’orda rappresenta molti avversari che si comportano come una cosa sola."
+                },
+                "leader": {
+                    "label": "Condottiero",
+                    "description": "Avversari che impartiscono ordini e comandano altri avversari in combattimento."
+                },
+                "minion": {
+                    "label": "Seguace",
+                    "description": "Avversari base facili da abbattere che agiscono con una mentalità da sciame e spesso diventano pericolosi in branco."
+                },
+                "ranged": {
+                    "label": "Tiratore",
+                    "description": "Avversari in grado di sferrare attacchi potenti dalla distanza."
+                },
+                "skulk": {
+                    "label": "Sicario",
+                    "description": "Avversari furtivi, il cui stile di attacco si fonda sull’agilità, le imboscate e la manovrabilità tattica."
+                },
+                "social": {
+                    "label": "Sociale",
+                    "description": "Avversari i cui attacchi sono principalmente legati alla personalità o a manovre sociali o politiche, o che hanno a loro disposizione opzioni sia di minaccia fisica che sociale."
+                },
+                "solo": {
+                    "label": "Solitario",
+                    "description": "Avversari epici, ideati per tenere testa in una battaglia prolungata contro un intero gruppo di personaggi."
+                },
+                "standard": {
+                    "label": "Standard",
+                    "description": "Avversari di base per ogni combattimento, dotati di attacchi e capacità normali."
+                },
+                "support": {
+                    "label": "Supporto",
+                    "description": "Avversari che potenziano gli alleati in combattimento e si concentrano sull’indebolire e manipolare l’esito degli scontri e sui movimenti dei personaggi giocanti."
+                }
+            },
+            "AdversaryTypeCost": {
+                "minion": "per ogni gruppo di Seguaci pari alle dimensioni del gruppo.",
+                "support": "per ogni avversario Sociale o di Supporto.",
+                "standard": "per ogni avversario Orda, Tiratore, Sicario o Standard.",
+                "leader": "per ogni avversario Condottiero.",
+                "bruiser": "per ogni avversario Bruto.",
+                "solo": "per ogni avversario Solitario."
+            },
+            "ArmorFeature": {
+                "burning": {
+                    "name": "Ustionante",
+                    "description": "Quando un avversario vi attacca a distanza di Mischia, deve marcare uno Stress.",
+                    "actions": {
+                        "burn": {
+                            "name": "Ustionare",
+                            "description": "Quando un avversario vi attacca a distanza di Mischia, deve marcare uno Stress."
+                        }
+                    }
+                },
+                "channeling": {
+                    "name": "Incanalante",
+                    "description": "+1 ai Tiri Incantesimo",
+                    "effects": {
+                        "channeling": {
+                            "name": "Incanalante",
+                            "description": "+1 ai Tiri Incantesimo"
+                        }
+                    }
+                },
+                "difficult": {
+                    "name": "Difficoltosa",
+                    "description": "-1 a tutti i tratti del personaggio e all'Evasione",
+                    "effects": {
+                        "difficult": {
+                            "name": "Difficoltosa",
+                            "description": "-1 a tutti i tratti del personaggio e all'Evasione"
+                        }
+                    }
+                },
+                "flexible": {
+                    "name": "Flessibile",
+                    "description": "+1 all'Evasione",
+                    "effects": {
+                        "flexible": {
+                            "name": "Flessibile",
+                            "description": "+1 all'Evasione"
+                        }
+                    }
+                },
+                "fortified": {
+                    "name": "Rinforzata",
+                    "description": "Quando marcate una Casella Armatura, riducete la gravità di un attacco di due soglie invece che di una.",
+                    "effects": {
+                        "fortified": {
+                            "name": "Rinforzata",
+                            "description": "Quando marcate una Casella Armatura, riducete la gravità di un attacco di due soglie invece che di una."
+                        }
+                    }
+                },
+                "gilded": {
+                    "name": "Dorato",
+                    "description": "+1 alla Presenza",
+                    "effects": {
+                        "gilded": {
+                            "name": "Dorato",
+                            "description": "+1 alla Presenza"
+                        }
+                    }
+                },
+                "heavy": {
+                    "name": "Pesante",
+                    "description": "-1 all'Evasione",
+                    "effects": {
+                        "heavy": {
+                            "name": "Pesante",
+                            "description": "-1 all'Evasione"
+                        }
+                    }
+                },
+                "hopeful": {
+                    "name": "Speranzosa",
+                    "description": "Quando spendereste una Speranza, potete invece marcare una Casella Armatura.",
+                    "actions": {
+                        "hope": {
+                            "name": "Speranzosa",
+                            "description": "Quando spendereste una Speranza, potete invece marcare una Casella Armatura."
+                        }
+                    }
+                },
+                "impenetrable": {
+                    "name": "Impenetrabile",
+                    "description": "Una volta per riposo breve, quando dovreste subire il vostro ultimo Punto Ferita, potete invece marcare uno Stress.",
+                    "actions": {
+                        "impenetrable": {
+                            "name": "Impenetrabile",
+                            "description": "Una volta per riposo breve, quando dovreste subire il vostro ultimo Punto Ferita, potete invece marcare uno Stress."
+                        }
+                    }
+                },
+                "magical": {
+                    "name": "Magico",
+                    "description": "Non potete marcare una Casella Armatura per ridurre il danno fisico.",
+                    "effects": {
+                        "magical": {
+                            "name": "Magico",
+                            "description": "Non potete marcare una Casella Armatura per ridurre il danno fisico."
+                        }
+                    }
+                },
+                "painful": {
+                    "name": "Dolorose",
+                    "description": "Ogni volta che marcate una Casella Armatura, dovete anche marcare uno Stress.",
+                    "actions": {
+                        "pain": {
+                            "name": "Dolorose",
+                            "description": "Ogni volta che marcate una Casella Armatura, dovete anche marcare uno Stress."
+                        }
+                    }
+                },
+                "physical": {
+                    "name": "Fisica",
+                    "description": "Non potete marcare una Casella Armatura per ridurre il danno magico.",
+                    "effects": {
+                        "physical": {
+                            "name": "Fisica",
+                            "description": "Non potete marcare una Casella Armatura per ridurre il danno magico."
+                        }
+                    }
+                },
+                "quiet": {
+                    "name": "Quieto",
+                    "description": "Ottenete bonus +2 ai tiri per muovervi silenziosamente.",
+                    "actions": {
+                        "quiet": {
+                            "name": "Quieto",
+                            "description": "Ottenete bonus +2 ai tiri per muovervi silenziosamente."
+                        }
+                    }
+                },
+                "reinforced": {
+                    "name": "Rinforzato",
+                    "description": "Quando marcate l'ultima Casella Armatura, aumentate le soglie di danno di +2 finché non riparate almeno 1 Casella Armatura.",
+                    "actions": {
+                        "reinforce": {
+                            "name": "Rinforzato",
+                            "description": "Quando marcate l'ultima Casella Armatura, aumentate le soglie di danno di +2 finché non riparate almeno 1 Casella Armatura."
+                        }
+                    },
+                    "effects": {
+                        "reinforced": {
+                            "name": "Rinforzato",
+                            "description": "Quando marcate l'ultima Casella Armatura, aumentate le soglie di danno di +2 finché non riparate almeno 1 Casella Armatura."
+                        }
+                    }
+                },
+                "resilient": {
+                    "name": "Resiliente",
+                    "description": "Prima di marcare l'ultima Casella Armatura, tirate un d6. Con un 6, riducete la gravità di una soglia senza marcare la Casella Armatura.",
+                    "actions": {
+                        "resilient": {
+                            "name": "Resiliente",
+                            "description": "Prima di marcare l'ultima Casella Armatura, tirate un d6. Con un 6, riducete la gravità di una soglia senza marcare la Casella Armatura."
+                        }
+                    }
+                },
+                "sharp": {
+                    "name": "Affilata",
+                    "description": "Dopo un attacco riuscito contro un bersaglio entro distanza di Mischia, aggiungete un d4 al tiro di danno.",
+                    "effects": {
+                        "sharp": {
+                            "name": "Affilata",
+                            "description": "Dopo un attacco riuscito contro un bersaglio entro distanza di Mischia, aggiungete un d4 al tiro di danno."
+                        }
+                    }
+                },
+                "shifting": {
+                    "name": "Semovente",
+                    "description": "Quando siete bersaglio di un attacco, potete marcare una Casella Armatura per dare svantaggio al tiro di attacco.",
+                    "actions": {
+                        "shift": {
+                            "name": "Semovente",
+                            "description": "Quando siete bersaglio di un attacco, potete marcare una Casella Armatura per dare svantaggio al tiro di attacco."
+                        }
+                    }
+                },
+                "timeslowing": {
+                    "name": "Fermatempo",
+                    "description": "Marcate una Casella Armatura per tirare un d4 e aggiungere il risultato come bonus all'Evasione contro un attacco in arrivo.",
+                    "actions": {
+                        "slowTime": {
+                            "name": "Fermatempo",
+                            "description": "Marcate una Casella Armatura per tirare un d4 e aggiungere il risultato come bonus all'Evasione contro un attacco in arrivo."
+                        }
+                    }
+                },
+                "truthseeking": {
+                    "name": "Cercatrice di Verità",
+                    "description": "Questa armatura brilla quando un'altra creatura entro distanza Ravvicinata dice il falso.",
+                    "actions": {
+                        "truthseeking": {
+                            "name": "Cercatrice di Verità",
+                            "description": "Questa armatura brilla quando un'altra creatura entro distanza Ravvicinata dice il falso."
+                        }
+                    }
+                },
+                "veryHeavy": {
+                    "name": "Molto Pesante",
+                    "description": "-2 all'Evasione; -1 all'Agilità.",
+                    "effects": {
+                        "veryHeavy": {
+                            "name": "Molto Pesante",
+                            "description": "-2 all'Evasione; -1 all'Agilità."
+                        }
+                    }
+                },
+                "warded": {
+                    "name": "Protetta",
+                    "description": "Riducete il danno magico subito di un valore pari al vostro Punteggio di Armatura prima di applicarlo alle soglie di danno.",
+                    "effects": {
+                        "warded": {
+                            "name": "Protetta",
+                            "description": "Riducete il danno magico subito di un valore pari al vostro Punteggio di Armatura prima di applicarlo alle soglie di danno."
+                        }
+                    }
+                }
+            },
+            "BeastformType": {
+                "normal": "Normale",
+                "evolved": "Evoluta",
+                "hybrid": "Ibrida"
+            },
+            "BPModifiers": {
+                "increaseDamage": {
+                    "description": "se aggiungi +1d4 (o un +2 fisso) a tutti i tiri di danno degli avversari (per aumentare la sfida senza prolungare la battaglia)",
+                    "effect": {
+                        "name": "Aumentare il Danno",
+                        "description": "Aggiunge 1d4 al Danno"
+                    }
+                },
+                "lessDifficult": {
+                    "description": "se lo scontro sarà meno difficile o più breve."
+                },
+                "lowerTier": {
+                    "description": "se scegli un avversario di un rango inferiore."
+                },
+                "manySolos": {
+                    "description": "se stai usando 2 o più avversari Solitari."
+                },
+                "moreDangerous": {
+                    "description": "se lo scontro diventerà più pericoloso o durerà più a lungo"
+                },
+                "noToughies": {
+                    "description": "se non includi nessun Picchiatore, Orda, Capo o Solitario"
+                }
+            },
+            "Burden": {
+                "oneHanded": "A una mano",
+                "twoHanded": "A due mani"
+            },
+            "RangeInclusion": {
+                "withinRange": "Entro la Portata",
+                "outsideRange": "Fuori Portata"
+            },
+            "Condition": {
+                "deathMove": {
+                    "name": "Mossa Finale",
+                    "description": "Il personaggio sta per effettuare una Mossa Finale"
+                },
+                "dead": {
+                    "name": "Morto",
+                    "description": "Il personaggio è morto"
+                },
+                "defeated": {
+                    "name": "Sconfitto",
+                    "description": "Questo avversario è sconfitto."
+                },
+                "hidden": {
+                    "name": "Nascosto",
+                    "description": "Mentre un personaggio o un avversario è Nascosto, non può subire attacchi diretti, e qualsiasi tiro che abbia quella creatura come bersaglio è effettuato con svantaggio.\nQuando una creatura Nascosta si muove nel campo visivo di qualcuno o lo attacca, non è più Nascosta. Tuttavia, un attacco sferrato mentre è Nascosta ha vantaggio, e la creatura cessa di essere Nascosta solo al termine dell'attacco."
+                },
+                "restrained": {
+                    "name": "Trattenuto",
+                    "description": "Quando un effetto rende una creatura Trattenuta, significa che non può spostarsi nel suo ambiente finché la condizione non viene rimossa.\nPuò comunque compiere azioni dalla sua posizione attuale."
+                },
+                "unconscious": {
+                    "name": "Privo di Sensi",
+                    "description": "Il vostro personaggio non può muoversi, agire o essere preso di mira da attacchi."
+                },
+                "vulnerable": {
+                    "name": "Vulnerabile",
+                    "description": "Mentre una creatura è Vulnerabile, tutti i tiri attacco e i Tiri Incantesimo che hanno lei come bersaglio hanno vantaggio.\nUna creatura già Vulnerabile non può ricevere di nuovo questa condizione."
+                }
+            },
+            "CountdownType": {
+                "actionRoll": "Tiro Azione",
+                "characterAttack": "Attacco del Personaggio",
+                "characterSpotlight": "Riflettori sul Personaggio",
+                "custom": "Personalizzato",
+                "fear": "Paura",
+                "spotlight": "Riflettori"
+            },
+            "DaggerheartDiceAnimationEvents": {
+                "critical": {
+                    "name": "Critico"
+                },
+                "higher": {
+                    "name": "Tiro Più Alto"
+                }
+            },
+            "DamageType": {
+                "physical": {
+                    "name": "Fisico",
+                    "abbreviation": "Fis"
+                },
+                "magical": {
+                    "name": "Magico",
+                    "abbreviation": "Mag"
+                },
+                "direct": {
+                    "name": "Danno Diretto",
+                    "short": "Diretto",
+                    "abbreviation": "Dir"
+                }
+            },
+            "DeathMoves": {
+                "avoidDeath": {
+                    "name": "Evitare la Morte",
+                    "description": "Il personaggio evita la morte, ma perde i sensi fino a quando non recupera almeno un Punto Ferita o fino a quando il gruppo non effettua un riposo lungo. Tira il Dado Speranza: se il risultato è pari o inferiore al livello, il personaggio riceve una Cicatrice. Se una Cicatrice riempie l’ultimo spazio Speranza del personaggio, il suo viaggio si conclude."
+                },
+                "riskItAll": {
+                    "name": "Rischiare Tutto",
+                    "description": "Tirate i Dadi della Dualità: se Speranza è maggiore di Paura o in caso di pareggio, il personaggio sopravvive. Se Paura è maggiore, il personaggio attraversa il velo della Morte e il suo viaggio si conclude."
+                },
+                "blazeOfGlory": {
+                    "name": "Fiammata di Gloria",
+                    "description": "Il personaggio accetta la morte e compie un atto glorioso in un ultimo sacrificio. L'azione viene considerata un successo critico automatico."
+                }
+            },
+            "DomainCardTypes": {
+                "ability": "Abilità",
+                "spell": "Incantesimo",
+                "grimoire": "Grimorio"
+            },
+            "EnvironmentType": {
+                "exploration": {
+                    "label": "Esplorazione",
+                    "description": ""
+                },
+                "social": {
+                    "label": "Sociale",
+                    "description": ""
+                },
+                "traversal": {
+                    "label": "Traversata",
+                    "description": ""
+                },
+                "event": {
+                    "label": "Evento",
+                    "description": ""
+                }
+            },
+            "FeatureForm": {
+                "label": "Tipo di Privilegio",
+                "passive": "Passiva",
+                "action": "Azione",
+                "reaction": "Reazione"
+            },
+            "Gold": {
+                "title": "Oro",
+                "coins": "Monete",
+                "handfuls": "Manciate",
+                "bags": "Sacchetti",
+                "chests": "Forzieri"
+            },
+            "HealingType": {
+                "hitPoints": {
+                    "name": "Punti Ferita",
+                    "abbreviation": "PF",
+                    "inChatRoll": "Danno"
+                },
+                "stress": {
+                    "name": "Stress",
+                    "abbreviation": "STR",
+                    "inChatRoll": "Stress"
+                },
+                "hope": {
+                    "name": "Speranza",
+                    "abbreviation": "SPE",
+                    "inChatRoll": "Speranza"
+                },
+                "armor": {
+                    "name": "Armatura",
+                    "abbreviation": "ARM",
+                    "inChatRoll": "Armatura"
+                },
+                "fear": {
+                    "name": "Paura",
+                    "abbreviation": "PAU",
+                    "inChatRoll": "Paura"
+                }
+            },
+            "ItemResourceProgression": {
+                "increasing": "Crescente",
+                "decreasing": "Decrescente"
+            },
+            "ItemResourceType": {
+                "simple": "Semplice",
+                "diceValue": "Valore del Dado",
+                "die": "Dado"
+            },
+            "Range": {
+                "self": {
+                    "name": "Personale",
+                    "description": "Voi stessi.",
+                    "short": "Pers"
+                },
+                "melee": {
+                    "name": "Mischia",
+                    "description": "Una distanza in cui le creature possono toccarsi e raggiungersi a vicenda. Solitamente un metro per gli avversari più piccoli, ma può aumentare notevolmente per le creature più grandi.",
+                    "short": "Mischia"
+                },
+                "veryClose": {
+                    "name": "Prossima",
+                    "description": "Una distanza da cui i personaggi possono discernere dettagli molto piccoli. Solitamente da 1 a 3 metri.",
+                    "short": "Prossima"
+                },
+                "close": {
+                    "name": "Ravvicinata",
+                    "description": "Una distanza in cui i personaggi sono vicini o abbastanza prossimi a un bersaglio o a un compagno per notare i dettagli. Solitamente da 3 a 9 metri.",
+                    "short": "Ravvicinata"
+                },
+                "far": {
+                    "name": "Lontana",
+                    "description": "Una distanza al di là della Prossima, che probabilmente richiede l'attraversamento di una stanza di medie dimensioni. Solitamente da 9 a 30 metri.",
+                    "short": "Lontana"
+                },
+                "veryFar": {
+                    "name": "Remota",
+                    "description": "Una distanza oltre la Lontana ma ancora in vista dei personaggi. Solitamente da 30 a 90 metri.",
+                    "short": "Remota"
+                }
+            },
+            "RollTypes": {
+                "trait": {
+                    "name": "Tratto"
+                },
+                "attack": {
+                    "name": "Attacco"
+                },
+                "spellcast": {
+                    "name": "Tiro Incantesimo"
+                },
+                "diceSet": {
+                    "name": "Set di Dadi"
+                }
+            },
+            "RuleChoice": {
+                "off": "Spento",
+                "offWithToggle": "Spento con Interruttore",
+                "on": "Acceso",
+                "onWithToggle": "Acceso con Interruttore"
+            },
+            "SelectAction": {
+                "selectType": "Seleziona Tipo di Azione",
+                "selectAction": "Selezione Azione"
+            },
+            "TargetTypes": {
+                "any": "Qualsiasi",
+                "friendly": "Alleato",
+                "hostile": "Ostile",
+                "self": "Personale",
+                "other": "Altro"
+            },
+            "TemplateTypes": {
+                "circle": "Cerchio",
+                "cone": "Cono",
+                "emanation": "Emanazione",
+                "inFront": "Di Fronte",
+                "rectangle": "Rettangolo",
+                "line": "Linea"
+            },
+            "TokenSize": {
+                "tiny": "Minuscolo",
+                "small": "Piccolo",
+                "medium": "Medio",
+                "large": "Grande",
+                "huge": "Enorme",
+                "gargantuan": "Gargantuesco"
+            },
+            "Traits": {
+                "agility": {
+                    "name": "Agilità",
+                    "short": "AGI",
+                    "verb": {
+                        "sprint": "Scattare",
+                        "leap": "Saltare",
+                        "maneuver": "Manovrare"
+                    }
+                },
+                "strength": {
+                    "name": "Forza",
+                    "short": "FOR",
+                    "verb": {
+                        "lift": "Sollevare",
+                        "smash": "Distruggere",
+                        "grapple": "Afferrare"
+                    }
+                },
+                "finesse": {
+                    "name": "Astuzia",
+                    "short": "AST",
+                    "verb": {
+                        "control": "Controllare",
+                        "hide": "Nascondersi",
+                        "tinker": "Armeggiare"
+                    }
+                },
+                "instinct": {
+                    "name": "Istinto",
+                    "short": "IST",
+                    "verb": {
+                        "perceive": "Percepire",
+                        "sense": "Intuire",
+                        "navigate": "Orientarsi"
+                    }
+                },
+                "presence": {
+                    "name": "Presenza",
+                    "short": "PRS",
+                    "verb": {
+                        "charm": "Affascinare",
+                        "perform": "Esibirsi",
+                        "deceive": "Ingannare"
+                    }
+                },
+                "knowledge": {
+                    "name": "Conoscenza",
+                    "short": "CON",
+                    "verb": {
+                        "recall": "Ricordare",
+                        "analyze": "Analizzare",
+                        "comprehend": "Comprendere"
+                    }
+                }
+            },
+            "Triggers": {
+                "postDamageReduction": {
+                    "label": "Dopo la riduzione del danno"
+                },
+                "preDamageReduction": {
+                    "label": "Prima della riduzione del danno"
+                },
+                "dualityRoll": {
+                    "label": "Tiro della Dualità"
+                },
+                "fearRoll": {
+                    "label": "Tiro della Paura"
+                },
+                "triggerTexts": {
+                    "strangePatternsContentTitle": "{nr} corrispondenze.",
+                    "strangePatternsContentSubTitle": "Aumenta la Speranza e lo Stress per un totale di {nr}.",
+                    "strangePatternsActionExplanation": "Tasto sinistro per aumentare, tasto destro per diminuire",
+                    "ferocityContent": "Spendere 2 Speranza per ottenere +{bonus} Evasione fino al prossimo attacco contro di te?",
+                    "ferocityEffectDescription": "La tua Evasione aumenta di {bonus}. Questo bonus dura fino al prossimo attacco subito."
+                },
+                "triggerType": "Tipo di Innesco",
+                "triggeringActorType": "Tipo di Attore Innescante",
+                "triggerError": "L'innesco {trigger} è stato inviato all'attore {actor}. Probabilmente è configurato in modo errato."
+            },
+            "WeaponFeature": {
+                "barrier": {
+                    "name": "Barriera",
+                    "description": "+2 al Punteggio di Armatura; -1 all'Evasione",
+                    "effects": {
+                        "barrier": {
+                            "name": "Barriera",
+                            "description": "+2 al Punteggio di Armatura; -1 all'Evasione"
+                        }
+                    }
+                },
+                "bonded": {
+                    "name": "Vincolata",
+                    "description": "Ottenete un bonus ai tiri per i danni pari al vostro livello.",
+                    "effects": {
+                        "damage": {
+                            "name": "Legame con l'Arma",
+                            "description": "Ottenete un bonus ai tiri per i danni pari al vostro livello."
+                        }
+                    }
+                },
+                "bouncing": {
+                    "name": "Rimbalzante",
+                    "description": "Marcate un qualsiasi ammontare di Stress per colpire un pari numero di bersagli aggiuntivi entro la portata dell'attacco.",
+                    "actions": {
+                        "bounce": {
+                            "name": "Rimbalzare",
+                            "description": "Marcate un qualsiasi ammontare di Stress per colpire un pari numero di bersagli aggiuntivi entro la portata dell'attacco."
+                        }
+                    }
+                },
+                "brave": {
+                    "name": "Coraggiosa",
+                    "description": "Penalità di -1 all'Evasione; sommate il rango dell'arma alla vostra soglia di danno Grave.",
+                    "effects": {
+                        "brave": {
+                            "name": "Coraggiosa",
+                            "description": "Penalità di -1 all'Evasione; sommate il rango dell'arma alla vostra soglia di danno Grave."
+                        }
+                    }
+                },
+                "brutal": {
+                    "name": "Brutale",
+                    "description": "Quando ottenete il valore massimo su un dado di danno, tirate un dado di danno aggiuntivo.",
+                    "actions": {
+                        "addDamage": {
+                            "name": "Brutale",
+                            "description": "Quando ottenete il valore massimo su un dado di danno, tirate un dado di danno aggiuntivo."
+                        }
+                    }
+                },
+                "burning": {
+                    "name": "Ustionante",
+                    "description": "Se ottenete un 6 su un dado di danno, il bersaglio deve marcare uno Stress.",
+                    "actions": {
+                        "burn": {
+                            "name": "Ustionante",
+                            "description": "Se ottenete un 6 su un dado di danno, il bersaglio deve marcare uno Stress."
+                        }
+                    }
+                },
+                "charged": {
+                    "name": "Caricata",
+                    "description": "Marcate uno Stress per ottenere un bonus di +1 alla vostra Competenza per un attacco effettuato con l'arma primaria.",
+                    "actions": {
+                        "markStress": {
+                            "name": "Caricata",
+                            "description": "Marcate uno Stress per ottenere un bonus di +1 alla vostra Competenza per un attacco effettuato con l'arma primaria."
+                        }
+                    },
+                    "effects": {
+                        "charged": {
+                            "name": "Caricata",
+                            "description": "Ottenete un bonus di +1 alla vostra Competenza per un attacco effettuato con l'arma primaria."
+                        }
+                    }
+                },
+                "concussive": {
+                    "name": "Concussivo",
+                    "description": "Dopo aver messo a segno un attacco, potete spendere una Speranza per spingere indietro il bersaglio fino a distanza Lontana.",
+                    "actions": {
+                        "attack": {
+                            "name": "Concussivo",
+                            "description": "Dopo aver messo a segno un attacco, potete spendere una Speranza per spingere indietro il bersaglio fino a distanza Lontana."
+                        }
+                    }
+                },
+                "cumbersome": {
+                    "name": "Ingombrante",
+                    "description": "Penalità di -1 all'Astuzia.",
+                    "effects": {
+                        "cumbersome": {
+                            "name": "Ingombrante",
+                            "description": "Penalità di -1 all'Astuzia."
+                        }
+                    }
+                },
+                "deadly": {
+                    "name": "Letale",
+                    "description": "Quando infliggete un danno grave, il bersaglio deve marcare 1 Punto Ferita aggiuntivo.",
+                    "actions": {
+                        "extraDamage": {
+                            "name": "Letale",
+                            "description": "Quando infliggete un danno grave, il bersaglio deve marcare 1 Punto Ferita aggiuntivo."
+                        }
+                    }
+                },
+                "deflecting": {
+                    "name": "Deflettente",
+                    "description": "Quando subite un attacco, potete marcare una Casella Armatura per ottenere un bonus all'Evasione pari al vostro Punteggio di Armatura contro quell'attacco.",
+                    "actions": {
+                        "deflect": {
+                            "name": "Deflettente",
+                            "description": "Quando subite un attacco, potete marcare una Casella Armatura per ottenere un bonus all'Evasione pari al vostro Punteggio di Armatura contro quell'attacco."
+                        }
+                    },
+                    "effects": {
+                        "deflecting": {
+                            "name": "Deflettente",
+                            "description": "Ottenete un bonus all'Evasione pari al vostro Punteggio di Armatura contro l'attacco."
+                        }
+                    }
+                },
+                "destructive": {
+                    "name": "Distruttiva",
+                    "description": "Penalità di -1 all'Agilità; quando mettete a segno un attacco, gli avversari a distanza Prossima devono marcare uno Stress.",
+                    "actions": {
+                        "attack": {
+                            "name": "Distruttiva",
+                            "description": "Quando mettete a segno un attacco, gli avversari a distanza Prossima devono marcare uno Stress."
+                        }
+                    },
+                    "effects": {
+                        "agility": {
+                            "name": "Distruttiva",
+                            "description": "Penalità di -1 all'Agilità."
+                        }
+                    }
+                },
+                "devastating": {
+                    "name": "Devastatore",
+                    "description": "Prima di effettuare un tiro attacco, potete marcare uno Stress per usare un d20 come dado di danno.",
+                    "actions": {
+                        "devastate": {
+                            "name": "Devastatore",
+                            "description": "Prima di effettuare un tiro attacco, potete marcare uno Stress per usare un d20 come dado di danno."
+                        }
+                    }
+                },
+                "doubleDuty": {
+                    "name": "Doppio Uso",
+                    "description": "Bonus di +1 al Punteggio di Armatura; bonus di +1 ai danni con l'arma primaria contro bersagli in Mischia.",
+                    "effects": {
+                        "doubleDuty": {
+                            "name": "Doppio Uso",
+                            "description": "Bonus di +1 al Punteggio di Armatura; bonus di +1 ai danni con l'arma primaria contro bersagli in Mischia."
+                        }
+                    }
+                },
+                "doubledUp": {
+                    "name": "Raddoppio",
+                    "description": "Quando effettuate un attacco con la vostra arma primaria, potete infliggere i danni dell'arma anche a un altro bersaglio in Mischia.",
+                    "actions": {
+                        "doubleUp": {
+                            "name": "Raddoppio",
+                            "description": "Quando effettuate un attacco con la vostra arma primaria, potete infliggere i danni dell'arma anche a un altro bersaglio in Mischia."
+                        }
+                    }
+                },
+                "dueling": {
+                    "name": "Da Duello",
+                    "description": "Se non ci sono altre creature a distanza Ravvicinata dal bersaglio, il vostro tiro attacco contro di esso ha vantaggio.",
+                    "actions": {
+                        "duel": {
+                            "name": "Da Duello",
+                            "description": "Se non ci sono altre creature a distanza Ravvicinata dal bersaglio, il vostro tiro attacco contro di esso ha vantaggio."
+                        }
+                    }
+                },
+                "eruptive": {
+                    "name": "Esplosivo",
+                    "description": "Quando mettete a segno un attacco contro un bersaglio in Mischia, tutti gli avversari a distanza Prossima devono superare un tiro reazione (14) o subire metà dei danni.",
+                    "actions": {
+                        "erupt": {
+                            "name": "Esplosivo",
+                            "description": "Quando mettete a segno un attacco contro un bersaglio in Mischia, tutti gli avversari a distanza Prossima devono superare un tiro reazione (14) o subire metà dei danni."
+                        }
+                    }
+                },
+                "grappling": {
+                    "name": "Afferrante",
+                    "description": "Quando mettete a segno un attacco, potete spendere una Speranza per Trattenere il bersaglio o trascinarlo verso di voi fino a distanza di Mischia.",
+                    "actions": {
+                        "grapple": {
+                            "name": "Afferrante",
+                            "description": "Quando mettete a segno un attacco, potete spendere una Speranza per Trattenere il bersaglio o trascinarlo verso di voi fino a distanza di Mischia."
+                        }
+                    }
+                },
+                "greedy": {
+                    "name": "Avido",
+                    "description": "Spendete una manciata d'oro per ottenere un bonus di +1 alla vostra Competenza in un tiro per i danni.",
+                    "actions": {
+                        "greed": {
+                            "name": "Avido",
+                            "description": "Spendete una manciata d'oro per ottenere un bonus di +1 alla vostra Competenza in un tiro per i danni."
+                        }
+                    }
+                },
+                "healing": {
+                    "name": "Guaritore",
+                    "description": "Durante gli interludi, guarite automaticamente un Punto Ferita.",
+                    "actions": {
+                        "heal": {
+                            "name": "Guaritore",
+                            "description": "Durante gli interludi, guarite automaticamente un Punto Ferita."
+                        }
+                    }
+                },
+                "heavy": {
+                    "name": "Pesante",
+                    "description": "Penalità di -1 all'Evasione.",
+                    "effects": {
+                        "heavy": {
+                            "name": "Pesante",
+                            "description": "Penalità di -1 all'Evasione."
+                        }
+                    }
+                },
+                "hooked": {
+                    "name": "Agganciato",
+                    "description": "Se l'attacco ha successo, potete trascinare il bersaglio a distanza di Mischia.",
+                    "actions": {
+                        "hook": {
+                            "name": "Agganciato",
+                            "description": "Se l'attacco ha successo, potete trascinare il bersaglio a distanza di Mischia."
+                        }
+                    }
+                },
+                "hot": {
+                    "name": "Calda",
+                    "description": "Quest'arma può tagliare materiali solidi.",
+                    "actions": {
+                        "hot": {
+                            "name": "Calda",
+                            "description": "Quest'arma può tagliare materiali solidi."
+                        }
+                    }
+                },
+                "invigorating": {
+                    "name": "Rinvigorente",
+                    "description": "Dopo un attacco, tirate 1d4. Con un risultato di 4, rimuovete uno Stress.",
+                    "actions": {
+                        "invigorate": {
+                            "name": "Rinvigorente",
+                            "description": "Dopo un attacco, tirate 1d4. Con un risultato di 4, rimuovete uno Stress."
+                        }
+                    }
+                },
+                "lifestealing": {
+                    "name": "Risucchio Vitale",
+                    "description": "In caso di attacco riuscito, tirate un d6. Con un 6, curate un Punto Ferita o rimuovete uno Stress.",
+                    "actions": {
+                        "lifesteal": {
+                            "name": "Risucchio Vitale",
+                            "description": "In caso di attacco riuscito, tirate un d6. Con un 6, curate un Punto Ferita o rimuovete uno Stress."
+                        }
+                    }
+                },
+                "lockedOn": {
+                    "name": "Sotto Tiro",
+                    "description": "Dopo aver messo a segno un attacco, il vostro prossimo attacco con l'arma primaria contro lo stesso bersaglio ha successo automatico.",
+                    "actions": {
+                        "lockOn": {
+                            "name": "Sotto Tiro",
+                            "description": "Dopo aver messo a segno un attacco, il vostro prossimo attacco con l'arma primaria contro lo stesso bersaglio ha successo automatico."
+                        }
+                    }
+                },
+                "long": {
+                    "name": "Allungata",
+                    "description": "L'attacco di quest'arma colpisce tutti gli avversari in linea entro la portata.",
+                    "actions": {
+                        "long": {
+                            "name": "Allungata",
+                            "description": "L'attacco di quest'arma colpisce tutti gli avversari in linea entro la portata."
+                        }
+                    }
+                },
+                "lucky": {
+                    "name": "Buona Sorte",
+                    "description": "Dopo un attacco fallito, potete marcare uno Stress per ripetere il tiro dell'attacco.",
+                    "actions": {
+                        "luck": {
+                            "name": "Buona Sorte",
+                            "description": "Dopo un attacco fallito, potete marcare uno Stress per ripetere il tiro dell'attacco."
+                        }
+                    }
+                },
+                "massive": {
+                    "name": "Massiccio",
+                    "description": "Penalità di -1 all'Evasione; in caso di attacco riuscito, tirate un dado di danno aggiuntivo e scartate il risultato più basso.",
+                    "effects": {
+                        "massive": {
+                            "name": "Massiccio",
+                            "description": "Penalità di -1 all'Evasione; in caso di attacco riuscito, tirate un dado di danno aggiuntivo e scartate il risultato più basso."
+                        }
+                    }
+                },
+                "painful": {
+                    "name": "Doloroso",
+                    "description": "Ogni volta che effettuate un attacco con successo, marcate uno Stress.",
+                    "actions": {
+                        "pain": {
+                            "name": "Doloroso",
+                            "description": "Ogni volta che effettuate un attacco con successo, marcate uno Stress."
+                        }
+                    }
+                },
+                "paired": {
+                    "name": "Accoppiato",
+                    "description": "La vostra arma primaria infligge +2 danni ai bersagli in Mischia.",
+                    "actions": {
+                        "paired": {
+                            "name": "Accoppiato",
+                            "description": "La vostra arma primaria infligge +2 danni ai bersagli in Mischia."
+                        }
+                    },
+                    "effects": {
+                        "paired": {
+                            "name": "Accoppiato",
+                            "description": "La vostra arma primaria infligge +2 danni ai bersagli in Mischia."
+                        }
+                    }
+                },
+                "parry": {
+                    "name": "Parata",
+                    "description": "Quando subite un attacco, tirate i dadi di danno di questa arma; se il risultato di un qualsiasi vostro dado di danno corrisponde a quello di un dado di danno dell'avversario, l'avversario deve scartare il suo prima di infliggervi il danno.",
+                    "actions": {
+                        "parry": {
+                            "name": "Parata",
+                            "description": "Quando subite un attacco, tirate i dadi di danno di questa arma; se il risultato di un qualsiasi vostro dado di danno corrisponde a quello di un dado di danno dell'avversario, l'avversario deve scartare il suo prima di infliggervi il danno."
+                        }
+                    }
+                },
+                "persuasive": {
+                    "name": "Persuasiva",
+                    "description": "Prima di effettuare un Tiro Presenza, potete marcare uno Stress per ricevere un bonus di +2 al risultato.",
+                    "actions": {
+                        "persuade": {
+                            "name": "Persuasiva",
+                            "description": "Prima di effettuare un Tiro Presenza, potete marcare uno Stress per ricevere un bonus di +2 al risultato."
+                        }
+                    },
+                    "effects": {
+                        "persuasive": {
+                            "name": "Persuasiva",
+                            "description": "Ottenete un bonus di +2 al Tiro Presenza."
+                        }
+                    }
+                },
+                "pompous": {
+                    "name": "Sfarzosa",
+                    "description": "Dovete avere una Presenza pari o inferiore a 0 per usare quest'arma.",
+                    "actions": {
+                        "pompous": {
+                            "name": "Sfarzosa",
+                            "description": "Dovete avere una Presenza pari o inferiore a 0 per usare quest'arma."
+                        }
+                    }
+                },
+                "powerful": {
+                    "name": "Potente",
+                    "description": "In caso di attacco riuscito, tirate un dado di danno aggiuntivo e scartate il risultato più basso.",
+                    "effects": {
+                        "powerful": {
+                            "name": "Potente",
+                            "description": "In caso di attacco riuscito, tirate un dado di danno aggiuntivo e scartate il risultato più basso."
+                        }
+                    }
+                },
+                "protective": {
+                    "name": "Protettore",
+                    "description": "+1 al Punteggio di Armatura.",
+                    "effects": {
+                        "protective": {
+                            "name": "Protettore",
+                            "description": "+1 al Punteggio di Armatura."
+                        }
+                    }
+                },
+                "quick": {
+                    "name": "Rapido",
+                    "description": "Quando effettuate un attacco, potete marcare uno Stress per attaccare un'altra creatura entro portata.",
+                    "actions": {
+                        "quick": {
+                            "name": "Rapido",
+                            "description": "Quando effettuate un attacco, potete marcare uno Stress per attaccare un'altra creatura entro portata."
+                        }
+                    }
+                },
+                "reliable": {
+                    "name": "Affidabile",
+                    "description": "+1 ai tiri attacco.",
+                    "effects": {
+                        "reliable": {
+                            "name": "Affidabile",
+                            "description": "+1 ai tiri attacco."
+                        }
+                    }
+                },
+                "reloading": {
+                    "name": "Ricarica",
+                    "description": "Dopo aver effettuato un attacco, tirate un d6. Se ottenete 1, dovete marcare uno Stress per ricaricare prima di sparare nuovamente.",
+                    "actions": {
+                        "reload": {
+                            "name": "Ricarica",
+                            "description": "Dopo aver effettuato un attacco, tirate un d6. Se ottenete 1, dovete marcare uno Stress per ricaricare prima di sparare nuovamente."
+                        }
+                    }
+                },
+                "retractable": {
+                    "name": "Retrattile",
+                    "description": "La lama può ritrarsi nell'elsa per evitare di essere individuata.",
+                    "actions": {
+                        "retract": {
+                            "name": "Retrattile",
+                            "description": "La lama può ritrarsi nell'elsa per evitare di essere individuata."
+                        }
+                    }
+                },
+                "returning": {
+                    "name": "Ritornante",
+                    "description": "Quando quest'arma viene lanciata entro portata, ritorna in mano immediatamente dopo l'attacco.",
+                    "actions": {
+                        "return": {
+                            "name": "Ritornante",
+                            "description": "Quando quest'arma viene lanciata entro portata, ritorna in mano immediatamente dopo l'attacco."
+                        }
+                    }
+                },
+                "scary": {
+                    "name": "Spaventoso",
+                    "description": "In caso di attacco riuscito, il bersaglio deve marcare uno Stress.",
+                    "actions": {
+                        "scare": {
+                            "name": "Spaventoso",
+                            "description": "In caso di attacco riuscito, il bersaglio deve marcare uno Stress."
+                        }
+                    }
+                },
+                "selfCorrecting": {
+                    "name": "Autocorrettiva",
+                    "description": "Se ottenete 1 su un dado di danno, infliggete invece 6 danni.",
+                    "effects": {
+                        "selfCorrecting": {
+                            "name": "Autocorrettiva",
+                            "description": "Se ottenete 1 su un dado di danno, infliggete invece 6 danni."
+                        }
+                    }
+                },
+                "serrated": {
+                    "name": "Seghettato",
+                    "description": "Se ottenete 1 su un dado di danno, infliggete invece 8 danni.",
+                    "effects": {
+                        "serrated": {
+                            "name": "Seghettato",
+                            "description": "Se ottenete 1 su un dado di danno, infliggete invece 8 danni."
+                        }
+                    }
+                },
+                "sharpwing": {
+                    "name": "Ala Tagliente",
+                    "description": "Ottenete un bonus ai tiri di danno pari alla vostra Agilità.",
+                    "effects": {
+                        "sharpwing": {
+                            "name": "Ala Tagliente",
+                            "description": "Ottenete un bonus ai tiri di danno pari alla vostra Agilità."
+                        }
+                    }
+                },
+                "sheltering": {
+                    "name": "Riparo",
+                    "description": "Quando marcate una Casella Armatura, riducete il danno subito a voi e a tutti gli alleati entro una distanza di Mischia da voi che hanno subito lo stesso attacco.",
+                    "actions": {
+                        "shelter": {
+                            "name": "Riparo",
+                            "description": "Quando marcate una Casella Armatura, riducete il danno subito a voi e a tutti gli alleati entro una distanza di Mischia da voi che hanno subito lo stesso attacco."
+                        }
+                    }
+                },
+                "startling": {
+                    "name": "Snervante",
+                    "description": "Marcate uno Stress per schioccare la frusta e costringere tutti gli avversari in Mischia ad allontanarsi a distanza Ravvicinata.",
+                    "actions": {
+                        "startle": {
+                            "name": "Snervante",
+                            "description": "Marcate uno Stress per schioccare la frusta e costringere tutti gli avversari in Mischia ad allontanarsi a distanza Ravvicinata."
+                        }
+                    }
+                },
+                "timebending": {
+                    "name": "Torcitempo",
+                    "description": "Scegliete il bersaglio del vostro attacco dopo aver effettuato il tiro attacco.",
+                    "actions": {
+                        "bendTime": {
+                            "name": "Torcitempo",
+                            "description": "Scegliete il bersaglio del vostro attacco dopo aver effettuato il tiro attacco."
+                        }
+                    }
+                }
+            }
+        },
+        "EFFECTS": {
+            "ApplyLocations": {
+                "attackRoll": {
+                    "name": "Tiro Attacco"
+                },
+                "damageRoll": {
+                    "name": "Tiro di Danno"
+                },
+                "healingRoll": {
+                    "name": "Tiro di Cura"
+                }
+            },
+            "ChangeTypes": {
+                "armor": {
+                    "newArmorEffect": "Effetto Armatura",
+                    "FIELDS": {
+                        "interaction": {
+                            "label": "Interazione Armatura",
+                            "hint": "Il personaggio che indossa l'armatura sopprime questo effetto?"
+                        }
+                    }
+                }
+            },
+            "Duration": {
+                "passive": "Passivo",
+                "temporary": "Temporaneo"
+            },
+            "Types": {
+                "damage": {
+                    "name": "Danno"
+                },
+                "hitPoints": {
+                    "name": "Punti Ferita"
+                },
+                "reach": {
+                    "name": "Portata"
+                },
+                "stress": {
+                    "name": "Stress"
+                }
+            },
+            "Attachments": {
+                "attachHint": "Trascina gli oggetti qui per allegarli",
+                "transferHint": "Se selezionato, questo effetto verrà applicato a qualsiasi personaggio che possieda l'Oggetto genitore di questo Effetto. L'effetto viene sempre applicato se questo Oggetto è allegato a un altro."
+            }
+        },
+        "GENERAL": {
+            "newThing": "Nuovo/a {thing}",
+            "rerolled": "Tirato di nuovo",
+            "Action": {
+                "single": "Azione",
+                "plural": "Azioni"
+            },
+            "Advantage": {
+                "full": "Vantaggio",
+                "plural": "Vantaggi",
+                "short": "Van"
+            },
+            "Adversary": {
+                "singular": "Avversario",
+                "plural": "Avversari"
+            },
+            "Attack": {
+                "hpDamageMultiplier": {
+                    "label": "Moltiplicatore Danno ai PF",
+                    "hint": "Moltiplica qualsiasi danno che infliggi per questo numero."
+                },
+                "hpDamageTakenMultiplier": {
+                    "label": "Moltiplicatore Danno Ricevuto ai PF",
+                    "hint": "Moltiplica qualsiasi danno inflitto a te per questo numero."
+                }
+            },
+            "Bonuses": {
+                "rest": {
+                    "downtimeAction": "Mossa Interludio",
+                    "shortRest": {
+                        "shortRestMoves": {
+                            "label": "Riposo Breve: Bonus Mosse Interludio Riposo Breve",
+                            "hint": "Il numero di Mosse Interludio extra che il personaggio può effettuare durante un Riposo Breve."
+                        },
+                        "longRestMoves": {
+                            "label": "Riposo Breve: Bonus Mosse Interludio Riposo Lungo",
+                            "hint": "Il numero di Mosse Interludio di Riposo Lungo extra che il personaggio può effettuare durante un Riposo Breve."
+                        }
+                    },
+                    "longRest": {
+                        "shortRestMoves": {
+                            "label": "Riposo Lungo: Bonus Mosse Interludio Riposo Breve",
+                            "hint": "Il numero di Mosse Interludio extra che il personaggio può effettuare durante un Riposo Lungo."
+                        },
+                        "longRestMoves": {
+                            "label": "Riposo Lungo: Bonus Mosse Interludio Riposo Lungo",
+                            "hint": "Il numero di Mosse Interludio di Riposo Lungo extra che il personaggio può effettuare durante un Riposo Lungo."
+                        }
+                    },
+                    "target": "Bersaglio",
+                    "targetSelf": "Tu"
+                },
+                "maxLoadout": {
+                    "label": "Bonus Max. Carte Dotazione Attiva"
+                }
+            },
+            "Character": {
+                "singular": "Personaggio",
+                "plural": "Personaggi"
+            },
+            "Cost": {
+                "single": "Costo",
+                "plural": "Costi"
+            },
+            "Damage": {
+                "massive": "Massiccio",
+                "severe": "Grave",
+                "major": "Maggiore",
+                "minor": "Minore",
+                "none": "Nessuno",
+                "allDamage": "Tutti i Danni",
+                "physicalDamage": "Danno Fisico",
+                "magicalDamage": "Danno Magico",
+                "primaryWeapon": "Danno Arma Primaria",
+                "secondaryWeapon": "Danno Arma Secondaria"
+            },
+            "DamageResistance": {
+                "none": "Nessuna",
+                "physicalResistance": {
+                    "label": "Resistenza al Danno: Fisico",
+                    "hint": "Il Danno Fisico è dimezzato se questo valore è impostato a 1"
+                },
+                "magicalResistance": {
+                    "label": "Resistenza al Danno: Magico",
+                    "hint": "Il Danno Magico è dimezzato se questo valore è impostato a 1"
+                },
+                "physicalImmunity": {
+                    "label": "Immunità al Danno: Fisico",
+                    "hint": "Immune al Danno Fisico se questo valore è impostato a 1"
+                },
+                "magicalImmunity": {
+                    "label": "Immunità al Danno: Magico",
+                    "hint": "Immune al Danno Magico se questo valore è impostato a 1"
+                },
+                "physicalReduction": {
+                    "label": "Riduzione del Danno: Fisico",
+                    "hint": "Il Danno Fisico è ridotto della quantità qui definita"
+                },
+                "magicalReduction": {
+                    "label": "Riduzione del Danno: Magico",
+                    "hint": "Il Danno Magico è ridotto della quantità qui definita"
+                }
+            },
+            "DamageThresholds": {
+                "title": "Soglie di Danno",
+                "minor": "Minore",
+                "major": "Maggiore",
+                "severe": "Grave",
+                "majorThreshold": "Soglia di Danno Maggiore",
+                "severeThreshold": "Soglia di Danno Grave",
+                "with": "Soglia di Danno {threshold}"
+            },
+            "Dice": {
+                "single": "Dado",
+                "plural": "Dadi"
+            },
+            "Difficulty": {
+                "all": "Difficoltà: tutte",
+                "reaction": "Difficoltà: reazione"
+            },
+            "Disadvantage": {
+                "full": "Svantaggio",
+                "short": "Sva"
+            },
+            "Domain": {
+                "single": "Dominio",
+                "plural": "Domini",
+                "arcana": {
+                    "label": "Arcano",
+                    "description": "Questo è il dominio della magia innata e istintiva. Coloro che scelgono questo cammino incanalano la forza bruta ed enigmatica dei piani, manipolandone l'energia e gli elementi. Il dominio dell'Arcano concede poteri instabili, ma incredibilmente potenti se incanalati correttamente."
+                },
+                "blade": {
+                    "label": "Lama",
+                    "description": "Questo è il dominio della maestria con le armi. Che si tratti di spada, arco o di un'arma più insolita, coloro che seguono questo cammino hanno la capacità di porre fine a delle vite. Gli utilizzatori della Lama si dedicano a ottenere un potere implacabile sulla morte."
+                },
+                "bone": {
+                    "label": "Ossa",
+                    "description": "Questo è il dominio del corpo e della strategia tattica. I suoi praticanti hanno un controllo innaturale sulle proprie capacità fisiche, in grado di percepire e prevedere i comportamenti altrui in combattimento. Gli adepti delle Ossa hanno una comprensione senza pari dei corpi e dei loro movimenti."
+                },
+                "codex": {
+                    "label": "Codice",
+                    "description": "Questo è il dominio dello studio intensivo della magia. Coloro che cercano il potere magico lo cercano nei libri, nelle pergamene, scarabocchiato sui muri o tatuato sui corpi. Il dominio del Codice fornisce una comprensione assoluta e versatile della magia ai devoti che cercano la conoscenza oltre i confini della saggezza."
+                },
+                "grace": {
+                    "label": "Grazia",
+                    "description": "Questo è il dominio del carisma. Attraverso una narrazione accattivante, incantesimi ammalianti o un velo di menzogne, coloro che incanalano questo potere alterano la realtà degli avversari, manipolandone la percezione a piacimento. Il dominio della Grazia concede agli utilizzatori un magnetismo naturale e un grande talento linguistico."
+                },
+                "midnight": {
+                    "label": "Mezzanotte",
+                    "description": "Questo è il dominio dell'oscurità e dei segreti. Che sia attraverso l'astuzia, una magia ingannevole o il mantello della notte, chi incanala queste forze pratica l'arte dell'ombra e può scoprire tesori nascosti. Il dominio della Mezzanotte fornisce ai praticanti il potere di creare e controllare enigmi."
+                },
+                "sage": {
+                    "label": "Saggezza",
+                    "description": "Questo è il dominio del mondo naturale. Coloro che seguono questo cammino incanalano il potere selvaggio della terra e delle sue creature per scatenare la magia allo stato puro. Il dominio della Saggezza fornisce la vitalità di un fiore che sboccia e la ferocia di un predatore vorace ai suoi utilizzatori."
+                },
+                "splendor": {
+                    "label": "Splendore",
+                    "description": "Questo è il dominio della vita. Attraverso queste magie, i seguaci dello Splendore ricevono la capacità di curare i feriti e, in una certa misura, controllare la morte. Il dominio dello Splendore fornisce ai suoi discepoli la magnifica capacità di dare e togliere la vita."
+                },
+                "valor": {
+                    "label": "Valore",
+                    "description": "Questo è il dominio della protezione. Che sia attraverso l'attacco o la difesa, coloro che scelgono questa disciplina incanalano un potere formidabile per proteggere gli alleati in battaglia. Il dominio del Valore fornisce grandi poteri a coloro che innalzano i propri scudi per proteggere gli altri."
+                }
+            },
+            "Effect": {
+                "single": "Effetto",
+                "plural": "Effetti"
+            },
+            "Experience": {
+                "single": "Esperienza",
+                "plural": "Esperienze"
+            },
+            "Healing": {
+                "healingAmount": "Quantità di Cura"
+            },
+            "Modifier": {
+                "single": "Modificatore",
+                "plural": "Modificatori"
+            },
+            "Neutral": {
+                "full": "Nessuno",
+                "short": "no"
+            },
+            "Range": {
+                "other": "Aumento Portata: Altro",
+                "spell": "Aumento Portata: Incantesimo",
+                "weapon": "Aumento Portata: Arma"
+            },
+            "RefreshType": {
+                "scene": "Scena",
+                "session": "Sessione",
+                "shortrest": "Riposo Breve",
+                "longrest": "Riposo Lungo"
+            },
+            "Resource": {
+                "single": "Risorsa",
+                "plural": "Risorse"
+            },
+            "Roll": {
+                "attack": "Tiro Attacco",
+                "basic": "Tiro",
+                "difficulty": "Tiro (Difficoltà {difficulty})",
+                "primaryWeaponAttack": "Tiro Attacco Arma Primaria",
+                "secondaryWeaponAttack": "Tiro Attacco Arma Secondaria",
+                "spellcast": "Tiro Incantesimo",
+                "trait": "Tiro Tratto",
+                "action": "Tiro Azione",
+                "reaction": "Tiro Reazione"
+            },
+            "Rules": {
+                "conditionImmunities": {
+                    "hidden": "Immunità alla Condizione: Nascosto",
+                    "restrained": "Immunità alla Condizione: Trattenuto",
+                    "vulnerable": "Immunità alla Condizione: Vulnerabile"
+                },
+                "damageReduction": {
+                    "disabledArmor": {
+                        "label": "Armatura Disabilitata"
+                    },
+                    "increasePerArmorMark": {
+                        "label": "Riduzione del Danno per Armatura",
+                        "hint": "Normalmente un punto di armatura utilizzato riduce il danno di una soglia. Questo valore aumenta il numero di soglie di cui il danno viene ridotto."
+                    },
+                    "magical": {
+                        "label": "Riduzione del Danno: Solo Magico",
+                        "hint": "L'armatura può essere utilizzata solo per ridurre il danno magico."
+                    },
+                    "maxArmorMarkedBonus": "Max. Armatura Utilizzata",
+                    "maxArmorMarkedStress": {
+                        "label": "Max. Armatura Utilizzata con Stress",
+                        "hint": "Se questo valore è impostato, puoi usare questa quantità di Stress per spendere Armatura aggiuntiva oltre al tuo massimo normale."
+                    },
+                    "reduceSeverity": {
+                        "magical": {
+                            "label": "Riduci Gravità del Danno: Magico",
+                            "hint": "Riduci qualsiasi danno magico ricevuto della quantità di gradi di gravità definita."
+                        },
+                        "physical": {
+                            "label": "Riduci Gravità del Danno: Fisico",
+                            "hint": "Riduci qualsiasi danno fisico ricevuto della quantità di gradi di gravità definita."
+                        }
+                    },
+                    "physical": {
+                        "label": "Riduzione del Danno: Solo Fisico",
+                        "hint": "L'armatura può essere utilizzata solo per ridurre il danno fisico."
+                    },
+                    "stress": {
+                        "any": {
+                            "label": "Riduzione del Danno con Stress: Qualsiasi",
+                            "hint": "Il costo in Stress che puoi pagare per ridurre il danno ricevuto di una soglia."
+                        },
+                        "severe": {
+                            "label": "Riduzione del Danno con Stress: Grave",
+                            "hint": "Il costo in Stress che puoi pagare per ridurre un danno grave a maggiore."
+                        },
+                        "major": {
+                            "label": "Riduzione del Danno con Stress: Maggiore",
+                            "hint": "Il costo in Stress che puoi pagare per ridurre un danno maggiore a minore."
+                        },
+                        "minor": {
+                            "label": "Riduzione del Danno con Stress: Minore",
+                            "hint": "Il costo in Stress che puoi pagare per ridurre un danno minore a nessuno."
+                        }
+                    },
+                    "thresholdImmunities": {
+                        "minor": {
+                            "label": "Immunità alla Soglia: Minore",
+                            "hint": "Ignora automaticamente i danni Minori quando impostato a 1."
+                        }
+                    }
+                },
+                "attack": {
+                    "damage": {
+                        "dice": {
+                            "label": "Attacco Base: Indice Dadi di Danno",
+                            "hint": "Indice per i dadi di danno utilizzati nell'attacco di base. 0=d4, 1=d6, 2=d8, 3=d10, 4=d12, 5=d20"
+                        },
+                        "bonus": {
+                            "label": "Attacco Base: Bonus ai Danni"
+                        }
+                    },
+                    "roll": {
+                        "trait": {
+                            "label": "Attacco Base: Tratto"
+                        }
+                    }
+                }
+            },
+            "SpotlightRequests": {
+                "singular": "Richiesta Riflettori",
+                "plural": "Richieste Riflettori"
+            },
+            "Tabs": {
+                "details": "Dettagli",
+                "attack": "Attacco",
+                "experiences": "Esperienze",
+                "features": "Privilegi",
+                "actions": "Azioni",
+                "potentialAdversaries": "Avversari Potenziali",
+                "adversaries": "Avversari",
+                "advancement": "Avanzamento di Livello",
+                "selections": "Scelte di Avanzamento",
+                "summary": "Riepilogo",
+                "effects": "Effetti",
+                "settings": "Impostazioni",
+                "description": "Descrizione",
+                "main": "Principale",
+                "information": "Informazioni",
+                "itemFeatures": "Caratteristiche dell'Oggetto",
+                "notes": "Note",
+                "inventory": "Inventario",
+                "loadout": "Dotazione",
+                "vault": "Riserva",
+                "heritage": "Retaggio",
+                "story": "Origini",
+                "biography": "Biografia",
+                "general": "Generale",
+                "resources": "Risorse",
+                "foundation": "Fondazione",
+                "specialization": "Specializzazione",
+                "mastery": "Maestria",
+                "optional": "Opzionale",
+                "recovery": "Recupero",
+                "setup": "Preparazione",
+                "equipment": "Equipaggiamento",
+                "attachments": "Allegati",
+                "advanced": "Avanzate",
+                "tier1": "Rango 1",
+                "tier2": "Rango 2",
+                "tier3": "Rango 3",
+                "tier4": "Rango 4",
+                "domains": "Domini",
+                "downtime": "Riposo",
+                "roll": "Tiro",
+                "rules": "Regole",
+                "partyMembers": "Membri del Gruppo",
+                "projects": "Progetti",
+                "types": "Tipi",
+                "questions": "Domande",
+                "configuration": "Configurazione",
+                "base": "Base",
+                "triggers": "Inneschi",
+                "deathMoves": "Mosse Finali",
+                "sources": "Fonti",
+                "packs": "Pacchetti"
+            },
+            "Tiers": {
+                "singular": "Rango",
+                "1": "Rango 1",
+                "2": "Rango 2",
+                "3": "Rango 3",
+                "4": "Rango 4"
+            },
+            "Trait": {
+                "single": "Tratto",
+                "plural": "Tratti"
+            },
+            "actorName": "Nome del Personaggio",
+            "amount": "Quantità",
+            "any": "Qualsiasi",
+            "armor": "Armatura",
+            "armorFeatures": "Caratteristiche dell'Armatura",
+            "armors": "Armature",
+            "armorScore": "Punteggio Armatura",
+            "activeEffects": "Effetti Attivi",
+            "armorSlots": "Slot Armatura",
+            "artistAttribution": "Arte di: {artist}",
+            "attack": "Attacco",
+            "automation": "Automazione",
+            "basics": "Base",
+            "bonus": "Bonus",
+            "burden": "Ingombro",
+            "condition": "Condizione",
+            "continue": "Continua",
+            "criticalSuccess": "Successo Critico",
+            "criticalShort": "Critico",
+            "currentLevel": "Livello Attuale",
+            "custom": "Personalizzato",
+            "d20Roll": "Tiro di D20",
+            "damage": "Danno",
+            "damageRoll": "Tiro di Danno",
+            "damageType": "Tipo di Danno",
+            "description": "Descrizione",
+            "difficulty": "Difficoltà",
+            "downtime": "Riposo",
+            "dropActorsHere": "Trascina Personaggi qui",
+            "dropFeaturesHere": "Trascina Privilegi qui",
+            "duality": "Dualità",
+            "dualityDice": "Dadi della Dualità",
+            "dualityRoll": "Tiro della Dualità",
+            "enabled": "Abilitato",
+            "evasion": "Evasione",
+            "equipment": "Equipaggiamento",
+            "experience": {
+                "single": "Esperienza",
+                "plural": "Esperienze"
+            },
+            "failure": "Fallimento",
+            "fate": "Destino",
+            "fateRoll": "Tiro del Destino",
+            "fear": "Paura",
+            "features": "Privilegi",
+            "formula": "Formula",
+            "gm": "GM",
+            "guaranteedCriticalSuccess": "Successo Critico Garantito",
+            "healing": "Cura",
+            "healingRoll": "Tiro di Cura",
+            "hit": {
+                "single": "Colpo",
+                "plural": "Colpi"
+            },
+            "HitPoints": {
+                "single": "Punto Ferita",
+                "plural": "Punti Ferita",
+                "short": "PF"
+            },
+            "hope": "Speranza",
+            "hordeHp": "PF Orda",
+            "icon": "Icona",
+            "identify": "Identità",
+            "imagePath": "Percorso Immagine",
+            "inactiveEffects": "Effetti Inattivi",
+            "initial": "Iniziale",
+            "inventory": "Inventario",
+            "itemResource": "Risorsa Oggetto",
+            "itemQuantity": "Quantità Oggetto",
+            "items": "Oggetti",
+            "label": "Etichetta",
+            "level": "Livello",
+            "levelShort": "Liv",
+            "levelUp": "Avanzamento di Livello",
+            "loadout": "Dotazione",
+            "max": "Max",
+            "miss": {
+                "single": "Mancato",
+                "plural": "Mancati"
+            },
+            "maxWithThing": "Max {thing}",
+            "missingDragDropThing": "Trascina {thing} qui",
+            "multiclass": "Multiclasse",
+            "newCategory": "Nuova Categoria",
+            "none": "Nessuno",
+            "noTarget": "Nessun bersaglio attuale",
+            "partner": "Partner",
+            "player": {
+                "single": "Giocatore",
+                "plurial": "Giocatori"
+            },
+            "portrait": "Ritratto",
+            "proficiency": "Competenza",
+            "quantity": "Quantità",
+            "range": "Portata",
+            "reactionRoll": "Tiro Reazione",
+            "recovery": "Recupero",
+            "refresh": "Ricarica",
+            "reroll": "Tira di Nuovo",
+            "rerollThing": "Tira di Nuovo {thing}",
+            "resource": "Risorsa",
+            "roll": "Tira",
+            "rollAll": "Tira Tutto",
+            "rollDamage": "Tira Danno",
+            "rollWith": "Tiro di {roll}",
+            "save": "Salva",
+            "scalable": "Scalabile",
+            "scars": "Cicatrici",
+            "situationalBonus": "Bonus Situazionale",
+            "spent": "Speso",
+            "step": "Grado",
+            "stress": "Stress",
+            "subclasses": "Sottoclassi",
+            "success": "Successo",
+            "summon": {
+                "single": "Evocato",
+                "plural": "Evocati"
+            },
+            "take": "Prendi",
+            "Target": {
+                "single": "Bersaglio",
+                "plural": "Bersagli"
+            },
+            "thingsAndThing": "{things} e {thing}",
+            "title": "Titolo",
+            "tokenSize": "Dimensione del Segnalino",
+            "total": "Totale",
+            "traitModifier": "Modificatore del Tratto",
+            "true": "Vero",
+            "type": "Tipo",
+            "typeSheet": "Scheda {type} di Sistema",
+            "unarmed": "Disarmato",
+            "unarmedAttack": "Attacco Disarmato",
+            "unarmored": "Senza Armatura",
+            "use": "Usa",
+            "used": "Usato",
+            "uses": "Usi",
+            "value": "Valore",
+            "weaponFeatures": "Caratteristiche dell'Arma",
+            "weapons": "Armi",
+            "withThing": "Con {thing}"
+        },
+        "ITEMS": {
+            "FIELDS": {
+                "attribution": {
+                    "source": {
+                        "label": "Fonte"
+                    },
+                    "page": {
+                        "label": "Pagina"
+                    },
+                    "artist": {
+                        "label": "Artista"
+                    }
+                },
+                "resource": {
+                    "amount": {
+                        "label": "Quantità"
+                    },
+                    "dieFaces": {
+                        "label": "Facce del Dado"
+                    },
+                    "icon": {
+                        "label": "Icona"
+                    },
+                    "max": {
+                        "label": "Max"
+                    },
+                    "progression": {
+                        "label": "Progressione"
+                    },
+                    "recovery": {
+                        "label": "Recupero"
+                    },
+                    "type": {
+                        "label": "Tipo"
+                    },
+                    "value": {
+                        "label": "Valore"
+                    }
+                }
+            },
+            "Ancestry": {
+                "primaryFeature": "Privilegio Primario",
+                "secondaryFeature": "Privilegio Secondario",
+                "featuresLabel": "Privilegi dell'Origine"
+            },
+            "Armor": {
+                "baseScore": "Punteggio Base Armatura",
+                "baseThresholds": {
+                    "base": "Soglie Base",
+                    "major": "Soglia Maggiore",
+                    "severe": "Soglia Grave"
+                }
+            },
+            "Beastform": {
+                "FIELDS": {
+                    "beastformType": {
+                        "label": "Tipo di Forma Bestiale"
+                    },
+                    "tier": {
+                        "label": "Rango"
+                    },
+                    "mainTrait": {
+                        "label": "Tratto Principale"
+                    },
+                    "examples": {
+                        "label": "Esempi"
+                    },
+                    "advantageOn": {
+                        "label": "Ottieni Vantaggio Su"
+                    },
+                    "tokenImg": {
+                        "label": "Immagine del Segnalino"
+                    },
+                    "tokenRingImg": {
+                        "label": "Texture dell'Anello"
+                    },
+                    "tokenSize": {
+                        "placeholder": "Usa dimensioni del personaggio",
+                        "disabledPlaceholder": "Impostato dalle dimensioni del personaggio",
+                        "height": {
+                            "label": "Altezza"
+                        },
+                        "width": {
+                            "label": "Larghezza"
+                        },
+                        "scale": {
+                            "label": "Scala del Segnalino"
+                        }
+                    },
+                    "evolved": {
+                        "maximumTier": {
+                            "label": "Rango Massimo"
+                        },
+                        "mainTraitBonus": {
+                            "label": "Bonus al Tratto Principale"
+                        }
+                    },
+                    "hybrid": {
+                        "beastformOptions": {
+                            "label": "N. Forme Bestiali"
+                        },
+                        "advantages": {
+                            "label": "N. Vantaggi"
+                        },
+                        "features": {
+                            "label": "N. Caratteristiche"
+                        }
+                    }
+                },
+                "attackName": "Attacco Bestiale",
+                "beastformEffect": "Trasformazione Bestiale",
+                "dialogTitle": "Selezione Forma Bestiale",
+                "tokenTitle": "Segnalino Forma Bestiale",
+                "transform": "Trasforma",
+                "evolve": "Evolvi",
+                "evolvedFeatureTitle": "Evoluta",
+                "evolvedDrag": "Trascina una forma qui per evolverla.",
+                "hybridize": "Ibrida",
+                "hybridizeFeatureTitle": "Caratteristiche Ibride",
+                "hybridizeDrag": "Trascina una forma qui per ibridarla.",
+                "mainTrait": "Tratto Principale",
+                "traitBonus": "Bonus di Tratto",
+                "evolvedTokenHint": "Il segnalino di una forma bestiale evoluta è basato sul segnalino della forma che evolvi.",
+                "evolvedImagePlaceholder": "Verrà utilizzata l'immagine della forma selezionata per l'evoluzione."
+            },
+            "Class": {
+                "startingEvasionScore": "Evasione Iniziale",
+                "startingHitPoints": "Punti Ferita Iniziali",
+                "classItems": "Oggetti di Classe",
+                "hopeFeatureLabel": "Privilegio Speranza della {class}",
+                "hopeFeatures": "Privilegi Speranza",
+                "classFeatures": "Privilegi di Classe",
+                "guide": {
+                    "suggestedEquipment": "Equipaggiamento Suggerito",
+                    "suggestedPrimaryWeaponTitle": "Arma Primaria",
+                    "suggestedSecondaryWeaponTitle": "Arma Secondaria",
+                    "suggestedArmorTitle": "Armatura",
+                    "inventory": {
+                        "thenChoose": "Quindi Scegli Tra",
+                        "andEither": "E Anche"
+                    }
+                }
+            },
+            "Community": {
+                "featuresLabel": "Privilegi della Comunità"
+            },
+            "Consumable": {
+                "consumeOnUse": "Consuma all'Uso",
+                "destroyOnEmpty": "Distruggi quando Vuoto"
+            },
+            "DomainCard": {
+                "type": "Tipo",
+                "recallCost": "Costo di Richiamo",
+                "vaultActive": "Attiva nella Riserva",
+                "loadoutIgnore": "Ignora Limite Mano",
+                "domainTouched": "Padronanza del Dominio",
+                "foundationTitle": "Fondazione",
+                "specializationTitle": "Specializzazione",
+                "masteryTitle": "Maestria"
+            },
+            "Subclass": {
+                "spellcastingTrait": "Tratto Incantatore",
+                "spellcastTrait": "Tratto Incantatore",
+                "foundationFeatures": "Privilegi Base",
+                "specializationFeature": "Specializzazione",
+                "masteryFeature": "Maestria"
+            },
+            "Weapon": {
+                "weaponType": "Tipo di Arma",
+                "primaryWeapon": "Arma Primaria",
+                "secondaryWeapon": "Arma Secondaria"
+            }
+        },
+        "MACROS": {
+            "Spotlight": {
+                "errors": {
+                    "noTokenSelected": "Un segnalino sulla scena deve essere selezionato o puntato col mouse per passargli i riflettori"
+                }
+            }
+        },
+        "ROLLTABLES": {
+            "FIELDS": {
+                "formulaName": {
+                    "label": "Nome della Formula"
+                }
+            },
+            "formula": "Formula"
+        },
+        "SETTINGS": {
+            "Appearance": {
+                "FIELDS": {
+                    "displayFear": {
+                        "label": "Mostra Paura"
+                    },
+                    "displayCountdownUI": {
+                        "label": "Mostra UI Conti alla Rovescia"
+                    },
+                    "showGenericStatusEffects": {
+                        "label": "Mostra Effetti di Stato Generici di Foundry"
+                    },
+                    "hideAttribution": {
+                        "label": "Nascondi Attribuzione"
+                    },
+                    "showTokenDistance": {
+                        "label": "Mostra distanza del segnalino al passaggio del mouse",
+                        "choices": {
+                            "always": "Sempre",
+                            "encounters": "Incontri",
+                            "never": "Mai"
+                        }
+                    },
+                    "expandedTitle": "Espandi Automaticamente le Descrizioni",
+                    "extendCharacterDescriptions": {
+                        "label": "Personaggi"
+                    },
+                    "extendAdversaryDescriptions": {
+                        "label": "Avversari"
+                    },
+                    "extendEnvironmentDescriptions": {
+                        "label": "Ambienti"
+                    },
+                    "extendItemDescriptions": {
+                        "label": "Oggetti"
+                    },
+                    "expandRollMessage": {
+                        "title": "Espandi Automaticamente Sezioni del Messaggio",
+                        "desc": {
+                            "label": "Descrizione"
+                        },
+                        "roll": {
+                            "label": "Formula"
+                        },
+                        "damage": {
+                            "label": "Danno/Cura"
+                        },
+                        "target": {
+                            "label": "Bersaglio"
+                        }
+                    },
+                    "useResourcePips": {
+                        "label": "Mostra Pallini per Risorse"
+                    }
+                },
+                "fearDisplay": {
+                    "token": "Segnalini",
+                    "bar": "Barra",
+                    "hide": "Nascondi"
+                }
+            },
+            "Automation": {
+                "fear": {
+                    "name": "Paura",
+                    "hint": "Aumenta automaticamente la riserva di Paura del GM quando il tiro di Dualità si risolve a favore della Paura."
+                },
+                "FIELDS": {
+                    "damageReductionRulesDefault": {
+                        "label": "Regole Predefinite di Riduzione Danno",
+                        "hint": "Se l'uso dell'armatura e delle riduzioni ha le regole attivate di default."
+                    },
+                    "defeated": {
+                        "enabled": {
+                            "label": "Abilitato"
+                        },
+                        "overlay": {
+                            "label": "Effetto in Sovrimpressione"
+                        },
+                        "characterDefault": {
+                            "label": "Stato Sconfitto Predefinito Personaggio"
+                        },
+                        "adversaryDefault": {
+                            "label": "Stato Sconfitto Predefinito Avversario"
+                        },
+                        "companionDefault": {
+                            "label": "Stato Sconfitto Predefinito Compagno"
+                        },
+                        "deathMove": {
+                            "label": "Mossa Finale"
+                        },
+                        "dead": {
+                            "label": "Morto"
+                        },
+                        "defeated": {
+                            "label": "Sconfitto"
+                        },
+                        "unconscious": {
+                            "label": "Privo di Sensi"
+                        }
+                    },
+                    "hopeFear": {
+                        "label": "Speranza & Paura",
+                        "gm": {
+                            "label": "GM"
+                        },
+                        "players": {
+                            "label": "Giocatori"
+                        }
+                    },
+                    "vulnerableAutomation": {
+                        "label": "Automazione della condizione Vulnerabile",
+                        "hint": "Applica automaticamente la condizione Vulnerabile quando un attore raggiunge il suo Stress massimo."
+                    },
+                    "countdownAutomation": {
+                        "label": "Automazione Conto alla Rovescia",
+                        "hint": "Avanzamento automatico dei conti alla rovescia in base alle tue impostazioni di progressione."
+                    },
+                    "levelupAuto": {
+                        "label": "Automazione Avanzamento di Livello",
+                        "hint": "Quando fai le tue scelte e finalizzi l'avanzamento, le modifiche numeriche vengono applicate automaticamente al personaggio."
+                    },
+                    "actionPoints": {
+                        "label": "Segnalini Azione",
+                        "hint": "Assegna e rimuovi automaticamente i Segnalini Azione mentre i combattenti svolgono i loro turni."
+                    },
+                    "hordeDamage": {
+                        "label": "Danno Automatico dell'Orda",
+                        "hint": "Attiva automaticamente l'effetto dell'orda per diminuire il danno quando raggiunge metà o meno dei PF."
+                    },
+                    "effects": {
+                        "rangeDependent": {
+                            "label": "Effetti Dipendenti dalla Portata",
+                            "hint": "Gli effetti con dipendenza dalla portata impostata si attiveranno/disattiveranno automaticamente a seconda della distanza."
+                        }
+                    },
+                    "resourceScrollTexts": {
+                        "label": "Mostra Testi Fluttuanti di Risorse",
+                        "hint": "Quando un personaggio viene danneggiato, usa l'armatura ecc., un testo fluttuante apparirà brevemente vicino al segnalino."
+                    },
+                    "roll": {
+                        "roll": {
+                            "label": "Tiro",
+                            "hint": "Comportamento automatico per i tiri come Attacco, Tiro Incantesimo, ecc."
+                        },
+                        "damage": {
+                            "label": "Tiro di Danno/Cura",
+                            "hint": "Comportamento automatico per i tiri di Danno e Cura dopo Attacco/Tiro Incantesimo."
+                        },
+                        "save": {
+                            "label": "Tiro Reazione",
+                            "hint": "Comportamento automatico se è richiesto un Tiro Reazione. I bersagli devono essere selezionati prima di eseguire l'azione."
+                        },
+                        "damageApply": {
+                            "label": "Applica Danno/Cura",
+                            "hint": "Applica automaticamente danni e cure. I bersagli devono essere selezionati prima di eseguire l'azione e l'Automazione Tiro Reazione non deve essere su 'Mai'. Ignora i permessi degli utenti."
+                        },
+                        "effect": {
+                            "label": "Applica Effetti",
+                            "hint": "Applica automaticamente gli effetti. I bersagli devono essere selezionati prima di eseguire l'azione e l'Automazione Tiro Reazione non deve essere su 'Mai'. Ignora i permessi degli utenti."
+                        }
+                    },
+                    "triggers": {
+                        "enabled": {
+                            "label": "Attivato",
+                            "hint": "Automazione avanzata, come attivare un pop-up per le Anomalie Magiche del Mago."
+                        }
+                    },
+                    "summaryMessages": {
+                        "label": "Messaggi di Riepilogo"
+                    }
+                },
+                "defeated": {
+                    "title": "Gestione Sconfitti"
+                },
+                "roll": {
+                    "title": "Azioni"
+                },
+                "trigger": {
+                    "title": "Inneschi"
+                }
+            },
+            "Metagaming": {
+                "FIELDS": {
+                    "hideObserverPermissionInChat": {
+                        "label": "Nascondi Info Chat ai Giocatori",
+                        "hint": "Informazioni come colpito/mancato sui tiri di attacco contro gli avversari verranno nascoste."
+                    }
+                }
+            },
+            "Homebrew": {
+                "newDowntimeMove": "Mossa Interludio",
+                "downtimeMove": "Mossa Interludio",
+                "armorFeature": "Caratteristica dell'Armatura",
+                "weaponFeature": "Caratteristica dell'Arma",
+                "newFeature": "Nuova Caratteristica Oggetto",
+                "downtimeMoves": "Mosse Interludio",
+                "itemFeatures": "Caratteristiche dell'Oggetto",
+                "nrChoices": "N. Mosse per Riposo",
+                "resetMovesTitle": "Resetta Mosse Interludio per {type}",
+                "resetItemFeaturesTitle": "Resetta {type}",
+                "resetMovesText": "Sei sicuro di voler resettare?",
+                "deleteItemTitle": "Elimina Oggetto Homebrew",
+                "deleteItemText": "Sei sicuro di voler eliminare l'oggetto?",
+                "deleteResourceTitle": "Elimina Risorsa Homebrew",
+                "deleteResourceText": "Sei sicuro di voler eliminare la risorsa?",
+                "FIELDS": {
+                    "maxFear": {
+                        "label": "Paura Massima"
+                    },
+                    "maxHope": {
+                        "label": "Speranza Massima"
+                    },
+                    "traitArray": {
+                        "label": "Modificatori Tratti Iniziali"
+                    },
+                    "maxLoadout": {
+                        "label": "Max. Carte Dotazione Attiva",
+                        "hint": "Lascia vuoto o 0 per un limite illimitato"
+                    },
+                    "resources": {
+                        "resources": {
+                            "value": {
+                                "label": "Icona"
+                            },
+                            "isIcon": {
+                                "label": "Icona Font Awesome"
+                            },
+                            "noColorFilter": {
+                                "label": "Disabilita Filtro Colore"
+                            }
+                        }
+                    },
+                    "maxDomains": {
+                        "label": "Max. Domini per Classe",
+                        "hint": "Numero massimo di domini che puoi assegnare a una classe"
+                    }
+                },
+                "currency": {
+                    "title": "Sostituzioni Valuta",
+                    "changeIcon": "Cambia Icona Valuta",
+                    "currencyName": "Nome della Valuta",
+                    "coinName": "Nome Moneta (singolare)",
+                    "handfulName": "Nome Manciate",
+                    "iconName": "Nome dell'Icona",
+                    "iconNameHint": "Le icone provengono da fontawesome",
+                    "bagName": "Nome Sacchetto",
+                    "chestName": "Nome Forziere"
+                },
+                "domains": {
+                    "domainsTitle": "Domini Base",
+                    "homebrewDomains": "Domini Homebrew",
+                    "newDomain": "Nuovo Dominio",
+                    "newDomainInputTitle": "Crea Dominio Homebrew",
+                    "newDomainInputLabel": "Nome del Nuovo Dominio",
+                    "newDomainInputHint": "Questo non può essere modificato in seguito",
+                    "editDomain": "Dominio Attivo",
+                    "deleteDomain": "Elimina Dominio",
+                    "deleteDomainText": "Sei sicuro di voler eliminare il dominio {name}? Verrà rimosso immediatamente da tutti i Personaggi in questo mondo che lo stanno usando. I compendi non vengono ripuliti.",
+                    "duplicateDomain": "Esiste già un dominio con questo identificativo."
+                },
+                "adversaryType": {
+                    "title": "Tipi di Avversari Personalizzati",
+                    "newType": "Tipo di Avversario"
+                },
+                "resources": {
+                    "typeTitle": "Risorse {type}",
+                    "filledIcon": "Icona Piena",
+                    "emptyIcon": "Icona Vuota",
+                    "resourceIdentifier": "Identificatore Risorsa",
+                    "setResourceIdentifier": "Imposta Identificatore Risorsa"
+                }
+            },
+            "Menu": {
+                "title": "Impostazioni di Gioco Daggerheart",
+                "automation": {
+                    "name": "Impostazioni di Automazione",
+                    "label": "Configura Automazione",
+                    "hint": "Varie impostazioni per l'automazione della gestione delle risorse e altro."
+                },
+                "metagaming": {
+                    "name": "Impostazioni di Metagaming",
+                    "label": "Configura Metagaming",
+                    "hint": "Varie impostazioni che controllano il flusso di informazioni verso i giocatori"
+                },
+                "homebrew": {
+                    "name": "Impostazioni Homebrew",
+                    "label": "Configura Contenuto Homebrew",
+                    "hint": "Varie impostazioni che consentono estensioni o regole di gioco modificate."
+                },
+                "range": {
+                    "name": "Impostazioni di Portata",
+                    "label": "Configura Gestione Portata",
+                    "hint": "Configura il righello del sistema per visualizzare le distanze in Daggerheart."
+                },
+                "appearance": {
+                    "label": "Impostazioni di Aspetto",
+                    "hint": "Modifica l'aspetto di varie parti del sistema.",
+                    "duality": "Tiri della Dualità",
+                    "diceSoNice": {
+                        "title": "Dice So Nice",
+                        "hint": "Colorazione dei dadi della Dualità se viene utilizzato il modulo Dice So Nice.",
+                        "foreground": "Primo Piano",
+                        "background": "Sfondo",
+                        "outline": "Contorno",
+                        "edge": "Bordo",
+                        "texture": "Texture",
+                        "colorset": "Tema",
+                        "material": "Materiale",
+                        "system": "Preset Dadi",
+                        "font": "Carattere",
+                        "critical": "Animazione Critico Dualità",
+                        "diceAppearance": "Aspetto dei Dadi",
+                        "animations": "Animazioni",
+                        "defaultAnimations": "Imposta Animazioni come Predefinite per i Giocatori",
+                        "previewAnimation": "Anteprima Animazione"
+                    }
+                },
+                "variantRules": {
+                    "title": "Regole Varianti",
+                    "label": "Regole Varianti",
+                    "hint": "Applica regole varianti per il sistema Daggerheart",
+                    "name": "Regole Varianti",
+                    "actionTokens": "Segnalini Azione"
+                },
+                "SpotlightRequestQueue": {
+                    "name": "Coda Richieste Riflettori",
+                    "label": "Coda Richieste Riflettori",
+                    "hint": "Aggiunge maggiore struttura alle richieste di intervento sotto i riflettori, ordinandole dalla più vecchia alla più recente."
+                }
+            },
+            "Resources": {
+                "fear": {
+                    "name": "Paura",
+                    "hint": "La riserva di Paura del GM."
+                }
+            },
+            "VariantRules": {
+                "FIELDS": {
+                    "actionTokens": {
+                        "enabled": {
+                            "label": "Abilitato"
+                        },
+                        "tokens": {
+                            "label": "Segnalini"
+                        }
+                    },
+                    "massiveDamage": {
+                        "title": "Danno Massiccio",
+                        "enabled": {
+                            "label": "Attivato"
+                        }
+                    }
+                }
+            },
+            "ResetSettings": {
+                "resetConfirmationTitle": "Resetta Impostazioni",
+                "resetConfirmationText": "Sei sicuro di voler resettare {settings}?"
+            },
+            "Scene": {
+                "FIELDS": {
+                    "rangeMeasurement": {
+                        "setting": {
+                            "label": "Configurazione"
+                        }
+                    }
+                },
+                "disabledText": "Le misurazioni di Daggerheart sono disattivate in Impostazioni di Sistema - Regole Varianti",
+                "rangeMeasurement": "Misurazione della Portata",
+                "sceneEnvironments": "Ambienti della Scena",
+                "dragEnvironmentHere": "Trascina gli Ambienti qui."
+            }
+        },
+        "UI": {
+            "Chat": {
+                "action": {
+                    "title": "Azione"
+                },
+                "appliedTo": "Applicato a",
+                "applyEffect": {
+                    "title": "Applica Effetti - {name}"
+                },
+                "attackRoll": {
+                    "title": "Attacco - {attack}",
+                    "rollDamage": "Tira Danno",
+                    "rollHealing": "Tira Cura",
+                    "applyEffect": "Applica Effetti"
+                },
+                "clearResource": "Ripristina {quantity} {resource}",
+                "damageSummary": {
+                    "title": "Danno Applicato",
+                    "healingTitle": "Cura Applicata"
+                },
+                "damageRoll": {
+                    "title": "Danno - {damage}",
+                    "dealDamageToTargets": "Infliggi Danno ai Bersagli Colpiti",
+                    "dealDamage": "Infliggi Danno",
+                    "rollDamage": "Tira Danno",
+                    "hitTarget": "Colpo",
+                    "selectedTarget": "Selezionato",
+                    "currentTarget": "Attuale"
+                },
+                "deathMove": {
+                    "title": "Mossa Finale",
+                    "gainScar": "Hai ottenuto una Cicatrice.",
+                    "avoidScar": "Hai evitato una nuova Cicatrice.",
+                    "journeysEnd": "Hai {scars} Cicatrici e hai cancellato la tua ultima Speranza. Il viaggio del tuo personaggio termina qui.",
+                    "riskItAllCritical": "Tiro Critico, ripristinato tutto lo Stress e i Punti Ferita persi.",
+                    "riskItAllFailure": "Il Dado Paura ha fatto di più. Hai attraversato il velo della morte.",
+                    "blazeOfGlory": "Effetto Morire da Eroi aggiunto!",
+                    "riskItAllDialogButton": "Ripristina Stress e Punti Ferita.",
+                    "riskItAllSuccessWithEnoughHope": "Il valore del Dado Speranza è maggiore dello Stress e dei PF persi. Entrambi sono stati completamente ripristinati.",
+                    "riskItAllSuccess": "Il Dado Speranza ha fatto di più, ripristina fino a {hope} tra Stress e Punti Ferita."
+                },
+                "dicePool": {
+                    "title": "Riserva Dadi"
+                },
+                "domainCard": {
+                    "title": "Carta Dominio"
+                },
+                "dualityRoll": {
+                    "abilityCheckTitle": "Tiro di {ability}"
+                },
+                "effectSummary": {
+                    "title": "Effetti Applicati",
+                    "immunityTo": "Immunità: {immunities}"
+                },
+                "featureTitle": "Privilegio di Classe",
+                "groupRoll": {
+                    "title": "Tiro di Gruppo",
+                    "leader": "Guida",
+                    "partyTeam": "Squadra del Gruppo",
+                    "team": "Squadra",
+                    "selectLeader": "Seleziona una Guida",
+                    "selectMember": "Seleziona un Membro",
+                    "rerollTitle": "Ritira Tiro di Gruppo",
+                    "rerollContent": "Sei sicuro di voler tirare di nuovo il tuo tiro di {trait}?",
+                    "rerollTooltip": "Tira di Nuovo",
+                    "wholePartySelected": "Tutto il gruppo è selezionato"
+                },
+                "healingRoll": {
+                    "title": "Cura - {damage}",
+                    "heal": "Cura",
+                    "applyHealing": "Applica Cura"
+                },
+                "markResource": "Marca {quantity} {resource}",
+                "refreshMessage": {
+                    "title": "Ricarica Privilegi",
+                    "header": "Ricaricato"
+                },
+                "reroll": {
+                    "confirmTitle": "Tira i Dadi di Nuovo",
+                    "confirmText": "Sei sicuro di voler tirare di nuovo?"
+                },
+                "resourceRoll": {
+                    "playerMessage": "{user} ha tirato di nuovo il suo {name}"
+                },
+                "tagTeam": {
+                    "title": "Squadra",
+                    "membersTitle": "Membri"
+                }
+            },
+            "ChatLog": {
+                "rerollDamage": "Tira di Nuovo il Danno",
+                "assignTagRoll": "Assegna come Tiro Combinato"
+            },
+            "ConsoleLogs": {
+                "triggerRun": "DH TRIGGER | L'oggetto '{item}' nell'attore '{actor}' ha eseguito l'innesco '{trigger}'."
+            },
+            "Countdowns": {
+                "title": "Conti alla Rovescia",
+                "toggleIconMode": "Attiva/Disattiva Modalità Icone",
+                "noPlayerAccess": "Questo conto alla rovescia non è visibile ad alcun giocatore",
+                "loop": "Ripetizione",
+                "decreasingLoop": "Ripetizione Decrescente",
+                "increasingLoop": "Ripetizione Crescente"
+            },
+            "EffectsDisplay": {
+                "removeThing": "[Tasto Destro] Rimuovi {thing}",
+                "appliedBy": "Applicato da: {by}"
+            },
+            "ItemBrowser": {
+                "title": "Browser Compendi Daggerheart",
+                "hint": "Seleziona una Cartella nella barra laterale per iniziare a navigare nel compendio",
+                "browserSettings": "Impostazioni Browser",
+                "searchPlaceholder": "Cerca...",
+                "columnName": "Nome",
+                "tooltipFilters": "Filtri",
+                "tooltipErase": "Cancella",
+                "difficultyMin": "Difficoltà (Min)",
+                "difficultyMax": "Difficoltà (Max)",
+                "hitPointsMin": "Punti Ferita (Min)",
+                "hitPointsMax": "Punti Ferita (Max)",
+                "stressMin": "Stress (Min)",
+                "stressMax": "Stress (Max)",
+                "armorScoreMin": "Armatura (Min)",
+                "armorScoreMax": "Armatura (Max)",
+                "levelMin": "Livello (Min)",
+                "levelMax": "Livello (Max)",
+                "recallCostMin": "Costo Richiamo (Min)",
+                "recallCostMax": "Costo Richiamo (Max)",
+                "evasionMin": "Evasione (Min)",
+                "evasionMax": "Evasione (Max)",
+                "subtype": "Sottotipo",
+                "missing": "<i>Mancante</i>",
+                "folders": {
+                    "characters": "Personaggi",
+                    "adversaries": "Avversari",
+                    "ancestries": "Origini",
+                    "equipment": "Equipaggiamento",
+                    "classes": "Classi",
+                    "subclasses": "Sottoclassi",
+                    "domainCards": "Carte Dominio",
+                    "communities": "Comunità",
+                    "environments": "Ambienti",
+                    "beastforms": "Forme Bestiali",
+                    "features": "Privilegi",
+                    "items": "Oggetti",
+                    "weapons": "Armi",
+                    "armors": "Armature",
+                    "consumables": "Consumabili",
+                    "loots": "Bottini"
+                }
+            },
+            "Notifications": {
+                "adversaryMissing": "L'avversario collegato non esiste nel mondo.",
+                "beastformInapplicable": "Una forma bestiale può essere applicata solo a un Personaggio.",
+                "beastformAlreadyApplied": "Il personaggio ha già una forma bestiale applicata!",
+                "noTargetsSelected": "Nessun bersaglio selezionato.",
+                "noTargetsSelectedOrPerm": "Nessun bersaglio selezionato o senza permessi di aggiornamento.",
+                "attackTargetDoesNotExist": "Il segnalino del bersaglio non esiste più.",
+                "insufficentAdvancements": "Non hai abbastanza avanzamenti rimasti.",
+                "noAssignedPlayerCharacter": "Non ti è stato assegnato un personaggio.",
+                "noSelectedToken": "Non hai selezionato un segnalino.",
+                "onlyUseableByPC": "Questo può essere usato solo con un segnalino di un PG.",
+                "dualityParsing": "Il tiro di dualità non è formattato correttamente.",
+                "fateParsing": "Il tiro del Destino non è formattato correttamente.",
+                "fateTypeParsing": "Il tiro del Destino non è formattato correttamente, tipo di Destino non valido. I tipi validi sono 'Speranza' e 'Paura'.",
+                "attributeFaulty": "Il Tratto fornito non esiste.",
+                "domainCardWrongDomain": "Non hai accesso a questo Dominio.",
+                "domainCardToHighLevel": "La Carta Dominio è di livello troppo alto per essere selezionata.",
+                "domainCardDuplicate": "Hai già questa carta dominio!",
+                "noSelectionsLeft": "Non c'è nient'altro da selezionare!",
+                "alreadySelectedClass": "Hai già questa classe!",
+                "classAlreadySelected": "Il personaggio ha già una classe.",
+                "subclassAlreadySelected": "Il personaggio ha già una sottoclasse per questa classe.",
+                "noClassSelected": "Il tuo personaggio non ha selezionato una classe!",
+                "lacksDomain": "Il tuo personaggio non possiede il dominio di questa carta!",
+                "duplicateDomainCard": "Hai già una carta dominio con questo nome!",
+                "missingClassOrSubclass": "Il personaggio non ha classe e sottoclasse.",
+                "tooHighLevel": "Non puoi aumentare il livello del personaggio oltre il limite massimo.",
+                "tooLowLevel": "Non puoi diminuire il livello del personaggio al di sotto del livello iniziale.",
+                "subclassNotInClass": "Questa sottoclasse non appartiene alla classe selezionata.",
+                "subclassNotInMulticlass": "Questa sottoclasse non appartiene alla tua multiclasse selezionata.",
+                "missingClass": "Non hai ancora una classe selezionata.",
+                "missingMulticlass": "Multiclasse mancante.",
+                "wrongDomain": "La carta non appartiene a nessuno dei domini della tua classe.",
+                "cardTooHighLevel": "La carta è di livello troppo alto!",
+                "duplicateCard": "Non puoi selezionare la stessa carta più di una volta.",
+                "duplicateCharacter": "Questo attore è già registrato nell'elenco dei membri del gruppo.",
+                "onlyCharactersInPartySheet": "Puoi trascinare solo personaggi, compagni e avversari nella scheda del gruppo.",
+                "notPrimary": "L'arma non è un'arma primaria!",
+                "notSecondary": "L'arma non è un'arma secondaria!",
+                "itemTooHighTier": "L'oggetto deve essere del Rango 1.",
+                "primaryIsTwoHanded": "Non è possibile selezionare un'arma secondaria mentre impugni un'arma primaria a due mani!",
+                "noMoreMoves": "Non puoi selezionare altre mosse di interludio.",
+                "damageAlreadyNone": "Il danno è già stato ridotto a nessuno.",
+                "noAvailableArmorMarks": "Non hai più punti armatura disponibili.",
+                "notEnoughStress": "Non hai abbastanza Stress.",
+                "damageIgnore": "{character} non ha subito danni.",
+                "featureIsMissing": "Privilegio mancante.",
+                "actionIsMissing": "Azione mancante.",
+                "attackIsMissing": "Attacco mancante.",
+                "unownedActionMacro": "Impossibile creare una macro di Utilizzo per un'Azione che non appartiene al tuo personaggio.",
+                "unownedAttackMacro": "Impossibile creare una macro di Utilizzo per un Attacco che non appartiene a uno dei tuoi personaggi.",
+                "featureNotHope": "Questo privilegio è utilizzato come qualcosa di diverso da un privilegio di Speranza e non può essere inserito qui.",
+                "featureNotClass": "Questo privilegio è utilizzato come qualcosa di diverso da un Privilegio di Classe e non può essere inserito qui.",
+                "featureNotPrimary": "Questo privilegio è utilizzato come qualcosa di diverso da un privilegio Primario e non può essere inserito qui.",
+                "featureNotSecondary": "Questo privilegio è utilizzato come qualcosa di diverso da un privilegio Secondario e non può essere inserito qui.",
+                "featureNotFoundation": "Questo privilegio è utilizzato come qualcosa di diverso da un Privilegio Base e non può essere inserito qui.",
+                "featureNotSpecialization": "Questo privilegio è utilizzato come qualcosa di diverso da un privilegio di Specializzazione e non può essere inserito qui.",
+                "featureNotMastery": "Questo privilegio è utilizzato come qualcosa di diverso da un privilegio di Maestria e non può essere inserito qui.",
+                "beastformMissingEffect": "Alla Forma Bestiale manca un Effetto Forma Bestiale. Non può essere utilizzata.",
+                "beastformToManyAdvantages": "Non puoi selezionare altri vantaggi.",
+                "beastformToManyFeatures": "Non puoi selezionare altri privilegi.",
+                "beastformEquipWeapon": "Non puoi usare armi mentre sei in Forma Bestiale.",
+                "loadoutMaxReached": "Hai raggiunto il limite massimo di carte nella Dotazione Attiva. Sposta almeno una carta dominio nella Riserva, oppure aumenta il limite nelle impostazioni homebrew.",
+                "domainMaxReached": "Hai raggiunto il numero massimo di domini per la tua classe. Aumenta il limite nelle impostazioni homebrew, se lo desideri.",
+                "insufficientResources": "Non hai risorse sufficienti per utilizzare questa azione.",
+                "actionNoUsesRemaining": "Questa azione non ha più usi disponibili.",
+                "multiclassAlreadyPresent": "Hai già una classe e una multiclasse.",
+                "subclassesAlreadyPresent": "Hai già una sottoclasse per la classe e per la multiclasse.",
+                "noDiceSystem": "Il sistema di dadi selezionato {system} non ha un dado a {faces} facce.",
+                "gmMenuRefresh": "Hai ricaricato tutte le azioni e le risorse {types}.",
+                "subclassAlreadyLinked": "{name} è già una sottoclasse per la classe {class}. Rimuovila da lì se vuoi che diventi una sottoclasse di questa classe.",
+                "gmRequired": "Questa azione richiede che un GM sia online.",
+                "gmOnly": "L'accesso a questo elemento è riservato al GM.",
+                "noActorOwnership": "Non hai i permessi per questo personaggio.",
+                "documentIsMissing": "Il {documentType} manca nel mondo.",
+                "tokenActorMissing": "{name} è privo di un Attore.",
+                "tokenActorsMissing": "[{names}] sono privi di Attori.",
+                "domainTouchRequirement": "Questa carta Dominio richiede di avere {nr} carte del dominio {domain} nella propria Dotazione per essere utilizzata.",
+                "knowTheTide": "Sentire la Marea ha ottenuto un segnalino.",
+                "lackingItemTransferPermission": "L'utente {user} non ha i permessi da proprietario necessari per trasferire oggetti a {target}"
+            },
+            "Progress": {
+                "migrationLabel": "Migrazione del sistema in corso. Attendi e non chiudere Foundry."
+            },
+            "Sidebar": {
+                "actorDirectory": {
+                    "tier": "{type} Rango {tier}",
+                    "character": "Personaggio Livello {level}",
+                    "companion": "Livello {level} - {partner}",
+                    "companionNoPartner": "Senza Partner",
+                    "duplicateToNewTier": "Duplica a un Nuovo Rango",
+                    "pickTierTitle": "Scegli un nuovo rango per questo avversario"
+                },
+                "daggerheartMenu": {
+                    "title": "Menu Daggerheart",
+                    "startSession": "Inizia Sessione",
+                    "startScene": "Inizia Scena"
+                }
+            },
+            "Tooltip": {
+                "disableEffect": "Disabilita Effetto",
+                "enableEffect": "Abilita Effetto",
+                "openItemWorld": "Apri Oggetto nel Mondo",
+                "openActorWorld": "Apri Personaggio nel Mondo",
+                "sendToChat": "Invia in Chat",
+                "maxEvasionClassBound": "La tua Evasione base è definita dalla tua classe. Questo è un aumento rispetto ad essa.",
+                "maxHPClassBound": "I tuoi PF massimi base sono definiti dalla tua classe. Questo è un aumento rispetto ad essi.",
+                "moreOptions": "Altre Opzioni",
+                "equip": "Equipaggia",
+                "unequip": "Rimuovi",
+                "sendToVault": "Sposta nella Riserva",
+                "sendToLoadout": "Sposta nella Dotazione",
+                "makeDeathMove": "Effettua Mossa Finale",
+                "rangeAndTarget": "Portata & Bersaglio",
+                "dragApplyEffect": "Trascina l'effetto per applicarlo a un personaggio",
+                "appliedEvenIfSuccessful": "Applicato anche in caso di successo del tiro",
+                "diceIsRerolled": "Il dado è stato tirato di nuovo (x{times})",
+                "pendingSaves": "Tiri Reazione in Sospeso",
+                "openSheetSettings": "Apri Impostazioni",
+                "compendiumBrowser": "Browser Compendi",
+                "rulesOn": "Regole Attivate",
+                "rulesOff": "Regole Disattivate",
+                "remainingUses": "Usi recuperati durante: {type}",
+                "rightClickExtend": "Tasto destro per espandere",
+                "companionPartnerLevelBlock": "Il compagno ha bisogno di un partner assegnato per salire di livello.",
+                "configureAttribution": "Configura Attribuzione",
+                "deleteItem": "Elimina Oggetto",
+                "immune": "Immune",
+                "middleClick": "[Tasto Centrale] Blocca la visualizzazione del tooltip",
+                "tokenSize": "Le dimensioni del segnalino usate sulla scena",
+                "previewTokenHelp": "Clicca con il tasto sinistro per posizionare, tasto destro per annullare."
+            }
+        }
+    }
+}

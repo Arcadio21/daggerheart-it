@@ -1,0 +1,339 @@
+{
+  "label": "Armature",
+  "mapping": {
+    "description": "system.description",
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "actions": {
+      "path": "system.actions",
+      "converter": "actions"
+    }
+  },
+  "folders": {
+    "Special": "Speciale",
+    "Tier 1": "Rango 1",
+    "Tier 2": "Rango 2",
+    "Tier 3": "Rango 3",
+    "Tier 4": "Rango 4"
+  },
+  "entries": {
+    "Advanced Chainmail Armor": {
+      "name": "Cotta di Maglia Superiore",
+      "description": "Pesante: −1 all’Evasione",
+      "effects": {
+        "qlzHOAnpBYzosQxK": {
+          "name": "Pesante",
+          "description": "−1 all’Evasione"
+        }
+      }
+    },
+    "Advanced Full Plate Armor": {
+      "name": "Corazza di Piastre Superiore",
+      "description": "Molto Pesante: −2 all’Evasione; −1 all’Agilità",
+      "effects": {
+        "awdHgEaM54G3emOU": {
+          "name": "Molto Pesante",
+          "description": "−2 all’Evasione; −1 all’Agilità"
+        }
+      }
+    },
+    "Advanced Gambeson Armor": {
+      "name": "Gambesone Superiore",
+      "description": "Flessibile: +1 all’Evasione",
+      "effects": {
+        "Fq9Q93IHCchhfSss": {
+          "name": "Flessibile",
+          "description": "+1 all’Evasione"
+        }
+      }
+    },
+    "Advanced Leather Armor": {
+      "name": "Corazza di Cuoio Superiore",
+      "description": ""
+    },
+    "Bellamoi Fine Armor": {
+      "name": "Corpetto di Bellamoi",
+      "description": "Dorato: +1 alla Presenza",
+      "effects": {
+        "Hy0sNtFS1JAXxgwC": {
+          "name": "Dorato",
+          "description": "+1 alla Presenza"
+        }
+      }
+    },
+    "Bladefare Armor": {
+      "name": "Armatura Spezzalame",
+      "description": "Fisico: Non potete marcare una Casella Armatura per ridurre il danno magico.",
+      "effects": {
+        "s8KtTIngTjnOlaTP": {
+          "name": "Fisico",
+          "description": "Non potete marcare una Casella Armatura per ridurre il danno magico."
+        }
+      }
+    },
+    "Chainmail Armor": {
+      "name": "Cotta di Maglia",
+      "description": "Pesante: −1 all’Evasione",
+      "effects": {
+        "ZfO5NjpqEIzZVlPq": {
+          "name": "Pesante",
+          "description": "−1 all’Evasione"
+        }
+      }
+    },
+    "Channeling Armor": {
+      "name": "Armatura Incanalante",
+      "description": "Incanalante: +1 ai Tiri Incantesimo",
+      "effects": {
+        "8bwf1Ri3jYkjphEv": {
+          "name": "Incanalante",
+          "description": "+1 ai Tiri Incantesimo"
+        }
+      }
+    },
+    "Dragonscale Armor": {
+      "name": "Corazza di Scaglie di Drago",
+      "description": "Impenetrabile: Una volta per riposo breve, quando dovreste subire il vostro ultimo Punto Ferita, potete invece marcare uno Stress.",
+      "actions": {
+        "J1MCpcfXByKaSSgx": {
+          "name": "Impenetrabile",
+          "description": "Una volta per riposo breve, quando dovreste subire il vostro ultimo Punto Ferita, potete invece marcare uno Stress."
+        }
+      }
+    },
+    "Dunamis Silkchain": {
+      "name": "Cotta di Dunamis",
+      "description": "Fermatempo: Marcate una Casella Armatura per tirare un d4 e aggiungere il risultato come bonus all’Evasione contro un attacco in arrivo.",
+      "actions": {
+        "8PD5JQuS05IA6HJT": {
+          "name": "Fermatempo",
+          "description": "Marcate una Casella Armatura per tirare un d4 e aggiungere il risultato come bonus all’Evasione contro un attacco in arrivo."
+        }
+      }
+    },
+    "Elundrian Chain Armor": {
+      "name": "Cotta Elundriana",
+      "description": "Protetta: Riducete il danno magico subito di un valore pari al vostro Punteggio di Armatura prima di applicarlo alle soglie di danno.",
+      "effects": {
+        "xGxqTCO8MjNq5Cw6": {
+          "name": "Protetta",
+          "description": "Riducete il danno magico subito di un valore pari al vostro Punteggio di Armatura prima di applicarlo alle soglie di danno."
+        }
+      }
+    },
+    "Emberwoven Armor": {
+      "name": "Corazza di Ferrobrace",
+      "description": "Ustionante: Quando un avversario vi attacca a distanza di Mischia, deve marcare uno Stress.",
+      "actions": {
+        "L8mHf4A8SylyxsMH": {
+          "name": "Ustionante",
+          "description": "Quando un avversario vi attacca a distanza di Mischia, deve marcare uno Stress."
+        }
+      }
+    },
+    "Full Fortified Armor": {
+      "name": "Armatura Completa di Piastre",
+      "description": "Rinforzata: Quando marcate una Casella Armatura, riducete la gravità di un attacco di due soglie invece che di una.",
+      "effects": {
+        "QIefVb73cm9gYju8": {
+          "name": "Rinforzata",
+          "description": "Quando marcate una Casella Armatura, riducete la gravità di un attacco di due soglie invece che di una."
+        }
+      }
+    },
+    "Full Plate Armor": {
+      "name": "Corazza di Piastre",
+      "description": "Molto Pesante: −2 all’Evasione; −1 all’Agilità",
+      "effects": {
+        "mfKMW9SX3Mnos1nY": {
+          "name": "Molto Pesante",
+          "description": "−2 all’Evasione; −1 all’Agilità"
+        }
+      }
+    },
+    "Gambeson Armor": {
+      "name": "Gambesone",
+      "description": "Flessibile: +1 all’Evasione",
+      "effects": {
+        "v1FNEsypRF5W6vVc": {
+          "name": "Flessibile",
+          "description": "+1 all’Evasione"
+        }
+      }
+    },
+    "Harrowbone Armor": {
+      "name": "Corazza di Ossa Contorte",
+      "description": "Resiliente: Prima di marcare l’ultima Casella Armatura, tirate un d6. Con un 6, riducete la gravità di una soglia senza marcare la Casella Armatura.",
+      "actions": {
+        "IzM88FIxQ35P5VB2": {
+          "name": "Resiliente",
+          "description": "Prima di marcare l’ultima Casella Armatura, tirate un d6. Con un 6, riducete la gravità di una soglia senza marcare la Casella Armatura."
+        }
+      }
+    },
+    "Improved Chainmail Armor": {
+      "name": "Cotta di Maglia Perfezionata",
+      "description": "Pesante: −1 all’Evasione",
+      "effects": {
+        "JHupzYULxdQzFzuj": {
+          "name": "Pesante",
+          "description": "−1 all’Evasione"
+        }
+      }
+    },
+    "Improved Full Plate Armor": {
+      "name": "Corazza di Piastre Perfezionata",
+      "description": "Molto Pesante: −2 all’Evasione; −1 all’Agilità",
+      "effects": {
+        "wstJ1aKKtmXgCwxB": {
+          "name": "Molto Pesante",
+          "description": "−2 all’Evasione; −1 all’Agilità"
+        }
+      }
+    },
+    "Improved Gambeson Armor": {
+      "name": "Gambesone Perfezionato",
+      "description": "Flessibile: +1 all’Evasione",
+      "effects": {
+        "BFwU3ErPaajUSMUz": {
+          "name": "Flessibile",
+          "description": "+1 all’Evasione"
+        }
+      }
+    },
+    "Improved Leather Armor": {
+      "name": "Corazza di Cuoio Perfezionata",
+      "description": ""
+    },
+    "Irontree Breastplate Armor": {
+      "name": "Pettorale di Legnoferro",
+      "description": "Rinforzato: Quando marcate l’ultima Casella Armatura, aumentate le soglie di danno di +2 finché non riparate almeno 1 Casella Armatura.",
+      "effects": {
+        "P3aCN8PQgPXP4C9M": {
+          "name": "Rinforzato",
+          "description": "Quando marcate l’ultima Casella Armatura, aumentate le soglie di danno di +2 finché non riparate almeno 1 Casella Armatura."
+        }
+      }
+    },
+    "Leather Armor": {
+      "name": "Corazza di Cuoio",
+      "description": ""
+    },
+    "Legendary Chainmail Armor": {
+      "name": "Cotta di Maglia Leggendaria",
+      "description": "Pesante: −1 all’Evasione",
+      "effects": {
+        "8Oa6Y375X8UpcPph": {
+          "name": "Pesante",
+          "description": "−1 all’Evasione"
+        }
+      }
+    },
+    "Legendary Full Plate Armor": {
+      "name": "Corazza di Piastre Leggendaria",
+      "description": "Molto Pesante: −2 all’Evasione; −1 all’Agilità",
+      "effects": {
+        "zvzkRX2Uevemmbz4": {
+          "name": "Molto Pesante",
+          "description": "−2 all’Evasione; −1 all’Agilità"
+        }
+      }
+    },
+    "Legendary Gambeson Armor": {
+      "name": "Gambesone Leggendario",
+      "description": "Flessibile: +1 all’Evasione",
+      "effects": {
+        "3AUNxBoj7mp1ziJQ": {
+          "name": "Flessibile",
+          "description": "+1 all’Evasione"
+        }
+      }
+    },
+    "Legendary Leather Armor": {
+      "name": "Corazza di Cuoio Leggendaria",
+      "description": ""
+    },
+    "Monett's Cloak": {
+      "name": "Mantello di Monett",
+      "description": "Magico: Non potete marcare una Casella Armatura per ridurre il danno fisico.",
+      "effects": {
+        "3n4O7PyAWMEFdr5p": {
+          "name": "Magico",
+          "description": "Non potete marcare una Casella Armatura per ridurre il danno fisico."
+        }
+      }
+    },
+    "Rosewild Armor": {
+      "name": "Armatura di Selvarosa",
+      "description": "Speranza: Quando spendereste una Speranza, potete invece marcare una Casella Armatura.",
+      "actions": {
+        "QRTnCYxJfuJHdnyV": {
+          "name": "Speranza",
+          "description": "Quando spendereste una Speranza, potete invece marcare una Casella Armatura."
+        }
+      }
+    },
+    "Runes of Fortification": {
+      "name": "Rune di Fortificazione",
+      "description": "Dolorose: Ogni volta che marcate una Casella Armatura, dovete anche marcare uno Stress.",
+      "actions": {
+        "37KLF2bim9nRdPTU": {
+          "name": "Dolorose",
+          "description": "Ogni volta che marcate una Casella Armatura, dovete anche marcare uno Stress."
+        }
+      }
+    },
+    "Runetan Floating Armor": {
+      "name": "Armatura Fluttuante di Runetan",
+      "description": "Semovente: Quando siete bersaglio di un attacco, potete marcare una Casella Armatura per dare svantaggio al tiro attacco.",
+      "actions": {
+        "Nn33zCIcWe6LQMDH": {
+          "name": "Semovente",
+          "description": "Quando siete bersaglio di un attacco, potete marcare una Casella Armatura per dare svantaggio al tiro attacco."
+        }
+      }
+    },
+    "Savior Chainmail": {
+      "name": "Cotta di Maglia del Protettore",
+      "description": "Difficoltosa: −1 a tutti i tratti del personaggio e all’Evasione",
+      "effects": {
+        "rkrqlwqtR9REgRx7": {
+          "name": "Difficoltosa",
+          "description": "−1 a tutti i tratti del personaggio e all’Evasione"
+        }
+      }
+    },
+    "Spiked Plate Armor": {
+      "name": "Armatura di Piastre Chiodate",
+      "description": "Affilata: Dopo un attacco riuscito contro un bersaglio entro distanza di Mischia, aggiungete un d4 al tiro di danno.",
+      "effects": {
+        "V8CcTcVAIxHq8KNd": {
+          "name": "Affilata",
+          "description": "Dopo un attacco riuscito contro un bersaglio entro distanza di Mischia, aggiungete un d4 al tiro di danno."
+        }
+      }
+    },
+    "Tyris Soft Armor": {
+      "name": "Giaco di Tyris",
+      "description": "Quieta: Ottenete bonus +2 ai tiri per muovervi silenziosamente.",
+      "actions": {
+        "Ch6IhuPewBeseGez": {
+          "name": "Quieta",
+          "description": "Ottenete bonus +2 ai tiri per muovervi silenziosamente."
+        }
+      }
+    },
+    "Veritas Opal Armor": {
+      "name": "Armatura dell’Opale della Verità",
+      "description": "Cercatrice di Verità: Questa armatura brilla quando un’altra creatura entro distanza Ravvicinata dice il falso.",
+      "actions": {
+        "sY3W5JYspN5Du5ag": {
+          "name": "Cercatrice di Verità",
+          "description": "Questa armatura brilla quando un’altra creatura entro distanza Ravvicinata dice il falso."
+        }
+      }
+    }
+  }
+}

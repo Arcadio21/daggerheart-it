@@ -1,0 +1,145 @@
+{
+  "label": "Comunità",
+  "mapping": {
+    "description": "system.description",
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "actions": {
+      "path": "system.actions",
+      "converter": "actions"
+    }
+  },
+  "folders": {
+    "Community Features": "Capacità della Comunità"
+  },
+  "entries": {
+    "Highborne": {
+      "name": "Privilegiata",
+      "description": "<p>Far parte di una comunità di privilegiati significa essere abituati a una vita di eleganza, opulenza e prestigio all'interno delle alte sfere della società.</p><p>Tradizionalmente, i membri di una comunità privilegiata possiedono un'incredibile ricchezza materiale. Anche se questa può assumere diverse forme a seconda della comunità (oro e altri minerali, terre o il controllo dei mezzi di produzione) questo status è sempre accompagnato da potere e influenza. I privilegiati attribuiscono grande valore ai titoli e ai possedimenti e la mobilità sociale all'interno dei loro ranghi è scarsa. I membri di una comunità privilegiata spesso controllano la politica e l'economia delle aree in cui vivono grazie alla loro abilità di influenzare le persone con la loro sostanziale ricchezza. La salute e la sicurezza dei ceti meno abbienti che vivono in questi luoghi dipendono spesso dall'abilità di questa classe dirigente di dare priorità al benessere dei propri sudditi rispetto al profitto.</p><p><em>I privilegiati sono spesso affabili, intraprendenti, irremovibili, ostentati, schietti e scaltri.</em></p>"
+    },
+    "Loreborne": {
+      "name": "Erudita",
+      "description": "<p>Far parte di una comunità di eruditi significa appartenere a una cultura che dà priorità alla conoscenza e alle capacità politiche.</p><p>Le comunità erudite attribuiscono grande valore al sapere, spesso sotto forma di conservazione della memoria storica, avanzamento politico, studio scientifico, sviluppo di abilità o raccolta di leggende e mitologie. La maggior parte dei membri di queste comunità svolge attività di ricerca in istituzioni che costituiscono le stesse fondamenta della civiltà, mentre alcuni eclettici membri si dedicano allo studio del mondo naturale. Alcuni possono essere isolati, operando in piccole enclave, scuole o gilde e seguendo la propria etica. Altri ancora esercitano il loro sapere su scala più ampia, compiendo abili manovre politiche in tutti i contesti di governo e amministrazione.</p><p><em>Gli eruditi sono spesso curiosi, diretti, eloquenti, entusiasti, pazienti e spiritosi.</em></p>"
+    },
+    "Orderborne": {
+      "name": "Austera",
+      "description": "<p>Far parte di una comunità austera significa provenire da una cultura che si concentra sulla disciplina o sulla fede e che sostiene con forza una serie di principi che riflettono la propria esperienza.</p><p>Le comunità austere sono spesso tra le più potenti tra quelle circostanti. Allineando i membri della loro società attorno a un valore o a un obiettivo comune, come una divinità, una dottrina, un'etica o persino un'attività o un commercio condivisi, gli organi di governo di queste società sono in grado di mobilitare popolazioni numerose con minor sforzo. Sebbene le comunità austere assumano una varietà di forme, alcune anche profondamente pacifiste, forse le più temute sono quelle che si strutturano attorno alla prodezza militare. In tal caso, non è raro che siano loro a fornire soldati e mercenari ad altre città o nazioni.</p><p><em>Gli austeri sono spesso ambiziosi, benevoli, cauti, riflessivi, sardonici e stoici.</em></p>"
+    },
+    "Ridgeborne": {
+      "name": "Montanara",
+      "description": "<p>Far parte di una comunità montanara significa chiamare casa le cime rocciose e i dirupi aguzzi delle alte vette.</p><p>Coloro che hanno vissuto in montagna spesso si considerano più resistenti della maggior parte degli altri perché hanno prosperato nelle regioni più pericolose delle terre emerse. Questi gruppi sono avvezzi alla versatilità, e sviluppano tecnologie e attrezzature uniche per spostare persone e prodotti su terreni difficili. Per questo motivo, i montanari sono cresciuti arrampicandosi e scalando, il che li rende robusti e volitivi. Le località di montagna si presentano in forme diverse: alcune città scavano intere pareti rocciose, altre costruiscono castelli di pietra e altre ancora vivono in piccole case sulle cime spazzate dal vento. Le forze esterne spesso faticano ad attaccare queste comunità, in quanto le piccole milizie e le grandi forze militari delle montagne sono molto abili nell'utilizzare il vantaggio di luoghi impervi e facilmente difendibili.</p><p><em>I montanari sono spesso audaci, indomiti, leali, ostinati, riservati e robusti.</em></p>"
+    },
+    "Seaborne": {
+      "name": "Marittima",
+      "description": "<p>Far parte di una comunità marittima significa vivere su o vicino a un grande specchio d'acqua.</p><p>Le comunità marittime sono costruite, sia fisicamente che culturalmente, intorno alle acque che chiamano casa. Alcuni di questi gruppi vivono lungo la costa, costruendo porti per gli abitanti del luogo e per i viaggiatori. Questi porti fungono da centri di commercio, attrazioni turistiche o anche solo punti sicuri dove riposare dopo settimane di viaggio. Altre comunità marittime vivono sull'acqua in piccole imbarcazioni o a bordo di grandi vascelli, con un'idea di \"casa\" che comprende la nave e il suo equipaggio, piuttosto che la terraferma. Indipendentemente dalla loro esatta ubicazione, le comunità marittime sono strettamente legate alle maree dell'oceano e alle creature che lo abitano. Chi vive sull'acqua impara a pescare fin da piccolo e si allena dalla nascita a trattenere il respiro e a nuotare anche nelle acque più tumultuose. Gli individui di questi gruppi sono molto ricercati per le loro abilità di navigazione e molti diventano capitani di navi, sia all'interno della propria comunità, sia per conto di un'altra o addirittura al timone di una potente flotta.</p><p><em>I marittimi sono spesso collaborativi, determinati, esuberanti, fieri, ruvidi e schietti.</em></p>"
+    },
+    "Slyborne": {
+      "name": "Bassifondi",
+      "description": "<p>Far parte di una comunità dei bassifondi significa appartenere a un gruppo che opera al di fuori della legge e che comprende ogni sorta di criminali, truffatori e artisti del raggiro.</p><p>I membri delle comunità dei bassifondi sono accomunati da obiettivi disdicevoli e dai mezzi astuti di cui si servono per raggiungerli. Molte persone in queste comunità hanno una serie spregiudicata di capacità: falsificazione, furto, contrabbando e violenza. Possono appartenere ai bassifondi persone di qualsiasi ceto sociale, da chi ha accumulato grandi ricchezze e influenza a chi non ha una moneta nelle tasche. A un occhio esterno, la gente dei bassifondi può sembrare una congrega di canaglie senza alcuna lealtà, ma queste comunità possiedono alcuni dei più rigidi codici d'onore che, se infranti, possono causare una fine terrificante per il trasgressore.</p><p><em>La gente dei bassifondi è spesso acuta, astuta, calcolatrice, formidabile, intelligente e tenace.</em></p>"
+    },
+    "Underborne": {
+      "name": "Sotterranea",
+      "description": "<p>Far parte di una comunità sotterranea significa appartenere a una società che si è sviluppata sotto la superficie.</p><p>Molti appartenenti a una cultura sotterranea vivono letteralmente sotto le città e i villaggi di altre comunità, mentre altri si spingono ancor di più in profondità. Queste comunità vanno da piccoli gruppi familiari in piccole grotte a enormi metropoli in immense caverne di pietra. In molti luoghi, gli appartenenti a una comunità del sottosuolo sono conosciuti per la loro incredibile audacia e abilità, che permette grandi imprese di architettura e ingegneria. La gente del sottosuolo viene regolarmente ingaggiata per il suo coraggio, poiché anche il meno audace tra loro ha probabilmente incontrato formidabili creature provenienti dalle viscere della terra, e imparare ad affrontarle è una pratica e una necessità fondamentale tra queste società. A causa dei pericoli del loro ambiente, molte comunità sotterranee sviluppano linguaggi non verbali unici che si rivelano altrettanto utili in superficie.</p><p><em>Gli abitanti del sottosuolo sono spesso calmi, elusivi, indomiti, ingegnosi, pieni di risorse e umili.</em></p>"
+    },
+    "Wanderborne": {
+      "name": "Nomade",
+      "description": "<p>Far parte di una comunità nomade significa aver condotto una vita errante, rinunciando a una casa permanente e sperimentando un'ampia varietà di culture.</p><p>A differenza di molte comunità che sono definite dal luogo in cui vivono, i nomadi sono definiti dal loro stile di vita itinerante. A causa delle loro frequenti migrazioni, i nomadi danno meno valore all'accumulo di beni materiali a favore dell'acquisizione di informazioni, competenze e contatti. Mentre alcuni nomadi riconoscono un'etica comune, come una religione o un insieme di valori politici o economici, altri si uniscono dopo una tragedia condivisa, come la perdita della casa o della terra. Indipendentemente dal motivo, i pericoli posti dalla vita sulla strada e la scelta di continuare a percorrerla insieme fanno sì che i nomadi siano noti per la loro salda lealtà.</p><p><em>I nomadi sono spesso atipici, affidabili, giocosi, imperscrutabili, magnanimi e sagaci.</em></p>"
+    },
+    "Wildborne": {
+      "name": "Forestale",
+      "description": "<p>Far parte di una comunità forestale significa vivere nel profondo dei boschi.</p><p>Le comunità forestali sono definite dalla loro dedizione alla conservazione della loro terra natia e molte hanno forti legami religiosi o culturali con la fauna con cui vivono. Ciò si traduce in innovazioni architettoniche e tecnologiche uniche, che privilegiano la sostenibilità rispetto ai risultati a breve termine e ad alto rendimento. È un tratto distintivo delle società forestali integrare i loro villaggi e le loro città con l'ambiente naturale ed evitare di disturbare la vita vegetale e animale. Mentre alcuni costruiscono le loro dimore in alto sui rami degli alberi, altri stabiliscono le loro case a terra sotto la chioma della foresta. Non è raro che coloro che provengono da una comunità forestale rimangano solitari e nascosti nelle loro case nei boschi.</p><p><em>Gli abitanti delle foreste sono spesso leali, premurosi, resistenti, sagaci, solitari e vibranti.</em></p>"
+    },
+    "Dedicated": {
+      "name": "Dedizione",
+      "description": "<p>Annotate tre detti o valori che la vostra educazione vi ha inculcato. Una volta per riposo, quando descrivete come incarnate questi principi attraverso l'azione che state compiendo, potete tirare un <strong>d20</strong> come Dado Speranza.</p>",
+      "actions": {
+        "ZBVqSlsDUKf8uGrI": {
+          "name": "Utilizzare",
+          "description": "<p>Annotate tre detti o valori che la vostra educazione vi ha inculcato. Una volta per riposo, quando descrivete come incarnate questi principi attraverso l'azione che state compiendo, potete tirare un <strong>d20</strong> come Dado Speranza.</p>"
+        }
+      }
+    },
+    "Know the Tide": {
+      "name": "Sentire la Marea",
+      "description": "<p>Potete percepire il flusso e il riflusso della vita. Quando tirate con Paura, posizionate un gettone sulla carta comunità. Potete posizionare un numero massimo di gettoni pari al vostro livello. Prima di effettuare un tiro azione, potete spendere un numero qualsiasi di questi gettoni per ottenere bonus +1 al tiro per ogni gettone speso. Alla fine di ogni sessione, rimuovete tutti i gettoni non spesi.</p>",
+      "actions": {
+        "tFlus34KotJjHfTe": {
+          "name": "Sentire la Marea",
+          "description": "<p>Quando tirate con Paura, posizionate un gettone sulla carta comunità. Prima di effettuare un tiro azione, potete spendere un numero qualsiasi di questi gettoni per ottenere bonus +1 al tiro per ogni gettone speso.</p>"
+        }
+      }
+    },
+    "Lightfoot": {
+      "name": "Piè Leggero",
+      "description": "<p>Il vostro movimento è naturalmente silenzioso. Avete vantaggio ai tiri per muovervi senza essere uditi.</p>",
+      "effects": {
+        "4my9X5XC3uwDSx7B": {
+          "name": "Piè Leggero",
+          "description": "<p>Il vostro movimento è naturalmente silenzioso. Avete vantaggio ai tiri per muovervi senza essere uditi.</p>"
+        }
+      }
+    },
+    "Low-Light Living": {
+      "name": "Vivere nel Crepuscolo",
+      "description": "<p>Quando vi trovate in penombra o nell'oscurità, avete vantaggio ai tiri per nascondersi, indagare o percepire i dettagli.</p>",
+      "effects": {
+        "pCp32u7UwqxCI4WW": {
+          "name": "Vivere nel Crepuscolo",
+          "description": "<p>Quando vi trovate in penombra o nell'oscurità, avete vantaggio ai tiri per nascondersi, indagare o percepire i dettagli.</p>"
+        }
+      }
+    },
+    "Nomadic Pack": {
+      "name": "Sacca da Viaggio",
+      "description": "<p>Aggiungete una Sacca da Viaggio al vostro inventario. Una volta per sessione, potete <strong>spendere una Speranza</strong> per rovistare nella sacca in cerca di un oggetto comune utile per la situazione. Discutete con il GM per scoprire quale oggetto state per estrarre.</p>",
+      "actions": {
+        "Jd9uVincqkIMAXgU": {
+          "name": "Afferrare un oggetto",
+          "description": "<p>Una volta per sessione, potete <strong>spendere una Speranza</strong> per rovistare nella sacca in cerca di un oggetto comune utile per la situazione. Discutete con il GM per scoprire quale oggetto state per estrarre.</p>"
+        }
+      }
+    },
+    "Privilege": {
+      "name": "Privilegio",
+      "description": "<p>Avete vantaggio nei tiri per interagire con la nobiltà, contrattare un prezzo o sfruttare la vostra reputazione per ottenere ciò che volete.</p>",
+      "effects": {
+        "xgtjykfgvg142urA": {
+          "name": "Privilegio",
+          "description": "<p>Avete vantaggio nei tiri per interagire con la nobiltà, contrattare un prezzo o sfruttare la vostra reputazione per ottenere ciò che volete.</p>"
+        }
+      }
+    },
+    "Scoundrel": {
+      "name": "Furfante",
+      "description": "<p>Avete vantaggio ai tiri per negoziare con i criminali, per riconoscere le menzogne o per trovare un posto sicuro dove nascondervi.</p>",
+      "effects": {
+        "snkYmZ22Q8HHLY9M": {
+          "name": "Furfante",
+          "description": "<p>Avete vantaggio ai tiri per negoziare con i criminali, per riconoscere le menzogne o per trovare un posto sicuro dove nascondervi.</p>"
+        }
+      }
+    },
+    "Steady": {
+      "name": "Costanza",
+      "description": "<p>Avete vantaggio ai tiri per attraversare scogliere e sporgenze pericolose, orientarvi in ambienti difficili e sfruttare le vostre conoscenze di sopravvivenza.</p>",
+      "effects": {
+        "QDf9LD8Mhd0Cw0CB": {
+          "name": "Costanza",
+          "description": "<p>Avete vantaggio ai tiri per attraversare scogliere e sporgenze pericolose, orientarvi in ambienti difficili e sfruttare le vostre conoscenze di sopravvivenza.</p>"
+        }
+      }
+    },
+    "Well-Read": {
+      "name": "Acculturato",
+      "description": "<p>Avete vantaggio ai tiri che riguardano la storia, la cultura o l'orientamento politico di un individuo o di una regione.</p>",
+      "effects": {
+        "RwhxYOAAKKlYZiz0": {
+          "name": "Acculturato",
+          "description": "<p>Avete vantaggio ai tiri che riguardano la storia, la cultura o l'orientamento politico di un individuo o di una regione.</p>"
+        }
+      }
+    }
+  }
+}
