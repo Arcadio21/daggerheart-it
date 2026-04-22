@@ -3,7 +3,7 @@ Modulo di traduzione per Daggerheart  System per Foundry VTT.
 
 Istruzioni
 - installa il sistema di Daggerheart di Foundryborne 
--installa la traduzione italiana del core foundry [core-translation-it-foundryVTT](https://foundryvtt.com/packages/core-translation-it-foundryVTT)
+- installa la traduzione italiana del core foundry [core-translation-it-foundryVTT](https://foundryvtt.com/packages/core-translation-it-foundryVTT)
 - installa questo modulo
 - attiva i moduli nel pannello di controllo
 - cambia lingua in italiano nel pannello di controllo.
