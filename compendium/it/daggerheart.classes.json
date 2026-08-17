@@ -2,6 +2,25 @@
   "label": "Classi",
   "mapping": {
     "description": "system.description",
+    "mapping": {
+      "description": "system.description",
+      "backgroundQuestions": {
+        "path": "system.backgroundQuestions",
+        "converter": "backgroundQuestions"
+      },
+      "connections": {
+        "path": "system.connections",
+        "converter": "connections"
+      },
+      "effects": {
+        "path": "effects",
+        "converter": "effects"
+      },
+      "actions": {
+        "path": "system.actions",
+        "converter": "actions"
+      }
+    },
     "effects": {
       "path": "effects",
       "converter": "effects"
@@ -28,39 +47,129 @@
   "entries": {
     "Bard": {
       "name": "Bardo",
-      "description": "<p>I bardi sono le figure più carismatiche di tutti i reami. I membri di questa classe sono maestri nell’attirare l’attenzione e si specializzano in diversi tipi di esibizione, tra cui cantare, suonare strumenti musicali, tessere storie o raccontare barzellette. Sia che si esibiscano per un pubblico o che si rivolgano a un singolo interlocutore, i bardi danno il meglio nelle situazioni sociali. I membri di questa professione si legano e si addestrano in scuole o gilde, ma possono anche essere soggetti all’egocentrismo. Sebbene siano la classe più adatta a riunire le persone, un bardo di cattivo umore può altrettanto facilmente distruggere una festa.</p>"
+      "description": "<p>I bardi sono le figure più carismatiche di tutti i reami. I membri di questa classe sono maestri nell’attirare l’attenzione e si specializzano in diversi tipi di esibizione, tra cui cantare, suonare strumenti musicali, tessere storie o raccontare barzellette. Sia che si esibiscano per un pubblico o che si rivolgano a un singolo interlocutore, i bardi danno il meglio nelle situazioni sociali. I membri di questa professione si legano e si addestrano in scuole o gilde, ma possono anche essere soggetti all’egocentrismo. Sebbene siano la classe più adatta a riunire le persone, un bardo di cattivo umore può altrettanto facilmente distruggere una festa.</p>",
+      "connections": [
+        "Cosa ti ha fatto capire che saremmo diventati così buoni amici?",
+        "Cosa faccio che ti infastidisce?",
+        "Perché mi afferri la mano di notte?"
+      ],
+      "backgroundQuestions": [
+        "Chi nella vostra comunità vi ha insegnato ad avere tanta fiducia in voi stessi?",
+        "Siete stati innamorati una volta. Chi avete amato e come vi ha ferito?",
+        "Avete sempre ammirato un altro bardo. Chi è e perché lo idolatrate?"
+      ]
     },
     "Druid": {
       "name": "Druido",
-      "description": "<p>Diventare un druido è più di un’occupazione: è una chiamata per coloro che desiderano imparare e proteggere la magia della natura incontaminata. Mentre si potrebbe sottovalutare un druido gentile che in silenzio si prende cura della vegetazione, i druidi che incanalano le forze indomite della natura sono terrificanti a vedersi. I druidi coltivano le loro abilità in piccoli gruppi, spesso legati da un’etica o da un luogo specifico, ma alcuni scelgono di lavorare da soli. Attraverso anni di studio e dedizione, i druidi possono imparare a trasformarsi in bestie e a plasmare la natura stessa.</p>"
+      "description": "<p>Diventare un druido è più di un’occupazione: è una chiamata per coloro che desiderano imparare e proteggere la magia della natura incontaminata. Mentre si potrebbe sottovalutare un druido gentile che in silenzio si prende cura della vegetazione, i druidi che incanalano le forze indomite della natura sono terrificanti a vedersi. I druidi coltivano le loro abilità in piccoli gruppi, spesso legati da un’etica o da un luogo specifico, ma alcuni scelgono di lavorare da soli. Attraverso anni di studio e dedizione, i druidi possono imparare a trasformarsi in bestie e a plasmare la natura stessa.</p>",
+      "connections": [
+        "Cosa mi hai confidato che mi fa correre ogni volta dei rischi per te?",
+        "Quale animale ti ho detto che mi ricordi?",
+        "Quale soprannome affettuoso mi hai dato?"
+      ],
+      "backgroundQuestions": [
+        "Perché la comunità in cui siete cresciuti era così legata alla natura e alle sue creature?",
+        "Quale è stato il primo animale selvatico con cui avete stretto amicizia? Perché il vostro legame è finito?",
+        "Chi ha cercato di darvi la caccia? Cosa vogliono da voi?"
+      ]
     },
     "Guardian": {
       "name": "Guardiano",
-      "description": "<p>Il titolo di guardiano comprende una serie di professioni marziali che si riferiscono più alla loro bussola morale e all’incrollabile forza d’animo che ai mezzi con cui combattono. Sebbene molti guardiani si uniscano a gruppi militanti per un paese o una causa, è più probabile che seguano quei pochi a cui tengono veramente, senza curarsi degli altri. I guardiani sono famosi per ingaggiare battaglia senza quartiere anche quando le probabilità sono sfavorevoli, difendendo i loro protetti sopra ogni altra cosa. Guai a chi fa del male all’alleato di un guardiano, perché quest’ultimo risponderà con altrettanta forza.</p>"
+      "description": "<p>Il titolo di guardiano comprende una serie di professioni marziali che si riferiscono più alla loro bussola morale e all’incrollabile forza d’animo che ai mezzi con cui combattono. Sebbene molti guardiani si uniscano a gruppi militanti per un paese o una causa, è più probabile che seguano quei pochi a cui tengono veramente, senza curarsi degli altri. I guardiani sono famosi per ingaggiare battaglia senza quartiere anche quando le probabilità sono sfavorevoli, difendendo i loro protetti sopra ogni altra cosa. Guai a chi fa del male all’alleato di un guardiano, perché quest’ultimo risponderà con altrettanta forza.</p>",
+      "connections": [
+        "Come ti ho salvato la vita la prima volta che ci siamo incontrati?",
+        "Quale piccolo regalo mi hai fatto e hai notato che lo porto sempre con me?",
+        "Quale bugia mi hai raccontato su di te, a cui ho assolutamente creduto?"
+      ],
+      "backgroundQuestions": [
+        "Chi della vostra comunità non siete riusciti a proteggere e perché pensate ancora a loro?",
+        "Siete stati incaricati di proteggere qualcosa di importante e di consegnarlo in un luogo pericoloso. Che cos’è e dove dovete portarlo?",
+        "Considerate un aspetto di voi stessi come una debolezza. Di cosa si tratta e come vi ha influenzato?"
+      ]
     },
     "Ranger": {
       "name": "Ranger",
-      "description": "<p>I ranger sono cacciatori altamente qualificati che, nonostante le loro abilità marziali, raramente prestano le loro capacità a un esercito. Grazie alla padronanza del corpo e alla profonda conoscenza della natura selvaggia, i ranger diventano astuti tattici, che inseguono le loro prede con intuito e pazienza. Molti ranger conducono battute di caccia e combattono al fianco di un compagno animale con il quale hanno stretto un potente legame spirituale. Affinando le loro abilità nelle terre selvagge, i ranger diventano esperti inseguitori, tanto propensi a intrappolare i loro nemici quanto ad assalirli frontalmente.</p>"
+      "description": "<p>I ranger sono cacciatori altamente qualificati che, nonostante le loro abilità marziali, raramente prestano le loro capacità a un esercito. Grazie alla padronanza del corpo e alla profonda conoscenza della natura selvaggia, i ranger diventano astuti tattici, che inseguono le loro prede con intuito e pazienza. Molti ranger conducono battute di caccia e combattono al fianco di un compagno animale con il quale hanno stretto un potente legame spirituale. Affinando le loro abilità nelle terre selvagge, i ranger diventano esperti inseguitori, tanto propensi a intrappolare i loro nemici quanto ad assalirli frontalmente.</p>",
+      "connections": [
+        "Quale competizione amichevole c’è fra noi?",
+        "Perché ti comporti in modo diverso quando siamo soli rispetto a quando ci sono altri?",
+        "Quale minaccia mi hai chiesto di tenere d’occhio e perché sei preoccupato?"
+      ],
+      "backgroundQuestions": [
+        "Una terribile creatura ha ferito la vostra comunità e avete giurato di darle la caccia. Che creatura è e quali tracce o segni particolari lascia dietro di sé",
+        "La prima creatura che avete abbattuto ha quasi ucciso anche voi. Che cosa è stato e quale parte di voi non è più stata la stessa dopo quell’evento?",
+        "Avete viaggiato in molte terre pericolose, ma qual è il posto in cui vi rifiutate di andare?"
+      ]
     },
     "Rogue": {
       "name": "Fuorilegge",
-      "description": "<p>I fuorilegge sono furfanti, spesso sia nell’atteggiamento che nello stile di vita. Conosciuti in generale come bugiardi e criminali, i migliori di questa classe si muovono nel mondo in modo anonimo, senza lasciare tracce. Utilizzando il loro ingegno e le loro lame affilate, i fuorilegge ingannano i loro nemici attraverso la manipolazione sociale con la stessa facilità con cui scassinano serrature, si arrampicano attraverso le finestre o infliggono colpi subdoli. Questi maestri della magia manipolano l’ombra e il movimento, aggiungendo al loro repertorio una serie di strumenti utili e letali. I fuorilegge fondano spesso delle gilde per incontrare futuri complici, trovare incarichi e affinare abilità segrete, dimostrando che c’è onore tra i ladri per coloro che sanno dove cercare.</p>"
+      "description": "<p>I fuorilegge sono furfanti, spesso sia nell’atteggiamento che nello stile di vita. Conosciuti in generale come bugiardi e criminali, i migliori di questa classe si muovono nel mondo in modo anonimo, senza lasciare tracce. Utilizzando il loro ingegno e le loro lame affilate, i fuorilegge ingannano i loro nemici attraverso la manipolazione sociale con la stessa facilità con cui scassinano serrature, si arrampicano attraverso le finestre o infliggono colpi subdoli. Questi maestri della magia manipolano l’ombra e il movimento, aggiungendo al loro repertorio una serie di strumenti utili e letali. I fuorilegge fondano spesso delle gilde per incontrare futuri complici, trovare incarichi e affinare abilità segrete, dimostrando che c’è onore tra i ladri per coloro che sanno dove cercare.</p>",
+      "connections": [
+        "Cosa ti ho convinto a fare di recente che ci ha messo entrambi nei guai?",
+        "Cosa ho scoperto del tuo passato che tengo nascosto agli altri?",
+        "Chi conosci del mio passato e come ha influenzato i tuoi sentimenti nei miei confronti?"
+      ],
+      "backgroundQuestions": [
+        "Cosa hai fatto per essere esiliato dalla tua comunità?",
+        "Avevi una vita diversa, ma hai cercato di lasciartela alle spalle. Chi del tuo passato ti sta ancora inseguendo?",
+        "A chi hai detto addio con più dispiacere?"
+      ]
     },
     "Seraph": {
       "name": "Consacrato",
-      "description": "<p>I consacrati sono combattenti e guaritori divini, dotati di uno scopo sacro. Nei regni esistono molte divinità, che fungono da patrono per diversi ordini di consacrati. La loro etica si allinea tradizionalmente con il dominio o gli obiettivi di tale dio, come la difesa dei deboli, la vendetta, la protezione di una terra o di un artefatto o la difesa di una particolare fede. Alcuni consacrati si alleano con un esercito o un regno, con grande soddisfazione dei loro governanti, ma altri crociati combattono in opposizione alle follie di dominio del Regno Mortale. È meglio essere alleati di un consacrato che suoi avversari, poiché sono nemici terrificanti per coloro che si oppongono al loro credo.</p>"
+      "description": "<p>I consacrati sono combattenti e guaritori divini, dotati di uno scopo sacro. Nei regni esistono molte divinità, che fungono da patrono per diversi ordini di consacrati. La loro etica si allinea tradizionalmente con il dominio o gli obiettivi di tale dio, come la difesa dei deboli, la vendetta, la protezione di una terra o di un artefatto o la difesa di una particolare fede. Alcuni consacrati si alleano con un esercito o un regno, con grande soddisfazione dei loro governanti, ma altri crociati combattono in opposizione alle follie di dominio del Regno Mortale. È meglio essere alleati di un consacrato che suoi avversari, poiché sono nemici terrificanti per coloro che si oppongono al loro credo.</p>",
+      "connections": [
+        "Quale promessa mi hai fatto accettare, se tu dovessi morire sul campo di battaglia?",
+        "Perché mi fai tante domande sulla mia divinità?",
+        " Mi hai detto di proteggere un membro del nostro gruppo più di tutti gli altri, anche di te stesso. Chi è e perché me lo hai chiesto?"
+      ],
+      "backgroundQuestions": [
+        "A quale divinità vi siete votati? Quale incredibile miracolo ha compiuto per voi in un momento di disperazione?",
+        "Come è cambiato il vostro aspetto dopo il vostro giuramento sacro?",
+        " In quale modo strano o unico comunicate con la vostra divinità?"
+      ]
     },
     "Sorcerer": {
       "name": "Stregone",
-      "description": "<p>Non tutti gli utilizzatori di magia innata scelgono di affinare il loro dono, ma quelli che lo fanno possono diventare potenti stregoni. I doni di questi stregoni vengono tramandati attraverso le generazioni, anche se la famiglia non ne è consapevole o è riluttante a metterli in pratica. Le abilità di uno stregone possono spaziare dal dominio sugli elementi alla creazione di realistiche illusioni e altro ancora, e molti praticanti si riuniscono in confraternite basate sui loro talenti. Il percorso che porta a diventare un formidabile stregone non consiste nell’acquisire altro potere, ma nell’imparare a coltivare e controllare il potere che già si possiede. La magia di uno stregone mal consigliato o indisciplinato è una forza davvero pericolosa.</p>"
+      "description": "<p>Non tutti gli utilizzatori di magia innata scelgono di affinare il loro dono, ma quelli che lo fanno possono diventare potenti stregoni. I doni di questi stregoni vengono tramandati attraverso le generazioni, anche se la famiglia non ne è consapevole o è riluttante a metterli in pratica. Le abilità di uno stregone possono spaziare dal dominio sugli elementi alla creazione di realistiche illusioni e altro ancora, e molti praticanti si riuniscono in confraternite basate sui loro talenti. Il percorso che porta a diventare un formidabile stregone non consiste nell’acquisire altro potere, ma nell’imparare a coltivare e controllare il potere che già si possiede. La magia di uno stregone mal consigliato o indisciplinato è una forza davvero pericolosa.</p>",
+      "connections": [
+        "Perché ti fidi così tanto di me?",
+        "Cosa ho fatto che ti rende cauto verso di me?",
+        "Perché teniamo segreto il nostro passato comune?"
+      ],
+      "backgroundQuestions": [
+        "Cosa avete fatto che ha reso le persone della vostra comunità diffidenti nei vostri confronti?",
+        "Quale mentore vi ha insegnato a controllare la vostra magia indomita e perché non è più in grado di guidarvi?",
+        "Avete una paura profonda che nascondete a tutti. Di cosa si tratta e perché vi spaventa?"
+      ]
     },
     "Warrior": {
       "name": "Guerriero",
-      "description": "<p>Diventare un guerriero richiede anni, spesso una vita intera, di allenamento e dedizione all’esercizio delle armi e della violenza. Mentre molti di coloro che combattono pensano solo alla forza bruta, i guerrieri comprendono l’importanza di un corpo e di una mente agili, il che li rende alcuni dei combattenti più ricercati in tutti i regni. Spesso i guerrieri trovano impiego in un esercito, in una banda di mercenari o persino nella guardia reale, ma il loro potenziale è sprecato in qualsiasi posizione in cui non possano continuare a migliorare ed espandere le proprie capacità. Si sa che i guerrieri hanno un’arma preferita; mettersi tra loro e la loro lama è sempre un grave errore.</p>"
+      "description": "<p>Diventare un guerriero richiede anni, spesso una vita intera, di allenamento e dedizione all’esercizio delle armi e della violenza. Mentre molti di coloro che combattono pensano solo alla forza bruta, i guerrieri comprendono l’importanza di un corpo e di una mente agili, il che li rende alcuni dei combattenti più ricercati in tutti i regni. Spesso i guerrieri trovano impiego in un esercito, in una banda di mercenari o persino nella guardia reale, ma il loro potenziale è sprecato in qualsiasi posizione in cui non possano continuare a migliorare ed espandere le proprie capacità. Si sa che i guerrieri hanno un’arma preferita; mettersi tra loro e la loro lama è sempre un grave errore.</p>",
+      "connections": [
+        "Ci conoscevamo da molto prima che questo gruppo si riunisse. Come?",
+        "In quale compito o attività mi aiuti fuori dal campo di battaglia?",
+        "Quale paura ti sto aiutando a superare?"
+      ],
+      "backgroundQuestions": [
+        "Chi vi ha insegnato a combattere e perché è rimasto indietro quando avete lasciato la vostra casa?",
+        "SQualcuno vi ha sconfitto in battaglia anni fa e vi ha lasciati a morire. Chi era e come vi ha tradito?",
+        "Quale luogo leggendario avete sempre voluto visitare e perché è così speciale?"
+      ]
     },
     "Wizard": {
       "name": "Mago",
-      "description": "<p>Attraverso un’istituzione o uno studio individuale, i maghi acquisiscono e affinano un immenso potere magico nel corso di anni di apprendimento utilizzando una varietà di strumenti, tra cui libri, pietre, pozioni ed erbe. Alcuni maghi dedicano la loro vita a padroneggiare una particolare scuola di magia, mentre altri imparano da un’ampia varietà di discipline. Molti maghi diventano figure sagge e potenti nelle loro comunità, consigliando i governanti, fornendo rimedi e guarigioni e persino guidando i consigli di guerra. Sebbene questi maghi lavorino tutti per l’obiettivo comune di raccogliere conoscenze magiche, essi sono spesso i più conflittuali al loro interno, poiché l’acquisizione, la conservazione e la condivisione di potenti segreti è un argomento di intenso dibattito che ha causato innumerevoli morti.</p>"
+      "description": "<p>Attraverso un’istituzione o uno studio individuale, i maghi acquisiscono e affinano un immenso potere magico nel corso di anni di apprendimento utilizzando una varietà di strumenti, tra cui libri, pietre, pozioni ed erbe. Alcuni maghi dedicano la loro vita a padroneggiare una particolare scuola di magia, mentre altri imparano da un’ampia varietà di discipline. Molti maghi diventano figure sagge e potenti nelle loro comunità, consigliando i governanti, fornendo rimedi e guarigioni e persino guidando i consigli di guerra. Sebbene questi maghi lavorino tutti per l’obiettivo comune di raccogliere conoscenze magiche, essi sono spesso i più conflittuali al loro interno, poiché l’acquisizione, la conservazione e la condivisione di potenti segreti è un argomento di intenso dibattito che ha causato innumerevoli morti.</p>",
+      "connections": [
+        "Quale favore ti ho chiesto che non sei sicuro di poter soddisfare?",
+        "Quale strano hobby o strano interesse condividiamo?",
+        "Quale segreto hai affidato solo a me?"
+      ],
+      "backgroundQuestions": [
+        "Per quali responsabilità la comunità contava su di voi? In che modo li avete delusi?",
+        "Avete trascorso la vita alla ricerca di un libro o di un oggetto di grande significato. Di cosa si tratta e perché è così importante?",
+        "Avete un potente rivale. Chi è e perché siete così determinati a sconfiggerlo?"
+      ]
     },
     "Arcane Sense": {
       "name": "Percezione Arcana",

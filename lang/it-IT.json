@@ -54,6 +54,7 @@
                 },
                 "damage": {
                     "name": "Danno",
+                    "critical": "Danno (Critico)",
                     "tooltip": "Danno diretto senza un tiro."
                 },
                 "effect": {
@@ -83,6 +84,7 @@
                     "transformActorMissing": "Il personaggio assegnato in cui trasformarsi non esiste. Probabilmente è stato eliminato o spostato in/da un compendio",
                     "canvasError": "Non c'è nessuna scena attiva.",
                     "prototypeError": "Puoi usare un'azione di trasformazione solo da un Segnalino",
+                    "linkedSelectedError": "Per trasformare un attore collegato deve esserci un solo suo segnalino sulla scena, oppure devi selezionarne solo uno con il tasto sinistro.",
                     "actorLinkError": "Non puoi trasformare un segnalino con Collega Personaggio impostato su vero"
                 }
             },
@@ -108,18 +110,27 @@
                     "startCountdown": "Avvia Conto alla Rovescia"
                 },
                 "damage": {
+                    "addResource": "Aggiungi Risorsa",
                     "multiplier": "Moltiplicatore",
-                    "flatMultiplier": "Moltiplicatore Fisso"
+                    "flatMultiplier": "Moltiplicatore Fisso",
+                    "markResources": "Marca Risorse"
                 },
                 "general": {
                     "customFormula": "Formula Personalizzata",
                     "formula": "Formula"
                 },
+                "area": {
+                    "sectionTitle": "Aree",
+                    "shape": "Forma",
+                    "size": "Dimensione",
+                    "hasHole": "Foro nell'Area"
+                },
                 "displayInChat": "Mostra in chat",
                 "deleteTriggerTitle": "Elimina Innesco",
                 "deleteTriggerContent": "Sei sicuro di voler eliminare l'innesco {trigger}?",
                 "advantageState": "Stato di Vantaggio",
-                "damageOnSave": "Danno su Salvezza"
+                "damageOnSave": "Danno su Salvezza",
+                "useDefaultItemValues": "Usa valori predefiniti dell'Oggetto"
             },
             "RollField": {
                 "diceRolling": {
@@ -130,17 +141,33 @@
                     "threshold": "Soglia"
                 }
             },
+            "Reload": {
+                "checkReload": "Verifica Ricarica",
+                "reloadRequired": "Ricarica Richiesta!",
+                "notRolled": "Non Tirato",
+                "checkFailed": "Verifica Fallita",
+                "checkPassed": "Verifica Superata",
+                "rerollConfirmationTitle": "Ritira Verifica di Ricarica",
+                "rerollConfirmationText": "Sei sicuro di voler ripetere la verifica di ricarica?"
+            },
             "Settings": {
-                "attackBonus": "Bonus di Attacco",
+                "attackModifier": "Modificatore di Attacco",
                 "attackName": "Nome dell'Attacco",
                 "criticalThreshold": "Soglia Critico",
                 "includeBase": {
                     "label": "Includi Danno dell'Oggetto"
                 },
+                "groupAttack": {
+                    "label": "Attacco di Gruppo"
+                },
                 "multiplier": "Moltiplicatore",
                 "saveHint": "Imposta un Tratto predefinito per abilitare il Tiro Reazione. Può essere modificato in seguito nella finestra di dialogo del Tiro Reazione.",
                 "resultBased": {
                     "label": "Formula basata sul risultato di Speranza/Paura."
+                },
+                "fullRestore": {
+                    "label": "Ripristina completamente la risorsa.",
+                    "inChatRoll": "Totale"
                 },
                 "applyTo": {
                     "label": "Risorsa Bersaglio"
@@ -170,7 +197,8 @@
                 },
                 "stacking": {
                     "title": "Accumulo"
-                }
+                },
+                "targetDispositions": "Disposizioni Coinvolte"
             },
             "RangeDependance": {
                 "hint": "Impostazioni per una distanza opzionale alla quale questo effetto deve attivarsi",
@@ -253,7 +281,13 @@
                     }
                 },
                 "hordeDamage": "Danno dell'Orda",
-                "horderHp": "Orda/PF"
+                "horderHp": "Orda/PF",
+                "adversaryReactionRoll": {
+                    "headerTitle": "Tiro Reazione dell'Avversario"
+                }
+            },
+            "Base": {
+                "CannotAddType": "Impossibile aggiungere oggetti di tipo {itemType} ad attori di tipo {actorType}."
             },
             "Character": {
                 "advantageSources": {
@@ -281,6 +315,8 @@
                 },
                 "defaultHopeDice": "Dado Speranza Predefinito",
                 "defaultFearDice": "Dado Paura Predefinito",
+                "defaultAdvantageDice": "Dado Vantaggio Predefinito",
+                "defaultDisadvantageDice": "Dado Svantaggio Predefinito",
                 "disadvantageSources": {
                     "label": "Fonti di Svantaggio",
                     "hint": "Aggiungi parole uniche o testi brevi come promemoria e suggerimenti su ciò per cui un personaggio ha svantaggio."
@@ -376,6 +412,29 @@
                         "label": "Tipo"
                     }
                 },
+                "NPC": {
+                    "FIELDS": {
+                        "motives": {
+                            "label": "Motivazioni"
+                        }
+                    }
+                },
+                "Party": {
+                    "Subtitle": {
+                        "character": "{community} {ancestry} | {subclass} {class}",
+                        "companion": "Compagno di {partner}"
+                    },
+                    "RemoveConfirmation": {
+                        "title": "Rimuovi membro {name}",
+                        "text": "Sei sicuro di voler rimuovere {name} dal gruppo?"
+                    },
+                    "Thresholds": {
+                        "minor": "MIN",
+                        "major": "MAG",
+                        "severe": "GRA"
+                    },
+                    "triggerRestContent": "Questo aprirà una finestra per far compiere ai giocatori le loro mosse di interludio. Sei sicuro?"
+                },
                 "newAdversary": "Nuovo Avversario"
             }
         },
@@ -435,7 +494,11 @@
                 "giveSpotlight": "Cedi i Riflettori",
                 "requestingSpotlight": "Richiedendo i Riflettori",
                 "requestSpotlight": "Richiedi i Riflettori",
-                "openCountdowns": "Conti alla Rovescia"
+                "openCountdowns": "Conti alla Rovescia",
+                "adversaryCategories": {
+                    "friendly": "Alleati",
+                    "adversaries": "Avversari"
+                }
             },
             "CompendiumBrowserSettings": {
                 "title": "Attiva Compendi",
@@ -467,6 +530,9 @@
                         "element": {
                             "name": {
                                 "label": "Nome"
+                            },
+                            "hidden": {
+                                "label": "Nascosto"
                             },
                             "progress": {
                                 "current": {
@@ -506,7 +572,8 @@
                 "types": {
                     "narrative": "Narrativo",
                     "encounter": "Incontro"
-                }
+                },
+                "hiddenNullLabel": "Imposta su Predefinito UI Conti alla Rovescia"
             },
             "CountdownEdit": {
                 "title": "Modifica Conto alla Rovescia",
@@ -527,6 +594,10 @@
                 "defaultOwnershipTooltip": "La proprietà predefinita del giocatore per i conti alla rovescia",
                 "hideNewCountdowns": "Nascondi Nuovi Conti alla Rovescia"
             },
+            "CreateItemDialog": {
+                "createItem": "Crea Oggetto",
+                "browseCompendium": "Sfoglia Compendio"
+            },
             "DaggerheartMenu": {
                 "title": "Strumenti del GM",
                 "refreshFeatures": "Ripristina Privilegi",
@@ -537,7 +608,7 @@
                 "text": "Sei sicuro di voler eliminare {name}?"
             },
             "DamageReduction": {
-                "armorMarks": "Armatura",
+                "maxUseableArmor": "Caselle Armatura Utilizzabili",
                 "armorWithStress": "Marca uno Stress per usare un punto extra",
                 "thresholdImmunities": "Immunità alle Soglie",
                 "stress": "Stress",
@@ -609,6 +680,9 @@
                     "title": "Recupero Risorse"
                 },
                 "takeDowntime": "Riposare"
+            },
+            "FolderConfig": {
+                "defaultEntity": "{entity} Predefinita"
             },
             "HUD": {
                 "tokenHUD": {
@@ -736,10 +810,21 @@
                 "explanation": "Stai aggiungendo {class} come tua multiclasse",
                 "selectDomainPrompt": "Seleziona il tuo nuovo dominio"
             },
-            "OwnershipSelection": {
-                "title": "Selezione Proprietà - {name}",
+            "CountdownPermissions": {
+                "HiddenOptions": {
+                    "true": "Nascosto",
+                    "false": "Visibile"
+                },
+                "title": "Permessi Conto alla Rovescia - {name}",
                 "noPlayers": "Nessun giocatore a cui assegnare la proprietà",
-                "default": "Proprietà Predefinita"
+                "defaultPermission": "Visibilità Base",
+                "inheritLabeled": "Base ({base})"
+            },
+            "PendingReactionsDialog": {
+                "title": "Tiri Reazione in Sospeso Rilevati",
+                "unfinishedRolls": "Alcuni Segnalini non hanno completato i loro Tiri Reazione.",
+                "warning": "I tiri reazione non completati saranno considerati come falliti.",
+                "confirmation": "Sei sicuro di voler continuare?"
             },
             "ReactionRoll": {
                 "title": "Tiro Reazione: {trait}"
@@ -797,8 +882,26 @@
                     "selectRoll": "Seleziona quale valore del tiro usare per il Tiro Combinato"
                 }
             },
+            "GroupRollSelect": {
+                "cancelConfirmText": "Sei sicuro di voler annullare il Tiro di Gruppo? Verrà chiuso anche per tutti gli altri giocatori.",
+                "cancelConfirmTitle": "Annulla Tiro di Gruppo",
+                "initializationTitle": "Selezione Personaggi",
+                "finishGroupRoll": "Termina Tiro di Gruppo",
+                "leader": "Guida",
+                "leaderRoll": "Tiro della Guida",
+                "members": "Partecipanti",
+                "openDialogForAll": "Apri Finestra per Tutti",
+                "removeRoll": "Rimuovi Tiro",
+                "resultsHint": "I risultati appariranno quando i personaggi tireranno",
+                "selectLeaderHint": "Seleziona un Personaggio come guida",
+                "selectParticipantsHint": "Seleziona tutti i Personaggi che parteciperanno al tiro",
+                "startGroupRoll": "Avvia Tiro di Gruppo",
+                "title": "Tiro di Gruppo"
+            },
             "TokenConfig": {
-                "actorSizeUsed": "La dimensione dell'Attore è impostata, determinando le dimensioni."
+                "actorSizeUsed": "La dimensione dell'Attore è impostata, determinando le dimensioni.",
+                "tokenSize": "Dimensione Segnalino",
+                "sizeCategory": "Categoria di Taglia"
             }
         },
         "CLASS": {
@@ -808,6 +911,35 @@
             }
         },
         "CONFIG": {
+            "ActionAutomationChoices": {
+                "never": "Mai",
+                "showDialog": "Mostra Solo Finestra",
+                "always": "Sempre"
+            },
+            "AreaTypes": {
+                "attached": {
+                    "label": "Vincolata al Segnalino"
+                },
+                "placed": {
+                    "label": "Piazzata nella Scena"
+                }
+            },
+            "ReloadChoices": {
+                "off": {
+                    "label": "Non Usare"
+                },
+                "manual": {
+                    "label": "Manuale"
+                },
+                "auto": {
+                    "label": "Automatico"
+                }
+            },
+            "SceneRangeMeasurementTypes": {
+                "disable": "Disabilita Misurazione Distanze Daggerheart",
+                "default": "Predefinita",
+                "custom": "Personalizzata"
+            },
             "ActiveEffectDuration": {
                 "temporary": "Temporaneo",
                 "act": "Prossimi Riflettori",
@@ -1205,16 +1337,31 @@
                 },
                 "vulnerable": {
                     "name": "Vulnerabile",
+                    "autoAppliedByLabel": "Stress Massimo",
                     "description": "Mentre una creatura è Vulnerabile, tutti i tiri attacco e i Tiri Incantesimo che hanno lei come bersaglio hanno vantaggio.\nUna creatura già Vulnerabile non può ricevere di nuovo questa condizione."
                 }
             },
-            "CountdownType": {
+            "CountdownProgressType": {
                 "actionRoll": "Tiro Azione",
                 "characterAttack": "Attacco del Personaggio",
                 "characterSpotlight": "Riflettori sul Personaggio",
                 "custom": "Personalizzato",
                 "fear": "Paura",
                 "spotlight": "Riflettori"
+            },
+            "CountdownType": {
+                "encounter": {
+                    "label": "Breve Termine",
+                    "shortLabel": "Breve"
+                },
+                "narrative": {
+                    "label": "Lungo Termine",
+                    "shortLabel": "Lungo"
+                },
+                "misc": {
+                    "label": "Varie",
+                    "shortLabel": "Varie"
+                }
             },
             "DaggerheartDiceAnimationEvents": {
                 "critical": {
@@ -1314,6 +1461,11 @@
                     "name": "Paura",
                     "abbreviation": "PAU",
                     "inChatRoll": "Paura"
+                },
+                "weaponResource": {
+                    "name": "Risorsa Arma",
+                    "abbreviation": "RA",
+                    "inChatRoll": "Ricarica"
                 }
             },
             "ItemResourceProgression": {
@@ -2011,12 +2163,29 @@
             },
             "ChangeTypes": {
                 "armor": {
-                    "newArmorEffect": "Effetto Armatura",
                     "FIELDS": {
+                        "value": {
+                            "current": {
+                                "label": "Caselle Armatura Marcate"
+                            },
+                            "max": {
+                                "label": "Punteggio di Armatura"
+                            }
+                        },
                         "interaction": {
-                            "label": "Interazione Armatura",
-                            "hint": "Il personaggio che indossa l'armatura sopprime questo effetto?"
+                            "label": "Interazione Armatura"
                         }
+                    }
+                },
+                "standardAttack": {
+                    "name": "Attacco Standard",
+                    "FIELDS": {
+                        "damageFormula": "Formula di Danno",
+                        "damageTypes": "Tipi di Danno",
+                        "attackRange": "Portata dell'Attacco",
+                        "img": "Immagine dell'Attacco",
+                        "name": "Nome dell'Attacco",
+                        "trait": "Tratto dell'Attacco"
                     }
                 }
             },
@@ -2041,9 +2210,18 @@
             "Attachments": {
                 "attachHint": "Trascina gli oggetti qui per allegarli",
                 "transferHint": "Se selezionato, questo effetto verrà applicato a qualsiasi personaggio che possieda l'Oggetto genitore di questo Effetto. L'effetto viene sempre applicato se questo Oggetto è allegato a un altro."
-            }
+            },
+            "OriginTag": "Origine: {name}"
         },
         "GENERAL": {
+            "Ability": {
+                "single": "Capacità",
+                "plural": "Capacità"
+            },
+            "Battlepoints": {
+                "full": "Punti Battaglia",
+                "short": "PB"
+            },
             "newThing": "Nuovo/a {thing}",
             "rerolled": "Tirato di nuovo",
             "Action": {
@@ -2239,7 +2417,9 @@
             },
             "Resource": {
                 "single": "Risorsa",
-                "plural": "Risorse"
+                "plural": "Risorse",
+                "unloaded": "L'arma non è carica",
+                "loaded": "L'arma è carica"
             },
             "Roll": {
                 "attack": "Tiro Attacco",
@@ -2400,6 +2580,21 @@
                 "single": "Tratto",
                 "plural": "Tratti"
             },
+            "effect": "Effetto",
+            "general": "Generale",
+            "missingX": "Mancante: {x}",
+            "missingItemDescription": "L'oggetto a cui si fa riferimento non esiste più",
+            "name": "Nome",
+            "next": "Successivo",
+            "optionalThing": "{thing} Opzionale",
+            "preview": "Anteprima",
+            "resistant": "Resistente",
+            "result": {
+                "single": "Risultato",
+                "plural": "Risultati"
+            },
+            "saveSettings": "Salva Impostazioni",
+            "searchPlaceholder": "Cerca...",
             "actorName": "Nome del Personaggio",
             "amount": "Quantità",
             "any": "Qualsiasi",
@@ -2580,6 +2775,16 @@
                     "value": {
                         "label": "Valore"
                     }
+                },
+                "identifier": {
+                    "label": "Identificatore"
+                },
+                "gmNotes": {
+                    "label": "Note del GM"
+                },
+                "loreReference": {
+                    "label": "Riferimento Lore",
+                    "hint": "Percorso o ID della pagina di diario con la descrizione completa"
                 }
             },
             "Ancestry": {
@@ -2594,6 +2799,10 @@
                     "major": "Soglia Maggiore",
                     "severe": "Soglia Grave"
                 }
+            },
+            "Base": {
+                "addGMNote": "Aggiungi Nota GM",
+                "viewReference": "Vedi Dettagli Completi"
             },
             "Beastform": {
                 "FIELDS": {
@@ -2627,6 +2836,9 @@
                         "width": {
                             "label": "Larghezza"
                         },
+                        "depth": {
+                            "label": "Profondità"
+                        },
                         "scale": {
                             "label": "Scala del Segnalino"
                         }
@@ -2637,6 +2849,15 @@
                         },
                         "mainTraitBonus": {
                             "label": "Bonus al Tratto Principale"
+                        },
+                        "damageBonus": {
+                            "label": "Bonus ai Danni"
+                        },
+                        "evasionBonus": {
+                            "label": "Bonus all'Evasione"
+                        },
+                        "increaseDamageDice": {
+                            "label": "Aumenti Taglia Dado di Danno"
                         }
                     },
                     "hybrid": {
@@ -2673,6 +2894,7 @@
                 "classItems": "Oggetti di Classe",
                 "hopeFeatureLabel": "Privilegio Speranza della {class}",
                 "hopeFeatures": "Privilegi Speranza",
+                "classFeature": "Privilegio di Classe",
                 "classFeatures": "Privilegi di Classe",
                 "guide": {
                     "suggestedEquipment": "Equipaggiamento Suggerito",
@@ -2711,8 +2933,15 @@
             },
             "Weapon": {
                 "weaponType": "Tipo di Arma",
-                "primaryWeapon": "Arma Primaria",
-                "secondaryWeapon": "Arma Secondaria"
+                "configureAttack": "Configura Attacco",
+                "primaryWeapon": {
+                    "full": "Arma Primaria",
+                    "short": "Primaria"
+                },
+                "secondaryWeapon": {
+                    "full": "Arma Secondaria",
+                    "short": "Secondaria"
+                }
             }
         },
         "MACROS": {
@@ -2735,6 +2964,9 @@
                 "FIELDS": {
                     "displayFear": {
                         "label": "Mostra Paura"
+                    },
+                    "fearPosition": {
+                        "label": "Posizione Paura"
                     },
                     "displayCountdownUI": {
                         "label": "Mostra UI Conti alla Rovescia"
@@ -2789,6 +3021,13 @@
                     "token": "Segnalini",
                     "bar": "Barra",
                     "hide": "Nascondi"
+                },
+                "fearPosition": {
+                    "free": "Libera",
+                    "topCenter": "In alto + Centro",
+                    "bottomCenter": "In basso + Centro",
+                    "rightTop": "Destra + In alto",
+                    "leftBottom": "Sinistra + In basso"
                 }
             },
             "Automation": {
@@ -2797,6 +3036,10 @@
                     "hint": "Aumenta automaticamente la riserva di Paura del GM quando il tiro di Dualità si risolve a favore della Paura."
                 },
                 "FIELDS": {
+                    "autoExpireActiveEffects": {
+                        "label": "Scadenza Automatica Effetti Attivi",
+                        "hint": "Gli Effetti Attivi con durata impostata verranno rimossi automaticamente al termine della durata"
+                    },
                     "damageReductionRulesDefault": {
                         "label": "Regole Predefinite di Riduzione Danno",
                         "hint": "Se l'uso dell'armatura e delle riduzioni ha le regole attivate di default."
@@ -2865,6 +3108,10 @@
                             "hint": "Gli effetti con dipendenza dalla portata impostata si attiveranno/disattiveranno automaticamente a seconda della distanza."
                         }
                     },
+                    "reload": {
+                        "label": "Verifica Ricarica",
+                        "hint": "Se il sistema debba tirare automaticamente le verifiche di ricarica o attendere la pressione manuale di un pulsante in chat"
+                    },
                     "resourceScrollTexts": {
                         "label": "Mostra Testi Fluttuanti di Risorse",
                         "hint": "Quando un personaggio viene danneggiato, usa l'armatura ecc., un testo fluttuante apparirà brevemente vicino al segnalino."
@@ -2916,6 +3163,15 @@
                     "hideObserverPermissionInChat": {
                         "label": "Nascondi Info Chat ai Giocatori",
                         "hint": "Informazioni come colpito/mancato sui tiri di attacco contro gli avversari verranno nascoste."
+                    },
+                    "hidePartyStats": {
+                        "label": "Nascondi Statistiche del Gruppo",
+                        "hint": "Le risorse e le statistiche nell'elenco dei membri della scheda del gruppo verranno nascoste ai seguenti utenti, anche se l'utente fa parte dello stesso gruppo",
+                        "choices": {
+                            "never": "Mai, mostra sempre",
+                            "players": "Nascondi ai Giocatori",
+                            "always": "Nascondi a Tutti"
+                        }
                     }
                 }
             },
@@ -2965,6 +3221,9 @@
                     "maxDomains": {
                         "label": "Max. Domini per Classe",
                         "hint": "Numero massimo di domini che puoi assegnare a una classe"
+                    },
+                    "tokenSizes": {
+                        "label": "Dimensioni Segnalino"
                     }
                 },
                 "currency": {
@@ -2976,7 +3235,9 @@
                     "iconName": "Nome dell'Icona",
                     "iconNameHint": "Le icone provengono da fontawesome",
                     "bagName": "Nome Sacchetto",
-                    "chestName": "Nome Forziere"
+                    "chestName": "Nome Forziere",
+                    "denomination": "Denominazione",
+                    "initialAmount": "Quantità Iniziale"
                 },
                 "domains": {
                     "domainsTitle": "Domini Base",
@@ -3000,6 +3261,16 @@
                     "emptyIcon": "Icona Vuota",
                     "resourceIdentifier": "Identificatore Risorsa",
                     "setResourceIdentifier": "Imposta Identificatore Risorsa"
+                }
+            },
+            "Keybindings": {
+                "partySheet": {
+                    "name": "Attiva/Disattiva Scheda del Gruppo",
+                    "hint": "Apre o chiude la scheda del gruppo attivo"
+                },
+                "spotlight": {
+                    "name": "Passa i Riflettori al Combattente",
+                    "hint": "Sposta i riflettori su un segnalino selezionato o puntato col mouse presente in un incontro attivo"
                 }
             },
             "Menu": {
@@ -3041,6 +3312,7 @@
                         "system": "Preset Dadi",
                         "font": "Carattere",
                         "critical": "Animazione Critico Dualità",
+                        "muted": "Disattivato",
                         "diceAppearance": "Aspetto dei Dadi",
                         "animations": "Animazioni",
                         "defaultAnimations": "Imposta Animazioni come Predefinite per i Giocatori",
@@ -3128,8 +3400,11 @@
                     "dealDamage": "Infliggi Danno",
                     "rollDamage": "Tira Danno",
                     "hitTarget": "Colpo",
-                    "selectedTarget": "Selezionato",
-                    "currentTarget": "Attuale"
+                    "targetingInitial": "Bersagli",
+                    "targetingSelected": "Selezionati",
+                    "totalTargetedTokens": "{total} Selezionati",
+                    "noTokensSelected": "Nessun Segnalino Selezionato",
+                    "setSelectedAsTargets": "Imposta Selezionati come Bersagli"
                 },
                 "deathMove": {
                     "title": "Mossa Finale",
@@ -3175,6 +3450,8 @@
                     "applyHealing": "Applica Cura"
                 },
                 "markResource": "Marca {quantity} {resource}",
+                "reloadWeapon": "Ricarica {weapon}",
+                "restoreWeaponResource": "Ripristina {quantity} su {weapon}",
                 "refreshMessage": {
                     "title": "Ricarica Privilegi",
                     "header": "Ricaricato"
@@ -3186,12 +3463,16 @@
                 "resourceRoll": {
                     "playerMessage": "{user} ha tirato di nuovo il suo {name}"
                 },
+                "saveRoll": {
+                    "reactionRollAllTargets": "Tiro Reazione per Tutti i Bersagli"
+                },
                 "tagTeam": {
                     "title": "Squadra",
                     "membersTitle": "Membri"
                 }
             },
             "ChatLog": {
+                "rerollActionRoll": "Ritira Tiro Azione",
                 "rerollDamage": "Tira di Nuovo il Danno",
                 "assignTagRoll": "Assegna come Tiro Combinato"
             },
@@ -3200,18 +3481,25 @@
             },
             "Countdowns": {
                 "title": "Conti alla Rovescia",
-                "toggleIconMode": "Attiva/Disattiva Modalità Icone",
-                "noPlayerAccess": "Questo conto alla rovescia non è visibile ad alcun giocatore",
+                "toggleIconMode": "Attiva/Disattiva Solo Icona",
+                "hidden": "Questo conto alla rovescia è nascosto a tutti i giocatori.",
+                "hiddenPartial": "Questo conto alla rovescia è nascosto ai giocatori tranne {players}.",
+                "reveal": "Rivela Conto alla Rovescia",
+                "hide": "Nascondi Conto alla Rovescia",
                 "loop": "Ripetizione",
                 "decreasingLoop": "Ripetizione Decrescente",
-                "increasingLoop": "Ripetizione Crescente"
+                "increasingLoop": "Ripetizione Crescente",
+                "inherit": "Base"
             },
             "EffectsDisplay": {
                 "removeThing": "[Tasto Destro] Rimuovi {thing}",
+                "increaseStacks": "[Tasto Sinistro] Aumenta Cumuli",
+                "decreaseStacks": "[Tasto Destro] Riduci Cumuli",
                 "appliedBy": "Applicato da: {by}"
             },
             "ItemBrowser": {
                 "title": "Browser Compendi Daggerheart",
+                "windowTitle": "Browser Compendi",
                 "hint": "Seleziona una Cartella nella barra laterale per iniziare a navigare nel compendio",
                 "browserSettings": "Impostazioni Browser",
                 "searchPlaceholder": "Cerca...",
@@ -3332,18 +3620,26 @@
                 "tokenActorsMissing": "[{names}] sono privi di Attori.",
                 "domainTouchRequirement": "Questa carta Dominio richiede di avere {nr} carte del dominio {domain} nella propria Dotazione per essere utilizzata.",
                 "knowTheTide": "Sentire la Marea ha ottenuto un segnalino.",
-                "lackingItemTransferPermission": "L'utente {user} non ha i permessi da proprietario necessari per trasferire oggetti a {target}"
+                "lackingItemTransferPermission": "L'utente {user} non ha i permessi da proprietario necessari per trasferire oggetti a {target}",
+                "noTargetsHit": "Nessun bersaglio colpito",
+                "noTokenTargeted": "Nessun segnalino puntato come bersaglio",
+                "behaviorRegionRequiresGM": "La creazione di una Regione con un Comportamento allegato richiede un GM online",
+                "comboDiceOnlyTwoDiceError": "La funzionalità dei dadi combinati funziona solo su una singola coppia di due dadi",
+                "reloadRequired": "L'arma {weapon} deve essere ricaricata per essere usata!"
             },
             "Progress": {
                 "migrationLabel": "Migrazione del sistema in corso. Attendi e non chiudere Foundry."
             },
             "Sidebar": {
                 "actorDirectory": {
-                    "tier": "{type} Rango {tier}",
+                    "tier": "Rango {tier} {type}",
                     "character": "Personaggio Livello {level}",
                     "companion": "Livello {level} - {partner}",
                     "companionNoPartner": "Senza Partner",
                     "duplicateToNewTier": "Duplica a un Nuovo Rango",
+                    "activateParty": "Imposta come Gruppo Attivo",
+                    "partyIsActive": "Attivo",
+                    "createAdversary": "Crea Avversario",
                     "pickTierTitle": "Scegli un nuovo rango per questo avversario"
                 },
                 "daggerheartMenu": {
@@ -3355,6 +3651,7 @@
             "Tooltip": {
                 "disableEffect": "Disabilita Effetto",
                 "enableEffect": "Abilita Effetto",
+                "edit": "Modifica",
                 "openItemWorld": "Apri Oggetto nel Mondo",
                 "openActorWorld": "Apri Personaggio nel Mondo",
                 "sendToChat": "Invia in Chat",

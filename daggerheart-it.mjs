@@ -14,8 +14,8 @@ var registerSettings = () => {
     type: Boolean
   });
   game.settings.register(MODULE_ID, SETTINGS.AUTO_REGISTER_BABELE, {
-    name: "Activation automatique de la traduction via Babele",
-    hint: "Implémente automatiquement les traductions Babele sans qu'il soit nécessaire de désigner le répertoire contenant les traductions.",
+    name: "Attivazione automatica della traduzione tramite Babele",
+    hint: "Implementa automaticamente le traduzioni di Babele senza dover specificare manualmente la cartella.",
     scope: "world",
     config: true,
     default: true,
@@ -36,7 +36,15 @@ Hooks.once("init", () => {
         dir: "compendium/it"
       });
     }
+
     game.babele.registerConverters({
+      backgroundQuestions: (value, translations) => {
+        return translations || value;
+      },
+      connections: (value, translations) => {
+        return translations || value;
+      },
+
       actions: (actions, translations) => {
         if (!translations)
           return;
@@ -114,7 +122,7 @@ var registerTranslations = (original, other = {}, keys = {}) => {
     const originalValue = getProperty(original, originalKey);
     const otherValue = getProperty(other, otherKey);
     if (originalValue == null || otherValue == null)
-      return;
+      continue; // Corretto: passa alla chiave successiva invece di interrompere la funzione
     setProperty(original, originalKey, otherValue);
   }
 };
