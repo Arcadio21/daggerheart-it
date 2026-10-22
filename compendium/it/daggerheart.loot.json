@@ -11,6 +11,7 @@
       "converter": "actions"
     }
   },
+  "folders": {},
   "entries": {
     "Airblade Charm": {
       "name": "Ninnolo della Lama di Vento",
@@ -22,7 +23,7 @@
         }
       }
     },
-    "Alistair’s Torch": {
+    "Alistair's Torch": {
       "name": "Torcia di Alistair",
       "description": "<p>Potete accendere questa torcia magica a piacimento. La luce della fiamma illumina uno spazio molto più ampio del normale, tanto da rischiarare una caverna come se fosse giorno.</p>"
     },
@@ -56,6 +57,16 @@
         }
       }
     },
+    "Augur's Relic": {
+      "name": "Reliquia dell’Augure",
+      "description": "<p>Una volta per riposo lungo, potete attivare il vostro privilegio della Speranza senza spendere Speranza. Potete portare una sola reliquia alla volta.</p>",
+      "actions": {
+        "liWsgZGKy0Jk9BVb": {
+          "name": "Attivare",
+          "description": ""
+        }
+      }
+    },
     "Bag of Ficklesand": {
       "name": "Borsa della Sabbia Volubile",
       "description": "<p>Potete rendere questo piccolo sacchetto di sabbia molto più pesante o più leggero con un Tiro Presenza (10). Inoltre, con un Tiro Astuzia (10) riuscito, potete soffiare un po’ di sabbia in faccia a un bersaglio per renderlo temporaneamente Vulnerabile.</p>",
@@ -72,6 +83,10 @@
         }
       }
     },
+    "Ball Bearings": {
+      "name": "Biglie",
+      "description": "<p>Questo sacchetto contiene biglie metalliche perfettamente lisce.</p>"
+    },
     "Belt of Unity": {
       "name": "Cintura dell’Unità",
       "description": "<p>Una volta per sessione, potete spendere 5 Speranze per effettuare un Tiro Combinato con tre PG invece che due.</p>",
@@ -81,6 +96,10 @@
           "description": ""
         }
       }
+    },
+    "Blackwing Quill": {
+      "name": "Penna d’Oca Nera",
+      "description": "<p>Questa penna non esaurisce mai l’inchiostro ed è sempre temperata.</p>"
     },
     "Bloodstone": {
       "name": "Pietra del Sangue",
@@ -96,6 +115,14 @@
         }
       }
     },
+    "Boots of Supple Mystique": {
+      "name": "Stivali della Agilità Mistica",
+      "description": "<p>Chi indossa questi stivali non lascia tracce né impronte.</p>"
+    },
+    "Box of Dragon Dust": {
+      "name": "Scrigno di Polvere del Drago",
+      "description": "<p>Questa tabacchiera è colma di polvere combustibile.</p>"
+    },
     "Box of Many Goods": {
       "name": "Scatola delle Tante Cose",
       "description": "<p>Una volta per ogni riposo lungo, potete aprire questa piccola scatola e tirare un d12. Con risultato 1–6, è vuota. Con risultato 7-10, contiene un oggetto consumabile comune casuale. Con un risultato di 11–12, contiene due oggetti consumabili comuni casuali.</p>",
@@ -106,12 +133,30 @@
         }
       }
     },
+    "Brooch": {
+      "name": "Spilla",
+      "description": "<p>Dopo un attacco con un’arma riuscito, potete spingere il vostro avversario fino a distanza Ravvicinata rispetto a dove si trovava.</p>"
+    },
     "Calming Pendant": {
       "name": "Monile della Tranquillità",
       "description": "<p>Quando dovreste marcare l’ultimo Stress, tirate un d6. Se ottenete un risultato pari o superiore a 5, non marcatelo.</p>",
       "actions": {
         "wIlkGuUddWSUp4nN": {
           "name": "Utilizzare",
+          "description": ""
+        }
+      }
+    },
+    "Caltrops": {
+      "name": "Triboli",
+      "description": "<p>Potete spargere i triboli in un’area entro distanza Prossima intorno a voi. Creature che attraversino l’area muovendosi rapidamente devono marcare uno Stress.</p>",
+      "actions": {
+        "6vD0Gcej6Xn0s7Do": {
+          "name": "Spargere i Triboli",
+          "description": ""
+        },
+        "v2jdAgOxckv3uFhJ": {
+          "name": "",
           "description": ""
         }
       }
@@ -136,9 +181,37 @@
         }
       }
     },
+    "Cheater's Coin": {
+      "name": "Moneta del Baro",
+      "description": "<p>Quando lanciate questa moneta potete spendere una Speranza per scegliere quale faccia uscirà.</p>",
+      "actions": {
+        "UlWs1OJaoBtyhF2b": {
+          "name": "Barare",
+          "description": ""
+        }
+      }
+    },
     "Clay Companion": {
       "name": "Compagno d’Argilla",
       "description": "<p>Quando scolpite questa argilla a foggia di un animale da compagnia, esso prende vita e si comporta come quell’animale. Ad esempio, un ragno d’argilla può tessere ragnatele d’argilla, mentre un uccello d’argilla può volare. Il Compagno d’Argilla conserva la memoria e l’identità anche se assume forme diverse, e può adottare nuovi comportamenti a seconda della forma.</p>"
+    },
+    "Collapsible Pole": {
+      "name": "Asta Pieghevole",
+      "description": "<p>Potete ripiegare questa pertica lunga 5,4 metri in sei segmenti da 90 cm ciascuno.</p>"
+    },
+    "Collar of Ascendancy": {
+      "name": "Collare dell’Evoluzione",
+      "description": "<p>Un animale che indossi il collare può comprendere e parlare il linguaggio comune.</p>"
+    },
+    "Communion Relic": {
+      "name": "Reliquia della Condivisione",
+      "description": "<p>Una volta per riposo, potete spendere una Speranza per usare un’Esperienza di un alleato come se fosse la vostra. Potete portare una sola reliquia alla volta.</p>",
+      "actions": {
+        "f9OftUibtcsKJv94": {
+          "name": "Spendere 1 Speranza",
+          "description": ""
+        }
+      }
     },
     "Companion Case": {
       "name": "Trasportino del Famiglio",
@@ -164,9 +237,47 @@
         }
       }
     },
+    "Crucible Frames": {
+      "name": "Lenti Annerite del Fabbro",
+      "description": "<p>Queste lenti rivelano i punti deboli di oggetti e creature. Tre volte per riposo, potete ottenere vantaggio in un tiro attacco.</p>",
+      "actions": {
+        "pOrtB09wEkZiihkg": {
+          "name": "Spendere 1 Speranza",
+          "description": ""
+        }
+      }
+    },
+    "Dagginae's Obsidian Slate": {
+      "name": "Lastra di Ossidiana di Dagginae",
+      "description": "<p>Una lastra sottilissima di vetro vulcanico, usata dagli archivisti per prendere appunti. Ogni informazione incisa su questa superficie scompare, ma può essere richiamata con un comando prestabilito.</p>"
+    },
     "Dual Flask": {
       "name": "Fiasca Doppia",
       "description": "<p>Questa fiasca può contenere due liquidi diversi. Potete scambiarli azionando una piccola leva sul lato della fiaschetta.</p>"
+    },
+    "Eclipse Coin": {
+      "name": "Moneta dell’Eclisse",
+      "description": "<p>Una volta per riposo, [[/r 1d2]]{lanciate una moneta}. Con testa, ottenete +1 ai tiri attacco fino al prossimo attacco riuscito; con croce, ottenete +1 all’Evasione fino al prossimo attacco che vi manca.</p>",
+      "actions": {
+        "82pnPzZykFw7Xhci": {
+          "name": "Testa",
+          "description": ""
+        },
+        "zOi26P1bxyLh8S39": {
+          "name": "Croce",
+          "description": ""
+        }
+      },
+      "effects": {
+        "1thJk2e2snAmyvq3": {
+          "name": "Testa",
+          "description": "<p>Con testa, ottenete +1 ai tiri attacco fino al prossimo attacco riuscito.</p>"
+        },
+        "oGs7nvr3uO52GVTI": {
+          "name": "Croce",
+          "description": "<p>Con croce, ottenete +1 all’Evasione fino al prossimo attacco che vi manca.</p>"
+        }
+      }
     },
     "Elusive Amulet": {
       "name": "Amuleto dell’Elusione",
@@ -184,9 +295,17 @@
         }
       }
     },
+    "Elven Spyglass": {
+      "name": "Cannocchiale Elfico",
+      "description": "<p>Il cannocchiale ingrandisce di 100 volte ciò che si osserva con esso.</p>"
+    },
     "Empty Chest": {
       "name": "Scrigno Vuoto",
       "description": "<p>Questo scrigno magico sembra vuoto. Quando pronunciate una parola o compite un’azione specifica e aprite lo scrigno, potete vedere e prendere gli oggetti in esso contenuti.</p>"
+    },
+    "Enchanter's Loupe": {
+      "name": "Lente di Ingrandimento dell’Incantatore",
+      "description": "<p>Potete usare la lente per vedere oltre le illusioni e gli incantamenti.</p>"
     },
     "Enlighten Relic": {
       "name": "Reliquia dell’Illuminazione",
@@ -195,6 +314,22 @@
         "aWOGlmqC9l86GlFV": {
           "name": "Reliquia dell’Illuminazione",
           "description": "<p>Ottenete bonus +1 alla Conoscenza.</p>"
+        }
+      }
+    },
+    "Escher's Mirrorball": {
+      "name": "Sferaspecchio di Escher",
+      "description": "<p>Una volta per riposo lungo, potete ordinare a questo globo argenteo grande come un pugno di imprimere un’immagine sferica dei suoi dintorni sulla sua superficie. L’immagine perdura fino al vostro prossimo riposo lungo.</p>",
+      "actions": {
+        "yaLkOPZwVYcYgzkj": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "effects": {
+        "V5vAUbBIXfaUmMKi": {
+          "name": "Immagine Catturata",
+          "description": "<p>L’immagine perdura fino al vostro prossimo riposo lungo.</p>"
         }
       }
     },
@@ -211,6 +346,30 @@
     "Flickerfly Pendant": {
       "name": "Pendente di Scintillante",
       "description": "<p>Indossando questo ciondolo, le vostre armi con portata Mischia che infliggono danni fisici hanno una lucentezza vaporosa e possono attaccare bersagli fino a distanza Prossima.</p>"
+    },
+    "Force Disc": {
+      "name": "Disco della Forza",
+      "description": "<p>Questo scintillante disco bidimensionale di forza magica ha un diametro di 1,20 metri ed è vincolato magicamente a un ciottolo. Il disco fluttua a 90 cm a nord del ciottolo e alla stessa altezza; il ciottolo pesa un centesimo della massa sorretta dal disco di forza.</p>"
+    },
+    "Furball Bag": {
+      "name": "Borsa degli Animaletti Pelosi",
+      "description": "<p>Una volta per riposo potete estrarre dalla borsa [[/r 2d20]] animaletti innocui e pelosi di dubbia origine e incerta specie.</p>",
+      "actions": {
+        "bIr96Iej1iMgJ1cw": {
+          "name": "Estrarre gli Animaletti",
+          "description": ""
+        }
+      }
+    },
+    "Gadiman's Backpack": {
+      "name": "Zaino di Gadiman",
+      "description": "<p>Una volta per riposo, potete spendere una Speranza per far comparire nello zaino un oggetto mondano non più grande di un cubo di 30 cm di spigolo.</p>",
+      "actions": {
+        "ERENWVE5XQzIUQfz": {
+          "name": "Spendere 1 Speranza",
+          "description": ""
+        }
+      }
     },
     "Gecko Gloves": {
       "name": "Guanti del Geco",
@@ -240,6 +399,10 @@
       "name": "Gemma della Sagacia",
       "description": "<p>Potete incastonare questa gemma in un’arma, permettendovi di usare la vostra Conoscenza quando effettuate attacchi con essa.</p>"
     },
+    "Ghoulskin Gloves": {
+      "name": "Guanti in Pelle di Ghoul",
+      "description": "<p>Quando attaccate con un’arma che infligge danno fisico indossando questi guanti, il danno inflitto è considerato sia fisico che magico.</p>"
+    },
     "Glamour Stone": {
       "name": "Gemma delle Apparenze",
       "description": "<p>Attivate questa pietra delle dimensioni di un sassolino per memorizzare l’aspetto di qualcuno che potete vedere. Spendete una Speranza per ricreare magicamente questo aspetto su di voi come un’illusione.</p>",
@@ -266,9 +429,45 @@
         }
       }
     },
+    "Gloves of Alacrity": {
+      "name": "Guanti dell’Alacrità",
+      "description": "<p>Quando dovreste marcare uno Stress per ricaricare un’arma, invece non lo marcate.</p>"
+    },
+    "Gourmet Granules": {
+      "name": "Grani del Gourmet",
+      "description": "<p>Questo condimento rende ogni cibo sano e delizioso, non importa quanto privo di gusto o guasto sia.</p>"
+    },
+    "Grapnel": {
+      "name": "Grappino",
+      "description": "<p>Ottenete vantaggio ai tiri azione per arrampicarvi su superfici a strapiombo.</p>",
+      "effects": {
+        "GdW5jIrTba4dr4Rv": {
+          "name": "Grappino",
+          "description": "<p>Ottenete vantaggio ai tiri azione per arrampicarvi su superfici a strapiombo.</p>"
+        }
+      }
+    },
+    "Gravewarden's Bell": {
+      "name": "Campanellino del Custode del Cimitero",
+      "description": "<p>Questo campanellino suona quando un fantasma o un non morto si avvicina entro distanza Lontana da esso.</p>"
+    },
     "Greatstone": {
       "name": "Gemma della Grandezza",
       "description": "<p>Potete incastonare questa pietra in un’arma priva di caratteristiche. L’arma ottiene la caratteristica seguente.</p><p><strong>Potente:</strong> In caso di attacco riuscito, tirate un dado di danno aggiuntivo e scartate il risultato più basso.</p>"
+    },
+    "Hero's Helm": {
+      "name": "Elmo dell’Eroe",
+      "description": "<p>Quando ottenete successo critico in un attacco, tutti gli alleati entro distanza Ravvicinata guadagnano una Speranza.</p>",
+      "actions": {
+        "SpZw1xs8sk4c8Hn9": {
+          "name": "Ottenere 1 Speranza",
+          "description": ""
+        }
+      }
+    },
+    "Hollowbark Horn": {
+      "name": "Corno di Corteccia Cava",
+      "description": "<p>Soffiate questo corno per richiamare un piccolo animale del bosco per affidargli un semplice compito.</p>"
     },
     "Homing Compasses": {
       "name": "Bussola del Ritorno",
@@ -296,9 +495,63 @@
       "name": "Sacca Infinita",
       "description": "<p>Quando riponete oggetti in questa sacca, essi vengono conservati in una dimensione tascabile che non esaurisce mai lo spazio. Potete recuperare un oggetto da essa in qualsiasi momento.</p>"
     },
+    "Insomniac's Periapt": {
+      "name": "Amuleto dell’Insonne",
+      "description": "<p>Quando completate un riposo senza curare ferite o rimuovere Stress, ottenete un bonus di +2 ai tiri attacco e ai danni fino al prossimo riposo.</p>",
+      "actions": {
+        "c4teM6lMrHR7170V": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      },
+      "effects": {
+        "lQGyhpLsjSIa2IFI": {
+          "name": "Insonne",
+          "description": "<p>Ottenete un bonus di +2 ai tiri attacco e ai danni fino al prossimo riposo.</p>"
+        }
+      }
+    },
+    "Iron Dagger Pendant": {
+      "name": "Pendente del Pugnale di Ferro",
+      "description": "<p>Una volta per riposo lungo, potete bisbigliare il nome di una creatura al pendente. Il pendente vi spinge gentilmente nella direzione della creatura fino al prossimo riposo lungo.</p>",
+      "actions": {
+        "yLsPSAceq9zCOWbV": {
+          "name": "Attivare",
+          "description": ""
+        }
+      },
+      "effects": {
+        "s4bAygaEXKL5YTRQ": {
+          "name": "Pendente del Pugnale di Ferro",
+          "description": "<p>Il pendente vi spinge gentilmente nella direzione della creatura fino al prossimo riposo lungo.</p>"
+        }
+      }
+    },
+    "Iron Veil": {
+      "name": "Velo di Ferro",
+      "description": "<p>Questo cappuccio di catenelle in ferro rende invisibile chi lo indossa alle creature fatate.</p>"
+    },
+    "Kingfisher's Net": {
+      "name": "Rete del Martin Pescatore",
+      "description": "<p>Una volta per riposo lungo, immergendo la rete in qualsiasi specchio d’acqua pescherete un pesce, a prescindere dal fatto che un pesce possa vivere in quell’acqua.</p>",
+      "actions": {
+        "bLeDvOOUk8fk3npE": {
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "Knockback Bracelets": {
+      "name": "Braccialetti del Contraccolpo",
+      "description": "<p>Dopo un attacco con un’arma riuscito, potete spingere il vostro avversario fino a distanza Ravvicinata rispetto a dove si trovava.</p>"
+    },
     "Lakestrider Boots": {
       "name": "Stivali della Traversata",
       "description": "<p>Potete camminare sulla superficie dell’acqua come se fosse terreno morbido.</p>"
+    },
+    "Loaded Dice": {
+      "name": "Dadi Truccati",
+      "description": "<p>Potete ottenere il risultato che volete da questi dadi superando un Tiro Astuzia (14). Se tirate con Paura, chiunque si accorgerà che sono truccati.</p>"
     },
     "Lorekeeper": {
       "name": "Diario dei Segreti",
@@ -308,6 +561,14 @@
       "name": "Manette",
       "description": "<p>Questo paio di manette con lucchetto è dotato di una chiave.</p>"
     },
+    "Mandragorian Torch": {
+      "name": "Torcia della Mandragora",
+      "description": "<p>Solo chi impugna questa torcia può vedere la luce che emette.</p>"
+    },
+    "Map of Revelation": {
+      "name": "Mappa Rivelante",
+      "description": "<p>Potete sintonizzare questa mappa su una creatura alla volta. La mappa rappresenta sempre i dintorni in cui si trova la creatura.</p>"
+    },
     "Minor Health Potion Recipe": {
       "name": "Ricetta della Pozione di Guarigione Minore",
       "description": "<p>Come mossa durante l’interludio, potete usare una fiala di sangue per creare una Pozione di Guarigione Minore.</p>"
@@ -316,16 +577,68 @@
       "name": "Ricetta della Pozione di Recupero Minore",
       "description": "<p>Come mossa durante l’interludio, potete usare l’osso di una creatura per creare una Pozione di Recupero Minore.</p>"
     },
+    "Molepaw Mittens": {
+      "name": "Guanti delle Zampe di Talpa",
+      "description": "<p>Spendete una Speranza per nuotare nella terra come se fosse acqua per i prossimi 10 minuti.</p>",
+      "actions": {
+        "SzsYjhQY2sZ7VdtD": {
+          "name": "Spendere 1 Speranza",
+          "description": ""
+        }
+      },
+      "effects": {
+        "zhPgjJuW4MWl7Lb9": {
+          "name": "Guanti delle Zampe di Talpa",
+          "description": "<p>Spendete una Speranza per nuotare nella terra come se fosse acqua per i prossimi 10 minuti.</p>"
+        }
+      }
+    },
     "Mythic Dust Recipe": {
       "name": "Formula della Polvere Mistica",
       "description": "<p>Come mossa durante l’interludio, potete usare una manciata di polvere d’oro fine per creare Polvere Mistica.</p>"
     },
-    "Paragon’s Chain": {
+    "Namer's Oracle": {
+      "name": "Oracolo dei Nomi",
+      "description": "<p>Una volta per sessione, potete lanciare questi dadi runici per scoprire il nome completo dell’ultima creatura che avete toccato.</p>",
+      "actions": {
+        "M3YbDPW9w7rIXZG1": {
+          "name": "Tirare i Dadi",
+          "description": ""
+        }
+      }
+    },
+    "Nighthawker's Ring": {
+      "name": "Anello del Nottambulo",
+      "description": "<p>Spendete una Speranza per attivare la gemma incastonata nell’anello fino al termine della scena. Mentre è attiva, la gemma cambia colore quando vi avvicinate a tesori nascosti: colori caldi quando si è più vicini, freddi quanto si è più lontani.</p>",
+      "actions": {
+        "dZni6lym19ljT67O": {
+          "name": "Spendere 1 Speranza",
+          "description": ""
+        }
+      },
+      "effects": {
+        "EUPb3chDFCISikV4": {
+          "name": "Anello del Nottambulo",
+          "description": "<p>Mentre è attiva, la gemma cambia colore quando vi avvicinate a tesori nascosti: colori caldi quando si è più vicini, freddi quanto si è più lontani.</p>"
+        }
+      }
+    },
+    "Paragon's Chain": {
       "name": "Catenina della Meditazione",
       "description": "<p>Come mossa durante un interludio, potete meditare su un ideale o un principio a cui tenete particolarmente e concentrare la vostra volontà in questa catenina.</p><p>Una volta per riposo lungo, potete spendere una Speranza per tirare un d20 come Dado Speranza per i tiri che si ricollegano direttamente a tale principio.</p>",
       "actions": {
         "esnUuqMcvyOvI6PV": {
           "name": "Utilizzare",
+          "description": ""
+        }
+      }
+    },
+    "Phobophage's Circlet": {
+      "name": "Tiara Divora Paura",
+      "description": "<p>Quando il GM spende una Paura, tirate un d4. Con un 4, una volta per scena, rimuovete uno Stress.</p>",
+      "actions": {
+        "2s4ofx7L65OGBX6I": {
+          "name": "Tirare 1d4",
           "description": ""
         }
       }
@@ -354,6 +667,10 @@
       "name": "Fischietto del Musico",
       "description": "<p>Questo fischietto artigianale ha un suono caratteristico. Quando lo suonate, il suo tono penetrante può essere udito in un raggio di 1,5 chilometri.</p>"
     },
+    "Portal Frames": {
+      "name": "Cornici del Portale",
+      "description": "<p>Questo paio di piccole cornici decorate, una rossa e l’altra blu, sono connesse. Qualsiasi cosa entri in una sbuca dall’altra.</p>"
+    },
     "Portal Seed": {
       "name": "Seme del Portale",
       "description": "<p>Potete piantare questo seme nel terreno per far crescere un portale in quel punto. Il portale sarà pronto per l’uso in 24 ore. Potete usare questo portale per viaggiare in qualsiasi altro luogo in cui avete piantato un altro Seme del Portale. Il portale può essere distrutto infliggendogli una qualsiasi quantità di danni magici.</p>"
@@ -367,6 +684,24 @@
           "description": ""
         }
       }
+    },
+    "Quillshawl": {
+      "name": "Stola di Aculei",
+      "description": "<p>Se un avversario vi attacca in Mischia, deve superare un tiro reazione (12) o subire un Punto Ferita.</p>",
+      "actions": {
+        "bOTGYms5yiburnW8": {
+          "name": "Tiro Reazione",
+          "description": ""
+        }
+      }
+    },
+    "Reliquary of the Sightless Saint": {
+      "name": "Reliquiario del Santo Cieco",
+      "description": "<p>Ottenete un bonus di +1 al Dado Speranza quando scegliete la mossa finale Rischiare Tutto.</p>"
+    },
+    "Returning Ring": {
+      "name": "Anello Ritornante",
+      "description": "<p>Quando lanciate l’arma primaria mentre indossate questo anello, essa ricompare nella vostra mano immediatamente dopo l’attacco.</p>"
     },
     "Ring of Resistance": {
       "name": "Anello della Resistenza",
@@ -410,6 +745,28 @@
         }
       }
     },
+    "Rings of Alliance": {
+      "name": "Anelli dell’Alleanza",
+      "description": "<p>Due creature possono indossare questi anelli di oro rosa. Una volta per sessione, potete iniziare un Tiro Combinato con chi indossa l’altro anello senza spendere Speranza e senza che questo conti nel vostro limite di Tiri Combinati per sessione.</p>",
+      "actions": {
+        "maCcwSIizfVArFmH": {
+          "name": "Attivare",
+          "description": ""
+        }
+      }
+    },
+    "Rings of Camaraderie": {
+      "name": "Anelli della Compagnia",
+      "description": "<p>Due creature possono indossare questi anelli di legno. Potete marcare lo Stress di chiunque indossi l’altro anello (con il suo permesso) come se fosse il vostro.</p>"
+    },
+    "Rings of Friendship": {
+      "name": "Anelli dell’Amicizia",
+      "description": "<p>Due creature possono indossare questi anelli che rappresentano due serpenti acciambellati. Potete spendere la Speranza di chi indossa l’altro anello (con il suo permesso) come se fosse la vostra.</p>"
+    },
+    "Self-Tying Rope": {
+      "name": "Corda Autoannodante",
+      "description": "<p>Questa corda può essere annodata o sciolta con un comando.</p>"
+    },
     "Shard of Memory": {
       "name": "Frammento di Memoria",
       "description": "<p>Una volta per riposo lungo, potete spendere 2 Speranze per richiamare una carta dominio dalla riserva invece di pagare il suo Costo di Richiamo.</p>",
@@ -420,12 +777,36 @@
         }
       }
     },
+    "Silee's Folding Knife": {
+      "name": "Coltello a Serramanico di Silee",
+      "description": "<p>Questa lama di circa 8 cm può tagliare qualsiasi cosa, eccetto il suo manico.</p>"
+    },
     "Skeleton Key": {
       "name": "Passepartout",
       "description": "<p>Quando usate questa chiave per aprire una porta chiusa, ottenete vantaggio sul Tiro Astuzia.</p>",
       "actions": {
         "lV6W9M1CX6N8jSpt": {
           "name": "Aprire una serratura",
+          "description": ""
+        }
+      }
+    },
+    "Sorcerer's Hat": {
+      "name": "Cappello dello Stregone",
+      "description": "<p>Questo cappello a cono è ricamato di stelle argentate. Una volta per riposo, potete lanciare un incantesimo dalla vostra riserva il cui Costo di Richiamo sia pari o inferiore al vostro rango, tranne quegli incantesimi inseriti definitivamente nella riserva.</p>",
+      "actions": {
+        "GqZbEhbCJOCok3Ph": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      }
+    },
+    "Soul-Twin Circlets": {
+      "name": "Tiare dell’Anima Gemella",
+      "description": "<p>Due creature possono indossare questa coppia di tiare. Potete spendere una Speranza per scambiarvi di posto con l’altra creatura che la indossa.</p>",
+      "actions": {
+        "2a8CN94tQarhPBO7": {
+          "name": "Spendere 1 Speranza",
           "description": ""
         }
       }
@@ -448,6 +829,80 @@
       "name": "Verga Levitante",
       "description": "<p>Questa verga piatta è incisa con delle rune. Quando la attivate, si sospende immediatamente in aria. Finché non viene disattivata, non può essere spostata, non obbedisce alle regole della gravità e rimane al suo posto.</p>"
     },
+    "Temporal Sanctuary": {
+      "name": "Santuario del Tempo",
+      "description": "<p>Un PG che riposi nel Santuario del Tempo può scegliere una mossa di interludio addizionale.</p>",
+      "effects": {
+        "K1ZreKqxSLXvANm5": {
+          "name": "Santuario del Tempo",
+          "description": "<p>Un PG che riposi nel Santuario del Tempo può scegliere una mossa di interludio addizionale.</p>"
+        }
+      }
+    },
+    "Thief's Compass": {
+      "name": "Bussola del Ladro",
+      "description": "<p>La bussola punta l’uscita più vicina di un edificio e l’entrata più vicina quando si è all’esterno.</p>"
+    },
+    "Timekeeper's Pendant": {
+      "name": "Pendente del Segnatempo",
+      "description": "<p>Potete scegliere una mossa di interludio addizionale durante un riposo.</p>",
+      "effects": {
+        "RaFL9RF6M2Oa1Mc0": {
+          "name": "Pendente del Segnatempo",
+          "description": "<p>Potete scegliere una mossa di interludio addizionale durante un riposo.</p>"
+        }
+      }
+    },
+    "Titan's Girdle": {
+      "name": "Cintura del Titano",
+      "description": "<p>Una volta per scena, potete attivare la cintura per ricevere +1 alla Competenza per il prossimo attacco.</p>",
+      "actions": {
+        "bdJqnWHYKhzkQg7j": {
+          "name": "Attivare la Cintura",
+          "description": ""
+        }
+      },
+      "effects": {
+        "YQFUsFB2APojHKbh": {
+          "name": "Cintura Attiva",
+          "description": "<p>Una volta per scena, potete attivare la cintura per ricevere +1 alla Competenza per il prossimo attacco.</p>"
+        }
+      }
+    },
+    "Traveler's Bell": {
+      "name": "Campanella del Viandante",
+      "description": "<p>Una volta per riposo lungo, suonare la campanella aprirà un passaggio attraverso terreni accidentati o nel sottobosco per un’ora.</p>",
+      "actions": {
+        "U3U0FAL95FouCQ8P": {
+          "name": "Suonare la Campanella",
+          "description": ""
+        }
+      }
+    },
+    "Two-Faced Aegis Brooch": {
+      "name": "Spilla a Due Facce dell’Egida",
+      "description": "<p>Una volta per riposo, [[/r 1d2]]{lanciate una moneta}. Con testa, diventate immuni al prossimo danno fisico che subireste; con croce, al prossimo danno magico.</p>",
+      "actions": {
+        "jO0d2urVgS7Sam8O": {
+          "name": "Testa",
+          "description": ""
+        },
+        "MFe6wYWZt1D95fIU": {
+          "name": "Croce",
+          "description": ""
+        }
+      },
+      "effects": {
+        "v4B2AXAw5ipJ3KG6": {
+          "name": "Testa",
+          "description": "<p>Con testa, diventate immuni al prossimo danno fisico che subireste.</p>"
+        },
+        "pxrbpDOlTozFmTnr": {
+          "name": "Croce",
+          "description": "<p>Con croce, diventate immuni al prossimo danno magico che subireste.</p>"
+        }
+      }
+    },
     "Valorstone": {
       "name": "Pietra del Valore",
       "description": "<p>Potete incastonare questa pietra a un’armatura che non abbia già una caratteristica. L’armatura ottiene la seguente caratteristica. <strong>Resiliente:</strong> prima di marcare l’ultima Casella Armatura, tirate un d6. Se ottenete un 6, riducete la gravità di una Soglia senza marcare la Casella Armatura.</p>"
@@ -455,6 +910,28 @@
     "Vial of Darksmoke Recipe": {
       "name": "Ricetta di Nerofumo",
       "description": "<p>Come mossa durante un interludio, potete marcare uno Stress per creare una Fiala di Nerofumo.</p>"
+    },
+    "Warp Pendant": {
+      "name": "Pendente Distorcente",
+      "description": "<p>Una volta per riposto, marcate uno Stress per teletrasportarvi in un punto che potete vedere.</p>",
+      "actions": {
+        "B1xcdTjpaoK4TxI5": {
+          "name": "Marcare 1 Stress",
+          "description": ""
+        }
+      }
+    },
+    "Whisperstep Anklet": {
+      "name": "Cavigliera del Passo Sussurrato",
+      "description": "<p>Questa cavigliera rende silenziosi i vostri passi, finché vi limitate a camminare.</p>"
+    },
+    "Wildrider's Saddle": {
+      "name": "Sella del Cavaliere Selvaggio",
+      "description": "<p>Questa sella permette all’animale su cui è assicurata di comprendere i comandi del cavaliere.</p>"
+    },
+    "Windup Toy": {
+      "name": "Giocattolo a Molla",
+      "description": "<p>Questo giocattolo meccanico a forma di cucciolo di strigolupo può essere programmato per eseguire semplici giochetti.</p>"
     },
     "Woven Net": {
       "name": "Rete Intrecciata",
@@ -475,6 +952,10 @@
           "description": ""
         }
       }
+    },
+    "Zephyr's Jar": {
+      "name": "Giara dello Zefiro",
+      "description": "<p>Quando è vuoto, potete aprire questo piccolo otre con il brutto tempo per risucchiare le precipitazioni e riportare il sereno. Il maltempo rimane chiuso al suo interno finché non viene rilasciato aprendolo.</p>"
     }
   }
 }

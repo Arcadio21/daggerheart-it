@@ -19,6 +19,26 @@
     "Tier 4": "Rango 4"
   },
   "entries": {
+    "Advanced Banded Armor": {
+      "name": "Armatura a Bande Superiore",
+      "description": "Scomoda: −1 all’Evasione; quando subite un danno Grave, marcate uno Stress.",
+      "effects": {
+        "clo7We2aUibWdsmD": {
+          "name": "Scomoda",
+          "description": "−1 all’Evasione; quando subite un danno Grave, marcate uno Stress."
+        }
+      }
+    },
+    "Advanced Brigandine Armor": {
+      "name": "Brigantina Superiore",
+      "description": "Foderata: Marcate uno Stress per annullare un danno minore.",
+      "effects": {
+        "Z1MLDyOdXJvYA0sr": {
+          "name": "Foderata",
+          "description": "Marcate uno Stress per annullare un danno minore."
+        }
+      }
+    },
     "Advanced Chainmail Armor": {
       "name": "Cotta di Maglia Superiore",
       "description": "Pesante: −1 all’Evasione",
@@ -53,6 +73,46 @@
       "name": "Corazza di Cuoio Superiore",
       "description": ""
     },
+    "Advanced Mage Robes": {
+      "name": "Vesti del Mago Superiori",
+      "description": "Incantate: Guadagnate un bonus alle soglie di danno pari al vostro tratto da Incantatore.",
+      "effects": {
+        "FdkTFA6u4HAKrwa2": {
+          "name": "Incantate",
+          "description": "Guadagnate un bonus alle soglie di danno pari al vostro tratto da Incantatore."
+        }
+      }
+    },
+    "Advanced Scale Mail Armor": {
+      "name": "Corazza a Scaglie Superiore",
+      "description": "Ingombrante: −1 all’Astuzia",
+      "effects": {
+        "2uaDK1adL1aVP1Pg": {
+          "name": "Ingombrante",
+          "description": "−1 all’Astuzia"
+        }
+      }
+    },
+    "Astral Raiment": {
+      "name": "Abito Astrale",
+      "description": "Astrale: Marcate uno Stress per avere vantaggio in un Tiro Incantesimo.",
+      "actions": {
+        "1xXZfSn4U37AgDRB": {
+          "name": "Astrale",
+          "description": "Marcate uno Stress per avere vantaggio in un Tiro Incantesimo."
+        }
+      }
+    },
+    "Banded Armor": {
+      "name": "Armatura a Bande",
+      "description": "Scomoda: −1 all’Evasione; quando subite un danno Grave, marcate uno Stress.",
+      "effects": {
+        "JkRfeN3ioW857m1p": {
+          "name": "Scomoda",
+          "description": "−1 all’Evasione; quando subite un danno Grave, marcate uno Stress."
+        }
+      }
+    },
     "Bellamoi Fine Armor": {
       "name": "Corpetto di Bellamoi",
       "description": "Dorato: +1 alla Presenza",
@@ -73,6 +133,26 @@
         }
       }
     },
+    "Bloodstone Plate Armor": {
+      "name": "Corazza di Piastre di Eliotropio",
+      "description": "Assetata di Sangue: Quando ottenete un successo critico in Mischia con un’arma, recuperate un Punto Ferita.",
+      "actions": {
+        "LoUjBJNX5nvhKyZM": {
+          "name": "Assetata di Sangue",
+          "description": "Quando ottenete un successo critico in Mischia con un’arma, recuperate un Punto Ferita."
+        }
+      }
+    },
+    "Brigandine Armor": {
+      "name": "Brigantina",
+      "description": "Foderata: Marcate uno Stress per annullare un danno minore.",
+      "effects": {
+        "Qqdax2Dl4UHB9TxB": {
+          "name": "Foderata",
+          "description": "Marcate uno Stress per annullare un danno minore."
+        }
+      }
+    },
     "Chainmail Armor": {
       "name": "Cotta di Maglia",
       "description": "Pesante: −1 all’Evasione",
@@ -90,6 +170,46 @@
         "8bwf1Ri3jYkjphEv": {
           "name": "Incanalante",
           "description": "+1 ai Tiri Incantesimo"
+        }
+      }
+    },
+    "Circle-Forged Dreadplate": {
+      "name": "Corazza della Ritorsione Terrificante",
+      "description": "Maledicente: Quando subite un qualsiasi numero di Punti Ferita, tirate un d4. Con un 4, chi vi ha ferito deve marcare lo stesso numero di Stress.",
+      "actions": {
+        "3io8jJeWVrwcKBcF": {
+          "name": "Maledicente",
+          "description": "Quando subite un qualsiasi numero di Punti Ferita, tirate un d4. Con un 4, chi vi ha ferito deve marcare lo stesso numero di Stress."
+        }
+      }
+    },
+    "Cloverweave Cloak": {
+      "name": "Mantello di Trifogli",
+      "description": "Baciato dalla Fortuna: Una volta per scena, potete cambiare un fallimento con Speranza in un successo con Paura.",
+      "actions": {
+        "0JzAOuMyJDSdEpy3": {
+          "name": "Baciato dalla Fortuna",
+          "description": "Una volta per scena, potete cambiare un fallimento con Speranza in un successo con Paura."
+        }
+      }
+    },
+    "Darkweave Shroud": {
+      "name": "Sudario di Tramascura",
+      "description": "Passo Spettrale: Una volta per riposo, marcate uno Stress per muovervi fino a distanza Ravvicinata attraverso oggetti solidi.",
+      "actions": {
+        "5Hq0OZmmnGykxe6H": {
+          "name": "Passo Spettrale",
+          "description": "Una volta per riposo, marcate uno Stress per muovervi fino a distanza Ravvicinata attraverso oggetti solidi."
+        }
+      }
+    },
+    "Deep-Forged Coral Armor": {
+      "name": "Corazza in Corallo degli Abissi",
+      "description": "Acquatica: Quando siete sott’acqua, potete respirare normalmente e avete vantaggio ai Tiri Agilità.",
+      "effects": {
+        "3lzAYwHLDaq0HiMs": {
+          "name": "Acquatica",
+          "description": "Quando siete sott’acqua, potete respirare normalmente e avete vantaggio ai Tiri Agilità."
         }
       }
     },
@@ -133,6 +253,16 @@
         }
       }
     },
+    "Enchanter's Robes": {
+      "name": "Vesti dell’Incantatore",
+      "description": "Mnemoniche: Una volta per scena, potete richiamare una carta dominio dalla riserva senza pagarne il Costo di Richiamo.",
+      "actions": {
+        "SqJwukvzZAPDgCJy": {
+          "name": "Mnemoniche",
+          "description": "Una volta per scena, potete richiamare una carta dominio dalla riserva senza pagarne il Costo di Richiamo."
+        }
+      }
+    },
     "Full Fortified Armor": {
       "name": "Armatura Completa di Piastre",
       "description": "Rinforzata: Quando marcate una Casella Armatura, riducete la gravità di un attacco di due soglie invece che di una.",
@@ -163,6 +293,46 @@
         }
       }
     },
+    "Gilded Sunplate": {
+      "name": "Corazza Dorata del Sole",
+      "description": "Risplendente: Una volta per scena, quando spendete Speranza potete cancellare una Casella Armatura.",
+      "actions": {
+        "d9r7VK4r3fb7KHMu": {
+          "name": "Risplendente",
+          "description": "Una volta per scena, quando spendete Speranza potete cancellare una Casella Armatura."
+        }
+      }
+    },
+    "Godbound Laminar": {
+      "name": "Armatura Lamellare di Essenza Divina",
+      "description": "Divina: Quando marcate una Casella Armatura, guadagnate una Speranza.",
+      "actions": {
+        "h7BCDsiPhLZxwllM": {
+          "name": "Divina",
+          "description": "Quando marcate una Casella Armatura, guadagnate una Speranza."
+        }
+      }
+    },
+    "Granminster's Finery": {
+      "name": "Completo del Gran Maestro",
+      "description": "Magnifico: Guadagnate un bonus al Punteggio di Armatura pari alla vostra Presenza.",
+      "effects": {
+        "zvc1X0O4HyQE9yfV": {
+          "name": "Magnifico",
+          "description": "Guadagnate un bonus al Punteggio di Armatura pari alla vostra Presenza."
+        }
+      }
+    },
+    "Hallowed Heroplate": {
+      "name": "Armatura Benedetta dell’Eroe",
+      "description": "Santificata: Una volta per riposo lungo, potete spendere un qualsiasi numero di Speranze prima di compiere la mossa finale Rischiare Tutto. Guadagnate un bonus al risultato del Dado Speranza pari alle Speranze spese.",
+      "actions": {
+        "BI0HMrVMByFTti3u": {
+          "name": "Santificata",
+          "description": "Una volta per riposo lungo, potete spendere un qualsiasi numero di Speranze prima di compiere la mossa finale Rischiare Tutto. Guadagnate un bonus al risultato del Dado Speranza pari alle Speranze spese."
+        }
+      }
+    },
     "Harrowbone Armor": {
       "name": "Corazza di Ossa Contorte",
       "description": "Resiliente: Prima di marcare l’ultima Casella Armatura, tirate un d6. Con un 6, riducete la gravità di una soglia senza marcare la Casella Armatura.",
@@ -170,6 +340,36 @@
         "IzM88FIxQ35P5VB2": {
           "name": "Resiliente",
           "description": "Prima di marcare l’ultima Casella Armatura, tirate un d6. Con un 6, riducete la gravità di una soglia senza marcare la Casella Armatura."
+        }
+      }
+    },
+    "Hawkguard's Mantle": {
+      "name": "Mantello della Guardia del Falco",
+      "description": "Planante: Potete planare fino a distanza Lontana e siete immuni ai danni da caduta.",
+      "actions": {
+        "DlCbxmVa5udw4wLA": {
+          "name": "Planante",
+          "description": "Potete planare fino a distanza Lontana e siete immuni ai danni da caduta."
+        }
+      }
+    },
+    "Improved Banded Armor": {
+      "name": "Armatura a Bande Perfezionata",
+      "description": "Scomoda: −1 all’Evasione; quando subite un danno Grave, marcate uno Stress.",
+      "effects": {
+        "ItHCEXGyY7KY3ODo": {
+          "name": "Scomoda",
+          "description": "−1 all’Evasione; quando subite un danno Grave, marcate uno Stress."
+        }
+      }
+    },
+    "Improved Brigandine Armor": {
+      "name": "Brigantina Perfezionata",
+      "description": "Foderata: Marcate uno Stress per annullare un danno Minore.",
+      "effects": {
+        "qtuLYIIbHcUzeVpq": {
+          "name": "Foderata",
+          "description": "Marcate uno Stress per annullare un danno Minore."
         }
       }
     },
@@ -207,6 +407,26 @@
       "name": "Corazza di Cuoio Perfezionata",
       "description": ""
     },
+    "Improved Mage Robes": {
+      "name": "Vesti del Mago Perfezionate",
+      "description": "Incantate: Guadagnate un bonus alle soglie di danno pari al vostro tratto da Incantatore.",
+      "effects": {
+        "68KNvbicN2lASHIo": {
+          "name": "Incantate",
+          "description": "Guadagnate un bonus alle soglie di danno pari al vostro tratto da Incantatore."
+        }
+      }
+    },
+    "Improved Scale Mail Armor": {
+      "name": "Corazza a Scaglie Perfezionata",
+      "description": "Ingombrante: −1 all’Astuzia",
+      "effects": {
+        "bE8TfDWmibDVXlDK": {
+          "name": "Ingombrante",
+          "description": "−1 all’Astuzia"
+        }
+      }
+    },
     "Irontree Breastplate Armor": {
       "name": "Pettorale di Legnoferro",
       "description": "Rinforzato: Quando marcate l’ultima Casella Armatura, aumentate le soglie di danno di +2 finché non riparate almeno 1 Casella Armatura.",
@@ -220,6 +440,26 @@
     "Leather Armor": {
       "name": "Corazza di Cuoio",
       "description": ""
+    },
+    "Legendary Banded Armor": {
+      "name": "Armatura a Bande Leggendaria",
+      "description": "Scomoda: −1 all’Evasione; quando subite un danno Grave, marcate uno Stress.",
+      "effects": {
+        "jTiOZCLUWkOdkkts": {
+          "name": "Scomoda",
+          "description": "−1 all’Evasione; quando subite un danno Grave, marcate uno Stress."
+        }
+      }
+    },
+    "Legendary Brigandine Armor": {
+      "name": "Brigantina Leggendaria",
+      "description": "Foderata: Marcate uno Stress per annullare un danno minore.",
+      "effects": {
+        "QOqo9BxoI3zEqakL": {
+          "name": "Foderata",
+          "description": "Marcate uno Stress per annullare un danno minore."
+        }
+      }
     },
     "Legendary Chainmail Armor": {
       "name": "Cotta di Maglia Leggendaria",
@@ -255,6 +495,36 @@
       "name": "Corazza di Cuoio Leggendaria",
       "description": ""
     },
+    "Legendary Mage Robes": {
+      "name": "Vesti del Mago Leggendarie",
+      "description": "Incantate: Guadagnate un bonus alle soglie di danno pari al vostro tratto da Incantatore.",
+      "effects": {
+        "YEg4fgH21uRnKW7f": {
+          "name": "Incantate",
+          "description": "Guadagnate un bonus alle soglie di danno pari al vostro tratto da Incantatore."
+        }
+      }
+    },
+    "Legendary Scale Mail Armor": {
+      "name": "Corazza a Scaglie Leggendaria",
+      "description": "Ingombrante: −1 all’Astuzia",
+      "effects": {
+        "yYHxeQ0YPiVl8Cbc": {
+          "name": "Ingombrante",
+          "description": "−1 all’Astuzia"
+        }
+      }
+    },
+    "Mage Robes": {
+      "name": "Vesti del Mago",
+      "description": "Incantate: Guadagnate un bonus alle soglie di danno pari al vostro tratto da Incantatore.",
+      "effects": {
+        "wYHVkzegSmeXOsmn": {
+          "name": "Incantate",
+          "description": "Guadagnate un bonus alle soglie di danno pari al vostro tratto da Incantatore."
+        }
+      }
+    },
     "Monett's Cloak": {
       "name": "Mantello di Monett",
       "description": "Magico: Non potete marcare una Casella Armatura per ridurre il danno fisico.",
@@ -265,6 +535,22 @@
         }
       }
     },
+    "Resonant Harness": {
+      "name": "Imbragatura Risonante",
+      "description": "Vitreo: Quando subireste un danno Grave o superiore, potete marcare 2 Caselle Armatura per negarlo. Se lo fate, subite una penalità di -5 alle soglie di danno finché non riparate l’armatura come mossa di interludio.",
+      "effects": {
+        "dzGZkBgtJjQh3JH1": {
+          "name": "Vitreo",
+          "description": "Subite una penalità di −5 alle soglie di danno finché non riparate l’armatura come mossa di interludio."
+        }
+      },
+      "actions": {
+        "iTv5QVsZaJ6KYEv3": {
+          "name": "Vitreo",
+          "description": "Quando subireste un danno Grave o superiore, potete marcare 2 Caselle Armatura per negarlo. Se lo fate, subite una penalità di -5 alle soglie di danno finché non riparate l’armatura come mossa di interludio."
+        }
+      }
+    },
     "Rosewild Armor": {
       "name": "Armatura di Selvarosa",
       "description": "Speranza: Quando spendereste una Speranza, potete invece marcare una Casella Armatura.",
@@ -272,6 +558,16 @@
         "QRTnCYxJfuJHdnyV": {
           "name": "Speranza",
           "description": "Quando spendereste una Speranza, potete invece marcare una Casella Armatura."
+        }
+      }
+    },
+    "Rune-Forged Exosuit": {
+      "name": "Esoscheletro Runico",
+      "description": "Armonizzato: Il numero massimo di carte dominio nella vostra dotazione scende di 1, ma guadagnate un bonus alle soglie di danno pari al vostro Rango.",
+      "effects": {
+        "VSuoGIo7GpK3JLfA": {
+          "name": "Armonizzato",
+          "description": "Il numero massimo di carte dominio nella vostra dotazione scende di 1, ma guadagnate un bonus alle soglie di danno pari al vostro Rango."
         }
       }
     },
@@ -305,6 +601,36 @@
         }
       }
     },
+    "Scale Mail Armor": {
+      "name": "Corazza a Scaglie",
+      "description": "Ingombrante: −1 all’Astuzia",
+      "effects": {
+        "2wGrVqcFO8jiTuDv": {
+          "name": "Ingombrante",
+          "description": "−1 all’Astuzia"
+        }
+      }
+    },
+    "Skywarden's Lamellar": {
+      "name": "Armatura Lamellare del Guardiano dei Cieli",
+      "description": "Vigilante: +2 all’Evasione",
+      "effects": {
+        "P1bG8YNaWOUkRbn7": {
+          "name": "Vigilante",
+          "description": "+2 all’Evasione"
+        }
+      }
+    },
+    "Spidersilk Tunic": {
+      "name": "Tunica di Aracnoseta",
+      "description": "Arrampicamuri: +1 all’Evasione; potete camminare sui muri facilmente come al suolo.",
+      "effects": {
+        "a1I284B2QCnVEs7e": {
+          "name": "Arrampicamuri",
+          "description": "+1 all’Evasione; potete camminare sui muri facilmente come al suolo."
+        }
+      }
+    },
     "Spiked Plate Armor": {
       "name": "Armatura di Piastre Chiodate",
       "description": "Affilata: Dopo un attacco riuscito contro un bersaglio entro distanza di Mischia, aggiungete un d4 al tiro di danno.",
@@ -312,6 +638,26 @@
         "V8CcTcVAIxHq8KNd": {
           "name": "Affilata",
           "description": "Dopo un attacco riuscito contro un bersaglio entro distanza di Mischia, aggiungete un d4 al tiro di danno."
+        }
+      }
+    },
+    "Stormthread Habit": {
+      "name": "Abito in Filotempesta",
+      "description": "Assorbente: Una volta per scena, quando subite danno magico, potete cancellare una Casella Armatura.",
+      "actions": {
+        "yOf6C8teHAmMhIF1": {
+          "name": "Assorbente",
+          "description": "Una volta per scena, quando subite danno magico, potete cancellare una Casella Armatura."
+        }
+      }
+    },
+    "Trollhide Cuirass": {
+      "name": "Corazza di Pelle di Troll",
+      "description": "Rimarginante: Quando completate un riposo, cancellate una Casella Armatura.",
+      "actions": {
+        "3KVzpGEV8ThH4jhu": {
+          "name": "Rimarginante",
+          "description": "Quando completate un riposo, cancellate una Casella Armatura."
         }
       }
     },
@@ -332,6 +678,16 @@
         "sY3W5JYspN5Du5ag": {
           "name": "Cercatrice di Verità",
           "description": "Questa armatura brilla quando un’altra creatura entro distanza Ravvicinata dice il falso."
+        }
+      }
+    },
+    "Wyrdwood Splint Armor": {
+      "name": "Armatura in Scaglie di Legno Fatato",
+      "description": "Passo Lesto: Non potete essere Trattenuti e potete muovervi fino a distanza Lontana come parte di un tiro azione.",
+      "actions": {
+        "ajgzKFQYH5aUzmZk": {
+          "name": "Passo Lesto",
+          "description": "Non potete essere Trattenuti e potete muovervi fino a distanza Lontana come parte di un tiro azione."
         }
       }
     }

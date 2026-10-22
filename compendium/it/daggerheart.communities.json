@@ -15,41 +15,25 @@
     "Community Features": "Capacità della Comunità"
   },
   "entries": {
-    "Highborne": {
-      "name": "Privilegiata",
-      "description": "<p>Far parte di una comunità di privilegiati significa essere abituati a una vita di eleganza, opulenza e prestigio all'interno delle alte sfere della società.</p><p>Tradizionalmente, i membri di una comunità privilegiata possiedono un'incredibile ricchezza materiale. Anche se questa può assumere diverse forme a seconda della comunità (oro e altri minerali, terre o il controllo dei mezzi di produzione) questo status è sempre accompagnato da potere e influenza. I privilegiati attribuiscono grande valore ai titoli e ai possedimenti e la mobilità sociale all'interno dei loro ranghi è scarsa. I membri di una comunità privilegiata spesso controllano la politica e l'economia delle aree in cui vivono grazie alla loro abilità di influenzare le persone con la loro sostanziale ricchezza. La salute e la sicurezza dei ceti meno abbienti che vivono in questi luoghi dipendono spesso dall'abilità di questa classe dirigente di dare priorità al benessere dei propri sudditi rispetto al profitto.</p><p><em>I privilegiati sono spesso affabili, intraprendenti, irremovibili, ostentati, schietti e scaltri.</em></p>"
+    "Brave Face": {
+      "name": "Espressione Coraggiosa",
+      "description": "<p>Una volta per sessione, quando sareste costretti a marcare uno Stress, potete invece <strong>spendere una Speranza</strong>.</p>",
+      "actions": {
+        "sguCcIhnp8FjwVZd": {
+          "name": "Spendere 1 Speranza",
+          "description": ""
+        }
+      }
     },
-    "Loreborne": {
-      "name": "Erudita",
-      "description": "<p>Far parte di una comunità di eruditi significa appartenere a una cultura che dà priorità alla conoscenza e alle capacità politiche.</p><p>Le comunità erudite attribuiscono grande valore al sapere, spesso sotto forma di conservazione della memoria storica, avanzamento politico, studio scientifico, sviluppo di abilità o raccolta di leggende e mitologie. La maggior parte dei membri di queste comunità svolge attività di ricerca in istituzioni che costituiscono le stesse fondamenta della civiltà, mentre alcuni eclettici membri si dedicano allo studio del mondo naturale. Alcuni possono essere isolati, operando in piccole enclave, scuole o gilde e seguendo la propria etica. Altri ancora esercitano il loro sapere su scala più ampia, compiendo abili manovre politiche in tutti i contesti di governo e amministrazione.</p><p><em>Gli eruditi sono spesso curiosi, diretti, eloquenti, entusiasti, pazienti e spiritosi.</em></p>"
-    },
-    "Orderborne": {
-      "name": "Austera",
-      "description": "<p>Far parte di una comunità austera significa provenire da una cultura che si concentra sulla disciplina o sulla fede e che sostiene con forza una serie di principi che riflettono la propria esperienza.</p><p>Le comunità austere sono spesso tra le più potenti tra quelle circostanti. Allineando i membri della loro società attorno a un valore o a un obiettivo comune, come una divinità, una dottrina, un'etica o persino un'attività o un commercio condivisi, gli organi di governo di queste società sono in grado di mobilitare popolazioni numerose con minor sforzo. Sebbene le comunità austere assumano una varietà di forme, alcune anche profondamente pacifiste, forse le più temute sono quelle che si strutturano attorno alla prodezza militare. In tal caso, non è raro che siano loro a fornire soldati e mercenari ad altre città o nazioni.</p><p><em>Gli austeri sono spesso ambiziosi, benevoli, cauti, riflessivi, sardonici e stoici.</em></p>"
-    },
-    "Ridgeborne": {
-      "name": "Montanara",
-      "description": "<p>Far parte di una comunità montanara significa chiamare casa le cime rocciose e i dirupi aguzzi delle alte vette.</p><p>Coloro che hanno vissuto in montagna spesso si considerano più resistenti della maggior parte degli altri perché hanno prosperato nelle regioni più pericolose delle terre emerse. Questi gruppi sono avvezzi alla versatilità, e sviluppano tecnologie e attrezzature uniche per spostare persone e prodotti su terreni difficili. Per questo motivo, i montanari sono cresciuti arrampicandosi e scalando, il che li rende robusti e volitivi. Le località di montagna si presentano in forme diverse: alcune città scavano intere pareti rocciose, altre costruiscono castelli di pietra e altre ancora vivono in piccole case sulle cime spazzate dal vento. Le forze esterne spesso faticano ad attaccare queste comunità, in quanto le piccole milizie e le grandi forze militari delle montagne sono molto abili nell'utilizzare il vantaggio di luoghi impervi e facilmente difendibili.</p><p><em>I montanari sono spesso audaci, indomiti, leali, ostinati, riservati e robusti.</em></p>"
-    },
-    "Seaborne": {
-      "name": "Marittima",
-      "description": "<p>Far parte di una comunità marittima significa vivere su o vicino a un grande specchio d'acqua.</p><p>Le comunità marittime sono costruite, sia fisicamente che culturalmente, intorno alle acque che chiamano casa. Alcuni di questi gruppi vivono lungo la costa, costruendo porti per gli abitanti del luogo e per i viaggiatori. Questi porti fungono da centri di commercio, attrazioni turistiche o anche solo punti sicuri dove riposare dopo settimane di viaggio. Altre comunità marittime vivono sull'acqua in piccole imbarcazioni o a bordo di grandi vascelli, con un'idea di \"casa\" che comprende la nave e il suo equipaggio, piuttosto che la terraferma. Indipendentemente dalla loro esatta ubicazione, le comunità marittime sono strettamente legate alle maree dell'oceano e alle creature che lo abitano. Chi vive sull'acqua impara a pescare fin da piccolo e si allena dalla nascita a trattenere il respiro e a nuotare anche nelle acque più tumultuose. Gli individui di questi gruppi sono molto ricercati per le loro abilità di navigazione e molti diventano capitani di navi, sia all'interno della propria comunità, sia per conto di un'altra o addirittura al timone di una potente flotta.</p><p><em>I marittimi sono spesso collaborativi, determinati, esuberanti, fieri, ruvidi e schietti.</em></p>"
-    },
-    "Slyborne": {
-      "name": "Bassifondi",
-      "description": "<p>Far parte di una comunità dei bassifondi significa appartenere a un gruppo che opera al di fuori della legge e che comprende ogni sorta di criminali, truffatori e artisti del raggiro.</p><p>I membri delle comunità dei bassifondi sono accomunati da obiettivi disdicevoli e dai mezzi astuti di cui si servono per raggiungerli. Molte persone in queste comunità hanno una serie spregiudicata di capacità: falsificazione, furto, contrabbando e violenza. Possono appartenere ai bassifondi persone di qualsiasi ceto sociale, da chi ha accumulato grandi ricchezze e influenza a chi non ha una moneta nelle tasche. A un occhio esterno, la gente dei bassifondi può sembrare una congrega di canaglie senza alcuna lealtà, ma queste comunità possiedono alcuni dei più rigidi codici d'onore che, se infranti, possono causare una fine terrificante per il trasgressore.</p><p><em>La gente dei bassifondi è spesso acuta, astuta, calcolatrice, formidabile, intelligente e tenace.</em></p>"
-    },
-    "Underborne": {
-      "name": "Sotterranea",
-      "description": "<p>Far parte di una comunità sotterranea significa appartenere a una società che si è sviluppata sotto la superficie.</p><p>Molti appartenenti a una cultura sotterranea vivono letteralmente sotto le città e i villaggi di altre comunità, mentre altri si spingono ancor di più in profondità. Queste comunità vanno da piccoli gruppi familiari in piccole grotte a enormi metropoli in immense caverne di pietra. In molti luoghi, gli appartenenti a una comunità del sottosuolo sono conosciuti per la loro incredibile audacia e abilità, che permette grandi imprese di architettura e ingegneria. La gente del sottosuolo viene regolarmente ingaggiata per il suo coraggio, poiché anche il meno audace tra loro ha probabilmente incontrato formidabili creature provenienti dalle viscere della terra, e imparare ad affrontarle è una pratica e una necessità fondamentale tra queste società. A causa dei pericoli del loro ambiente, molte comunità sotterranee sviluppano linguaggi non verbali unici che si rivelano altrettanto utili in superficie.</p><p><em>Gli abitanti del sottosuolo sono spesso calmi, elusivi, indomiti, ingegnosi, pieni di risorse e umili.</em></p>"
-    },
-    "Wanderborne": {
-      "name": "Nomade",
-      "description": "<p>Far parte di una comunità nomade significa aver condotto una vita errante, rinunciando a una casa permanente e sperimentando un'ampia varietà di culture.</p><p>A differenza di molte comunità che sono definite dal luogo in cui vivono, i nomadi sono definiti dal loro stile di vita itinerante. A causa delle loro frequenti migrazioni, i nomadi danno meno valore all'accumulo di beni materiali a favore dell'acquisizione di informazioni, competenze e contatti. Mentre alcuni nomadi riconoscono un'etica comune, come una religione o un insieme di valori politici o economici, altri si uniscono dopo una tragedia condivisa, come la perdita della casa o della terra. Indipendentemente dal motivo, i pericoli posti dalla vita sulla strada e la scelta di continuare a percorrerla insieme fanno sì che i nomadi siano noti per la loro salda lealtà.</p><p><em>I nomadi sono spesso atipici, affidabili, giocosi, imperscrutabili, magnanimi e sagaci.</em></p>"
-    },
-    "Wildborne": {
-      "name": "Forestale",
-      "description": "<p>Far parte di una comunità forestale significa vivere nel profondo dei boschi.</p><p>Le comunità forestali sono definite dalla loro dedizione alla conservazione della loro terra natia e molte hanno forti legami religiosi o culturali con la fauna con cui vivono. Ciò si traduce in innovazioni architettoniche e tecnologiche uniche, che privilegiano la sostenibilità rispetto ai risultati a breve termine e ad alto rendimento. È un tratto distintivo delle società forestali integrare i loro villaggi e le loro città con l'ambiente naturale ed evitare di disturbare la vita vegetale e animale. Mentre alcuni costruiscono le loro dimore in alto sui rami degli alberi, altri stabiliscono le loro case a terra sotto la chioma della foresta. Non è raro che coloro che provengono da una comunità forestale rimangano solitari e nascosti nelle loro case nei boschi.</p><p><em>Gli abitanti delle foreste sono spesso leali, premurosi, resistenti, sagaci, solitari e vibranti.</em></p>"
+    "Close-Knit": {
+      "name": "Coesa",
+      "description": "<p>Una volta per ogni Riposo lungo, potete <strong>spendere un numero qualsiasi di Speranze</strong> per concedere a un alleato entro distanza Lontana lo stesso numero di Speranze.</p>",
+      "actions": {
+        "OmflNw0H1vsGAQVp": {
+          "name": "Ottenere 1 Speranza",
+          "description": ""
+        }
+      }
     },
     "Dedicated": {
       "name": "Dedizione",
@@ -60,6 +44,46 @@
           "description": "<p>Annotate tre detti o valori che la vostra educazione vi ha inculcato. Una volta per riposo, quando descrivete come incarnate questi principi attraverso l'azione che state compiendo, potete tirare un <strong>d20</strong> come Dado Speranza.</p>"
         }
       }
+    },
+    "Duneborne": {
+      "name": "Desertica",
+      "description": "<p>Far parte di una comunità desertica significa rivendicare una casa tra le sabbie mutevoli e il clima arido del deserto. Ogni enclave desertica sviluppa metodi specifici per proteggersi dal sole cocente, muoversi attraverso le sabbie roventi, procurarsi e conservare le risorse. Alcune viaggiano attraverso la loro terra, guidando le greggi alla ricerca di pascoli tra le dune, mentre altre si raggruppano attorno alle oasi, collaborando per mantenere e condividere quei rari luoghi in cui l’acqua abbonda. Gli insediamenti delle comunità desertiche sono noti per l’architettura che cattura il vento per rinfrescare gli interni e per i sistemi di irrigazione che attingono a riserve sotterranee per far crescere i raccolti anche nelle condizioni più estreme. Molte comunità desertiche attribuiscono particolare importanza ai legami familiari e alla necessità che tutti contribuiscano al benessere della comunità.</p><p><em>Le comunità desertiche sono spesso versatili, equilibrate, collaborative, devote, allegre e attente.</em></p>"
+    },
+    "Found Family": {
+      "name": "Nuova Famiglia",
+      "description": "<p>Una volta per riposo, potete <strong>spendere una Speranza</strong> per utilizzare l’Esperienza di un alleato come se fosse la vostra. Quando lo fate, descrivete in che modo il tempo trascorso insieme vi ha preparato a questo momento.</p><p>Quando entrate a far parte di una nuova comunità o riscoprite quella perduta, potete scambiare definitivamente questa carta con quella della nuova Comunità.</p>",
+      "actions": {
+        "jt9gOu3FQLcW1TFC": {
+          "name": "Spendere 1 Speranza",
+          "description": ""
+        }
+      }
+    },
+    "Freeborne": {
+      "name": "Affrancata",
+      "description": "<p>Far parte di una comunità che si è affrancata significa provenire da una collettività che un tempo viveva sotto un dominio tirannico, ma che ora è indipendente. Sebbene non esistano due culture che si siano affrancate nello stesso modo, tutte sono accomunate dall’esperienza di aver lottato per preservare la propria identità mentre altri cercavano di sradicarla. Che fosse a causa della religione, delle risorse, della posizione geografica o della cultura, questi gruppi un tempo erano soggiogati da un’altra comunità. Per alcuni, questa sottomissione potrebbe essere terminata solo di recente; per altri, anche se la libertà è stata conquistata da tempo, le cicatrici della tirannia possono persistere, unendo famiglie e vicini per decenni o addirittura generazioni. Molte comunità affrancate si riuniscono e ricostruiscono nelle terre rivendicate o nella patria da cui sono stati strappati. Altre vedono il concetto di “casa” come un insieme di persone che si prendono cura l’una dell’altra, indipendentemente da dove risiedano.</p><p>Molti appartenenti a queste comunità celebrano con passione le loro festività, l’arte, le tradizioni culinarie, lo stile e altre usanze uniche, sia che si tratti di tradizioni di lunga data o di nuove pratiche nate dalla liberazione. Le esperienze passate spesso forgiano in loro un feroce istinto protettivo nei confronti della propria gente e un fervore altrettanto intenso nel celebrare la propria cultura.</p><p><em>Gli affrancati sono spesso ottimisti, cauti, coraggiosi, gioiosi, sovversivi e traumatizzati.</em></p>"
+    },
+    "Frostborne": {
+      "name": "Artica",
+      "description": "<p>Far parte di una comunità artica significa provenire da una terra di neve e ghiaccio. Forgiate da un freddo pungente e implacabile, le comunità artiche sono abituate a sopravvivere nelle condizioni più estreme. I ghiacciai e le tundre che chiamano casa sono solitamente privi di legna, quindi queste comunità utilizzano materiali più facilmente reperibili come ghiaccio, pietra, ossa e pelli di animali per costruire ripari e conservare il calore. Sono abili nel garantire che le scorte durino a lungo e che tutta la popolazione abbia accesso all’essenziale per la sopravvivenza. Come parte della loro strategia di sopravvivenza, quasi tutta la popolazione segue attentamente le condizioni meteorologiche, il sorgere e il tramontare del sole, le esigenze della flora e della fauna locali. A causa del vento ululante e della neve pungente, alcune comunità artiche sviluppano mezzi di comunicazione non verbali in modo da potersi coprire il viso per proteggersi durante gli eventi atmosferici più pericolosi.</p><p><em>I membri di una comunità artica sono spesso astuti, socievoli, intrepidi, determinati, calmi e cordiali.</em></p>"
+    },
+    "Hardy": {
+      "name": "Temprata",
+      "description": "<p>Quando vi riposate, recuperate un Punto Ferita.</p>",
+      "actions": {
+        "kMZnJpFvVJlloXGO": {
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "Hearthborne": {
+      "name": "Rustica",
+      "description": "<p>Far parte di una comunità Rustica significa avere umili origini, avendo vissuto in un modesto villaggio o in campagna. Queste comunità hanno spesso piccole dimensioni e vivono in zone pacifiche e ricche di risorse, dove famiglie e vicini hanno il tempo di sviluppare relazioni coese piuttosto che competere per le scarse provviste. Le comunità rustiche sono prevalentemente agrarie e pastorali, e organizzano la struttura dei loro villaggi attorno alle colture e al bestiame. Il centro del villaggio ospita di solito una serie di botteghe appartenenti a gente del posto e gestite da abili artigiani quali fabbri, calzolai, alchimisti e simili. A volte, le comunità rustiche hanno governanti lontani ma influenti che possiedono la terra in cui gli abitanti del villaggio lavorano e vivono: in questi casi, le risorse sono controllate dai più ricchi, anche se il lavoro è svolto dalla popolazione locale, che potrebbe così avere difficoltà a permettersi i beni di prima necessità di cui ha bisogno. Sebbene alcuni membri della comunità possano essere diffidenti nei confronti degli estranei, la maggior parte è nota per essere accogliente, pacifica e ospitale.</p><p><em>La gente rustica è spesso prudente, generosa, chiusa o loquace, sorridente e tradizionalista.</em></p>"
+    },
+    "Highborne": {
+      "name": "Privilegiata",
+      "description": "<p>Far parte di una comunità di privilegiati significa essere abituati a una vita di eleganza, opulenza e prestigio all'interno delle alte sfere della società.</p><p>Tradizionalmente, i membri di una comunità privilegiata possiedono un'incredibile ricchezza materiale. Anche se questa può assumere diverse forme a seconda della comunità (oro e altri minerali, terre o il controllo dei mezzi di produzione) questo status è sempre accompagnato da potere e influenza. I privilegiati attribuiscono grande valore ai titoli e ai possedimenti e la mobilità sociale all'interno dei loro ranghi è scarsa. I membri di una comunità privilegiata spesso controllano la politica e l'economia delle aree in cui vivono grazie alla loro abilità di influenzare le persone con la loro sostanziale ricchezza. La salute e la sicurezza dei ceti meno abbienti che vivono in questi luoghi dipendono spesso dall'abilità di questa classe dirigente di dare priorità al benessere dei propri sudditi rispetto al profitto.</p><p><em>I privilegiati sono spesso amabili, candidi, conniventi, intraprendenti, ostentatori e imperturbabili.</em></p>"
     },
     "Know the Tide": {
       "name": "Sentire la Marea",
@@ -81,6 +105,10 @@
         }
       }
     },
+    "Loreborne": {
+      "name": "Erudita",
+      "description": "<p>Far parte di una comunità di eruditi significa appartenere a una cultura che dà priorità alla conoscenza e alle capacità politiche.</p><p>Le comunità erudite attribuiscono grande valore al sapere, spesso sotto forma di conservazione della memoria storica, avanzamento politico, studio scientifico, sviluppo di abilità o raccolta di leggende e mitologie. La maggior parte dei membri di queste comunità svolge attività di ricerca in istituzioni che costituiscono le stesse fondamenta della civiltà, mentre alcuni eclettici membri si dedicano allo studio del mondo naturale. Alcuni possono essere isolati, operando in piccole enclave, scuole o gilde e seguendo la propria etica. Altri ancora esercitano il loro sapere su scala più ampia, compiendo abili manovre politiche in tutti i contesti di governo e amministrazione.</p><p><em>Gli eruditi sono spesso diretti, eloquenti, curiosi, pazienti, rapsodici e spiritosi.</em></p>"
+    },
     "Low-Light Living": {
       "name": "Vivere nel Crepuscolo",
       "description": "<p>Quando vi trovate in penombra o nell'oscurità, avete vantaggio ai tiri per nascondersi, indagare o percepire i dettagli.</p>",
@@ -101,6 +129,14 @@
         }
       }
     },
+    "Oasis": {
+      "name": "Oasi",
+      "description": "<p>Durante un riposo breve, voi o un alleato potete ripetere il tiro di un dado utilizzato per una mossa durante l’Interludio e prendere il risultato più alto.</p>"
+    },
+    "Orderborne": {
+      "name": "Austera",
+      "description": "<p>Far parte di una comunità austera significa provenire da una cultura che si concentra sulla disciplina o sulla fede e che sostiene con forza una serie di principi che riflettono la propria esperienza.</p><p>Le comunità austere sono spesso tra le più potenti tra quelle circostanti. Allineando i membri della loro società attorno a un valore o a un obiettivo comune, come una divinità, una dottrina, un'etica o persino un'attività o un commercio condivisi, gli organi di governo di queste società sono in grado di mobilitare popolazioni numerose con minor sforzo. Sebbene le comunità austere assumano una varietà di forme, alcune anche profondamente pacifiste, forse le più temute sono quelle che si strutturano attorno alla prodezza militare. In tal caso, non è raro che siano loro a fornire soldati e mercenari ad altre città o nazioni.</p><p><em>Gli austeri sono spesso ambiziosi, benevoli, pensosi, prudenti, sardonici e stoici.</em></p>"
+    },
     "Privilege": {
       "name": "Privilegio",
       "description": "<p>Avete vantaggio nei tiri per interagire con la nobiltà, contrattare un prezzo o sfruttare la vostra reputazione per ottenere ciò che volete.</p>",
@@ -110,6 +146,14 @@
           "description": "<p>Avete vantaggio nei tiri per interagire con la nobiltà, contrattare un prezzo o sfruttare la vostra reputazione per ottenere ciò che volete.</p>"
         }
       }
+    },
+    "Reborne": {
+      "name": "Esule",
+      "description": "<p>Un tempo facevate parte di una comunità diversa, alla quale ora non appartenete più. A differenza di chi è unito da legami di famiglia, luogo di provenienza, storia e cultura condivisa, gli esuli sono individui che potrebbero non incontrarsi mai e sono accomunati solo dall’esperienza condivisa della solitudine. Che se ne siano andati per scelta o siano stati strappati dalla loro comunità, tutti gli esuli vivono separati dal luogo a cui un tempo appartenevano e portano con sé quella ferita.</p><p>Alcuni esuli hanno scelto di rifiutare o rinunciare alla loro comunità, oppure potrebbero essere stati espulsi con la forza. Ciò avviene soprattutto per contrasti quali divergenze ideologiche, un litigio, o un incidente che li ha costretti ad andarsene. Altri esuli non hanno alcuna conoscenza della propria cultura, magari a causa di dove e come sono cresciuti, oppure perché hanno perso la memoria a causa di un infortunio o della magia. Alcuni addirittura sono tornati dall’aldilà senza alcun ricordo della loro vita precedente, né della cultura che l’aveva plasmata.</p><p>Spesso, gli esuli cercano instancabilmente il proprio passato o sentono di non poter mai appartenere a una comunità, ma a tutti viene concessa l’opportunità di volgere lo sguardo verso il futuro e ridefinire sé stessi, costruendo al contempo nuovi legami con coloro che imparano a conoscere e ad amare.</p><p><em>Gli esuli sono spesso curiosi, pieni di speranza, innocenti, isolati, malinconici e misteriosi.</em></p>"
+    },
+    "Ridgeborne": {
+      "name": "Montanara",
+      "description": "<p>Far parte di una comunità montanara significa chiamare casa le cime rocciose e i dirupi aguzzi delle alte vette.</p><p>Coloro che hanno vissuto in montagna spesso si considerano più resistenti della maggior parte degli altri perché hanno prosperato nelle regioni più pericolose delle terre emerse. Questi gruppi sono avvezzi alla versatilità, e sviluppano tecnologie e attrezzature uniche per spostare persone e prodotti su terreni difficili. Per questo motivo, i montanari sono cresciuti arrampicandosi e scalando, il che li rende robusti e volitivi. Le località di montagna si presentano in forme diverse: alcune città scavano intere pareti rocciose, altre costruiscono castelli di pietra e altre ancora vivono in piccole case sulle cime spazzate dal vento. Le forze esterne spesso faticano ad attaccare queste comunità, in quanto le piccole milizie e le grandi forze militari delle montagne sono molto abili nell'utilizzare il vantaggio di luoghi impervi e facilmente difendibili.</p><p><em>I montanari sono spesso audaci, resistenti, indomiti, leali, riservati e testardi.</em></p>"
     },
     "Scoundrel": {
       "name": "Furfante",
@@ -121,6 +165,14 @@
         }
       }
     },
+    "Seaborne": {
+      "name": "Marittima",
+      "description": "<p>Far parte di una comunità marittima significa vivere su o vicino a un grande specchio d'acqua.</p><p>Le comunità marittime sono costruite, sia fisicamente che culturalmente, intorno alle acque che chiamano casa. Alcuni di questi gruppi vivono lungo la costa, costruendo porti per gli abitanti del luogo e per i viaggiatori. Questi porti fungono da centri di commercio, attrazioni turistiche o anche solo punti sicuri dove riposare dopo settimane di viaggio. Altre comunità marittime vivono sull'acqua in piccole imbarcazioni o a bordo di grandi vascelli, con un'idea di \"casa\" che comprende la nave e il suo equipaggio, piuttosto che la terraferma. Indipendentemente dalla loro esatta ubicazione, le comunità marittime sono strettamente legate alle maree dell'oceano e alle creature che lo abitano. Chi vive sull'acqua impara a pescare fin da piccolo e si allena dalla nascita a trattenere il respiro e a nuotare anche nelle acque più tumultuose. Gli individui di questi gruppi sono molto ricercati per le loro abilità di navigazione e molti diventano capitani di navi, sia all'interno della propria comunità, sia per conto di un'altra o addirittura al timone di una potente flotta.</p><p><em>I marittimi sono spesso candidi, cooperativi, esuberanti, feroci, risoluti e resistenti alle intemperie.</em></p>"
+    },
+    "Slyborne": {
+      "name": "Bassifondi",
+      "description": "<p>Far parte di una comunità dei bassifondi significa appartenere a un gruppo che opera al di fuori della legge e che comprende ogni sorta di criminali, truffatori e artisti del raggiro.</p><p>I membri delle comunità dei bassifondi sono accomunati da obiettivi disdicevoli e dai mezzi astuti di cui si servono per raggiungerli. Molte persone in queste comunità hanno una serie spregiudicata di capacità: falsificazione, furto, contrabbando e violenza. Possono appartenere ai bassifondi persone di qualsiasi ceto sociale, da chi ha accumulato grandi ricchezze e influenza a chi non ha una moneta nelle tasche. A un occhio esterno, la gente dei bassifondi può sembrare una congrega di canaglie senza alcuna lealtà, ma queste comunità possiedono alcuni dei più rigidi codici d'onore che, se infranti, possono causare una fine terrificante per il trasgressore.</p><p><em>Coloro che vivono nei bassifondi sono spesso calcolatori, intelligenti, formidabili, perspicaci, scaltri e tenaci.</em></p>"
+    },
     "Steady": {
       "name": "Costanza",
       "description": "<p>Avete vantaggio ai tiri per attraversare scogliere e sporgenze pericolose, orientarvi in ambienti difficili e sfruttare le vostre conoscenze di sopravvivenza.</p>",
@@ -131,6 +183,28 @@
         }
       }
     },
+    "Unbound": {
+      "name": "Senza Vincoli",
+      "description": "<p>Una volta per sessione, quando tirate con Paura, potete invece tirare con Speranza.</p>",
+      "actions": {
+        "L03g0jA9msxRiuXL": {
+          "name": "Da Paura a Speranza",
+          "description": ""
+        }
+      }
+    },
+    "Underborne": {
+      "name": "Sotterranea",
+      "description": "<p>Far parte di una comunità sotterranea significa appartenere a una società che si è sviluppata sotto la superficie.</p><p>Molti appartenenti a una cultura sotterranea vivono letteralmente sotto le città e i villaggi di altre comunità, mentre altri si spingono ancor di più in profondità. Queste comunità vanno da piccoli gruppi familiari in piccole grotte a enormi metropoli in immense caverne di pietra. In molti luoghi, gli appartenenti a una comunità del sottosuolo sono conosciuti per la loro incredibile audacia e abilità, che permette grandi imprese di architettura e ingegneria. La gente del sottosuolo viene regolarmente ingaggiata per il suo coraggio, poiché anche il meno audace tra loro ha probabilmente incontrato formidabili creature provenienti dalle viscere della terra, e imparare ad affrontarle è una pratica e una necessità fondamentale tra queste società. A causa dei pericoli del loro ambiente, molte comunità sotterranee sviluppano linguaggi non verbali unici che si rivelano altrettanto utili in superficie.</p><p><em>Gli abitanti del sottosuolo sono spesso composti, sfuggenti, indomiti, innovativi, pieni di risorse e senza pretese.</em></p>"
+    },
+    "Wanderborne": {
+      "name": "Nomade",
+      "description": "<p>Far parte di una comunità nomade significa aver condotto una vita errante, rinunciando a una casa permanente e sperimentando un'ampia varietà di culture.</p><p>A differenza di molte comunità che sono definite dal luogo in cui vivono, i nomadi sono definiti dal loro stile di vita itinerante. A causa delle loro frequenti migrazioni, i nomadi danno meno valore all'accumulo di beni materiali a favore dell'acquisizione di informazioni, competenze e contatti. Mentre alcuni nomadi riconoscono un'etica comune, come una religione o un insieme di valori politici o economici, altri si uniscono dopo una tragedia condivisa, come la perdita della casa o della terra. Indipendentemente dal motivo, i pericoli posti dalla vita sulla strada e la scelta di continuare a percorrerla insieme fanno sì che i nomadi siano noti per la loro salda lealtà.</p><p><em>I nomadi sono spesso imperscrutabili, magnanimi, allegri, affidabili, astuti e poco ortodossi.</em></p>"
+    },
+    "Warborne": {
+      "name": "Marziale",
+      "description": "<p>Appartenere a una comunità Marziale significa provenire da un luogo che è, o è stato, devastato dalla guerra. Questi gruppi possono essere composti da civili che vivono in una zona di guerra, da soldati che hanno prestato servizio nelle forze armate o da cittadini di nazioni in conflitto da decenni. Che siano civili o militari, coloro che vengono da comunità marziali sono in genere abili nell’autodifesa, anche se le loro tattiche sono incentrate sull’evitare il nemico piuttosto che sull’azione offensiva.</p><p>Coloro che difendono la propria patria sanno sfruttare l’ambiente a proprio vantaggio, mentre gli invasori potrebbero affidarsi solo alla potenza militare. Indipendentemente dalla loro origine, la vita di queste persone è definita, almeno in parte, dall’intraprendenza. Chi vive in un territorio occupato è spesso impegnato in un massiccio sforzo di ricostruzione per riparare e preservare case, fattorie, luoghi di lavoro o monumenti culturali: non è inusuale che le macerie di un edificio diventino i materiali per ripararne un altro. Nel frattempo, membri di questa comunità tra i ranghi dell’esercito invasore in genere possiedono pochi effetti personali e devono fare affidamento sul saccheggio delle zone di guerra che occupano. Che si trovino dalla parte dei vincitori o dei vinti, coloro che provengono da comunità Marziali rischiano di portare con loro dei traumi per il resto della vita, con la percezione della sicurezza e della mortalità compromesse per sempre dal numero dei caduti e dalla distruzione causata dalla guerra.</p><p><em>I membri di una comunità marziale sono spesso strategici, provati, determinati, calcolatori, saldi e devoti.</em></p>"
+    },
     "Well-Read": {
       "name": "Acculturato",
       "description": "<p>Avete vantaggio ai tiri che riguardano la storia, la cultura o l'orientamento politico di un individuo o di una regione.</p>",
@@ -140,6 +214,10 @@
           "description": "<p>Avete vantaggio ai tiri che riguardano la storia, la cultura o l'orientamento politico di un individuo o di una regione.</p>"
         }
       }
+    },
+    "Wildborne": {
+      "name": "Forestale",
+      "description": "<p>Far parte di una comunità forestale significa vivere nel profondo dei boschi.</p><p>Le comunità forestali sono definite dalla loro dedizione alla conservazione della loro terra natia e molte hanno forti legami religiosi o culturali con la fauna con cui vivono. Ciò si traduce in innovazioni architettoniche e tecnologiche uniche, che privilegiano la sostenibilità rispetto ai risultati a breve termine e ad alto rendimento. È un tratto distintivo delle società forestali integrare i loro villaggi e le loro città con l'ambiente naturale ed evitare di disturbare la vita vegetale e animale. Mentre alcuni costruiscono le loro dimore in alto sui rami degli alberi, altri stabiliscono le loro case a terra sotto la chioma della foresta. Non è raro che coloro che provengono da una comunità forestale rimangano solitari e nascosti nelle loro case nei boschi.</p><p><em>Le genti della foresta sono spesso resistenti, leali, accudenti, solitari, sagaci e vivaci.</em></p>"
     }
   }
 }

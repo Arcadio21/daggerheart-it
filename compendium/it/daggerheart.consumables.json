@@ -11,6 +11,7 @@
       "converter": "actions"
     }
   },
+  "folders": {},
   "entries": {
     "Acidpaste": {
       "name": "Pasta Acida",
@@ -19,6 +20,22 @@
         "FQ2Ty0pP3z6JrBr6": {
           "name": "Utilizzare",
           "description": "<p>Questa sorta di mastice corrode le pareti e altre superfici emettendo lampi luminosi.</p>"
+        }
+      }
+    },
+    "Arcticite Shard": {
+      "name": "Frammento Articlastico",
+      "description": "<p>Scegliete un punto entro distanza Lontana. Tutti i bersagli entro distanza Ravvicinata da quel punto devono tentare un tiro reazione (16) o subire 3d6 danni magici e diventare temporaneamente <em>Trattenuti</em> dal gelo.</p>",
+      "actions": {
+        "u61vq2eNNTNpTvGb": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      },
+      "effects": {
+        "koocjgxyH9j8N58M": {
+          "name": "Congelato",
+          "description": ""
         }
       }
     },
@@ -45,6 +62,22 @@
         "aiyNOQZbVpTDagXy": {
           "name": "Bere",
           "description": "<p>Ottenete bonus +1 al prossimo Tiro Istinto.</p>"
+        }
+      }
+    },
+    "Berserker's Brew": {
+      "name": "Intruglio del Berserker",
+      "description": "<p>Quando bevete questa mistura ottenere un bonus alla Forza e una penalità all’Astuzia e alla Conoscenza pari al vostro Istinto (minimo 1). L’effetto dura finché non scegliete una mossa finale o al prossimo riposo.</p>",
+      "actions": {
+        "nwZQuJ6aY0i7EerN": {
+          "name": "Bere",
+          "description": ""
+        }
+      },
+      "effects": {
+        "lniOwCkDKynTi4bw": {
+          "name": "Furia Berserker",
+          "description": "<p>Quando bevete questa mistura ottenere un bonus alla Forza e una penalità all’Astuzia e alla Conoscenza pari al vostro Istinto (minimo 1). L’effetto dura finché non scegliete una mossa finale o al prossimo riposo.</p>"
         }
       }
     },
@@ -110,6 +143,38 @@
         }
       }
     },
+    "Bundle of Spiderlegs": {
+      "name": "Manciata di Zampe di Ragno",
+      "description": "<p>Mangiando le zampe è possibile camminare sui muri fino al prossimo riposo.</p>",
+      "actions": {
+        "PvaegGLkYV7DRR8F": {
+          "name": "Mangiare",
+          "description": ""
+        }
+      },
+      "effects": {
+        "x7FTsmzljd0t5trC": {
+          "name": "Passo del Ragno",
+          "description": "<p>Mangiando le zampe è possibile camminare sui muri fino al prossimo riposo.</p>"
+        }
+      }
+    },
+    "Cacophonous Concoction": {
+      "name": "Filtro della Cacofonia",
+      "description": "<p>Ciò che dite o ciò che fate dopo aver bevuto questa pozione non può essere riportato o narrato coerentemente da un testimone. Ogni tentativo di comunicare ciò che ha visto, sentito o percepito in qualsiasi modo risulta del tutto incomprensibile.</p>",
+      "actions": {
+        "YTku2CwfIvhaO74n": {
+          "name": "Bere",
+          "description": ""
+        }
+      },
+      "effects": {
+        "Z1WDQBtKdwfOqrGH": {
+          "name": "Cacofonico",
+          "description": "<p>Ciò che dite o ciò che fate dopo aver bevuto questa pozione non può essere riportato o narrato coerentemente da un testimone. Ogni tentativo di comunicare ciò che ha visto, sentito o percepito in qualsiasi modo risulta del tutto incomprensibile.</p>"
+        }
+      }
+    },
     "Channelstone": {
       "name": "Pietra Incanalatrice",
       "description": "<p>Potete usare questa pietra per prendere una carta incantesimo o grimorio dalla riserva, usarla una volta e rimetterla nella riserva.</p>",
@@ -136,6 +201,22 @@
         }
       }
     },
+    "Chimeric Saliva": {
+      "name": "Saliva di Chimera",
+      "description": "<p>Applicare questa saliva a un’arma che infligge danno fisico muta il tipo di danno in magico fino al prossimo riposo.</p>",
+      "actions": {
+        "COnklgpCjVWRqgSz": {
+          "name": "Applicare",
+          "description": ""
+        }
+      },
+      "effects": {
+        "7FPuCdj1fB3utrnw": {
+          "name": "Saliva di Chimera",
+          "description": "<p>Applicare questa saliva a un’arma che infligge danno fisico muta il tipo di danno in magico fino al prossimo riposo.</p>"
+        }
+      }
+    },
     "Circle of the Void": {
       "name": "Cerchio del Vuoto",
       "description": "<p>Marcate uno Stress per creare uno spazio impervio alla magia che si estende fino a distanza Lontana. Non si può lanciare alcuna magia all’interno di tale spazio e le creature che vi si trovano sono immuni a danni ed effetti magici.</p>",
@@ -145,6 +226,30 @@
           "description": "<p>Marcate uno Stress per creare uno spazio impervio alla magia che si estende fino a distanza Lontana. Non si può lanciare alcuna magia all’interno di tale spazio e le creature che vi si trovano sono immuni a danni ed effetti magici.</p>"
         }
       }
+    },
+    "Ciscan Fog Bottle": {
+      "name": "Bottiglia di Nebbia Ciscana",
+      "description": "<p>Potete spaccare questa bottiglia per saturare di nebbia magica un’area fino a distanza Ravvicinata. Una creatura che entra nella nebbia rimuove uno Stress e diventa <em>Nascosta</em>.</p>",
+      "actions": {
+        "3uoMUFXhffsn6XGm": {
+          "name": "Rompere",
+          "description": ""
+        }
+      }
+    },
+    "Cockerel Claw Tea": {
+      "name": "Tè all’Artiglio di Galletto",
+      "description": "<p>Bevete questa pozione per recuperare l’uso dei vostri privilegi come se aveste completato un riposo lungo.</p>",
+      "actions": {
+        "DsF1KOn8OlHyio9V": {
+          "name": "Bere",
+          "description": ""
+        }
+      }
+    },
+    "Concoction": {
+      "name": "Intruglio",
+      "description": "<p>Bevete questa pozione per scoprire la più intima paura della prossima creatura che guarderete negli occhi. Quando ciò accade, il GM guadagna una Paura.</p>"
     },
     "Control Potion": {
       "name": "Pozione del Sangue Freddo",
@@ -159,6 +264,22 @@
         "l5dx5uYsH0btLDJq": {
           "name": "Bere",
           "description": "<p>Ottenete bonus +1 al prossimo Tiro Astuzia.</p>"
+        }
+      }
+    },
+    "Cupbearer's Bezoar": {
+      "name": "Bezoar del Coppiere",
+      "description": "<p>Inghiottite questo bezoar per diventare immuni ai veleni fino al prossimo riposo lungo.</p>",
+      "actions": {
+        "0vtn2lGnZ5td2ScU": {
+          "name": "Inghiottire",
+          "description": ""
+        }
+      },
+      "effects": {
+        "zEo9puBV6VSHcG9d": {
+          "name": "Bezoar del Coppiere",
+          "description": "<p>Inghiottite questo bezoar per diventare immuni ai veleni fino al prossimo riposo lungo.</p>"
         }
       }
     },
@@ -178,6 +299,48 @@
         }
       }
     },
+    "Deathseer's Powder": {
+      "name": "Polvere del Veggente della Morte",
+      "description": "<p>Potete cospargere i resti di un corpo deceduto di recente per evocare una visione spettrale dell’ultimo minuto della sua vita.</p>",
+      "actions": {
+        "dCR3Zm361WUZz4Zf": {
+          "name": "Cospargere",
+          "description": ""
+        }
+      }
+    },
+    "Demiurge's Draught": {
+      "name": "Bevanda del Demiurgo",
+      "description": "<p>Bevete questa pozione per ottenere +1 alla Competenza fino al prossimo attacco riuscito.</p>",
+      "actions": {
+        "NtsZfglcGGEAOV49": {
+          "name": "Bere",
+          "description": ""
+        }
+      },
+      "effects": {
+        "MiXqv9zMmL9T6lEr": {
+          "name": "Bevanda del Demiurgo",
+          "description": "<p>Bevete questa pozione per ottenere +1 alla Competenza fino al prossimo attacco riuscito.</p>"
+        }
+      }
+    },
+    "Displacement Token": {
+      "name": "Pedina della Dislocazione",
+      "description": "<p>Ingerendo questa pedina potete creare due illusioni identiche a voi sotto il vostro controllo. Le illusioni perdurano finché non subiscono danno o fino al vostro prossimo riposo.</p>",
+      "actions": {
+        "CFvo1SWGb6ekNsJr": {
+          "name": "Inghiottire",
+          "description": ""
+        }
+      },
+      "effects": {
+        "AlJJnO4ct2xmzt93": {
+          "name": "Dislocato",
+          "description": "<p>Ingerendo questa pedina potete creare due illusioni identiche a voi sotto il vostro controllo. Le illusioni perdurano finché non subiscono danno o fino al vostro prossimo riposo.</p>"
+        }
+      }
+    },
     "Dragonbloom Tea": {
       "name": "Infusione di Fior di Drago",
       "description": "<p>Potete bere questo tè per scatenare un respiro infuocato. Effettuate un Tiro Istinto contro tutti gli avversari davanti a voi entro distanza Ravvicinata. I bersagli colpiti subiscono un d20 danni fisici applicando la vostra Competenza.</p>",
@@ -188,6 +351,22 @@
         }
       }
     },
+    "Drakemantle": {
+      "name": "Dracomanto",
+      "description": "<p>Indossando questa antica pelle di drago incantata potete ottenerne parte della forza fino al termine della scena, quando cade a brandelli. Fino ad allora potete volare, ottenete un bonus di +5 alle soglie di danno e di +1 alla competenza.</p>",
+      "actions": {
+        "0QgmfGle8IJYkWv7": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      },
+      "effects": {
+        "7z9abeZBZ0KzU4jV": {
+          "name": "Forma Draconica",
+          "description": "<p>Fino ad allora potete volare, ottenete un bonus di +5 alle soglie di danno e di +1 alla competenza.</p>"
+        }
+      }
+    },
     "Dripfang Poison": {
       "name": "Veleno di Zanna Sgocciolante",
       "description": "<p>Una creatura che ingerisce questo veleno subisce 8d10 danni magici diretti.</p>",
@@ -195,6 +374,22 @@
         "F8CUhhCuZMnXVCrw": {
           "name": "Consumare",
           "description": "<p>Una creatura che ingerisce questo veleno subisce <strong>8d10</strong> danni magici diretti.</p>"
+        }
+      }
+    },
+    "Emberite Shard": {
+      "name": "Frammento di Incenerite",
+      "description": "<p>Scegliete un punto entro distanza Lontana. Tutti i bersagli entro distanza Ravvicinata da quel punto devono tentare un tiro reazione (16) o subire 3d6 danni magici e diventare temporaneamente <em>Ardenti</em>. Una creatura <em>Ardente</em> deve lanciare 1d4 ogni volta che effettua un tiro azione: con 1, subisce 1 Punto Ferita, mentre con 4 non è più <em>Ardente</em>.</p>",
+      "actions": {
+        "Vn84rygVCeQ2wt4S": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      },
+      "effects": {
+        "H8wg8ZbvK3EY9UXd": {
+          "name": "Ardente",
+          "description": "<p>Una creatura <em>Ardente</em> deve lanciare 1d4 ogni volta che effettua un tiro azione: con 1, subisce 1 Punto Ferita, mentre con 4 non è più <em>Ardente</em>.</p>"
         }
       }
     },
@@ -240,6 +435,58 @@
         }
       }
     },
+    "Featherstep Potion": {
+      "name": "Pozione del Passo Alato",
+      "description": "<p>Dopo aver bevuto questa pozione piccole ali vi spuntano dalle caviglie, assegnandovi un bonus all’Evasione pari al vostro rango fino al prossimo riposo.</p>",
+      "actions": {
+        "Dslc1QsuuYEAgSAo": {
+          "name": "Bere",
+          "description": ""
+        }
+      },
+      "effects": {
+        "GVmJh6VwcqKS7uwm": {
+          "name": "Passo Alato",
+          "description": "<p>Dopo aver bevuto questa pozione piccole ali vi spuntano dalle caviglie, assegnandovi un bonus all’Evasione pari al vostro rango fino al prossimo riposo.</p>"
+        }
+      }
+    },
+    "Formoid Serum": {
+      "name": "Siero del Formicaio",
+      "description": "<p>Bere il siero vi trasforma in una comunità di 16 milioni di formiche fino al termine della scena. Mantenete completo accesso al vostro equipaggiamento e a ogni privilegio.</p>",
+      "actions": {
+        "KVlbv22mTH5AO3Ab": {
+          "name": "Bere",
+          "description": ""
+        }
+      },
+      "effects": {
+        "TOS3bFpbQWATZcew": {
+          "name": "Siero del Formicaio",
+          "description": "<p>Bere il siero vi trasforma in una comunità di 16 milioni di formiche fino al termine della scena. Mantenete completo accesso al vostro equipaggiamento e a ogni privilegio.</p>"
+        }
+      }
+    },
+    "Fulgurite Shard": {
+      "name": "Frammento di Folgorite",
+      "description": "<p>Scegliete un punto entro distanza Lontana. Tutti i bersagli entro distanza Ravvicinata da quel punto devono tentare un tiro reazione (16) o subire 3d6 danni magici e marcare 1d4 Stress a causa delle scariche elettrostatiche.</p>",
+      "actions": {
+        "EhwvyDwxvg44bKCq": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      }
+    },
+    "Gambler's Fallacy": {
+      "name": "Fallacia del Giocatore d’Azzardo",
+      "description": "<p>Potete spendere un qualsiasi numero di manciate d’oro e inserirle in questo salvadanaio di ceramica a forma di maiale. Se lanciate il salvadanaio in qualsiasi punto entro distanza Lontana, esploderà causando 1d20 danni magici per ogni manciata d’oro spesa a tutte le creature entro distanza Ravvicinata da quel punto. Tutto l’oro nel salvadanaio viene distrutto.</p>",
+      "actions": {
+        "SLZn5uUrsucH90rQ": {
+          "name": "Lanciare",
+          "description": ""
+        }
+      }
+    },
     "Gill Salve": {
       "name": "Balsamo delle Branchie",
       "description": "<p>Potete applicare questo unguento sul collo per respirare sott’acqua per un numero di minuti pari al vostro livello.</p>",
@@ -253,6 +500,70 @@
         "57IIcyhEs2ByoENx": {
           "name": "Applicare",
           "description": "<p>Potete applicare questo unguento sul collo per respirare sott’acqua per un numero di minuti pari al vostro livello.</p>"
+        }
+      }
+    },
+    "Glowmoss Mushroom": {
+      "name": "Fungo di Fosfomuschio",
+      "description": "<p>I pezzetti di questo muschio brillano di luce blu soffusa fino al vostro prossimo riposo.</p>",
+      "actions": {
+        "ZRKQmLZ709uJmwME": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      }
+    },
+    "Godling's Pomelo": {
+      "name": "Pomelo Divino",
+      "description": "<p>Mangiando questo agrume curate tutti i Punti Ferita e rimuovete tutto lo Stress.</p>",
+      "actions": {
+        "KYnbdh2UTxw5Xr9f": {
+          "name": "Mangiare",
+          "description": ""
+        }
+      }
+    },
+    "Gossip Flower": {
+      "name": "Fiore del Pettegolezzo",
+      "description": "<p>Piantando questo seme nel suolo si sviluppa istantaneamente un fiore che registra qualsiasi cosa ascolti per una settimana. Quando viene colto, il fiore recita tutto ciò che ha udito prima di avvizzire.</p>",
+      "actions": {
+        "s9KcCCsBG2OvWpfu": {
+          "name": "Piantare",
+          "description": ""
+        }
+      }
+    },
+    "Gravity Bomb": {
+      "name": "Bomba Gravitazionale",
+      "description": "<p>Potete scagliare questo globo meccanico delle dimensioni di una pesca in un punto entro distanza Lontana. Tutte le creature entro distanza Ravvicinata dal punto in cui il globo implode vengono trascinate a distanza di Mischia da esso.</p>",
+      "actions": {
+        "DlpFeXegeuolZMNQ": {
+          "name": "Lanciare",
+          "description": ""
+        }
+      }
+    },
+    "Green Ooze Oil": {
+      "name": "Olio di Melma Verde",
+      "description": "<p>Potete bagnare la vostra arma con quest’olio. Il prossimo attacco riuscito con essa causa 1d8 danni magici addizionali e <em>Corrode</em> temporaneamente il bersaglio. Mentre viene <em>Corroso</em>, il bersaglio riceve una penalità di −2 alle soglie di danno.</p>",
+      "actions": {
+        "w8gPYG7TDSU3P0tJ": {
+          "name": "Ricoprire",
+          "description": ""
+        },
+        "Dt901UQjOONozDdc": {
+          "name": "Applicare Corrosione",
+          "description": ""
+        }
+      },
+      "effects": {
+        "0tVi0WsfLu3YzxeE": {
+          "name": "Olio di Melma Verde",
+          "description": "<p>Potete bagnare la vostra arma con quest’olio. Il prossimo attacco riuscito con essa causa 1d8 danni magici addizionali e <em>Corrode</em> temporaneamente il bersaglio.</p>"
+        },
+        "X0gyRnn8BECGV6P4": {
+          "name": "Ustionato (1 grado)",
+          "description": "<p>Mentre viene <em>Corroso</em>, il bersaglio riceve una penalità di −2 alle soglie di danno.</p>"
         }
       }
     },
@@ -298,7 +609,7 @@
         }
       }
     },
-    "Homet’s Secret Potion": {
+    "Homet's Secret Potion": {
       "name": "Filtro Segreto di Homet",
       "description": "<p>Dopo aver bevuto questa pozione, il prossimo attacco che effettuerete con successo avrà invece successo critico.</p>",
       "effects": {
@@ -350,6 +661,48 @@
         }
       }
     },
+    "Instant Camp": {
+      "name": "Tenda Istantanea",
+      "description": "<p>Potete trasformare questa piccola scatola meccanica in una tenda da campo capace di ospitare fino a 6 persone. La tenda diventa inservibile alla fine del vostro prossimo riposo lungo.</p>",
+      "actions": {
+        "1UhyM1dgkuxYdcZB": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      }
+    },
+    "Invisibility Potion": {
+      "name": "Pozione di Invisibilità",
+      "description": "<p>Siete <em>Nascosto</em> finché non causate danni a una creatura o fino al prossimo riposo.</p>",
+      "actions": {
+        "6UjrzTOZRPHoV2cY": {
+          "name": "Bere",
+          "description": ""
+        }
+      },
+      "effects": {
+        "WjiPNLu2ps0qWTJ1": {
+          "name": "Invisibile",
+          "description": "<p>Siete <em>Nascosto</em> finché non causate danni a una creatura o fino al prossimo riposo.</p>"
+        }
+      }
+    },
+    "Iridian Dust": {
+      "name": "Polvere Iridescente",
+      "description": "<p>Questa polvere multicolore si appiccica a qualsiasi cosa e impedisce alle creature ricoperte da essa di rendersi <em>Nascoste</em>.</p>",
+      "actions": {
+        "6XX75r85cvvUD1bz": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      },
+      "effects": {
+        "EncnEGvH7ME9zNgP": {
+          "name": "Polvere Iridescente",
+          "description": "<p>Questa polvere multicolore si appiccica a qualsiasi cosa e impedisce alle creature ricoperte da essa di rendersi <em>Nascoste</em>.</p>"
+        }
+      }
+    },
     "Jar of Lost Voices": {
       "name": "Giara delle Voci Perdute",
       "description": "<p>Potete aprire questo vaso per liberare un’eco assordante di voci per un numero di minuti pari al vostro Istinto. Le creature entro distanza Lontana colte di sorpresa dal suono subiscono <strong>6d8</strong> danni magici.</p><p>@Template[type:emanation|range:f]</p>",
@@ -377,6 +730,48 @@
         "We38aIuxBrv8zhfr": {
           "name": "Utilizzare",
           "description": "<p>Se morite stringendo tra le mani questa pietra, un alleato può prendere una carta dalla vostra dotazione per metterla nella sua dotazione o nella sua riserva. Dopo aver appreso questa conoscenza, la pietra si sbriciola.</p>"
+        }
+      }
+    },
+    "Lionheart Tonic": {
+      "name": "Tonico del Cuor di Leone",
+      "description": "<p>Bevete il tonico per ottenere +1 alla competenza finché non tirate con Paura.</p>",
+      "actions": {
+        "hn1FjWi0ii1DXv2N": {
+          "name": "Bere",
+          "description": ""
+        }
+      },
+      "effects": {
+        "tCvHGzF8uJF1ciCQ": {
+          "name": "Cuor di Leone",
+          "description": "<p>Bevete il tonico per ottenere +1 alla competenza finché non tirate con Paura.</p>"
+        }
+      }
+    },
+    "Lyrebird Lozenge": {
+      "name": "Pastiglia dell’Uccello Lira",
+      "description": "<p>Chi consuma questa pastiglia può imitare perfettamente qualsiasi voce abbia udito fino alla fine della scena.</p>",
+      "actions": {
+        "eiQ71YUG3fb9rUtI": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "effects": {
+        "b0lldg6nQ598gF8F": {
+          "name": "Uccello Lira",
+          "description": "<p>Chi consuma questa pastiglia può imitare perfettamente qualsiasi voce abbia udito fino alla fine della scena.</p>"
+        }
+      }
+    },
+    "Magic-User's Malison": {
+      "name": "Malia del Fruitore di Magia",
+      "description": "<p>Liberando l’anima intrappolata di un incantatore potete lanciare un incantesimo di una carta nella riserva come se fosse nella vostra dotazione, a meno che la carta non sia stata posta definitivamente nella riserva.</p>",
+      "actions": {
+        "I9CPyBfAsQibn5PR": {
+          "name": "Utilizzare",
+          "description": ""
         }
       }
     },
@@ -506,6 +901,42 @@
         }
       }
     },
+    "Mask of the Echoed Self": {
+      "name": "Maschera dell’Eco dell’Ego",
+      "description": "<p>Indossando la maschera al prossimo passaggio di livello è possibile scambiare i valori dei vostri tratti come preferite. Se lo fate, la maschera diventa il vostro nuovo volto.</p>",
+      "actions": {
+        "PAq1qXNxaJSLhaDZ": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      }
+    },
+    "Mesmer's Tonic": {
+      "name": "Tonico di Mesmer",
+      "description": "<p>Una volta bevuto questo tonico l’unica cosa che potete sentire fino al prossimo riposo sono i pensieri superficiali delle creature entro distanza Prossima.</p>",
+      "actions": {
+        "Phn88PDC41cdVDfi": {
+          "name": "Bere",
+          "description": ""
+        }
+      },
+      "effects": {
+        "i0aZGk4NPFEvEz8A": {
+          "name": "Tonico di Mesmer",
+          "description": "<p>Una volta bevuto questo tonico l’unica cosa che potete sentire fino al prossimo riposo sono i pensieri superficiali delle creature entro distanza Prossima.</p>"
+        }
+      }
+    },
+    "Midas Flask": {
+      "name": "Fiasca di Mida",
+      "description": "<p>Potete versare la mistura alchemica in questa fiasca su un oggetto mondano per tramutarlo in una manciata d’oro.</p>",
+      "actions": {
+        "x95WATbyPt8gmmHT": {
+          "name": "Versare",
+          "description": ""
+        }
+      }
+    },
     "Minor Health Potion": {
       "name": "Pozione di Guarigione Minore",
       "description": "<p>Recuperate 1d4 PF.</p>",
@@ -536,6 +967,26 @@
         }
       }
     },
+    "Mnemonic Potion": {
+      "name": "Pozione Mnemonica",
+      "description": "<p>Bevendo questa pozione potete servirvi di un’Esperienza senza spendere Speranza.</p>",
+      "actions": {
+        "k5WiotZKqgqnIhA2": {
+          "name": "Bere",
+          "description": ""
+        }
+      }
+    },
+    "Moonlight Orb": {
+      "name": "Globo di Luce Lunare",
+      "description": "<p>Frantumando il globo, un’area entro distanza Remota diventa illuminata dalla luce della luna piena per le 24 ore successive.</p>",
+      "actions": {
+        "1U6wvIFjYqA34md4": {
+          "name": "Frantumare",
+          "description": ""
+        }
+      }
+    },
     "Morphing Clay": {
       "name": "Maschera d’Argilla",
       "description": "<p>Potete spendere una Speranza per usare l’argilla, alterando il vostro volto per rendervi irriconoscibili fino al prossimo riposo.</p>",
@@ -549,6 +1000,22 @@
         "S4wEG1RzfLNtvcg7": {
           "name": "Utilizzare",
           "description": "<p>Potete spendere una Speranza per usare l’argilla, alterando il vostro volto per rendervi irriconoscibili fino al prossimo riposo.</p>"
+        }
+      }
+    },
+    "Mossmantle Potion": {
+      "name": "Pozione del Mantello di Muschio",
+      "description": "<p>Chi beve questa infusione può mimetizzarsi perfettamente negli ambienti naturali fino al suo prossimo riposo.</p>",
+      "actions": {
+        "gZNoB1uQyZAONIV5": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "effects": {
+        "sD8E0UwaDP0eWKdC": {
+          "name": "Mimetizzato",
+          "description": "<p>Chi beve questa infusione può mimetizzarsi perfettamente negli ambienti naturali fino al suo prossimo riposo.</p>"
         }
       }
     },
@@ -568,6 +1035,48 @@
         }
       }
     },
+    "Necroprancer's Bell": {
+      "name": "Campana del Destriero Scheletrico",
+      "description": "<p>Spaccando contro il terreno questa campanella arrugginita priva di batacchio richiamate un destriero scheletrico che fuoriesce dalla terra e rimane al vostro servizio fino alla prossima alba.</p>",
+      "actions": {
+        "pcvtxqrsExvk81Cc": {
+          "name": "Rompere",
+          "description": ""
+        }
+      },
+      "effects": {
+        "Oihi5Ky4bcPQnKDI": {
+          "name": "Campana del Destriero Scheletrico",
+          "description": "<p>Spaccando contro il terreno questa campanella arrugginita priva di batacchio richiamate un destriero scheletrico che fuoriesce dalla terra e rimane al vostro servizio fino alla prossima alba.</p>"
+        }
+      }
+    },
+    "Night Hag's Dust": {
+      "name": "Polvere della Megera Notturna",
+      "description": "<p>Potete soffiare questa polvere sul viso di un avversario per impedirgli di rimuovere Stress fino al vostro prossimo riposo lungo.</p>",
+      "actions": {
+        "8ElDwnjDsJop9qRi": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      },
+      "effects": {
+        "jha2Ky9tdadIpZ7T": {
+          "name": "Polvere della Megera Notturna",
+          "description": "<p>Potete soffiare questa polvere sul viso di un avversario per impedirgli di rimuovere Stress fino al vostro prossimo riposo lungo.</p>"
+        }
+      }
+    },
+    "Nightmare Mead": {
+      "name": "Idromele degli Incubi",
+      "description": "<p>Bevete questa pozione per scoprire la più intima paura della prossima creatura che guarderete negli occhi. Quando ciò accade, il GM guadagna una Paura.</p>",
+      "actions": {
+        "rW0fiHW8nt8ZRbXm": {
+          "name": "Bere",
+          "description": ""
+        }
+      }
+    },
     "Ogre Musk": {
       "name": "Fragranza d’Ogre",
       "description": "<p>Potete usare questo profumo muschiato per impedire a chiunque di rintracciarvi con mezzi normali o magici fino al vostro prossimo riposo.</p>",
@@ -584,6 +1093,48 @@
         }
       }
     },
+    "Packet of Space Dust": {
+      "name": "Pacchetto di Polvere Spaziale",
+      "description": "<p>Qualsiasi cosa ricoperta da questa polvere diventa più leggera dell’aria. Una dose è sufficiente a influenzare una massa analoga al contenuto di un cestino da picnic, e l’effetto dura un’ora.</p>",
+      "actions": {
+        "bVXuZXEmYW6RJwLh": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      },
+      "effects": {
+        "GqjpFGEyO7V4w0C7": {
+          "name": "Polvere Spaziale",
+          "description": "<p>Qualsiasi cosa ricoperta da questa polvere diventa più leggera dell’aria.</p>"
+        }
+      }
+    },
+    "Phial of Deep Ink": {
+      "name": "Fiala di Inchiostro degli Abissi",
+      "description": "<p>Bere questo inchiostro vi trasforma in un cefalopode delle vostre dimensioni per la prossima ora: la pelle diventa gommosa, le ossa si ammorbidiscono, potete respirare sott’acqua e nuovi arti crescono fino a un massimo di 8.</p>",
+      "actions": {
+        "w4GSznmO2AyEuVgY": {
+          "name": "Bere",
+          "description": ""
+        }
+      },
+      "effects": {
+        "9HHlvGuxhvOqe4JX": {
+          "name": "Fiala di Inchiostro degli Abissi",
+          "description": "<p>Bere questo inchiostro vi trasforma in un cefalopode delle vostre dimensioni per la prossima ora: la pelle diventa gommosa, le ossa si ammorbidiscono, potete respirare sott’acqua e nuovi arti crescono fino a un massimo di 8.</p>"
+        }
+      }
+    },
+    "Pipeweed": {
+      "name": "Erba Pipa",
+      "description": "<p>Quando scegliete di Rimuovere Stress come mossa di interludio durante un riposo breve, potete fumare questa foglia non intossicante per rimuovere uno Stress aggiuntivo. Ogni altro PG scelga la stessa mossa guadagna il medesimo beneficio.</p>",
+      "actions": {
+        "z1s1NGbVvRiRFpER": {
+          "name": "Fumare",
+          "description": ""
+        }
+      }
+    },
     "Potion of Stability": {
       "name": "Pozione di Costanza",
       "description": "<p>Potete bere questa pozione per scegliere una mossa di interludio aggiuntiva.</p>",
@@ -597,6 +1148,66 @@
         "ifj42z5FhfMVyyd1": {
           "name": "Bere",
           "description": "<p>Potete bere questa pozione per scegliere una mossa di interludio aggiuntiva.</p>"
+        }
+      }
+    },
+    "Potion of Vigilance": {
+      "name": "Pozione di Circospezione",
+      "description": "<p>Bevendo questa pozione ottenete un bonus di +1 all’Evasione finché non perdete uno o più Punti Ferita.</p>",
+      "actions": {
+        "OyzV63XMO4ndOH0w": {
+          "name": "Bere",
+          "description": ""
+        }
+      },
+      "effects": {
+        "G0wMnYEtCryop6IX": {
+          "name": "Circospetto",
+          "description": "<p>Bevendo questa pozione ottenete un bonus di +1 all’Evasione finché non perdete uno o più Punti Ferita.</p>"
+        }
+      }
+    },
+    "Psychopomp's Shroud": {
+      "name": "Sudario dello Psicopompo",
+      "description": "<p>Stendete il sudario sui resti di una creatura deceduta da poco tempo. Lo spirito entrerà nel sudario e diventerà il vostro aiutante spettrale fino all’alba seguente, quando oltrepasserà il velo della morte portando con sé il sudario.</p>",
+      "actions": {
+        "FrzmFgaqCApbu3Km": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      }
+    },
+    "Quintessential Severant": {
+      "name": "Tranciatrice Quintessenziale",
+      "description": "<p>Potete usare questa lama magica per tranciare un legame magico o metafisico come un incantesimo, un contratto, un legame magico o un giuramento divino. L’utilizzo frantuma la lama.</p>",
+      "actions": {
+        "vlPzHqlUT2JLoeKz": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      }
+    },
+    "Red Ooze Oil": {
+      "name": "Olio di Melma Rossa",
+      "description": "<p>Potete bagnare la vostra arma con quest’olio. Il prossimo attacco riuscito con essa causa 1d8 danni magici addizionali e <em>Infiamma</em> temporaneamente il bersaglio. Mentre è <em>Infiamma</em> to, il bersaglio subisce 1d4 danni magici ogni volta che diventa protagonista.</p>",
+      "actions": {
+        "eqXBNr0DbYAIVGS9": {
+          "name": "Applicare",
+          "description": ""
+        },
+        "jD3LZE5YeVjfTAtU": {
+          "name": "Incendiare",
+          "description": "<p>Mentre è <em>Infiamma</em> to, il bersaglio subisce 1d4 danni magici ogni volta che diventa protagonista.</p>"
+        }
+      },
+      "effects": {
+        "x3sGgfLR0gkXxw5f": {
+          "name": "Olio di Melma Rossa",
+          "description": "<p>Potete bagnare la vostra arma con quest’olio. Il prossimo attacco riuscito con essa causa 1d8 danni magici addizionali e <em>Infiamma</em> temporaneamente il bersaglio.</p>"
+        },
+        "f7f3BWAGe5vkkruK": {
+          "name": "Incendiato",
+          "description": "<p>Mentre è <em>Infiamma</em> to, il bersaglio subisce 1d4 danni magici ogni volta che diventa protagonista.</p>"
         }
       }
     },
@@ -626,6 +1237,36 @@
         }
       }
     },
+    "Salamander Salve": {
+      "name": "Balsamo della Salamandra",
+      "description": "<p>Ungendovi con questo balsamo diventate immuni al calore fino al vostro prossimo riposo.</p>",
+      "actions": {
+        "Hz6U04pXtOYBDQ2L": {
+          "name": "Applicare",
+          "description": ""
+        }
+      },
+      "effects": {
+        "rlsDpkLoqhBbHxUk": {
+          "name": "Balsamo della Salamandra",
+          "description": "<p>Ungendovi con questo balsamo diventate immuni al calore fino al vostro prossimo riposo.</p>"
+        }
+      }
+    },
+    "Self-Sewing Thread": {
+      "name": "Filo di Autocucitura",
+      "description": "<p>Usando questo filo potete guarire un Punto Ferita o riparare 2 Caselle Armatura.</p>",
+      "actions": {
+        "Smq9zj8nNK64CS62": {
+          "name": "Curare 1 Punto Ferita",
+          "description": ""
+        },
+        "dE5BTVbmJ4Yuoy0M": {
+          "name": "Cancellare Armatura",
+          "description": ""
+        }
+      }
+    },
     "Shrinking Potion": {
       "name": "Pozione di Rimpicciolimento",
       "description": "<p>Potete bere questa pozione per dimezzare le vostre dimensioni fino a quando non decidete di abbandonare questa forma o al vostro prossimo riposo. Mentre siete in questa forma avete bonus +2 all’Agilità e penalità −1 alla Competenza.</p>",
@@ -642,6 +1283,16 @@
         }
       }
     },
+    "Slayer's Salt": {
+      "name": "Sali dell’Assassino",
+      "description": "<p>Disegnando una linea con questi sali sul davanzale di una finestra o sulla soglia di una porta viene eretta una barriera invalicabile ai non morti finché la linea non viene spezzata.</p>",
+      "actions": {
+        "3IALZdyYjIgAbgea": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      }
+    },
     "Sleeping Sap": {
       "name": "Linfa del Sonno",
       "description": "<p>Potete bere questa pozione per addormentarvi per un’intera notte di riposo. Al risveglio, rimuovete tutto lo Stress.</p>",
@@ -652,6 +1303,16 @@
         }
       }
     },
+    "Snakeskin Spirit": {
+      "name": "Liquore alla Pelle di Serpente",
+      "description": "<p>Bevete il liquore per cambiare pelle come un rettile e rimuovere una cicatrice.</p>",
+      "actions": {
+        "773SxjjdjRsxoroZ": {
+          "name": "Bere",
+          "description": ""
+        }
+      }
+    },
     "Snap Powder": {
       "name": "Polvere Cauterizzante",
       "description": "<p>Marcate uno Stress e recuperate un PF.</p>",
@@ -659,6 +1320,52 @@
         "FVn1NAbzHHyX2lsM": {
           "name": "Consumare",
           "description": "<p>Marcate uno Stress e recuperate un PF.</p>"
+        }
+      }
+    },
+    "Snapthorn Seed": {
+      "name": "Seme di Scattaspino",
+      "description": "<p>Lanciate questo seme in un punto che possiate vedere; da esso si sviluppa istantaneamente un groviglio di rampicanti che <em>Trattiene</em> temporaneamente le creature entro distanza Ravvicinata.</p>",
+      "actions": {
+        "hGKzpxGdX4F8Ff4h": {
+          "name": "Lanciare",
+          "description": ""
+        }
+      },
+      "effects": {
+        "Zi97S6oahSHgWD96": {
+          "name": "Avvinto dalle Spine",
+          "description": ""
+        }
+      }
+    },
+    "Sprite Bottle": {
+      "name": "Bottiglia dello Spiritello",
+      "description": "<p>Quando subite l’ultimo Punto Ferita, la bottiglia va in frantumi liberando lo spiritello in essa contenuto, il quale ripristina tutti i vostri Punti Ferita prima di lasciare il Regno dei Mortali.</p>",
+      "actions": {
+        "OaeTodiubEfIhiZe": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      }
+    },
+    "Staff of Reversal": {
+      "name": "Bastone del Rovesciamento",
+      "description": "<p>Spezzando questo bastone contro il terreno potete annullare un effetto o una trasformazione magica entro distanza Lontana.</p>",
+      "actions": {
+        "TgL2lMYlKXuHxXIq": {
+          "name": "Rompere",
+          "description": ""
+        }
+      }
+    },
+    "Stake of Abjuration": {
+      "name": "Paletto dell’Abiura",
+      "description": "<p>Potete piantare nel terreno questo paletto e pronunciare un proclama. Qualsiasi creatura entro distanza Lontana che lo trasgredisca deve marcare uno Stress. Il paletto si frantuma al vostro prossimo riposo, concludendo gli effetti.</p>",
+      "actions": {
+        "he7oP28pyrltNq7I": {
+          "name": "Utilizzare",
+          "description": ""
         }
       }
     },
@@ -679,6 +1386,32 @@
         "pt5U6hlyx4T7MUOa": {
           "name": "Utilizzare",
           "description": "<p>Potete consumare questa Lacrima di Stelle per evocare una grandinata di comete che infligge <strong>8d20</strong> danni fisici a tutti i bersagli entro distanza Remota.</p><p>@Template[type:emanation|range:vf]</p>"
+        }
+      }
+    },
+    "Steelskin Salve": {
+      "name": "Balsamo di Pelle d’Acciaio",
+      "description": "<p>Spalmando il balsamo sulla vostra pelle ricevete un bonus alle soglie di danno pari al vostro rango fino al termine della scena.</p>",
+      "actions": {
+        "MnlcijQlwEDHPPLW": {
+          "name": "Applicare",
+          "description": ""
+        }
+      },
+      "effects": {
+        "5QULYy5qOtKlgCrC": {
+          "name": "Pelle d’Acciaio",
+          "description": "<p>Spalmando il balsamo sulla vostra pelle ricevete un bonus alle soglie di danno pari al vostro rango fino al termine della scena.</p>"
+        }
+      }
+    },
+    "Stonemason's Fortune": {
+      "name": "Fortuna del Tagliapietre",
+      "description": "<p>Quando questo mattone grigio viene lanciato a terra si sviluppa in un muro di solida pietra alto 1,80 metri, largo 3 metri e spesso 60 cm.</p>",
+      "actions": {
+        "E3rM3gMAWFF727g9": {
+          "name": "Lanciare",
+          "description": ""
         }
       }
     },
@@ -708,9 +1441,19 @@
         }
       }
     },
+    "Sunlight Orb": {
+      "name": "Globo di Luce Solare",
+      "description": "<p>Frantumando il globo, un’area entro distanza Remota diventa illuminata dalla luce solare per le 24 ore successive.</p>",
+      "actions": {
+        "oIj5dyEurCiLVWmx": {
+          "name": "Frantumare",
+          "description": ""
+        }
+      }
+    },
     "Sweet Moss": {
       "name": "Muschio Dolce",
-      "description": "<p>Potete consumare questo muschio durante un riposo per recuperare 1d4 PF o rimuovere 1d4 Stress.</p>",
+      "description": "<p>Potete consumare questo muschio durante un riposo per recuperare 1d10 PF o rimuovere 1d10 Stress.</p>",
       "actions": {
         "Sft4HkhlqsYH5qKI": {
           "name": "Recuperare Punti Ferita",
@@ -719,6 +1462,22 @@
         "IolxVguij8PjHSVt": {
           "name": "Recuperare Stress",
           "description": "<p>Potete consumare questo muschio durante un riposo per rimuovere 1d4 Stress.</p>"
+        }
+      }
+    },
+    "Tears of the Undying Hero": {
+      "name": "Lacrime dell’Eroe Immortale",
+      "description": "<p>Dopo che avete bevuto questa pozione, la morte non può cogliervi fino al vostro prossimo riposo lungo. Quando perdereste l’ultimo Punto Ferita, invece di scegliere una mossa finale, potete compiere un ultimo tiro azione prima di scivolare in un sonno senza sogni finché un alleato non sceglie la mossa di interludio Curare Ferite su di voi.</p>",
+      "actions": {
+        "gNMQ40LnJLRNnXfH": {
+          "name": "Bere",
+          "description": ""
+        }
+      },
+      "effects": {
+        "yTtc0DSPzG9uSVp8": {
+          "name": "Immortale",
+          "description": "<p>Dopo che avete bevuto questa pozione, la morte non può cogliervi fino al vostro prossimo riposo lungo. Quando perdereste l’ultimo Punto Ferita, invece di scegliere una mossa finale, potete compiere un ultimo tiro azione prima di scivolare in un sonno senza sogni finché un alleato non sceglie la mossa di interludio Curare Ferite su di voi.</p>"
         }
       }
     },
@@ -742,6 +1501,16 @@
         }
       }
     },
+    "Verglasian Seed": {
+      "name": "Seme Glaciale",
+      "description": "<p>Potete usare questa scheggia di ghiaccio per congelare istantaneamente una massa d’acqua fino a distanza Prossima.</p>",
+      "actions": {
+        "CXyExqbdVths6G9L": {
+          "name": "",
+          "description": ""
+        }
+      }
+    },
     "Vial of Darksmoke": {
       "name": "Fiala di Nerofumo",
       "description": "<p>Quando un avversario vi attacca, usate questa fiala e tirate un numero di d6 pari al valore di Agilità. Aggiungete il risultato più alto alla vostra Evasione contro l’attacco.</p>",
@@ -749,6 +1518,22 @@
         "4nFnAoyH5dENizsx": {
           "name": "Utilizzare",
           "description": "<p>Quando un avversario vi attacca, usate questa fiala e tirate un numero di d6 pari al valore di Agilità. Aggiungete il risultato più alto alla vostra Evasione contro l’attacco.</p>"
+        }
+      }
+    },
+    "Vial of Featherfall": {
+      "name": "Fiala di Caduta Morbida",
+      "description": "<p>Bere questa pozione rende immuni ai danni da caduta per i successivi 10 minuti.</p>",
+      "actions": {
+        "MDhdI3fzO6awr9Dp": {
+          "name": "Bere",
+          "description": ""
+        }
+      },
+      "effects": {
+        "hjMkahGPmDxo8Fu1": {
+          "name": "Caduta Morbida",
+          "description": "<p>Bere questa pozione rende immuni ai danni da caduta per i successivi 10 minuti.</p>"
         }
       }
     },
@@ -768,6 +1553,16 @@
         }
       }
     },
+    "Warding Candle": {
+      "name": "Candela di Protezione",
+      "description": "<p>Potete accendere questa candela per illuminare un’area entro distanza Ravvicinata. Creature mosse da cattive intenzioni verso chi si trova nell’area non possono oltrepassare il perimetro della luce. La candela brucia per un’ora.</p>",
+      "actions": {
+        "qKYY5VnmyONGrMTO": {
+          "name": "Utilizzare",
+          "description": ""
+        }
+      }
+    },
     "Wingsprout": {
       "name": "Germoglio d’Ali",
       "description": "<p>Ottenete una coppia di ali magiche che vi consentono di volare per un numero di minuti pari al vostro livello.</p>",
@@ -781,6 +1576,22 @@
         "HopgGHn12CHiDNuk": {
           "name": "Utilizzare",
           "description": "<p>Ottenete una coppia di ali magiche che vi consentono di volare per un numero di minuti pari al vostro livello.</p>"
+        }
+      }
+    },
+    "Yakamel Milk": {
+      "name": "Latte di Yakamel",
+      "description": "<p>Dopo aver bevuto questo latte, se curate uno o più Punti Ferita ne curerete uno addizionale.</p>",
+      "actions": {
+        "goGJk7IIgbOvrTVZ": {
+          "name": "Consumare",
+          "description": ""
+        }
+      },
+      "effects": {
+        "oTTGr4S9AS5BJEZY": {
+          "name": "Latte di Yakamel",
+          "description": "<p>Dopo aver bevuto questo latte, se curate uno o più Punti Ferita ne curerete uno addizionale.</p>"
         }
       }
     }

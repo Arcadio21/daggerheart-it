@@ -10,7 +10,8 @@
     "potentialAdversaries": {
       "path": "system.potentialAdversaries",
       "converter": "potentialAdversaries"
-    }
+    },
+    "impulses": "system.impulses"
   },
   "folders": {
     "Tier 1": "Rango 1",
@@ -50,11 +51,11 @@
         },
         "3kkkbnWEvXk5TPK8": {
           "name": "Profanatore",
-          "description": "<p><strong>Spendete 1 Paura</strong> per evocare un @UUID[Compendium.daggerheart.adversaries.Actor.sRn4bqerfARvhgSV] attirato dagli echi di violenza e discordia. Appare a distanza Lontana da un PG bersaglio e diventa immediatamente protagonista.</p><section id=\"secret-ChOafrgiTeYqsqoe\" class=\"secret\"><p><em>Di che colore si tinge l’erba quando appare l’elementale? In che modo il caos distorce gli insetti e la fauna selvatica all’interno del bosco?</em></p></section>",
+          "description": "<p><strong>Spendete una Paura</strong> per evocare un @UUID[Compendium.daggerheart.adversaries.Actor.sRn4bqerfARvhgSV] attirato dagli echi di violenza e discordia. Appare a distanza Lontana da un PG bersaglio e diventa immediatamente protagonista.</p><section id=\"secret-ChOafrgiTeYqsqoe\" class=\"secret\"><p><em>Di che colore si tinge l’erba quando appare l’elementale? In che modo il caos distorce gli insetti e la fauna selvatica all’interno del bosco?</em></p></section>",
           "actions": {
             "p6V4k4yMwJ1UPZMz": {
               "name": "Spendere 1 Paura",
-              "description": "<p><strong>Spendete 1 Paura</strong> per evocare un @UUID[Compendium.daggerheart.adversaries.Actor.sRn4bqerfARvhgSV] attirato dagli echi di violenza e discordia. Appare a distanza Lontana da un PG bersaglio e diventa immediatamente protagonista.</p><section id=\"secret-iCbXJnMeqDXXOc8n\" class=\"secret\"><p><em>Di che colore si tinge l’erba quando appare l’elementale? In che modo il caos distorce gli insetti e la fauna selvatica all’interno del bosco?</em></p></section>"
+              "description": "<p><strong>Spendete una Paura</strong> per evocare un @UUID[Compendium.daggerheart.adversaries.Actor.sRn4bqerfARvhgSV] attirato dagli echi di violenza e discordia. Appare a distanza Lontana da un PG bersaglio e diventa immediatamente protagonista.</p><section id=\"secret-iCbXJnMeqDXXOc8n\" class=\"secret\"><p><em>Di che colore si tinge l’erba quando appare l’elementale? In che modo il caos distorce gli insetti e la fauna selvatica all’interno del bosco?</em></p></section>"
             }
           }
         }
@@ -65,6 +66,109 @@
         },
         "oKq6LhpXvSWnmqyS": {
           "label": "Guardiani del Bosco"
+        }
+      }
+    },
+    "Abandoned Mine": {
+      "name": "Miniera Abbandonata",
+      "description": "<p>Un labirinto tortuoso di gallerie in disuso scavate nella roccia da una compagnia mineraria ormai fallita.</p>",
+      "impulses": "Avvelenare il gruppo con gas letali, provocare scosse e crolli, dividere il gruppo, farlo tornare indietro",
+      "potentialAdversaries": {
+        "vGJG6PfuucD4WEsB": {
+          "label": "Fantasmi dei Minatori"
+        },
+        "pYwK3J4SaqK0Yiw6": {
+          "label": "Ragni di Tramascura"
+        }
+      },
+      "items": {
+        "rK7ZkEUsaqM8gLI5": {
+          "name": "Buio Pesto",
+          "description": "<p>Non c’è luce, né naturale né di altro tipo, in questi tunnel sotterranei. Chiedete ai PG cosa usano per fare luce o in che modo riescono a orientarsi al buio. I PG senza una fonte di luce affidabile effettuano i tiri azione e Reazione con svantaggio.</p><section id=\"secret-2iWVOxm7ZUdQwhZE\" class=\"secret\"><p><em>Cosa consuma la fonte di luce del gruppo e per quanto durerà? Quali attenzioni indesiderate attira la luce?</em></p></section>"
+        },
+        "HfkkL2BpHbNy9wnn": {
+          "name": "Labirinto",
+          "description": "<p>Il gruppo deve completare un Conto alla Rovescia di Progresso (4) per percorrere le miniere. Ogni volta che un PG tira con Speranza mentre cerca la strada, scopre qualcosa tra le seguenti possibilità.</p><ul><li><p>Un filone ancora vergine di pietre o metalli preziosi</p></li><li><p>Vari attrezzi da miniera, tra cui un carrello danneggiato (ma riparabile) realizzato in adamantio</p></li><li><p>Echi psichici della tragica fine dei minatori</p></li><li><p>I cadaveri mummificati dei minatori che si sono persi nei tunnel</p></li><li><p>Residui laceri di seta di ragno di Tramascura</p></li></ul><section id=\"secret-xz0zpURL7LpP6Y6n\" class=\"secret\"><p><em>Cosa estraevano i minatori in passato? Chi nel gruppo sa orientarsi sottoterra? Qual è la cosa di cui i PG hanno più timore quaggiù?</em></p></section>",
+          "actions": {
+            "O96PUar3HP8DcW2n": {
+              "name": "Avviare Conto alla Rovescia",
+              "description": ""
+            }
+          }
+        },
+        "M2Iudy8tNp2tR4rO": {
+          "name": "Nella Tela del Ragno",
+          "description": "<p><strong>Spendete una Paura</strong> per far comparire una Regina di Tramascura all’interno della sua tana disseminata di fili di ragnatela. La Regina piomba dal soffitto a distanza Ravvicinata da un PG e diventa immediatamente protagonista.</p><section id=\"secret-i9sSpmMkF7CLcuS9\" class=\"secret\"><p><em>In che modo la Regina di Tramascura sfrutta la sua tana a proprio vantaggio? In quali resti dei suoi ultimi pasti può imbattersi il gruppo?</em></p></section>",
+          "actions": {
+            "WiVP4FuFxZTwTQMt": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            }
+          }
+        },
+        "FtJmHvPMK3l2dhhO": {
+          "name": "Crollo Imminente",
+          "description": "<p><em>Conto alla Rovescia (2)</em>. La prima volta che i PG tirano con Paura, descrivete come il terreno vibri leggermente mentre le rocce tremano sopra di loro, attivando il conto alla rovescia. Il conto alla rovescia diminuisce ogni volta che un PG tira con Paura. Quando si innesca, ogni PG deve superare un Tiro Reazione di Agilità o subire <strong>1d8+3</strong> danni fisici e rimanere temporaneamente <em>Trattenuto</em> dalle macerie.</p><section id=\"secret-HE1rGi9t3pctLs3I\" class=\"secret\"><p><em>Quali altri segnali di cedimento tradiscono l’instabilità della miniera? Quali pericoli si rivelano al gruppo quando le gallerie assumono la nuova configurazione?</em></p></section>",
+          "actions": {
+            "mofXrAijYoeUrStc": {
+              "name": "Avviare Conto alla Rovescia",
+              "description": ""
+            },
+            "FyWRM3ORf4E3ahy9": {
+              "name": "Innescare Conto alla Rovescia",
+              "description": "<p>Quando si innesca, ogni PG deve superare un Tiro Reazione di Agilità o subire <strong>1d8+3</strong> danni fisici e rimanere temporaneamente <em>Trattenuto</em> dalle macerie.</p>"
+            }
+          },
+          "effects": {
+            "ItgXjrMhAXce4x6D": {
+              "name": "Macerie",
+              "description": ""
+            }
+          }
+        }
+      }
+    },
+    "Alchemist's Abandoned Workshop": {
+      "name": "Laboratorio Abbandonato dell’Alchimista",
+      "description": "<p>Un laboratorio alimentato dai fulmini, costruito da uno scienziato alla ricerca del segreto dell’immortalità.</p>",
+      "impulses": "Superare il confine tra la vita e la morte, attirare i fulmini dal cielo, spingere al massimo le macchine",
+      "potentialAdversaries": {
+        "wk749LjUruN8wDBK": {
+          "label": "Avanzi di Laboratorio"
+        }
+      },
+      "items": {
+        "svSKe6X1U4haD59r": {
+          "name": "Stanza delle Meraviglie",
+          "description": "<p>Gli scaffali, gli armadietti e i tavoli dell’officina sono ingombri di macabre cianfrusaglie, tra cui parti anatomiche conservate in barattoli di formaldeide e strumenti chirurgici sporchi di sangue rappreso. Una volta per scena, un PG può effettuare un Tiro Istinto per trovare qualcosa di utile in questo caos.</p><section id=\"secret-Fs21TFNgkDCks2NO\" class=\"secret\"><p><em>Cosa stava studiando l’alchimista? Quale odore vi assale mentre rovistate tra le sue cose?</em></p></section>"
+        },
+        "LuIwzzQ4m9CS5tqh": {
+          "name": "Strani Macchinari",
+          "description": "<p>L’officina contiene molti esempi di dispositivi bizzarri e strumentazioni scientifiche. Un PG può effettuare un Tiro Conoscenza per capire come funzionano. In caso di successo, riesce a metterli in funzione. In caso di fallimento, rompe qualcosa e subisce <strong>1d8+4</strong> danni magici diretti mentre viene colpito da una scarica elettrica e bagnato da sostanze chimiche caustiche.</p><section id=\"secret-dF1kdMeoqmVLM020\" class=\"secret\"><p><em>Cosa fanno queste macchine? Cosa misurano questi strumenti?</em></p></section>",
+          "actions": {
+            "z9ZZTMZrDbLWEW1E": {
+              "name": "Danni",
+              "description": ""
+            }
+          }
+        },
+        "09c3wMLREGqzpGUr": {
+          "name": "Ma è Vivo!",
+          "description": "<p><em>Conto alla Rovescia delle Conseguenze (6)</em>. Un nubifragio si sta addensando in cielo, minacciando di colpire il parafulmine installato in cima all’officina. Attivate il conto alla rovescia descrivendo come la potenza del nubifragio aumenti a ogni scatto quando un PG effettua un tiro azione. Quando il conto alla rovescia si innesca, un fulmine colpisce il parafulmine e sovraccarica i macchinari dell’officina, che esplodono dopo aver riportato in vita uno dei progetti abbandonati dall’alchimista. Ogni bersaglio a distanza Ravvicinata dai macchinari deve superare un Tiro Reazione di Agilità o subire <strong>1d10</strong> danni magici. Posizionate un Esperimento Fallito all’interno dell’officina e guadagnate una Paura per ogni PG che si trovi entro distanza Prossima da esso.</p><section id=\"secret-gKKXa9HfVC409zMM\" class=\"secret\"><p><em>Cosa stava cercando di ottenere l’alchimista con questo esperimento? Dove ha trovato i materiali necessari?</em></p></section>",
+          "actions": {
+            "hgQUaAWG1vgxEUUQ": {
+              "name": "Avviare Conto alla Rovescia",
+              "description": "<p><em>Conto alla Rovescia delle Conseguenze (6)</em>. Un nubifragio si sta addensando in cielo, minacciando di colpire il parafulmine installato in cima all’officina. Attivate il conto alla rovescia descrivendo come la potenza del nubifragio aumenti a ogni scatto quando un PG effettua un tiro azione.</p>"
+            },
+            "rS4lYkBM58wW9KwC": {
+              "name": "Fulmine",
+              "description": "<p>Quando il conto alla rovescia si innesca, un fulmine colpisce il parafulmine e sovraccarica i macchinari dell’officina, che esplodono dopo aver riportato in vita uno dei progetti abbandonati dall’alchimista. Ogni bersaglio a distanza Ravvicinata dai macchinari deve superare un Tiro Reazione di Agilità o subire <strong>1d10</strong> danni magici. Posizionate un Esperimento Fallito all’interno dell’officina e guadagnate una Paura per ogni PG che si trovi entro distanza Prossima da esso.</p>"
+            },
+            "aSmMvQ8ZIY5yfxkZ": {
+              "name": "Evocare",
+              "description": "<p>Posizionate un Esperimento Fallito all’interno dell’officina e guadagnate una Paura per ogni PG che si trovi entro distanza Prossima da esso.</p>"
+            }
+          }
         }
       }
     },
@@ -105,6 +209,169 @@
             "6DKa1Pm605HpChPd": {
               "name": "Reazione: Perdere 2 Paure",
               "description": "<p>Quando un PG inizia l’imboscata contro avversari ignari, perdete 2 Paure e il primo tiro attacco effettuato da un PG ha vantaggio.</p><section class=\"secret\" id=\"secret-WV3oLdq2IoLoSZqe\"><p><em>Cosa stanno facendo gli avversari quando inizia l’imboscata? In che modo questo influisce sul loro approccio al combattimento?</em></p></section>"
+            }
+          }
+        }
+      }
+    },
+    "Archmage's Tower": {
+      "name": "Torre dell’Arcimago",
+      "description": "<p>Una guglia incredibilmente alta che trafigge i cieli e risuona di immenso potere.</p>",
+      "impulses": "Raccogliere energia magica, sfinire gli intrusi, svelare l’ignoto, scatenare raffiche di potere magico",
+      "potentialAdversaries": {
+        "tnf3DtcDpHvsezF0": {
+          "label": "Arcimago"
+        },
+        "0UqoeKBq8XdcM2O2": {
+          "label": "Creazioni Alchemiche"
+        }
+      },
+      "items": {
+        "iuNPkv0BtBWGcx54": {
+          "name": "Difese Mistiche",
+          "description": "<p><em>Conto alla Rovescia (12)</em>. Per scalare la torre, i PG devono completare il conto alla rovescia. In caso di fallimento o di successo con Paura, attivano uno degli innumerevoli pericoli e trappole arcane dell’Arcimago, subendo <strong>3d10</strong> danni magici. In caso di fallimento con Paura, il danno inflitto ottiene un bonus pari al livello del PG.</p><section id=\"secret-nspaK2xThGNULFBI\" class=\"secret\"><p><em>Cosa vi rivelano le difese dell’Arcimago riguardo alla sua specifica area di competenza? Quale stile caratteristico o elemento distintivo accomuna tutte le trappole e i pericoli?</em></p></section>",
+          "actions": {
+            "6PKq64PBIOd5ojv1": {
+              "name": "Avviare Conto alla Rovescia",
+              "description": ""
+            },
+            "kYM9EDwFevJS3kSQ": {
+              "name": "",
+              "description": ""
+            }
+          }
+        },
+        "ioqwvW4AcpTpyybj": {
+          "name": "Il Rifugio dell’Arcimago",
+          "description": "<p>L’ultimo piano della torre è un laboratorio, una biblioteca e un’officina composto da numerose stanze, contenenti tutto il necessario per studiare la magia nelle sue forme più elevate. Un PG con un Tratto da incantatore può effettuare un Tiro Conoscenza per avvantaggiarsi delle ricerche dell’arcimago. In caso di successo, ottiene un bonus di +1 ai propri Tiri Incantesimo fino al prossimo riposo lungo. In caso di fallimento, la sua indagine va a finire male e subisce <strong>3d8+4</strong> danni magici.</p><section id=\"secret-ahV0x7MO1b57M1Gg\" class=\"secret\"><p><em>Quale parte del rifugio vi attira? Cosa vi svelano gli appunti dell’Arcimago?</em></p></section>",
+          "actions": {
+            "nSqmqrKycwPdB98G": {
+              "name": "",
+              "description": ""
+            },
+            "fJlusVJYy4Et88Cn": {
+              "name": "Bonus Tiri Incantesimo",
+              "description": ""
+            }
+          },
+          "effects": {
+            "Dtqtv6rdUecUdkyA": {
+              "name": "Il Rifugio dell’Arcimago",
+              "description": "<p>Ottenete un bonus +1 ai vostri Tiri Incantesimo fino al vostro prossimo riposo lungo.</p>"
+            },
+            "dVzmZQJVHxy0E5xX": {
+              "name": "Il Rifugio dell’Arcimago",
+              "description": "<p>Ottenete un bonus +1 ai vostri Tiri Incantesimo fino al vostro prossimo riposo lungo.</p>"
+            }
+          }
+        },
+        "5t3BQ5rmvFLOrZca": {
+          "name": "Avversari Amalgamati",
+          "description": "<p><strong>Spendete una Paura</strong> per far comparire due avversari a distanza Ravvicinata da un PG. Ciascun avversario può utilizzare le caratteristiche dell’altro come se fossero le proprie.</p><section id=\"secret-sfsjWC0A8wf8O0d1\" class=\"secret\"><p><em>Quali creature ha scelto di combinare l’Arcimago? Cosa spera di scoprire facendolo?</em></p></section>",
+          "actions": {
+            "8pd0EHvyNlsLwZk5": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            }
+          }
+        }
+      }
+    },
+    "Astral Realm": {
+      "name": "Reame Astrale",
+      "description": "<p>Un regno psichico di energia ed emozioni, dove chi ha uno spirito forte può rimodellare le regole della realtà.</p>",
+      "impulses": "Attaccare la psiche dei PG, evocarne le paure inconsce, distorcere le loro percezioni",
+      "potentialAdversaries": {
+        "slL9ro9IoNdBE1Yf": {
+          "label": "Avversari"
+        },
+        "UIANRGlgpUvlLzlC": {
+          "label": "Vampiri Psichici"
+        }
+      },
+      "items": {
+        "Fq76Ws72FOecLook": {
+          "name": "Esperienza Extracorporea",
+          "description": "<p>Poiché il gruppo non si trova fisicamente in questo regno, i Tiri Forza, Agilità e Astuzia falliscono automaticamente. Inoltre, quando un personaggio dovrebbe subire PF, deve invece perdere Speranza o marcare Stress. Se un personaggio non può marcare Stress, deve effettuare una mossa finale.</p><section id=\"secret-A45bSa6klHKxPj9D\" class=\"secret\"><p><em>In che modo la proiezione della vostra immagine mentale differisce dal vostro aspetto fisico? Quale delle due considerate il vostro “vero” io?</em></p></section>"
+        },
+        "7NjcuEJmBXwnljrt": {
+          "name": "Manifestazioni Mentali",
+          "description": "<p>Con un Tiro Conoscenza riuscito, i PG possono alterare l’ambiente psichicamente, ad esempio invertendo la gravità o evocando una scala che si assembla da sola in pochi istanti. Un PG può usare una manifestazione mentale una volta per scena per ottenere vantaggio in un tiro per percorrere il Reame Astrale.</p><section id=\"secret-ER9W41lXmtlfbQhF\" class=\"secret\"><p><em>Il costrutto che manifestate è un ricordo della vita reale o un frutto dell’immaginazione? Su quale dettaglio vi concentrate per renderlo più stabile?</em></p></section>"
+        },
+        "y76PmjDZYo1JXqnF": {
+          "name": "La Materia È un’Illusione",
+          "description": "<p><em>Conto alla Rovescia (10)</em>. Qui il tempo e la distanza sono relativi, e il semplice spostarsi nello spazio richiede un atto di volontà. Per attraversare il Reame Astrale, il gruppo deve completare il conto alla rovescia utilizzando solo Tiri Conoscenza, Istinto o Presenza. In caso di fallimento con Paura, un PG subisce <strong>3d8</strong> danni magici diretti.</p><section id=\"secret-Mn5Z8o43Wzq27aTW\" class=\"secret\"><p><em>Vi orientate in questo luogo con la mente o con le sensazioni? Questa scelta produce qualche differenza?</em></p></section>",
+          "actions": {
+            "YIFoatmQj0J5rmEI": {
+              "name": "Avviare Conto alla Rovescia",
+              "description": ""
+            },
+            "5WMAc3HBUDdoD20H": {
+              "name": "",
+              "description": ""
+            }
+          }
+        },
+        "atXhxNs4Ka7H3wiT": {
+          "name": "Avversari Astrali",
+          "description": "<p>Gli avversari nel Reame Astrale sono immuni al danno fisico, poiché sono proiezioni psichiche anziché esseri in carne e ossa.</p><section id=\"secret-O97MIbXqdcZUKa6a\" class=\"secret\"><p><em>In che modo la forma astrale di un avversario differisce dalla sua forma fisica? Perché queste proiezioni psichiche sono attratte dai PG?</em></p></section>",
+          "actions": {
+            "jrj8LfBZGtFNkQpD": {
+              "name": "Applicare Astrale",
+              "description": ""
+            }
+          },
+          "effects": {
+            "CICdmS2PoBJoR5YF": {
+              "name": "Astrale",
+              "description": "<p>Gli avversari nel Reame Astrale sono immuni ai danni fisici, in quanto sono proiezioni psichiche anziché esseri di carne e sangue.</p>"
+            }
+          }
+        }
+      }
+    },
+    "Beach Day": {
+      "name": "Relax in Spiaggia",
+      "description": "<p>Il gruppo si prende una pausa dall’avventura per riposarsi e rilassarsi in un insediamento costiero.</p>",
+      "impulses": "Evocare immagini di sabbia e onde, concedere un momento di tregua, preparare i PG al prossimo conflitto",
+      "items": {
+        "32kkC16eXBpiRxkh": {
+          "name": "Riposo & Relax",
+          "description": "<p>Il gruppo si ritrova in un luogo dove le preoccupazioni e i conflitti del mondo esterno svaniscono. Quando i PG riposano qui, ottengono una mossa aggiuntiva di Interludio, il GM non ottiene Paura e nessun conto alla rovescia a lungo termine avanza.</p><section id=\"secret-UDQmua9neWETFUfG\" class=\"secret\"><p><em>Cosa c’è di così rilassante in questo posto? Vi ricorda un luogo in cui siete già stati?</em></p></section>"
+        },
+        "BizLkdzVo2YYJdr3": {
+          "name": "“La Nostra Storia Fin Qui…”",
+          "description": "<p>Una volta per scena, quando un PG racconta un momento memorabile della campagna durante una conversazione con un altro PG, entrambi ottengono una Speranza.</p><section id=\"secret-1lJPRvoXWX92DOk7\" class=\"secret\"><p><em>Quali suoni, odori o sensazioni evoca quel ricordo nella vostra mente? In che modo quel momento ha cambiato per sempre voi o la vostra opinione su quel compagno?</em></p></section>",
+          "actions": {
+            "fCM8L5My1fWAIJHw": {
+              "name": "",
+              "description": ""
+            }
+          }
+        },
+        "FRMRgSgEeAt7jT8r": {
+          "name": "Nota Stonata",
+          "description": "<p><strong>Spendete una Paura</strong> per interrompere il momento di quiete di un PG con una complicazione minore, come una banda di tipi da spiaggia attaccabrighe, un fan troppo esuberante o una brutta scottatura. Il PG deve risolvere la situazione con garbo oppure marcare uno Stress a causa dell’imbarazzo o della frustrazione che ne derivano.</p><section id=\"secret-nKMroQywQ15Itz0a\" class=\"secret\"><p><em>Perché questo PG attira la loro attenzione? Cosa preoccupa di più i residenti rispetto a questi avventurieri appena arrivati?</em></p></section>",
+          "actions": {
+            "05KoBrt1P0UxaC2t": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            }
+          }
+        },
+        "gJSHFvGHs6oVBQtI": {
+          "name": "Sfilata di Moda",
+          "description": "<p>Quando il gruppo si prepara per la prima giornata in spiaggia, chiedete a ciascun giocatore di descrivere come il proprio PG si vesta per adattarsi all’ambiente. Il GM assegna al PG con il look più accattivante un Dado Alla Moda <strong>d6</strong> che può essere utilizzato per potenziare qualsiasi tiro azione o Reazione.</p><section id=\"secret-21Ozr0QIVF23Y6Cl\" class=\"secret\"><p><em>Qual è la moda del posto? I personaggi dove trovano i loro nuovi capi e accessori a tema spiaggia?</em></p></section>",
+          "actions": {
+            "pCkEhFW6eAqSMXVo": {
+              "name": "Assegnare Dado Alla Moda",
+              "description": ""
+            }
+          },
+          "effects": {
+            "hjeRnWtIMLCvBcuj": {
+              "name": "Alla Moda",
+              "description": "<p>Il GM dà al PG con il look più alla moda un Dado Alla Moda d6, che può essere speso per aggiungerlo a qualsiasi tiro azione o reazione.</p>"
             }
           }
         }
@@ -299,17 +566,17 @@
         },
         "RNbAdBZM6gDNaRPn": {
           "name": "Disfare",
-          "description": "<p><strong>Spendete 1 Paura</strong> per costringere un PG a effettuare un Tiro Reazione di Forza. In caso di fallimento, subisce <strong>4d10</strong> danni magici diretti. In caso di successo, deve marcare uno Stress.</p><section id=\"secret-HGAS3UaO0JcUPdlT\" class=\"secret\"><p><em>Quale scorcio di altri mondi intravedi mentre questo luogo cerca di distruggerti? Quale aspetto fondamentale della tua personalità cerca di contrapporsi a questa distruzione?</em></p></section>",
+          "description": "<p><strong>Spendete una Paura</strong> per costringere un PG a effettuare un Tiro Reazione di Forza. In caso di fallimento, subisce <strong>4d10</strong> danni magici diretti. In caso di successo, deve marcare uno Stress.</p><section id=\"secret-HGAS3UaO0JcUPdlT\" class=\"secret\"><p><em>Quale scorcio di altri mondi intravedi mentre questo luogo cerca di distruggerti? Quale aspetto fondamentale della tua personalità cerca di contrapporsi a questa distruzione?</em></p></section>",
           "actions": {
             "6AT7qvUE6I6eVHU8": {
               "name": "Tiro Reazione",
-              "description": "<p><strong>Spendete 1 Paura</strong> per costringere un PG a effettuare un Tiro Reazione di Forza. In caso di fallimento, subisce <strong>4d10</strong> danni magici diretti. In caso di successo, deve marcare uno Stress.</p><section class=\"secret\" id=\"secret-ycMBQOJJjDI4wEwK\"><p><em>Quale scorcio di altri mondi intravedi mentre questo luogo cerca di distruggerti? Quale aspetto fondamentale della tua personalità cerca di contrapporsi a questa distruzione?</em></p></section>"
+              "description": "<p><strong>Spendete una Paura</strong> per costringere un PG a effettuare un Tiro Reazione di Forza. In caso di fallimento, subisce <strong>4d10</strong> danni magici diretti. In caso di successo, deve marcare uno Stress.</p><section class=\"secret\" id=\"secret-ycMBQOJJjDI4wEwK\"><p><em>Quale scorcio di altri mondi intravedi mentre questo luogo cerca di distruggerti? Quale aspetto fondamentale della tua personalità cerca di contrapporsi a questa distruzione?</em></p></section>"
             }
           }
         },
         "SZpUJeJETVQtZwae": {
           "name": "Predatori dei Reami Esterni",
-          "description": "<p><strong>Spendete 1 Paura</strong> per far comparire un @UUID[Compendium.daggerheart.adversaries.Actor.A0SeeDzwjvqOsyof], un @UUID[Compendium.daggerheart.adversaries.Actor.ms6nuOl3NFkhPj1k] e <strong>[[/r 2d6]]</strong> @UUID[Compendium.daggerheart.adversaries.Actor.moJhHgKqTKPS2WYS], che appaiono a distanza Ravvicinata da un PG bersaglio, sfidando la logica e la causalità. Uno di questi avversari diventa immediatamente protagonista e potete spendere un’ulteriore Paura per avere automaticamente successo con il suo attacco standard.</p><section class=\"secret\" id=\"secret-psXRRXLoibTKFpaW\"><p><em>Quali vestigie semidistrutte di una realtà frantumata queste mostruosità abbandonano alla ricerca della carne dei viventi? Quali riflessi frastagliati della loro precedente umanità riesci a intravedere per un solo istante in quella che ormai è una malvagità assoluta?</em></p></section>",
+          "description": "<p><strong>Spendete una Paura</strong> per far comparire un @UUID[Compendium.daggerheart.adversaries.Actor.A0SeeDzwjvqOsyof], un @UUID[Compendium.daggerheart.adversaries.Actor.ms6nuOl3NFkhPj1k] e <strong>[[/r 2d6]]</strong> @UUID[Compendium.daggerheart.adversaries.Actor.moJhHgKqTKPS2WYS], che appaiono a distanza Ravvicinata da un PG bersaglio, sfidando la logica e la causalità. Uno di questi avversari diventa immediatamente protagonista e potete spendere un’ulteriore Paura per avere automaticamente successo con il suo attacco standard.</p><section class=\"secret\" id=\"secret-psXRRXLoibTKFpaW\"><p><em>Quali vestigie semidistrutte di una realtà frantumata queste mostruosità abbandonano alla ricerca della carne dei viventi? Quali riflessi frastagliati della loro precedente umanità riesci a intravedere per un solo istante in quella che ormai è una malvagità assoluta?</em></p></section>",
           "actions": {
             "KCzdCu2KhAx9KyhT": {
               "name": "Spendere 1 Paura",
@@ -361,7 +628,7 @@
         },
         "EP4FXeQqbqFGQoIX": {
           "name": "Caduta",
-          "description": "<p><strong>Spendete 1 Paura</strong> per far perdere l’appiglio a un PG, facendolo precipitare verso il suolo. Se non si riesce a salvarlo nell’azione immediatamente successiva, si schianta al suolo e il Conto alla Rovescia aumenta di 2. Il PG subisce <strong>1d12</strong> danni fisici se il Conto alla Rovescia è compreso tra 8 e 12, <strong>2d12</strong> se è compreso tra 4 e 7 e <strong>3d12</strong> se è pari o inferiore a 3.</p><section class=\"secret\" id=\"secret-M5AEA24dk07O00FA\"><p><em>Come fai a sapere che molti altri sono caduti qui prima di te? Cosa vive tra queste mura che potrebbe spaventare gli avventurieri e spingerli a cadere per ottenere un facile pasto?</em></p></section>",
+          "description": "<p><strong>Spendete una Paura</strong> per far perdere l’appiglio a un PG, facendolo precipitare verso il suolo. Se non si riesce a salvarlo nell’azione immediatamente successiva, si schianta al suolo e il Conto alla Rovescia aumenta di 2. Il PG subisce <strong>1d12</strong> danni fisici se il Conto alla Rovescia è compreso tra 8 e 12, <strong>2d12</strong> se è compreso tra 4 e 7 e <strong>3d12</strong> se è pari o inferiore a 3.</p><section class=\"secret\" id=\"secret-M5AEA24dk07O00FA\"><p><em>Come fai a sapere che molti altri sono caduti qui prima di te? Cosa vive tra queste mura che potrebbe spaventare gli avventurieri e spingerli a cadere per ottenere un facile pasto?</em></p></section>",
           "actions": {
             "LVEPUPIAJJMiCtbV": {
               "name": "Lanciare 1d12",
@@ -377,7 +644,7 @@
             },
             "M8MfD2qBfYCwNKvH": {
               "name": "Spendere 1 Paura",
-              "description": "<p><strong>Spendete 1 Paura</strong> per far perdere l’appiglio a un PG, facendolo precipitare verso il suolo. Se non si riesce a salvarlo nell’azione immediatamente successiva, si schianta al suolo e il Conto alla Rovescia aumenta di 2. Il PG subisce <strong>1d12</strong> danni fisici se il Conto alla Rovescia è compreso tra 8 e 12, <strong>2d12</strong> se è compreso tra 4 e 7 e <strong>3d12</strong> se è pari o inferiore a 3.</p><section class=\"secret\" id=\"secret-ufZ6ifPWxU4MkKow\"><p><em>Come fai a sapere che molti altri sono caduti qui prima di te? Cosa vive tra queste mura che potrebbe spaventare gli avventurieri e spingerli a cadere per ottenere un facile pasto?</em></p></section>"
+              "description": "<p><strong>Spendete una Paura</strong> per far perdere l’appiglio a un PG, facendolo precipitare verso il suolo. Se non si riesce a salvarlo nell’azione immediatamente successiva, si schianta al suolo e il Conto alla Rovescia aumenta di 2. Il PG subisce <strong>1d12</strong> danni fisici se il Conto alla Rovescia è compreso tra 8 e 12, <strong>2d12</strong> se è compreso tra 4 e 7 e <strong>3d12</strong> se è pari o inferiore a 3.</p><section class=\"secret\" id=\"secret-ufZ6ifPWxU4MkKow\"><p><em>Come fai a sapere che molti altri sono caduti qui prima di te? Cosa vive tra queste mura che potrebbe spaventare gli avventurieri e spingerli a cadere per ottenere un facile pasto?</em></p></section>"
             }
           }
         }
@@ -385,6 +652,215 @@
       "potentialAdversaries": {
         "hWhlWzJ8nNKAMmXx": {
           "label": "Altro"
+        }
+      }
+    },
+    "Convergence, The City Of Portals": {
+      "name": "Convergenza, la Città dei Portali",
+      "description": "<p>Una metropoli tentacolare al crocevia della Creazione, dove si riuniscono figure influenti provenienti da tutti i regni.</p>",
+      "impulses": "Mettere i PG di fronte a usanze aliene, stupirli con una varietà infinita di incontri, tentarli con l’impossibile",
+      "potentialAdversaries": {
+        "5si048Lyh4c7sUrE": {
+          "label": "Potenti Personaggi"
+        }
+      },
+      "items": {
+        "oqZmYjmq7nHwqK7d": {
+          "name": "L’Impossibile Spopola",
+          "description": "<p>Convergenza è un crocevia di divinità, mostri, alieni e ogni sorta di viaggiatori interdimensionali. Poiché la vita dei mortali è generalmente al di sotto delle preoccupazioni di questi esseri, i PG hanno svantaggio nei tiri azione per influenzarli, a meno che non abbiano qualcosa per attirare la loro attenzione o sappiano a cosa tiene il PNG.</p><section id=\"secret-IkUNHWoZWhXKxHAt\" class=\"secret\"><p><em>Quale tipo di essere domina attualmente la città? Quali strane usanze praticano? Quale PG ne è più confuso o offeso, e quale PG adotta queste usanze come proprie?</em></p></section>",
+          "actions": {
+            "O3LiAiXLVHbVAhiB": {
+              "name": "Applicare",
+              "description": ""
+            }
+          },
+          "effects": {
+            "Sx29pwoNC1prZcY5": {
+              "name": "Al di Sotto del Loro Interesse",
+              "description": "<p>Poiché la vita mortale è in genere al di sotto dell’interesse di questi esseri, i PG hanno svantaggio ai tiri azione per influenzarli, a meno che non abbiano un vantaggio su di loro o sappiano cosa sta a cuore al PNG.</p>"
+            }
+          }
+        },
+        "cVL5PXbDsM7wccZf": {
+          "name": "Nel Multiverso",
+          "description": "<p>La città di Convergenza possiede un portale o una porta verso ogni regno dell’esistenza.</p><section id=\"secret-Tu6AYVy5cD2UXJxq\" class=\"secret\"><p><em>Dove (o quando) vuole andare il gruppo? Dove si trova quel portale e chi controlla quella zona?</em></p></section>"
+        },
+        "uYTJYPixVWPMgMjs": {
+          "name": "Repertorio Infinito",
+          "description": "<p>Questa città ha la soluzione a qualsiasi problema, se si riesce a trovarla. Un PG alla ricerca di un oggetto particolare con proprietà meravigliose può effettuare un Tiro Istinto o Presenza per trovarlo nel mercato pandimensionale della città.</p><ul><li><p><strong>Successo Critico:</strong> Il PG trova l’oggetto perfetto e il mercante che lo possiede vuole in cambio solo qualcosa che il PG considera irrilevante.</p></li><li><p><strong>Successo con Speranza:</strong> Il PG trova l’oggetto perfetto e può scambiarlo con qualcosa di pari valore.</p></li><li><p><strong>Successo con Paura:</strong> Il PG trova l’oggetto perfetto, ma il mercante che lo possiede lo scambierà solo con qualcosa che il gruppo non può dargli… per ora.</p></li><li><p><strong>Qualsiasi Fallimento:</strong> Il PG deve marcare uno Stress poiché si lancia in una ricerca vana ma torna a mani vuote. Il PG può marcare uno Stress aggiuntivo per trasformare questo risultato in un successo con Paura.</p></li></ul><section id=\"secret-xYEEvbFdu4R6CC3G\" class=\"secret\"><p><em>Chi possiede l’oggetto di cui il gruppo ha bisogno? Cosa vuole in cambio?</em></p></section>"
+        },
+        "LyaalfQw9F2uRj9Z": {
+          "name": "Non Smuovere le Acque",
+          "description": "<p><em>Conto alla Rovescia (6)</em>. Poiché tutto è possibile a Convergenza, la città mantiene una burocrazia labirintica che emana e fa rispettare ordinanze riguardanti tutti gli scambi e le interazioni tra i regni. Quando il gruppo arriva a Convergenza, attivate il conto alla rovescia, che diminuisce quando un PG compie un’azione che sconvolge il delicato equilibrio politico della città. Quando si innesca, i PG diventano <em>Ricercati</em> finché non dimostrano la propria innocenza alle autorità. Quando un PG <em>Ricercato</em> tira con Paura, potete evocare <strong>1d4</strong> Custodi Temporali che compaiono a una distanza Prossima, diventano immediatamente protagonisti e cercano di arrestare il gruppo.</p><section id=\"secret-VoeL6dGUKdcCpqPi\" class=\"secret\"><p><em>Cosa ha fatto (o farà) il gruppo per attirare l’attenzione e l’ira dei funzionari cittadini? Come può risolvere il problema che ha causato?</em></p></section>",
+          "actions": {
+            "ZXWbr2YnA6oEUbNA": {
+              "name": "Avviare Conto alla Rovescia",
+              "description": "<p><em>Conto alla Rovescia (6)</em>. Poiché tutto è possibile a Convergenza, la città mantiene una burocrazia labirintica che emana e fa rispettare ordinanze riguardanti tutti gli scambi e le interazioni tra i regni. Quando il gruppo arriva a Convergenza, attivate il conto alla rovescia, che diminuisce quando un PG compie un’azione che sconvolge il delicato equilibrio politico della città.</p>"
+            },
+            "eLGtrn1swEajhVXP": {
+              "name": "Diventare Ricercati",
+              "description": "<p>Quando si innesca, i PG diventano <em>Ricercati</em> finché non dimostrano la propria innocenza alle autorità.</p>"
+            },
+            "hwe4SW1rxEM7Y2ng": {
+              "name": "",
+              "description": "<p>Quando un PG <em>Ricercato</em> tira con Paura, potete evocare 1d4 Custodi Temporali che compaiono a distanza Prossima, diventano immediatamente protagonisti e cercano di arrestare il gruppo.</p>"
+            }
+          },
+          "effects": {
+            "mzmkBPSEjmqE7dr5": {
+              "name": "Ricercato",
+              "description": ""
+            }
+          }
+        },
+        "VaMnxpVawLRSYJs1": {
+          "name": "Un’Offerta Che Non Si Può Rifiutare",
+          "description": "<p>Convergenza ospita una fragile rete di fazioni rivali. <strong>Spendete una Paura</strong> affinché una di esse proponga al gruppo una soluzione semplice a un problema complesso in cambio della loro fedeltà. Se il gruppo rifiuta, ogni PG deve marcare uno Stress e non potrà più rivolgersi a quella fazione per chiedere aiuto in futuro.</p><section id=\"secret-CG2w7YzpHDVqXGYR\" class=\"secret\"><p><em>Quale fazione offre supporto al gruppo? Contro chi vuole che agisca?</em></p></section>",
+          "actions": {
+            "zHLj0UD0epZuNIgC": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            }
+          }
+        }
+      }
+    },
+    "Corrupted Swamp": {
+      "name": "Palude Corrotta",
+      "description": "<p>Un tratto miserabile di acque viscide, creature tossiche e decomposizione.</p>",
+      "impulses": "Corrompere, diffondere la putrescenza, mettere in mostra tutto ciò che è contorto e innaturale, provocare nausea",
+      "items": {
+        "jntVV9Ceu7BuoE3D": {
+          "name": "Malaria",
+          "description": "<p>Al termine di un riposo lungo, ogni PG deve superare un Tiro Reazione di Forza o ottenere un Dado Malaria <strong>d4</strong>, con il valore 1 rivolto verso l’alto. Se un PG fallisce questo tiro e possiede già un Dado Malaria, ne aumenta il valore di 1 fino a un massimo di 4. Un PG con un Dado Malaria subisce una penalità ai propri tiri azione pari al valore del dado. Quando un PG con un Dado Malaria recupererebbe PF, può invece diminuire il valore del dado di 1. Quando il valore del dado scende a 0, rimuovetelo.</p><section id=\"secret-0rEh56Q5yIPEezl9\" class=\"secret\"><p><em>La palude pullula di vita oppure è il regno della decomposizione… o entrambe le cose? Quale forza ha devastato questa palude e quali testimonianze delle sue origini rimangono?</em></p></section>",
+          "actions": {
+            "jRYlc0HNaTK08pPA": {
+              "name": "",
+              "description": ""
+            }
+          },
+          "effects": {
+            "9OrnpwDvVwqKJ7ET": {
+              "name": "Nauseato",
+              "description": "<p>Un PG con un Dado della Nausea subisce una penalità ai tiri azione pari al suo valore. Quando un PG con un Dado della Nausea recupererebbe un PF, può invece ridurre di 1 il valore del Dado della Nausea. Quando il valore del dado scenderebbe a 0, rimuovetelo.</p>"
+            }
+          }
+        },
+        "qRNnIdS36yJxR2qN": {
+          "name": "Fradicia e Spossante",
+          "description": "<p>Quando un PG si muove come parte di un’azione, può spostarsi solo fino a distanza Prossima. I tiri azione per muoversi oltre distanza Prossima subiscono svantaggio. Prima di tirare, un PG può spendere uno Stress per aggirare questo svantaggio.</p><section id=\"secret-AYuhCKsgUawC3y2Z\" class=\"secret\"><p><em>Quali creature, viventi o meno, si nascondono sotto la superficie torbida dell’acqua? Dove o come i PG trovano un po’ di sollievo dalle acque maleodoranti?</em></p></section>",
+          "actions": {
+            "mzDcuIaFMB3b5sQp": {
+              "name": "Applicare Inzuppato",
+              "description": ""
+            }
+          },
+          "effects": {
+            "f2j8t8ARlxNArOHL": {
+              "name": "Inzuppato",
+              "description": "<p>Quando un PG si muove come parte di un’azione, può spostarsi solo fino a distanza Prossima. I tiri azione per spostarsi oltre la distanza Prossima hanno svantaggio. Prima di tirare, un PG può marcare uno Stress per rimuovere questo svantaggio.</p>"
+            }
+          }
+        },
+        "JakHh4vcOL94tVgk": {
+          "name": "Fioritura Marcescente",
+          "description": "<p><strong>Spendete una Paura</strong> affinché un’area entro distanza Lontana venga saturata di un polline nocivo. Ogni bersaglio in quell’area deve superare un Tiro Reazione di Forza o Istinto, altrimenti subisce <strong>1d6+3</strong> danni magici e diventa <em>Vulnerabile</em> fino alla fine della scena.</p><section id=\"secret-j3dV4Lf89omLh4Y8\" class=\"secret\"><p><em>Come vi accorgete che le piante che producono questo polline sono carnivore? Quali incubi o paesaggi onirici ne evoca il profumo ammorbante?</em></p></section>",
+          "actions": {
+            "thFnRvx9r3I9jFc9": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            }
+          },
+          "effects": {
+            "bmOIoONPXehkUJeH": {
+              "name": "Fiore Putrido",
+              "description": "<p>Siete <em>Vulnerabili</em> fino alla fine della scena.</p>"
+            }
+          }
+        },
+        "d1MwntqkY2eED0jm": {
+          "name": "Luci Danzanti",
+          "description": "<p>All’inizio di un riposo, potete <strong>spendere una Paura</strong> per far sì che sfere fluttuanti circondino gli stanchi PG e ne attirino uno verso il centro della palude. Un altro PG può usare una mossa di Interludio per effettuare un tiro azione e partire alla ricerca del compagno. In caso di successo, entrambi i PG tornano all’accampamento e possono scegliere le mosse di Interludio come di consueto. In caso di fallimento — o se nessuno li cerca — il PG smarrito ritorna ore dopo, ricoperto di fango e in condizioni ancora peggiori, e non può scegliere mosse di Interludio fino al prossimo riposo.</p><section id=\"secret-okd5IeEliPFRKJ0j\" class=\"secret\"><p><em>Cosa vede il PG smarrito in quelle luci che lo attirano nell’oscurità? Quali altri scorci di inaspettata bellezza incontrano qui i PG?</em></p></section>",
+          "actions": {
+            "AMgAmJMcmpeb3DVm": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            }
+          }
+        }
+      }
+    },
+    "Crystal Wasteland": {
+      "name": "La Desolazione di Cristallo",
+      "description": "<p>Un paesaggio aspro e alieno che risplende di torri di cristallo scintillante.</p>",
+      "impulses": "Colpire al cuore i PG, frantumarne la psiche, mostrare loro il loro vero riflesso",
+      "potentialAdversaries": {
+        "ALbfIsyRuqyBQ1AG": {
+          "label": "Avversari"
+        }
+      },
+      "items": {
+        "LgyMzjLLV8C02XUt": {
+          "name": "Risonanza Armonica",
+          "description": "<p>I cristalli di questo luogo risuonano di energia magica. Un PG può utilizzare una mossa di Interludio per cercare di entrare In sintonia con l’ambiente, superando un Tiro Incantesimo. Finché è In sintonia, il PG ha vantaggio ai tiri per lanciare incantesimi all’interno della Desolazione di Cristallo. La condizione termina quando il PG lascia la Desolazione di Cristallo.</p><section id=\"secret-qLEwNaUi96HZAhIB\" class=\"secret\"><p><em>In che modo la sintonia con questo luogo altera l’esperienza sensoriale? Quale suono o canzone dell’infanzia ti ricorda questo posto?</em></p></section>",
+          "actions": {
+            "L8wpXqmDqs3X19Ir": {
+              "name": "Applicare Sintonizzato",
+              "description": ""
+            }
+          },
+          "effects": {
+            "fCKrezLHtPnXqWmg": {
+              "name": "Sintonizzato",
+              "description": "<p>Finché è Sintonizzato, il PG ha vantaggio ai Tiri Incantesimo all’interno della Desolazione di Cristallo. La condizione viene rimossa quando il PG lascia la Desolazione di Cristallo.</p>"
+            }
+          }
+        },
+        "njOwlE1SWd2fsBtP": {
+          "name": "Anomalie Gravitazionali",
+          "description": "<p>Strani fenomeni localizzati costellano il paesaggio, distorcendo la distanza e la direzione. <strong>Spendete una Paura</strong> per alterare la gravità nel punto scelto. Ogni bersaglio entro distanza Ravvicinata da quel punto deve effettuare un Tiro Reazione di Conoscenza per calcolare la propria nuova traiettoria. I bersagli che falliscono subiscono <strong>3d8+4</strong> danni fisici mentre vengono scagliati in alto. I bersagli che riescono devono marcare uno Stress oppure subire la metà dei danni.</p><section id=\"secret-LgbiOKDoUn54hrGO\" class=\"secret\"><p><em>Cosa si prova mentre il corpo e mente lottano per ristabilire l’equilibrio? C’è un modo per sfruttare questa situazione a proprio vantaggio?</em></p></section>",
+          "actions": {
+            "mBNx7h5AKGzEkSU9": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            }
+          }
+        },
+        "oQR35SLZzSVAnqTB": {
+          "name": "Riflessione Arcana",
+          "description": "<p><strong>Spendete una Paura</strong> per far intravedere a un numero qualsiasi di PG, nei cristalli, un riflesso di chi erano un tempo o di chi potrebbero diventare. Ogni bersaglio deve effettuare un Tiro Reazione di Istinto. I bersagli che superano il tiro vedono una visione del loro io migliore e possono sostituire una delle loro Esperienze. I bersagli che falliscono vedono una visione del loro passato oscuro — o di un futuro ancora più oscuro — e devono marcare uno Stress. Ottenete una Paura per ogni bersaglio che ha fallito il Tiro Reazione.</p><section id=\"secret-TwOocOxYE2TLlqOO\" class=\"secret\"><p><em>Chi vedono i PG dall’altra parte del cristallo? Come li fa sentire?</em></p></section>",
+          "actions": {
+            "DZiyCYx44PO08HrL": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            }
+          }
+        },
+        "cQ6riYtHFwRCbezK": {
+          "name": "Terreno Affilato Come un Rasoio",
+          "description": "<p>Quando un PG fallisce un tiro per muoversi nella Desolazione deve effettuare un Tiro Reazione di Astuzia. In caso di fallimento, si taglia sui bordi affilati del terreno. Frammenti di cristallo magico si conficcano nella ferita e crescono lentamente, iniziando a <em>Cristallizzarlo</em>. Attivate un Conto alla Rovescia di Cristallizzazione (1) per quel PG. Finché non rimuove la condizione con un Tiro Conoscenza riuscito, il PG che si sta <em>Cristallizzando</em> aumenta il proprio Conto alla Rovescia del Cristallo all’inizio di ogni riposo e subisce una penalità alla sua Evasione pari a tale valore. Il conto alla rovescia termina quando la condizione viene eliminata.</p><section id=\"secret-h9sBCHQ9Kh6Vk6u2\" class=\"secret\"><p><em>Che aspetto ha il cristallo mentre cresce? Che sensazione dà?</em></p></section>",
+          "actions": {
+            "MnbGWB3cBXVZpnZN": {
+              "name": "Applicare Cristallizzazione",
+              "description": ""
+            }
+          },
+          "effects": {
+            "GTqln5JzZkKBd9cA": {
+              "name": "In Cristallizzazione",
+              "description": "<p>Finché non rimuove la condizione con un Tiro Conoscenza riuscito, un PG in Cristallizzazione fa avanzare il proprio Conto alla Rovescia del Cristallo all’inizio di ogni riposo e subisce una penalità all’Evasione pari al suo valore. Il conto alla rovescia termina quando la condizione viene rimossa.</p>"
+            }
+          }
+        },
+        "5M5cYkCt4K8w0vJI": {
+          "name": "Rimescolamento Psichico",
+          "description": "<p>Quando i PG effettuano un riposo lungo, potete <strong>spendere una Paura</strong> per scambiare le loro menti. Raccogliete tutte le schede dei personaggi giocanti, poi mescolatele e ridistribuitele casualmente. Ogni scheda personaggio include le carte Dominio e gli aiuti di gioco di quel PG. Un PG può riottenere la propria mente con un Tiro Conoscenza riuscito, scambiando la scheda con il giocatore che possiede la sua scheda personaggio originale.</p><section id=\"secret-bXSAzjDUhEMAtZSv\" class=\"secret\"><p><em>Come ci si sente a essere nei panni di qualcun altro? Se poteste scegliere di conservare parte del suo aspetto, quale sarebbe?</em></p></section>",
+          "actions": {
+            "BYcJ7czGACtNTCGR": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            }
+          }
         }
       }
     },
@@ -451,6 +927,126 @@
       "potentialAdversaries": {
         "hNREaghvi4LqHQ06": {
           "label": "Culto dei Caduti"
+        }
+      }
+    },
+    "Cursed Graveyard": {
+      "name": "Cimitero Maledetto",
+      "description": "<p>Un esteso cimitero punteggiato da lapidi fatiscenti, alberi contorti posseduti dai morti, cripte ricoperte di muschio ed edera.</p>",
+      "impulses": "Seppellire i viventi sotto due metri di terra, soffocarli con la nebbia, attirarli con promesse di tesori sepolti, scatenare i morti inquieti",
+      "potentialAdversaries": {
+        "6RB1MDFDZlGQGOXa": {
+          "label": "Morti Viventi"
+        },
+        "9nT0BYx6IU732cL0": {
+          "label": "Spiriti Corrotti"
+        }
+      },
+      "items": {
+        "jAe6q70mR0ujYqnD": {
+          "name": "C’è Sempre Posto",
+          "description": "<p>Se un PG perde il suo ultimo PF mentre si trova nel cimitero, diventa un <em>Ectoplasma</em> invece di effettuare una mossa finale. Quando è un <em>Ectoplasma</em>, il PG può comunicare con i vivi ma non può interagire con il mondo fisico, e deve rimanere entro distanza Ravvicinata dal proprio cadavere o attraversare il velo della morte. Questa condizione viene annullata quando il PG recupera un PF.</p><section id=\"secret-qGN79en8zBOIKQe2\" class=\"secret\"><p><em>Quali nuove informazioni o esperienze acquisisce un PG da ectoplasma? Come può il gruppo ricongiungere lo spirito del PG al corpo? Cosa succede se il rituale va storto?</em></p></section>"
+        },
+        "eil7GhCVyJXoc4uH": {
+          "name": "Terreno Consacrato",
+          "description": "<p>Al centro del cimitero si trova una cappella apparentemente intatta. Superando un Tiro Istinto, un PG può scoprire che questa struttura è stata benedetta per offrire protezione dagli esseri che infestano il cimitero. All’interno della cappella, i PG hanno vantaggio ai tiri azione per combattere o respingere spiriti e non morti.</p><section id=\"secret-8lcytZzx1FbzPrVx\" class=\"secret\"><p><em>Chi ha consacrato questo luogo e che fine ha fatto? Quali reliquie sacre vi si possono trovare?</em></p></section>",
+          "actions": {
+            "AOMtkIy1zWkhxi2L": {
+              "name": "Applicare Consacrazione",
+              "description": ""
+            }
+          },
+          "effects": {
+            "0ECCZGKZdUeX9DBP": {
+              "name": "Consacrato",
+              "description": "<p>All’interno della cappella, i PG hanno vantaggio ai tiri azione per combattere o respingere spiriti e non morti.</p>"
+            }
+          }
+        },
+        "6Xhz8IATLKk3IYZW": {
+          "name": "Miasma Nebbioso",
+          "description": "<p><strong>Spendete una Paura</strong> per saturare un’area fino a distanza Lontana con una nebbia ectoplasmica che fuoriesce dal terreno fradicio. Quando un PG tira con Paura mentre si trova nell’area, deve marcare uno Stress.</p><section id=\"secret-C7vJsPrAkoE7hjNM\" class=\"secret\"><p><em>Quali orrori vedono i PG nella nebbia? Quale odore nauseante emette il miasma?</em></p></section>",
+          "actions": {
+            "QTzzIjmEReDO7Vt3": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            }
+          }
+        },
+        "n254TZpHt6PwppCi": {
+          "name": "I Morti si Destano",
+          "description": "<p><strong>Spendete una Paura</strong> per far spuntare dal terreno proprio al di sotto di un PG le mani dei non morti. Il bersaglio deve superare un Tiro Reazione di Agilità o Presenza, altrimenti deve marcare uno Stress ed essere temporaneamente <em>Trattenuto</em> mentre le mani lo afferrano per le caviglie.</p><section id=\"secret-8B2ArSeN4EKOWMbW\" class=\"secret\"><p><em>Chi erano queste persone in vita? Perché sono state sepolte qui? Perché rifiutano la tomba?</em></p></section>",
+          "actions": {
+            "LxndzJzTJia0RRL8": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            }
+          },
+          "effects": {
+            "1LtLrNsKEwrurfqT": {
+              "name": "I Morti si Destano",
+              "description": ""
+            }
+          }
+        },
+        "LJoxtl56DlH4GrOu": {
+          "name": "I Defunti Non Muoiono Facilmente",
+          "description": "<p>Quando un avversario sta per perdere il suo ultimo PF, tirate un <strong>d6</strong>. Con un risultato di 5 o 6, l’avversario non lo perde.</p><section id=\"secret-3zJIG3Bv3IBMpn6E\" class=\"secret\"><p><em>Chi ha fatto sì che questa terra tenesse lontana la Morte? Che cosa, nel modo in cui i morti tornano dalla tomba, rispecchia l’aura emanata da questo cimitero?</em></p></section>",
+          "actions": {
+            "FOVeu1EoSVPgSyMw": {
+              "name": "Tiro Non Morte",
+              "description": ""
+            }
+          }
+        }
+      }
+    },
+    "Deadly Dungeon": {
+      "name": "Dungeon Letale",
+      "description": "<p>Un reticolo sotterraneo di tunnel e camere scarsamente illuminati, pieno di mostri, trappole e tesori.</p>",
+      "impulses": "Consumare le risorse del gruppo, far scattare la trappola, tentare con i tesori, scatenare mostri contro i PG, farli tornare indietro",
+      "potentialAdversaries": {
+        "sGbzbXsgB4qjaZbz": {
+          "label": "Abitanti del Dungeon"
+        },
+        "BhKfIeoClSGtemGN": {
+          "label": "Avventurieri Rivali"
+        }
+      },
+      "items": {
+        "G6rUp9taBiyUIQvy": {
+          "name": "Curve e Controcurve",
+          "description": "<p><em>Conto alla Rovescia (6)</em>. Quando il gruppo entra nel dungeon, attivate il conto alla rovescia. Il conto alla rovescia diminuisce quando un PG supera un tiro azione per percorrere i passaggi. Quando si innesca, i PG raggiungono la parte più profonda, buia e meglio difesa del dungeon.</p><section id=\"secret-U1QJ76Mn90bhcq6y\" class=\"secret\"><p><em>Quale ricompensa si nasconde nel cuore del Labirinto? Chi lo ha costruito allo scopo di proteggerla?</em></p></section>",
+          "actions": {
+            "DrDWYorQQD7Z6uwt": {
+              "name": "Avviare Conto alla Rovescia",
+              "description": ""
+            }
+          }
+        },
+        "Y8BCsSqUBRNVycHf": {
+          "name": "Tesori Nascosti",
+          "description": "<p>Una volta per riposo, i PG possono trovare un tesoro nascosto all’interno del dungeon, sui cadaveri degli esploratori precedenti o dietro porte nascoste. Con un tiro riuscito per muoversi nel dungeon, un PG può spendere fino a 5 Speranze per tirare lo stesso numero di <strong>[[/r d6]]</strong>. Per ogni risultato, il gruppo ottiene il seguente bottino o equipaggiamento:</p><ol><li><p>Pietre preziose sfuse, gioielli, ninnoli o monete per un valore pari a una manciata d’oro</p></li><li><p>Un oggetto o una scorta comune</p></li><li><p>Un oggetto o una scorta non comune</p></li><li><p>Un oggetto o una scorta rara</p></li><li><p>Un oggetto o una scorta leggendaria</p></li><li><p>Un’arma o un’armatura del rango del gruppo</p></li></ol><section id=\"secret-pijQnwy6NtYYhveZ\" class=\"secret\"><p><em>Chi erano i precedenti proprietari dei tesori? Come pensano i PG di portare fuori dal dungeon gli oggetti rubati?</em></p></section>"
+        },
+        "1onLVsttc9m0tcfW": {
+          "name": "Mostro Errante",
+          "description": "<p>Quando il gruppo entra in una nuova area del dungeon, potete <strong>spendere una Paura</strong> per far comparire <strong>1d4</strong> avversari di rango pari o inferiore al rango del gruppo entro distanza Lontana e tirare un <strong>[[/r d6]]</strong>. Con un risultato di 1 o 2, i PG notano segnali di pericolo e possono prepararsi allo scontro; il primo PG a effettuare un tiro azione ottiene vantaggio su di esso. Con un risultato di 3 o 4, il combattimento si svolge come al solito. Con un risultato di 5 o 6, gli avversari colgono di sorpresa i PG agendo immediatamente come protagonisti, e voi ottenete una Paura.</p><section id=\"secret-mX9aXZNDuTk77Dln\" class=\"secret\"><p><em>Come sono finite qui queste creature? Cosa stavano facendo quando i PG le hanno incontrate?</em></p></section>",
+          "actions": {
+            "V8hmLE2BCeGj8hJo": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            }
+          }
+        },
+        "PMiyh1YfhcMCnEre": {
+          "name": "Trabocchetti",
+          "description": "<p>Quando un PG fallisce un tiro azione per muoversi nel dungeon, attiva una trappola o un pericolo come una fossa di spuntoni, lame che fuoriescono dalle pareti o una stanza la cui porta si blocca e che si riempie lentamente d’acqua. Il gruppo deve superare un Tiro di Gruppo per disattivare la trappola o fuggire. In caso di fallimento, ogni PG coinvolto nel Tiro di Gruppo subisce <strong>2d6+3</strong> danni fisici o magici (a scelta del GM).</p><section id=\"secret-ORvRK15fEmVPMhNn\" class=\"secret\"><p><em>Quali trappole e pericoli proteggono questo dungeon? Cosa suggerisce la loro tipologia riguardo a chi le ha progettate? Qualcuna di esse è stata attivata prima dell’arrivo del gruppo?</em></p></section>",
+          "actions": {
+            "idS8gqd1oM93HCuQ": {
+              "name": "",
+              "description": ""
+            }
+          }
         }
       }
     },
@@ -535,6 +1131,174 @@
       "potentialAdversaries": {
         "IMQDBXkxdUIUSjsm": {
           "label": "Altro"
+        }
+      }
+    },
+    "Dragon's Lair": {
+      "name": "Tana del Drago",
+      "description": "<p>Una collezione di oro, gioielli e manufatti nel cuore di un vulcano attivo.</p>",
+      "impulses": "Attirare i PG nei livelli inferiori, rendere impossibile la loro fuga, tentarli con il tesoro, risvegliare il drago",
+      "potentialAdversaries": {
+        "qy2gXfJmTL0CFppe": {
+          "label": "Giovane Drago di Fuoco"
+        },
+        "o1qnuycew667nPOW": {
+          "label": "I Seguaci del Drago"
+        }
+      },
+      "items": {
+        "pegaB8CRjmGWv9nS": {
+          "name": "Il Drago si Risveglia",
+          "description": "<p><em>Conto alla Rovescia delle Conseguenze (8)</em>. Il drago che ha accumulato questo tesoro giace addormentato da qualche parte sopra, sotto o vicino al cumulo dei tesori. Quando i PG entrano nella tana, attivate il conto alla rovescia. Quando si innesca, il drago si risveglia e ogni PG deve superare un Tiro Reazione di Presenza o marcare uno Stress. Ottenete una Paura per ogni Stress marcato in questo modo.</p><section id=\"secret-TVAoo3QGrYFefBrN\" class=\"secret\"><p><em>Dove sonnecchia il drago? Cosa sogna?</em></p></section>",
+          "actions": {
+            "etwUv30ZO9B3fhtB": {
+              "name": "Avviare Conto alla Rovescia",
+              "description": "<p><em>Conto alla Rovescia delle Conseguenze (8)</em>. Il drago che ha accumulato questo tesoro giace addormentato da qualche parte sopra, sotto o vicino al cumulo dei tesori. Quando i PG entrano nella tana, attivate il conto alla rovescia. <em>Dove sonnecchia il drago? Cosa sogna?</em></p>"
+            },
+            "CFE0Nn3ZAH5WOiUm": {
+              "name": "Innescare Conto alla Rovescia",
+              "description": "<p>Quando si innesca, il drago si risveglia e ogni PG deve superare un Tiro Reazione di Presenza o marcare uno Stress. Ottenete una Paura per ogni Stress marcato in questo modo.</p>"
+            }
+          }
+        },
+        "fIMQKSHm44QnzH4J": {
+          "name": "Cumulo di Tesori",
+          "description": "<p>Al centro della tana si trova una montagna di tesori. Se il gruppo vuole trovare i tesori, deve completare un Conto alla Rovescia di Progresso (12). Quando si innesca, il gruppo può far diminuire il conto alla rovescia per setacciare il cumulo di tesori tirando un numero di <strong>d12</strong> pari a 1 + il proprio rango sulla tabella degli Oggetti o delle Scorte (a scelta).</p><section id=\"secret-c5rDaRnGOqpV651U\" class=\"secret\"><p><em>Come ha fatto il gruppo a venire a conoscenza di questo tesoro? Cosa spera di trovare qui?</em></p></section>",
+          "actions": {
+            "fivZUD41F3co7mpU": {
+              "name": "Avviare Conto alla Rovescia",
+              "description": "<p>Al centro della tana si trova una montagna di tesori. Se il gruppo vuole trovare i tesori, deve completare un Conto alla Rovescia di Progresso (12). <em>Come ha fatto il gruppo a venire a conoscenza di questo tesoro? Cosa spera di trovare qui?</em></p>"
+            },
+            "Sg5WFWjGBdagExNU": {
+              "name": "Innescare Conto alla Rovescia",
+              "description": "<p>Quando si innesca, il gruppo può far diminuire il conto alla rovescia per setacciare il cumulo di tesori tirando un numero di <strong>d12</strong> pari a 1 + il proprio rango sulla tabella degli Oggetti o delle Scorte (a scelta).</p>"
+            }
+          }
+        },
+        "JHXmz0CTLW0hPNE3": {
+          "name": "Attività Vulcanica",
+          "description": "<p><strong>Spendete una Paura</strong> per causare un’eruzione vulcanica. Ogni personaggio deve effettuare un Tiro Reazione di Agilità. I bersagli che falliscono vengono bruciati da getti di lava e fiamme mentre la terra si squarcia intorno a loro e subiscono <strong>3d8+5</strong> danni fisici. I bersagli che superano il tiro subiscono metà dei danni.</p><section id=\"secret-wK4jwXYwQ8B99vnM\" class=\"secret\"><p><em>Quali vie di fuga sono bloccate dal vulcano in eruzione? Come fanno i PG a proteggersi dal calore soffocante?</em></p></section>",
+          "actions": {
+            "ggDE54OjCFGY16GG": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            }
+          }
+        },
+        "xx3KQQfdNcgfXKsT": {
+          "name": "Cani da Guardia",
+          "description": "<p>Quando un PG fallisce un tiro per muoversi nella tana, potete <strong>spendere una Paura</strong> per far comparire <strong>1d6</strong> Draghetti e fino a due Viverne, che appaiono a distanza Ravvicinata da un PG e diventano immediatamente protagonisti.</p><section id=\"secret-djhS7HsAdx5uu4m7\" class=\"secret\"><p><em>Perché queste creature sono al servizio del drago dormiente? Quali indizi trova il gruppo che ne tradiscono la presenza?</em></p></section>",
+          "actions": {
+            "v3Hdh64vMs80IxnO": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            }
+          }
+        }
+      }
+    },
+    "Duel": {
+      "name": "Duello",
+      "description": "<p>Un avversario sfida uno dei PG a un duello, mentre il resto del gruppo cerca di supportarlo.</p>",
+      "impulses": "concentrarsi su un PG, spingerlo a esporsi troppo, infliggergli una sconfitta umiliante, mettere da parte il resto del gruppo",
+      "items": {
+        "JEsLZVMosxv2AVR8": {
+          "name": "“Esigo Soddisfazione.”",
+          "description": "<p>Quando un avversario sfida un PG a un duello in singolar tenzone, il PG può accettare o meno. Se rifiuta la sfida, deve marcare uno Stress, mentre voi ottenete una Paura. Se un PG accetta la sfida, attivate un Conto alla Rovescia di Progresso (6) e un Conto alla Rovescia delle Conseguenze (4). Se l’innesco del Conto alla Rovescia di Progresso avviene per primo, il PG vince il duello e ottiene un favore o una concessione dal proprio avversario. Se l’innesco del Conto alla Rovescia delle Conseguenze avviene per primo, l’avversario vince il duello e ottiene un favore o una concessione dal PG.</p><section id=\"secret-16hjiYcjlWwhMahV\" class=\"secret\"><p><em>Perché è stato scelto proprio questo PG? Cosa si aspetta di ottenere se ne uscirà vittorioso?</em></p></section>",
+          "actions": {
+            "uPblGLoU6KvbPp6S": {
+              "name": "Sfida Accettata",
+              "description": ""
+            }
+          }
+        },
+        "XEMJowsrU7kCC4Ys": {
+          "name": "Difficoltà Proporzionata",
+          "description": "<p>La Difficoltà di questo ambiente è pari a quella dell’avversario che ha lanciato la sfida.</p><section id=\"secret-FvJjn9p0QgNrJxXT\" class=\"secret\"><p><em>Chi lancia la sfida? Per cosa sta combattendo?</em></p></section>"
+        },
+        "AEM0xmcW99tiqKWq": {
+          "name": "Regole d’Ingaggio",
+          "description": "<p>Durante il Duello, il PG sfidato è l’unico che può effettuare tiri azione. Gli altri PG possono aiutare il PG sfidato solo indirettamente: possono Aiutare un Alleato, compiere tiri di gruppo o Tiri Combinati, o utilizzare qualsiasi privilegio che non influisca direttamente sull’avversario del PG sfidato.</p><section id=\"secret-BOtPLRBWgz5TXdoa\" class=\"secret\"><p><em>Dove si svolge questo conflitto? In che modo l’ambiente offre al resto del gruppo l’opportunità di aiutare il proprio alleato senza interferire?</em></p></section>"
+        },
+        "JSaBQv3zwJpDDgXL": {
+          "name": "Trucchi Sporchi",
+          "description": "<p><strong>Spendete una Paura</strong> affinché l’avversario che ha lanciato la sfida o uno dei suoi alleati compia qualcosa di scorretto. Un PG può notare l’azione subdola con un Tiro Reazione di Istinto riuscito e rispondere a sua volta.</p><section id=\"secret-LzWyF5jF08rjyP7c\" class=\"secret\"><p><em>Cosa è vietato in questo conflitto? In che modo l’alleato dell’avversario aggira le regole senza infrangerle, o le infrange senza farsi scoprire? Come possono i PG ristabilire l’equilibrio?</em></p></section>",
+          "actions": {
+            "e4h5aKksP0jeMk6X": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            }
+          }
+        }
+      }
+    },
+    "Grand Feast": {
+      "name": "Il Grande Banchetto",
+      "description": "<p>Una festa che coinvolge tutta la comunità, con bevande, cibo e divertimento in abbondanza.</p>",
+      "impulses": "Radunare tutti quanti, celebrare un’occasione importante, incoraggiare a lasciarsi andare",
+      "potentialAdversaries": {
+        "XVwmaoATfYXwo3B2": {
+          "label": "Avversari"
+        }
+      },
+      "items": {
+        "FcbTcbTe6fcl5nCe": {
+          "name": "Lingue Sciolte & Subito Amici",
+          "description": "<p>Tutti sono qui per divertirsi. I PG hanno vantaggio ai Tiri Presenza per socializzare con gli altri partecipanti alla festa.</p><section id=\"secret-flXbBm0IURcfsAGo\" class=\"secret\"><p><em>Cosa stanno festeggiando tutti? Dove si tiene la festa? Chi paga il conto?</em></p></section>",
+          "actions": {
+            "W2PUxZmvdRh0F4N7": {
+              "name": "Applicare Baldoria",
+              "description": ""
+            }
+          },
+          "effects": {
+            "RK04BnAuIB0Zsfok": {
+              "name": "Baldoria",
+              "description": "<p>I PG hanno vantaggio ai Tiri Presenza per socializzare con gli altri commensali.</p>"
+            }
+          }
+        },
+        "TzDUERd3fb172VxQ": {
+          "name": "Spettacolo Serale",
+          "description": "<p>L’organizzatore del banchetto dà il via agli intrattenimenti della serata. Ogni PG può effettuare un tiro azione per prendere parte a uno spettacolo, a una gara o a un altro diversivo spensierato. Un PG che riesce nel tiro diventa un <em>Ospite d’Onore</em>. Fino alla fine del banchetto, un <em>Ospite d’Onore</em> può richiedere un dono al padrone di casa, dopodiché la condizione ha termine.</p><section id=\"secret-FqgG5mkGr1jcz1sS\" class=\"secret\"><p><em>Cosa desidera vedere o sentire l’organizzatore dell’evento? Cosa può offrire ai PG in cambio?</em></p></section>",
+          "actions": {
+            "assRFemVFTc4qZLI": {
+              "name": "Diventare Ospite d’Onore",
+              "description": ""
+            }
+          },
+          "effects": {
+            "TwHwZ5p93sXrw5rK": {
+              "name": "Ospite d’Onore",
+              "description": "<p>Fino alla fine del banchetto, un Ospite d’Onore può reclamare un dono dall’anfitrione, quindi rimuovere la condizione.</p>"
+            }
+          }
+        },
+        "mXAc4IdKO2ygiPaJ": {
+          "name": "“C’è Sempre Quello Che…”",
+          "description": "<p><strong>Spendete una Paura</strong> per <em>Invischiare</em> un PG in una conversazione con la persona più sgradevole della festa finché il PG non supera un tiro azione per liberarsene. Mentre è <em>Invischiato</em>, un PG non può effettuare tiri azione se non per cercare di liberarsi da questa condizione. Quando un PG <em>Invischiato</em> fallisce un tiro azione, deve marcare uno Stress.</p><section id=\"secret-rMOEwoHLTaxL8x9n\" class=\"secret\"><p><em>Cosa rende questo tipo così sgradevole? Qual è la cosa a cui il PG tiene e che l’interlocutore sminuisce o ignora deliberatamente? Di quale argomento noioso o spiacevole questo tizio non smette mai di parlare?</em></p></section>",
+          "actions": {
+            "PvwTTVLQTPeRAvLu": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            }
+          }
+        },
+        "fmia9dygKxza9sdK": {
+          "name": "Ultimo Giro",
+          "description": "<p>Dopo una lunga notte, gli ospiti iniziano a tornarsene a casa. Quando il banchetto termina, tutti i PG che hanno partecipato ai festeggiamenti rimuovono tutto lo Stress e guadagnano una Speranza. Inoltre, ogni <em>Ospite d’Onore</em> (se non ha già terminato la condizione chiedendo un dono) recupera tutti i PF e guadagna una Speranza aggiuntiva. Ogni PG che ha esagerato durante i festeggiamenti deve superare un Tiro Reazione di Forza o subire i <em>Postumi della Sbornia</em> fino al prossimo riposo. Finché soffre dei <em>Postumi della Sbornia</em>, un PG subisce una penalità di −1 ai tiri azione.</p><section id=\"secret-tFZhnGkIAGuHB4rj\" class=\"secret\"><p><em>Quali storielle si raccontano i PG mentre lasciano la festa? Chi vedono i PG scambiarsi effusioni inaspettatamente dopo il banchetto?</em></p></section>",
+          "actions": {
+            "79TYyzRSpQrb6PwM": {
+              "name": "Tiro Postumi",
+              "description": ""
+            }
+          },
+          "effects": {
+            "VRAaCBsJgvFpudss": {
+              "name": "Postumi della Sbornia",
+              "description": "<p>Avete i postumi della sbornia fino al vostro prossimo riposo. Mentre avete i postumi della sbornia, subite una penalità di −1 ai tiri azione.</p>"
+            }
+          }
         }
       }
     },
@@ -630,6 +1394,89 @@
         }
       }
     },
+    "Heist": {
+      "name": "Il Colpaccio",
+      "description": "<p>Il gruppo deve accedere a un luogo nascosto o ben protetto per ottenere le informazioni o gli oggetti che vi sono custoditi.</p>",
+      "impulses": "Indurre il gruppo a formulare un piano, dividere i PG, creare ostacoli, intrappolarli all’interno, esaurirne le risorse",
+      "potentialAdversaries": {
+        "gzQzvwR4kNa9okSB": {
+          "label": "Avversari"
+        }
+      },
+      "items": {
+        "NYEgUIaGnponoqC0": {
+          "name": "Studiare il Piano",
+          "description": "<p>Prima del Colpaccio, ogni PG ha l’opportunità di raccogliere un’informazione fondamentale, fare un sopralluogo, procurarsi uno strumento o una risorsa utile. Concedete a ogni giocatore la possibilità di descrivere un ostacolo che si aspetta di incontrare e come intende prepararsi per superarlo, poi fategli effettuare un tiro azione. In caso di successo, ottiene l’informazione o la risorsa che cercava. In caso di successo con Paura, questa risulta meno utile del previsto (ad esempio, scoprono un accesso nascosto ma anche che utilizzarlo sarà probabilmente difficile e rumoroso).</p><section id=\"secret-odZZDOzWVo2JIOOr\" class=\"secret\"><p><em>In che modo il PG ottiene questo vantaggio? Agisce da solo o chiede aiuto? Quali complicazioni impreviste sorgono durante il Colpaccio stesso?</em></p></section>"
+        },
+        "ExmDwRunlP8FBvZI": {
+          "name": "Infiltrazione",
+          "description": "<p>Definite l’obiettivo del Colpaccio e avviate due Conti alla rovescia dinamici: un Conto alla Rovescia di Progresso (12) per rappresentare i progressi del gruppo e un Conto alla Rovescia delle Conseguenze (10) per rappresentare il rischio crescente di essere scoperti e catturati. Fate avanzare entrambi seguendo la tabella di Avanzamento del Conto alla Rovescia Dinamico man mano che i PG effettuano tiri azione per completare il Colpaccio. Se l’innesco del Conto alla Rovescia di Progresso avviene per primo, rendete protagonista questo ambiente per utilizzare la caratteristica “Estrazione”. Se l’innesco del Conto alla Rovescia delle Conseguenze avviene per primo, ottenete <strong>1d4</strong> di Paura, rendete protagonista questo ambiente e attivate la caratteristica “Suonare l’Allarme”.</p><section id=\"secret-ILrQAmBnbwUD2ALX\" class=\"secret\"><p><em>Cosa sta cercando il gruppo e dove si trova? Quali ostacoli inaspettati incontreranno i PG? Cosa succede se il gruppo viene catturato?</em></p></section>",
+          "actions": {
+            "Jj3tIOKcExSWxCUh": {
+              "name": "Avviare i Conti alla Rovescia",
+              "description": ""
+            },
+            "FF2zzZJAFkktI55f": {
+              "name": "Conseguenza",
+              "description": "<p>Se l’innesco del Conto alla Rovescia delle Conseguenze avviene per primo, ottenete <strong>1d4</strong> di Paura, rendete protagonista questo ambiente e attivate la caratteristica “Suonare l’Allarme”.</p>"
+            }
+          }
+        },
+        "dDptQRFaM2lJ67AW": {
+          "name": "L’Avevo Previsto",
+          "description": "<p>Una volta per sessione, un PG può spendere una Speranza per spiegare come si è preparato alla situazione e svelare un’informazione chiave (come la posizione di un passaggio nascosto o la parola d’ordine per accedere a un’area riservata) oppure aggiungere al suo equipaggiamento un oggetto utile (come l’uniforme di un cultista lasciata incustodita o una scorta comune nascosta nello stivale).</p><section id=\"secret-bFk3Bh3FvomqguNZ\" class=\"secret\"><p><em>Cosa ha preparato il PG? Come faceva a sapere che ne avrebbe avuto bisogno? Quanto gli è costato organizzarsi, o a chi deve un favore?</em></p></section>"
+        },
+        "IILSh4X339iDm9EG": {
+          "name": "Estrazione",
+          "description": "<p>Quando si innesca il Conto alla Rovescia di Progresso, il gruppo entra in possesso dell’obiettivo del Colpaccio e deve superare un tiro di gruppo per fuggire senza essere catturato. In caso di fallimento, ogni PG subisce <strong>2d12</strong> danni fisici diretti e deve marcare uno Stress.</p><section id=\"secret-KmJIVWWQQR4nBPRT\" class=\"secret\"><p><em>Cosa rende la fuga ancora più pericolosa dell’irruzione? Quali sviluppi imprevisti ostacolano il piano di fuga originale?</em></p></section>",
+          "actions": {
+            "bXTUNmKo2qCm4aTR": {
+              "name": "Fuga Maldestra",
+              "description": ""
+            }
+          }
+        },
+        "99cGwiRuYl26WUvl": {
+          "name": "Suonare l’Allarme",
+          "description": "<p>Quando si innesca il Conto alla Rovescia delle Conseguenze, il gruppo viene scoperto e il luogo entra in stato di <em>Massima Allerta</em>. Fate comparire in scena un numero di avversari di Rango 2 pari ai PG presenti e rendetene immediatamente uno protagonista. Finché questo ambiente è in <em>Massima Allerta</em>, tutti gli avversari ottengono un bonus +1 alla loro Difficoltà.</p><section id=\"secret-lP2u2z8DMh6EyRt1\" class=\"secret\"><p><em>Cosa rende questi avversari particolarmente adatti a sorvegliare quest’area? Cosa sanno di questo posto che conferisce loro un vantaggio?</em></p></section>",
+          "actions": {
+            "uCqBpEjOgqAg0OmK": {
+              "name": "Aumentare Difficoltà",
+              "description": ""
+            }
+          },
+          "effects": {
+            "Tz48HR0wgfdQ8Rlt": {
+              "name": "Allarme Suonato",
+              "description": ""
+            }
+          }
+        }
+      }
+    },
+    "Hold The Line": {
+      "name": "Serrare i Ranghi",
+      "description": "<p>Il gruppo deve respingere diverse ondate di nemici abbastanza a lungo da permettere a un alleato di portare a termine un obiettivo importante.</p>",
+      "impulses": "Scagliare ondate di nemici addosso al gruppo, non concedere loro tregua, prendere di mira il loro protetto",
+      "items": {
+        "TtbL2KY7QoeCG82g": {
+          "name": "Guardie del Corpo",
+          "description": "<p>I PG devono proteggere un PNG (il loro “ <em>Protetto</em> ”) abbastanza a lungo da permettergli di portare a termine un compito, come completare un rituale magico o riparare un dispositivo. All’inizio della scena, attivate un conto alla rovescia con un valore pari al numero di PG presenti nella scena. Il tempo scorre man mano che i PG sconfiggono un’ondata di avversari. Quando si esaurisce, il <em>Protetto</em> completa il suo compito.</p><section id=\"secret-R8KOc1205jXsMlww\" class=\"secret\"><p><em>Chi stanno proteggendo i PG e cosa sta cercando di fare questa persona? Chi vuole fermarlo? Cosa accadrà se il Protetto non riuscirà a terminare il proprio compito?</em></p></section>"
+        },
+        "PLpqyj4fQgYvSdPb": {
+          "name": "“Non Fallirò!”",
+          "description": "<p>Quando appare la prima ondata di avversari, assegnate un Conto alla Rovescia di Risolutezza al <em>Protetto</em> con un valore pari al numero di PG presenti nella scena. Quando un avversario sferra un attacco contro il <em>Protetto</em>, l’attacco va automaticamente a segno e diminuisce il Conto alla Rovescia di Risolutezza. Quando si innesca, il <em>Protetto</em> fugge, muore o viene messo fuori combattimento.</p><section id=\"secret-JWroAY99fQXoYGpH\" class=\"secret\"><p><em>Perché questo compito è così importante per il Protetto? Cosa può vanificare la sua determinazione?</em></p></section>"
+        },
+        "ycAtgL8GOU2Igpvz": {
+          "name": "Moltitudini Brulicanti",
+          "description": "<p>Tutti gli avversari acquisiscono la caratteristica “Inesorabile (2)”: possono diventare protagonisti fino a due volte per turno del GM. Spendete Paura come al solito per renderli protagonisti.</p><section id=\"secret-usl2dk9xB2kyjwK4\" class=\"secret\"><p><em>Da dove proviene la nuova forza dei nemici? C’è un modo per sottrargliela?</em></p></section>"
+        },
+        "vaxu1A87BmoI6UvK": {
+          "name": "Onda Su Onda",
+          "description": "<p>Quando non vi sono avversari sulla scena, fate comparire una nuova ondata di avversari a distanza Lontana dal <em>Protetto</em>. Ogni ondata comprende due Seguaci di rango 1 per ogni PG presente sulla scena.</p><section id=\"secret-WrKxpSfCTwdbDVYX\" class=\"secret\"><p><em>Da dove escono questi avversari? Chi li guida dall’ombra?</em></p></section>"
+        }
+      }
+    },
     "Imperial Court": {
       "name": "Corte Imperiale",
       "description": "<p>Il maestoso palazzo reale di un potente impero, riccamente arredato con tesori rubati.</p>",
@@ -645,31 +1492,31 @@
         },
         "tm9FL5gJF7Oheu21": {
           "name": "La Solennità dell’Impero",
-          "description": "<p><strong>Spendete 1 Paura</strong> per offrire a un PG un’occasione d’oro o la possibilità di raggiungere un obiettivo importante in cambio dell’obbedienza o del supporto all’impero. Il bersaglio deve effettuare un Tiro Reazione di Presenza. In caso di fallimento, deve marcare tutto il suo Stress o accettare l’offerta. Se ha già marcato tutto il suo Stress, deve accettare l’offerta o essere esiliato dall’impero. In caso di successo, deve marcare <strong>1d4</strong> Stress per la terribile tentazione.</p><section class=\"secret\" id=\"secret-4carYxEQygk6m4cQ\"><p><em>Cosa vogliono i PG così disperatamente da considerare l’idea di allearsi con questo potere spietato? Come hanno fatto gli agenti imperiali a scoprire i desideri più grandi dei PG?</em></p></section>",
+          "description": "<p><strong>Spendete una Paura</strong> per offrire a un PG un’occasione d’oro o la possibilità di raggiungere un obiettivo importante in cambio dell’obbedienza o del supporto all’impero. Il bersaglio deve effettuare un Tiro Reazione di Presenza. In caso di fallimento, deve marcare tutto il suo Stress o accettare l’offerta. Se ha già marcato tutto il suo Stress, deve accettare l’offerta o essere esiliato dall’impero. In caso di successo, deve marcare <strong>1d4</strong> Stress per la terribile tentazione.</p><section class=\"secret\" id=\"secret-4carYxEQygk6m4cQ\"><p><em>Cosa vogliono i PG così disperatamente da considerare l’idea di allearsi con questo potere spietato? Come hanno fatto gli agenti imperiali a scoprire i desideri più grandi dei PG?</em></p></section>",
           "actions": {
             "Pr8CpaOehr1cE1b8": {
               "name": "Tiro Reazione",
-              "description": "<p><strong>Spendete 1 Paura</strong> per offrire a un PG un’occasione d’oro o la possibilità di raggiungere un obiettivo importante in cambio dell’obbedienza o del supporto all’impero. Il bersaglio deve effettuare un Tiro Reazione di Presenza. In caso di fallimento, deve marcare tutto il suo Stress o accettare l’offerta. Se ha già marcato tutto il suo Stress, deve accettare l’offerta o essere esiliato dall’impero. In caso di successo, deve marcare <strong>1d4</strong> Stress per la terribile tentazione.</p><section class=\"secret\" id=\"secret-jB2klJ9141Yiot3c\"><p><em>Cosa vogliono i PG così disperatamente da considerare l’idea di allearsi con questo potere spietato? Come hanno fatto gli agenti imperiali a scoprire i desideri più grandi dei PG?</em></p></section>"
+              "description": "<p><strong>Spendete una Paura</strong> per offrire a un PG un’occasione d’oro o la possibilità di raggiungere un obiettivo importante in cambio dell’obbedienza o del supporto all’impero. Il bersaglio deve effettuare un Tiro Reazione di Presenza. In caso di fallimento, deve marcare tutto il suo Stress o accettare l’offerta. Se ha già marcato tutto il suo Stress, deve accettare l’offerta o essere esiliato dall’impero. In caso di successo, deve marcare <strong>1d4</strong> Stress per la terribile tentazione.</p><section class=\"secret\" id=\"secret-jB2klJ9141Yiot3c\"><p><em>Cosa vogliono i PG così disperatamente da considerare l’idea di allearsi con questo potere spietato? Come hanno fatto gli agenti imperiali a scoprire i desideri più grandi dei PG?</em></p></section>"
             }
           }
         },
         "HwSKX5r40ux0OfJN": {
           "name": "Decreto Imperiale",
-          "description": "<p><strong>Spendete 1 Paura</strong> per ridurre di <strong>[[/r 1d4]]</strong> un conto alla rovescia a lungo termine relativo agli obiettivi dell’impero. Se questo innesca il conto alla rovescia, a corte viene effettuato un annuncio ufficiale relativo a tali obiettivi mentre il piano viene eseguito.</p><section class=\"secret\" id=\"secret-kuZLu5mJvqvQ1NvT\"><p><em>Quale dimostrazione di potere o trasferimento di ricchezze era necessario per accelerare questo piano? Quali vite sono state sconvolte o stravolte per farlo accadere?</em></p></section>",
+          "description": "<p><strong>Spendete una Paura</strong> per ridurre di <strong>[[/r 1d4]]</strong> un conto alla rovescia a lungo termine relativo agli obiettivi dell’impero. Se questo innesca il conto alla rovescia, a corte viene effettuato un annuncio ufficiale relativo a tali obiettivi mentre il piano viene eseguito.</p><section class=\"secret\" id=\"secret-kuZLu5mJvqvQ1NvT\"><p><em>Quale dimostrazione di potere o trasferimento di ricchezze era necessario per accelerare questo piano? Quali vite sono state sconvolte o stravolte per farlo accadere?</em></p></section>",
           "actions": {
             "9ipckCFMz9DVw8ab": {
               "name": "Lanciare 1d4",
-              "description": "<p><strong>Spendete 1 Paura</strong> per ridurre di <strong>[[/r 1d4]]</strong> un conto alla rovescia a lungo termine relativo agli obiettivi dell’impero. Se questo innesca il conto alla rovescia, a corte viene effettuato un annuncio ufficiale relativo a tali obiettivi mentre il piano viene eseguito.</p><section class=\"secret\" id=\"secret-ThoGDjazxfPoUvJS\"><p><em>Quale dimostrazione di potere o trasferimento di ricchezze era necessario per accelerare questo piano? Quali vite sono state sconvolte o stravolte per farlo accadere?</em></p></section>"
+              "description": "<p><strong>Spendete una Paura</strong> per ridurre di <strong>[[/r 1d4]]</strong> un conto alla rovescia a lungo termine relativo agli obiettivi dell’impero. Se questo innesca il conto alla rovescia, a corte viene effettuato un annuncio ufficiale relativo a tali obiettivi mentre il piano viene eseguito.</p><section class=\"secret\" id=\"secret-ThoGDjazxfPoUvJS\"><p><em>Quale dimostrazione di potere o trasferimento di ricchezze era necessario per accelerare questo piano? Quali vite sono state sconvolte o stravolte per farlo accadere?</em></p></section>"
             }
           }
         },
         "YPMgWUagVq1Hicqo": {
           "name": "Occhi Ovunque",
-          "description": "<p>Con un risultato con Paura, potete <strong>spendere 1 Paura</strong> per far sì che qualcuno fedele all’impero ascolti per caso discorsi sediziosi a corte. Un PG deve superare un Tiro Reazione di Istinto per accorgersi che il gruppo è stato spiato, in modo da intercettare il testimone prima che i PG vengano scoperti.</p><section class=\"secret\" id=\"secret-kN4J3annyev9WWUs\"><p><em>In che modo l’impero ha ottenuto e conserva la fedeltà del testimone? Perché il suo primo impeto è quello di proteggere l’impero, anche se non lo tratta dignitosamente?</em></p></section>",
+          "description": "<p>Con un risultato con Paura, potete <strong>spendere una Paura</strong> per far sì che qualcuno fedele all’impero ascolti per caso discorsi sediziosi a corte. Un PG deve superare un Tiro Reazione di Istinto per accorgersi che il gruppo è stato spiato, in modo da intercettare il testimone prima che i PG vengano scoperti.</p><section class=\"secret\" id=\"secret-kN4J3annyev9WWUs\"><p><em>In che modo l’impero ha ottenuto e conserva la fedeltà del testimone? Perché il suo primo impeto è quello di proteggere l’impero, anche se non lo tratta dignitosamente?</em></p></section>",
           "actions": {
             "czEbFu3uIlW5Spju": {
               "name": "Reazione: Tiro Reazione",
-              "description": "<p>Con un risultato con Paura, potete <strong>spendere 1 Paura</strong> per far sì che qualcuno fedele all’impero ascolti per caso discorsi sediziosi a corte. Un PG deve superare un Tiro Reazione di Istinto per accorgersi che il gruppo è stato spiato, in modo da intercettare il testimone prima che i PG vengano scoperti.</p><section class=\"secret\" id=\"secret-lCrNuPGNEGSBiTSY\"><p><em>In che modo l’impero ha ottenuto e conserva la fedeltà del testimone? Perché il suo primo impeto è quello di proteggere l’impero, anche se non lo tratta dignitosamente?</em></p></section>"
+              "description": "<p>Con un risultato con Paura, potete <strong>spendere una Paura</strong> per far sì che qualcuno fedele all’impero ascolti per caso discorsi sediziosi a corte. Un PG deve superare un Tiro Reazione di Istinto per accorgersi che il gruppo è stato spiato, in modo da intercettare il testimone prima che i PG vengano scoperti.</p><section class=\"secret\" id=\"secret-lCrNuPGNEGSBiTSY\"><p><em>In che modo l’impero ha ottenuto e conserva la fedeltà del testimone? Perché il suo primo impeto è quello di proteggere l’impero, anche se non lo tratta dignitosamente?</em></p></section>"
             }
           }
         }
@@ -680,10 +1527,60 @@
         }
       }
     },
+    "Local Festival": {
+      "name": "Festa di Paese",
+      "description": "<p>Sia la gente comune sia i nobili si radunano dai dintorni per una celebrazione che dura una settimana.</p>",
+      "impulses": "Esprimere la cultura e la storia locale, stringere nuove relazioni, rafforzare il senso di comunità",
+      "potentialAdversaries": {
+        "LTxP8vZW7KiVkU7l": {
+          "label": "Personalità Locali"
+        },
+        "DPTWl7saE8CkcAA1": {
+          "label": "Sicurezza della Festa"
+        },
+        "43YbBAN8zHvuBnPi": {
+          "label": "Vari Malviventi"
+        }
+      },
+      "items": {
+        "4o45XcMZbTJYJmMH": {
+          "name": "Ricordate, Ricordate",
+          "description": "<p>Questo periodo dell’anno segna un importante anniversario o evento astronomico, come la fondazione della città o il solstizio d’estate. In caso di successo in un Tiro Conoscenza, un PG può rispondere a una delle domande riportate di seguito (o a due, se ottiene un Successo Critico). In caso di fallimento, risponde a una domanda, ma spetta a voi decidere quale parte della sua risposta non sia del tutto corretta (e guadagnare una Paura).</p><ul><li><p>La festa celebra un raccolto o un prodotto di esportazione fondamentale per l’economia locale. Di cosa si tratta?</p></li><li><p>Perché la festa non si è tenuta l’anno scorso?</p></li><li><p>Questa festa è simile a un’altra che si tiene in una regione vicina. Cosa le rende diverse?</p></li></ul><section id=\"secret-FvJMGWjMRAlkm12t\" class=\"secret\"><p><em>Cosa festeggiano gli abitanti del posto? Per cosa è famosa questa festa? Come ne sono venuti a conoscenza i PG?</em></p></section>"
+        },
+        "ml0hetjckq8NkK7P": {
+          "name": "Intrighi Politici",
+          "description": "<p>Mentre ci si riunisce tutti nello stesso posto, gli abitanti colgono l’occasione per appianare faide, stipulare nuovi affari e destreggiarsi nella politica locale. Un PG può ficcare il naso con un Tiro Presenza. In caso di successo, stringe un legame con un personaggio di spicco della zona che può offrirgli un incarico, condividere informazioni importanti o fornirgli presentazioni utili. In caso di fallimento, deve marcare uno Stress.</p><section id=\"secret-gbt1gd18PRoAoy4v\" class=\"secret\"><p><em>Di quale nuova difficoltà parlano tutti? Perché la comunità non riesce a risolvere il problema da sola? Quale ricompensa può offrire ai PG in cambio del loro aiuto?</em></p></section>"
+        },
+        "RuasHmyv0xhIZyyd": {
+          "name": "“Si Dia Inizio ai Giochi!”",
+          "description": "<p>Uno degli eventi simbolo della festa è una competizione sportiva o una serie di gare. Se uno o più PG decidono di scendere in campo, fornite loro dei rivali con cui misurarsi. Per aggiudicarsi la vittoria, i PG devono completare un Conto alla Rovescia di Progresso (5) per vincere le gare o totalizzare punti prima che i loro rivali completino un Conto alla Rovescia delle Conseguenze (5).</p><section id=\"secret-FhbOBBEMcN44Q1nL\" class=\"secret\"><p><em>Quali abilità o capacità mette alla prova questa competizione? Cosa si vince? Perché il fallimento non è un’opzione né per i PG né per i loro rivali?</em></p></section>",
+          "actions": {
+            "LTzzLhiHJsXvIJrR": {
+              "name": "Avviare Conto alla Rovescia",
+              "description": ""
+            }
+          }
+        },
+        "UkKVWILpbLEpDfpN": {
+          "name": "Celebrità Locale",
+          "description": "<p>Le celebrazioni culminano con l’arrivo di una figura del folklore locale che svolge compiti particolari per la comunità, come distribuire dolcetti ai bambini, prendere in giro la nobiltà o benedire i raccolti. Se i PG mostrano a questa figura la dovuta deferenza e rispetto, ottengono una ricompensa a tono, come una profezia enigmatica o un ciondolo magico, e guadagnano <strong>[[/r 1d4]]</strong> Speranze da distribuire tra il gruppo. Se invece la insultano, subiscono <strong>[[/r 1d6+2]]</strong> danni magici poiché la figura li maledice, e voi guadagnate una Paura.</p><section id=\"secret-ZKKvt9MLfAw4gxgH\" class=\"secret\"><p><em>Si tratta di un individuo preciso o di un ruolo che passa di persona in persona? Ha un aspetto o un abito specifico a contraddistinguerlo? In che modo può concedere benefici e maledizioni?</em></p></section>",
+          "actions": {
+            "s51HEF5OCNml4qQY": {
+              "name": "Ottenere Speranza",
+              "description": "<p>Se i PG mostrano a questa figura la dovuta deferenza e rispetto, ottengono una ricompensa a tono, come una profezia enigmatica o un ciondolo magico, e guadagnano <strong>[[/r 1d4]]</strong> Speranze da distribuire tra il gruppo.</p>"
+            },
+            "azmh4bn7ERauB0sK": {
+              "name": "Rappresaglia per l’Insulto",
+              "description": ""
+            }
+          }
+        }
+      }
+    },
     "Local Tavern": {
       "name": "Taverna Locale",
       "description": "<p>Una taverna vivace che funge da centro sociale per la città.</p>",
-      "impulses": "Fornire opportunità agli avventurieri, alimentare la comunità",
+      "impulses": "Alimentare la comunità, fornire opportunità agli avventurieri",
       "items": {
         "7to5Zu0lNycExCQi": {
           "name": "Che si Dice in Giro?",
@@ -724,6 +1621,170 @@
         }
       }
     },
+    "Masquerade Ball": {
+      "name": "Ballo in Maschera",
+      "description": "<p>Un gala dell’alta società in cui i partecipanti mascherati si scambiano segreti e favori.</p>",
+      "impulses": "Ballare tutta la notte, mangiare e divertirsi, stringere accordi segreti, scambiare informazioni preziose",
+      "potentialAdversaries": {
+        "XrsOn1uflDlwE4EM": {
+          "label": "Agenti"
+        },
+        "vLC92lDxsxj3rHvi": {
+          "label": "Partecipanti alla Festa"
+        }
+      },
+      "items": {
+        "BrmEXZ6Nowpg7LRS": {
+          "name": "Costumi Obbligatori",
+          "description": "<p>Tutti i partecipanti al ballo devono presentarsi in costume. I PG hanno vantaggio ai Tiri Presenza per convincere gli altri di essere qualcuno — o qualcosa — che non sono.</p><section id=\"secret-AG9eLROeP0oeQwD9\" class=\"secret\"><p><em>Da cosa si vestono i PG? Cosa svelano i loro costumi sulla loro vera identità?</em></p></section>"
+        },
+        "AkVcdbmlKOIBAkp6": {
+          "name": "“Ballate?”",
+          "description": "<p>Mentre balla, un PG può effettuare un Tiro Agilità invece di un Tiro Presenza per influenzare il prossimo.</p><section id=\"secret-Xi3GbKgbKvxZGUmM\" class=\"secret\"><p><em>Cosa c’è di particolare o unico nei balli che vanno di moda qui? Dove hanno imparato i PG a eseguirli?</em></p></section>"
+        },
+        "4yP8POf2j4QjnB1I": {
+          "name": "Scambio di Identità",
+          "description": "<p>Una personalità importante scambia un PG per un individuo ancora più importante. Il bersaglio può assecondare il malinteso con un Tiro Reazione di Presenza. In caso di successo, il PG può chiedere alla personalità in questione un favore, un’informazione chiave o di presentarlo a qualcuno. In caso di fallimento, il PG marca uno Stress poiché la sua vera identità viene scoperta e viene minacciato di essere allontanato dalla festa.</p><section id=\"secret-VRYpjv4zFDNsoP5e\" class=\"secret\"><p><em>La personalità scambia il PG per chi? Quali porte si aprono grazie a questo errore? Quali pericoli comporta?</em></p></section>"
+        },
+        "r2uqWKreHwK2Yo16": {
+          "name": "Cappa e Spada",
+          "description": "<p><strong>Spendete una Paura</strong> per far sì che un agente cerchi di rubare qualcosa di valore o di assassinare una persona importante. Un PG può effettuare un Tiro Istinto per accorgersene prima che ciò accada. In caso di successo, il PG può intervenire. In caso di fallimento con Paura, il PG viene erroneamente implicato nel crimine.</p><section id=\"secret-jFoSujZKwaVESokx\" class=\"secret\"><p><em>Per chi lavora l’agente? Perché l’hanno mandato al ballo in maschera?</em></p></section>",
+          "actions": {
+            "zcgNYuHJjWV4Tl1a": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            }
+          }
+        }
+      }
+    },
+    "Megastorm": {
+      "name": "Tempesta Eccezionale",
+      "description": "<p>Improvvisamente si manifesta un evento meteorologico estremo, costringendo il gruppo a bilanciare sopravvivenza e sicurezza altrui.</p>",
+      "impulses": "Scatenare venti d’uragano, soffocare con frane di fango, far crollare strutture, inondare, lanciare detriti, illuminare il cielo",
+      "potentialAdversaries": {
+        "hEkx10JrH1v3FFzG": {
+          "label": "Avversari"
+        }
+      },
+      "items": {
+        "KudBK6FBt61ZuaCf": {
+          "name": "Fronte della Tempesta",
+          "description": "<p><em>Conto alla Rovescia (8)</em>. Quando inizia la tempesta, attivate il conto alla rovescia, che scorre quando un PG tira con Speranza. Quando si innesca, la tempesta si disperde o si sposta in un’altra zona.</p><section id=\"secret-Z7vvQy3iuOU8tvR3\" class=\"secret\"><p><em>Qual è il luogo più sicuro per superare la tempesta? Per cosa sono disposte a rischiare la vita le persone che si trovano qui?</em></p></section>",
+          "actions": {
+            "uzEK3NqCE3R3xE0P": {
+              "name": "Avviare Conto alla Rovescia",
+              "description": ""
+            }
+          }
+        },
+        "QvkOrklI6GjzD96R": {
+          "name": "Condizioni Pericolose",
+          "description": "<p>Il vento estremo, la nebbia e la copertura nuvolosa della Tempesta Eccezionale rendono difficile muoversi nell’intera area. I PG non possono muoversi come parte di un tiro azione senza superare un Tiro Reazione di Agilità.</p><section id=\"secret-cxNkS9iRa73BLTIc\" class=\"secret\"><p><em>Chi altro si è perso nel vortice? Come potete condurli in salvo?</em></p></section>",
+          "actions": {
+            "z8NTM8n3Hc1z8VyS": {
+              "name": "Tiro Reazione",
+              "description": ""
+            }
+          },
+          "effects": {
+            "St1oj5HlmKYKFYM4": {
+              "name": "Condizioni Pericolose",
+              "description": "<p>I PG non possono muoversi come parte di un tiro azione senza superare un Tiro Reazione di Agilità.</p>"
+            }
+          }
+        },
+        "YbTId6KRLXisM3sB": {
+          "name": "Bomba d’Acqua",
+          "description": "<p><strong>Spendete una Paura</strong> per scatenare un fenomeno meteorologico estremo, come un nubifragio o un tornado, in un punto a scelta. Ogni bersaglio che si trovi entro distanza Ravvicinata da quel punto deve superare un Tiro Reazione utilizzando un tratto a vostra scelta per evitare di essere tempestato dalla grandine, scaraventato in aria, colpito da un fulmine o subire un effetto simile. I bersagli che falliscono subiscono <strong>2d10+2</strong> danni di un tipo a vostra scelta.</p><section id=\"secret-X3Vc104ppCM1lXyl\" class=\"secret\"><p><em>È forse il peggior fenomeno atmosferico mai affrontato dai PG? Cosa possono usare nei dintorni per proteggersi?</em></p></section>",
+          "actions": {
+            "6ObCFnx4xbCP6VDb": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            }
+          }
+        },
+        "TlX8yI5OWVmOK3cF": {
+          "name": "Cuore della Tempesta",
+          "description": "<p><strong>Spendete una Paura</strong> per svelare il motore vivente della Tempesta Eccezionale. Fate apparire un Titano delle Tempeste o un Elementale Maggiore dell’Acqua entro distanza Lontana da un PG, poi rendetelo protagonista. Finché questo avversario non viene sconfitto, il conto alla rovescia del “Fronte della Tempesta” non procede. Quando questo avversario viene sconfitto, la Tempesta Eccezionale termina.</p><section id=\"secret-SlWRKU8Q6x4AItts\" class=\"secret\"><p><em>Questa creatura ha evocato la tempesta per i propri scopi, o è al servizio di un’entità ancora più grande? Perché ha scelto questo luogo come epicentro della distruzione?</em></p></section>",
+          "actions": {
+            "NrpLBc8WNJvCP8CM": {
+              "name": "Titano delle Tempeste",
+              "description": "<p><strong>Spendete una Paura</strong> per svelare il motore vivente della Tempesta Eccezionale. Fate apparire un Titano delle Tempeste entro distanza Lontana da un PG, poi rendetelo protagonista. Finché questo avversario non viene sconfitto, il conto alla rovescia del “Fronte della Tempesta” non procede. Quando questo avversario viene sconfitto, la Tempesta Eccezionale termina.</p>"
+            },
+            "g3oU6TuFtE3izvOJ": {
+              "name": "Elementale Maggiore dell’Acqua",
+              "description": "<p><strong>Spendete una Paura</strong> per svelare il motore vivente della Tempesta Eccezionale. Fate apparire un Elementale Maggiore dell’Acqua entro distanza Lontana da un PG, poi rendetelo protagonista. Finché questo avversario non viene sconfitto, il conto alla rovescia del “Fronte della Tempesta” non procede. Quando questo avversario viene sconfitto, la Tempesta Eccezionale termina.</p>"
+            }
+          }
+        },
+        "0pdHjCFHlKIvNU23": {
+          "name": "Panico nelle Strade",
+          "description": "<p>La Tempesta Eccezionale semina paura e caos tra la popolazione. Descrivete in che modo la tempesta mette in pericolo un PNG. Se il PG che diventa protagonista per primo non usa la propria azione per salvare quel PNG, guadagnate una Paura.</p><section id=\"secret-rq0SEXuKwlNrk9xG\" class=\"secret\"><p><em>Chi sta approfittando della situazione? Chi dovrebbe essere al comando qui, e che fine ha fatto?</em></p></section>"
+        }
+      }
+    },
+    "Moon Kingdom": {
+      "name": "Reame Lunare",
+      "description": "<p>Le misteriose, brillanti e isolate rovine di un regno lunare perduto, in cui risuonano echi di magia dimenticata e tecnologia antica.</p>",
+      "impulses": "Offuscare il confine tra sogno e realtà, lasciare che la coscienza fluisca e rifluisca come la marea, sussurrare echi di antica opulenza",
+      "potentialAdversaries": {
+        "dGGEFeoh8LOS51RN": {
+          "label": "Fauna Locale"
+        },
+        "TGaPRMzMRhCwaj1v": {
+          "label": "Avversari"
+        }
+      },
+      "items": {
+        "EwKS8purdqfLft20": {
+          "name": "Atmosfera Onirica",
+          "description": "<p>Tutto nel Reame Lunare sembra onirico e fluttuante. Un balzo può portare molto lontano e i suoni sono attutiti. L’aria è piena di una polvere cristallina iridescente e in costante movimento che muta in risposta ai pensieri o alle emozioni e potrebbe registrare ricordi del passato o visioni del futuro. Una volta per scena, un PG può effettuare un Tiro Istinto per leggere le impronte psichiche lasciate dagli eventi passati.</p><section id=\"secret-m7MBCB6cZ1kqfzV1\" class=\"secret\"><p><em>Quali profumi o sensazioni eteree provano i PG? In che modo l’atmosfera influenza le loro interazioni?</em></p></section>",
+          "actions": {
+            "EbKXnEAy2wWNljFJ": {
+              "name": "Leggere le Impressioni Psichiche",
+              "description": ""
+            }
+          }
+        },
+        "LBPo3tyONcyWo2ap": {
+          "name": "Rovine Silenti",
+          "description": "<p>L’imponente architettura argentea e blu della capitale è intatta, ma ricoperta da una flora bioluminescente che pulsa al ritmo delle maree lunari. Un PG che superi un Tiro Astuzia può raccogliere una pianta lunare senza ucciderla. Un PG che mangi una o più piante lunari vive ottiene un bonus +1 ai Tiri Incantesimo fino al suo prossimo riposo lungo.</p><section id=\"secret-pqH7oBOwsaP1KHwl\" class=\"secret\"><p><em>A quale flora terrestre assomigliano queste piante della Luna? Che sapore hanno e quali effetti fisici provocano a chi le mangia?</em></p></section>",
+          "actions": {
+            "f6Zbv7K0hNXRcun4": {
+              "name": "Mangiare Piante Lunari",
+              "description": ""
+            }
+          },
+          "effects": {
+            "b4fl1uw4coFPlcYk": {
+              "name": "Pianta Lunare",
+              "description": "<p>Un PG che mangia una o più piante lunari vive ottiene un bonus +1 ai Tiri Incantesimo fino al suo prossimo riposo lungo.</p>"
+            }
+          }
+        },
+        "JbybeL7zwmsLBdgt": {
+          "name": "Osservatorio Lunare",
+          "description": "<p>In cima alla torre più alta della capitale si trova una macchina dei sogni di cristallo in grado di riprodurre eventi storici. Un PG che superi un Tiro Conoscenza può riparare la macchina. Una volta riparata, un PG che superi un Tiro Presenza può azionarla per apprendere la storia dell’ascesa e della caduta del Reame Lunare.</p><ul><li><p><strong>Successo Critico:</strong> Il PG riceve informazioni chiare sugli eventi e sui personaggi chiave della storia del Reame Lunare e guadagna <strong>[[/r 1d4]]</strong> Speranze, che può distribuire tra i PG con cui condivide le sue visioni.</p></li><li><p><strong>Successo con Speranza:</strong> Il PG riceve informazioni chiare sugli eventi e sui personaggi chiave della storia del Reame Lunare.</p></li><li><p><strong>Qualsiasi tiro con Paura:</strong> Il PG riceve brevi flash e sensazioni relative alla fine catastrofica del regno. Se il tiro è fallito, il PG subisce <strong>4d10+5</strong> danni magici mentre le visioni assalgono la sua psiche.</p></li></ul><section id=\"secret-pggKJalwbqUZggZ8\" class=\"secret\"><p><em>Che aspetto ha questo meccanismo e come funziona? Cosa scoprono i PG sulla storia del Reame Lunare?</em></p></section>",
+          "actions": {
+            "lYDqOLkyBEeQUdji": {
+              "name": "",
+              "description": "<p><strong>Qualsiasi tiro con Paura:</strong> Il PG riceve brevi flash e sensazioni relative alla fine catastrofica del regno. Se il tiro è fallito, il PG subisce <strong>4d10+5</strong> danni magici mentre le visioni assalgono la sua psiche.</p>"
+            }
+          }
+        },
+        "0L199n6Ftdu0Ski7": {
+          "name": "La Tomba della Regina della Luna",
+          "description": "<p>L’ultima sovrana del Reame Lunare riposa in una bara di selenite nelle profondità della cittadella. Se si tira con Paura per indagare nella sua camera sepolcrale, la sua ombra malefica si risveglia e attacca il gruppo. Evocate lo Spirito della Regina della Luna (Arci-Negromante) accanto alla sua bara e rendetela immediatamente protagonista.</p><section id=\"secret-T4ooy4DmaUjaWXzA\" class=\"secret\"><p><em>Chi l’ha sepolta qui, e perché? Può essere fatta risorgere, o distruggere il suo spirito è l’unica via d’uscita?</em></p></section>",
+          "actions": {
+            "ctPLQuDoxpNIAXBN": {
+              "name": "",
+              "description": ""
+            }
+          }
+        }
+      }
+    },
     "Mountain Pass": {
       "name": "Passo Montano",
       "description": "<p>Cime rocciose che perforano le nuvole, con un sentiero tortuoso che si snoda attraverso numerosi tornanti.</p>",
@@ -735,11 +1796,11 @@
         },
         "jkm03DXYYajsRk2j": {
           "name": "Valanga",
-          "description": "<p><strong>Spendete 1 Paura</strong> per provocare una valanga. Tutti i PG sul suo percorso devono superare un Tiro Reazione di Agilità o di Forza o essere travolti e trascinati giù dalla montagna. Un PG che usa corde, chiodi da roccia o altra attrezzatura da arrampicata ottiene vantaggio al tiro. I bersagli che falliscono vengono scaraventati giù dalla montagna a distanza Lontana, subiscono <strong>2d20</strong> danni fisici e devono marcare uno Stress. I bersagli che superano il tiro devono marcare uno Stress.</p><section id=\"secret-3gM8fEJj1vD9W88k\" class=\"secret\"><p><em>Come cercano i PG di superare la valanga? Che approccio adottano i personaggi per ritrovarsi quando i loro compagni precipitano giù per il fianco della montagna?</em></p></section>",
+          "description": "<p><strong>Spendete una Paura</strong> per provocare una valanga. Tutti i PG sul suo percorso devono superare un Tiro Reazione di Agilità o di Forza o essere travolti e trascinati giù dalla montagna. Un PG che usa corde, chiodi da roccia o altra attrezzatura da arrampicata ottiene vantaggio al tiro. I bersagli che falliscono vengono scaraventati giù dalla montagna a distanza Lontana, subiscono <strong>2d20</strong> danni fisici e devono marcare uno Stress. I bersagli che superano il tiro devono marcare uno Stress.</p><section id=\"secret-3gM8fEJj1vD9W88k\" class=\"secret\"><p><em>Come cercano i PG di superare la valanga? Che approccio adottano i personaggi per ritrovarsi quando i loro compagni precipitano giù per il fianco della montagna?</em></p></section>",
           "actions": {
             "P2fHddwfyEGUwpCH": {
               "name": "Danni",
-              "description": "<p><strong>Spendete 1 Paura</strong> per provocare una valanga. Tutti i PG sul suo percorso devono superare un Tiro Reazione di Agilità o di Forza o essere travolti e trascinati giù dalla montagna. Un PG che usa corde, chiodi da roccia o altra attrezzatura da arrampicata ottiene vantaggio al tiro. I bersagli che falliscono vengono scaraventati giù dalla montagna a distanza Lontana, subiscono <strong>2d20</strong> danni fisici e devono marcare uno Stress. I bersagli che superano il tiro devono marcare uno Stress.</p><section class=\"secret\" id=\"secret-scxxru7P29oZ1dt8\"><p><em>Come cercano i PG di superare la valanga? Che approccio adottano i personaggi per ritrovarsi quando i loro compagni precipitano giù per il fianco della montagna?</em></p></section>"
+              "description": "<p><strong>Spendete una Paura</strong> per provocare una valanga. Tutti i PG sul suo percorso devono superare un Tiro Reazione di Agilità o di Forza o essere travolti e trascinati giù dalla montagna. Un PG che usa corde, chiodi da roccia o altra attrezzatura da arrampicata ottiene vantaggio al tiro. I bersagli che falliscono vengono scaraventati giù dalla montagna a distanza Lontana, subiscono <strong>2d20</strong> danni fisici e devono marcare uno Stress. I bersagli che superano il tiro devono marcare uno Stress.</p><section class=\"secret\" id=\"secret-scxxru7P29oZ1dt8\"><p><em>Come cercano i PG di superare la valanga? Che approccio adottano i personaggi per ritrovarsi quando i loro compagni precipitano giù per il fianco della montagna?</em></p></section>"
             }
           }
         },
@@ -777,18 +1838,23 @@
         }
       }
     },
-    "Necromancer’s Ossuary": {
+    "Necromancer's Ossuary": {
       "name": "Ossario del Negromante",
       "description": "<p>Una cripta polverosa con una biblioteca, corridoi tortuosi e sarcofagi in abbondanza, imbrattati dal sangue di sfortunati invasori.</p>",
       "impulses": "Confondere gli intrusi, dissotterrare segreti che è meglio lasciare sepolti, scatenare un’ondata di non morti",
+      "potentialAdversaries": {
+        "eYaDM6WMAmdzysKZ": {
+          "label": "Esercito dell’Arci-Negromante"
+        }
+      },
       "items": {
         "SJo1Pw0fE4vKnisr": {
           "name": "Non È Luogo per i Viventi",
-          "description": "<p>Un privilegio o un’azione che consente il recupero di PF richiede la spesa di 1 Speranza. Se costa già una Speranza, un PG deve spendere 1 Speranza aggiuntiva.</p><section class=\"secret\" id=\"secret-kxbv8Ju7dkBJnduH\"><p><em>Come si può guarire o curare in un luogo che si oppone alla vita stessa?</em></p></section>",
+          "description": "<p>Un privilegio o un’azione che consente il recupero di PF richiede la spesa di una Speranza. Se costa già una Speranza, un PG deve spendere una Speranza aggiuntiva.</p><section id=\"secret-kxbv8Ju7dkBJnduH\" class=\"secret\"><p><em>Come si può guarire o curare in un luogo che si oppone alla vita stessa?</em></p></section>",
           "actions": {
             "jVY198vniaTSlgsX": {
               "name": "Perdere 1 Speranza",
-              "description": "<p>Un privilegio o un’azione che consente il recupero di PF richiede la spesa di 1 Speranza. Se costa già una Speranza, un PG deve spendere 1 Speranza aggiuntiva.</p><section class=\"secret\" id=\"secret-Ls4rMO6N9zzuR2Ib\"><p><em>Come si può guarire o curare in un luogo che si oppone alla vita stessa?</em></p></section>"
+              "description": ""
             }
           }
         },
@@ -798,11 +1864,11 @@
         },
         "asSGMUdf4gG4PO8F": {
           "name": "Raffica di Ossa",
-          "description": "<p>Tutti i bersagli entro distanza Ravvicinata da un punto a vostra scelta devono superare un Tiro Reazione di Agilità o subire <strong>4d8+8</strong> danni fisici da schegge d’ossa quando una parte dell’ossario esplode intorno ai personaggi.</p><p>@Template[type:circle|range:c]</p><section id=\"secret-b6zF5gClmMcrmeVT\" class=\"secret\"><p><em>Quale antica architettura d’osso si è distrutta? Quali ossa si conficcano nella tua armatura?</em></p></section>",
+          "description": "<p>Tutti i bersagli entro distanza Ravvicinata da un punto a vostra scelta devono superare un Tiro Reazione di Agilità o subire <strong>4d8+8</strong> danni fisici da schegge d’ossa quando una parte dell’ossario esplode intorno ai personaggi.</p><section id=\"secret-b6zF5gClmMcrmeVT\" class=\"secret\"><p><em>Quale antica architettura d’osso si è distrutta? Quali ossa si conficcano nella tua armatura?</em></p></section>",
           "actions": {
             "M1mOwi4Limw2hRwL": {
               "name": "Tiro Reazione",
-              "description": "<p>Tutti i bersagli entro distanza Ravvicinata da un punto a vostra scelta devono superare un Tiro Reazione di Agilità o subire <strong>4d8+8</strong> danni fisici da schegge d’ossa quando una parte dell’ossario esplode intorno ai personaggi.</p><p>@Template[type:circle|range:c]</p><section class=\"secret\" id=\"secret-xjKFOtdFFWAgx2Cv\"><p><em>Quale antica architettura d’osso si è distrutta? Quali ossa si conficcano nella tua armatura?</em></p></section>"
+              "description": ""
             }
           }
         },
@@ -812,24 +1878,92 @@
           "actions": {
             "UWCibXbQZG22PJ3l": {
               "name": "Lanciare 1d4",
-              "description": "<p>Una volta per scena, tirate un <strong>d4</strong>. Ogni non morto a distanza Lontana dall’Arci-Negromante può recuperare PF e rimuovere Stress pari al risultato ottenuto. Il non morto può scegliere come distribuire tale numero tra PF e Stress.</p><section class=\"secret\" id=\"secret-frj3OBrXCjpKtWSg\"><p><em>Come si manifesta il loro rinnovato vigore? Sembrano riacquisire caratteristiche dei viventi o, paradossalmente, abbracciare il loro decadimento con ancor più energia?</em></p></section>"
+              "description": "<p>Una volta per scena, tirate un <strong>d4</strong>. Ogni non morto a distanza Lontana dall’Arci-Negromante può recuperare PF e rimuovere Stress pari al risultato ottenuto. Il non morto può scegliere come distribuire tale numero tra PF e Stress.</p><section id=\"secret-LzevSyHyOxNxLwwh\" class=\"secret\"><p><em>Come si manifesta il loro rinnovato vigore? Sembrano riacquisire caratteristiche dei viventi o, paradossalmente, abbracciare il loro decadimento con ancor più energia?</em></p></section>"
             }
           }
         },
         "chJRXNg5zyTGbcG5": {
           "name": "Continuano ad Arrivare!",
-          "description": "<p><strong>Spendete 1 Paura</strong> per far comparire <strong>[[/r 1d6]]</strong> @UUID[Compendium.daggerheart.adversaries.Actor.gP3fWTLzSFnpA8EJ], due @UUID[Compendium.daggerheart.adversaries.Actor.CP6iRfHdyFWniTHY] oppure una @UUID[Compendium.daggerheart.adversaries.Actor.YhJrP7rTBiRdX5Fp], che appaiono a distanza Ravvicinata da un PG bersaglio.</p><section class=\"secret\" id=\"secret-O5DKa2eIgNp51OVK\"><p><em>Chi erano queste persone prima di diventare pedine del negromante? Quali tracce di quelle vite sono ancora visibili?</em></p></section>",
+          "description": "<p><strong>Spendete una Paura</strong> per far comparire <strong>[[/r 1d6]]</strong> @UUID[Compendium.daggerheart.adversaries.Actor.gP3fWTLzSFnpA8EJ]{Zombi Marci}, due @UUID[Compendium.daggerheart.adversaries.Actor.CP6iRfHdyFWniTHY]{Zombi Perfetti} oppure una @UUID[Compendium.daggerheart.adversaries.Actor.YhJrP7rTBiRdX5Fp]{Legione di Zombi}, che appaiono a distanza Ravvicinata da un PG bersaglio.</p><section id=\"secret-O5DKa2eIgNp51OVK\" class=\"secret\"><p><em>Chi erano queste persone prima di diventare pedine del negromante? Quali tracce di quelle vite sono ancora visibili?</em></p></section>",
           "actions": {
             "hFeTdiHWeCYkb8Hg": {
-              "name": "Spendere 1 Paura",
-              "description": "<p><strong>Spendete 1 Paura</strong> per far comparire <strong>[[/r 1d6]]</strong> @UUID[Compendium.daggerheart.adversaries.Actor.gP3fWTLzSFnpA8EJ], due @UUID[Compendium.daggerheart.adversaries.Actor.CP6iRfHdyFWniTHY] oppure una @UUID[Compendium.daggerheart.adversaries.Actor.YhJrP7rTBiRdX5Fp], che appaiono a distanza Ravvicinata da un PG bersaglio.</p><section class=\"secret\" id=\"secret-Du2785Ih29RVrHpG\"><p><em>Chi erano queste persone prima di diventare pedine del negromante? Quali tracce di quelle vite sono ancora visibili?</em></p></section>"
+              "name": "Spendete 1 Paura",
+              "description": ""
             }
           }
         }
-      },
+      }
+    },
+    "Ocean Voyage": {
+      "name": "Grande Traversata",
+      "description": "<p>I PG ottengono il passaggio verso una meta lontana offrendo il proprio lavoro in cambio.</p>",
+      "impulses": "Svelare ciò che si nasconde sotto le onde, mandare i PG nella direzione sbagliata, affondare la nave, esaurire le loro risorse",
       "potentialAdversaries": {
-        "eYaDM6WMAmdzysKZ": {
-          "label": "Esercito dell’Arci-Negromante"
+        "1jkJtSVsk6R7dwt6": {
+          "label": "Creature degli Abissi"
+        },
+        "yvbQHy61C6WGqrAC": {
+          "label": "Pirati"
+        }
+      },
+      "items": {
+        "Zlo11bOuvioULbVJ": {
+          "name": "Mare Aperto",
+          "description": "<p><em>Conto alla Rovescia (8)</em>. Per raggiungere la loro destinazione, il gruppo deve completare il Conto alla Rovescia del Mare Aperto. Il conto alla rovescia diminuisce quando un PG supera un tiro azione per aiutare nel viaggio.</p><section id=\"secret-Y98FsUG7DS8SkoNy\" class=\"secret\"><p><em>Dove è diretta la nave? Di quali pericoli lungo la rotta bisbiglia l’equipaggio?</em></p></section>",
+          "actions": {
+            "GlWdHSDokrOWrLZ9": {
+              "name": "Avviare Conto alla Rovescia",
+              "description": ""
+            }
+          }
+        },
+        "LuFQmRD0fVO3L8e4": {
+          "name": "Le Provviste Scarseggiano",
+          "description": "<p>La prima volta che un PG fallisce con Paura durante questo viaggio, l’equipaggio scopre che il cibo e l’acqua potabile nella stiva della nave sono stati contaminati da parassiti e muffa. Fino a quando il gruppo non raggiunge la destinazione, un PG che effettua un tiro azione per far avanzare il Conto alla Rovescia sul Mare Aperto deve superare un Tiro Reazione di Forza o marcare uno Stress.</p><section id=\"secret-2ahDDnn1hplEjUMi\" class=\"secret\"><p><em>Che fine hanno fatto le razioni? Quali misure drastiche adotta l’equipaggio per assicurarsi di non morire tutti di fame e di sete?</em></p></section>",
+          "actions": {
+            "kPU663WndRB8rJ4V": {
+              "name": "Tiro Fame",
+              "description": ""
+            }
+          }
+        },
+        "tvisN7BBtyqYfbYm": {
+          "name": "“Pirati!”",
+          "description": "<p><strong>Spendete una Paura</strong> per far sì che un membro dell’equipaggio sulla coffa avvisti delle vele nere all’orizzonte! Iniziate un Conto alla Rovescia delle Conseguenze (4). Se l’innesco avviene prima che il gruppo raggiunga la propria destinazione, i pirati raggiungono la nave e la abbordano. Ottenete una Paura, poi fate comparire un Capitano Pirata e tre Orde di Predoni Pirati entro distanza Ravvicinata dal gruppo.</p><section id=\"secret-yLGOWZhusEDol9jX\" class=\"secret\"><p><em>Il capitano riconosce la nave che li sta inseguendo? Per quali pratiche poco cortesi sono famosi i pirati di questo tratto di mare?</em></p></section>",
+          "actions": {
+            "AM4eoWDdD6FGNdpr": {
+              "name": "Avviare Conto alla Rovescia",
+              "description": "<p><strong>Spendete una Paura</strong> per far sì che un membro dell’equipaggio sulla coffa avvisti delle vele nere all’orizzonte! Iniziate un Conto alla Rovescia delle Conseguenze (4). <em>Il capitano riconosce la nave che li sta inseguendo? Per quali pratiche poco cortesi sono famosi i pirati di questo tratto di mare?</em></p>"
+            },
+            "phsCnHpUL2dW0usB": {
+              "name": "Innesco Conseguenze",
+              "description": "<p>Se l’innesco avviene prima che il gruppo raggiunga la propria destinazione, i pirati raggiungono la nave e la abbordano. Ottenete una Paura, poi fate comparire un Capitano Pirata e tre Orde di Predoni Pirati entro distanza Ravvicinata dal gruppo.</p>"
+            }
+          }
+        },
+        "A8979rx43bQwftNO": {
+          "name": "Tempaccio",
+          "description": "<p>Quando il Conto alla Rovescia del Mare Aperto arriva a un numero dispari, tirate un <strong>d6</strong>. Con un risultato pari o superiore a 4, la nave si imbatte in una zona colpita da un forte evento atmosferico, come nebbia fitta che ostacola la navigazione o una burrasca che minaccia di far capovolgere la nave. Ogni PG deve superare un Tiro Reazione utilizzando un tratto pertinente scelto dal GM oppure deve marcare <strong>1d4</strong> Stress.</p><section id=\"secret-q3ZonXxWUaf350tb\" class=\"secret\"><p><em>Cosa rende questo fenomeno meteorologico diverso da qualsiasi cosa i PG abbiano mai sperimentato prima? Come si coordinano con l’equipaggio per superare questo pericolo?</em></p></section>",
+          "actions": {
+            "lB1hhkrXmP7ubkF3": {
+              "name": "Tiro Meteo",
+              "description": ""
+            },
+            "Vl8CVLgqLA5lYIFv": {
+              "name": "Tiro Reazione",
+              "description": ""
+            }
+          }
+        },
+        "7mrJfLzWik833uVN": {
+          "name": "Qui vi Sono Mostri",
+          "description": "<p>Quando il Conto alla Rovescia del Mare Aperto arriva a un numero pari, lanciate un <strong>d6</strong>. Con un risultato pari o superiore a 4, compaiono <strong>[[/r 1d4]]</strong> creature degli abissi.</p><section id=\"secret-edpkLKKioU8ToEDv\" class=\"secret\"><p><em>Cosa attira queste creature verso la nave? C’è un modo per allontanarle senza combattere?</em></p></section>",
+          "actions": {
+            "2WbaXoYYIlnEAKNo": {
+              "name": "Tiro Mostri",
+              "description": ""
+            }
+          }
         }
       }
     },
@@ -856,11 +1990,11 @@
         },
         "21tdueq5Wgvj3vG4": {
           "name": "Posto Sbagliato, Momento Sbagliato",
-          "description": "<p>Di notte, o quando il gruppo è solo in un vicolo, potete <strong>spendere 1 Paura</strong> per introdurre un gruppo di ladri che cercano di derubarli. I ladri appaiono a distanza Ravvicinata da un PG bersaglio e includono un @UUID[Compendium.daggerheart.adversaries.Actor.CBKixLH3yhivZZuL], tanti @UUID[Compendium.daggerheart.adversaries.Actor.C0OMQqV7pN6t7ouR] quanti sono i PG e un @UUID[Compendium.daggerheart.adversaries.Actor.aTljstqteGoLpCBq].</p><section class=\"secret\" id=\"secret-5MEuvRtxMnpLEwAA\"><p><em>Quali dettagli indicano al gruppo che queste persone sono ex avventurieri disperati?</em></p></section>",
+          "description": "<p>Di notte, o quando il gruppo è solo in un vicolo, potete <strong>spendere una Paura</strong> per introdurre un gruppo di ladri che cercano di derubarli. I ladri appaiono a distanza Ravvicinata da un PG bersaglio e includono un @UUID[Compendium.daggerheart.adversaries.Actor.CBKixLH3yhivZZuL], tanti @UUID[Compendium.daggerheart.adversaries.Actor.C0OMQqV7pN6t7ouR] quanti sono i PG e un @UUID[Compendium.daggerheart.adversaries.Actor.aTljstqteGoLpCBq]. Per un gruppo più numeroso, aggiungete uno @UUID[Compendium.daggerheart.adversaries.Actor.MbBPIOxaxXYNApXz] o un @UUID[Compendium.daggerheart.adversaries.Actor.1zuyof1XuIfi3aMG].</p><section class=\"secret\" id=\"secret-5MEuvRtxMnpLEwAA\"><p><em>Quali dettagli indicano al gruppo che queste persone sono ex avventurieri disperati?</em></p></section>",
           "actions": {
             "UBHQzK5D6Dn5QuPc": {
               "name": "Reazione: Spendere 1 Paura",
-              "description": "<p>Di notte, o quando il gruppo è solo in un vicolo, potete <strong>spendere 1 Paura</strong> per introdurre un gruppo di ladri che cercano di derubarli. I ladri appaiono a distanza Ravvicinata da un PG bersaglio e includono un @UUID[Compendium.daggerheart.adversaries.Actor.CBKixLH3yhivZZuL], tanti @UUID[Compendium.daggerheart.adversaries.Actor.C0OMQqV7pN6t7ouR] quanti sono i PG e un @UUID[Compendium.daggerheart.adversaries.Actor.aTljstqteGoLpCBq].</p><section id=\"secret-8U6iwKGNeWQ27x1A\" class=\"secret\"><p>Per un gruppo più numeroso, aggiungete uno @UUID[Compendium.daggerheart.adversaries.Actor.MbBPIOxaxXYNApXz] o un @UUID[Compendium.daggerheart.adversaries.Actor.1zuyof1XuIfi3aMG].</p><p><em>Quali dettagli indicano al gruppo che queste persone sono ex avventurieri disperati?</em></p></section>"
+              "description": "<p>Di notte, o quando il gruppo è solo in un vicolo, potete <strong>spendere una Paura</strong> per introdurre un gruppo di ladri che cercano di derubarli. I ladri appaiono a distanza Ravvicinata da un PG bersaglio e includono un @UUID[Compendium.daggerheart.adversaries.Actor.CBKixLH3yhivZZuL], tanti @UUID[Compendium.daggerheart.adversaries.Actor.C0OMQqV7pN6t7ouR] quanti sono i PG e un @UUID[Compendium.daggerheart.adversaries.Actor.aTljstqteGoLpCBq].</p><section id=\"secret-8U6iwKGNeWQ27x1A\" class=\"secret\"><p>Per un gruppo più numeroso, aggiungete uno @UUID[Compendium.daggerheart.adversaries.Actor.MbBPIOxaxXYNApXz] o un @UUID[Compendium.daggerheart.adversaries.Actor.1zuyof1XuIfi3aMG].</p><p><em>Quali dettagli indicano al gruppo che queste persone sono ex avventurieri disperati?</em></p></section>"
             }
           }
         }
@@ -889,11 +2023,11 @@
         },
         "r9kkodHghWm01mje": {
           "name": "Magia da Battaglia",
-          "description": "<p><strong>Spendete 1 Paura</strong> mentre un mago di uno dei due schieramenti scatena una magia distruttiva su larga scala. Scegliete un punto sul campo di battaglia entro distanza Remota dal mago. Tutti i bersagli entro distanza Ravvicinata da quel punto devono effettuare un Tiro Reazione di Agilità. I bersagli che falliscono subiscono <strong>3d12+8</strong> danni magici e devono marcare uno Stress.</p><p>@Template[type:circle|range:c]</p><section id=\"secret-PpyF0dXMEudYnFqh\" class=\"secret\"><p><em>Che forma assume l’attacco: palla di fuoco, pioggia acida, tempesta di lame? Qual è l’obiettivo tattico di questo attacco e cosa succede dopo?</em></p></section>",
+          "description": "<p><strong>Spendete una Paura</strong> mentre un mago di uno dei due schieramenti scatena una magia distruttiva su larga scala. Scegliete un punto sul campo di battaglia entro distanza Remota dal mago. Tutti i bersagli entro distanza Ravvicinata da quel punto devono effettuare un Tiro Reazione di Agilità. I bersagli che falliscono subiscono <strong>3d12+8</strong> danni magici e devono marcare uno Stress.</p><p>@Template[type:circle|range:c]</p><section id=\"secret-PpyF0dXMEudYnFqh\" class=\"secret\"><p><em>Che forma assume l’attacco: palla di fuoco, pioggia acida, tempesta di lame? Qual è l’obiettivo tattico di questo attacco e cosa succede dopo?</em></p></section>",
           "actions": {
             "1giAFbu3tGqXwi8g": {
               "name": "Tiro Reazione",
-              "description": "<p><strong>Spendete 1 Paura</strong> mentre un mago di uno dei due schieramenti scatena una magia distruttiva su larga scala. Scegliete un punto sul campo di battaglia entro distanza Remota dal mago. Tutti i bersagli entro distanza Ravvicinata da quel punto devono effettuare un Tiro Reazione di Agilità. I bersagli che falliscono subiscono <strong>3d12+8</strong> danni magici e devono marcare uno Stress.</p><p>@Template[type:circle|range:c]</p><section class=\"secret\" id=\"secret-jbI9lwrzP59CTRUt\"><p><em>Che forma assume l’attacco: palla di fuoco, pioggia acida, tempesta di lame? Qual è l’obiettivo tattico di questo attacco e cosa succede dopo?</em></p></section>"
+              "description": "<p><strong>Spendete una Paura</strong> mentre un mago di uno dei due schieramenti scatena una magia distruttiva su larga scala. Scegliete un punto sul campo di battaglia entro distanza Remota dal mago. Tutti i bersagli entro distanza Ravvicinata da quel punto devono effettuare un Tiro Reazione di Agilità. I bersagli che falliscono subiscono <strong>3d12+8</strong> danni magici e devono marcare uno Stress.</p><p>@Template[type:circle|range:c]</p><section class=\"secret\" id=\"secret-jbI9lwrzP59CTRUt\"><p><em>Che forma assume l’attacco: palla di fuoco, pioggia acida, tempesta di lame? Qual è l’obiettivo tattico di questo attacco e cosa succede dopo?</em></p></section>"
             }
           }
         },
@@ -928,7 +2062,7 @@
         },
         "WsNoSwwtv0r80BMj": {
           "name": "Risacca",
-          "description": "<p><strong>Spendete 1 Paura</strong> per intrappolare un PG nella risacca. Il PG deve effettuare un Tiro Reazione di Agilità. In caso di fallimento, subisce <strong>1d6+1</strong> danni fisici e viene spostato a distanza Ravvicinata lungo il fiume, diventando <em>Vulnerabile</em> finché non esce da esso. In caso di successo, deve marcare uno Stress.</p><section id=\"secret-H6i1kuyHdtq9Eqgw\" class=\"secret\"><p><em>Quali ninnoli e gingilli giacciono sul fondo del fiume? Ci sono predatori che nuotano nelle sue acque?</em></p></section>",
+          "description": "<p><strong>Spendete una Paura</strong> per intrappolare un PG nella risacca. Il PG deve effettuare un Tiro Reazione di Agilità. In caso di fallimento, subisce <strong>1d6+1</strong> danni fisici e viene spostato a distanza Ravvicinata lungo il fiume, diventando <em>Vulnerabile</em> finché non esce da esso. In caso di successo, deve marcare uno Stress.</p><section id=\"secret-H6i1kuyHdtq9Eqgw\" class=\"secret\"><p><em>Quali ninnoli e gingilli giacciono sul fondo del fiume? Ci sono predatori che nuotano nelle sue acque?</em></p></section>",
           "effects": {
             "T0ouSQyR8cVpAn79": {
               "name": "Risacca",
@@ -938,13 +2072,13 @@
           "actions": {
             "f2e3gbhzD7z8BdCc": {
               "name": "Tiro Reazione",
-              "description": "<p><strong>Spendete 1 Paura</strong> per intrappolare un PG nella risacca. Il PG deve effettuare un Tiro Reazione di Agilità. In caso di fallimento, subisce <strong>1d6+1</strong> danni fisici e viene spostato a distanza Ravvicinata lungo il fiume, diventando <em>Vulnerabile</em> finché non esce da esso. In caso di successo, deve marcare uno Stress.</p><section class=\"secret\" id=\"secret-FmZbu6m2gtachqyE\"><p><em>Quali ninnoli e gingilli giacciono sul fondo del fiume? Ci sono predatori che nuotano nelle sue acque?</em></p></section>"
+              "description": "<p><strong>Spendete una Paura</strong> per intrappolare un PG nella risacca. Il PG deve effettuare un Tiro Reazione di Agilità. In caso di fallimento, subisce <strong>1d6+1</strong> danni fisici e viene spostato a distanza Ravvicinata lungo il fiume, diventando <em>Vulnerabile</em> finché non esce da esso. In caso di successo, deve marcare uno Stress.</p><section class=\"secret\" id=\"secret-FmZbu6m2gtachqyE\"><p><em>Quali ninnoli e gingilli giacciono sul fondo del fiume? Ci sono predatori che nuotano nelle sue acque?</em></p></section>"
             }
           }
         },
         "SDTS3LOPMVJOt1S1": {
           "name": "Cacciatore Paziente",
-          "description": "<p><strong>Spendete 1 Paura</strong> per evocare un @UUID[Compendium.daggerheart.adversaries.Actor.8KWVLWXFhlY2kYx0] a distanza Ravvicinata da un PG bersaglio. Il Serpente appare nel fiume o nelle sue vicinanze e diventa immediatamente protagonista per usare la sua azione “Serpe Roteante”.</p><section class=\"secret\" id=\"secret-F8zsJQg3xWOPpH5v\"><p><em>Quali tesori nasconde la bestia nella sua tana? Quali viaggiatori sono già caduti vittime di questo predatore?</em></p></section>",
+          "description": "<p><strong>Spendete una Paura</strong> per evocare un @UUID[Compendium.daggerheart.adversaries.Actor.8KWVLWXFhlY2kYx0] a distanza Ravvicinata da un PG bersaglio. Il Serpente appare nel fiume o nelle sue vicinanze e diventa immediatamente protagonista per usare la sua azione “Serpe Roteante”.</p><section class=\"secret\" id=\"secret-F8zsJQg3xWOPpH5v\"><p><em>Quali tesori nasconde la bestia nella sua tana? Quali viaggiatori sono già caduti vittime di questo predatore?</em></p></section>",
           "actions": {
             "uY9HMKE4Q5g7bRKg": {
               "name": "Spendere 1 Paura",
@@ -959,6 +2093,456 @@
         },
         "IOPWkNbGuLvPgnSy": {
           "label": "Banditi dei Coltelli Seghettati"
+        }
+      }
+    },
+    "Raiding Party": {
+      "name": "Scorreria",
+      "description": "<p>Una nave pirata sbarca il proprio equipaggio in una città portuale o in un villaggio costiero per saccheggiare e ottenere il bottino.</p>",
+      "impulses": "Appiccare il fuoco, sopraffare con rapidità e superiorità numerica, prendere tutto ciò che non è inchiodato al suolo",
+      "potentialAdversaries": {
+        "Z1qk14bnBBCM7Tnq": {
+          "label": "Equipaggio della Nave"
+        }
+      },
+      "items": {
+        "dnSlfFgkd1LPKYJK": {
+          "name": "Radunare gli Abitanti",
+          "description": "<p><em>Conto alla Rovescia di Progresso (5)</em>. Quando i pirati compaiono per la prima volta, attivate il conto alla rovescia. Il conto alla rovescia diminuisce quando un PG supera un tiro azione per arginare il caos e la distruzione causati dall’incursione pirata. Quando si innesca, la popolazione locale viene ispirata dalle azioni del gruppo e si unisce alla lotta contro i pirati. Ogni PG ottiene un dado Morale <strong>d6</strong>, che può spendere per potenziare un tiro azione, Reazione o un tiro di danno.</p><section id=\"secret-NqlXza4xMHH2Xg50\" class=\"secret\"><p><em>In che modo i pirati minacciano o mettono in pericolo la città oltre ad attaccare gli abitanti? Di quali difese possono avvalersi i PG?</em></p></section>",
+          "actions": {
+            "raJathH1q7FLOSZm": {
+              "name": "Avviare Conto alla Rovescia",
+              "description": ""
+            },
+            "I4b2ItXJJnHEvbL5": {
+              "name": "Innescare Conto alla Rovescia",
+              "description": ""
+            }
+          },
+          "effects": {
+            "f0Z8uHmEtgydUBUw": {
+              "name": "Morale",
+              "description": "<p>Ogni PG ottiene un Dado del Morale d6, che può spendere per aggiungerlo a un tiro azione, reazione o di danno.</p>"
+            }
+          }
+        },
+        "g8rVoim9sVVWOUIF": {
+          "name": "Parlè",
+          "description": "<p>Con un Tiro Conoscenza riuscito, un PG conosce abbastanza delle usanze dei pirati da richiedere un Parlè con il Capitano dei Pirati. Una volta richiesta la trattativa, il capitano sospende gli scontri per consentire a un PG di chiedere la pace o negoziare i termini della resa con un Tiro Presenza.</p><section id=\"secret-Q4z36YQBOr7uyizx\" class=\"secret\"><p><em>Per quale motivo i pirati rispettano e seguono questo capitano? A cosa tengono più che a un illecito bottino?</em></p></section>"
+        },
+        "8tAazh5aJlCqJd3O": {
+          "name": "“Cannoni, FUOCO!”",
+          "description": "<p><strong>Spendete fino a 3 Paure</strong> per far sparare i cannoni della nave pirata nel mezzo del combattimento. Per ogni Paura spesa, scegliete un punto qualsiasi sul campo di battaglia. Ogni PG entro distanza Ravvicinata da uno o più di quei punti deve effettuare un Tiro Reazione di Agilità. I bersagli che falliscono subiscono <strong>1d8+3</strong> danni fisici. I bersagli che superano il tiro devono marcare uno Stress o subire metà dei danni.</p><section id=\"secret-UmLdFr4sIQ0ggsEU\" class=\"secret\"><p><em>Quali danni collaterali causano queste palle di cannone? Quali vite mettono sconsideratamente a repentaglio?</em></p></section>",
+          "actions": {
+            "OcdAyplZ9XyttQf1": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            }
+          }
+        },
+        "ncVzTMqGM3EyK7wZ": {
+          "name": "Prendere Prigionieri",
+          "description": "<p>Quando un numero di pirati pari al numero di PG in scena viene sconfitto, tirate un <strong>d6</strong>. Con un risultato di 5 o 6, i pirati cambiano tattica, catturano alcuni abitanti del luogo e si ritirano sulla nave per chiedere in seguito un riscatto. Attivate un Conto alla Rovescia delle Conseguenze (4). Il conto alla rovescia procede ogni volta che un PG effettua un tiro azione. Quando si innesca, i pirati salpano con i loro prigionieri. <strong><em>Evento di Rango 1</em></strong> <em>Il gruppo deve respingere diverse ondate di nemici abbastanza a lungo da permettere a un alleato di portare a termine un obiettivo importante.</em> <strong>Impeti:</strong> Scagliare ondate di nemici addosso al gruppo, non concedere loro tregua, prendere di mira il loro protetto <strong>Difficoltà:</strong> 11 <strong>Potenziali Avversari:</strong> Coltelli Seghettati, Guardie, Pirati, Scheletri, Zombi <strong>CARATTERISTICHE</strong></p><section id=\"secret-Fiohy1JPx1I5NxnI\" class=\"secret\"><p><em>I pirati chi considerano come prigionieri migliori, e perché? Cosa vogliono in cambio della loro restituzione?</em></p></section>",
+          "actions": {
+            "GdTh93YptNRtQvMn": {
+              "name": "Tiro Tattica",
+              "description": ""
+            },
+            "YXmX29Zrh0w8urQF": {
+              "name": "Avviare Conto alla Rovescia",
+              "description": "<p>Attivate un Conto alla Rovescia delle Conseguenze (4). Il conto alla rovescia procede ogni volta che un PG effettua un tiro azione. Quando si innesca, i pirati salpano con i loro prigionieri.</p>"
+            }
+          }
+        }
+      }
+    },
+    "Realm Of The Dead": {
+      "name": "Regno dei Morti",
+      "description": "<p>Una distesa apparentemente infinita di acque calme, senza colore né allegria.</p>",
+      "impulses": "Affogare nella disperazione, succhiare la vita, indurre a un torpore senza fine",
+      "items": {
+        "bl1TbrxgkUCOWgMq": {
+          "name": "Mare della Malinconia",
+          "description": "<p>Questo regno è un oceano argenteo senza confini, avvolto da una cappa di tenebre grigie, senza stelle visibili né orizzonte. Una corrente impercettibile sfiora inesorabilmente le gambe dei PG, ma è troppo delicata per increspare la superficie piatta e specchiata dell’acqua. I tiri azione per muoversi in questo regno subiscono svantaggio.</p><section id=\"secret-N23TZsZyThv288xr\" class=\"secret\"><p><em>Quali pericoli si nascondono sotto la superficie? Come si fa a trovare il confine di un mondo senza fine, e cosa c’è oltre?</em></p></section>",
+          "actions": {
+            "0n459Up27okgKr7g": {
+              "name": "Applicare",
+              "description": ""
+            }
+          },
+          "effects": {
+            "HBctc4A2WAiZ1BDq": {
+              "name": "Oscurità",
+              "description": "<p>I tiri azione per orientarsi in questo regno hanno svantaggio.</p>"
+            }
+          }
+        },
+        "ikYzJk9bR2zcZFZu": {
+          "name": "Il Fardello della Veglia",
+          "description": "<p>Qui è impossibile dormire. Quando il gruppo riposa, ogni PG può scegliere una sola mossa di Interludio.</p><section id=\"secret-Pvxn0QyLyH3mwo8K\" class=\"secret\"><p><em>Quali pensieri tengono svegli i PG in questo luogo? Come possono supportarsi a vicenda senza soccombere alla disperazione?</em></p></section>"
+        },
+        "NjefAB8evT6E7Klo": {
+          "name": "Abitanti Toccati dalla Morte",
+          "description": "<p>Tutte le creature mortali alla fine oltrepassano questo luogo nel loro viaggio verso l’aldilà, ma coloro che indugiano o vagano troppo a lungo vengono deformati e mutati dall’oscurità. Qualsiasi avversario che il gruppo incontri qui è Evanescente. Descrivete come il tempo trascorso qui li abbia deformati in qualcosa di peggiore della morte. Quando un PG subisce danni dall’attacco di un avversario <em>Evanescente</em>, deve anche marcare uno Stress. Se un PG viene sconfitto qui, diventa un avversario <em>Evanescente</em> controllato dal GM invece di effettuare una mossa finale.</p><section id=\"secret-iSFjlhMjNIFiC08N\" class=\"secret\"><p><em>Perché queste creature si rifiutano di andare oltre? C’è un disegno nelle forme in cui l’oscurità le trasforma?</em></p></section>"
+        },
+        "9igGCe0LCHvsNmFx": {
+          "name": "Il Brivido del Trapasso",
+          "description": "<p><strong>Spendete una Paura</strong> per costringere un PG a effettuare un Tiro Reazione di Presenza mentre il Mare della Malinconia succhia il calore dal suo sangue e dalle sue ossa. In caso di fallimento, subisce <strong>4d10</strong> danni magici diretti. In caso di successo, deve marcare uno Stress.</p><section id=\"secret-zkpNph1L8EhK9xx8\" class=\"secret\"><p><em>Cosa si prova quando la volontà di vivere viene strappata con la forza? Come mantenere la concentrazione nella disperazione?</em></p></section>",
+          "actions": {
+            "6kRHsGSUBnGW7yo1": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            }
+          }
+        },
+        "5MC0kJKB3kjymyUa": {
+          "name": "Abbandonate Ogni Speranza",
+          "description": "<p>Quando un PG spende una Speranza nel Regno dei Morti, deve tirare un <strong>[[/r d6]]</strong>. In caso di risultato dispari, deve spendere una Speranza aggiuntiva o perdere il beneficio della Speranza già spesa.</p><section id=\"secret-hlBMll2qdg3GxQEF\" class=\"secret\"><p><em>Quali rimpianti vi tormentano ai margini della coscienza mentre siete qui? Quali ricordi vi legano ancora al Regno dei Mortali?</em></p></section>"
+        }
+      }
+    },
+    "Sunken Citadel": {
+      "name": "Città Sommersa",
+      "description": "<p>Le rovine sommerse di una civiltà perduta da tempo, ricche di tecnologia antica e magia oscura.</p>",
+      "impulses": "Trascinare i PG nelle profondità, affogarli, svelare meraviglie antiche",
+      "potentialAdversaries": {
+        "0xlyOLCOac2BMPBx": {
+          "label": "Avversari"
+        }
+      },
+      "items": {
+        "qzroOipCsq0bUcY2": {
+          "name": "Ambiente Sottomarino",
+          "description": "<p>Questo ambiente è subacqueo (vedere le regole “Muoversi e Combattere Sott’Acqua” a p. 170 del <em>Manuale Base</em>). Oltre a quelle regole, una creatura che respira aria tiene traccia della propria scorta con un Conto alla Rovescia della Riserva d’Aria. Il valore iniziale è pari a 3 + il proprio rango e diminuisce ogni volta che la creatura compie un’azione. Se un PG fallisce un tiro azione o riesce con Paura, potete usare una mossa del GM per diminuire il suo conto alla rovescia di un’unità in più. Se fallisce con Paura, potete invece farlo diminuire di due unità. Una volta che il conto alla rovescia si innesca, un PG deve marcare uno Stress ogni volta che compie un’azione sott’acqua fino a quando non riemerge.</p><section id=\"secret-irxVAP0EjUCUAA0e\" class=\"secret\"><p><em>Avete mai conosciuto qualcuno che è annegato? Cosa pensate di fare per mantenere la calma e far durare più a lungo la riserva d’aria?</em></p></section>",
+          "actions": {
+            "EzwbQmf6YhLowCd6": {
+              "name": "Avviare Conto alla Rovescia",
+              "description": ""
+            }
+          }
+        },
+        "99n3FQmcE0rszkrT": {
+          "name": "Tasche d’Aria",
+          "description": "<p>un PG può riportare al valore iniziale il proprio Conto alla Rovescia della Riserva d’Aria con un Tiro Conoscenza o Istinto riuscito.</p><section id=\"secret-AirJX0Oi7mBQoiWl\" class=\"secret\"><p><em>Quali segni o strutture cerchereste? Come ci si sente a sapere che quello potrebbe essere il vostro ultimo respiro?</em></p></section>"
+        },
+        "3RsgTnVijii6AMbF": {
+          "name": "Tecnologia Perduta",
+          "description": "<p>Le rovine sono incise con strane rune magiche e disseminate di tecnologia perduta. Un PG può effettuare un Tiro Conoscenza per apprendere informazioni utili su questa civiltà perduta da qualsiasi runa o dispositivo che incontra.</p><section id=\"secret-llwozvmLvAjTkujl\" class=\"secret\"><p><em>Chi un tempo considerava questo luogo la propria casa? Come funzionava la loro tecnologia? Perché alla fine furono distrutti e precipitarono nelle profondità?</em></p></section>"
+        },
+        "ThEcedErJouy7fwK": {
+          "name": "Abitanti delle Profondità",
+          "description": "<p><strong>Spendete una Paura</strong> per far comparire fino a due Creature degli Abissi e <strong>1d6</strong> Tritoni Maledetti che cercano di assoggettare i PG alla loro volontà. Questi avversari compaiono a distanza Ravvicinata da un PG, poi uno di loro diventa immediatamente protagonista.</p><section id=\"secret-HYuEkJa8hs81z9SM\" class=\"secret\"><p><em>Perché queste creature rimangono qui tra le rovine? Non vogliono o non sono in grado di riportare alla vita questa civiltà un tempo prospera?</em></p></section>",
+          "actions": {
+            "YiQHwLpUo8BW9Lkv": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            }
+          }
+        }
+      }
+    },
+    "Time Court": {
+      "name": "Tribunale del Tempo",
+      "description": "<p>Uno o più PG vengono strappati con la forza dalla linea temporale e processati per crimini contro il Continuum.</p>",
+      "impulses": "Scoprire la verità, rendere giustizia, annullare i poteri dei PG",
+      "potentialAdversaries": {
+        "Dh1UipXuHjMyzcbU": {
+          "label": "Avversari"
+        }
+      },
+      "items": {
+        "FOUXRDD4q9YAIe65": {
+          "name": "Fuori dal Tempo",
+          "description": "<p>Il processo si svolge in una dimensione tascabile che esiste al di là dell’influenza degli altri regni. Mentre si trovano qui, i PG non possono usare i loro privilegi e abilità. Ogni giocatore deve riporre le proprie carte di dominio nella propria riserva.</p><section id=\"secret-ImJWy36uInJMMu1x\" class=\"secret\"><p><em>Cosa altro, oltre all’aula di tribunale, risiede in questa dimensione tascabile? Quali poteri mantengono attiva la barriera universale che protegge questo luogo?</em></p></section>",
+          "actions": {
+            "6sk40GwZcO84aRBT": {
+              "name": "Applicare",
+              "description": ""
+            }
+          },
+          "effects": {
+            "mHoqQT10ANKnO3oT": {
+              "name": "Fuori dal Tempo",
+              "description": "<p>Mentre si trovano qui, i PG non possono usare i loro privilegi e le loro capacità. Ogni giocatore deve mettere le proprie carte Dominio nel suo deposito.</p>"
+            }
+          }
+        },
+        "Qc1Mm8cdNfb0fcDg": {
+          "name": "Giuria",
+          "description": "<p>Al termine del procedimento, una giuria vota se assolvere o condannare il gruppo. Quando l’aula viene richiamata all’ordine, fate in modo che l’accusa presenti le sue argomentazioni contro i PG e avviate un Conto alla Rovescia (9). Il conto alla rovescia diminuisce ogni volta che un PG effettua un tiro azione. Quando si innesca, i PG e il GM tirano i propri Dadi Giudizio. Se il risultato totale del gruppo eguaglia o supera quello del GM, la giuria li assolve.</p><section id=\"secret-SR95wc6Tpalzj7Sw\" class=\"secret\"><p><em>Quali PG vengono processati? Di cosa sono accusati? Quali potenziali pene comporterebbe un verdetto di colpevolezza?</em></p></section>",
+          "actions": {
+            "OuwNR2lTMCWW9xAm": {
+              "name": "Avviare Conto alla Rovescia",
+              "description": "<p>Al termine del procedimento, una giuria vota se assolvere o condannare il gruppo. Quando l’aula viene richiamata all’ordine, fate in modo che l’accusa presenti le sue argomentazioni contro i PG e avviate un Conto alla Rovescia (9). Il conto alla rovescia diminuisce ogni volta che un PG effettua un tiro azione. <em>Quali PG vengono processati? Di cosa sono accusati? Quali potenziali pene comporterebbe un verdetto di colpevolezza?</em></p>"
+            },
+            "W0PQ3KJk0784W3gB": {
+              "name": "Innescare Conto alla Rovescia",
+              "description": "<p>Quando si innesca, i PG e il GM tirano i propri Dadi Giudizio. Se il risultato totale del gruppo eguaglia o supera quello del GM, la giuria li assolve.</p>"
+            }
+          }
+        },
+        "5dfMCpOvnNNeUpNV": {
+          "name": "Avvocato Difensore",
+          "description": "<p>Un PG può effettuare un tiro azione per difendere la propria innocenza (ad esempio un Tiro Conoscenza per interpretare alla lettera la legge, un Tiro Presenza per fare leva sulle emozioni della giuria o un Tiro Istinto per evidenziare le incongruenze nel caso dell’accusa). In caso di successo, il gruppo ottiene un Dado Giudizio <strong>d6</strong>. In caso di Successo Critico, ne ottiene due. In caso di fallimento, l’accusa confuta l’argomentazione del PG e il GM ottiene un dado del giudizio <strong>d6</strong>.</p><section id=\"secret-cESowB70gMt9UBRX\" class=\"secret\"><p><em>Qual è il punto più debole della tesi dell’accusa? Qual è il punto di forza della difesa del gruppo?</em></p></section>"
+        },
+        "X91s1yNbX9BFGthV": {
+          "name": "Avvocato dell’Accusa",
+          "description": "<p>L’accusa presenta una prova schiacciante (come la testimonianza di un testimone oculare, i risultati di un’analisi o un reperto prelevato dalla scena del crimine) e il GM ottiene un Dado Giudizio <strong>d6</strong>. Un PG può marcare uno Stress per tentare di confutare la prova con un Tiro Reazione basato su Conoscenza, Istinto o Presenza. In caso di successo, il gruppo ottiene il Dado Giudizio al posto del GM. In caso di fallimento, il GM ottiene un Dado Giudizio <strong>d6</strong> aggiuntivo.</p><section id=\"secret-PKxc7LWA63hG6Dj0\" class=\"secret\"><p><em>Chi guida l’accusa e qual è il suo rapporto con il Consiglio Temporale? Su quale magia o tecnologia si affida questo Tribunale del Tempo per presentare e registrare le prove?</em></p></section>"
+        },
+        "W6PaWbLiErDCv25u": {
+          "name": "“Silenzio in Aula!”",
+          "description": "<p>Quando i PG tentano di fuggire o di porre fine al processo con la forza, evocate un numero di Custodi Temporali pari al numero di PG presenti sulla scena entro distanza Ravvicinata e rendetene immediatamente uno protagonista.</p><section id=\"secret-dy2SSipjq5tsKais\" class=\"secret\"><p><em>L’autorità di questo tribunale è degna di rispetto? Cosa, oltre alla potenza del Tribunale del Tempo e dei suoi esecutori, giustifica il loro controllo sulla linea temporale?</em></p></section>",
+          "actions": {
+            "8d02AoeZJD2fOlXe": {
+              "name": "",
+              "description": ""
+            }
+          }
+        }
+      }
+    },
+    "Upscale Casino": {
+      "name": "Casinò Esclusivo",
+      "description": "<p>Una scintillante sala da gioco dove ricchi mercanti e nobili vengono a sperperare le loro fortune.</p>",
+      "impulses": "Far intravedere ai PG il jackpot appena oltre la loro portata, abbagliarli con il lusso sfrenato, approfittare dei loro vizi",
+      "potentialAdversaries": {
+        "cDV40IntAD7wIsdW": {
+          "label": "Giocatori"
+        },
+        "iGIc0fm5te27GwnO": {
+          "label": "Misure di Sicurezza Automatizzate"
+        }
+      },
+      "items": {
+        "MPNmu1p3ZwEuZ6rJ": {
+          "name": "Sfarzo & Stile",
+          "description": "<p>Lo sfarzo esagerato di questo luogo può incantare anche il cliente più disilluso. Mentre si trovano qui, tutti i PG hanno svantaggio ai Tiri Reazione per resistere a un membro del personale o a un cliente abituale del casinò.</p><section id=\"secret-dx8PQyaq0D8ThujN\" class=\"secret\"><p><em>Cosa c’è di così meraviglioso nelle decorazioni del casinò? Sono davvero di natura magica o semplici chincaglierie portate a un estremo impossibile?</em></p></section>",
+          "actions": {
+            "yVGo2VdaNNBfukAV": {
+              "name": "Applicare",
+              "description": ""
+            }
+          },
+          "effects": {
+            "BWoPuKUowiiTlElx": {
+              "name": "Sfarzo & Stile",
+              "description": "<p>Mentre si trovano qui, tutti i PG hanno svantaggio ai tiri reazione causati da un membro del personale o da un cliente abituale del casinò.</p>"
+            }
+          }
+        },
+        "2QOVvFTW4KVgMxbR": {
+          "name": "La Fortuna Aiuta gli Audaci",
+          "description": "<p>Una volta per ogni riposo lungo, un PG può scommettere qualsiasi somma d’oro dichiarando quanto vuole puntare e tirando il proprio Dado Speranza. Con un risultato pari o superiore a 7, il PG vince una somma equivalente, raddoppiando il proprio denaro. Con un risultato pari o inferiore a 6, perde tutto.</p><section id=\"secret-8TzseKEFoLDuhLLe\" class=\"secret\"><p><em>A quale gioco sceglie di giocare il PG? Quali sono le regole della casa del casinò? C’è altro oltre all’oro che i PG sono disposti a rischiare?</em></p></section>"
+        },
+        "rMprPGv7OHpvpHDQ": {
+          "name": "Il Banco Vince Sempre",
+          "description": "<p>Quando un avversario fallisce un tiro, potete <strong>spendere una Paura</strong> per trasformarlo in un successo.</p><section id=\"secret-6uU2pbh3GlFbgRRz\" class=\"secret\"><p><em>Questo luogo è benedetto da una fortuna incredibile, o c’è qualcosa che maledice chiunque varchi le sue porte?</em></p></section>",
+          "actions": {
+            "UoLX7fzy9lOwSvrI": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            }
+          }
+        },
+        "TqjpHgCua41RhPb2": {
+          "name": "Misure di Sicurezza Automatizzate",
+          "description": "<p>Quando un PG tenta di barare a un gioco nel casinò e fallisce, deve marcare uno Stress poiché attiva il sistema di sicurezza meccanico del casinò. Ottenete una Paura e fate comparire un Carceriere della Cripta e una Torretta della Cripta per ogni PG, più una Sentinella della Cripta. Tutti gli avversari compaiono a distanza Lontana dai PG, e la Sentinella della Cripta diventa immediatamente protagonista.</p><section id=\"secret-UqWYRtzZBFLnM0RP\" class=\"secret\"><p><em>Chi ha costruito queste macchine? Perché sono preferibili ai viventi?</em></p></section>",
+          "actions": {
+            "LUBc5xcXYZQSYrX1": {
+              "name": "",
+              "description": ""
+            }
+          }
+        },
+        "4Cc3XbfEmKWvWHYS": {
+          "name": "Il Covo del Diavolo",
+          "description": "<p>Se i PG sconfiggono le Misure di Sicurezza Automatizzate del casinò o tentano di andarsene con le vincite rubate, potete <strong>spendere Paure in numero pari ai PG</strong> per evocare il vero proprietario del casinò, un Demone dell’Avarizia, entro distanza Ravvicinata da un PG. Il Demone diventa protagonista immediatamente e ostacola a tutti i costi la fuga del gruppo.</p><section id=\"secret-eOA19GVK1YZHbVwn\" class=\"secret\"><p><em>Come ha fatto il demone a mascherare la propria influenza finora? In che modo il casinò stesso cambia per svelare la sua vera natura?</em></p></section>"
+        }
+      }
+    },
+    "Vast Desert": {
+      "name": "Vasto Deserto",
+      "description": "<p>Una distesa arida di dune sabbiose, saline desolate e formazioni rocciose modellate dal vento.</p>",
+      "impulses": "Disidratare, mostrare una bellezza desolata, far intravedere un pericolo all’orizzonte",
+      "potentialAdversaries": {
+        "pefTawH0Dv5bd4fz": {
+          "label": "Avversari"
+        }
+      },
+      "items": {
+        "1Cg2NBQwZfDHDtud": {
+          "name": "Sabbia a Perdita d’Occhio",
+          "description": "<p><em>Conto alla Rovescia (8)</em>. Per attraversare il deserto, il gruppo deve completare il conto alla rovescia. Il conto alla rovescia diminuisce ogni volta che un PG supera un tiro azione per attraversare la distesa apparentemente infinita.</p><section id=\"secret-mn0yB3t2n3Agrpn8\" class=\"secret\"><p><em>In che modo i PG attraversano il deserto? Oltre alle grandi distanze e alla penuria d’acqua, cos’altro rende questa zona difficile da attraversare?</em></p></section>",
+          "actions": {
+            "sMYXsK2hF5TmFsBP": {
+              "name": "Avviare Conto alla Rovescia",
+              "description": ""
+            }
+          }
+        },
+        "1S8CU4cFoFynMX0N": {
+          "name": "Scorta d’Acqua",
+          "description": "<p>Quando il gruppo inizia il viaggio, posizionate su questo blocco statistiche un numero di gettoni pari a 1 più il numero di PG presenti nella scena. Rimuovete un gettone alla fine di ogni riposo lungo o quando un PG fallisce un tiro azione per percorrere il deserto. Quando un gettone dovrebbe essere rimosso ma non ne sono rimasti, ogni PG subisce 1 PF e deve marcare uno Stress. Un PG può aggiungere un gettone a questo blocco statistiche utilizzando una mossa di Interludio ed effettuando con successo un Tiro Conoscenza per cercare acqua.</p><section id=\"secret-HrjAsR0xJqcSmwOJ\" class=\"secret\"><p><em>Quali tipi di flora capace di conservare acqua o caratteristiche del terreno i PG ipotizzano che si possano trovare in questo deserto? In che modo i PG raccolgono e conservano l’acqua che trovano?</em></p></section>",
+          "actions": {
+            "bxlhGmsUODyK6C1j": {
+              "name": "Fuori dall’Acqua",
+              "description": ""
+            }
+          }
+        },
+        "XGtU0hcWUO1rJqSV": {
+          "name": "Dune Mutevoli",
+          "description": "<p>Le dune in continuo mutamento e il vento sferzante rendono difficile seguire le tracce. I tiri azione per seguire creature nel deserto vengono effettuati con svantaggio.</p><section id=\"secret-quoNT6CadU1q7WDQ\" class=\"secret\"><p><em>In che modo le dune e il paesaggio cambiano ogni volta che gli eroi riposano? Cosa viene nascosto o svelato dal vento?</em></p></section>",
+          "actions": {
+            "jB4IP4o7Xcg5LCea": {
+              "name": "Applicare Sabbie Mobili",
+              "description": ""
+            }
+          },
+          "effects": {
+            "GyRQC1Dw5uF6bbZr": {
+              "name": "Sabbie Mobili",
+              "description": "<p>I tiri azione per seguire le tracce delle creature attraverso il deserto hanno svantaggio.</p>"
+            }
+          }
+        },
+        "UNqxbFMJLvgK8bSY": {
+          "name": "Nubifragio",
+          "description": "<p><strong>Spendete una Paura</strong> per far sì che un acquazzone torrenziale si abbatta sul deserto. Ogni PG deve cercare riparo dalla tempesta oppure raccogliere l’acqua piovana. Ogni PG che cerca riparo marca uno Stress. I PG che raccolgono l’acqua piovana effettuano un tiro di gruppo.</p><ul><li><p>In caso di successo con Speranza, aggiungete <strong>1d4</strong> gettoni alla Scorta d’Acqua.</p></li><li><p>In caso di successo con Paura, aggiungete 1 gettone alla Scorta d’Acqua.</p></li><li><p>In caso di fallimento con Speranza, ogni PG che ha partecipato al tiro di gruppo marca uno Stress.</p></li><li><p>In caso di fallimento con Paura, ogni PG che ha partecipato al tiro di gruppo marca uno Stress, e il PG che ha ottenuto il risultato più basso subisce <strong>2d8+4</strong> danni fisici causati dalla tempesta.</p></li></ul><section id=\"secret-zav64YaMGRmiq3pt\" class=\"secret\"><p><em>Come appare la tempesta agli eroi mentre si avvicina da miglia di distanza? È una tempesta naturale o innaturale? Come si fa a capirlo?</em></p></section>",
+          "actions": {
+            "2eueocXYVZlXbIdQ": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            }
+          }
+        },
+        "sloexssGIEhCz3R0": {
+          "name": "Tempesta di Sabbia",
+          "description": "<p><strong>Spendete una Paura</strong> per scatenare una tempesta di sabbia che disorienta e tormenta i viaggiatori. Ogni PG subisce <strong>2d6+3</strong> danni fisici. Finché la tempesta di sabbia non si calma, un PG che effettua un tiro azione deve superare un Tiro Reazione di Agilità per evitare il vortice di rocce e detriti, altrimenti subisce <strong>2d6+3</strong> danni fisici.</p><section id=\"secret-J9Dw21CreXbQgtx4\" class=\"secret\"><p><em>Cosa indossano gli abitanti di questo deserto per resistere alle tempeste di sabbia? In che modo le abitazioni in queste zone sono progettate per resistere ai venti?</em></p></section>",
+          "actions": {
+            "3LICnw5D0JJj0aJe": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            },
+            "aLTGQ2yTNROChQ0v": {
+              "name": "Tempesta di Sabbia",
+              "description": ""
+            }
+          }
+        }
+      }
+    },
+    "Volcanic Eruption": {
+      "name": "Eruzione Vulcanica",
+      "description": "<p>Un’esplosione di calore e roccia fusa che lascia dietro di sé solo desolazione carbonizzata.</p>",
+      "impulses": "Seminare il panico, bloccare le vie di fuga, isolare i personaggi, spingerli a cercare riparo, dividere il gruppo",
+      "potentialAdversaries": {
+        "sOYNTMSDlEz1swf7": {
+          "label": "Avversari"
+        }
+      },
+      "items": {
+        "dK9JnojOxskFuS8F": {
+          "name": "Terreno Instabile",
+          "description": "<p>Il terreno in questa zona è irregolare, soggetto a crolli e smottamenti. I PG che falliscono un Tiro Agilità nel muoversi perdono 1 PF e sono temporaneamente <em>Trattenuti</em>.</p><section id=\"secret-av6KCfZL6ou7nyah\" class=\"secret\"><p><em>Quali strane forme e colori vedono i PG nella lava raffreddata? Come fanno le persone che vivono nelle vicinanze a mantenere l’equilibrio su quella superficie scivolosa e lucida?</em></p></section>",
+          "actions": {
+            "BpqxZVEaNsiLj3Pv": {
+              "name": "",
+              "description": ""
+            }
+          },
+          "effects": {
+            "Sk1gMVxRu9SGGHst": {
+              "name": "Terreno Instabile",
+              "description": ""
+            }
+          }
+        },
+        "LoULuL7HFWoaCloi": {
+          "name": "Eruzione Violenta",
+          "description": "<p><strong>Spendete una Paura</strong> per far eruttare il terreno in un punto a scelta, spruzzando lava nell’aria e spargendola al suolo. Tutti i bersagli entro distanza Prossima da quel punto perdono una Speranza e subiscono <strong>3d8+3</strong> danni fisici. L’area entro distanza Prossima dal punto di eruzione si trasforma in lava fino alla fine della scena. Una creatura che si sposta all’interno o attraverso la lava subisce <strong>3d8+3</strong> danni fisici. Fino alla fine della scena, potete <strong>spendere una Paura</strong> per espandere l’area coperta dalla lava di una categoria (ad esempio da Prossima a Ravvicinata o da Ravvicinata a Lontana).</p><section id=\"secret-B3Z8LZF8AIIFYFIQ\" class=\"secret\"><p><em>Cosa fa sembrare viva la lava? Come possono i PG prevederne il comportamento?</em></p></section>",
+          "actions": {
+            "7gJ5YY0GW3miiq22": {
+              "name": "Spendete 1 Paura",
+              "description": ""
+            },
+            "4JghfISojCrQhliF": {
+              "name": "Danni da Lava",
+              "description": ""
+            }
+          }
+        },
+        "eNN5WEUXkzvDd42j": {
+          "name": "Sfiato di Gas Tossico",
+          "description": "<p><strong>Spendete una Paura</strong> per aprire una spaccatura che erutta gas tossico in un punto a scelta, creando una nube che avvolge tutto ciò che si trova entro distanza Lontana. All’interno della nube, un PG deve tenere traccia della propria riserva d’aria con un Conto alla Rovescia della Riserva d’Aria. Il valore iniziale è pari a 3 + il rango del PG e diminuisce ogni volta che il PG compie un’azione. Se un PG fallisce un tiro azione o tira con Paura, potete usare una mossa del GM per far scendere il suo conto alla rovescia di un’unità in più. Se tira con Paura, potete invece farlo diminuire di due unità. Una volta innescato il conto alla rovescia, un PG deve marcare uno Stress ogni volta che compie un’azione all’interno del gas finché non sfugge alla nube.</p><section id=\"secret-ps6YWSpcq7r9r3ft\" class=\"secret\"><p><em>Quali segni indicano la presenza di gas tossico? Quale sapore permane nella bocca dei PG che inalano il gas?</em></p></section>",
+          "actions": {
+            "T220vtAg79qgdcHV": {
+              "name": "Emissione di Gas",
+              "description": ""
+            }
+          },
+          "effects": {
+            "7AJCW9GA1cSmdw4a": {
+              "name": "Riserva d’Aria",
+              "description": "<p>Un PG deve tenere traccia della propria riserva d’aria con un Conto alla Rovescia della Riserva d’Aria. Il suo valore iniziale è pari a 3 + il proprio rango, e diminuisce quando il PG compie un’azione. Se un PG fallisce un tiro azione o tira con Paura, potete usare una mossa del GM per farlo diminuire un’altra volta. Se il tiro è un fallimento con Paura, potete invece farlo diminuire due volte. Una volta terminato il conto alla rovescia, un PG deve marcare uno Stress ogni volta che compie un’azione all’interno del gas finché non sfugge alla nube.</p>"
+            }
+          }
+        }
+      }
+    },
+    "Witch's Hut": {
+      "name": "Rifugio della Strega",
+      "description": "<p>Una capanna rustica e senza finestre, poggiante su due enormi zampe di gallina.</p>",
+      "impulses": "Spaventare i PG, trattenerli fino al ritorno della strega, chiuderli dentro, spostarli altrove, tentarli con stranezze magiche",
+      "potentialAdversaries": {
+        "nwm0MT2J8z6il7m9": {
+          "label": "Avversari"
+        },
+        "FZjcBiiElTEYtYKO": {
+          "label": "Difese Incantate"
+        },
+        "5KYOTYpoLTxkwK4u": {
+          "label": "Vittime della Strega"
+        }
+      },
+      "items": {
+        "bukvnYnF0f1Q3tfQ": {
+          "name": "Più Grande all’Interno",
+          "description": "<p>Sebbene l’esterno del rifugio sia quello di un rustico cottage con un’unica stanza, l’interno è una dimora in continuo mutamento di inquietante splendore, ricca di numerose camere da letto, biblioteche e giardini interni, oltre ad altre misteriose installazioni.</p><section id=\"secret-AuLFdOj4EBR4QBZk\" class=\"secret\"><p><em>C’è uno schema nel modo in cui la capanna si trasforma? Qual è il luogo più sorprendente che i PG potrebbero trovare qui?</em></p></section>"
+        },
+        "unL0gUNjgkunmigs": {
+          "name": "Collezione di Bambole Inquietanti",
+          "description": "<p><em>Conto alla Rovescia (5)</em>. In tutto il rifugio, i PG possono vedere moltissime bambole di porcellana o di legno con occhi stranamente realistici. Quando il gruppo entra per la prima volta nel campo visivo di una bambola, attivate il conto alla rovescia. Il conto alla rovescia diminuisce quando un PG fallisce un tiro o ottiene un successo con Paura. Quando si innesca, le bambole prendono vita e attaccano. Attivate un numero di bambole viventi (Azzannatori del Cappuccio Rosso) pari al doppio dei PG.</p><section id=\"secret-kX6Wcczg4Dy60u1v\" class=\"secret\"><p><em>Chi erano queste bambole? C’è un modo per liberarle dalla prigionia?</em></p></section>",
+          "actions": {
+            "6SZsaHkhQM9kp8B8": {
+              "name": "Avviare Conto alla Rovescia",
+              "description": "<p><em>Conto alla Rovescia (5)</em>. In tutto il rifugio, i PG possono vedere moltissime bambole di porcellana o di legno con occhi stranamente realistici. Quando il gruppo entra per la prima volta nel campo visivo di una bambola, attivate il conto alla rovescia. Il conto alla rovescia diminuisce quando un PG fallisce un tiro o ottiene un successo con Paura. <em>Chi erano queste bambole? C’è un modo per liberarle dalla prigionia?</em></p>"
+            },
+            "OmV75YrfYz42hYVQ": {
+              "name": "Innescare Conto alla Rovescia",
+              "description": "<p>Quando si innesca, le bambole prendono vita e attaccano. Attivate un numero di bambole viventi (Azzannatori del Cappuccio Rosso) pari al doppio dei PG.</p>"
+            }
+          }
+        },
+        "YEV1VlqmDZZaGekL": {
+          "name": "Intruglio delle Streghe",
+          "description": "<p>Il rifugio contiene un laboratorio con ogni strumento o ingrediente di cui una strega potrebbe aver bisogno, compreso un grande calderone di ferro posto sopra il fuoco che ribolle lentamente. Un PG che voglia utilizzare il laboratorio può effettuare un Tiro Incantesimo per creare una pozione magica o un veleno dalla tabella delle Scorte.</p><ul><li><p><strong>Qualsiasi fallimento:</strong> L’esperimento esplode letteralmente in faccia al PG, che subisce <strong>2d10+2</strong> danni magici.</p></li><li><p><strong>In caso di successo:</strong> Il PG lancia un numero di d12 pari a 1 + il proprio rango, somma i risultati e ottiene la scorta corrispondente a quel valore nella tabella delle Scorte. Se ottiene un Successo Critico, può rilanciare qualsiasi d12 che mostri un risultato pari a 1.</p></li></ul><section id=\"secret-hqZsOVuaBLkBtNfE\" class=\"secret\"><p><em>In quali tipi di intrugli è specializzata la strega proprietaria del rifugio? Cosa farebbe la strega se scoprisse i PG a usare le sue cose?</em></p></section>",
+          "actions": {
+            "Mln9yYYOi5mgvgr9": {
+              "name": "",
+              "description": ""
+            }
+          }
+        },
+        "pboCL4a49bWsrxLD": {
+          "name": "Dislocazione",
+          "description": "<p>Il tempo scorre in modo diverso all’interno del Rifugio della Strega. Quando la porta del rifugio è chiusa, tirate un <strong>d6</strong>. Con un risultato pari o superiore a 4, il rifugio si sposta in una posizione diversa — spesso incredibilmente lontana — che viene svelata ai PG solo quando riaprono la porta.</p><section id=\"secret-jtpKo8ZEjpN47XcJ\" class=\"secret\"><p><em>Perché il rifugio si sposta così spesso? Dove vuole portare i PG? C’è un modo per indirizzarlo verso un luogo specifico?</em></p></section>",
+          "actions": {
+            "gCmwtury4k16cjhP": {
+              "name": "",
+              "description": ""
+            }
+          }
         }
       }
     }

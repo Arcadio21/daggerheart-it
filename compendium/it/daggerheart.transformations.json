@@ -1,0 +1,146 @@
+{
+  "label": "Trasformazioni",
+  "mapping": {
+    "description": "system.description",
+    "questions": "system.questions",
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "actions": {
+      "path": "system.actions",
+      "converter": "actions"
+    }
+  },
+  "folders": {
+    "Transformation Features": "Privilegi delle Trasformazioni"
+  },
+  "entries": {
+    "Change Shape": {
+      "name": "Cambiare Forma",
+      "description": "<p>Durante un riposo, potete usare una mossa di Interludio per sostituire la vostra origine attuale con un’altra. Quando lo fate, descrivete come cambia il vostro aspetto.</p>"
+    },
+    "Corpse": {
+      "name": "Cadavere",
+      "description": "<p>Durante un riposo, potete curare i Punti Ferita solo avendo accesso ai resti di una creatura recentemente deceduta. Descrivete come vi servite di questi resti per preservare il vostro cadavere.</p>"
+    },
+    "Demigod": {
+      "name": "Semidio",
+      "description": "<p>I semidei sono creature mortali nelle cui vene scorre il sangue degli dèi. In genere ottengono il loro potere grazie alla discendenza divina, compiendo un’impresa incredibile o ricevendo un dono da una divinità. Molti semidei hanno l’aspetto di un tipico membro della loro origine mortale, ma tutti possiedono una sottile luminosità e un luccichio negli occhi. Sono noti anche per la pelle dai toni perlacei o metallici e potrebbero aumentare di statura o acquisire caratteristiche fisiche legate al loro potere quando questo si svela. Poiché condividono il sangue di una Fioca Divinità, di un Dio Dimenticato, di un Nuovo Dio o di qualsiasi altra divinità, non esistono due semidei uguali.</p><p>Ai semidei viene concesso un frammento di potere divino, ma non tutto ciò che un semidio eredita è una benedizione. Sebbene spesso eccellano nei compiti in cui sono versati, le aspettative che gravano sulle loro spalle sono spesso difficili da soddisfare.</p>",
+      "questions": "<ul><li><p>La tua divinità ha influenzato un tratto del tuo aspetto fisico. In che modo si mostra questa diversità?</p></li><li><p>Chi ti ha conferito lo status semidivino e quale prova hai superato per guadagnarti questo dono?</p></li><li><p>Durante la tua infanzia subivi prese in giro per la tua discendenza divina. Perché?</p></li><li><p>Perché ti è stata nascosta per molti anni la tua natura semidivina? Chi ha mantenuto questo segreto?</p></li><li><p>Hai un obbligo che devi adempiere a causa del sangue immortale che scorre nelle tue vene. Qual è questo dovere?</p></li><li><p>In che modo si è manifestata inizialmente la tua divinità? Perché ti ha sorpreso?</p></li></ul>"
+    },
+    "Ephemeral": {
+      "name": "Effimero",
+      "description": "<p>Il vostro corpo oscilla tra il mondo materiale e quello immateriale. Siete resistenti al danno fisico, subite il doppio del danno magico e potete <strong>marcare 2 Stress</strong> per oltrepassare momentaneamente un oggetto solido.</p>",
+      "actions": {
+        "pBliCoFhJ1tpOfFN": {
+          "name": "Marcare 1 Stress",
+          "description": "<p><strong>Marcate 2 Stress</strong> per oltrepassare momentaneamente un oggetto solido.</p>"
+        }
+      },
+      "effects": {
+        "4G5m6sQQ3npqoK77": {
+          "name": "Effimero",
+          "description": "<p>Il vostro corpo oscilla tra il mondo materiale e quello immateriale. Siete resistenti al danno fisico e subite il doppio del danno magico.</p>"
+        }
+      }
+    },
+    "Fangs": {
+      "name": "Canini",
+      "description": "<p>Effettuate un attacco utilizzando un tratto a scelta per mordere un bersaglio entro distanza di Mischia. In caso di successo, infliggete <strong>d6</strong> danni fisici utilizzando la vostra Competenza.</p>",
+      "actions": {
+        "7kgzg2tHOozuendx": {
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "Feed": {
+      "name": "Nutrirsi",
+      "description": "<p>In caso di attacco con i “Canini” riuscito contro una creatura in grado di sanguinare, potete <strong>marcare uno Stress</strong> per nutrirvi. Posizionate su questa carta un numero di gettoni pari al numero di Punti Ferita persi dal bersaglio. Potete accumulare fino a un massimo di 6 gettoni. Prima di effettuare un tiro azione, potete spendere un gettone per trasformare il vostro Dado Paura in un <strong>d20</strong>. Quando effettuate un Riposo lungo, rimuovete un gettone. Quando non ci sono gettoni su questa carta, effettuate i tiri azione e reazione con svantaggio.</p>",
+      "actions": {
+        "aIjaPMtGneklpOgS": {
+          "name": "Marcare 1 Stress",
+          "description": "<p>In caso di attacco con i “Canini” riuscito contro una creatura in grado di sanguinare, potete <strong>marcare uno Stress</strong> per nutrirvi. Posizionate su questa carta un numero di gettoni pari al numero di Punti Ferita persi dal bersaglio.</p>"
+        }
+      }
+    },
+    "Ghost": {
+      "name": "Fantasma",
+      "description": "<p>I fantasmi sono gli spiriti di coloro che un tempo erano vivi ma che restano legati al Regno dei Mortali. Possono essere evocati attraverso il velo della morte tramite riti necromantici, esperimenti alchemici o la disperazione di una persona cara; oppure, potrebbero non averne mai varcato la soglia. Coloro che hanno fatto una fine orribile, sono stati uccisi con un’arma maledetta o sono morti in un luogo di potere potrebbero essere rimasti intrappolati nel Regno dei Mortali invece di raggiungere l’aldilà.</p><p>Poiché sono intrappolati tra la vita e la morte, i fantasmi possono passare dalla forma fisica a quella spettrale e, a volte, oltrepassare oggetti solidi. Mentre alcuni fantasmi sono quasi indistinguibili dai vivi, altri emanano aure spettrali, appaiono come sbiaditi o recano ancora le ferite che hanno causato la loro morte. Quando un fantasma diventa incorporeo — cosa che può avvenire a piacimento, a causa di emozioni intense o in maniera apparentemente casuale — può assumere un aspetto semitraslucido, come un soffio di nebbia che potrebbe dissolversi nel vento da un momento all’altro.</p><p>Alcuni fantasmi tornano per vendicarsi, altri per salvare una persona cara, altri ancora per raggiungere un obiettivo o scoprire informazioni perdute. La loro determinazione a raggiungere tale obiettivo è ciò che permette loro di esistere nel Regno dei Mortali. Una volta raggiunto, il loro destino è compiuto e varcano immediatamente il velo della morte.</p>",
+      "questions": "<ul><li><p>Come hai trovato la morte e quale paura ti ha instillato il trapasso?</p></li><li><p>Cosa ti ha riportato indietro?</p></li><li><p>In vita, amavi profondamente qualcuno. Perché hai bisogno di ritrovare questa persona?</p></li><li><p>Cosa devi realizzare ora che sei tornato nel Regno dei Mortali? Come raggiungerai il tuo obiettivo?</p></li><li><p>Chi ti ha fatto del male nella tua prima vita? Come pensi di comportarti con loro ora?</p></li><li><p>Hai dovuto sacrificare qualcosa che ti era caro per poter tornare nel Regno dei Mortali. A cosa hai rinunciato e a chi l’hai dato?</p></li></ul>"
+    },
+    "Gifted": {
+      "name": "Benedetto",
+      "description": "<p>Ottenete un bonus di +1 ai tiri azione, alle reazioni e ai tiri di danno.</p>",
+      "effects": {
+        "W38biQnO2uyIhRny": {
+          "name": "Benedetto",
+          "description": "<p>Ottenete un bonus di +1 ai tiri azione, alle reazioni e ai tiri di danno.</p>"
+        }
+      }
+    },
+    "Howling Rampage": {
+      "name": "Furia Ululante",
+      "description": "<p>Quando marcate l’ultimo Stress mentre siete in Forma di Lupo, entrate in una fase di furia belluina. Tirate un numero di <strong>d20</strong> pari al vostro rango e infliggete quell’ammontare di danno fisico a tutte le creature entro distanza Prossima, poi uscite dalla Forma di Lupo.</p>",
+      "actions": {
+        "aDvVychT2u6QD8xw": {
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "Only Skin Deep": {
+      "name": "Solo una Maschera",
+      "description": "<p>Ottenete il beneficio di un solo privilegio tra i due associati all’origine selezionata. Potete utilizzare una Mossa di Interludio per scegliere un altro privilegio di quell’origine.</p>"
+    },
+    "Reanimated": {
+      "name": "Rianimato",
+      "description": "<p>I rianimati sono cadaveri che sono stati riportati in vita. Che sia tramite un incantesimo, un rituale sacro, esperimenti arcani o altri metodi innaturali, questi mortali sono tornati dall’aldilà come non-morti e sono legati ai loro corpi in decomposizione. Coloro che sono stati rianimati di recente tendono ad assomigliare di più a un tipico membro della loro origine, ma col passare del tempo devono rattoppare e riparare i propri corpi con ossa, carne e trapianti da persone decedute di recente. Mentre alcuni riparano le proprie ferite e il proprio decadimento con ago, filo ed erbe, altri usano la magia per assorbire tessuti, arti e organi.</p><p>Molte storie sui rianimati li descrivono come dotati di una maggiore resistenza o, in alcuni casi, di immunità al dolore. Ciò può essere vero per alcuni, ma molti provano un’agonia prolungata — che sia per gli echi fisici della propria morte, per il disagio di muovere un corpo in decomposizione, per la difficoltà nel controllare le parti amalgamate o per l’angoscia di essere strappati con la forza dalla morte e riportati a una seconda vita.</p>",
+      "questions": "<ul><li><p>Come hai incontrato la morte la prima volta e in che modo ha influenzato la tua visione dell’esistenza?</p></li><li><p>Un frammento di memoria della tua prima vita ti perseguita. Qual è questo ricordo e perché pensi che sia importante?</p></li><li><p>Avevi un sogno per la tua vita che ora credi di non poter mai realizzare. Qual era il tuo sogno e perché pensi che essere rianimato lo renda impossibile?</p></li><li><p>Come sei stato riportato in vita e in che modo questo processo ha cambiato il tuo corpo?</p></li><li><p>Qualcuno ti ha riportato in vita. Chi era questa persona, cosa provi nei suoi confronti per ciò che ti ha fatto?</p></li><li><p>Nel breve tempo in cui hai oltrepassato il velo della morte, hai visto qualcosa che ti ha cambiato per sempre. Che cos’era?</p></li></ul>"
+    },
+    "Shapeshifter": {
+      "name": "Mutaforma",
+      "description": "<p>I mutaforma sono creature in grado di cambiare la propria forma fisica. Che siano nati con questa abilità, l’abbiano acquisita grazie alla magia o a una maledizione, oppure abbiano ricevuto questo potere da un’entità ultraterrena, i mutaforma hanno un rapporto unico con la propria identità. Poiché possono assumere qualsiasi aspetto — un attimo prima quello di una piccola e agile fata, un momento dopo di un grande e robusto galapa — la loro percezione del mondo esterno varia notevolmente di giorno in giorno.</p><p>Sebbene un mutaforma sia in genere indistinguibile da un membro normale di un altro popolo, ognuno possiede una caratteristica che non cambia indipendentemente dalla forma assunta, come ad esempio gli occhi, oppure l’incarnato, o una voglia distintiva. Inoltre, non può imitare l’aspetto di una persona specifica, poiché il mutaforma diventa una versione diversa di sé in un nuovo corpo.</p><p>Assumere una nuova forma non permette di possedere o utilizzarne immediatamente tutte le caratteristiche: devono concentrare i propri sforzi sulle capacità che desiderano maggiormente utilizzare. I mutaforma potrebbero aver bisogno di tempo per imparare a manovrare un nuovo corpo, il che a volte porta a un aspetto o a un comportamento insolito finché non si abituano alle nuove fattezze.</p>",
+      "questions": "<ul><li><p>Credi di avere una “forma vera”, ma non l’hai mai vista. Quale pensi che sia e come fai a sapere che esiste?</p></li><li><p>Quale stratagemma hai messo a punto per identificare altri mutaforma?</p></li><li><p>Una persona che amavi profondamente ti ha abbandonato quando ha scoperto le tue capacità di mutazione. Chi era e cosa è successo?</p></li><li><p>Qual è una forma che hai giurato di non assumere mai e perché?</p></li><li><p>Quale origine che hai impersonato ti rappresenta più di altre? Perché trascorri così tanto tempo in quella forma?</p></li><li><p>Qualcuno che conosci è sempre in grado di riconoscerti all’istante, indipendentemente dalla tua forma. Come spiega come ti scopre ogni volta, e cosa significa per te questa sua capacità?</p></li></ul>"
+    },
+    "Unfinished Business": {
+      "name": "Qualcosa in Sospeso",
+      "description": "<p>Concordate con il GM quale scopo o desiderio vi trattiene nel Regno dei Mortali. Quando lo realizzate, attraversate il velo della morte.</p>"
+    },
+    "Vampire": {
+      "name": "Vampiro",
+      "description": "<p>I vampiri sono creature non morte dotate di zanne affilate che si nutrono del sangue dei vivi. Non nascono, ma vengono creati: generati da un altro vampiro tramite un morso e uno scambio di sangue, trasformati attraverso un rituale occulto o mutati con altri metodi misteriosi. Poiché coloro che diventano vampiri muoiono e tornano in vita come entità soprannaturali, devono consumare il sangue — l’essenza vitale — degli altri per sopravvivere.</p><p>A prima vista, molti vampiri sono indistinguibili dai tipici membri della loro origine. Al di là delle zanne rivelatrici, il loro vampirismo può manifestarsi in una miriade di modi, sia sottili sia evidenti, con caratteristiche quali la pelle giallastra, le vene visibili, gli occhi che brillano al buio o, in alcuni casi, una bellezza accentuata. A seconda della natura della loro origine vampirica, gli individui possono smettere di invecchiare al momento della trasformazione e rimanere attivi e potenti molto tempo dopo che i loro coetanei hanno ceduto alle devastazioni del tempo. Indipendentemente dal loro aspetto, tutti i vampiri possiedono abilità potenziate capaci di condurre a una fine terrificante le loro vittime.</p>",
+      "questions": "<ul><li><p>Chi hai dovuto lasciarti alle spalle quando sei diventato un vampiro, e perché è stato così difficile lasciar andare questa persona?</p></li><li><p>Una volta hai ucciso un innocente per il suo sangue. Quale sua caratteristica ritrovi maggiormente negli altri?</p></li><li><p>A cosa ti rende particolarmente vulnerabile il tuo vampirismo?</p></li><li><p>Chi sei riuscito a salvare usando il tuo potere vampirico? Cosa è successo e cosa provano ora nei tuoi confronti?</p></li><li><p>In che modo la tua sete di sangue ti cambia?</p></li><li><p>Il vampiro che ti ha generato ha ancora un ascendente su di te. Come si chiama e cosa vuole che tu faccia per i suoi scopi?</p></li></ul>"
+    },
+    "Weight of Divinity": {
+      "name": "Fardello della Divinità",
+      "description": "<p>Quando fallite un tiro, marcate uno Stress oppure il GM ottiene una Paura.</p>"
+    },
+    "Werewolf": {
+      "name": "Licantropo",
+      "description": "<p>I licantropi sono creature che si trasformano in grandi lupi di natura magica. Mentre alcuni nascono già come licantropi, altri subiscono questa trasformazione a causa di una maledizione, di un’infezione trasmessa dal morso di un altro licantropo o di un’altra causa innaturale. I licantropi hanno l’aspetto tipico della loro origine finché non si trasformano, momento in cui assumono le sembianze di un massiccio lupo ultraterreno. Alcuni potrebbero persino assumere una forma che è una fusione tra la loro origine e la fisionomia di un lupo. I racconti narrano di lupi mannari che si trasformano al volgere delle fasi lunari, anche se l’esperienza individuale di questa trasformazione varia a seconda della sua causa.</p><p>I licantropi spesso faticano a controllare l’istinto del cacciatore e la loro violenza mentre sono in forma di lupo, e devono esercitare un’immensa autodisciplina, impiegare una notevole quantità di energia, oppure ricorrere alla fuga o all’isolamento per evitare di fare del male ai propri cari. Più lunga è l’esperienza del licantropo con la sua condizione, più è probabile che abbia sviluppato metodi per controllarsi.</p>",
+      "questions": "<ul><li><p>Qualcuno ti sta dando la caccia. Chi è e perché ti vuole morto?</p></li><li><p>Di cosa avevi paura prima di diventare un licantropo e in che modo il tuo nuovo potere ha cambiato quella paura?</p></li><li><p>Percepisci la tua forma di lupo nella tua mente come se fosse un’altra entità. Quale menzogna ti racconta su di te e perché stai cominciando a crederci?</p></li><li><p>Hai ucciso una persona cara durante la tua furia belluina. Come è successo?</p></li><li><p>Chi ti ha maledetto trasformandoti in licantropo?</p></li><li><p>Una volta ti è stato chiesto di unirti a un branco di altri licantropi. Come hai risposto?</p></li></ul>"
+    },
+    "Wolf Form": {
+      "name": "Forma di Lupo",
+      "description": "<p>Quando subite 1 o più Punti Ferita, potete <strong>marcare uno Stress</strong> per assumere la Forma di Lupo. Mentre siete in questa forma, ottenete un bonus di <strong>1d10</strong> ai tiri attacco e ai tiri di danno. Quando tirate con Speranza mentre siete in Forma di Lupo, dovete anche marcare uno Stress. La Forma di Lupo dura finché non entrate in “Furia Ululante” o non riposate.</p>",
+      "actions": {
+        "zWtTSU2L4I0nFmKb": {
+          "name": "Marcare 1 Stress",
+          "description": ""
+        }
+      },
+      "effects": {
+        "G58SsLg2kER9qcNv": {
+          "name": "Forma di Lupo",
+          "description": "<p>Mentre siete in questa forma, ottenete un bonus di <strong>1d10</strong> ai tiri attacco e ai tiri di danno. Quando tirate con Speranza mentre siete in Forma di Lupo, dovete anche marcare uno Stress. La Forma di Lupo dura finché non entrate in “Furia Ululante” o non riposate.</p>"
+        }
+      }
+    },
+    "Won't Stay Dead": {
+      "name": "Rifiutare la Tomba",
+      "description": "<p>Quando scegliete la mossa finale Rischiare Tutto e fallite, potete <strong>perdere permanentemente un Punto Ferita</strong> per avere invece successo. Quando lo fate, utilizzate normalmente il valore del Dado Speranza per recuperare Punti Ferita e Stress. Quando l’ultimo Punto Ferita viene cancellato permanentemente, oltrepassate il velo della morte.</p>"
+    }
+  }
+}

@@ -2,25 +2,6 @@
   "label": "Classi",
   "mapping": {
     "description": "system.description",
-    "mapping": {
-      "description": "system.description",
-      "backgroundQuestions": {
-        "path": "system.backgroundQuestions",
-        "converter": "backgroundQuestions"
-      },
-      "connections": {
-        "path": "system.connections",
-        "converter": "connections"
-      },
-      "effects": {
-        "path": "effects",
-        "converter": "effects"
-      },
-      "actions": {
-        "path": "system.actions",
-        "converter": "actions"
-      }
-    },
     "effects": {
       "path": "effects",
       "converter": "effects"
@@ -28,6 +9,14 @@
     "actions": {
       "path": "system.actions",
       "converter": "actions"
+    },
+    "backgroundQuestions": {
+      "path": "system.backgroundQuestions",
+      "converter": "backgroundQuestions"
+    },
+    "connections": {
+      "path": "system.connections",
+      "converter": "connections"
     }
   },
   "folders": {
@@ -42,9 +31,51 @@
     "Sorcerer": "Stregone",
     "Standard Take": "Oggetti Iniziali",
     "Warrior": "Guerriero",
-    "Wizard": "Mago"
+    "Wizard": "Mago",
+    "Assassin": "Assassino",
+    "Brawler": "Lottatore",
+    "Warlock": "Warlock",
+    "Witch": "Strega"
   },
   "entries": {
+    "50ft of Rope": {
+      "name": "15 Metri di Corda",
+      "description": ""
+    },
+    "A Romance Novel": {
+      "name": "Romanzo Sentimentale",
+      "description": ""
+    },
+    "A Sharpening Stone": {
+      "name": "Pietra per Affilare",
+      "description": ""
+    },
+    "A small, harmless pet": {
+      "name": "Piccolo cucciolo innocuo",
+      "description": ""
+    },
+    "Arcane Sense": {
+      "name": "Percezione Arcana",
+      "description": "<p>Potete percepire la presenza di persone che possiedono il dono della magia e di oggetti incantati a distanza Ravvicinata.</p>"
+    },
+    "Assassin": {
+      "name": "Assassino",
+      "description": "<p>Gli assassini sono maestri nell’infliggere ferite letali con colpi precisi. A differenza di coloro che usano la violenza solo come mezzo per raggiungere un fine, gli assassini considerano la morte come una vocazione. Molti membri di questa classe ritengono che il loro sia un mestiere di valore, se non addirittura sacro, e alcuni entrano a far parte di gilde per affinare la propria arte, sviluppare un’etica personale e guadagnare denaro. Persone di ogni estrazione sociale assumono gli assassini per le loro abilità: potenti sovrani che cercano di evitare una guerra totale, grandi mercanti che mirano a eliminare la concorrenza e persino persone comuni che sperano di regolare un conto in sospeso. Spesso, un assassino rappresenta l’ultima risorsa per uccidere chi in precedenza si credeva fosse irraggiungibile. Mentre alcuni di questi professionisti letali sono disposti a distruggere, per le ragioni giuste o per il giusto prezzo, chiunque si trovi sul loro cammino, altri seguono rigidi codici morali o regole personali per definire chi sia un bersaglio legittimo: e chi finisce in questa categoria deve considerarsi già morto.</p>",
+      "backgroundQuestions": [
+        "Una volta avete ucciso una persona a voi cara. Cosa è successo e in che modo questo vi ha cambiato?",
+        "Quale organizzazione vi ha addestrato all’arte dell’assassinio e come ne siete diventati membri?",
+        "Nel corso della vostra carriera, c’è un obiettivo che vi è sfuggito. Di chi si tratta e come ha fatto a sfuggirvi?"
+      ],
+      "connections": [
+        "Ho ucciso qualcuno per te. Chi era?",
+        "Come mi hai salvato quando stavo per morire? Cosa ti ho promesso in cambio?",
+        "Quale mio segreto ti ho rivelato e in che modo ha cambiato l’opinione che avevi di me?"
+      ]
+    },
+    "Attack Of Opportunity": {
+      "name": "Attacco di Opportunità",
+      "description": "<p>Se un avversario entro distanza di Mischia tenta di uscirne, effettuate un tiro di reazione usando un tratto a vostra scelta contro la sua Difficoltà. Scegliete un effetto in caso di successo, o due in caso di successo critico:</p><ul><li><p>Non può spostarsi da dove si trova.</p></li><li><p>Subisce un danno pari al danno della vostra arma primaria.</p></li><li><p>Vi muovete con loro.</p></li></ul>"
+    },
     "Bard": {
       "name": "Bardo",
       "description": "<p>I bardi sono le figure più carismatiche di tutti i reami. I membri di questa classe sono maestri nell’attirare l’attenzione e si specializzano in diversi tipi di esibizione, tra cui cantare, suonare strumenti musicali, tessere storie o raccontare barzellette. Sia che si esibiscano per un pubblico o che si rivolgano a un singolo interlocutore, i bardi danno il meglio nelle situazioni sociali. I membri di questa professione si legano e si addestrano in scuole o gilde, ma possono anche essere soggetti all’egocentrismo. Sebbene siano la classe più adatta a riunire le persone, un bardo di cattivo umore può altrettanto facilmente distruggere una festa.</p>",
@@ -59,125 +90,9 @@
         "Avete sempre ammirato un altro bardo. Chi è e perché lo idolatrate?"
       ]
     },
-    "Druid": {
-      "name": "Druido",
-      "description": "<p>Diventare un druido è più di un’occupazione: è una chiamata per coloro che desiderano imparare e proteggere la magia della natura incontaminata. Mentre si potrebbe sottovalutare un druido gentile che in silenzio si prende cura della vegetazione, i druidi che incanalano le forze indomite della natura sono terrificanti a vedersi. I druidi coltivano le loro abilità in piccoli gruppi, spesso legati da un’etica o da un luogo specifico, ma alcuni scelgono di lavorare da soli. Attraverso anni di studio e dedizione, i druidi possono imparare a trasformarsi in bestie e a plasmare la natura stessa.</p>",
-      "connections": [
-        "Cosa mi hai confidato che mi fa correre ogni volta dei rischi per te?",
-        "Quale animale ti ho detto che mi ricordi?",
-        "Quale soprannome affettuoso mi hai dato?"
-      ],
-      "backgroundQuestions": [
-        "Perché la comunità in cui siete cresciuti era così legata alla natura e alle sue creature?",
-        "Quale è stato il primo animale selvatico con cui avete stretto amicizia? Perché il vostro legame è finito?",
-        "Chi ha cercato di darvi la caccia? Cosa vogliono da voi?"
-      ]
-    },
-    "Guardian": {
-      "name": "Guardiano",
-      "description": "<p>Il titolo di guardiano comprende una serie di professioni marziali che si riferiscono più alla loro bussola morale e all’incrollabile forza d’animo che ai mezzi con cui combattono. Sebbene molti guardiani si uniscano a gruppi militanti per un paese o una causa, è più probabile che seguano quei pochi a cui tengono veramente, senza curarsi degli altri. I guardiani sono famosi per ingaggiare battaglia senza quartiere anche quando le probabilità sono sfavorevoli, difendendo i loro protetti sopra ogni altra cosa. Guai a chi fa del male all’alleato di un guardiano, perché quest’ultimo risponderà con altrettanta forza.</p>",
-      "connections": [
-        "Come ti ho salvato la vita la prima volta che ci siamo incontrati?",
-        "Quale piccolo regalo mi hai fatto e hai notato che lo porto sempre con me?",
-        "Quale bugia mi hai raccontato su di te, a cui ho assolutamente creduto?"
-      ],
-      "backgroundQuestions": [
-        "Chi della vostra comunità non siete riusciti a proteggere e perché pensate ancora a loro?",
-        "Siete stati incaricati di proteggere qualcosa di importante e di consegnarlo in un luogo pericoloso. Che cos’è e dove dovete portarlo?",
-        "Considerate un aspetto di voi stessi come una debolezza. Di cosa si tratta e come vi ha influenzato?"
-      ]
-    },
-    "Ranger": {
-      "name": "Ranger",
-      "description": "<p>I ranger sono cacciatori altamente qualificati che, nonostante le loro abilità marziali, raramente prestano le loro capacità a un esercito. Grazie alla padronanza del corpo e alla profonda conoscenza della natura selvaggia, i ranger diventano astuti tattici, che inseguono le loro prede con intuito e pazienza. Molti ranger conducono battute di caccia e combattono al fianco di un compagno animale con il quale hanno stretto un potente legame spirituale. Affinando le loro abilità nelle terre selvagge, i ranger diventano esperti inseguitori, tanto propensi a intrappolare i loro nemici quanto ad assalirli frontalmente.</p>",
-      "connections": [
-        "Quale competizione amichevole c’è fra noi?",
-        "Perché ti comporti in modo diverso quando siamo soli rispetto a quando ci sono altri?",
-        "Quale minaccia mi hai chiesto di tenere d’occhio e perché sei preoccupato?"
-      ],
-      "backgroundQuestions": [
-        "Una terribile creatura ha ferito la vostra comunità e avete giurato di darle la caccia. Che creatura è e quali tracce o segni particolari lascia dietro di sé",
-        "La prima creatura che avete abbattuto ha quasi ucciso anche voi. Che cosa è stato e quale parte di voi non è più stata la stessa dopo quell’evento?",
-        "Avete viaggiato in molte terre pericolose, ma qual è il posto in cui vi rifiutate di andare?"
-      ]
-    },
-    "Rogue": {
-      "name": "Fuorilegge",
-      "description": "<p>I fuorilegge sono furfanti, spesso sia nell’atteggiamento che nello stile di vita. Conosciuti in generale come bugiardi e criminali, i migliori di questa classe si muovono nel mondo in modo anonimo, senza lasciare tracce. Utilizzando il loro ingegno e le loro lame affilate, i fuorilegge ingannano i loro nemici attraverso la manipolazione sociale con la stessa facilità con cui scassinano serrature, si arrampicano attraverso le finestre o infliggono colpi subdoli. Questi maestri della magia manipolano l’ombra e il movimento, aggiungendo al loro repertorio una serie di strumenti utili e letali. I fuorilegge fondano spesso delle gilde per incontrare futuri complici, trovare incarichi e affinare abilità segrete, dimostrando che c’è onore tra i ladri per coloro che sanno dove cercare.</p>",
-      "connections": [
-        "Cosa ti ho convinto a fare di recente che ci ha messo entrambi nei guai?",
-        "Cosa ho scoperto del tuo passato che tengo nascosto agli altri?",
-        "Chi conosci del mio passato e come ha influenzato i tuoi sentimenti nei miei confronti?"
-      ],
-      "backgroundQuestions": [
-        "Cosa hai fatto per essere esiliato dalla tua comunità?",
-        "Avevi una vita diversa, ma hai cercato di lasciartela alle spalle. Chi del tuo passato ti sta ancora inseguendo?",
-        "A chi hai detto addio con più dispiacere?"
-      ]
-    },
-    "Seraph": {
-      "name": "Consacrato",
-      "description": "<p>I consacrati sono combattenti e guaritori divini, dotati di uno scopo sacro. Nei regni esistono molte divinità, che fungono da patrono per diversi ordini di consacrati. La loro etica si allinea tradizionalmente con il dominio o gli obiettivi di tale dio, come la difesa dei deboli, la vendetta, la protezione di una terra o di un artefatto o la difesa di una particolare fede. Alcuni consacrati si alleano con un esercito o un regno, con grande soddisfazione dei loro governanti, ma altri crociati combattono in opposizione alle follie di dominio del Regno Mortale. È meglio essere alleati di un consacrato che suoi avversari, poiché sono nemici terrificanti per coloro che si oppongono al loro credo.</p>",
-      "connections": [
-        "Quale promessa mi hai fatto accettare, se tu dovessi morire sul campo di battaglia?",
-        "Perché mi fai tante domande sulla mia divinità?",
-        " Mi hai detto di proteggere un membro del nostro gruppo più di tutti gli altri, anche di te stesso. Chi è e perché me lo hai chiesto?"
-      ],
-      "backgroundQuestions": [
-        "A quale divinità vi siete votati? Quale incredibile miracolo ha compiuto per voi in un momento di disperazione?",
-        "Come è cambiato il vostro aspetto dopo il vostro giuramento sacro?",
-        " In quale modo strano o unico comunicate con la vostra divinità?"
-      ]
-    },
-    "Sorcerer": {
-      "name": "Stregone",
-      "description": "<p>Non tutti gli utilizzatori di magia innata scelgono di affinare il loro dono, ma quelli che lo fanno possono diventare potenti stregoni. I doni di questi stregoni vengono tramandati attraverso le generazioni, anche se la famiglia non ne è consapevole o è riluttante a metterli in pratica. Le abilità di uno stregone possono spaziare dal dominio sugli elementi alla creazione di realistiche illusioni e altro ancora, e molti praticanti si riuniscono in confraternite basate sui loro talenti. Il percorso che porta a diventare un formidabile stregone non consiste nell’acquisire altro potere, ma nell’imparare a coltivare e controllare il potere che già si possiede. La magia di uno stregone mal consigliato o indisciplinato è una forza davvero pericolosa.</p>",
-      "connections": [
-        "Perché ti fidi così tanto di me?",
-        "Cosa ho fatto che ti rende cauto verso di me?",
-        "Perché teniamo segreto il nostro passato comune?"
-      ],
-      "backgroundQuestions": [
-        "Cosa avete fatto che ha reso le persone della vostra comunità diffidenti nei vostri confronti?",
-        "Quale mentore vi ha insegnato a controllare la vostra magia indomita e perché non è più in grado di guidarvi?",
-        "Avete una paura profonda che nascondete a tutti. Di cosa si tratta e perché vi spaventa?"
-      ]
-    },
-    "Warrior": {
-      "name": "Guerriero",
-      "description": "<p>Diventare un guerriero richiede anni, spesso una vita intera, di allenamento e dedizione all’esercizio delle armi e della violenza. Mentre molti di coloro che combattono pensano solo alla forza bruta, i guerrieri comprendono l’importanza di un corpo e di una mente agili, il che li rende alcuni dei combattenti più ricercati in tutti i regni. Spesso i guerrieri trovano impiego in un esercito, in una banda di mercenari o persino nella guardia reale, ma il loro potenziale è sprecato in qualsiasi posizione in cui non possano continuare a migliorare ed espandere le proprie capacità. Si sa che i guerrieri hanno un’arma preferita; mettersi tra loro e la loro lama è sempre un grave errore.</p>",
-      "connections": [
-        "Ci conoscevamo da molto prima che questo gruppo si riunisse. Come?",
-        "In quale compito o attività mi aiuti fuori dal campo di battaglia?",
-        "Quale paura ti sto aiutando a superare?"
-      ],
-      "backgroundQuestions": [
-        "Chi vi ha insegnato a combattere e perché è rimasto indietro quando avete lasciato la vostra casa?",
-        "SQualcuno vi ha sconfitto in battaglia anni fa e vi ha lasciati a morire. Chi era e come vi ha tradito?",
-        "Quale luogo leggendario avete sempre voluto visitare e perché è così speciale?"
-      ]
-    },
-    "Wizard": {
-      "name": "Mago",
-      "description": "<p>Attraverso un’istituzione o uno studio individuale, i maghi acquisiscono e affinano un immenso potere magico nel corso di anni di apprendimento utilizzando una varietà di strumenti, tra cui libri, pietre, pozioni ed erbe. Alcuni maghi dedicano la loro vita a padroneggiare una particolare scuola di magia, mentre altri imparano da un’ampia varietà di discipline. Molti maghi diventano figure sagge e potenti nelle loro comunità, consigliando i governanti, fornendo rimedi e guarigioni e persino guidando i consigli di guerra. Sebbene questi maghi lavorino tutti per l’obiettivo comune di raccogliere conoscenze magiche, essi sono spesso i più conflittuali al loro interno, poiché l’acquisizione, la conservazione e la condivisione di potenti segreti è un argomento di intenso dibattito che ha causato innumerevoli morti.</p>",
-      "connections": [
-        "Quale favore ti ho chiesto che non sei sicuro di poter soddisfare?",
-        "Quale strano hobby o strano interesse condividiamo?",
-        "Quale segreto hai affidato solo a me?"
-      ],
-      "backgroundQuestions": [
-        "Per quali responsabilità la comunità contava su di voi? In che modo li avete delusi?",
-        "Avete trascorso la vita alla ricerca di un libro o di un oggetto di grande significato. Di cosa si tratta e perché è così importante?",
-        "Avete un potente rivale. Chi è e perché siete così determinati a sconfiggerlo?"
-      ]
-    },
-    "Arcane Sense": {
-      "name": "Percezione Arcana",
-      "description": "<p>Potete percepire la presenza di persone che possiedono il dono della magia e di oggetti incantati a distanza Ravvicinata.</p>"
-    },
-    "Attack Of Opportunity": {
-      "name": "Attacco di Opportunità",
-      "description": "<p>Se un avversario entro distanza di Mischia tenta di uscirne, effettuate un tiro di reazione usando un tratto a vostra scelta contro la sua Difficoltà. Scegliete un effetto in caso di successo, o due in caso di successo critico:</p><ul><li><p>Non può spostarsi da dove si trova.</p></li><li><p>Subisce un danno pari al danno della vostra arma primaria.</p></li><li><p>Vi muovete con loro.</p></li></ul>"
+    "Basic Supplies": {
+      "name": "Provviste di Base",
+      "description": ""
     },
     "Beastform": {
       "name": "Forma Bestiale",
@@ -188,6 +103,36 @@
           "description": "<p><strong>Marcate uno Stress</strong> per trasformarvi magicamente in una creatura del vostro rango o inferiore dall’elenco delle Forme Bestiali.</p>"
         }
       }
+    },
+    "Book about your secret hobby": {
+      "name": "Libro sul vostro hobby segreto",
+      "description": ""
+    },
+    "Brawler": {
+      "name": "Lottatore",
+      "description": "<p>Esperti nel combattimento a mani nude, i lottatori temprano i loro corpi alla stregua di armi letali. Che abbiano appreso le tecniche tramite un addestramento formale, studiato con un mentore o acquisito le loro capacità scontro dopo scontro, il processo è sempre rigoroso, poiché i lottatori sviluppano il corpo e la mente affinché operino all’unisono. Apprezzati per potenza e versatilità, i lottatori si uniscono a un gruppo o a una causa quando ne sentono il bisogno o il desiderio. Poiché il corpo di un lottatore è la sua arma più potente, cerca sempre nuove sfide o compagni di allenamento al proprio livello per mantenersi in esercizio e aggiungere nuove tecniche al repertorio. Sebbene possano sembrare in svantaggio contro nemici armati fino ai denti, i lottatori spesso ottengono risultati migliori a mani nude rispetto a un qualsiasi combattente che brandisce una spada.</p>",
+      "backgroundQuestions": [
+        "In quali luoghi avete trascorso gli anni della vostra formazione grazie ai quali avete imparato, con un maestro o da soli, a combattere nello stile che utilizzate?",
+        "Quale organizzazione ha giurato di uccidervi a vista, e cosa avete fatto per suscitare la loro ira?",
+        "Contro chi avete perso un incontro di recente e contro chi desiderate disperatamente una rivincita?"
+      ],
+      "connections": [
+        "Qual è una cosa di cui entrambi abbiamo paura?",
+        "Per cosa conto su di te durante i nostri viaggi? Come ti senti al riguardo?",
+        "Non ti ho ancora perdonato per una cosa che mi hai detto. Di cosa si trattava e perché l’hai detto?"
+      ]
+    },
+    "Broken Compass": {
+      "name": "Bussola Apparentemente Rotta",
+      "description": ""
+    },
+    "Bundle of Offerings": {
+      "name": "Offerte Votive",
+      "description": ""
+    },
+    "Carving that symbolizes your patron": {
+      "name": "Incisione che simboleggia il vostro patrono",
+      "description": ""
     },
     "Channel Raw Power": {
       "name": "Incanalare il Potere Grezzo",
@@ -212,6 +157,54 @@
           "description": "<p>Ignorate l’impugnatura quando equipaggiate le vostre armi. Quando infliggete danno fisico, ottenete un bonus al tiro per i danni pari al vostro livello.</p>"
         }
       }
+    },
+    "Combo Strike": {
+      "name": "Combinazione di Colpi",
+      "description": "<p>Dopo aver tirato il danno in seguito a un attacco riuscito con un’arma da Mischia, potete <strong>marcare uno Stress</strong> per iniziare una Combinazione di Colpi. Quando lo fate, tirate il vostro Dado Combinazione e annotate il risultato, poi continuate a tirare il Dado Combinazione finché il risultato dell’ultimo tiro non è inferiore a quello del tiro precedente. Infliggete un danno extra pari al totale di tutti i risultati ottenuti con il Dado Combinazione in questo attacco. I risultati non possono essere modificati in alcun modo. Il Dado Combinazione parte come un <strong>d4</strong>. Una volta per rango, potete aumentare il Dado Combinazione di una taglia (d6, d8 e così via) come opzione di avanzamento di rango.</p>",
+      "actions": {
+        "ZRZ0l8WZQdzg656w": {
+          "name": "Marcare 1 Stress",
+          "description": ""
+        }
+      }
+    },
+    "Commune": {
+      "name": "Comunione",
+      "description": "<p>Una volta per riposo lungo, durante un momento di calma, potete entrare in comunione con un antenato, una divinità, uno spirito o un essere ultraterreno. Ponete loro una domanda, poi lanciate un numero di <strong>[[/r d6]]{d6}</strong> pari al vostro tratto da incantatore. Scegliete uno dei risultati e consultate la tabella sottostante per l’effetto.</p><ul><li><p>1–3: Percepite un sapore, un odore o una sensazione attinente alla risposta.</p></li><li><p>4–5: Sentite dei suoni o avete una visione pertinente alla risposta.</p></li><li><p>6: Vivete una esperienza psichica di una scena pertinente alla risposta, come se foste lì.</p></li></ul>",
+      "actions": {
+        "3KkvH8q9Gq7Rp0mT": {
+          "name": "Comunione",
+          "description": ""
+        }
+      }
+    },
+    "Deadly Determination": {
+      "name": "Determinazione Letale",
+      "description": "<p><strong>Spendete 3 Speranze</strong> per rimuovere 2 Stress.</p>",
+      "actions": {
+        "Fa4zqtVtWA1abjHL": {
+          "name": "Spendere 1 Speranza",
+          "description": ""
+        }
+      }
+    },
+    "Drawing Of A Lover": {
+      "name": "Disegno di un Amante",
+      "description": ""
+    },
+    "Druid": {
+      "name": "Druido",
+      "description": "<p>Diventare un druido è più di un’occupazione: è una chiamata per coloro che desiderano imparare e proteggere la magia della natura incontaminata. Mentre si potrebbe sottovalutare un druido gentile che in silenzio si prende cura della vegetazione, i druidi che incanalano le forze indomite della natura sono terrificanti a vedersi. I druidi coltivano le loro abilità in piccoli gruppi, spesso legati da un’etica o da un luogo specifico, ma alcuni scelgono di lavorare da soli. Attraverso anni di studio e dedizione, i druidi possono imparare a trasformarsi in bestie e a plasmare la natura stessa.</p>",
+      "connections": [
+        "Cosa mi hai confidato che mi fa correre ogni volta dei rischi per te?",
+        "Quale animale ti ho detto che mi ricordi?",
+        "Quale soprannome affettuoso mi hai dato?"
+      ],
+      "backgroundQuestions": [
+        "Perché la comunità in cui siete cresciuti era così legata alla natura e alle sue creature?",
+        "Quale è stato il primo animale selvatico con cui avete stretto amicizia? Perché il vostro legame è finito?",
+        "Chi ha cercato di darvi la caccia? Cosa vogliono da voi?"
+      ]
     },
     "Evolution": {
       "name": "Evoluzione",
@@ -249,6 +242,14 @@
         }
       }
     },
+    "Family Heirloom": {
+      "name": "Cimelio di Famiglia",
+      "description": ""
+    },
+    "Favor": {
+      "name": "Favore",
+      "description": "<p>Iniziate con 3 Favori. Potete usare una mossa di interludio per rendere omaggio al patrono: descrivete come lo fate e ottenete Favori pari al vostro tratto da incantatore. Inoltre, quando superate un tiro azione con Speranza, potete scegliere di ottenere un Favore invece di una Speranza.</p>"
+    },
     "Frontline Tank": {
       "name": "Baluardo in Prima Linea",
       "description": "<p><strong>Spendete 3 Speranze</strong> per cancellare 2 Caselle Armatura.</p>",
@@ -256,6 +257,54 @@
         "pRMSzC9XDSKmmLqT": {
           "name": "Spendete 3 Speranze",
           "description": "<p><strong>Spendete 3 Speranze</strong> per cancellare 2 Caselle Armatura.</p>"
+        }
+      }
+    },
+    "Get In & Get Out": {
+      "name": "Entra & Esci",
+      "description": "<p><strong>Spendete una Speranza</strong> per chiedere al GM un modo rapido o discreto per entrare o uscire da un luogo che potete vedere. Il prossimo tiro che effettuate basandovi su questa informazione ha vantaggio.</p>",
+      "actions": {
+        "hJ5WWwwlksMze0iP": {
+          "name": "Spendere 1 Speranza",
+          "description": ""
+        }
+      }
+    },
+    "Grappling Hook": {
+      "name": "Rampino",
+      "description": ""
+    },
+    "Guardian": {
+      "name": "Guardiano",
+      "description": "<p>Il titolo di guardiano comprende una serie di professioni marziali che si riferiscono più alla loro bussola morale e all’incrollabile forza d’animo che ai mezzi con cui combattono. Sebbene molti guardiani si uniscano a gruppi militanti per un paese o una causa, è più probabile che seguano quei pochi a cui tengono veramente, senza curarsi degli altri. I guardiani sono famosi per ingaggiare battaglia senza quartiere anche quando le probabilità sono sfavorevoli, difendendo i loro protetti sopra ogni altra cosa. Guai a chi fa del male all’alleato di un guardiano, perché quest’ultimo risponderà con altrettanta forza.</p>",
+      "connections": [
+        "Come ti ho salvato la vita la prima volta che ci siamo incontrati?",
+        "Quale piccolo regalo mi hai fatto e hai notato che lo porto sempre con me?",
+        "Quale bugia mi hai raccontato su di te, a cui ho assolutamente creduto?"
+      ],
+      "backgroundQuestions": [
+        "Chi della vostra comunità non siete riusciti a proteggere e perché pensate ancora a loro?",
+        "Siete stati incaricati di proteggere qualcosa di importante e di consegnarlo in un luogo pericoloso. Che cos’è e dove dovete portarlo?",
+        "Considerate un aspetto di voi stessi come una debolezza. Di cosa si tratta e come vi ha influenzato?"
+      ]
+    },
+    "Hand wraps from a mentor": {
+      "name": "Bende per mani ricevute da un maestro",
+      "description": ""
+    },
+    "Hex": {
+      "name": "Maledizione",
+      "description": "<p><strong>Marcate uno Stress</strong> per scagliare temporaneamente una Maledizione su un bersaglio entro distanza Lontana. Finché è <em>Maledetto</em>, il bersaglio subisce una penalità ai propri tiri di danno e alla Difficoltà pari al vostro rango. Il numero massimo di creature su cui potete scagliare una <em>Maledizione</em> contemporaneamente è pari al vostro tratto da incantatore.</p>",
+      "actions": {
+        "tkcohPwyQpJ2Qj7G": {
+          "name": "Maledizione",
+          "description": ""
+        }
+      },
+      "effects": {
+        "Pl35ZLKEWDU5nlUj": {
+          "name": "Maledizione",
+          "description": "<p>Finché è <em>Maledetto</em>, il bersaglio subisce una penalità ai propri tiri di danno e alla Difficoltà pari al vostro rango.</p>"
         }
       }
     },
@@ -269,6 +318,20 @@
         }
       }
     },
+    "I Am the Weapon": {
+      "name": "Io Sono la Mia Arma",
+      "description": "<p>I vostri attacchi a mani nude sono potenti quanto qualsiasi lama. Avete un’arma primaria chiamata Colpo del Lottatore equipaggiata finché non equipaggiate altre armi. Il Colpo del Lottatore utilizza un tratto a vostra scelta, ha Portata Mischia e infligge <strong>d8+d6</strong> danni fisici in base alla vostra Competenza (sia il d8 sia il d6 dipendono dalla Competenza). Mentre quest’arma è attiva, ottenete un bonus di +1 alla vostra Evasione.</p>",
+      "effects": {
+        "bGHd7NfUn4fL6u1g": {
+          "name": "Io Sono la Mia Arma",
+          "description": "<p>I vostri attacchi a mani nude sono potenti quanto qualsiasi lama. Avete un’arma primaria chiamata Colpo del Lottatore equipaggiata finché non equipaggiate altre armi. Il Colpo del Lottatore utilizza un tratto a vostra scelta, ha Portata Mischia e infligge <strong>d8+d6</strong> danni fisici in base alla vostra Competenza (sia il d8 sia il d6 dipendono dalla Competenza). Mentre quest’arma è attiva, ottenete un bonus di +1 alla vostra Evasione.</p>"
+        }
+      }
+    },
+    "Letter(Never Opened)": {
+      "name": "Lettera Mai Aperta",
+      "description": ""
+    },
     "Life Support": {
       "name": "Proteggere la Vita",
       "description": "<p><strong>Spendete 3 Speranze</strong> per annullare la perdita di un Punto Ferita di un alleato entro distanza Ravvicinata.</p>",
@@ -278,6 +341,10 @@
           "description": "<p><strong>Spendete 3 Speranze</strong> per annullare la perdita di un Punto Ferita di un alleato entro distanza Ravvicinata.</p>"
         }
       }
+    },
+    "List of names with several marked off": {
+      "name": "Elenco di nomi, molti dei quali cancellati",
+      "description": ""
     },
     "Make a Scene": {
       "name": "Sceneggiata",
@@ -292,6 +359,26 @@
         "T6sfMJ9DRvF0IQZ4": {
           "name": "Spendete 3 Speranze",
           "description": "<p><strong>Spendete 3 Speranze</strong> per Distrarre temporaneamente un bersaglio a distanza Ravvicinata, infliggendogli penalità −2 alla Difficoltà.</p>"
+        }
+      }
+    },
+    "Marked for Death": {
+      "name": "Marchiare a Morte",
+      "description": "<p>Se un attacco con un’arma va a segno, potete <strong>marcare uno Stress</strong> per rendere il bersaglio <em>Marchiato a Morte</em>. Quando infliggete danni a un bersaglio <em>Marchiato a Morte</em>, aggiungete al tiro di danno un numero di <strong>d4</strong> pari al vostro rango. Potete <em>Marchiare a Morte</em> un unico avversario alla volta. Questa condizione dura finché non vi riposate, l’attuale avversario <em>Marchiato a Morte</em> non viene sconfitto o il GM non spende Paura pari al vostro rango per eliminare il marchio.</p>",
+      "actions": {
+        "oMIvhtdhs9xi7juE": {
+          "name": "Marcare 1 Stress",
+          "description": "<p>Se un attacco con un’arma va a segno, potete <strong>marcare uno Stress</strong> per rendere il bersaglio <em>Marchiato a Morte</em>. Quando infliggete danni a un bersaglio <em>Marchiato a Morte</em>, aggiungete al tiro di danno un numero di <strong>d4</strong> pari al vostro rango.</p>"
+        }
+      },
+      "effects": {
+        "JLvo5LKRfs0mMHAj": {
+          "name": "Marchiare a Morte",
+          "description": "<p>Quando infliggete danni a un bersaglio <em>Marchiato a Morte</em>, aggiungete al tiro di danno un numero di <strong>d4</strong> pari al vostro rango. Potete <em>Marchiare a Morte</em> un unico avversario alla volta. Questa condizione dura finché non vi riposate, l’attuale avversario <em>Marchiato a Morte</em> non viene sconfitto o il GM non spende Paura pari al vostro rango per eliminare il marchio.</p>"
+        },
+        "DUy0e3sEGIzSdBWA": {
+          "name": "Marchiare a Morte",
+          "description": "<p>Quando infliggete danni a un bersaglio <em>Marchiato a Morte</em>, aggiungete al tiro di danno un numero di <strong>d4</strong> pari al vostro rango.</p>"
         }
       }
     },
@@ -331,6 +418,26 @@
         }
       }
     },
+    "Patron's Boon": {
+      "name": "Dono del Patrono",
+      "description": "<p>quando fallite un tiro, potete <strong>spendere 3 Speranze</strong> per ripetere il tiro con vantaggio.</p>",
+      "actions": {
+        "zpFHqkrFkUNhB5hB": {
+          "name": "Spendere 1 Speranza",
+          "description": ""
+        }
+      }
+    },
+    "Patron's Pact": {
+      "name": "Patto del Patrono",
+      "description": "<p>Vi siete legati a un’entità soprannaturale — come un dio, una creatura fatata o un demone — in cambio di potere. Scrivetene il nome sulla scheda del personaggio, concordando con il GM la sua sfera di influenza (come Natura, Caos, Saggezza, Malizia, Amore, Guerra, Giustizia o Morte). Prima di effettuare un tiro azione relativo alla sfera di influenza del patrono, potete <strong>spendere un Favore</strong> per invocare il suo aiuto, tirando il Dado del Patrono e aggiungendo il risultato al totale. Il Dado del Patrono parte da un <strong>[[/r d6]]</strong> e aumenta a un <strong>[[/r d8]]</strong> al livello 5.</p>",
+      "actions": {
+        "7RijWCUdHjGQDkJv": {
+          "name": "Tirare i Dadi del Patrono",
+          "description": "<p>Prima di effettuare un tiro azione relativo alla sfera di influenza del patrono, potete <strong>spendere un Favore</strong> per invocare il suo aiuto, tirando il Dado del Patrono e aggiungendo il risultato al totale. Il Dado del Patrono parte da un <strong>[[/r d6]]</strong> e aumenta a un <strong>[[/r d8]]</strong> al livello 5.</p>"
+        }
+      }
+    },
     "Prayer Dice": {
       "name": "Dado Preghiera",
       "description": "<p>All’inizio di ogni sessione, tirate un numero di <strong>d4</strong> pari al tratto da Incantatore della vostra sottoclasse e metteteli sulla scheda del personaggio nell’apposito spazio. Questi sono i vostri Dadi Preghiera. Potete spendere un numero qualsiasi di Dadi Preghiera per aiutare voi stessi o un alleato entro distanza Lontana. Il valore di un dado speso può essere utilizzato per ridurre i danni in arrivo, per aggiungere il risultato a un tiro dopo che è stato effettuato o per guadagnare Speranza pari al risultato. Alla fine di ogni sessione, rimuovete tutti i Dadi Preghiera non spesi.</p>"
@@ -355,6 +462,20 @@
         }
       }
     },
+    "Ranger": {
+      "name": "Ranger",
+      "description": "<p>I ranger sono cacciatori altamente qualificati che, nonostante le loro abilità marziali, raramente prestano le loro capacità a un esercito. Grazie alla padronanza del corpo e alla profonda conoscenza della natura selvaggia, i ranger diventano astuti tattici, che inseguono le loro prede con intuito e pazienza. Molti ranger conducono battute di caccia e combattono al fianco di un compagno animale con il quale hanno stretto un potente legame spirituale. Affinando le loro abilità nelle terre selvagge, i ranger diventano esperti inseguitori, tanto propensi a intrappolare i loro nemici quanto ad assalirli frontalmente.</p>",
+      "connections": [
+        "Quale competizione amichevole c’è fra noi?",
+        "Perché ti comporti in modo diverso quando siamo soli rispetto a quando ci sono altri?",
+        "Quale minaccia mi hai chiesto di tenere d’occhio e perché sei preoccupato?"
+      ],
+      "backgroundQuestions": [
+        "Una terribile creatura ha ferito la vostra comunità e avete giurato di darle la caccia. Che creatura è e quali tracce o segni particolari lascia dietro di sé",
+        "La prima creatura che avete abbattuto ha quasi ucciso anche voi. Che cosa è stato e quale parte di voi non è più stata la stessa dopo quell’evento?",
+        "Avete viaggiato in molte terre pericolose, ma qual è il posto in cui vi rifiutate di andare?"
+      ]
+    },
     "Ranger's Focus": {
       "name": "Focus del Ranger",
       "description": "<p><strong>Spendete una Speranza</strong> ed effettuate un attacco contro un bersaglio. Se l’attacco ha successo, infliggete i normali danni dell’attacco e rendete temporaneamente il bersaglio dell’attacco il vostro Focus. Finché questo privilegio non termina o non scegliete un’altra creatura, ottenete i seguenti benefici contro il Focus: </p><ul><li><p>Sapete esattamente in che direzione si trova.</p></li><li><p>Quando le infliggete danno, deve marcare uno Stress.</p></li><li><p>Quando fallite un attacco contro di essa, potete terminare l’effetto di questo privilegio per rilanciare i Dadi Dualità.</p></li></ul>",
@@ -370,6 +491,24 @@
           "description": "<p><strong>Spendete una Speranza</strong> ed effettuate un attacco contro un bersaglio. Se l’attacco ha successo, infliggete i normali danni dell’attacco e rendete temporaneamente il bersaglio dell’attacco il vostro Focus.</p>"
         }
       }
+    },
+    "Ring you can't remove": {
+      "name": "Anello che non potete sfilare",
+      "description": ""
+    },
+    "Rogue": {
+      "name": "Fuorilegge",
+      "description": "<p>I fuorilegge sono furfanti, spesso sia nell’atteggiamento che nello stile di vita. Conosciuti in generale come bugiardi e criminali, i migliori di questa classe si muovono nel mondo in modo anonimo, senza lasciare tracce. Utilizzando il loro ingegno e le loro lame affilate, i fuorilegge ingannano i loro nemici attraverso la manipolazione sociale con la stessa facilità con cui scassinano serrature, si arrampicano attraverso le finestre o infliggono colpi subdoli. Questi maestri della magia manipolano l’ombra e il movimento, aggiungendo al loro repertorio una serie di strumenti utili e letali. I fuorilegge fondano spesso delle gilde per incontrare futuri complici, trovare incarichi e affinare abilità segrete, dimostrando che c’è onore tra i ladri per coloro che sanno dove cercare.</p>",
+      "connections": [
+        "Cosa ti ho convinto a fare di recente che ci ha messo entrambi nei guai?",
+        "Cosa ho scoperto del tuo passato che tengo nascosto agli altri?",
+        "Chi conosci del mio passato e come ha influenzato i tuoi sentimenti nei miei confronti?"
+      ],
+      "backgroundQuestions": [
+        "Cosa hai fatto per essere esiliato dalla tua comunità?",
+        "Avevi una vita diversa, ma hai cercato di lasciartela alle spalle. Chi del tuo passato ti sta ancora inseguendo?",
+        "A chi hai detto addio con più dispiacere?"
+      ]
     },
     "Rogue's Dodge": {
       "name": "Schivata del Fuorilegge",
@@ -387,6 +526,44 @@
         }
       }
     },
+    "Rusted blade inscribed with an insignia": {
+      "name": "Lama arrugginita con un’iscrizione",
+      "description": ""
+    },
+    "Scrying stone": {
+      "name": "Sfera di cristallo",
+      "description": ""
+    },
+    "Secret Key": {
+      "name": "Chiave Misteriosa",
+      "description": ""
+    },
+    "Seraph": {
+      "name": "Consacrato",
+      "description": "<p>I consacrati sono combattenti e guaritori divini, dotati di uno scopo sacro. Nei regni esistono molte divinità, che fungono da patrono per diversi ordini di consacrati. La loro etica si allinea tradizionalmente con il dominio o gli obiettivi di tale dio, come la difesa dei deboli, la vendetta, la protezione di una terra o di un artefatto o la difesa di una particolare fede. Alcuni consacrati si alleano con un esercito o un regno, con grande soddisfazione dei loro governanti, ma altri crociati combattono in opposizione alle follie di dominio del Regno Mortale. È meglio essere alleati di un consacrato che suoi avversari, poiché sono nemici terrificanti per coloro che si oppongono al loro credo.</p>",
+      "connections": [
+        "Quale promessa mi hai fatto accettare, se tu dovessi morire sul campo di battaglia?",
+        "Perché mi fai tante domande sulla mia divinità?",
+        " Mi hai detto di proteggere un membro del nostro gruppo più di tutti gli altri, anche di te stesso. Chi è e perché me lo hai chiesto?"
+      ],
+      "backgroundQuestions": [
+        "A quale divinità vi siete votati? Quale incredibile miracolo ha compiuto per voi in un momento di disperazione?",
+        "Come è cambiato il vostro aspetto dopo il vostro giuramento sacro?",
+        " In quale modo strano o unico comunicate con la vostra divinità?"
+      ]
+    },
+    "Set of Forgery Tools": {
+      "name": "Set di Strumenti di Contraffazione",
+      "description": ""
+    },
+    "Sigil of Your God": {
+      "name": "Simbolo Sacro del Proprio Dio",
+      "description": ""
+    },
+    "Small Bag (Rocks & Bones)": {
+      "name": "Piccolo Sacchetto di Rocce e Ossa",
+      "description": ""
+    },
     "Sneak Attack": {
       "name": "Attacco Furtivo",
       "description": "<p>Quando colpite mentre siete Ammantati o mentre un alleato si trova a distanza di Mischia dal bersaglio, aggiungete al tiro per i danni un numero di d6 pari al vostro rango. </p><ul><li><p>Livello 1 -&gt; Rango 1</p></li><li><p>Livelli 2–4 -&gt; Rango 2 </p></li><li><p>Livelli 5–7 -&gt; Rango 3 </p></li><li><p>Livelli 8–10 -&gt; Rango 4</p></li></ul>",
@@ -397,6 +574,40 @@
         }
       }
     },
+    "Sorcerer": {
+      "name": "Stregone",
+      "description": "<p>Non tutti gli utilizzatori di magia innata scelgono di affinare il loro dono, ma quelli che lo fanno possono diventare potenti stregoni. I doni di questi stregoni vengono tramandati attraverso le generazioni, anche se la famiglia non ne è consapevole o è riluttante a metterli in pratica. Le abilità di uno stregone possono spaziare dal dominio sugli elementi alla creazione di realistiche illusioni e altro ancora, e molti praticanti si riuniscono in confraternite basate sui loro talenti. Il percorso che porta a diventare un formidabile stregone non consiste nell’acquisire altro potere, ma nell’imparare a coltivare e controllare il potere che già si possiede. La magia di uno stregone mal consigliato o indisciplinato è una forza davvero pericolosa.</p>",
+      "connections": [
+        "Perché ti fidi così tanto di me?",
+        "Cosa ho fatto che ti rende cauto verso di me?",
+        "Perché teniamo segreto il nostro passato comune?"
+      ],
+      "backgroundQuestions": [
+        "Cosa avete fatto che ha reso le persone della vostra comunità diffidenti nei vostri confronti?",
+        "Quale mentore vi ha insegnato a controllare la vostra magia indomita e perché non è più in grado di guidarvi?",
+        "Avete una paura profonda che nascondete a tutti. Di cosa si tratta e perché vi spaventa?"
+      ]
+    },
+    "Square Up": {
+      "name": "Pronto alla Lotta",
+      "description": "<p><strong>Spendete 3 Speranze</strong> per intimidire un bersaglio a distanza Ravvicinata, rendendolo temporaneamente <em>Vulnerabile</em>.</p>",
+      "actions": {
+        "XfoeOZCHYYL0phnw": {
+          "name": "Spendere 1 Speranza",
+          "description": ""
+        }
+      },
+      "effects": {
+        "h8qyEkcZV8tP9cle": {
+          "name": "Pronto alla Lotta",
+          "description": ""
+        }
+      }
+    },
+    "Strange Dirty Pendant": {
+      "name": "Strano Ciondolo Trovato nella Terra",
+      "description": ""
+    },
     "Strange Patterns": {
       "name": "Segni Misteriosi",
       "description": "<p>Scegliete un numero compreso tra 1 e 12. Quando tirate quel numero su un Dado Dualità, guadagnate una Speranza o rimuovete uno Stress. Potete cambiare il numero scelto quando fate un riposo lungo.</p>",
@@ -406,6 +617,22 @@
           "description": "<p>Scegliete un numero compreso tra 1 e 12. Quando tirate quel numero su un Dado Dualità, guadagnate una Speranza o rimuovete uno Stress.</p>"
         }
       }
+    },
+    "Tiny Elemental Pet": {
+      "name": "Piccolo e Innocuo Animaletto Elementale",
+      "description": "<p>Un piccolo e innocuo animaletto elementale.</p>"
+    },
+    "Torch": {
+      "name": "Torcia",
+      "description": ""
+    },
+    "Totem from Mentor": {
+      "name": "Dono del Tuo Mentore",
+      "description": ""
+    },
+    "Trophy from your First Kill": {
+      "name": "Trofeo della Vostra Prima Uccisione",
+      "description": ""
     },
     "Unstoppable": {
       "name": "Inarrestabile",
@@ -423,6 +650,10 @@
         }
       }
     },
+    "Untranslated Book": {
+      "name": "Libro da Tradurre",
+      "description": "<p>Un libro che state cercando di tradurre.</p>"
+    },
     "Volatile Magic": {
       "name": "Magia Volatile",
       "description": "<p><strong>Spendete 3 Speranze</strong> per rilanciare un numero qualsiasi di dadi di danno in un attacco che infligge danni magici.</p>",
@@ -433,93 +664,79 @@
         }
       }
     },
+    "Warlock": {
+      "name": "Warlock",
+      "description": "<p>Coloro che hanno ceduto la propria vita — o forse persino la propria anima — a un patrono ultraterreno in cambio di un potere incredibile sono conosciuti come warlock. Spesso la disperazione che questi mortali hanno raggiunto è tale da spingerli a compiere questo sacrificio: sperano di proteggersi o tenere al sicuro una persona cara, di aiutare la loro comunità, di ottenere vendetta, di migliorare il proprio status o comunque di realizzare le proprie ambizioni. Le potenti entità a cui si rivolgono sono varie quanto gli stessi warlock: dèi, spiriti, demoni o altri esseri sconosciuti persino al mortale che stringe il patto. Ciascuna entità ha una propria sfera di influenza che ne definisce il potere ultraterreno, e quelle che collezionano anime sono raramente note per la loro benevolenza. Pertanto, il potere di un warlock è definito dal rapporto che intrattiene con il proprio benefattore. Nonostante la loro magia terrificante, i warlock potrebbero scoprire che qualcun altro o qualcos’altro sta tirando i loro fili.</p>",
+      "backgroundQuestions": [
+        "Chi della vostra comunità vi ha emarginato dopo che avete stretto un patto con il vostro Patrono?",
+        "Quale situazione disperata vi ha portato a dedicare la vostra vita al Patrono?",
+        "Il vostro Patrono vi ha affidato un compito che dovete portare a termine prima di ogni altra cosa. Di cosa si tratta e perché vi preoccupa?"
+      ],
+      "connections": [
+        "Perché pensi che mi confidi con te riguardo a ciò che dice e fa il mio Patrono?",
+        "Il nostro rapporto è cambiato da quando mi hai visto rendere omaggio al mio Patrono. Cosa hai visto e in che modo ti ha influenzato?",
+        "Una volta ho fatto una cosa davvero stupida e non hai mai smesso di rinfacciarmela. Di cosa si trattava?"
+      ]
+    },
+    "Warrior": {
+      "name": "Guerriero",
+      "description": "<p>Diventare un guerriero richiede anni, spesso una vita intera, di allenamento e dedizione all’esercizio delle armi e della violenza. Mentre molti di coloro che combattono pensano solo alla forza bruta, i guerrieri comprendono l’importanza di un corpo e di una mente agili, il che li rende alcuni dei combattenti più ricercati in tutti i regni. Spesso i guerrieri trovano impiego in un esercito, in una banda di mercenari o persino nella guardia reale, ma il loro potenziale è sprecato in qualsiasi posizione in cui non possano continuare a migliorare ed espandere le proprie capacità. Si sa che i guerrieri hanno un’arma preferita; mettersi tra loro e la loro lama è sempre un grave errore.</p>",
+      "connections": [
+        "Ci conoscevamo da molto prima che questo gruppo si riunisse. Come?",
+        "In quale compito o attività mi aiuti fuori dal campo di battaglia?",
+        "Quale paura ti sto aiutando a superare?"
+      ],
+      "backgroundQuestions": [
+        "Chi vi ha insegnato a combattere e perché è rimasto indietro quando avete lasciato la vostra casa?",
+        "Qualcuno vi ha sconfitto in battaglia anni fa e vi ha lasciati a morire. Chi era e come vi ha tradito?",
+        "Quale luogo leggendario avete sempre voluto visitare e perché è così speciale?"
+      ]
+    },
+    "Whispering Orb": {
+      "name": "Globo Sussurrante",
+      "description": ""
+    },
     "Wildtouch": {
       "name": "Tocco della Natura",
       "description": "<p>Potete eseguire a volontà effetti innocui e minori che coinvolgono la natura, come far crescere rapidamente un fiore, evocare una leggera folata di vento o accendere della legna per il fuoco.</p>"
     },
-    "50ft of Rope": {
-      "name": "Corda (15 m)",
-      "description": ""
+    "Witch": {
+      "name": "Strega",
+      "description": "<p>Le streghe (il nome della classe è lo stesso, a prescindere dal genere del personaggio) sono praticanti di magia che entrano in comunione con le forze della Natura e con entità provenienti da regni ultraterreni. Evocano il potere attraverso l’arte magica, combinando il tangibile e l’effimero lanciando incantesimi, recitando formule magiche, creando talismani, tessendo illusioni e seguendo altri rituali personalizzati. Possono proteggere gli alleati e danneggiare i nemici invocando forze potenti al di là della loro stessa comprensione: esseri soprannaturali quali antenati mitici, divinità o aspetti della natura. Spesso, la loro sapienza magica viene tramandata da queste entità o attraverso molte generazioni di praticanti che si riuniscono in piccoli gruppi noti come congreghe. Le streghe sono sovente temute e fraintese, poiché i loro metodi possono apparire misteriosi, strani e persino macabri agli occhi dei non iniziati. Qualunque sia il percorso che intraprendono, le streghe percorrono senza paura il confine tra luce e ombra.</p>",
+      "backgroundQuestions": [
+        "Chi, nella vostra comunità, temeva le vostre arti magiche? Quali voci hanno diffuso su di voi? Erano veritiere?",
+        "Una volta avete usato il vostro potere per aiutare qualcuno in una situazione disperata. Chi era questa persona e perché si è rivolta a voi?",
+        "La vostra magia una volta ha aperto una porta che sarebbe stato meglio lasciare chiusa. Chi o cosa c’era dall’altra parte?"
+      ],
+      "connections": [
+        "Quale rituale o pratica particolare ti ho insegnato che ora eseguiamo insieme?",
+        "Una volta ti sono apparso in sogno e ti ho mostrato una visione del futuro. Cosa ti ho detto?",
+        "Per quali argomenti ti rivolgi a me, di solito, per chiedere consiglio?"
+      ]
     },
-    "A Romance Novel": {
-      "name": "Un Romanzo d'Amore",
-      "description": ""
+    "Witch's Charm": {
+      "name": "Fascino della Strega",
+      "description": "<p>quando voi o un alleato entro distanza Lontana fallite un tiro azione, potete <strong>spendere 3 Speranze</strong> per trasformarlo in un successo con Paura.</p>",
+      "actions": {
+        "iQwgbgc04oIW6h8p": {
+          "name": "Spendere 1 Speranza",
+          "description": ""
+        }
+      }
     },
-    "A Sharpening Stone": {
-      "name": "Una Pietra per Affilare",
-      "description": ""
-    },
-    "Basic Supplies": {
-      "name": "Scorte di Base",
-      "description": ""
-    },
-    "Broken Compass": {
-      "name": "Bussola Rotta",
-      "description": ""
-    },
-    "Bundle of Offerings": {
-      "name": "Fascio di Offerte",
-      "description": ""
-    },
-    "Drawing Of A Lover": {
-      "name": "Ritratto di un Amante",
-      "description": ""
-    },
-    "Family Heirloom": {
-      "name": "Cimelio di Famiglia",
-      "description": ""
-    },
-    "Grappling Hook": {
-      "name": "Rampino",
-      "description": ""
-    },
-    "Letter(Never Opened)": {
-      "name": "Lettera (Mai Aperta)",
-      "description": ""
-    },
-    "Secret Key": {
-      "name": "Chiave Segreta",
-      "description": ""
-    },
-    "Set of Forgery Tools": {
-      "name": "Kit di Attrezzi per Falsari",
-      "description": ""
-    },
-    "Sigil of Your God": {
-      "name": "Sigillo della Tua Divinità",
-      "description": ""
-    },
-    "Small Bag (Rocks & Bones)": {
-      "name": "Piccola Sacca (Rocce & Ossa)",
-      "description": ""
-    },
-    "Strange Dirty Pendant": {
-      "name": "Strano Pendente Sporco",
-      "description": ""
-    },
-    "Tiny Elemental Pet": {
-      "name": "Piccolo Cucciolo Elementale",
-      "description": "<p>Un piccolo cucciolo elementale.</p>"
-    },
-    "Torch": {
-      "name": "Torcia",
-      "description": ""
-    },
-    "Totem from Mentor": {
-      "name": "Totem di un Mentore",
-      "description": ""
-    },
-    "Trophy from your First Kill": {
-      "name": "Trofeo della Prima Uccisione",
-      "description": ""
-    },
-    "Untranslated Book": {
-      "name": "Libro Non Tradotto",
-      "description": "<p>Un libro che state cercando di tradurre.</p>"
-    },
-    "Whispering Orb": {
-      "name": "Sfera Sussurrante",
-      "description": ""
+    "Wizard": {
+      "name": "Mago",
+      "description": "<p>Attraverso un’istituzione o uno studio individuale, i maghi acquisiscono e affinano un immenso potere magico nel corso di anni di apprendimento utilizzando una varietà di strumenti, tra cui libri, pietre, pozioni ed erbe. Alcuni maghi dedicano la loro vita a padroneggiare una particolare scuola di magia, mentre altri imparano da un’ampia varietà di discipline. Molti maghi diventano figure sagge e potenti nelle loro comunità, consigliando i governanti, fornendo rimedi e guarigioni e persino guidando i consigli di guerra. Sebbene questi maghi lavorino tutti per l’obiettivo comune di raccogliere conoscenze magiche, essi sono spesso i più conflittuali al loro interno, poiché l’acquisizione, la conservazione e la condivisione di potenti segreti è un argomento di intenso dibattito che ha causato innumerevoli morti.</p>",
+      "connections": [
+        "Quale favore ti ho chiesto che non sei sicuro di poter soddisfare?",
+        "Quale strano hobby o strano interesse condividiamo?",
+        "Quale segreto hai affidato solo a me?"
+      ],
+      "backgroundQuestions": [
+        "Per quali responsabilità la comunità contava su di voi? In che modo li avete delusi?",
+        "Avete trascorso la vita alla ricerca di un libro o di un oggetto di grande significato. Di cosa si tratta e perché è così importante?",
+        "Avete un potente rivale. Chi è e perché siete così determinati a sconfiggerlo?"
+      ]
     }
   }
 }

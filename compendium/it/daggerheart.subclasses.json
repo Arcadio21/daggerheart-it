@@ -24,7 +24,16 @@
     "Foundation Features": "Privilegi Base",
     "Specialization Features": "Specializzazione",
     "Mastery Features": "Maestria",
-    "Subclass Features": "Privilegi di Sottoclasse"
+    "Subclass Features": "Privilegi di Sottoclasse",
+    "Assassin": "Assassino",
+    "Brawler": "Lottatore",
+    "Warlock": "Warlock",
+    "Witch": "Strega",
+    "Martial Stances": "Pose Marziali",
+    "Tier 1": "Rango 1",
+    "Tier 2": "Rango 2",
+    "Tier 3": "Rango 3",
+    "Tier 4": "Rango 4"
   },
   "entries": {
     "Accomplished": {
@@ -46,6 +55,10 @@
           "description": "<p>Ottieni +1 alla Competenza contro l'avversario che ha appena danneggiato un tuo alleato in Mischia.</p>"
         }
       }
+    },
+    "Adder's Blessing": {
+      "name": "Benedizione della Vipera",
+      "description": "<p>Siete immune ai veleni e alle altre tossine.</p>"
     },
     "Adept": {
       "name": "Iniziato",
@@ -74,6 +87,42 @@
         "bKOuMxhB2Jth3j2T": {
           "name": "Addestramento Avanzato",
           "description": "<p>Due opzioni di aumento di livello extra per il compagno.</p>"
+        }
+      }
+    },
+    "Aggressive": {
+      "name": "Aggressiva",
+      "description": "<p>Ottenete una penalità di −1 all’Evasione. In caso di attacco riuscito, lanciate un dado di danno aggiuntivo e scartate il risultato più basso.</p>",
+      "actions": {
+        "9AsdA0xwYlajciA0": {
+          "name": "Assumere la Posa",
+          "description": ""
+        }
+      },
+      "effects": {
+        "SbL1r4YtyDX6eYLe": {
+          "name": "Posa: Aggressiva",
+          "description": "<p>Ottenete una penalità di −1 all’Evasione. In caso di attacco riuscito, lanciate un dado di danno aggiuntivo e scartate il risultato più basso.</p>"
+        }
+      }
+    },
+    "Ambush": {
+      "name": "Imboscata",
+      "description": "<p>Il privilegio “Marchiare a Morte” utilizza <strong>d6</strong> invece di d4.</p>"
+    },
+    "Anchored": {
+      "name": "Radicata",
+      "description": "<p>Ottenete un bonus di +2 alle soglie di danno. Mentre siete in questa posa, non potete essere spostato contro la vostra volontà.</p>",
+      "actions": {
+        "ZwzPSA5XCwLCzUJw": {
+          "name": "Assumere la Posa",
+          "description": ""
+        }
+      },
+      "effects": {
+        "lIOscgRKYhFlGa9y": {
+          "name": "Posa: Radicata",
+          "description": "<p>Ottenete un bonus di +2 alle soglie di danno. Mentre siete in questa posa, non potete essere spostato contro la vostra volontà.</p>"
         }
       }
     },
@@ -117,15 +166,9 @@
         }
       }
     },
-    "Battle-Bonded": {
-      "name": "Uniti nella Battaglia",
-      "description": "<p>Quando un avversario vi attacca mentre si trova in Mischia con il vostro compagno, guadagnate bonus <strong>+2 alla vostra Evasione</strong> contro l’attacco.</p>",
-      "effects": {
-        "IZhakv6EuG8DO4a3": {
-          "name": "Uniti nella Battaglia",
-          "description": "<p>Bonus +2 all'Evasione contro gli attacchi di avversari in Mischia con il tuo compagno.</p>"
-        }
-      }
+    "Backstab": {
+      "name": "Colpo alle Spalle",
+      "description": "<p>Il privilegio “Marchiare a Morte” utilizza <strong>d8</strong> invece di d6.</p>"
     },
     "Battle Ritual": {
       "name": "Riti di Battaglia",
@@ -134,6 +177,16 @@
         "UdZx74Vcz6ip4Plh": {
           "name": "Prepararsi",
           "description": "<p>Rimuovi 2 Stress e guadagna 2 Speranze prima di una prova estrema (1/riposo lungo).</p>"
+        }
+      }
+    },
+    "Battle-Bonded": {
+      "name": "Uniti nella Battaglia",
+      "description": "<p>Quando un avversario vi attacca mentre si trova in Mischia con il vostro compagno, guadagnate bonus <strong>+2 alla vostra Evasione</strong> contro l’attacco.</p>",
+      "effects": {
+        "IZhakv6EuG8DO4a3": {
+          "name": "Uniti nella Battaglia",
+          "description": "<p>Bonus +2 all'Evasione contro gli attacchi di avversari in Mischia con il tuo compagno.</p>"
         }
       }
     },
@@ -147,9 +200,37 @@
         }
       }
     },
+    "Beastbound": {
+      "name": "Ferale",
+      "description": "<p>Scegliete il Ferale se volete creare un legame profondo con un alleato animale.</p>"
+    },
     "Brilliant": {
       "name": "Brillante",
       "description": "<p>Prendete una carta dominio aggiuntiva del vostro livello o di livello inferiore da un dominio a cui avete accesso.</p>"
+    },
+    "Call Of The Brave": {
+      "name": "Chiamata del Coraggio",
+      "description": "<p>Rispondete alla Chiamata del Coraggio se volete usare la forza dei vostri nemici per alimentare il vostro potere.</p>"
+    },
+    "Call Of The Slayer": {
+      "name": "Chiamata dello Sterminatore",
+      "description": "<p>Rispondete alla Chiamata dello Sterminatore se volete abbattere gli avversari con una forza immensa.</p>"
+    },
+    "Circle of Power": {
+      "name": "Cerchio di Potere",
+      "description": "<p>Una volta per riposo, tracciate attorno a voi un cerchio sul terreno, che delinea un’area che vi circonda a distanza Prossima, e posizionate su questa carta un numero di gettoni pari al vostro tratto da incantatore. Mentre vi trovate all’interno di questo cerchio, voi e i vostri alleati ottenete un bonus di +2 alle soglie di danno, ai tiri attacco e all’Evasione. Rimuovete un gettone ogni volta che voi o un alleato all’interno del cerchio effettuate un tiro attacco o un avversario vi manca. Questo incantesimo dura fino a quando l’ultimo gettone non viene rimosso o finché non uscite dal cerchio.</p>",
+      "actions": {
+        "eakpQUeo64jPWjaU": {
+          "name": "Tracciare il Cerchio",
+          "description": ""
+        }
+      },
+      "effects": {
+        "YMhiEmt31R0s5MH0": {
+          "name": "Cerchio di Potere",
+          "description": "<p>Mentre vi trovate all’interno di questo cerchio, voi e i vostri alleati ottenete un bonus di +2 alle soglie di danno, ai tiri attacco e all’Evasione. Rimuovete un gettone ogni volta che voi o un alleato all’interno del cerchio effettuate un tiro attacco o un avversario vi manca. Questo incantesimo dura fino a quando l’ultimo gettone non viene rimosso o finché non uscite dal cerchio.</p>"
+        }
+      }
     },
     "Clarity of Nature": {
       "name": "Illuminazione della Natura",
@@ -199,6 +280,46 @@
       "name": "Coraggio",
       "description": "<p>Quando fallite un tiro con Paura, guadagnate una Speranza.</p>"
     },
+    "Crushing": {
+      "name": "Devastante",
+      "description": "<p>Quando infliggete un danno Grave, potete <strong>spendere una Speranza</strong> per costringere il bersaglio a subire un Punto Ferita aggiuntivo.</p>",
+      "actions": {
+        "TAnFMnKyuU8AvRvm": {
+          "name": "Assumere la Posa",
+          "description": ""
+        },
+        "SNQbyaTZxSfPUjyx": {
+          "name": "Spendere 1 Speranza",
+          "description": ""
+        }
+      },
+      "effects": {
+        "wTLu5PCb5tVANoXR": {
+          "name": "Posa: Devastante",
+          "description": "<p>Quando infliggete un danno Grave, potete <strong>spendere una Speranza</strong> per costringere il bersaglio a subire un Punto Ferita aggiuntivo.</p>"
+        }
+      }
+    },
+    "Damage Sink": {
+      "name": "Assorbimento del Danno",
+      "description": "<p>Una volta per riposo, potete <strong>spendere un Favore</strong> per dimezzare il danno subito.</p>",
+      "actions": {
+        "3F3GvruTdowsgQAU": {
+          "name": "Spendere 1 Favore",
+          "description": ""
+        }
+      }
+    },
+    "Dark Aegis": {
+      "name": "Egida Oscura",
+      "description": "<p>Una volta per Riposo lungo, quando subireste dei danni, potete <strong>spendere un Favore</strong> invece di subire Punti Ferita.</p>",
+      "actions": {
+        "2mZaz1jTPjAQK6ZM": {
+          "name": "Spendere 1 Favore",
+          "description": ""
+        }
+      }
+    },
     "Dark Cloud": {
       "name": "Nube di Tenebra",
       "description": "<p>Effettuate un <strong>Tiro Incantesimo (15)</strong>. Se riuscite, create una nube oscura temporanea che copre ogni cosa fino a distanza Ravvicinata. Chiunque si trovi all’interno di questa nube non può vedere al di fuori di essa, e chiunque si trovi al di fuori di essa non può vedere al suo interno. Siete considerati <em>Ammantati</em> da qualsiasi avversario per il quale la nube blocca la linea di vista.</p>",
@@ -206,6 +327,36 @@
         "nIgBwYfAVAJ98lzb": {
           "name": "Tiro Incantesimo: Nube di Tenebra",
           "description": "<p>Tiro Incantesimo (15). Crea un'area Ravvicinata di oscurità che blocca la vista e vi rende <em>Ammantati</em>.</p>"
+        }
+      }
+    },
+    "Deadly Vengeance": {
+      "name": "Vendetta Letale",
+      "description": "<p>Quando subite un numero qualsiasi di Punti Ferita a causa di un attacco, potete <strong>spendere un Favore</strong> per tirare un numero di Dadi del Patrono pari al Favore speso. Per ogni risultato pari o superiore a 4, l’attaccante subisce un Punto Ferita.</p>",
+      "actions": {
+        "g1nxHBuHbeRc60qc": {
+          "name": "Spendere 1 Favore",
+          "description": ""
+        }
+      }
+    },
+    "Death Strike": {
+      "name": "Colpo Mortale",
+      "description": "<p>Quando infliggete danno Grave a una creatura, potete <strong>marcare uno Stress</strong> per costringerla a subire un Punto Ferita aggiuntivo.</p>",
+      "actions": {
+        "9oSm12oXjIl7Xi6m": {
+          "name": "Marcare 1 Stress",
+          "description": ""
+        }
+      }
+    },
+    "Deathless Embrace": {
+      "name": "Abbraccio del Senzamorte",
+      "description": "<p>Una volta per riposo, <strong>spendete un numero qualsiasi di Favori</strong> per tirare lo stesso numero di Dadi del Patrono. Per ogni risultato pari o superiore a 4, recuperate un Punto Ferita.</p>",
+      "actions": {
+        "MESGNBGIReGomg5u": {
+          "name": "Spendere 1 Favore",
+          "description": ""
         }
       }
     },
@@ -219,9 +370,55 @@
         }
       }
     },
+    "Defensive": {
+      "name": "Difensiva",
+      "description": "<p>I tiri attacco che vi prendono di mira da una distanza di Mischia hanno svantaggio, a meno che l’attaccante non marchi uno Stress.</p>",
+      "actions": {
+        "syX0fPaPNwVqpwBP": {
+          "name": "Assumere la Posa",
+          "description": ""
+        }
+      },
+      "effects": {
+        "cEi6RO2te92zNqm2": {
+          "name": "Posa: Difensiva",
+          "description": "<p>I tiri attacco che vi prendono di mira da una distanza di Mischia hanno svantaggio, a meno che l’attaccante non marchi uno Stress.</p>"
+        }
+      }
+    },
     "Devout": {
       "name": "Devoto",
       "description": "<p>Quando tirate i Dadi Preghiera, potete tirare un dado aggiuntivo e scartare il risultato più basso. Inoltre, potete usare il privilegio \"Tocco Ristoratore\" due volte invece di una per riposo lungo.</p>"
+    },
+    "Diminish My Foes": {
+      "name": "Umilia i Miei Nemici",
+      "description": "<p>Quando ottenete un successo con Speranza in un tiro azione contro un bersaglio, potete <strong>spendere un numero qualsiasi di Favori</strong> per costringere il bersaglio a marcare un egual numero di Stress.</p>",
+      "actions": {
+        "kE9BQUrMetyVIMw4": {
+          "name": "Spendere 1 Favore",
+          "description": ""
+        }
+      }
+    },
+    "Divine Wielder": {
+      "name": "Emissario Divino",
+      "description": "<p>Scegliete l'Emissario Divino se volete dominare il campo di battaglia con un'arma benedetta.</p>"
+    },
+    "Draining Bane": {
+      "name": "Prosciugare",
+      "description": "<p>Quando un avversario attacca voi o un alleato entro distanza Prossima, potete <strong>spendere un Favore</strong> per <em>Prosciugare</em> la sua energia vitale. Quando lo fate, l’avversario deve marcare uno Stress e voi potete rimuoverne uno. Mentre è <em>Prosciugato</em>, il bersaglio usa un <strong>d12</strong> invece di un d20 per i tiri attacco (compresi quelli con vantaggio o svantaggio) finché non fallisce un tiro.</p>",
+      "actions": {
+        "9uGvYN7h6mlUAsiQ": {
+          "name": "Spendere 1 Favore",
+          "description": ""
+        }
+      },
+      "effects": {
+        "kXd9hPnE1W5SHw1T": {
+          "name": "Prosciugato",
+          "description": "<p>Mentre è <em>Prosciugato</em>, il bersaglio usa un <strong>d12</strong> invece di un d20 per i tiri attacco (compresi quelli con vantaggio o svantaggio) finché non fallisce un tiro.</p>"
+        }
+      }
     },
     "Elemental Aura": {
       "name": "Aura Elementale",
@@ -343,6 +540,10 @@
         }
       }
     },
+    "Elemental Origin": {
+      "name": "Potere Elementale",
+      "description": "<p>Scegliete il Potere Elementale se volete incanalare la potenza grezza di un particolare elemento.</p>"
+    },
     "Elementalist": {
       "name": "Elementalista",
       "description": "<p>Scegliete uno dei seguenti elementi alla creazione del personaggio: aria, terra, fuoco, fulmine, acqua. Potete plasmare questo elemento generando effetti innocui. Inoltre, spendendo una Speranza e descrivendo in che modo il controllo su questo elemento favorisce un tiro azione che state per effettuare, ottenete bonus +2 al tiro azione o bonus +3 al tiro per i danni.</p>",
@@ -393,6 +594,16 @@
         }
       }
     },
+    "Enchanted Talisman": {
+      "name": "Talismano Incantato",
+      "description": "<p>Una volta per riposo, potete infondere la vostra essenza in un piccolo oggetto. <strong>Spendete un numero qualsiasi di Speranze</strong> per posizionare un numero uguale di gettoni su questa carta. Quando la persona che possiede il talismano subisce danni, spendete un gettone per ridurre di uno il numero di Punti Ferita che subisce. Rimuovete tutti i gettoni da questa carta quando riposate.</p>",
+      "actions": {
+        "9joeFXWM5FAzoRCd": {
+          "name": "Spendere 1 Speranza",
+          "description": ""
+        }
+      }
+    },
     "Epic Poetry": {
       "name": "Poesia Epica",
       "description": "<p>Il Dado A Raccolta aumenta a d10. Inoltre, quando Aiutate un Alleato, potete narrare il momento come se steste scrivendo la storia del suo eroismo in un libro di memorie. Quando lo fate, tirate un d10 come dado vantaggio.</p>",
@@ -413,6 +624,26 @@
         }
       }
     },
+    "Exacting": {
+      "name": "Stringente",
+      "description": "<p>Quando ottenete un 1 su un dado di danno, potete considerarlo invece come il valore più alto sul dado.</p>",
+      "actions": {
+        "HJqhV6t6uDlh7aWd": {
+          "name": "Assumere la Posa",
+          "description": ""
+        }
+      },
+      "effects": {
+        "lDRAICtZPyjMWKgB": {
+          "name": "Posa: Stringente",
+          "description": "<p>Quando ottenete un 1 su un dado di danno, potete considerarlo invece come il valore più alto sul dado.</p>"
+        }
+      }
+    },
+    "Executioners Guild": {
+      "name": "Gilda dei Carnefici",
+      "description": "<p>Scegliete la Gilda dei Carnefici se volete abbattere i vostri bersagli con precisione letale.</p>"
+    },
     "Expert Training": {
       "name": "Addestramento Intensivo",
       "description": "<p>Scegliete un'ulteriore opzione di aumento di livello per il vostro compagno.</p>",
@@ -423,9 +654,49 @@
         }
       }
     },
+    "Eye for an Eye": {
+      "name": "Occhio per Occhio",
+      "description": "<p>Una volta per riposo, quando un avversario entro distanza di Mischia vi fa perdere un qualsiasi numero di Punti Ferita, potete <strong>marcare uno Stress</strong> per costringerlo a subire lo stesso numero di Punti Ferita.</p>",
+      "actions": {
+        "ka7wdfcKZgPaK80a": {
+          "name": "Marcare 1 Stress",
+          "description": ""
+        }
+      }
+    },
     "Face Your Fear": {
       "name": "Affronta la Tua Paura",
       "description": "<p>Quando avete successo con Paura in un tiro di attacco, infliggete 1d10 danni magici addizionali.</p>"
+    },
+    "Favored": {
+      "name": "Favorita",
+      "description": "<p>Ottenete un bonus ai tiri di danno pari a un tratto a vostra scelta.</p>",
+      "actions": {
+        "ohod7ZWfrILMq3dc": {
+          "name": "Assumere la Posa",
+          "description": ""
+        }
+      },
+      "effects": {
+        "M3HdEjgCvl15S9HO": {
+          "name": "Posa: Favorita",
+          "description": "<p>Ottenete un bonus ai tiri di danno pari a un tratto a vostra scelta.</p>"
+        }
+      }
+    },
+    "Fearsome Attack": {
+      "name": "Attacco Terrificante",
+      "description": "<p><strong>Spendete un Favore</strong> per ripetere il tiro di un numero qualsiasi dei vostri dadi di danno. Potete continuare a spendere Favore per riutilizzare il privilegio sullo stesso tiro.</p>",
+      "actions": {
+        "Fp4Gb6o5Ac9nAv9a": {
+          "name": "Spendere 1 Favore",
+          "description": ""
+        }
+      }
+    },
+    "First Strike": {
+      "name": "Primo Colpo",
+      "description": "<p>La prima volta che in una scena colpite un bersaglio, infliggete il doppio dei danni.</p>"
     },
     "Fleeting Shadow": {
       "name": "Ombra Sfuggente",
@@ -434,6 +705,20 @@
         "hsEwoHkNr2qVwm2H": {
           "name": "Ombra Sfuggente",
           "description": "<p>Guadagnate bonus +1 permanente all'Evasione. Potete usare il vostro privilegio \"Passo d'Ombra\" per muovervi fino a distanza Remota.</p>"
+        }
+      }
+    },
+    "Flow State": {
+      "name": "Seguire la Corrente",
+      "description": "<p>Potete <strong>marcare uno Stress</strong> invece di spendere un Focus per passare a una diversa Posa Marziale. Inoltre, potete <strong>spendere un Focus</strong> invece di marcare uno Stress per iniziare una Combinazione di Colpi.</p>"
+    },
+    "Focus Cannon": {
+      "name": "Cannone Spirituale",
+      "description": "<p><strong>Spendete un Focus</strong> per effettuare un Tiro Istinto contro un avversario a distanza Lontana. In caso di successo, infliggete <strong>d20+3</strong> danni magici utilizzando la vostra Competenza.</p>",
+      "actions": {
+        "5L3mq00RlEDPC0oQ": {
+          "name": "Spendere 1 Focus",
+          "description": ""
         }
       }
     },
@@ -465,6 +750,40 @@
         }
       }
     },
+    "Grappling": {
+      "name": "Uncinante",
+      "description": "<p>In caso di attacco riuscito entro distanza di Mischia, potete <strong>spendere un Focus</strong> o <strong>marcare uno Stress</strong> per <em>Immobilizzare</em> temporaneamente il bersaglio o gettarlo fino a distanza Ravvicinata.</p>",
+      "actions": {
+        "K7VYEEaUWQN0hifO": {
+          "name": "Assumere la Posa",
+          "description": ""
+        },
+        "ruHvEPZuzierWilg": {
+          "name": "Afferrare",
+          "description": ""
+        }
+      },
+      "effects": {
+        "zmML95HUwWUM8RqY": {
+          "name": "Posa: Uncinante",
+          "description": "<p>In caso di attacco riuscito entro distanza di Mischia, potete <strong>spendere un Focus</strong> o <strong>marcare uno Stress</strong> per <em>Immobilizzare</em> temporaneamente il bersaglio o gettarlo fino a distanza Ravvicinata.</p>"
+        },
+        "0aPQdN2Anbw7WLph": {
+          "name": "Afferrato",
+          "description": ""
+        }
+      }
+    },
+    "Harrowing Invocation": {
+      "name": "Invocazione Straziante",
+      "description": "<p>Quando un avversario prende di mira voi o un alleato entro distanza Prossima con un attacco, potete <strong>spendere un Favore</strong> per infliggergli svantaggio al tiro. Se l’avversario fallisce il tiro, deve anche marcare uno Stress.</p>",
+      "actions": {
+        "lFYB6s51xECMdYaB": {
+          "name": "Spendere 1 Favore",
+          "description": ""
+        }
+      }
+    },
     "Have No Fear": {
       "name": "Non Conoscerai la Paura",
       "description": "<p>Il danno magico addizionale della caratteristica \"Affronta la Tua Paura\" aumenta a 3d10.</p>"
@@ -479,6 +798,38 @@
         }
       }
     },
+    "Hedge": {
+      "name": "Strega Liminale",
+      "description": "<p>Giocate la Strega Liminale per usare le vostre arti così da potenziare voi e il vostro gruppo.</p>"
+    },
+    "Herbal Remedies": {
+      "name": "Erbe Officinali",
+      "description": "<p>Quando voi o un alleato presente nella scena recuperate 1 o più Punti Ferita o Stress grazie all’uso di una scorta, aumentate di 1 il numero di Punti Ferita o Stress recuperati.</p>"
+    },
+    "Honed": {
+      "name": "Affinata",
+      "description": "<p><strong>Spendete un Focus</strong> prima di effettuare un tiro attacco per ottenere un bonus di +1 alla Competenza per quell’attacco.</p>",
+      "actions": {
+        "Xs4xgmFwibfOp6Ky": {
+          "name": "Assumere la Posa",
+          "description": ""
+        },
+        "InclNwt5wzExUNUc": {
+          "name": "Spendere 1 Focus",
+          "description": ""
+        }
+      },
+      "effects": {
+        "HkFjCOTppPwFhoDD": {
+          "name": "Posa: Affinata",
+          "description": "<p><strong>Spendete un Focus</strong> prima di effettuare un tiro attacco per ottenere un bonus di +1 alla Competenza per quell’attacco.</p>"
+        },
+        "dyHrEgxlTrZPrV0p": {
+          "name": "Affinata",
+          "description": "<p>Ottenete un bonus +1 alla Competenza per quell’attacco.</p>"
+        }
+      }
+    },
     "Honed Expertise": {
       "name": "Padronanza Affinata",
       "description": "<p>Quando utilizzate un'Esperienza, tirate un d6. Con un risultato di 5 o superiore, potete utilizzarla senza spendere Speranza.</p>",
@@ -489,6 +840,36 @@
         }
       }
     },
+    "Invigorating": {
+      "name": "Rinvigorente",
+      "description": "<p>In caso di attacco riuscito, tirate un <strong>d4</strong>. Se ottenete un risultato pari a 4, ottenete un Focus.</p>",
+      "actions": {
+        "1xtWty9JmQwHDr5p": {
+          "name": "Assumere la Posa",
+          "description": ""
+        },
+        "8ZmPagKI9BmHtAS6": {
+          "name": "Tirare 1d4",
+          "description": ""
+        }
+      },
+      "effects": {
+        "ZW4pQL4QoTFKL7Ry": {
+          "name": "Posa: Rinvigorente",
+          "description": "<p>In caso di attacco riuscito, tirate un <strong>d4</strong>. Se ottenete un risultato pari a 4, ottenete un Focus.</p>"
+        }
+      }
+    },
+    "Ire of Pale Light": {
+      "name": "Ira della Pallida Luce",
+      "description": "<p>Quando una creatura <em>Maledetta</em> entro distanza Remota fallisce un attacco, deve marcare uno Stress.</p>",
+      "actions": {
+        "SVwe0haug3EXagQx": {
+          "name": "Danni da Stress",
+          "description": ""
+        }
+      }
+    },
     "Iron Will": {
       "name": "Volontà di Ferro",
       "description": "<p>Quando subite danni fisici, potete marcare un'ulteriore Casella Armatura per ridurne la gravità.</p>",
@@ -496,6 +877,52 @@
         "htEDIjCEWYtznpRV": {
           "name": "Volontà di Ferro",
           "description": "<p>Quando subite danni fisici, potete marcare un'ulteriore Casella Armatura per ridurne la gravità.</p>"
+        }
+      }
+    },
+    "Isolating": {
+      "name": "Isolante",
+      "description": "<p>Ottenete vantaggio ai tiri attacco quando non ci sono altre creature a distanza Prossima da voi o dal vostro bersaglio.</p>",
+      "actions": {
+        "ZqZgI5Pc2qFFBt5o": {
+          "name": "Assumere la Posa",
+          "description": ""
+        }
+      },
+      "effects": {
+        "GcjxmDtqCU7J0IU3": {
+          "name": "Posa: Isolante",
+          "description": "<p>Ottenete vantaggio ai tiri attacco quando non ci sono altre creature a distanza Prossima da voi o dal vostro bersaglio.</p>"
+        }
+      }
+    },
+    "Juggernaut": {
+      "name": "Juggernaut",
+      "description": "<p>Giocate il Juggernaut se volete polverizzare i nemici con colpi micidiali.</p>"
+    },
+    "Keen Defenses": {
+      "name": "Guardia Alta",
+      "description": "<p>Quando siete il bersaglio di un attacco, potete <strong>spendere un Focus</strong> per ottenere un bonus all’Evasione pari al vostro rango contro quell’attacco.</p>",
+      "actions": {
+        "QWp62rFUuDVqGqOe": {
+          "name": "Spendere 1 Focus",
+          "description": ""
+        }
+      },
+      "effects": {
+        "GxKR2SLh9jsTyC4h": {
+          "name": "Guardia Alta",
+          "description": "<p>Ottenete un bonus all’Evasione pari al vostro rango contro quell’attacco.</p>"
+        }
+      }
+    },
+    "Limit Breaker": {
+      "name": "Oltre il Limite",
+      "description": "<p>Una volta per riposo, potete compiere un’impresa atletica incredibile, come correre sull’acqua, saltare da un tetto all’altro a grande distanza o scalare un edificio senza bisogno di tirare i dadi. Quando lo fate, ottenete una Speranza ed eliminate uno Stress.</p>",
+      "actions": {
+        "ffLopQU2mXJxig9l": {
+          "name": "Oltre il Limite",
+          "description": ""
         }
       }
     },
@@ -519,6 +946,30 @@
         }
       }
     },
+    "Lunar Phases": {
+      "name": "Fasi Lunari",
+      "description": "<p>All’inizio di ogni sessione, tirate un <strong>[[/r d6]]</strong> e posizionatelo su questa carta. Ottenete l’effetto corrispondente fino alla fine della sessione.</p><table><thead><tr><td><p>Tiro</p></td><td><p>Fase</p></td><td><p>Effetto</p></td></tr></thead><tbody><tr><td><p><strong>1</strong></p></td><td><p>Nuova</p></td><td><p><strong>Spendete una Speranza</strong> per annullare un danno Minore.</p></td></tr><tr><td><p><strong>2–3</strong></p></td><td><p>Crescente</p></td><td><p>+2 ai tiri di danno</p></td></tr><tr><td><p><strong>4</strong></p></td><td><p>Piena</p></td><td><p>+3 alle soglie di danno</p></td></tr><tr><td><p><strong>5–6</strong></p></td><td><p>Calante</p></td><td><p>+1 all’Evasione</p></td></tr></tbody></table><p>Una volta per riposo, potete <strong>spendere una Speranza</strong> per aumentare di uno il valore di questo dado. Se aumentate il valore di un 6, questo diventa un 1.</p>",
+      "actions": {
+        "k5KPbB12hfutbvTj": {
+          "name": "Nuova: Spendere 1 Speranza",
+          "description": ""
+        }
+      },
+      "effects": {
+        "K7xu1KI8zehJ8kkY": {
+          "name": "Crescente",
+          "description": "<p>+2 ai tiri di danno</p>"
+        },
+        "7V75lzCjChYmZaZ5": {
+          "name": "Piena",
+          "description": "<p>+3 alle soglie di danno</p>"
+        },
+        "b60bHY67KMfRJOrU": {
+          "name": "Calante",
+          "description": "<p>+1 all’Evasione</p>"
+        }
+      }
+    },
     "Maestro": {
       "name": "Maestro",
       "description": "<p>Le vostre canzoni accendono il coraggio di chi le ascolta. Quando assegnate un Dado A Raccolta a un alleato, questi può guadagnare una Speranza o rimuovere uno Stress.</p>"
@@ -533,9 +984,49 @@
         }
       }
     },
+    "Martial Artist": {
+      "name": "Artista Marziale",
+      "description": "<p>Giocate l’Artista Marziale se volete sconfiggere gli avversari con un ampio arsenale di mosse e tecniche.</p>"
+    },
     "Martial Preparation": {
       "name": "Addestramento Marziale",
       "description": "<p>Siete un guerriero che ispira tutti coloro che viaggiano con voi. Il vostro gruppo ha accesso alla mossa Addestramento Marziale durante il riposo. Per usare questa mossa durante un riposo, descrivete come istruite e vi allenate con il gruppo. Voi e ogni alleato che sceglie questa mossa di interludio guadagnate un d6 di Dado dello Sterminatore. Un PG con un Dado dello Sterminatore può spenderlo per tirare il dado e aggiungere il risultato a un tiro attacco o di danno a sua scelta.</p>"
+    },
+    "Menacing Reach": {
+      "name": "Portata Minacciosa",
+      "description": "<p><strong>Spendete un Favore</strong> per aumentare la portata dell’arma primaria di una categoria (per esempio da Mischia a Prossima o da Prossima a Vicina) fino a un massimo pari alla portata Remota. Questo effetto termina quando riuscite in un attacco con quell’arma.</p>",
+      "actions": {
+        "9dAy5Pd1zPr7Tda8": {
+          "name": "Spendere 1 Favore",
+          "description": ""
+        }
+      },
+      "effects": {
+        "akwjK1zhFDkePo8z": {
+          "name": "Portata Minacciosa",
+          "description": "<p><strong>Spendete un Favore</strong> per aumentare la portata dell’arma primaria di una categoria (per esempio da Mischia a Prossima o da Prossima a Vicina) fino a un massimo pari alla portata Remota. Questo effetto termina quando riuscite in un attacco con quell’arma.</p>"
+        }
+      }
+    },
+    "Moon": {
+      "name": "Strega Lunare",
+      "description": "<p>Giocate la Strega Lunare per richiamare il favore degli astri e potenziare la vostra magia.</p>"
+    },
+    "Moonbeam": {
+      "name": "Chiaro di Luna",
+      "description": "<p>Una volta per sessione, potete evocare una colonna di luce lunare che illumina l’area entro distanza Ravvicinata fino alla fine della scena. Mentre siete nella luce lunare, voi e i vostri alleati ottenete un bonus di +1 ai tiri Incantesimo e potete vedere attraverso le Illusioni.</p>",
+      "actions": {
+        "Zb9m9fJdc5aR2sTT": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "effects": {
+        "91YMJHhyGeGj7zwm": {
+          "name": "Chiaro di Luna",
+          "description": "<p>Mentre siete nella luce lunare, voi e i vostri alleati ottenete un bonus di +1 ai tiri Incantesimo e potete vedere attraverso le Illusioni.</p>"
+        }
+      }
     },
     "Natural Evasion": {
       "name": "Scudo della Natura",
@@ -563,6 +1054,84 @@
         }
       }
     },
+    "Night's Glamour": {
+      "name": "Incanto Notturno",
+      "description": "<p>Effettuate un <strong>Tiro Incantesimo (13)</strong> per avvolgervi in un’aura di <em>Incanto</em>. Mentre siete sotto l’effetto dell’<em>Incanto</em>, avete vantaggio ai tiri che sfruttano il vostro aspetto illusorio. Inoltre, gli avversari entro distanza Ravvicinata devono marcare uno Stress per attaccarvi. A meno che voi non <strong>marchiate uno Stress</strong> per mantenere l’<em>Incanto</em>, questo svanisce quando subite almeno un Punto Ferita o infliggete danni.</p>",
+      "actions": {
+        "X4ifJfMZe9ywj6U5": {
+          "name": "Tiro Incantesimo",
+          "description": ""
+        }
+      },
+      "effects": {
+        "jL8e92ig2yV2KTpJ": {
+          "name": "Incanto",
+          "description": "<p>Mentre siete sotto l’effetto dell’<em>Incanto</em>, avete vantaggio ai tiri che sfruttano il vostro aspetto illusorio. Inoltre, gli avversari entro distanza Ravvicinata devono marcare uno Stress per attaccarvi. A meno che voi non <strong>marchiate uno Stress</strong> per mantenere l’<em>Incanto</em>, questo svanisce quando subite almeno un Punto Ferita o infliggete danni.</p>"
+        }
+      }
+    },
+    "Nightwalker": {
+      "name": "Ombra Notturna",
+      "description": "<p>Scegliete l'Ombra Notturna se volete manipolare le ombre per muovervi con il favore delle tenebre.</p>"
+    },
+    "Not Done Yet": {
+      "name": "Non è Ancora Finita",
+      "description": "<p>Quando subite un danno Grave, potete guadagnare una Speranza o rimuovere uno Stress.</p>",
+      "actions": {
+        "wRaYxWWJklfQnGkE": {
+          "name": "Ottenere 1 Speranza",
+          "description": ""
+        },
+        "adUe1ZFmH1JWW0b3": {
+          "name": "Rimuovere Stress",
+          "description": ""
+        }
+      }
+    },
+    "Otherwordly": {
+      "name": "Ultraterrena",
+      "description": "<p>In caso di attacco riuscito, potete infliggere danni fisici o magici.</p>",
+      "actions": {
+        "R6KliyvYNNvAzMbz": {
+          "name": "Assumere la Posa",
+          "description": ""
+        }
+      },
+      "effects": {
+        "RtscqiOS754ouvOM": {
+          "name": "Posa: Ultraterrena",
+          "description": "<p>In caso di attacco riuscito, potete infliggere danni fisici o magici.</p>"
+        }
+      }
+    },
+    "Otherworldly Ire": {
+      "name": "Ira dell’Oltremondo",
+      "description": "<p>Una volta per riposo, quando subite danni, potete <strong>spendere un numero qualsiasi di Favori</strong> per tirare altrettanti Dadi del Patrono e scegliere come bersaglio un numero di creature entro distanza Ravvicinata pari al risultato più alto. Ogni bersaglio perde un Punto Ferita.</p>",
+      "actions": {
+        "r84dWo5C5kKvf9rf": {
+          "name": "Spendere 1 Favore",
+          "description": ""
+        }
+      }
+    },
+    "Overwhelm": {
+      "name": "Sopraffare",
+      "description": "<p>Quando un attacco contro un bersaglio ha successo, potete <strong>spendere una Speranza</strong> per scaraventarlo a distanza Ravvicinata o per costringerlo a marcare uno Stress.</p>",
+      "actions": {
+        "mjIdxGa5T9MzPk3D": {
+          "name": "Spendere 1 Speranza",
+          "description": ""
+        }
+      }
+    },
+    "Pact of the Endless": {
+      "name": "Patto dell’Infinito",
+      "description": "<p>Stringete il Patto dell’Infinito per opporvi tenacemente al nemico e ingannare la morte.</p>"
+    },
+    "Pact of the Wrathful": {
+      "name": "Patto dell’Ira",
+      "description": "<p>Stringete il Patto dell’Ira per distruggere chi osa contrastarvi.</p>"
+    },
     "Partner-in-Arms": {
       "name": "Compagni d'Arme",
       "description": "<p>Quando un alleato entro distanza Ravvicinata subisce danni, potete marcare una Casella Armatura per ridurne la gravità di una soglia.</p>",
@@ -577,6 +1146,38 @@
       "name": "La Via Prosegue",
       "description": "<p>Quando viaggiate verso un luogo già visitato o portate con voi un oggetto che è già stato in quel luogo, potete individuare il percorso più breve e diretto verso tale destinazione.</p>"
     },
+    "Patron's Fury": {
+      "name": "Furia del Patrono",
+      "description": "<p><strong>Spendete un Favore</strong> per infondere nei vostri attacchi il potere del Patrono finché non infliggete danni Gravi o la scena non termina. Quando tirate per i danni mentre questo effetto è attivo, tirate anche un numero di Dadi del Patrono pari al vostro rango e aggiungete il risultato ai danni inflitti.</p>",
+      "actions": {
+        "3oUnlLqQyd0zDHMD": {
+          "name": "Spendere 1 Favore",
+          "description": ""
+        }
+      },
+      "effects": {
+        "A8okI37ZgcpYTIL6": {
+          "name": "Furia del Patrono",
+          "description": "<p>Quando tirate per i danni mentre questo effetto è attivo, tirate anche un numero di Dadi del Patrono pari al vostro rango e aggiungete il risultato ai danni inflitti.</p>"
+        }
+      }
+    },
+    "Patron's Mantle": {
+      "name": "Mantello del Patrono",
+      "description": "<p><strong>Spendete un Favore</strong> per ammantarvi dell’aspetto terrificante del Patrono, che permane finché non subite un danno Grave o la scena non termina. Finché l’effetto è attivo, ottenete un bonus alle soglie di danno pari al rango e vantaggio ai tiri azione per intimidire un bersaglio.</p>",
+      "actions": {
+        "4rtdJw7LSUvCzsSm": {
+          "name": "Spendere 1 Favore",
+          "description": ""
+        }
+      },
+      "effects": {
+        "afUbEgMRpjjlmuOw": {
+          "name": "Mantello del Patrono",
+          "description": "<p>Finché l’effetto è attivo, ottenete un bonus alle soglie di danno pari al rango e vantaggio ai tiri azione per intimidire un bersaglio.</p>"
+        }
+      }
+    },
     "Perfect Recall": {
       "name": "Memoria Perfetta",
       "description": "<p>Una volta per riposo, quando richiamate una carta dominio nella vostra riserva, potete ridurre di 1 il suo Costo di Richiamo.</p>",
@@ -587,6 +1188,34 @@
         }
       }
     },
+    "Poison Compendium": {
+      "name": "Compendio dei Veleni",
+      "description": "<p>Conoscete anche questi veleni:</p><ul><li><p><strong>Viticcio della Mezzanotte:</strong> Il bersaglio ha svantaggio ai tiri d’attacco finché non marca uno Stress per rimuovere questa condizione.</p></li><li><p><strong>Radice della Gorgone:</strong> Il bersaglio diventa temporaneamente <em>Trattenuto</em>.</p></li></ul>",
+      "actions": {
+        "GUWDhuWJiqwANvR3": {
+          "name": "Viticcio della Mezzanotte",
+          "description": "<p>Conoscete anche questi veleni: <strong>Viticcio della Mezzanotte:</strong> Il bersaglio ha svantaggio ai tiri d’attacco finché non marca uno Stress per rimuovere questa condizione.</p>"
+        },
+        "tuUUVH5JxDjzF4O9": {
+          "name": "Radice della Gorgone",
+          "description": "<p><strong>Radice della Gorgone:</strong> Il bersaglio diventa temporaneamente <em>Trattenuto</em>.</p>"
+        }
+      },
+      "effects": {
+        "bNPKUrkGNZLkWRoF": {
+          "name": "Viticcio della Mezzanotte",
+          "description": "<p>Conoscete anche questi veleni: <strong>Viticcio della Mezzanotte:</strong> Il bersaglio ha svantaggio ai tiri d’attacco finché non marca uno Stress per rimuovere questa condizione.</p>"
+        },
+        "8YpVnj2tXjIZr8PG": {
+          "name": "Radice della Gorgone",
+          "description": ""
+        }
+      }
+    },
+    "Poisoners Guild": {
+      "name": "Gilda degli Avvelenatori",
+      "description": "<p>Scegliete la Gilda degli Avvelenatori se volete debilitare gli avversari con terribili tormenti.</p>"
+    },
     "Power of the Gods": {
       "name": "Potere degli Dèi",
       "description": "<p>Quando siete in volo grazie al privilegio \"Ali di Luce\", infliggete 1d12 danni extra invece di 1d8.</p>"
@@ -594,6 +1223,42 @@
     "Prepared": {
       "name": "Preparato",
       "description": "<p>Prendete una carta dominio aggiuntiva del vostro livello o di livello inferiore da un dominio a cui avete accesso.</p>"
+    },
+    "Primal Origin": {
+      "name": "Potere Primordiale",
+      "description": "<p>Scegliete il Potere Primordiale se volete estendere la versatilità dei vostri incantesimi in modo dirompente.</p>"
+    },
+    "Pummeljoy": {
+      "name": "Ebrezza della Lotta",
+      "description": "<p>Quando ottenete un successo critico con un attacco con un’arma da Mischia, guadagnate una Speranza aggiuntiva, rimuovete uno Stress aggiuntivo e ottenete un bonus di +1 alla Competenza per quell’attacco.</p>",
+      "actions": {
+        "5FEoHghVphlZp0zQ": {
+          "name": "",
+          "description": ""
+        }
+      },
+      "effects": {
+        "vrE41rsFdA9q6so2": {
+          "name": "Ebrezza della Lotta",
+          "description": "<p>Ottenete un bonus +1 alla Competenza per quell’attacco.</p>"
+        }
+      }
+    },
+    "Quick": {
+      "name": "Rapida",
+      "description": "<p>Quando effettuate un attacco, potete <strong>spendere un Focus</strong> o <strong>marcare uno Stress</strong> per attaccare un’altra creatura entro la portata di quell’attacco.</p>",
+      "actions": {
+        "PQCbbHf8YZVe6Xqr": {
+          "name": "Assumere la Posa",
+          "description": ""
+        }
+      },
+      "effects": {
+        "E3nMTwKEtVGuqaqS": {
+          "name": "Posa: Rapida",
+          "description": "<p>Quando effettuate un attacco, potete <strong>spendere un Focus</strong> o <strong>marcare uno Stress</strong> per attaccare un’altra creatura entro la portata di quell’attacco.</p>"
+        }
+      }
     },
     "Regeneration": {
       "name": "Rigenerazione",
@@ -608,6 +1273,22 @@
     "Regenerative Reach": {
       "name": "Onda Rigenerante",
       "description": "<p>Potete bersagliare con il privilegio \"Rigenerazione\" creature entro distanza Prossima.</p>"
+    },
+    "Reliable": {
+      "name": "Affidabile",
+      "description": "<p>Ottenete un bonus +1 ai tiri d’attacco.</p>",
+      "actions": {
+        "xjwcxV47Ms9zuZdy": {
+          "name": "Assumere la Posa",
+          "description": ""
+        }
+      },
+      "effects": {
+        "fwzWT0E4TeDptHek": {
+          "name": "Posa: Affidabile",
+          "description": "<p>Ottenete un bonus +1 ai tiri d’attacco.</p>"
+        }
+      }
     },
     "Reliable Backup": {
       "name": "Supporto Fidato",
@@ -637,6 +1318,16 @@
         }
       }
     },
+    "Rugged": {
+      "name": "Rude",
+      "description": "<p>Ottenete un bonus permanente di +3 alla soglia di danno Grave.</p>",
+      "effects": {
+        "SbSlCmhpgMii1NNL": {
+          "name": "Rude",
+          "description": "<p>Ottenete un bonus permanente di +3 alla soglia di danno Grave.</p>"
+        }
+      }
+    },
     "Ruthless Predator": {
       "name": "Predatore Spietato",
       "description": "<p>Quando effettuate un tiro per i danni, potete marcare uno Stress per ottenere bonus +1 alla Competenza. Inoltre, quando infliggete un danno Grave a un avversario, quest'ultimo deve marcare uno Stress.</p>",
@@ -656,6 +1347,44 @@
     "Sacred Resonance": {
       "name": "Risonanza Celestiale",
       "description": "<p>Quando tirate i danni per la vostra \"Arma Animata\", se i risultati dei dadi coincidono, raddoppiate il valore di ogni dado corrispondente. Ad esempio, se ottenete due 5, questi contano come due 10.</p>"
+    },
+    "Scary": {
+      "name": "Spaventosa",
+      "description": "<p>In caso di attacco riuscito, il bersaglio deve marcare uno Stress.</p>",
+      "actions": {
+        "00D4ZUNKiBYvwgL6": {
+          "name": "Assumere la Posa",
+          "description": ""
+        },
+        "8RhhH4QorYXMAGOj": {
+          "name": "Danni da Stress",
+          "description": ""
+        }
+      },
+      "effects": {
+        "r0feAH80Gh2x6Hta": {
+          "name": "Posa: Spaventosa",
+          "description": "<p>In caso di attacco riuscito, il bersaglio deve marcare uno Stress.</p>"
+        }
+      }
+    },
+    "School Of Knowledge": {
+      "name": "Scuola della Conoscenza",
+      "description": "<p>Scegliete la Scuola della Conoscenza se volete comprendere a fondo il mondo che vi circonda.</p>"
+    },
+    "School Of War": {
+      "name": "Scuola della Guerra",
+      "description": "<p>Scegliete la Scuola della Guerra se volete ricorrere ai sortilegi più devastanti.</p>"
+    },
+    "Scorpion's Poise": {
+      "name": "Posa dello Scorpione",
+      "description": "<p>Ottenete un bonus di +2 all’Evasione contro gli attacchi sferrati da una creatura che è <em>Marchiata a Morte</em>.</p>",
+      "effects": {
+        "uNKRX6TRyp4PS7xP": {
+          "name": "Posa dello Scorpione",
+          "description": "<p>Ottenete un bonus di +2 all’Evasione contro gli attacchi sferrati da una creatura che è <em>Marchiata a Morte</em>.</p>"
+        }
+      }
     },
     "Shadow Stepper": {
       "name": "Passo d'Ombra",
@@ -701,6 +1430,44 @@
         }
       }
     },
+    "Stable": {
+      "name": "Stabile",
+      "description": "<p>Potete <strong>spendere un Focus</strong> al posto di una Casella Armatura per ridurre il danno.</p>",
+      "actions": {
+        "txkpaqhmPRDGtFV2": {
+          "name": "Assumere la Posa",
+          "description": ""
+        }
+      },
+      "effects": {
+        "td74xw7ic4NbaYl0": {
+          "name": "Posa: Stabile",
+          "description": "<p>Potete <strong>spendere un Focus</strong> al posto di una Casella Armatura per ridurre il danno.</p>"
+        }
+      }
+    },
+    "Stalwart": {
+      "name": "Valoroso",
+      "description": "<p>Scegliete il Valoroso se volete incassare i colpi più pesanti e continuare a combattere.</p>"
+    },
+    "Stance Fighter": {
+      "name": "Postura del Combattente",
+      "description": "<p>Potete incanalare la vostra determinazione per assumere pose marziali che vi garantiscono benefici in combattimento. Prendete la scheda delle Pose Marziali (vedi p. 12) e scegliete due Pose Marziali dal rango 1. Ogni volta che il personaggio sale di livello, scegliete una posa aggiuntiva tra quelle del suo rango o di rango inferiore.</p><hr><p><em>Al momento, per implementarlo è sufficiente prendere le pose desiderate dal compendio <strong>Sottoclassi —&gt; Privilegi di Sottoclasse —&gt; Pose Marziali</strong></em></p>"
+    },
+    "Surrounded": {
+      "name": "Circondato",
+      "description": "<p>Quando attaccate con un’arma da Mischia, potete <strong>spendere un numero qualsiasi di Speranze</strong> per attaccare un egual numero di creature aggiuntive entro distanza di Mischia.</p>",
+      "actions": {
+        "fqSsmnCw9JyQ2Zcb": {
+          "name": "Spendere 1 Speranza",
+          "description": ""
+        }
+      }
+    },
+    "Syndicate": {
+      "name": "Ladro",
+      "description": "<p>Scegliete con il Ladro se volete avere una rete di contatti ovunque l'avventura vi conduca.</p>"
+    },
     "Thrive in Chaos": {
       "name": "Prosperare nel Caos",
       "description": "<p>Quando un attacco va a segno, potete marcare uno Stress dopo aver tirato i danni per costringere il bersaglio a subire un Punto Ferita aggiuntivo.</p>",
@@ -708,6 +1475,30 @@
         "7Z9v7GWswIQFD5YH": {
           "name": "Marcare uno Stress",
           "description": "<p>Quando un attacco va a segno, potete marcare uno Stress dopo aver tirato i danni per costringere il bersaglio a subire un Punto Ferita aggiuntivo.</p>"
+        }
+      }
+    },
+    "Toxic Concoctions": {
+      "name": "Composti Tossici",
+      "description": "<p><strong>Marcate uno Stress</strong> per posizionare <strong>1d4+1</strong> gettoni su questa carta. Quando effettuate con successo un attacco con un’arma, potete spendere un gettone per affliggere il bersaglio con un veleno scelto tra i seguenti:</p><ul><li><p><strong>Petalo Spettrale:</strong> Il bersaglio diventa temporaneamente <em>Vulnerabile</em>.</p></li><li><p><strong>Spora del Sepolcro:</strong> Il bersaglio deve anche marcare uno Stress.</p></li><li><p><strong>Erba della Sanguisuga:</strong> Infliggete <strong>1d6</strong> danni aggiuntivi con questo attacco.</p></li></ul><p>Quando effettuate un Riposo lungo, rimuovete tutti i gettoni non</p><p>spesi.</p>",
+      "actions": {
+        "muouYqVhSxKflJkl": {
+          "name": "Ottenere Gettoni",
+          "description": "<p><strong>Marcate uno Stress</strong> per posizionare <strong>[[/r 1d4+1]]</strong> gettoni su questa carta.</p>"
+        },
+        "RStmr0d20BrcSQpu": {
+          "name": "Petalo Spettrale",
+          "description": "<p>Il bersaglio diventa temporaneamente <em>Vulnerabile</em>.</p>"
+        },
+        "2cu2lGBt48HOvb3Q": {
+          "name": "Spora del Sepolcro",
+          "description": "<p>Il bersaglio deve anche marcare uno Stress.</p>"
+        }
+      },
+      "effects": {
+        "RfTbHfc8vxmGMjBq": {
+          "name": "Petalo Spettrale",
+          "description": "<p>Il bersaglio diventa temporaneamente <em>Vulnerabile</em>.</p>"
         }
       }
     },
@@ -738,6 +1529,24 @@
           "description": "<p>Una volta per riposo lungo, potete trasformarvi in una manifestazione fisica del vostro elemento e scegliere due benefici.</p>"
         }
       }
+    },
+    "Troubadour": {
+      "name": "Trovatore",
+      "description": "<p>Scegliete il Trovatore se volete evocare la forza della musica per sostenere i vostri alleati.</p>"
+    },
+    "True Strike": {
+      "name": "Colpo Preciso",
+      "description": "<p>Una volta per ogni Riposo lungo, quando fallite un attacco, potete <strong>spendere una Speranza</strong> per trasformarlo in un successo.</p>",
+      "actions": {
+        "kECUBjkHOxnSOVqE": {
+          "name": "Spendere 1 Speranza",
+          "description": ""
+        }
+      }
+    },
+    "Twin Fang": {
+      "name": "Zanne Gemelle",
+      "description": "<p>Quando un bersaglio <em>Marchiato a Morte</em> viene afflitto da un veleno, potete spendere un gettone aggiuntivo per infliggere anche l’effetto di un secondo veleno tra quelli che conoscete.</p>"
     },
     "Undaunted": {
       "name": "Imperturbabile",
@@ -785,11 +1594,87 @@
         }
       }
     },
+    "Vengeance": {
+      "name": "Vendicatore",
+      "description": "<p>Scegliete il Vendicatore se volete punire i nemici che feriscono voi o i vostri alleati.</p>"
+    },
+    "Venomancer": {
+      "name": "Venomante",
+      "description": "<p>Conoscete anche questi veleni:</p><ul><li><p><strong>Seme della Rovina:</strong> Il bersaglio subisce una penalità di −3 alle proprie soglie di danno fino alla fine della scena. Questo effetto non è cumulativo.</p></li><li><p><strong>Foglia della Paura:</strong> Infliggete danni aggiuntivi pari al risultato del vostro Dado della Paura in questo attacco.</p></li><li><p><strong>Spina Cadaverica:</strong> Il bersaglio subisce svantaggio ai tiri di reazione fino alla fine della scena.</p></li></ul>",
+      "actions": {
+        "uTNhXJiy5YAG0FdS": {
+          "name": "Seme della Rovina",
+          "description": "<p>Conoscete anche questi veleni: <strong>Seme della Rovina:</strong> Il bersaglio subisce una penalità di −3 alle proprie soglie di danno fino alla fine della scena. Questo effetto non è cumulativo.</p>"
+        },
+        "8CcarGtcoIg3Dmah": {
+          "name": "Spina Cadaverica",
+          "description": "<p><strong>Spina Cadaverica:</strong> Il bersaglio subisce svantaggio ai tiri di reazione fino alla fine della scena.</p>"
+        }
+      },
+      "effects": {
+        "BAHnbGqeiUj2Eep3": {
+          "name": "Seme della Rovina",
+          "description": "<p>Conoscete anche questi veleni: <strong>Seme della Rovina:</strong> Il bersaglio subisce una penalità di −3 alle proprie soglie di danno fino alla fine della scena. Questo effetto non è cumulativo.</p>"
+        },
+        "QDYqKyEjiJiTEv6C": {
+          "name": "Spina Cadaverica",
+          "description": "<p><strong>Spina Cadaverica:</strong> Il bersaglio subisce svantaggio ai tiri di reazione fino alla fine della scena.</p>"
+        }
+      }
+    },
+    "Vexing Malison": {
+      "name": "Malia Vessante",
+      "description": "<p>Avete vantaggio agli attacchi contro le creature che avete <em>Maledetto</em>.</p>",
+      "effects": {
+        "Rmw3sZTEYIejs3Va": {
+          "name": "Malia Vessante",
+          "description": "<p>Avete vantaggio agli attacchi contro le creature che avete <em>Maledetto</em>.</p>"
+        }
+      }
+    },
+    "Vigilant": {
+      "name": "Vigilante",
+      "description": "<p>Quando siete bersaglio di un attacco, potete <strong>marcare uno Stress</strong> per ottenere un bonus di <strong>[[/r d6]]</strong> alla vostra Evasione contro l’attacco.</p>",
+      "actions": {
+        "4oZ4pFro1PnCoENs": {
+          "name": "Assumere la Posa",
+          "description": ""
+        },
+        "akBB4AYAAZBpxLxA": {
+          "name": "Marcate 1 Stress",
+          "description": ""
+        }
+      },
+      "effects": {
+        "3ywLEf7h2TaVzOCf": {
+          "name": "Posa: Vigilante",
+          "description": "<p>Quando siete bersaglio di un attacco, potete <strong>marcare uno Stress</strong> per ottenere un bonus di <strong>[[/r d6]]</strong> alla vostra Evasione contro l’attacco.</p>"
+        }
+      }
+    },
     "Virtuoso": {
       "name": "Virtuoso",
       "description": "<p>Siete tra i più grandi musicisti mai vissuti e la vostra abilità è illimitata. Potete eseguire ogni canzone del privilegio «Musico Eccezionale» due volte invece di una sola per riposo lungo.</p>"
     },
-    "Warden’s Protection": {
+    "Walk Between Worlds": {
+      "name": "Camminare Tra i Mondi",
+      "description": "<p>Durante un momento di calma, effettuate un <strong>Tiro Incantesimo (13)</strong>. Una volta per riposo, in caso di successo, potete <strong>marcare uno Stress</strong> per varcare il velo della morte e conversare con qualsiasi spirito nelle vicinanze. Posizionate su questa carta un numero di gettoni pari al vostro tratto da incantatore e rimuovetene uno ogni volta che uno spirito risponde a una domanda. Quando l’ultimo gettone viene rimosso o alla fine della scena, tornate nel Regno dei Mortali nello stesso punto in cui l’avevate lasciato.</p>",
+      "actions": {
+        "KPwMmCHMYD1ByXDt": {
+          "name": "Tiro Incantesimo",
+          "description": ""
+        }
+      }
+    },
+    "Warden of Renewal": {
+      "name": "Custode del Rinnovamento",
+      "description": "<p>Scegliete il Custode del Rinnovamento se volete evocare potenti magie per curare i vostri compagni.</p>"
+    },
+    "Warden of the Elements": {
+      "name": "Custode degli Elementi",
+      "description": "<p>Scegliete il Custode degli Elementi se volete incarnare gli elementi primigeni della natura.</p>"
+    },
+    "Warden's Protection": {
       "name": "Protezione del Guardiano",
       "description": "<p>Una volta per riposo lungo, spendete 2 Speranze per curare 2 Punti Ferita a 1d4 alleati a distanza Ravvicinata.</p>",
       "actions": {
@@ -798,6 +1683,10 @@
           "description": "<p>Una volta per riposo lungo, spendete 2 Speranze per curare 2 Punti Ferita a [[/r 1d4]] alleati a distanza Ravvicinata.</p>"
         }
       }
+    },
+    "Wayfinder": {
+      "name": "Apripista",
+      "description": "<p>Scegliete l'Apripista se volete cacciare le vostre prede e colpirle con forza letale.</p>"
     },
     "Weapon Specialist": {
       "name": "Specialista delle Armi",
@@ -817,6 +1706,10 @@
       "name": "Legami",
       "description": "<p>Quando arrivate in una città o in un altro luogo importante, descrivete una persona che avete già conosciuto e che vive qui. Datele un nome, annotate in che modo pensate che possa esservi utile e scegliete un fatto dalla seguente lista :</p><ul><li>Mi deve un favore, ma sarà difficile trovarla.</li><li>Chiederà qualcosa in cambio.</li><li>È sempre in gran difficoltà.</li><li>Una volta stavamo insieme. È una lunga storia.</li><li>Non ci siamo lasciati in buoni rapporti.</li></ul>"
     },
+    "Winged Sentinel": {
+      "name": "Sentinella Alata",
+      "description": "<p>Scegliete la Sentinella Alata se volete spiccare il volo e sferrare colpi devastanti dal cielo.</p>"
+    },
     "Wings of Light": {
       "name": "Ali di Luce",
       "description": "<p>Potete volare. Quando siete in volo, potete :</p><ul><li>Marcare uno Stress per afferrare e trasportare un'altra creatura consenziente della vostra taglia o più piccola.</li><li>Spendere una Speranza per infliggere 1d8 danni extra in un attacco riuscito.</li></ul>",
@@ -832,74 +1725,6 @@
           "description": "<p>Marcate uno Stress per afferrare e trasportare un'altra creatura consenziente della vostra taglia o più piccola.</p>"
         }
       }
-    },
-    "Beastbound": {
-      "name": "Ferale",
-      "description": "<p>Scegliete il Ferale se volete creare un legame profondo con un alleato animale.</p>"
-    },
-    "Call Of The Brave": {
-      "name": "Chiamata del Coraggio",
-      "description": "<p>Rispondete alla Chiamata del Coraggio se volete usare la forza dei vostri nemici per alimentare il vostro potere.</p>"
-    },
-    "Call Of The Slayer": {
-      "name": "Chiamata dello Sterminatore",
-      "description": "<p>Rispondete alla Chiamata dello Sterminatore se volete abbattere gli avversari con una forza immensa.</p>"
-    },
-    "Divine Wielder": {
-      "name": "Emissario Divino",
-      "description": "<p>Scegliete l'Emissario Divino se volete dominare il campo di battaglia con un'arma benedetta.</p>"
-    },
-    "Elemental Origin": {
-      "name": "Potere Elementale",
-      "description": "<p>Scegliete il Potere Elementale se volete incanalare la potenza grezza di un particolare elemento.</p>"
-    },
-    "Nightwalker": {
-      "name": "Ombra Notturna",
-      "description": "<p>Scegliete l'Ombra Notturna se volete manipolare le ombre per muovervi con il favore delle tenebre.</p>"
-    },
-    "Primal Origin": {
-      "name": "Potere Primordiale",
-      "description": "<p>Scegliete il Potere Primordiale se volete estendere la versatilità dei vostri incantesimi in modo dirompente.</p>"
-    },
-    "School Of Knowledge": {
-      "name": "Scuola della Conoscenza",
-      "description": "<p>Scegliete la Scuola della Conoscenza se volete comprendere a fondo il mondo che vi circonda.</p>"
-    },
-    "School Of War": {
-      "name": "Scuola della Guerra",
-      "description": "<p>Scegliete la Scuola della Guerra se volete ricorrere ai sortilegi più devastanti.</p>"
-    },
-    "Stalwart": {
-      "name": "Valoroso",
-      "description": "<p>Scegliete il Valoroso se volete incassare i colpi più pesanti e continuare a combattere.</p>"
-    },
-    "Syndicate": {
-      "name": "Ladro",
-      "description": "<p>Scegliete con il Ladro se volete avere una rete di contatti ovunque l'avventura vi conduca.</p>"
-    },
-    "Troubadour": {
-      "name": "Trovatore",
-      "description": "<p>Scegliete il Trovatore se volete evocare la forza della musica per sostenere i vostri alleati.</p>"
-    },
-    "Vengeance": {
-      "name": "Vendicatore",
-      "description": "<p>Scegliete il Vendicatore se volete punire i nemici che feriscono voi o i vostri alleati.</p>"
-    },
-    "Warden of Renewal": {
-      "name": "Custode del Rinnovamento",
-      "description": "<p>Scegliete il Custode del Rinnovamento se volete evocare potenti magie per curare i vostri compagni.</p>"
-    },
-    "Warden of the Elements": {
-      "name": "Custode degli Elementi",
-      "description": "<p>Scegliete il Custode degli Elementi se volete incarnare gli elementi primigeni della natura.</p>"
-    },
-    "Wayfinder": {
-      "name": "Apripista",
-      "description": "<p>Scegliete l'Apripista se volete cacciare le vostre prede e colpirle con forza letale.</p>"
-    },
-    "Winged Sentinel": {
-      "name": "Sentinella Alata",
-      "description": "<p>Scegliete la Sentinella Alata se volete spiccare il volo e sferrare colpi devastanti dal cielo.</p>"
     },
     "Wordsmith": {
       "name": "Oratore",

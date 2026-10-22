@@ -35,10 +35,38 @@
         }
       }
     },
+    "Adder's Fang": {
+      "name": "Zanna di Vipera",
+      "description": "Avvelenatrice: Quando causate danno Maggiore o superiore con quest’arma, il bersaglio diventa temporaneamente Vulnerabile.",
+      "atkName": "Attacco",
+      "effects": {
+        "t6Qu6nt3bGnkTlXP": {
+          "name": "Avvelenatrice",
+          "description": ""
+        }
+      },
+      "actions": {
+        "1nmjsSNRC9uHl2j4": {
+          "name": "Avvelenatrice",
+          "description": "Quando causate danno Maggiore o superiore con quest’arma, il bersaglio diventa temporaneamente Vulnerabile."
+        }
+      }
+    },
     "Advanced Arcane Gauntlets": {
       "name": "Guanti Arcani Perfezionati",
       "description": "",
       "atkName": "Attacco"
+    },
+    "Advanced Arcane Rifle": {
+      "name": "Fucile Arcano Superiore",
+      "description": "Mirare: L’attacco ha svantaggio se prendete di mira un bersaglio entro distanza Prossima da voi o di Mischia da un vostro alleato. Potete marcare uno Stress per ignorare lo svantaggio.",
+      "atkName": "Attacco",
+      "actions": {
+        "LlGYNCSjPpaHCgkl": {
+          "name": "Mirare",
+          "description": "L’attacco ha svantaggio se prendete di mira un bersaglio entro distanza Prossima da voi o di Mischia da un vostro alleato. Potete marcare uno Stress per ignorare lo svantaggio."
+        }
+      }
     },
     "Advanced Arcane-Frame Wheelchair": {
       "name": "Sedia a Rotelle Perfezionata Telaio Incantato",
@@ -56,6 +84,16 @@
       "description": "",
       "atkName": "Attacco"
     },
+    "Advanced Brass Knuckles": {
+      "name": "Tirapugni d’Ottone Superiore",
+      "description": "",
+      "atkName": "Attacco"
+    },
+    "Advanced Brightsword": {
+      "name": "Spada Lucente Superiore",
+      "description": "",
+      "atkName": "Attacco"
+    },
     "Advanced Broadsword": {
       "name": "Spada Perfezionata",
       "description": "Affidabile: +1 ai tiri attacco",
@@ -66,6 +104,11 @@
           "description": "+1 ai tiri attacco"
         }
       }
+    },
+    "Advanced Casting Dagger": {
+      "name": "Pugnale da Lancio Superiore",
+      "description": "Versatile: Quest’arma può essere utilizzata anche con le seguenti statistiche — Istinto, Mischia, d8+6.",
+      "atkName": "Attacco"
     },
     "Advanced Crossbow": {
       "name": "Balestra Perfezionata",
@@ -86,6 +129,39 @@
       "name": "Bastone Gemello Perfezionato",
       "description": "",
       "atkName": "Attacco"
+    },
+    "Advanced Enchanted Chakram": {
+      "name": "Chakram Incantato Superiore",
+      "description": "Colpo di Rimbalzo: L’arma ritorna nella vostra mano dopo averla lanciata. Quando attaccate, potete marcare uno Stress per bersagliare un’altra creatura entro distanza Prossima dal primo bersaglio.",
+      "atkName": "Attacco",
+      "actions": {
+        "avUWKAVzjRuqSuxx": {
+          "name": "Colpo di Rimbalzo",
+          "description": "L’arma ritorna nella vostra mano dopo averla lanciata. Quando attaccate, potete marcare uno Stress per bersagliare un’altra creatura entro distanza Prossima dal primo bersaglio."
+        }
+      }
+    },
+    "Advanced Fighting Cloak": {
+      "name": "Cappa da Combattimento Superiore",
+      "description": "Imbottita: +4 alle soglie di danno",
+      "atkName": "Attacco",
+      "effects": {
+        "sqvQgVCVUFwF7iEK": {
+          "name": "Imbottita",
+          "description": "+4 alle soglie di danno"
+        }
+      }
+    },
+    "Advanced Focus Runes": {
+      "name": "Rune di Puntamento Superiori",
+      "description": "Puntamento: +1 al danno dell’arma primaria contro bersagli entro distanza Prossima",
+      "atkName": "Attacco",
+      "effects": {
+        "O9SelXMg3PlMtcnf": {
+          "name": "Puntamento",
+          "description": "+1 al danno dell’arma primaria contro bersagli entro distanza Prossima"
+        }
+      }
     },
     "Advanced Glowing Rings": {
       "name": "Anelli Splendenti Perfezionati",
@@ -151,6 +227,23 @@
       "description": "",
       "atkName": "Attacco"
     },
+    "Advanced Hatchet": {
+      "name": "Accetta Superiore",
+      "description": "Sequenza di Colpi: Dopo un attacco riuscito con l’arma primaria, potete marcare uno Stress per guadagnare un bonus di +1 alla vostra Competenza per calcolare i danni di questo attacco.",
+      "atkName": "Attacco",
+      "effects": {
+        "s5EoYqyCvfuLNEqX": {
+          "name": "Sequenza di Colpi",
+          "description": "Dopo un attacco riuscito con l’arma primaria, potete marcare uno Stress per guadagnare un bonus di +1 alla vostra Competenza per calcolare i danni di questo attacco."
+        }
+      },
+      "actions": {
+        "6xZol0JjA03kazRt": {
+          "name": "Sequenza di Colpi",
+          "description": "Dopo un attacco riuscito con l’arma primaria, potete marcare uno Stress per guadagnare un bonus di +1 alla vostra Competenza per calcolare i danni di questo attacco."
+        }
+      }
+    },
     "Advanced Heavy-Frame Wheelchair": {
       "name": "Sedia a Rotelle Perfezionata Telaio Pesante",
       "description": "Pesante: −1 all’Evasione",
@@ -159,6 +252,17 @@
         "1godgiqdDADyR0Tw": {
           "name": "Pesante",
           "description": "−1 all’Evasione"
+        }
+      }
+    },
+    "Advanced Katana": {
+      "name": "Katana Superiore",
+      "description": "Rapida: Quando effettuate un attacco, potete marcare uno Stress per attaccare un’altra creatura entro portata.",
+      "atkName": "Attacco",
+      "actions": {
+        "ioC63eYWrrjhf6fW": {
+          "name": "Rapida",
+          "description": "Quando effettuate un attacco, potete marcare uno Stress per attaccare un’altra creatura entro portata."
         }
       }
     },
@@ -194,6 +298,17 @@
       "description": "",
       "atkName": "Attacco"
     },
+    "Advanced Offhand Brass Knuckles": {
+      "name": "Tirapugni d’Ottone Secondario Superiore",
+      "description": "Accoppiato: +4 al danno dell’arma primaria contro bersagli entro distanza di Mischia",
+      "atkName": "Attacco",
+      "effects": {
+        "fwIRv0JhgzaawDwF": {
+          "name": "Accoppiato",
+          "description": "+4 al danno dell’arma primaria contro bersagli entro distanza di Mischia"
+        }
+      }
+    },
     "Advanced Quarterstaff": {
       "name": "Bastone Perfezionato",
       "description": "",
@@ -211,7 +326,7 @@
       }
     },
     "Advanced Returning Blade": {
-      "name": "Lama Ritornante Perfezionata",
+      "name": "Lama Ritornante Superiore",
       "description": "Ritornante: Quando quest’arma viene lanciata entro portata, riappare in mano immediatamente dopo l’attacco.",
       "atkName": "Attacco",
       "actions": {
@@ -221,6 +336,11 @@
         }
       }
     },
+    "Advanced Rope Dart": {
+      "name": "Dardo di Corda Superiore",
+      "description": "",
+      "atkName": "Attacco"
+    },
     "Advanced Round Shield": {
       "name": "Scudo Rotella Perfezionato",
       "description": "Protettore: +2 al Punteggio di Armatura",
@@ -229,6 +349,28 @@
         "7285CRGdZfHCEtT2": {
           "name": "Protettore",
           "description": "+2 al Punteggio di Armatura"
+        }
+      }
+    },
+    "Advanced Rune Shield": {
+      "name": "Scudo Runico Superiore",
+      "description": "Protettore: +3 al punteggio di Armatura",
+      "atkName": "Attacco",
+      "effects": {
+        "TqOWmUMXr5RnE8fY": {
+          "name": "Protettore",
+          "description": "+3 al punteggio di Armatura"
+        }
+      }
+    },
+    "Advanced Runelock Pistol": {
+      "name": "Pistola Runica Superiore",
+      "description": "Ricarica: Dopo aver effettuato un attacco, tirate un d6. Se ottenete 1, dovete marcare uno Stress per ricaricare quest’arma prima di poter sparare nuovamente.",
+      "atkName": "Attacco",
+      "actions": {
+        "a8XXgkfe64zMOY6R": {
+          "name": "Ricarica",
+          "description": "Dopo aver effettuato un attacco, tirate un d6. Se ottenete 1, dovete marcare uno Stress per ricaricare quest’arma prima di poter sparare nuovamente."
         }
       }
     },
@@ -242,6 +384,16 @@
           "description": "Quest’arma può essere utilizzata anche con le seguenti statistiche — Presenza, Mischia, d8+3."
         }
       }
+    },
+    "Advanced Scimitar": {
+      "name": "Scimitarra Superiore",
+      "description": "",
+      "atkName": "Attacco"
+    },
+    "Advanced Shadowblade": {
+      "name": "Lama dell’Ombra Superiore",
+      "description": "Ultraterrena: In caso di attacco riuscito, potete infliggere danni fisici o magici.",
+      "atkName": "Attacco"
     },
     "Advanced Shortbow": {
       "name": "Arco Corto Perfezionato",
@@ -280,6 +432,11 @@
       "description": "Ingombrante: −1 all’Astuzia",
       "atkName": "Attacco"
     },
+    "Advanced Throwing Knives": {
+      "name": "Coltelli da Lancio Superiori",
+      "description": "A Volontà: Potete lanciare un coltello a un bersaglio entro distanza Ravvicinata con un tiro attacco di Astuzia senza doverlo recuperare; ne avete sempre un altro a disposizione.",
+      "atkName": "Attacco"
+    },
     "Advanced Tower Shield": {
       "name": "Scudo Torre Perfezionato",
       "description": "Barriera: Aggiungete (Rango dell'arma + 1) al vostro Punteggio di Armatura; −1 all’Evasione.",
@@ -294,6 +451,11 @@
           "description": "Aggiungete (Rango dell'arma + 1) al vostro Punteggio di Armatura; −1 all’Evasione."
         }
       }
+    },
+    "Advanced Twisted Dagger": {
+      "name": "Pugnale Ritorto Superiore",
+      "description": "Perforante: La soglia di danno Maggiore del bersaglio diminuisce di 2 contro quest’arma.",
+      "atkName": "Attacco"
     },
     "Advanced Wand": {
       "name": "Bacchetta Perfezionata",
@@ -322,6 +484,38 @@
         }
       }
     },
+    "Advanced Whipsword": {
+      "name": "Spada a Frusta Superiore",
+      "description": "Versatile: Quest’arma può essere utilizzata anche con le seguenti statistiche — Astuzia, Mischia, d10+6.",
+      "atkName": "Attacco"
+    },
+    "Arc Wand": {
+      "name": "Bacchetta Arcuante",
+      "description": "Rimbalzo: Marcate 1 o più punti Stress per colpire altrettanti bersagli entro portata.",
+      "atkName": "Attacco",
+      "actions": {
+        "WbMKifYfcRQpDiP8": {
+          "name": "Rimbalzo",
+          "description": "Marcate 1 o più punti Stress per colpire altrettanti bersagli entro portata."
+        }
+      }
+    },
+    "Arcane Gauntlets": {
+      "name": "Guanti Arcani",
+      "description": "",
+      "atkName": "Attacco"
+    },
+    "Arcane Rifle": {
+      "name": "Fucile Arcano",
+      "description": "Mirare: L’attacco ha svantaggio se prendete di mira un bersaglio entro distanza Prossima da voi o di Mischia da un vostro alleato. Potete marcare uno Stress per ignorare lo svantaggio.",
+      "atkName": "Attacco",
+      "actions": {
+        "0BlWvjZi8EgnT6ln": {
+          "name": "Mirare",
+          "description": "L’attacco ha svantaggio se prendete di mira un bersaglio entro distanza Prossima da voi o di Mischia da un vostro alleato. Potete marcare uno Stress per ignorare lo svantaggio."
+        }
+      }
+    },
     "Arcane-Frame Wheelchair": {
       "name": "Sedia a Rotelle Telaio Incantato",
       "description": "Affidabile: +1 ai tiri attacco",
@@ -333,10 +527,16 @@
         }
       }
     },
-    "Arcane Gauntlets": {
-      "name": "Guanti Arcani",
-      "description": "",
-      "atkName": "Attacco"
+    "Arquebus": {
+      "name": "Schioppo",
+      "description": "Ricarica: Dopo aver effettuato un attacco, tirate un d6. Se ottenete 1, dovete marcare uno Stress per ricaricare quest’arma prima di poter sparare nuovamente.",
+      "atkName": "Attacco",
+      "actions": {
+        "t1BgFF5IT0L1QHGM": {
+          "name": "Ricarica",
+          "description": "Dopo aver effettuato un attacco, tirate un d6. Se ottenete 1, dovete marcare uno Stress per ricaricare quest’arma prima di poter sparare nuovamente."
+        }
+      }
     },
     "Axe of Fortunis": {
       "name": "Ascia di Fortunis",
@@ -354,6 +554,17 @@
       "description": "",
       "atkName": "Attacco"
     },
+    "Bec de Corbin": {
+      "name": "Becco di Corvo",
+      "description": "Devastatore: Prima di effettuare un tiro attacco, potete marcare uno Stress per usare il d20 come dado di danno.",
+      "atkName": "Attacco",
+      "actions": {
+        "hsPKe9xRQlcMwR9v": {
+          "name": "Devastatore",
+          "description": "Prima di effettuare un tiro attacco, potete marcare uno Stress per usare il d20 come dado di danno."
+        }
+      }
+    },
     "Black Powder Revolver": {
       "name": "Revolver a Polvere Nera",
       "description": "Ricarica: Dopo aver effettuato un attacco, tirate un d6. Se ottenete 1, dovete marcare uno Stress per ricaricare quest'arma prima di poter sparare nuovamente.",
@@ -364,6 +575,44 @@
           "description": "Dopo aver effettuato un attacco, tirate un d6. Se ottenete 1, dovete marcare uno Stress per ricaricare quest'arma prima di poter sparare nuovamente."
         }
       }
+    },
+    "Black Powder Serpentine": {
+      "name": "Serpentina a Polvere Nera",
+      "description": "Incendiaria: −1 all’Agilità. Dopo un attacco riuscito, tutte le creature entro distanza Prossima dal bersaglio subiscono 1 Punto Ferita.",
+      "atkName": "Attacco",
+      "effects": {
+        "DQcdvMkGHEUycaBv": {
+          "name": "Incendiaria",
+          "description": "−1 all’Agilità."
+        }
+      },
+      "actions": {
+        "pkg1z8LU5URZsQIe": {
+          "name": "Incendiaria",
+          "description": "Dopo un attacco riuscito, tutte le creature entro distanza Prossima dal bersaglio subiscono 1 Punto Ferita."
+        }
+      }
+    },
+    "Blackblood Tendril": {
+      "name": "Filamento di Sangue Nero",
+      "description": "Velenoso: Quando il bersaglio subisce un qualsiasi numero di Punti Ferita dopo un vostro attacco con Paura, marca lo stesso numero di Stress.",
+      "atkName": "Attacco"
+    },
+    "Bladed Fan": {
+      "name": "Ventaglio Tagliente",
+      "description": "Parata: Quando venite attaccati, tirate i dadi di danno di quest’arma. Scartate ogni dado di danno dell’avversario che abbia ottenuto lo stesso risultato dei vostri prima di calcolare il danno totale.",
+      "atkName": "Attacco",
+      "actions": {
+        "KrXsIpyvPDci7gXH": {
+          "name": "Parata",
+          "description": "Quando venite attaccati, tirate i dadi di danno di quest’arma. Scartate ogni dado di danno dell’avversario che abbia ottenuto lo stesso risultato dei vostri prima di calcolare il danno totale."
+        }
+      }
+    },
+    "Bladed Star": {
+      "name": "Stella Tagliente",
+      "description": "Sempre Con Voi: Quando scagliate quest’arma, vi ritorna in mano. Potete ripetere un tiro attacco fallito, ma subendo svantaggio.",
+      "atkName": "Attacco"
     },
     "Bladed Whip": {
       "name": "Frusta a Lame",
@@ -384,6 +633,23 @@
         "o18UvqLPWLe1A8XJ": {
           "name": "Guaritore",
           "description": "Durante gli interludi, guarite automaticamente un Punto Ferita."
+        }
+      }
+    },
+    "Blitz Hammer": {
+      "name": "Maglio Fulmineo",
+      "description": "Accelerazione: Una volta per scena, potete marcare uno Stress per muovervi fino a distanza Lontana e attaccare. Ottenete +1 alla vostra competenza per questo attacco.",
+      "atkName": "Attacco",
+      "effects": {
+        "pAY6jFShsLHNjnRg": {
+          "name": "Accelerazione",
+          "description": "Una volta per scena, potete marcare uno Stress per muovervi fino a distanza Lontana e attaccare. Ottenete +1 alla vostra competenza per questo attacco."
+        }
+      },
+      "actions": {
+        "1KG5ZPmXmH5X7GVe": {
+          "name": "Accelerazione",
+          "description": "Una volta per scena, potete marcare uno Stress per muovervi fino a distanza Lontana e attaccare. Ottenete +1 alla vostra competenza per questo attacco."
         }
       }
     },
@@ -409,6 +675,11 @@
         }
       }
     },
+    "Brass Knuckles": {
+      "name": "Tirapugni d’Ottone",
+      "description": "",
+      "atkName": "Attacco"
+    },
     "Braveshield": {
       "name": "Scudo del Coraggio",
       "description": "Riparo: Quando marcate una Casella Armatura, riducete il danno subito a voi e a tutti gli alleati entro una distanza di Mischia da voi che hanno subito lo stesso attacco.",
@@ -430,6 +701,11 @@
           "description": "−1 all’Evasione; +3 alla soglia di danno Grave"
         }
       }
+    },
+    "Brightsword": {
+      "name": "Spada Lucente",
+      "description": "",
+      "atkName": "Attacco"
     },
     "Broadsword": {
       "name": "Spada",
@@ -459,6 +735,16 @@
         }
       }
     },
+    "Cane Sword": {
+      "name": "Bastone Animato",
+      "description": "Retrattile: La lama può essere nascosta nel bastone per evitare di essere individuata.",
+      "atkName": "Attacco"
+    },
+    "Casting Dagger": {
+      "name": "Pugnale da Lancio",
+      "description": "Versatile: Quest’arma può essere utilizzata anche con le seguenti statistiche — Istinto, Mischia, d8.",
+      "atkName": "Attacco"
+    },
     "Casting Sword": {
       "name": "Spada Danzante",
       "description": "Versatile: Quest’arma può essere utilizzata anche con le seguenti statistiche — Conoscenza, Lontana, d6+3.",
@@ -470,9 +756,41 @@
         }
       }
     },
+    "Chained Scythe": {
+      "name": "Falce a Catena",
+      "description": "Rapida: Quando effettuate un attacco, potete marcare uno Stress per colpire un’altra creatura entro portata.",
+      "atkName": "Attacco",
+      "actions": {
+        "oS1KZo6N8KzUMxgt": {
+          "name": "Rapida",
+          "description": "Quando effettuate un attacco, potete marcare uno Stress per colpire un’altra creatura entro portata."
+        }
+      }
+    },
+    "Clockwork Crossbow": {
+      "name": "Balestra Meccanica",
+      "description": "Rapida: Quando effettuate un attacco, potete marcare uno Stress per colpire un’altra creatura entro portata.",
+      "atkName": "Attacco",
+      "actions": {
+        "L7gm9rLjSswDoeg6": {
+          "name": "Rapida",
+          "description": "Quando effettuate un attacco, potete marcare uno Stress per colpire un’altra creatura entro portata."
+        }
+      }
+    },
+    "Collapsible Baton": {
+      "name": "Manganello Estensibile",
+      "description": "Non Letale: Invece di infliggere danno in forma di Punti Ferita, quest’arma costringe il bersaglio a marcare altrettanti Stress.",
+      "atkName": "Attacco"
+    },
     "Crossbow": {
       "name": "Balestra",
       "description": "",
+      "atkName": "Attacco"
+    },
+    "Crystal Spear": {
+      "name": "Lancia di Cristallo",
+      "description": "Perforante: La soglia di danno Maggiore del bersaglio diminuisce di 2 contro quest’arma.",
       "atkName": "Attacco"
     },
     "Curved Dagger": {
@@ -491,10 +809,32 @@
       "description": "",
       "atkName": "Attacco"
     },
+    "Cyrurgien's Scalpel": {
+      "name": "Bisturi di Cyrurgien",
+      "description": "Spaventoso: In caso di attacco riuscito, il bersaglio deve marcare uno Stress.",
+      "atkName": "Attacco",
+      "actions": {
+        "mmsWOr3NPsbUM4TB": {
+          "name": "Spaventoso",
+          "description": "In caso di attacco riuscito, il bersaglio deve marcare uno Stress."
+        }
+      }
+    },
     "Dagger": {
       "name": "Pugnale",
       "description": "",
       "atkName": "Attacco"
+    },
+    "Demon's Edge": {
+      "name": "Taglio del Demone",
+      "description": "Disturbante: Quando sconfiggete una creatura con quest’arma, tutti gli avversari entro distanza Ravvicinata devono marcare uno Stress.",
+      "atkName": "Attacco",
+      "actions": {
+        "HZfWsLRQkSlCt8iV": {
+          "name": "Disturbante",
+          "description": "Quando sconfiggete una creatura con quest’arma, tutti gli avversari entro distanza Ravvicinata devono marcare uno Stress."
+        }
+      }
     },
     "Devouring Dagger": {
       "name": "Pugnale Divorante",
@@ -506,6 +846,11 @@
           "description": "In caso di attacco riuscito, il bersaglio deve marcare uno Stress."
         }
       }
+    },
+    "Displacement Razor": {
+      "name": "Rasoio della Dislocazione",
+      "description": "Onnipresente: Potete attaccare bersagli fino a distanza Remota, ma con svantaggio.",
+      "atkName": "Attacco"
     },
     "Double Flail": {
       "name": "Doppio Flagello",
@@ -534,6 +879,17 @@
       "description": "",
       "atkName": "Attacco"
     },
+    "Echo Blade": {
+      "name": "Lama dell’Eco",
+      "description": "Raddoppio: Quando riuscite in un attacco con l’arma primaria potete causare lo stesso danno a un secondo bersaglio entro distanza di Mischia.",
+      "atkName": "Attacco",
+      "actions": {
+        "NO0cfOXGO0Z3vTwd": {
+          "name": "Raddoppio",
+          "description": "Quando riuscite in un attacco con l’arma primaria potete causare lo stesso danno a un secondo bersaglio entro distanza di Mischia."
+        }
+      }
+    },
     "Ego Blade": {
       "name": "Lama dell’Ego",
       "description": "Sfarzosa: Dovete avere una Presenza pari o inferiore a 0 per usare quest’arma.",
@@ -556,6 +912,73 @@
         }
       }
     },
+    "Eldritch Vambrace": {
+      "name": "Vambrace Stregato",
+      "description": "Deflettente: Al prossimo attacco, potete marcare una Casella Armatura per ottenere un bonus all’Evasione pari al Punteggio di Armatura.",
+      "atkName": "Attacco",
+      "effects": {
+        "lWlxUPj4Ma4TPkqb": {
+          "name": "Deflettente",
+          "description": "Al prossimo attacco, potete marcare una Casella Armatura per ottenere un bonus all’Evasione pari al Punteggio di Armatura."
+        }
+      },
+      "actions": {
+        "B3PW3yWLtXAN2bZq": {
+          "name": "Deflettente",
+          "description": "Al prossimo attacco, potete marcare una Casella Armatura per ottenere un bonus all’Evasione pari al Punteggio di Armatura."
+        }
+      }
+    },
+    "Enchanted Chakram": {
+      "name": "Chakram Incantato",
+      "description": "Colpo di Rimbalzo: L’arma ritorna nella vostra mano dopo averla lanciata. Quando attaccate, potete marcare uno Stress per bersagliare un’altra creatura entro distanza Prossima dal primo bersaglio.",
+      "atkName": "Attacco",
+      "actions": {
+        "oK1CHBxZLcmM37jR": {
+          "name": "Colpo di Rimbalzo",
+          "description": "L’arma ritorna nella vostra mano dopo averla lanciata. Quando attaccate, potete marcare uno Stress per bersagliare un’altra creatura entro distanza Prossima dal primo bersaglio."
+        }
+      }
+    },
+    "Enchanted Lute": {
+      "name": "Liuto Incantato",
+      "description": "Rinvigorente: Dopo un attacco riuscito, tirate un d4. Se ottenete 4, rimuovete uno Stress.",
+      "atkName": "Attacco",
+      "actions": {
+        "EIwNjlroQWthm07Q": {
+          "name": "Rinvigorente",
+          "description": "Dopo un attacco riuscito, tirate un d4. Se ottenete 4, rimuovete uno Stress."
+        }
+      }
+    },
+    "Enchanted Shillelagh": {
+      "name": "Shillelagh Incantato",
+      "description": "Protettore: +1 al Punteggio di Armatura",
+      "atkName": "Attacco",
+      "effects": {
+        "tL0mow5BGsYS4wPp": {
+          "name": "Protettore",
+          "description": "+1 al Punteggio di Armatura"
+        }
+      }
+    },
+    "Ethereal Zweihänder": {
+      "name": "Zweihänder Etereo",
+      "description": "Etereo: Dovete marcare 1 Stress per evocare quest’arma. Rimane fino alla fine della scena.",
+      "atkName": "Attacco",
+      "effects": {
+        "MnQKsDs3DCwlqUQs": {
+          "name": "Etereo",
+          "description": "Quest’arma rimane fino alla fine della scena."
+        }
+      },
+      "actions": {
+        "XdQBnYfIX5Km5KqU": {
+          "name": "Etereo",
+          "description": "Dovete marcare 1 Stress per evocare quest’arma. Rimane fino alla fine della scena."
+        }
+      }
+    },
     "Extended Polearm": {
       "name": "Picca da Guerra",
       "description": "Allungata: L’attacco di quest’arma colpisce tutti gli avversari in linea entro la portata.",
@@ -564,6 +987,17 @@
         "NzpJeAJKyd4SItjH": {
           "name": "Allungata",
           "description": "L’attacco di quest’arma colpisce tutti gli avversari in linea entro la portata."
+        }
+      }
+    },
+    "Fighting Cloak": {
+      "name": "Cappa da Combattimento",
+      "description": "Imbottita: +2 alle soglie di danno",
+      "atkName": "Attacco",
+      "effects": {
+        "CxilXxOVfmo18wTL": {
+          "name": "Imbottita",
+          "description": "+2 alle soglie di danno"
         }
       }
     },
@@ -608,6 +1042,28 @@
         "T831j6kZiMnpMNmv": {
           "name": "Potenti",
           "description": "In caso di attacco riuscito, tirate un dado di danno aggiuntivo e scartate il risultato più basso."
+        }
+      }
+    },
+    "Focus Runes": {
+      "name": "Rune di Puntamento",
+      "description": "Puntamento: +1 al danno dell’arma primaria contro bersagli entro distanza Prossima",
+      "atkName": "Attacco",
+      "effects": {
+        "vJzsPmp4JkV4QTDm": {
+          "name": "Puntamento",
+          "description": "+1 al danno dell’arma primaria contro bersagli entro distanza Prossima"
+        }
+      }
+    },
+    "Fury Gem": {
+      "name": "Gemma della Furia",
+      "description": "Ustionante: Quando ottenete il punteggio massimo su un dado di danno, il bersaglio deve marcare uno Stress.",
+      "atkName": "Attacco",
+      "actions": {
+        "XpE38Dn617zBvsiX": {
+          "name": "Ustionante",
+          "description": "Quando ottenete il punteggio massimo su un dado di danno, il bersaglio deve marcare uno Stress."
         }
       }
     },
@@ -665,6 +1121,17 @@
         }
       }
     },
+    "Gravity Arbalest": {
+      "name": "Balestra Pesante della Gravità",
+      "description": "Magnetica: Quando attaccate con quest’arma, potete spendere una Speranza per costringere tutti gli avversari entro distanza Prossima dal bersaglio a effettuare un Tiro Reazione (16). Chi fallisce deve marcare uno Stress e viene trascinato a distanza di Mischia dal bersaglio.",
+      "atkName": "Attacco",
+      "actions": {
+        "R0DsdoMfAJNfGLy5": {
+          "name": "Magnetica",
+          "description": "Quando attaccate con quest’arma, potete spendere una Speranza per costringere tutti gli avversari entro distanza Prossima dal bersaglio a effettuare un Tiro Reazione (16). Chi fallisce deve marcare uno Stress e viene trascinato a distanza di Mischia dal bersaglio."
+        }
+      }
+    },
     "Greatbow": {
       "name": "Arco Grande",
       "description": "Potente: In caso di attacco riuscito, tirate un dado di danno aggiuntivo e scartate il risultato più basso.",
@@ -697,6 +1164,11 @@
           "description": "−1 all’Evasione; in caso di attacco riuscito, tirate un dado di danno aggiuntivo e scartate il risultato più basso."
         }
       }
+    },
+    "Gunblade": {
+      "name": "Gunblade",
+      "description": "Versatile: Quest’arma può essere utilizzata anche con le seguenti statistiche — Agilità, Mischia, d8+6.",
+      "atkName": "Attacco"
     },
     "Halberd": {
       "name": "Alabarda",
@@ -768,6 +1240,23 @@
         }
       }
     },
+    "Hatchet": {
+      "name": "Accetta",
+      "description": "Sequenza di Colpi: Dopo un attacco riuscito con l’arma primaria, potete marcare uno Stress per guadagnare un bonus +1 alla vostra Competenza per calcolare i danni di questo attacco.",
+      "atkName": "Attacco",
+      "effects": {
+        "cLwG6tOV7LaFZDiF": {
+          "name": "Sequenza di Colpi",
+          "description": "Dopo un attacco riuscito con l’arma primaria, potete marcare uno Stress per guadagnare un bonus +1 alla vostra Competenza per calcolare i danni di questo attacco."
+        }
+      },
+      "actions": {
+        "9rorDndpgEXMAnaf": {
+          "name": "Sequenza di Colpi",
+          "description": "Dopo un attacco riuscito con l’arma primaria, potete marcare uno Stress per guadagnare un bonus +1 alla vostra Competenza per calcolare i danni di questo attacco."
+        }
+      }
+    },
     "Heavy-Frame Wheelchair": {
       "name": "Sedia a Rotelle Telaio Pesante",
       "description": "Pesante: −1 all’Evasione",
@@ -806,6 +1295,17 @@
       "description": "",
       "atkName": "Attacco"
     },
+    "Improved Arcane Rifle": {
+      "name": "Fucile Arcano Perfezionato",
+      "description": "Mirare: L’attacco ha svantaggio se prendete di mira un bersaglio entro distanza Prossima da voi o di Mischia da un vostro alleato. Potete marcare uno Stress per ignorare lo svantaggio.",
+      "atkName": "Attacco",
+      "actions": {
+        "wfUJ95m1Numktbyc": {
+          "name": "Mirare",
+          "description": "L’attacco ha svantaggio se prendete di mira un bersaglio entro distanza Prossima da voi o di Mischia da un vostro alleato. Potete marcare uno Stress per ignorare lo svantaggio."
+        }
+      }
+    },
     "Improved Arcane-Frame Wheelchair": {
       "name": "Sedia a Rotelle Superiore Telaio Incantato",
       "description": "Affidabile: +1 al tiro attacco",
@@ -822,6 +1322,16 @@
       "description": "",
       "atkName": "Attacco"
     },
+    "Improved Brass Knuckles": {
+      "name": "Tirapugni d’Ottone Perfezionati",
+      "description": "",
+      "atkName": "Attacco"
+    },
+    "Improved Brightsword": {
+      "name": "Spada Lucente Perfezionata",
+      "description": "",
+      "atkName": "Attacco"
+    },
     "Improved Broadsword": {
       "name": "Spada Superiore",
       "description": "Affidabile: +1 ai tiri attacco",
@@ -832,6 +1342,11 @@
           "description": "+1 ai tiri attacco"
         }
       }
+    },
+    "Improved Casting Dagger": {
+      "name": "Pugnale da Lancio Perfezionato",
+      "description": "Versatile: Quest’arma può essere utilizzata anche con le seguenti statistiche — Istinto, Mischia, d8+3.",
+      "atkName": "Attacco"
     },
     "Improved Crossbow": {
       "name": "Balestra Superiore",
@@ -852,6 +1367,39 @@
       "name": "Bastone Gemello Superiore",
       "description": "",
       "atkName": "Attacco"
+    },
+    "Improved Enchanted Chakram": {
+      "name": "Chakram Incantato Perfezionato",
+      "description": "Colpo di Rimbalzo: L’arma ritorna nella vostra mano dopo averla lanciata. Quando attaccate, potete marcare uno Stress per bersagliare un’altra creatura entro distanza Prossima dal primo bersaglio.",
+      "atkName": "Attacco",
+      "actions": {
+        "63LHxPGiZnKndZ6C": {
+          "name": "Colpo di Rimbalzo",
+          "description": "L’arma ritorna nella vostra mano dopo averla lanciata. Quando attaccate, potete marcare uno Stress per bersagliare un’altra creatura entro distanza Prossima dal primo bersaglio."
+        }
+      }
+    },
+    "Improved Fighting Cloak": {
+      "name": "Cappa da Combattimento Perfezionata",
+      "description": "Imbottita: +3 alle soglie di danno",
+      "atkName": "Attacco",
+      "effects": {
+        "CodCGSBBAQufpUJ4": {
+          "name": "Imbottita",
+          "description": "+3 alle soglie di danno"
+        }
+      }
+    },
+    "Improved Focus Runes": {
+      "name": "Rune di Puntamento Perfezionate",
+      "description": "Puntamento: +1 al danno dell’arma primaria contro bersagli entro distanza Prossima",
+      "atkName": "Attacco",
+      "effects": {
+        "EBYlSiZrmwPd5G2J": {
+          "name": "Puntamento",
+          "description": "+1 al danno dell’arma primaria contro bersagli entro distanza Prossima"
+        }
+      }
     },
     "Improved Glowing Rings": {
       "name": "Anelli Splendenti Superiori",
@@ -917,6 +1465,23 @@
       "description": "",
       "atkName": "Attacco"
     },
+    "Improved Hatchet": {
+      "name": "Accetta Perfezionata",
+      "description": "Sequenza di Colpi: Dopo un attacco riuscito con l’arma primaria, potete marcare uno Stress per guadagnare un bonus di +1 alla vostra Competenza per calcolare i danni di questo attacco.",
+      "atkName": "Attacco",
+      "effects": {
+        "bNAAyWfT5h6KTW0b": {
+          "name": "Sequenza di Colpi",
+          "description": "Dopo un attacco riuscito con l’arma primaria, potete marcare uno Stress per guadagnare un bonus di +1 alla vostra Competenza per calcolare i danni di questo attacco."
+        }
+      },
+      "actions": {
+        "PPMmt3MyqylWoBPQ": {
+          "name": "Sequenza di Colpi",
+          "description": "Dopo un attacco riuscito con l’arma primaria, potete marcare uno Stress per guadagnare un bonus di +1 alla vostra Competenza per calcolare i danni di questo attacco."
+        }
+      }
+    },
     "Improved Heavy-Frame Wheelchair": {
       "name": "Sedia a Rotelle Superiore Telaio Pesante",
       "description": "Pesante: −1 all’Evasione",
@@ -925,6 +1490,17 @@
         "1godgiqdDADyR0Tw": {
           "name": "Pesante",
           "description": "−1 all’Evasione"
+        }
+      }
+    },
+    "Improved Katana": {
+      "name": "Katana Perfezionata",
+      "description": "Rapida: Quando effettuate un attacco, potete marcare uno Stress per attaccare un’altra creatura entro portata.",
+      "atkName": "Attacco",
+      "actions": {
+        "Ph7QtVYXhBfHFl0D": {
+          "name": "Rapida",
+          "description": "Quando effettuate un attacco, potete marcare uno Stress per attaccare un’altra creatura entro portata."
         }
       }
     },
@@ -960,6 +1536,17 @@
       "description": "",
       "atkName": "Attacco"
     },
+    "Improved Offhand Brass Knuckles": {
+      "name": "Tirapugni d’Ottone Secondario Perfezionato",
+      "description": "Accoppiato: +3 al danno dell’arma primaria contro bersagli entro distanza di Mischia",
+      "atkName": "Attacco",
+      "effects": {
+        "K54TvFYeqh9tvGSS": {
+          "name": "Accoppiato",
+          "description": "+3 al danno dell’arma primaria contro bersagli entro distanza di Mischia"
+        }
+      }
+    },
     "Improved Quarterstaff": {
       "name": "Bastone Superiore",
       "description": "",
@@ -987,6 +1574,11 @@
         }
       }
     },
+    "Improved Rope Dart": {
+      "name": "Dardo di Corda Perfezionato",
+      "description": "",
+      "atkName": "Attacco"
+    },
     "Improved Round Shield": {
       "name": "Scudo Rotella Superiore",
       "description": "Protettore: +3 al Punteggio di Armatura",
@@ -995,6 +1587,28 @@
         "pZCrWd7zLTarvEQK": {
           "name": "Protettore",
           "description": "<p>+3 al Punteggio di Armatura</p>"
+        }
+      }
+    },
+    "Improved Rune Shield": {
+      "name": "Scudo Runico Perfezionato",
+      "description": "Protettore: +2 al punteggio di Armatura",
+      "atkName": "Attacco",
+      "effects": {
+        "2GJFRy7hXnzFe0Rz": {
+          "name": "Protettore",
+          "description": "+2 al punteggio di Armatura"
+        }
+      }
+    },
+    "Improved Runelock Pistol": {
+      "name": "Pistola Runica Perfezionata",
+      "description": "Ricarica: Dopo aver effettuato un attacco, tirate un d6. Se ottenete 1, dovete marcare uno Stress per ricaricare quest’arma prima di poter sparare nuovamente.",
+      "atkName": "Attacco",
+      "actions": {
+        "PP0Je3qdGdhYu53K": {
+          "name": "Ricarica",
+          "description": "Dopo aver effettuato un attacco, tirate un d6. Se ottenete 1, dovete marcare uno Stress per ricaricare quest’arma prima di poter sparare nuovamente."
         }
       }
     },
@@ -1008,6 +1622,16 @@
           "description": "Quest’arma può essere utilizzata anche con le seguenti statistiche — Presenza, Mischia, d8+4."
         }
       }
+    },
+    "Improved Scimitar": {
+      "name": "Scimitarra Perfezionata",
+      "description": "",
+      "atkName": "Attacco"
+    },
+    "Improved Shadowblade": {
+      "name": "Lama dell’Ombra Perfezionata",
+      "description": "Ultraterrena: In caso di attacco riuscito, potete infliggere danni fisici o magici.",
+      "atkName": "Attacco"
     },
     "Improved Shortbow": {
       "name": "Arco Corto Superiore",
@@ -1046,6 +1670,11 @@
       "description": "Ingombrante: −1 all’Astuzia",
       "atkName": "Attacco"
     },
+    "Improved Throwing Knives": {
+      "name": "Coltelli da Lancio Perfezionati",
+      "description": "A Volontà: Potete lanciare un coltello a un bersaglio entro distanza Ravvicinata con un tiro attacco di Astuzia senza doverlo recuperare; ne avete sempre un altro a disposizione.",
+      "atkName": "Attacco"
+    },
     "Improved Tower Shield": {
       "name": "Scudo Torre Superiore",
       "description": "Barriera: +4 al Punteggio di Armatura; −1 all’Evasione.",
@@ -1060,6 +1689,11 @@
           "description": "+4 al Punteggio di Armatura; −1 all’Evasione."
         }
       }
+    },
+    "Improved Twisted Dagger": {
+      "name": "Pugnale Ritorto Perfezionato",
+      "description": "Perforante: La soglia di danno Maggiore del bersaglio diminuisce di 2 contro quest’arma.",
+      "atkName": "Attacco"
     },
     "Improved Wand": {
       "name": "Bacchetta Superiore",
@@ -1085,6 +1719,32 @@
         "itHKcDEckRlitu2z": {
           "name": "Snervante",
           "description": "Marcate uno Stress per schioccare la frusta e costringere tutti gli avversari in Mischia ad allontanarsi a distanza Ravvicinata."
+        }
+      }
+    },
+    "Improved Whipsword": {
+      "name": "Spada a Frusta Perfezionata",
+      "description": "Versatile: Quest’arma può essere utilizzata anche con le seguenti statistiche — Astuzia, Mischia, d10+3.",
+      "atkName": "Attacco"
+    },
+    "Infinite Staff": {
+      "name": "Bastone Infinito",
+      "description": "Estensione: Potete incrementare la portata dell’arma fino a Remota. Ricevete una penalità di −1 al tiro attacco per ogni categoria di incremento (da Mischia a Prossima, da Prossima a Ravvicinata, o da Ravvicinata a Lontana).",
+      "atkName": "Attacco"
+    },
+    "Javelins": {
+      "name": "Giavellotti",
+      "description": "A Volontà: Potete lanciare un giavellotto a un bersaglio entro distanza Lontana con un tiro attacco di Agilità senza doverlo recuperare; ne avete sempre un altro a disposizione.",
+      "atkName": "Attacco"
+    },
+    "Katana": {
+      "name": "Katana",
+      "description": "Rapida: Quando effettuate un attacco, potete marcare uno Stress per attaccare un’altra creatura entro portata.",
+      "atkName": "Attacco",
+      "actions": {
+        "gvtWBJWDlKyv1XyC": {
+          "name": "Rapida",
+          "description": "Quando effettuate un attacco, potete marcare uno Stress per attaccare un’altra creatura entro portata."
         }
       }
     },
@@ -1126,10 +1786,32 @@
         }
       }
     },
+    "Lance": {
+      "name": "Lancia da Cavaliere",
+      "description": "Ingombrante: −1 all’Astuzia",
+      "atkName": "Attacco",
+      "effects": {
+        "zj1ddWCXh6TuGr3c": {
+          "name": "Ingombrante",
+          "description": "−1 all’Astuzia"
+        }
+      }
+    },
     "Legendary Arcane Gauntlets": {
       "name": "Guanti Arcani Leggendari",
       "description": "",
       "atkName": "Attacco"
+    },
+    "Legendary Arcane Rifle": {
+      "name": "Fucile Arcano Leggendario",
+      "description": "Mirare: L’attacco ha svantaggio se prendete di mira un bersaglio entro distanza Prossima da voi o di Mischia da un vostro alleato. Potete marcare uno Stress per ignorare lo svantaggio.",
+      "atkName": "Attacco",
+      "actions": {
+        "hYAHv9sRJB8FhWyF": {
+          "name": "Mirare",
+          "description": "L’attacco ha svantaggio se prendete di mira un bersaglio entro distanza Prossima da voi o di Mischia da un vostro alleato. Potete marcare uno Stress per ignorare lo svantaggio."
+        }
+      }
     },
     "Legendary Arcane-Frame Wheelchair": {
       "name": "Sedia a Rotelle Leggendaria Telaio Incantato",
@@ -1147,6 +1829,16 @@
       "description": "",
       "atkName": "Attacco"
     },
+    "Legendary Brass Knuckles": {
+      "name": "Tirapugni d’Ottone Leggendario",
+      "description": "",
+      "atkName": "Attacco"
+    },
+    "Legendary Brightsword": {
+      "name": "Spada Lucente Leggendaria",
+      "description": "",
+      "atkName": "Attacco"
+    },
     "Legendary Broadsword": {
       "name": "Spada Leggendaria",
       "description": "Affidabile: +1 ai tiri attacco",
@@ -1157,6 +1849,11 @@
           "description": "+1 ai tiri attacco"
         }
       }
+    },
+    "Legendary Casting Dagger": {
+      "name": "Pugnale da Lancio Leggendario",
+      "description": "Versatile: Quest’arma può essere utilizzata anche con le seguenti statistiche — Istinto, Mischia, d8+9.",
+      "atkName": "Attacco"
     },
     "Legendary Crossbow": {
       "name": "Balestra Leggendaria",
@@ -1177,6 +1874,39 @@
       "name": "Bastone Gemello Leggendario",
       "description": "",
       "atkName": "Attacco"
+    },
+    "Legendary Enchanted Chakram": {
+      "name": "Chakram Incantato Leggendario",
+      "description": "Colpo di Rimbalzo: L’arma ritorna nella vostra mano dopo averla lanciata. Quando attaccate, potete marcare uno Stress per bersagliare un’altra creatura entro distanza Prossima dal primo bersaglio.",
+      "atkName": "Attacco",
+      "actions": {
+        "DgcClkP4KaQpNhUD": {
+          "name": "Colpo di Rimbalzo",
+          "description": "L’arma ritorna nella vostra mano dopo averla lanciata. Quando attaccate, potete marcare uno Stress per bersagliare un’altra creatura entro distanza Prossima dal primo bersaglio."
+        }
+      }
+    },
+    "Legendary Fighting Cloak": {
+      "name": "Cappa da Combattimento Leggendaria",
+      "description": "Imbottita: +5 alle soglie di danno",
+      "atkName": "Attacco",
+      "effects": {
+        "GrtsRfCZH1IOkgje": {
+          "name": "Imbottita",
+          "description": "+5 alle soglie di danno"
+        }
+      }
+    },
+    "Legendary Focus Runes": {
+      "name": "Rune di Puntamento Leggendarie",
+      "description": "Puntamento: +1 al danno dell’arma primaria contro bersagli entro distanza Prossima",
+      "atkName": "Attacco",
+      "effects": {
+        "urUpY16MvP1UGWyK": {
+          "name": "Puntamento",
+          "description": "+1 al danno dell’arma primaria contro bersagli entro distanza Prossima"
+        }
+      }
     },
     "Legendary Glowing Rings": {
       "name": "Anelli Splendenti Leggendari",
@@ -1242,6 +1972,23 @@
       "description": "",
       "atkName": "Attacco"
     },
+    "Legendary Hatchet": {
+      "name": "Accetta Leggendaria",
+      "description": "Sequenza di Colpi: Dopo un attacco riuscito con l’arma primaria, potete marcare uno Stress per guadagnare un bonus di +1 alla vostra Competenza per calcolare i danni di questo attacco.",
+      "atkName": "Attacco",
+      "effects": {
+        "r37xG24Qrx3q4ObR": {
+          "name": "Sequenza di Colpi",
+          "description": "Dopo un attacco riuscito con l’arma primaria, potete marcare uno Stress per guadagnare un bonus di +1 alla vostra Competenza per calcolare i danni di questo attacco."
+        }
+      },
+      "actions": {
+        "sE7LyJkbAZMXTGH3": {
+          "name": "Sequenza di Colpi",
+          "description": "Dopo un attacco riuscito con l’arma primaria, potete marcare uno Stress per guadagnare un bonus di +1 alla vostra Competenza per calcolare i danni di questo attacco."
+        }
+      }
+    },
     "Legendary Heavy-Frame Wheelchair": {
       "name": "Sedia a Rotelle Leggendaria Telaio Pesante",
       "description": "Pesante: −1 all’Evasione",
@@ -1250,6 +1997,17 @@
         "1godgiqdDADyR0Tw": {
           "name": "Pesante",
           "description": "−1 all’Evasione"
+        }
+      }
+    },
+    "Legendary Katana": {
+      "name": "Katana Leggendaria",
+      "description": "Rapida: Quando effettuate un attacco, potete marcare uno Stress per attaccare un’altra creatura entro portata.",
+      "atkName": "Attacco",
+      "actions": {
+        "VJCNMcl7MoJWwuFl": {
+          "name": "Rapida",
+          "description": "Quando effettuate un attacco, potete marcare uno Stress per attaccare un’altra creatura entro portata."
         }
       }
     },
@@ -1285,6 +2043,17 @@
       "description": "",
       "atkName": "Attacco"
     },
+    "Legendary Offhand Brass Knuckles": {
+      "name": "Tirapugni d’Ottone Secondario Leggendario",
+      "description": "Accoppiato: +5 al danno dell’arma primaria contro bersagli entro distanza di Mischia",
+      "atkName": "Attacco",
+      "effects": {
+        "5vwZnbIvZmUi4tZM": {
+          "name": "Accoppiato",
+          "description": "+5 al danno dell’arma primaria contro bersagli entro distanza di Mischia"
+        }
+      }
+    },
     "Legendary Quarterstaff": {
       "name": "Bastone Leggendario",
       "description": "",
@@ -1312,6 +2081,11 @@
         }
       }
     },
+    "Legendary Rope Dart": {
+      "name": "Dardo di Corda Leggendario",
+      "description": "",
+      "atkName": "Attacco"
+    },
     "Legendary Round Shield": {
       "name": "Scudo Rotella Leggendario",
       "description": "Protettore: +4 al Punteggio di Armatura",
@@ -1320,6 +2094,28 @@
         "EixxJrRHyc6kj3Wg": {
           "name": "Protettore",
           "description": "<p>+4 al Punteggio di Armatura</p>"
+        }
+      }
+    },
+    "Legendary Rune Shield": {
+      "name": "Scudo Runico Leggendario",
+      "description": "Protettore: +4 al punteggio di Armatura",
+      "atkName": "Attacco",
+      "effects": {
+        "rTFu4NUuHm9UiJr6": {
+          "name": "Protettore",
+          "description": "+4 al punteggio di Armatura"
+        }
+      }
+    },
+    "Legendary Runelock Pistol": {
+      "name": "Pistola Runica Leggendaria",
+      "description": "Ricarica: Dopo aver effettuato un attacco, tirate un d6. Se ottenete 1, dovete marcare uno Stress per ricaricare quest’arma prima di poter sparare nuovamente.",
+      "atkName": "Attacco",
+      "actions": {
+        "F5YMvafEsSwp8pqU": {
+          "name": "Ricarica",
+          "description": "Dopo aver effettuato un attacco, tirate un d6. Se ottenete 1, dovete marcare uno Stress per ricaricare quest’arma prima di poter sparare nuovamente."
         }
       }
     },
@@ -1333,6 +2129,16 @@
           "description": "Quest’arma può essere utilizzata anche con le seguenti statistiche — Presenza, Mischia, d8+6."
         }
       }
+    },
+    "Legendary Scimitar": {
+      "name": "Scimitarra Leggendaria",
+      "description": "",
+      "atkName": "Attacco"
+    },
+    "Legendary Shadowblade": {
+      "name": "Lama dell’Ombra Leggendaria",
+      "description": "Ultraterrena: In caso di attacco riuscito, potete infliggere danni fisici o magici.",
+      "atkName": "Attacco"
     },
     "Legendary Shortbow": {
       "name": "Arco Corto Leggendario",
@@ -1371,6 +2177,11 @@
       "description": "Ingombrante: −1 all’Astuzia",
       "atkName": "Attacco"
     },
+    "Legendary Throwing Knives": {
+      "name": "Coltelli da Lancio Leggendari",
+      "description": "A Volontà: Potete lanciare un coltello a un bersaglio entro distanza Ravvicinata con un tiro attacco di Astuzia senza doverlo recuperare; ne avete sempre un altro a disposizione.",
+      "atkName": "Attacco"
+    },
     "Legendary Tower Shield": {
       "name": "Scudo Torre Leggendario",
       "description": "Barriera: +5 al Punteggio di Armatura; −1 all’Evasione.",
@@ -1385,6 +2196,11 @@
           "description": "+5 al Punteggio di Armatura; −1 all’Evasione."
         }
       }
+    },
+    "Legendary Twisted Dagger": {
+      "name": "Pugnale Ritorto Leggendario",
+      "description": "Perforante: La soglia di danno Maggiore del bersaglio diminuisce di 2 contro quest’arma.",
+      "atkName": "Attacco"
     },
     "Legendary Wand": {
       "name": "Bacchetta Leggendaria",
@@ -1412,6 +2228,11 @@
           "description": "Marcate uno Stress per schioccare la frusta e costringere tutti gli avversari in Mischia ad allontanarsi a distanza Ravvicinata."
         }
       }
+    },
+    "Legendary Whipsword": {
+      "name": "Spada a Frusta Leggendaria",
+      "description": "Versatile: Quest’arma può essere utilizzata anche con le seguenti statistiche — Astuzia, Mischia, d10+9.",
+      "atkName": "Attacco"
     },
     "Light-Frame Wheelchair": {
       "name": "Sedia a Rotelle Telaio Leggero",
@@ -1495,6 +2316,22 @@
         }
       }
     },
+    "Möbius Orb": {
+      "name": "Globo di Möbius",
+      "description": "Ricorsivo: Quando ottenete il risultato massimo su un dado di danno, lanciate un dado aggiuntivo per calcolare il totale. Questo effetto può attivarsi ripetutamente.",
+      "atkName": "Attacco"
+    },
+    "Offhand Brass Knuckles": {
+      "name": "Tirapugni d’Ottone Secondario",
+      "description": "Accoppiato: +2 al danno dell’arma primaria contro bersagli entro distanza di Mischia",
+      "atkName": "Attacco",
+      "effects": {
+        "I3wflHo4lw4LE4Gu": {
+          "name": "Accoppiato",
+          "description": "+2 al danno dell’arma primaria contro bersagli entro distanza di Mischia"
+        }
+      }
+    },
     "Parrying Dagger": {
       "name": "Pugnale da Parata",
       "description": "Parata: Quando venite attaccati, tirate i dadi di danno. Se uno dei dadi di danno dell’attaccante ha lo stesso valore di uno dei vostri, i risultati corrispondenti vengono scartati dai dadi di danno dell’attaccante prima di calcolare il danno subito.",
@@ -1505,6 +2342,11 @@
           "description": "Quando venite attaccati, tirate i dadi di danno. Se uno dei dadi di danno dell’attaccante ha lo stesso valore di uno dei vostri, i risultati corrispondenti vengono scartati dai dadi di danno dell’attaccante prima di calcolare il danno subito."
         }
       }
+    },
+    "Platinum Estoc": {
+      "name": "Stocco di Platino",
+      "description": "Perforante: La soglia di danno Maggiore del bersaglio diminuisce di 2 contro quest’arma.",
+      "atkName": "Attacco"
     },
     "Powered Gauntlet": {
       "name": "Guanto del Potere",
@@ -1547,6 +2389,23 @@
         "ojcL8L3CFPDGaki6": {
           "name": "Rapido",
           "description": "Quando effettuate un attacco, potete marcare uno Stress per attaccare un’altra creatura entro portata."
+        }
+      }
+    },
+    "Razor Wire": {
+      "name": "Filo del Rasoio",
+      "description": "Laccio: Dopo un attacco riuscito dell’arma primaria verso un bersaglio entro distanza Prossima, potete spendere una Speranza per renderlo temporaneamente Vulnerabile.",
+      "atkName": "Attacco",
+      "effects": {
+        "HzbHFY6UixXLRSNu": {
+          "name": "Laccio",
+          "description": ""
+        }
+      },
+      "actions": {
+        "WEj9asBFTeuvpcgu": {
+          "name": "Laccio",
+          "description": "Dopo un attacco riuscito dell’arma primaria verso un bersaglio entro distanza Prossima, potete spendere una Speranza per renderlo temporaneamente Vulnerabile."
         }
       }
     },
@@ -1594,6 +2453,39 @@
         }
       }
     },
+    "Rime Scepter": {
+      "name": "Scettro della Brina",
+      "description": "Congelante: Un bersaglio che subisce 2 o più Punti Ferita da quest’arma diventa temporaneamente Trattenuto.",
+      "atkName": "Attacco",
+      "effects": {
+        "2iYaP8XdKTfwBw6A": {
+          "name": "Congelante",
+          "description": ""
+        }
+      },
+      "actions": {
+        "LYqVHYFcuJlf6omC": {
+          "name": "Congelante",
+          "description": "Un bersaglio che subisce 2 o più Punti Ferita da quest’arma diventa temporaneamente Trattenuto."
+        }
+      }
+    },
+    "Rocket Maul": {
+      "name": "Maglio a Razzo",
+      "description": "Concussivo: Dopo un attacco riuscito, potete spendere una Speranza per spingere indietro il bersaglio fino a distanza Lontana.",
+      "atkName": "Attacco",
+      "actions": {
+        "xd2N3IRFkGcy9byh": {
+          "name": "Concussivo",
+          "description": "Dopo un attacco riuscito, potete spendere una Speranza per spingere indietro il bersaglio fino a distanza Lontana."
+        }
+      }
+    },
+    "Rope Dart": {
+      "name": "Dardo di Corda",
+      "description": "",
+      "atkName": "Attacco"
+    },
     "Round Shield": {
       "name": "Scudo Rotella",
       "description": "Protettore: +1 al Punteggio di Armatura",
@@ -1602,6 +2494,28 @@
         "eV4lFIpQMiKERj4U": {
           "name": "Protettore",
           "description": "<p>+1 al Punteggio di Armatura</p>"
+        }
+      }
+    },
+    "Rune Shield": {
+      "name": "Scudo Runico",
+      "description": "Protettore: +1 al punteggio di Armatura",
+      "atkName": "Attacco",
+      "effects": {
+        "fvnsHVPTnaKhNLjH": {
+          "name": "Protettore",
+          "description": "+1 al punteggio di Armatura"
+        }
+      }
+    },
+    "Runelock Pistol": {
+      "name": "Pistola Runica",
+      "description": "Ricarica: Dopo aver effettuato un attacco, tirate un d6. Se ottenete 1, dovete marcare uno Stress per ricaricare quest’arma prima di poter sparare nuovamente.",
+      "atkName": "Attacco",
+      "actions": {
+        "BSjjwnxjP7knntm9": {
+          "name": "Ricarica",
+          "description": "Dopo aver effettuato un attacco, tirate un d6. Se ottenete 1, dovete marcare uno Stress per ricaricare quest’arma prima di poter sparare nuovamente."
         }
       }
     },
@@ -1638,6 +2552,48 @@
         }
       }
     },
+    "Scimitar": {
+      "name": "Scimitarra",
+      "description": "",
+      "atkName": "Attacco"
+    },
+    "Segmented Staff": {
+      "name": "Bastone Snodato",
+      "description": "Doppia Funzione: +1 al Punteggio di Armatura; +1 al danno dell’arma primaria contro bersagli a distanza di Mischia",
+      "atkName": "Attacco",
+      "effects": {
+        "DQ783nkboRdHiAdK": {
+          "name": "Doppia Funzione",
+          "description": "+1 al Punteggio di Armatura; +1 al danno dell’arma primaria contro bersagli a distanza di Mischia"
+        },
+        "iNCNhj2WdjpeJ0WX": {
+          "name": "Doppia Funzione",
+          "description": "+1 al Punteggio di Armatura; +1 al danno dell’arma primaria contro bersagli a distanza di Mischia"
+        }
+      }
+    },
+    "Severed Dragon Claw": {
+      "name": "Artiglio del Drago",
+      "description": "Distruttivo: −1 all’Agilità. Dopo un attacco riuscito, tutti gli avversari entro distanza Prossima devono marcare uno Stress.",
+      "atkName": "Attacco",
+      "effects": {
+        "vQJCrV4wxxhGUcBX": {
+          "name": "Distruttivo",
+          "description": "−1 all’Agilità."
+        }
+      },
+      "actions": {
+        "bWNQYdjog9uNuNfL": {
+          "name": "Distruttivo",
+          "description": "Dopo un attacco riuscito, tutti gli avversari entro distanza Prossima devono marcare uno Stress."
+        }
+      }
+    },
+    "Shadowblade": {
+      "name": "Lama dell’Ombra",
+      "description": "Ultraterrena: In caso di attacco riuscito, potete infliggere danni fisici o magici",
+      "atkName": "Attacco"
+    },
     "Shortbow": {
       "name": "Arco Corto",
       "description": "",
@@ -1656,6 +2612,17 @@
         "djNtNpasgNDRP8Dd": {
           "name": "Accoppiata",
           "description": "<p>+2 al danno dell’arma primaria contro bersagli entro distanza di Mischia.</p>"
+        }
+      }
+    },
+    "Singing Sword": {
+      "name": "Spada Canterina",
+      "description": "Incoraggiare: Quando ottenete un successo critico in un attacco, tutti i PG entro distanza Ravvicinata guadagnano una Speranza.",
+      "atkName": "Attacco",
+      "actions": {
+        "tD3OR33TwHpqDyGy": {
+          "name": "Incoraggiare",
+          "description": "Quando ottenete un successo critico in un attacco, tutti i PG entro distanza Ravvicinata guadagnano una Speranza."
         }
       }
     },
@@ -1698,9 +2665,36 @@
         }
       }
     },
+    "Soldier's Pike": {
+      "name": "Picca del Soldato",
+      "description": "Preparata: Quando subite danno da un avversario entro la portata di quest’arma, potete marcare 2 Stress per infliggergli 1 Punto Ferita.",
+      "atkName": "Attacco",
+      "actions": {
+        "Y5HGiYOQ5Nd3W4zo": {
+          "name": "Preparata",
+          "description": "Quando subite danno da un avversario entro la portata di quest’arma, potete marcare 2 Stress per infliggergli 1 Punto Ferita."
+        }
+      }
+    },
+    "Soul Chain": {
+      "name": "Catena dell’Anima",
+      "description": "Prosciugatrice: Dopo un attacco riuscito, potete spendere una Speranza per costringere il bersaglio a marcare uno Stress. Se lo fa, rimuovete uno Stress.",
+      "atkName": "Attacco",
+      "actions": {
+        "cGTB3G8sp5XZhucX": {
+          "name": "Prosciugatrice",
+          "description": "Dopo un attacco riuscito, potete spendere una Speranza per costringere il bersaglio a marcare uno Stress. Se lo fa, rimuovete uno Stress."
+        }
+      }
+    },
     "Spear": {
       "name": "Lancia",
       "description": "Ingombrante: −1 all’Astuzia",
+      "atkName": "Attacco"
+    },
+    "Spellbound Bangles": {
+      "name": "Braccialetti Stregati",
+      "description": "",
       "atkName": "Attacco"
     },
     "Spiked Bow": {
@@ -1729,6 +2723,39 @@
         }
       }
     },
+    "Splintershaft Bow": {
+      "name": "Arco di Schegge",
+      "description": "Salva di Frecce: Spendete una Speranza per bersagliare un gruppo di creature entro portata. I bersagli colpiti subiscono metà dei danni.",
+      "atkName": "Attacco"
+    },
+    "Staff of Augma": {
+      "name": "Bastone di Augma",
+      "description": "Catalizzatore: Dopo un attacco riuscito, potete marcare uno Stress per assegnare a un alleato entro distanza Ravvicinata un bonus di +3 al prossimo tiro attacco.",
+      "atkName": "Attacco",
+      "effects": {
+        "Nqr49MytiiDO6mRq": {
+          "name": "Catalizzatore",
+          "description": "Dopo un attacco riuscito, potete marcare uno Stress per assegnare a un alleato entro distanza Ravvicinata un bonus di +3 al prossimo tiro attacco."
+        }
+      },
+      "actions": {
+        "fdXtuFA7Sy6r2GOw": {
+          "name": "Catalizzatore",
+          "description": "Dopo un attacco riuscito, potete marcare uno Stress per assegnare a un alleato entro distanza Ravvicinata un bonus di +3 al prossimo tiro attacco."
+        }
+      }
+    },
+    "Starmetal Blade": {
+      "name": "Lama di Metallo Stellare",
+      "description": "Seghettata: Quando ottenete 1 sul dado di danno, consideratelo come un 8.",
+      "atkName": "Attacco",
+      "effects": {
+        "l3sq4oU9PFSf3voP": {
+          "name": "Seghettata",
+          "description": "Quando ottenete 1 sul dado di danno, consideratelo come un 8."
+        }
+      }
+    },
     "Steelforged Halberd": {
       "name": "Alabarda d’Acciaio",
       "description": "Spaventosa: Se l’attacco ha successo, il bersaglio deve marcare uno Stress.",
@@ -1737,6 +2764,17 @@
         "XJS4UHwz3j41g9Fc": {
           "name": "Spaventosa",
           "description": "Se l’attacco ha successo, il bersaglio deve marcare uno Stress."
+        }
+      }
+    },
+    "Storm God's Greataxe": {
+      "name": "Ascia Bipenne del Dio delle Tempeste",
+      "description": "Rimbalzo: Marcate 1 o più punti Stress per colpire altrettanti bersagli entro portata.",
+      "atkName": "Attacco",
+      "actions": {
+        "go6bchi8pFs20jTQ": {
+          "name": "Rimbalzo",
+          "description": "Marcate 1 o più punti Stress per colpire altrettanti bersagli entro portata."
         }
       }
     },
@@ -1784,6 +2822,22 @@
         }
       }
     },
+    "Throwing Knives": {
+      "name": "Coltelli da Lancio",
+      "description": "A Volontà: Potete lanciare un coltello a un bersaglio entro distanza Ravvicinata con un tiro attacco di Astuzia senza doverlo recuperare; ne avete sempre un altro a disposizione.",
+      "atkName": "Attacco"
+    },
+    "Tinker's Hammer": {
+      "name": "Martello dell’Inventore",
+      "description": "Fidato: +1 ai tiri attacco dell’arma primaria",
+      "atkName": "Attacco",
+      "effects": {
+        "RuT7WwcbaHVqK6it": {
+          "name": "Fidato",
+          "description": "+1 ai tiri attacco dell’arma primaria"
+        }
+      }
+    },
     "Tower Shield": {
       "name": "Scudo Torre",
       "description": "Barriera: +2 al Punteggio di Armatura; −1 all’Evasione.",
@@ -1799,6 +2853,11 @@
         }
       }
     },
+    "Twisted Dagger": {
+      "name": "Pugnale Ritorto",
+      "description": "Perforante: La soglia di danno Maggiore del bersaglio diminuisce di 2 contro quest’arma.",
+      "atkName": "Attacco"
+    },
     "Urok Broadsword": {
       "name": "Spada Urok",
       "description": "Letale: Quando infliggete danno Grave, il bersaglio subisce un PF aggiuntivo.",
@@ -1807,6 +2866,22 @@
         "mig52M2Mp3JDmH2p": {
           "name": "Letale",
           "description": "Quando infliggete danno Grave, il bersaglio subisce un PF aggiuntivo."
+        }
+      }
+    },
+    "Void Needle": {
+      "name": "Ago del Vuoto",
+      "description": "Al Contrario: Quando con l’arma effettuate un tiro attacco con Paura, guadagnate una Speranza.",
+      "atkName": "Attacco"
+    },
+    "Vorpal Shard": {
+      "name": "Scheggia Vorpal",
+      "description": "Bersaglio Designato: Quando fallite un tiro attacco con un’arma, potete spendere una Speranza per riuscire automaticamente al prossimo attacco con un’arma.",
+      "atkName": "Attacco",
+      "actions": {
+        "lwtLR9xWsREAonue": {
+          "name": "Bersaglio Designato",
+          "description": "Quando fallite un tiro attacco con un’arma, potete spendere una Speranza per riuscire automaticamente al prossimo attacco con un’arma."
         }
       }
     },
@@ -1842,6 +2917,22 @@
         }
       }
     },
+    "War Dart": {
+      "name": "Dardo da Guerra",
+      "description": "Versatile: Quest’arma può essere usata anche con queste statistiche — Agilità, Mischia, d8+5.",
+      "atkName": "Attacco"
+    },
+    "War Pick": {
+      "name": "Piccone d’Arme",
+      "description": "Letale: Quando infliggete danno Grave, il bersaglio subisce un PF aggiuntivo.",
+      "atkName": "Attacco",
+      "actions": {
+        "cLnI9hFkRUgW3VlN": {
+          "name": "Letale",
+          "description": "Quando infliggete danno Grave, il bersaglio subisce un PF aggiuntivo."
+        }
+      }
+    },
     "War Scythe": {
       "name": "Falce da Guerra",
       "description": "Affidabile: +1 ai tiri attacco",
@@ -1874,6 +2965,11 @@
           "description": "Marcate uno Stress per schioccare la frusta e costringere tutti gli avversari in Mischia ad allontanarsi a distanza Ravvicinata."
         }
       }
+    },
+    "Whipsword": {
+      "name": "Spada a Frusta",
+      "description": "Versatile: Quest’arma può essere utilizzata anche con le seguenti statistiche — Astuzia, Mischia, d10.",
+      "atkName": "Attacco"
     },
     "Widogast Pendant": {
       "name": "Pendente di Widogast",
