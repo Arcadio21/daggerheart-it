@@ -2,7 +2,7 @@
   "id": "daggerheart-it",
   "title": "Daggerheart - Italiano - non ufficiale",
   "description": "<p>Questo modulo fornisce una traduzione (non ufficiale) del sistema e dei compendi di Daggerheart Foundryborne.<br>È realizzata dai fan e utilizza il modulo Babele.</p>",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "url": "https://github.com/Arcadio21/daggerheart-it",
   "manifest": "https://raw.githubusercontent.com/Arcadio21/daggerheart-it/main/module.json",
   "download": "https://codeload.github.com/Arcadio21/daggerheart-it/zip/main",
