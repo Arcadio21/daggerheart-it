@@ -1,0 +1,9 @@
+@layer system {
+    .application.sheet.dh-style .character-sidebar-sheet .info-section .status-section .status-number .status-label h4 {
+        font-size: 11px;
+    }
+
+    .application.sheet.dh-style .character-sidebar-sheet .threshold-section .threshold-label {
+        font-size: 11px;
+    }
+}
